@@ -9,21 +9,22 @@
       "slug": "bay",
       "company": "Bay",
       "domain": "bay.io",
-      "stage": "draft_v2_in_gmail_for_review",
+      "stage": "draft_v3_in_gmail_for_review",
       "ask_track": "role",
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
       "next": "sponsor reviews draft v0 in Gmail and finalises pitch.md; then a v1 draft addressed to yuval@bay.io for approval",
       "cohort_id": "pilot-1",
-      "gmail_draft_id": "r2555942432531902109",
+      "gmail_draft_id": "r-3430667485240077676",
       "contacts": {
         "primary": "yuval@bay.io (verified)",
         "backup": "aner@bay.io (not yet verified)"
       },
       "superseded_drafts": [
-        "r-2394933726120547344 (v0, deleted)",
-        "r6637960518996457195 (v1, still in Gmail)"
+        "v0 deleted",
+        "v1 deleted",
+        "r2555942432531902109 (v2, still in Gmail)"
       ]
     }
   ],
