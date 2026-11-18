@@ -1,0 +1,5 @@
+{
+  "schema": "add-vee-runs/campaign-state v0 (draft, finalised when the campaign manager is built)",
+  "settings": {"max_concurrent_company_sessions": 1, "weekly_target_companies": 5},
+  "prospects": []
+}
