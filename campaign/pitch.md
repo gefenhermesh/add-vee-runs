@@ -17,6 +17,23 @@ Everything in [square brackets] needs the sponsor's real details. The voice samp
 - **Sign-off:** "Best, Gefen".
 - The offer lines (section 2.5) and any role/engagement conversation come **later**: in a reply, the follow-up, or the call. Never in email 1.
 
+## 0b. The opening: a warm, specific start for every email (sponsor, 2026-11-18)
+
+"I came across X while looking into Israeli startups" is used up: not personal, not warm. Every email opens with **two short lines**:
+
+1. **A warm, specific line about them**, true and sourced, one concrete detail. In order of preference:
+   - **Congratulate a recent milestone, with the detail that makes it impressive** (launch, round, big customer, product release, award). Bay: "Congrats on coming out of stealth last week. Nine months from founding to $50M, with Micron, Wix and ClickUp already on board, is quite a start."
+   - **Something the recipient said or wrote**, with an honest one-line reaction (a post, an interview, a talk). Quote or paraphrase exactly; no forced parallels.
+   - **Real shared ground:** a mutual connection, the same past company or community, a market the sponsor knows from the inside.
+2. **A natural bridge** to why the sponsor looked at their AI visibility, tied to that same moment. Bay: "Launch weeks are usually when buyers first ask ChatGPT and Gemini about a new name, so I was curious what they're hearing about Bay." Other bridges by situation: a new round ("a round like this usually means a bigger pipeline push, and more buyers starting their research in ChatGPT"); a new hire ("a new marketing lead usually means rethinking where buyers find you"); a launch ("new products are where AI answers lag furthest behind").
+
+Then "I'm Gefen Hermesh…" (2.1). Rules: true and sourced (the source goes in `outreach_brief.json`), no flattery adjectives beyond one plain "quite a start" level, no dramatic parallels, and it must fail the "could this go to any other company?" test.
+
+## 0c. Screenshots for email 1 (sponsor, 2026-11-18)
+1. **Findings:** the Action Plan's whole "What the audit found" block (stat cards, presence scorecard with its bars, the diagnosis tiles), for colour and the data at a glance. Then one short paragraph naming 2-3 findings in words.
+2. **Recommendations:** the primary off-page moves only (cropped).
+3. **A peek at the content plan:** the heading plus the first ~5 clusters, collapsed. The text names the cluster count and that they're built around the buyers' real questions.
+
 ---
 
 ## 1. The message: what every email sequence has to get across
@@ -35,8 +52,8 @@ C is also the strongest argument for hiring the sponsor rather than buying a too
 
 ## 2. Fixed text
 
-### 2.1 Who I am (2-3 lines)
-> I'm [name]. [One line of real background: years in SEO/growth, the kind of companies, one concrete result.] For the past [time] I've been building a research system for how AI assistants talk about B2B companies to their buyers.
+### 2.1 Who I am (sponsor, 2026-11-18)
+> I'm Gefen Hermesh, an SEO with over nine years in B2B startups. Lately I've been building a research system that uses AI agents to study how companies appear in AI search.
 
 ### 2.2 Idea A: the method (sponsor's own text, 2026-11-18)
 
