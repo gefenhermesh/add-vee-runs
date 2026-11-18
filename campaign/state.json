@@ -9,13 +9,18 @@
       "slug": "bay",
       "company": "Bay",
       "domain": "bay.io",
-      "stage": "outreach_drafting",
+      "stage": "draft_v0_in_gmail_for_review",
       "ask_track": "role",
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
-      "next": "sponsor finalises pitch.md; verify emails; then draft into Gmail for approval",
-      "cohort_id": "pilot-1"
+      "next": "sponsor reviews draft v0 in Gmail (addressed to the sponsor, not Bay); sponsor finalises pitch.md; verify Bay emails; then a v1 draft addressed to Bay for approval",
+      "cohort_id": "pilot-1",
+      "gmail_draft_id": "r-2394933726120547344"
     }
-  ]
+  ],
+  "rules": {
+    "gate_1_2": "Company sessions stop at Gate 1-2 until the sponsor approves in that session; the campaign manager notifies the sponsor and resumes the session after approval (sponsor, 2026-11-18).",
+    "sending": "Drafts only. Nothing is ever sent automatically; the sponsor approves and sends every email."
+  }
 }
