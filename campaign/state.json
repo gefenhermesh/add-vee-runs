@@ -14,9 +14,13 @@
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
-      "next": "sponsor reviews draft v0 in Gmail (addressed to the sponsor, not Bay); sponsor finalises pitch.md; verify Bay emails; then a v1 draft addressed to Bay for approval",
+      "next": "sponsor reviews draft v0 in Gmail and finalises pitch.md; then a v1 draft addressed to yuval@bay.io for approval",
       "cohort_id": "pilot-1",
-      "gmail_draft_id": "r-2394933726120547344"
+      "gmail_draft_id": "r-2394933726120547344",
+      "contacts": {
+        "primary": "yuval@bay.io (verified)",
+        "backup": "aner@bay.io (not yet verified)"
+      }
     }
   ],
   "rules": {

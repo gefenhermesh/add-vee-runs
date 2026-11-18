@@ -46,7 +46,7 @@
       "pronoun_note": "Calcalist and YL Ventures refer to the CEO as 'she'; some English coverage wrongly says 'he'. Avoid pronouns in writing.",
       "linkedin": "not confirmed (search via LinkedIn)",
       "email": "yuval@bay.io",
-      "email_status": "FOUND, NOT MAILBOX-VERIFIED. Evidence: (1) a third-party prospecting page indexed by Google (titled \"LinkedIn | Fortune CISO Intelligence\", host transportease.com) lists yuval@bay.io for Bay and aner@bay.io for Aner Morag, Co-founder & CPO, which is a consistent first-name@bay.io pattern; (2) bay.io mail is Google Workspace (MX smtp.google.com), where first@ is the common default. Could not verify the mailbox: outbound SMTP port 25 is blocked from the cloud session. Verify with a free verifier (e.g. Hunter) before sending.",
+      "email_status": "VERIFIED valid by the sponsor with Hunter (2026-11-18). Originally found on a third-party prospecting page; pattern first@bay.io.",
       "email_found": "2026-11-18"
     },
     {
@@ -55,7 +55,8 @@
       "why": "Owns the product pages and positioning, where most fixes land (capabilities stated on the wrong page, coverage descriptions)",
       "linkedin": "not confirmed",
       "email": "aner@bay.io",
-      "email_status": "found on the same third-party page; not verified"
+      "email_status": "found (same third-party page, same first@bay.io pattern as the verified yuval@bay.io); not separately verified, so verify before sending",
+      "role_in_sequence": "backup contact: follow-up 2 (second buying-committee member), or the first contact if Yuval bounces or is out"
     }
   ],
   "company_linkedin": "https://www.linkedin.com/company/bay-security/",

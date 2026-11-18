@@ -4,29 +4,68 @@
   "add_vee_output": "gefenhermesh/add-vee, branch master, output/bay/",
   "action_plan_url": "https://claude.ai/artifact/PwYYiAgMspnSb1D4esrf4J",
   "situation": "stealth_exit",
-  "situation_evidence": ["Out of stealth 10 Nov 2026 with $50M (research.json dossier; Calcalist)", "No G2 listing, no analyst coverage, launch-era blog only (Bay research story S2, C2)"],
+  "situation_evidence": [
+    "Out of stealth 10 Nov 2026 with $50M (research.json dossier; Calcalist)",
+    "No G2 listing, no analyst coverage, launch-era blog only (Bay research story S2, C2)"
+  ],
   "finding_pattern": "absent + misrepresented (name confusion, facts on the wrong page); wins comparisons when they happen",
-  "finding_pattern_claim_ids": ["C-012", "C-150", "C-154", "C-111", "C-102"],
+  "finding_pattern_claim_ids": [
+    "C-012",
+    "C-150",
+    "C-154",
+    "C-111",
+    "C-102"
+  ],
   "results_vs_situation": "Agree: a one-week-old company that's nearly absent and often confused with At-Bay. Not 'losing on product': Bay wins 60% of head-to-heads that evaluate it.",
   "angle": "AI assistants aren't against Bay. Like the coding agent in Bay's founding story, they finish the task with what they can find, and right now that's At-Bay's SOC 2 and the wrong page.",
-  "lead_claim_ids": ["C-154", "C-150", "C-012", "C-102"],
+  "lead_claim_ids": [
+    "C-154",
+    "C-150",
+    "C-012",
+    "C-102"
+  ],
   "lead_figures": {
     "C-154": "Asked whether Bay is SOC 2 and ISO 27001 certified, Google AI Mode and Gemini answer about At-Bay, the cyber insurer",
     "C-150": "Bay recognised as the AI agent security company in 63.6% of answers to questions that name it; Gemini 30.6%",
     "C-012": "Named in 5 of 246 unprompted category answers (2.0%), all on ChatGPT",
     "C-102": "Wins 15 of 25 head-to-heads that evaluate it (60%); 9 of the 10 non-wins rest on a wrong statement about Bay"
   },
-  "screenshot_sections": {"email_1": "#diagnosisTiles", "followup_1": ".beyond (off-page moves)"},
+  "screenshot_sections": {
+    "email_1": "#diagnosisTiles",
+    "followup_1": ".beyond (off-page moves)"
+  },
   "team_recos": {
     "_note": "owner_team mapped by hand here; the pipeline doesn't tag owner_team yet",
-    "product_marketing / web": {"claim": "C-190", "line": "State each capability on the pages AI already cites, plus one plain facts page. Today every capability denial that cites bay.io cites a page that doesn't state the fact."},
-    "security_trust / GRC": {"claim": "C-154", "line": "A public trust page with the SOC 2 report type and how to get it, so a vendor-risk reviewer stops getting At-Bay's."},
-    "customer_marketing": {"claim": "C-201", "line": "Put Micron's 150,000-endpoint rollout into a story Micron or a publication signs."},
-    "pr_analyst_relations": {"claim": "C-199", "line": "Brief Gartner and Latio before their next cycle; gartner.com is already cited on unprompted answers in this category."},
-    "partnerships / marketplaces": {"claim": "C-197", "line": "Retitle the AWS Marketplace listing and fix the directories still filing Bay as endpoint-only."}
+    "product_marketing / web": {
+      "claim": "C-190",
+      "line": "State each capability on the pages AI already cites, plus one plain facts page. Today every capability denial that cites bay.io cites a page that doesn't state the fact."
+    },
+    "security_trust / GRC": {
+      "claim": "C-154",
+      "line": "A public trust page with the SOC 2 report type and how to get it, so a vendor-risk reviewer stops getting At-Bay's."
+    },
+    "customer_marketing": {
+      "claim": "C-201",
+      "line": "Put Micron's 150,000-endpoint rollout into a story Micron or a publication signs."
+    },
+    "pr_analyst_relations": {
+      "claim": "C-199",
+      "line": "Brief Gartner and Latio before their next cycle; gartner.com is already cited on unprompted answers in this category."
+    },
+    "partnerships / marketplaces": {
+      "claim": "C-197",
+      "line": "Retitle the AWS Marketplace listing and fix the directories still filing Bay as endpoint-only."
+    }
   },
   "ask_track": "role",
-  "contacts_order": ["Yuval Zacharia (CEO): email 1 + follow-up 1", "Aner Morag (CPO): follow-up 2"],
-  "blocking_before_send": ["pitch.md final (sponsor)", "verified email addresses", "sponsor approval of the exact text"],
+  "contacts_order": [
+    "Yuval Zacharia (CEO), yuval@bay.io, verified: email 1 + follow-up 1",
+    "Aner Morag (CPO), aner@bay.io, backup: follow-up 2 (verify first)"
+  ],
+  "blocking_before_send": [
+    "pitch.md final (sponsor)",
+    "sponsor approval of the exact text",
+    "verify aner@bay.io before follow-up 2"
+  ],
   "rationale_for_sponsor": "Bay is a week out of stealth, so the honest story isn't 'you're losing', it's 'the AI doesn't know you yet, and where it guesses, it guesses wrong'. Their own founding story is the same pattern from the other side, which gives a real, specific opener that isn't flattery. They're hiring fast and plan to build marketing in the US and Europe with no marketing lead visible yet: a natural fit for the role track."
 }
