@@ -6,6 +6,19 @@ Everything in [square brackets] needs the sponsor's real details. The voice samp
 
 ---
 
+## 0. Sponsor's direction for email 1 (2026-11-18, after rejecting draft v0). Overrides anything below that conflicts
+
+- **Voice:** the sponsor's own message to Onyx (voice sample 1 below): plain, honest, curious, first person. "I'm Gefen." No clever hooks.
+- **Intro:** say simply how the sponsor came across the company. No dramatic parallels or founding-story hooks; they read as forced. A real personal detail is fine only if it's simple and true.
+- **Body:** focused on **the system, the findings, the report and the recommendations**. Short.
+- **Visual:** two screenshots from the company's Action Plan, one for findings ("The diagnosis") and one for recommendations (e.g. the primary off-page moves, cropped). Each gets one short paragraph in words.
+- **Don't open all the cards:** show a few findings and a few recommendations, not everything.
+- **No ask for a role or work in email 1.** It reads as trying to get in. The only next step is a soft offer: "The full report goes much deeper... Happy to send it over if it's useful."
+- **Sign-off:** "Best, Gefen".
+- The offer lines (section 2.5) and any role/engagement conversation come **later**: in a reply, the follow-up, or the call. Never in email 1.
+
+---
+
 ## 1. The message: what every email sequence has to get across
 
 Three ideas, each used in a specific place in the sequence:
@@ -75,9 +88,34 @@ C is also the strongest argument for hiring the sponsor rather than buying a too
 
 ---
 
-## 4. Voice samples (the sponsor pastes these)
-Paste 2-3 things the sponsor really wrote: emails, LinkedIn posts, or messages to a colleague, in the register the outreach should use. The company session matches the opener and slot text to their sentence length, words and tone.
+## 4. Voice samples
 
-1. [paste]
+1. **The sponsor's LinkedIn message to Mark at Onyx** (the reference for tone; email 1 should be shorter and more visual):
+
+> A GEO research project I ran on Onyx
+>
+> Hi Mark,
+>
+> I'm Gefen. I came across Onyx while looking into Israeli cybersecurity companies, and got curious about what you're building.
+>
+> I've been working on a project that uses AI agents to research how companies appear across AI search platforms. It runs real buyer questions across ChatGPT, Gemini, Copilot and Google AI Mode, logged out, and looks at which companies get mentioned, how they're positioned, which sources get cited and where the visibility gaps are.
+>
+> I wanted to try it on a real company, and Onyx was one of the first I chose.
+>
+> One of the things I looked at was how often Onyx comes up as the first recommendation in AI-generated answers. Across 64 conversations, it hasn't happened yet.
+>
+> It's worth mentioning that this was the first full run on Onyx. I'm still fine-tuning the prompt set and other parts of the process, so I expect further iterations to produce better coverage and more useful results. Still, I thought the initial findings were interesting enough to share.
+>
+> I put together a summary of the research and a content plan based on it here: [link]
+>
+> The underlying research is much deeper than what's presented here. The summary covers the main findings, competitor comparisons and content opportunities, while the full research goes into the conversations, sources and reasoning behind them in much more detail.
+>
+> I'd genuinely be interested to hear what you think, whether the findings match what you're seeing and what you make of the recommendations.
+>
+> Happy to go through any time and hear your feedback.
+>
+> Best,
+> Gefen
+
 2. [paste]
 3. [paste]
