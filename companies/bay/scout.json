@@ -1,0 +1,28 @@
+{
+  "company": "Bay",
+  "domain": "bay.io",
+  "scouted": "2026-11-18",
+  "source_of_lead": "sponsor (audit already run)",
+  "fit": {
+    "b2b_saas_sales_led": {"value": true, "evidence": "Enterprise AI-agent security platform, demo-only CTA, AWS Marketplace listing", "source": "https://bay.io ; output/bay/research.json dossier"},
+    "stage": {"value": "Seed + Series A, $50M total; out of stealth 10 Nov 2026; founded early 2026", "source": "https://www.calcalistech.com/ctechnews/article/bjx11v5x0gx ; https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures"},
+    "size": {"value": "about 35 employees, mostly Israel", "source": "https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures (citing Globes)"},
+    "growth_and_hiring": {"value": "9 open roles posted 16 Nov 2026 (6 sales: AE, BDRs, SEs in US/EMEA; 3 R&D/research); stated plan to build sales, marketing and customer teams in the US and Europe; CEO relocating to the US", "source": "https://api.ashbyhq.com/posting-api/job-board/bay ; Calcalist"},
+    "marketing_team": {"value": "no marketing lead found publicly; no marketing roles posted yet", "source": "web search, bay.io/about, Ashby board", "note": "Either not hired yet or not public. A real opening for the role track, but there's no marketing person to address yet."},
+    "seo_geo_maturity": {"value": "low: 1 of 13 citation content types on site, no docs/pricing/case studies, blog has two launch posts", "source": "output/bay/content_inventory.json (C2 in Bay research story)"},
+    "category_competition": {"value": "crowded; Zenity, Noma, Prisma AIRS, Straiker, Harmonic named in AI answers", "source": "output/bay claims C-007, C-185"}
+  },
+  "situation": "stealth_exit",
+  "ask_track": "role",
+  "ask_track_reason": "Growing fast ($50M, 9 roles, US/EU go-to-market build-out, marketing explicitly planned) with no visible marketing function yet: the open-ended 'help build it, as a hire or a project' ask fits.",
+  "contacts": [
+    {"name": "Yuval Zacharia", "role": "Co-founder & CEO", "why": "At about 35 people the CEO owns go-to-market and the launch story; quoted in every launch article", "pronoun_note": "Calcalist and YL Ventures refer to the CEO as 'she'; some English coverage wrongly says 'he'. Avoid pronouns in writing.", "linkedin": "not confirmed (search via LinkedIn)", "email": null, "email_status": "not found. bay.io only publishes role addresses (legal@, privacy@, security@). Personal pattern unknown; verify a candidate (e.g. yuval@bay.io) with a verifier before sending"},
+    {"name": "Aner Morag", "role": "Co-founder & CPO", "why": "Owns the product pages and positioning, where most fixes land (capabilities stated on the wrong page, coverage descriptions)", "linkedin": "not confirmed", "email": null, "email_status": "same as above"}
+  ],
+  "company_linkedin": "https://www.linkedin.com/company/bay-security/",
+  "opener_material": [
+    {"what": "The founding story: one of the founders' coding agents tried to expose a cloud environment to the internet to finish a test. It wasn't hacked, it used permissions it legitimately held to reach a legitimate goal, in a dangerous way.", "sources": ["https://thenextweb.com/news/bay-50m-ai-agent-security-stealth-battery-ventures", "https://techstartups.com/2026/11/10/israeli-ai-security-startup-bay-emerges-from-stealth-with-50m-in-funding-to-stop-rogue-ai-agents-before-they-cause-damage/"], "date": "2026-11-10", "why_it_works": "It's the same shape as the audit's main finding: the AI assistants aren't against Bay, they complete the task with what they can find, and today that's At-Bay's SOC 2 and the wrong product page."},
+    {"what": "CEO quote: 'AI agents will do whatever it takes to successfully complete a task, even if the cost to the organization is significant.'", "sources": ["https://www.calcalistech.com/ctechnews/article/bjx11v5x0gx"], "date": "2026-11", "why_it_works": "Same parallel, in the CEO's own words."},
+    {"what": "CEO on military service: 'there was a strong emphasis on capability, the idea that anything is possible.'", "sources": ["https://www.calcalistech.com/ctechnews/article/bjx11v5x0gx"], "date": "2026-11", "why_it_works": "Personal, but a weaker link to the findings; backup only."}
+  ]
+}

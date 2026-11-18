@@ -1,5 +1,21 @@
 {
   "schema": "add-vee-runs/campaign-state v0 (draft, finalised when the campaign manager is built)",
-  "settings": {"max_concurrent_company_sessions": 1, "weekly_target_companies": 5},
-  "prospects": []
+  "settings": {
+    "max_concurrent_company_sessions": 1,
+    "weekly_target_companies": 5
+  },
+  "prospects": [
+    {
+      "slug": "bay",
+      "company": "Bay",
+      "domain": "bay.io",
+      "stage": "outreach_drafting",
+      "ask_track": "role",
+      "situation": "stealth_exit",
+      "audit": "done (add-vee master, output/bay)",
+      "company_session_id": null,
+      "next": "sponsor finalises pitch.md; verify emails; then draft into Gmail for approval",
+      "cohort_id": "pilot-1"
+    }
+  ]
 }
