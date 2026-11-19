@@ -34,7 +34,7 @@ Report each milestone with `status.py` (one line each, with a short `--note`):
    - image 2 is the content-plan heading (with the cluster/page counts) plus the first 3 clusters fading out, then the first 2 off-page moves fading out.
 
    Compress each to under ~180 KB and save them in `companies/<slug>/outreach/`.
-5. **Gmail draft** (Gmail connector): inline images, plain-text alternative. Address it to the contact **only if their email is verified**. Otherwise address it to the sponsor's own Gmail account (the account the connector is signed into) and say "address not verified" in the brief. Then `status.py <slug> done --draft-id <id>`.
+5. **Gmail draft** (Gmail connector, which must be signed in as **gefen@etico.cr**, the sending address. If it's signed in as another account, don't draft there; report `outreach --note "gmail connector not on gefen@etico.cr"`): inline images, plain-text alternative. Address it to the contact **only if their email is verified**. Otherwise address it to the sponsor's own Gmail account (the account the connector is signed into) and say "address not verified" in the brief. Then `status.py <slug> done --draft-id <id>`.
 6. Commit and push everything in `add-vee-runs`.
 
 If the Gmail connector isn't available in this session, stop at step 4, report `outreach` with `--note "gmail connector unavailable"`, and say so in your final message. The manager will tell the sponsor.
