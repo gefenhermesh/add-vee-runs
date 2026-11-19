@@ -9,14 +9,14 @@
       "slug": "bay",
       "company": "Bay",
       "domain": "bay.io",
-      "stage": "draft_v3_in_gmail_for_review",
+      "stage": "draft_v4_in_gmail_for_review",
       "ask_track": "role",
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
       "next": "sponsor reviews draft v0 in Gmail and finalises pitch.md; then a v1 draft addressed to yuval@bay.io for approval",
       "cohort_id": "pilot-1",
-      "gmail_draft_id": "r-3430667485240077676",
+      "gmail_draft_id": "r-3463966262483924157",
       "contacts": {
         "primary": "yuval@bay.io (verified)",
         "backup": "aner@bay.io (not yet verified)"
@@ -24,8 +24,10 @@
       "superseded_drafts": [
         "v0 deleted",
         "v1 deleted",
-        "r2555942432531902109 (v2, still in Gmail)"
-      ]
+        "r2555942432531902109 (v2, in Gmail)",
+        "r-3430667485240077676 (v3, in Gmail)"
+      ],
+      "note": "Bay Action Plan artifact not rebuilt with the new cluster-count subheader: builder refuses (analysis approval predates the reading-file hash rule); needs sponsor decision (override or reviewer re-confirm)."
     }
   ],
   "rules": {
