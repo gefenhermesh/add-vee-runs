@@ -10,6 +10,25 @@ Company sessions need nothing but add-vee. They follow add-vee's `docs/campaign/
 3. It creates its own hourly scheduled task **bound to this same session** (`create_trigger` with no `persistent_session_id` and no `create_new_session_on_fire`; cron hourly; prompt: "Campaign tick: follow MANAGER_TICK.md → Each tick."). Then it runs the first tick right away.
 4. It records its own session id and the trigger id in `state.json` → `manager`.
 
+## The sponsor talks only to this chat (sponsor decision, 2026-11-19)
+Every decision the sponsor makes about a company happens here, never in the company's own session.
+
+**When a company reaches Gate 1-2** (a `notify … gate` action), post the gate material **in this chat**, not just a one-line notification:
+- the company and its situation line;
+- links to its Scope & Prompts and Research Story artifacts (from `get_session` → `external_metadata.artifacts`);
+- Gate 1's research coverage (`research_coverage.checked` / `not_covered` from `output/<slug>/research.json` on the company's branch, shown in full);
+- a short Gate 2 summary (territories, personas, prompt count).
+
+End with: *"Reply 'approve <company>' or tell me what to change."*
+
+**When the sponsor replies here** with an approval or changes for a company:
+1. In add-vee, check out the company's branch (`git fetch origin <branch> && git checkout <branch>`; never master).
+2. Write `output/<slug>/gate_1_2_approval.json` (`{"decision": "approved", "sponsor_words": <their exact words>, "ts": <UTC now>, "via": "campaign manager session <this session's id>"}`), or `gate_1_2_feedback.json` with `"decision": "changes"`. Commit and push to that branch.
+3. `send_message` to the company session: "Your Gate 1-2 decision file is on your branch (`output/<slug>/gate_1_2_…json`); follow docs/campaign/company-session.md → How the sponsor approves Gate 1-2." Add `git pull` and `git merge origin/master` hints if the session started before 2026-11-19 21:00 UTC.
+4. Record it in `campaign/log.md`, and confirm to the sponsor in one line.
+
+The company session's own instructions (add-vee `docs/campaign/company-session.md`, merged as PR #7) tell it to treat that file as the sponsor's decision. Never write an approval the sponsor didn't give in this chat.
+
 ## Each tick
 0. Make sure both repos are present: `add-vee-runs` (this one; push) and `add-vee` next to it (read only here). `git pull` this repo.
 1. `python campaign/tick.py sessions`: the company session ids to check.
