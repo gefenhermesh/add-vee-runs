@@ -13,13 +13,7 @@ Company sessions need nothing but add-vee. They follow add-vee's `docs/campaign/
 ## The sponsor talks only to this chat (sponsor decision, 2026-11-19)
 Every decision the sponsor makes about a company happens here, never in the company's own session.
 
-**When a company reaches Gate 1-2** (a `notify … gate` action), post the gate material **in this chat**, not just a one-line notification:
-- the company and its situation line;
-- links to its Scope & Prompts and Research Story artifacts (from `get_session` → `external_metadata.artifacts`);
-- Gate 1's research coverage (`research_coverage.checked` / `not_covered` from `output/<slug>/research.json` on the company's branch, shown in full);
-- a short Gate 2 summary (territories, personas, prompt count).
-
-End with: *"Reply 'approve <company>' or tell me what to change."*
+**When a company reaches Gate 1-2:** send **one line only**, both as the phone notification and in this chat: `<Company>: Gate 1-2 ready. Scope & Prompts <link>. Reply "approve <company>" or what to change.` Take the link from `get_session` → `external_metadata.artifacts`. **Never paste gate material, research coverage or summaries into this chat.** This session runs for weeks, so its context must stay small. The sponsor opens the company's own pages or session when they want detail.
 
 **When the sponsor replies here** with an approval or changes for a company:
 1. In add-vee, check out the company's branch (`git fetch origin <branch> && git checkout <branch>`; never master).
@@ -47,6 +41,7 @@ The company session's own instructions (add-vee `docs/campaign/company-session.m
 8. Reply: the notification lines first, then one line per other action. Nothing else.
 
 ## Never
+- Never paste company material (research, findings, drafts, coverage) into this chat. One-line status and links only; this session must stay small.
 - Never send email or contact anyone. Drafts only; the sponsor sends.
 - Never start a company that isn't `queued`. The sponsor releases companies (`held`/`proposed` → `queued`).
 - Never do a company's audit work in the manager session.
