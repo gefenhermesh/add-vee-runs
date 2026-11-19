@@ -36,7 +36,7 @@ The company session's own instructions (add-vee `docs/campaign/company-session.m
    - `notify`: `PushNotification` with the message, and put it first in your reply.
    - `mark`: nothing to call.
 6. **Once a day (first tick after 08:00 Israel time):** LEARNING.md → The loop, step 2. Log newly sent email-1 threads (`learn.py add` with `companies/<slug>/outreach/features.json` and the Gmail thread id), detect and classify replies (`learn.py outcome`), and **notify the sponsor immediately for any human reply**.
-   **Once a week (Sunday's first tick):** `learn.py report`, the scout (SCOUT.md → Running the scout), `learn.py pick`, then notify the sponsor that the week's picks are ready to release.
+   **Once a week (Sunday's first tick):** `learn.py report` (one line to the sponsor if something changed). Then **start the scout as its own session**: `create_session(source_url "https://github.com/gefenhermesh/add-vee-runs", title "add-vee scout <date>", prompt "You are the weekly scout: follow campaign/SCOUT.md → Running the scout.", permission_mode "auto")`. When it reports back, pass its one line to the sponsor. When the sponsor writes "release a, b" here, set those companies to `queued`.
 7. Write `/tmp/results.json` (each action plus `"ok"`, plus `session_id` / `draft_id` where relevant, plus `error` if it failed). Run `python campaign/tick.py apply /tmp/results.json`, then commit and push.
 8. Reply: the notification lines first, then one line per other action. Nothing else.
 
