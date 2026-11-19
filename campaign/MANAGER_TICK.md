@@ -4,6 +4,12 @@
 
 Company sessions need nothing but add-vee. They follow add-vee's `docs/campaign/company-session.md` and save everything on their own branch.
 
+## Setup, once (in the new manager session)
+1. The sponsor opens a **new session from the Claude app** with both repos (`add-vee`, `add-vee-runs`) and writes: *"You are the add-vee campaign manager. Read add-vee-runs/campaign/MANAGER_TICK.md and set yourself up."*
+2. The manager checks it has `get_session`, `create_session`, `send_message`, Gmail (signed in as gefen@etico.cr) and `PushNotification`, and reports any that are missing.
+3. It creates its own hourly scheduled task **bound to this same session** (`create_trigger` with no `persistent_session_id` and no `create_new_session_on_fire`; cron hourly; prompt: "Campaign tick: follow MANAGER_TICK.md → Each tick."). Then it runs the first tick right away.
+4. It records its own session id and the trigger id in `state.json` → `manager`.
+
 ## Each tick
 0. Make sure both repos are present: `add-vee-runs` (this one; push) and `add-vee` next to it (read only here). `git pull` this repo.
 1. `python campaign/tick.py sessions`: the company session ids to check.
