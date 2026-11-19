@@ -88,10 +88,13 @@
     }
   ],
   "gating_check": {
-    "rating": "high gap, not ready (provisional)",
+    "rating": "usually too early (provisional); possible exception: fresh $50M round, fast hiring, sharp findings (At-Bay SOC 2, facts on the wrong page)",
     "status": "couldn't verify",
     "why": "No marketing leader found in public sources (bay.io/about lists founders only; no marketing roles on Ashby; news says marketing will be built in US/EU). Per the scout rules, absence of evidence is weak: People-tab check on the company LinkedIn page not done (no logged-in browser in the cloud session).",
     "implication": "If Bay truly has no marketing leader yet, the likely next hire is the leader, not SEO; the role track weakens and an audit/advisory angle fits better. Check the company People tab before sending.",
     "added": "2026-11-19"
-  }
+  },
+  "linkedin_checks_for_sponsor": [
+    "Bay company page (linkedin.com/company/bay-security) → People tab: anyone in marketing, growth or content? Any SEO person?"
+  ]
 }
