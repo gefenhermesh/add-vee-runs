@@ -95,6 +95,29 @@
     "added": "2026-11-19"
   },
   "linkedin_checks_for_sponsor": [
-    "Bay company page (linkedin.com/company/bay-security) → People tab: anyone in marketing, growth or content? Any SEO person?"
-  ]
+    "Optional: Bay company page → People tab (logged in), filter \"marketing\". The public check found no one, but it only shows 4 names."
+  ],
+  "linkedin_check": {
+    "date": "2026-11-19",
+    "method": "no footprint on the sponsor: public company page fetched via Bright Data + Google site:linkedin.com searches read from result titles only (no profile opened)",
+    "company_page": {
+      "source": "https://www.linkedin.com/company/bay-security/",
+      "size": "11-50 employees",
+      "hq": "New York, New York (LinkedIn); news says Tel Aviv, CEO relocating to the US",
+      "followers": "2,509",
+      "founded": "2026",
+      "employees_shown_publicly": [
+        "Yoav Leitersdorf (investor, YL Ventures)",
+        "Amit Daniel",
+        "Max Gazor (Striker Venture Partners, investor)",
+        "Hanan Levin"
+      ],
+      "note": "logged-out view shows only 4 names, without titles"
+    },
+    "marketing_people": {
+      "status": "couldn't verify",
+      "finding": "No marketing, growth, content or SEO person at Bay found in Google snippets of LinkedIn (6 queries). Results were dominated by At-Bay and Bay Alarm, the same name collision the audit found. One Bay employee surfaced (senior software engineer).",
+      "weight": "weak: absence of evidence, and the public view is limited"
+    }
+  }
 }
