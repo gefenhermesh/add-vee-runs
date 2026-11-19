@@ -1,8 +1,9 @@
 {
-  "schema": "add-vee-runs/campaign-state v0 (draft, finalised when the campaign manager is built)",
+  "schema": "add-vee-runs/campaign-state v1 (campaign/tick.py)",
   "settings": {
-    "max_concurrent_company_sessions": 1,
-    "weekly_target_companies": 5
+    "max_concurrent_running": 1,
+    "weekly_target_companies": 5,
+    "plan": "claude max (sponsor, 2026-11-19)"
   },
   "prospects": [
     {
@@ -27,11 +28,15 @@
         "r2555942432531902109 (v2, in Gmail)",
         "r-3430667485240077676 (v3, in Gmail)"
       ],
-      "note": "Bay Action Plan artifact not rebuilt with the new cluster-count subheader: builder refuses (analysis approval predates the reading-file hash rule); needs sponsor decision (override or reviewer re-confirm)."
+      "note": "Bay Action Plan artifact not rebuilt with the new cluster-count subheader: builder refuses (analysis approval predates the reading-file hash rule); needs sponsor decision (override or reviewer re-confirm).",
+      "status": "manual",
+      "status_note": "Bay was audited and drafted by hand before the manager existed; not managed by tick.py"
     }
   ],
   "rules": {
     "gate_1_2": "Company sessions stop at Gate 1-2 until the sponsor approves in that session; the campaign manager notifies the sponsor and resumes the session after approval (sponsor, 2026-11-18).",
-    "sending": "Drafts only. Nothing is ever sent automatically; the sponsor approves and sends every email."
+    "sending": "Drafts only. Nothing is ever sent automatically; the sponsor approves and sends every email.",
+    "notifications": "Claude app push notifications, only when the sponsor needs to act: Gate 1-2 waiting, draft ready, run stuck or blocked (sponsor, 2026-11-19). The hourly tick runs as a scheduled task with push notifications on.",
+    "quality": "Quality over speed and cost: no step is shortened and no cheaper models are used to save usage (sponsor, 2026-11-19)."
   }
 }
