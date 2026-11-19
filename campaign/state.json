@@ -75,6 +75,7 @@
     "notifications": "Claude app push notifications, only when the sponsor needs to act: Gate 1-2 waiting, draft ready, run stuck or blocked (sponsor, 2026-11-19). The hourly tick runs as a scheduled task with push notifications on.",
     "quality": "Quality over speed and cost: no step is shortened and no cheaper models are used to save usage (sponsor, 2026-11-19).",
     "sender": "Outreach emails are sent from gefen@etico.cr (sponsor, 2026-11-19). Gmail connector confirmed signed in as gefen@etico.cr, display name \"Gefen Hermesh\" (2026-11-19). etico.cr: Google Workspace, SPF + DKIM + DMARC (p=none, live 2026-11-19).",
-    "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release."
+    "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release.",
+    "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov)."
   }
 }
