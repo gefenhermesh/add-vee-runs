@@ -78,6 +78,266 @@
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1"
+    },
+    {
+      "slug": "plurai",
+      "company": "Plurai",
+      "domain": "plurai.ai",
+      "status": "proposed",
+      "reason": "Fresh $13M Team8-led seed + public launch (Nov 11 2026) with a brand-new category line ('recursive self-improvement layer for AI agents'); named VP Marketing, no SEO person/team found.\nIts own llms.txt still describes the old 'trust platform / evals & guardrails' positioning, a concrete how-AI-sees-you gap right after a repositioning.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "data_ai_infra",
+        "stage": "seed",
+        "situation": "early",
+        "size_band": "1_50",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "funding",
+        "finding_pattern": "misrepresented",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "buildots",
+      "company": "Buildots",
+      "domain": "buildots.com",
+      "status": "proposed",
+      "reason": "Fresh $130M round (2026-09-14, $297M total), CMO in place and a content team, but no SEO person found and SEO appears only as 'an advantage' in growth-role JDs. Heavy research/benchmark content push (Intelligence Lab) with no comparison pages of its own: a good AI-visibility audit target.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "vertical_saas",
+        "stage": "series_c_plus",
+        "situation": "scaling",
+        "size_band": "201_1000",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "funding",
+        "finding_pattern": "unknown",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "darrow",
+      "company": "Darrow AI",
+      "domain": "darrow.ai",
+      "status": "proposed",
+      "reason": "Series B legal-tech AI (Inc. 5000, Deloitte Fast 500 today) mid-repositioning from 'plaintiff case-finding' to 'Legal Exposure Management' for law firms + insurers; new VP Marketing since Jul 2026, and its Content & SEO manager left Feb 2026 with no replacement seen.\nSince then the blog fell to ~1 post since June and contextual internal links per post dropped from mean 4.6 to 0.8: a clear organic/AI-visibility gap under a new marketing leader.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "vertical_saas",
+        "stage": "series_b",
+        "situation": "scaling",
+        "size_band": "51_200",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "marketing_hire",
+        "finding_pattern": "unknown",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "scaleops",
+      "company": "ScaleOps",
+      "domain": "scaleops.com",
+      "status": "proposed",
+      "reason": "Series C ($130M, Mar 2026) Kubernetes/AI-infra automation with a VP Marketing on the site and no SEO team; its open Senior Content Marketing Manager JD asks the hire to 'own SEO end to end' and build for AEO/GEO and track AI-answer visibility, which is exactly the sponsor's work (role or engagement).",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "devtools",
+        "stage": "series_c_plus",
+        "situation": "scaling",
+        "size_band": "51_200",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "job_post",
+        "finding_pattern": "unknown",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "role",
+        "opener_type": "their_words",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "zenzap",
+      "company": "Zenzap",
+      "domain": "zenzap.co",
+      "status": "proposed",
+      "reason": "VP Marketing in place with no SEO person found. On Oct 14, 2026 Zenzap came out of stealth and repositioned from 'professional work chat app' to 'AI agents for work', but about 81% of its 403 blog posts (a high-volume, self-ranking listicle program) still describe the old category.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "collaboration_saas",
+        "stage": "series_a",
+        "situation": "scaling",
+        "size_band": "1_50",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "funding",
+        "finding_pattern": "misrepresented",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "capitolis",
+      "company": "Capitolis",
+      "domain": "capitolis.com",
+      "status": "proposed",
+      "reason": "Established NY/Tel Aviv capital-markets fintech, fresh $220M (incl. $120M Series E, 2026-10-06) funding the eSecLending acquisition; a named VP, Head of Marketing and no SEO person found.\nThe new securities-lending line has no page on capitolis.com (the nav links out to eseclending.com) and thought leadership stopped in Nov 2023: a clear how-AI-sees-the-new-Capitolis angle.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "fintech",
+        "stage": "series_c_plus",
+        "situation": "established",
+        "size_band": "51_200",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "funding",
+        "finding_pattern": "unknown",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "bites",
+      "company": "Bites",
+      "domain": "mybites.io",
+      "status": "proposed",
+      "reason": "Fresh $40M Series A (Oct 29, 2026) and a new category story ('AI-native frontline performance enablement'), a Director of Marketing in Israel, no SEO person found. eduMe's comparison page (updated Nov 4, 2026) tells buyers Bites' AI is 'lighter' and its integrations 'more limited': a concrete AI-visibility angle.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "hr_tech",
+        "stage": "series_a",
+        "situation": "scaling",
+        "size_band": "51_200",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "funding",
+        "finding_pattern": "unknown",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "daylight-security",
+      "company": "Daylight Security",
+      "domain": "daylight.ai",
+      "status": "proposed",
+      "reason": "Fresh $80M Series B (10 Nov 2026, Goldman Sachs Alternatives) with a VP Marketing in seat since Dec 2025 and no SEO team found; SEO/AEO sits with one growth role plus an agency. Risk: their content craft is already strong (~220 long posts since Feb 2026, many vs/alternatives pages), so the audit must surface a sharp AI-visibility gap.",
+      "gating_rating": "single_seo",
+      "features": {
+        "industry": "security",
+        "stage": "series_b",
+        "situation": "scaling",
+        "size_band": "51_200",
+        "geo": "israel_us",
+        "marketing_gating": "single_seo",
+        "trigger": "funding",
+        "finding_pattern": "unknown",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "edelbyte",
+      "company": "Edelbyte",
+      "domain": "edelbyte.io",
+      "status": "proposed",
+      "reason": "Out of stealth 11 Nov 2026 with $70M (Sequoia, Quiet; $500M valuation per CTech), ~40 people, positioned against Snowflake/Databricks/ClickHouse, but the site is a 12-URL brochure with no blog, no comparison or use-case content. No marketing leader found (couldn't verify): proposed as a no_leader_exception, CEO as recipient.",
+      "gating_rating": "no_leader_exception",
+      "features": {
+        "industry": "data_ai_infra",
+        "stage": "series_a",
+        "situation": "stealth_exit",
+        "size_band": "1_50",
+        "geo": "israel_us",
+        "marketing_gating": "no_leader_exception",
+        "trigger": "funding",
+        "finding_pattern": "absent",
+        "recipient_role": "ceo",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
+    },
+    {
+      "slug": "dreeze",
+      "company": "Dreeze",
+      "domain": "dreeze.com",
+      "status": "proposed",
+      "reason": "Zerto founders' new company, out of stealth 10 Nov 2026 with a $33M seed, new category language (Application Revival, CAIRS) and a 9-day-old site. Has a senior VP Marketing (ex-Zerto) plus a PMM head; no SEO person found. Comparison space is being written by third parties (e.g. 'Dreeze vs Rubrik') while dreeze.com has no comparison pages.",
+      "gating_rating": "sweet_spot",
+      "features": {
+        "industry": "cloud_infra",
+        "stage": "seed",
+        "situation": "early",
+        "size_band": "51_200",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "funding",
+        "finding_pattern": "losing_to_named_competitors",
+        "recipient_role": "cmo_vp_marketing",
+        "ask_track": "engagement",
+        "opener_type": "milestone_congrats",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no"
+      },
+      "source": "scout"
     }
   ],
   "rules": {
@@ -95,5 +355,105 @@
     "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
     "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",
     "note": "Persistent manager session opened by the sponsor from the app on 2026-11-19; hourly tick at :53 bound to it."
-  }
+  },
+  "watch": [
+    {
+      "slug": "plurai",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Lital Grossman, VP Marketing",
+      "funding": "$13M seed, 2026-11-11",
+      "category_language": "recursive self-improvement layer for AI agents"
+    },
+    {
+      "slug": "buildots",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Shachar Radin Shomrat, CMO",
+      "funding": "$130M, 2026-09-14",
+      "category_language": "construction intelligence"
+    },
+    {
+      "slug": "darrow",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Kari Szul, VP Marketing (since Jul 2026)",
+      "funding": "$35M Series B, 2023-09-19",
+      "category_language": "Legal Exposure Management"
+    },
+    {
+      "slug": "scaleops",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Igal Zifman, VP Marketing (new, inferred)",
+      "funding": "$130M Series C, 2026-03-30",
+      "category_language": "Autonomous Orchestration for AI Infrastructure"
+    },
+    {
+      "slug": "zenzap",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Boris Zlatkin, VP Marketing",
+      "funding": "$33M Series A, closed Aug 2025, announced 2026-10-14",
+      "category_language": "AI agents for work"
+    },
+    {
+      "slug": "capitolis",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Brian Zilberfarb, VP Head of Marketing",
+      "funding": "$220M incl. $120M Series E, 2026-10-06",
+      "category_language": "financial resource optimization + securities lending (eSecLending)"
+    },
+    {
+      "slug": "bites",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Eytan Morgenstern, Director of Marketing",
+      "funding": "$40M Series A, 2026-10-29",
+      "category_language": "AI-native frontline performance enablement"
+    },
+    {
+      "slug": "daylight-security",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Maya Rotenberg, VP Marketing",
+      "funding": "$80M Series B, 2026-11-10",
+      "category_language": "AI-native MDR"
+    },
+    {
+      "slug": "edelbyte",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "none found (no_leader_exception)",
+      "funding": "$70M seed+A, out of stealth 2026-11-11",
+      "category_language": "AI-native unified data platform"
+    },
+    {
+      "slug": "dreeze",
+      "status": "proposed",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "Fara Hain, VP Marketing",
+      "funding": "$33M seed, 2026-11-10",
+      "category_language": "Application Revival / CAIRS"
+    },
+    {
+      "slug": "geoedge",
+      "status": "held",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "none dedicated: VP Marketing role open (posted 2026-11-18); CBO Tobias Silber inferred",
+      "funding": "bootstrapped, no recent round",
+      "category_language": "ad security -> URL/web security",
+      "note": "Not proposed: no-leader exception without a funding trigger, and a second exception this week (Edelbyte). Re-check when the new VP Marketing is announced: that's the trigger."
+    },
+    {
+      "slug": "dealhub",
+      "status": "held_blocked",
+      "last_seen": "2026-11-19",
+      "marketing_leader": "CMO Gideon Thomas",
+      "funding": "no recent round found",
+      "category_language": "Agentic Quote-to-Revenue (DealHub.ai rebrand)",
+      "note": "Blocked: SEO Lead in place (Senior SEO & GEO Specialist reports to the SEO Lead). Only a role-track opening; sponsor decides if that's of interest."
+    }
+  ]
 }
