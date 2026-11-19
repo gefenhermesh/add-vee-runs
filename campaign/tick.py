@@ -13,7 +13,8 @@ All decisions are in this script, so the hourly session spends almost nothing wh
 "plan" returns an empty list and the session ends.
 
 Inputs per company: campaign/state.json (the queue, owned by this script) and
-companies/<slug>/status.json (written by the company session at each milestone; see COMPANY_SESSION.md).
+companies/<slug>/status.json, refreshed each tick by campaign/fetch_status.py from the company session's own add-vee branch
+(output/<slug>/campaign_status.json; see add-vee docs/campaign/company-session.md).
 
 Rules (sponsor decisions, 2026-11-18/19):
 - One company session works at a time (settings.max_concurrent_running). A company waiting at Gate 1-2
@@ -42,10 +43,10 @@ DONE_STAGES = {"done"}
 ADD_VEE_REPO = "https://github.com/gefenhermesh/add-vee"
 
 START_PROMPT = """You are a campaign company session for {company} ({domain}), slug `{slug}`.
-Before anything else, attach and clone the private repo gefenhermesh/add-vee-runs next to add-vee (use add_repo),
-then read add-vee-runs/campaign/COMPANY_SESSION.md and follow it exactly. It tells you how to run the full
-add-vee audit for this company (CLAUDE.md, unchanged, including the Gate 1-2 stop), how to report your progress
-to companies/{slug}/status.json, and how to prepare the outreach draft. Never send email; drafts only."""
+Read docs/campaign/company-session.md in this repository and follow it exactly: run the full add-vee audit for
+this company (CLAUDE.md, unchanged, including the Gate 1-2 stop), keep output/{slug}/campaign_status.json current,
+and write the outreach material into output/{slug}/outreach/. You need no other repository and no Gmail.
+Never send email or contact anyone."""
 
 NUDGE_PROMPT = """Campaign manager check: this session looks idle with the run unfinished (last progress {age} min ago).
 If you stopped on a usage limit or an error, continue now: run `python scripts/run_ledger.py status {slug}` and
@@ -91,11 +92,12 @@ def plan(state, sessions, now):
 
         if stage in DONE_STAGES:
             actions.append({"do": "mark", "slug": p["slug"], "status": "done"})
+            if not p.get("gmail_draft_id"):
+                actions.append({"do": "draft", "slug": p["slug"], "branch": cs.get("branch"),
+                                "outreach_dir": f"output/{p['slug']}/outreach/"})
             if not notified.get("done"):
-                draft = cs.get("gmail_draft_id")
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "done",
-                                "message": f"{p['company']}: audit done, outreach draft ready in Gmail for your review"
-                                           + ("" if draft else " (draft id missing, check the session)")})
+                                "message": f"{p['company']}: audit done, outreach draft in Gmail (gefen@etico.cr) for your review"})
             continue
         if stage in WAITING_STAGES:
             if st != "waiting_gate":
@@ -152,6 +154,8 @@ def apply(state, results, now):
             p["status"] = r["status"]
             if r["status"] == "running":
                 p["nudges"] = 0
+        elif r["do"] == "draft" and ok:
+            p["gmail_draft_id"] = r.get("draft_id")
         elif r["do"] == "notify" and ok:
             p.setdefault("notified", {})[r["kind"]] = ts
         lines.append(f"- {ts} {r['do']} {r.get('slug')}" + (f" {r.get('status') or r.get('kind') or ''}".rstrip())

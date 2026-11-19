@@ -45,7 +45,7 @@ class TickTest(unittest.TestCase):
         s = self.state([{"slug": "a", "company": "A", "status": "queued"}, {"slug": "b", "company": "B", "status": "queued"}])
         acts = tick.plan(s, {}, NOW)
         self.assertEqual(self.kinds(acts), [("start", "a", None)])
-        self.assertIn("COMPANY_SESSION.md", acts[0]["prompt"])
+        self.assertIn("docs/campaign/company-session.md", acts[0]["prompt"])
 
     def test_nothing_to_do_while_one_is_working(self):
         s = self.state([{"slug": "a", "company": "A", "status": "running", "session_id": "s1"},
@@ -88,8 +88,10 @@ class TickTest(unittest.TestCase):
         s = self.state([{"slug": "a", "company": "A", "status": "running", "session_id": "s1"}])
         self.status("a", "done", gmail_draft_id="r123")
         acts = tick.plan(s, {"s1": {"status_bucket": "idle"}}, NOW)
-        self.assertEqual(self.kinds(acts), [("mark", "a", "done"), ("notify", "a", "done")])
-        self.assertNotIn("missing", acts[1]["message"])
+        self.assertEqual(self.kinds(acts), [("mark", "a", "done"), ("draft", "a", None), ("notify", "a", "done")])
+        s["prospects"][0]["gmail_draft_id"] = "r1"
+        self.assertEqual(self.kinds(tick.plan(s, {"s1": {"status_bucket": "idle"}}, NOW)),
+                         [("mark", "a", "done"), ("notify", "a", "done")])
 
     def test_blocked_session_notifies_once(self):
         s = self.state([{"slug": "a", "company": "A", "status": "running", "session_id": "s1"}])
