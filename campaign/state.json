@@ -35,37 +35,41 @@
     {
       "slug": "vega-security",
       "company": "Vega Security",
-      "domain": null,
-      "status": "held",
+      "domain": "vega.io",
+      "status": "starting",
       "source": "sponsor (2026-11-19)",
-      "status_note": "Chosen by the sponsor. Do not start until the sponsor releases it (change status to queued).",
-      "cohort_id": "pilot-1"
+      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
+      "cohort_id": "pilot-1",
+      "session_id": "session_01FkmvpLZ6FUjGe75kzwKsJV",
+      "started_at": "2026-11-19T19:46:19+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "gambit-security",
       "company": "Gambit Security",
-      "domain": null,
-      "status": "held",
+      "domain": "gambit.security",
+      "status": "queued",
       "source": "sponsor (2026-11-19)",
-      "status_note": "Chosen by the sponsor. Do not start until the sponsor releases it (change status to queued).",
+      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1"
     },
     {
       "slug": "upwind",
       "company": "Upwind",
-      "domain": null,
-      "status": "held",
+      "domain": "upwind.io",
+      "status": "queued",
       "source": "sponsor (2026-11-19)",
-      "status_note": "Chosen by the sponsor. Do not start until the sponsor releases it (change status to queued).",
+      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1"
     },
     {
       "slug": "glow-io",
       "company": "glow.io",
       "domain": "glow.io",
-      "status": "held",
+      "status": "queued",
       "source": "sponsor (2026-11-19)",
-      "status_note": "Chosen by the sponsor. Do not start until the sponsor releases it (change status to queued).",
+      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1"
     }
   ],
@@ -77,5 +81,6 @@
     "sender": "Outreach emails are sent from gefen@etico.cr (sponsor, 2026-11-19). Gmail connector confirmed signed in as gefen@etico.cr, display name \"Gefen Hermesh\" (2026-11-19). etico.cr: Google Workspace, SPF + DKIM + DMARC (p=none, live 2026-11-19).",
     "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release.",
     "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov)."
-  }
+  },
+  "last_tick": "2026-11-19T19:46:19+00:00"
 }
