@@ -1,0 +1,148 @@
+{
+  "scout_version": 2,
+  "company": "Buildots",
+  "domain": "buildots.com",
+  "slug": "buildots",
+  "scouted": "2026-11-19",
+  "source_of_lead": "Telegram hitechjobsmarketing: 'Performance Marketing Manager' (Tel Aviv, 4+ yrs) posted 2026-11-13 and 2026-11-18; same channel also showed 'Digital Marketing Manager' 2026-10-29 and earlier Growth Marketing / Field Marketing roles",
+  "reason": "Fresh $130M round (2026-09-14, $297M total), CMO in place and a content team, but no SEO person found and SEO appears only as 'an advantage' in growth-role JDs. Heavy research/benchmark content push (Intelligence Lab) with no comparison pages of its own: a good AI-visibility audit target.",
+  "gating_rating": "sweet_spot",
+  "gating_note": "Marketing leader found (CMO Shachar Radin Shomrat, on buildots.com/about-us; Head of Growth Dana Bodenstein per search title). Content Marketing Lead + Content Marketing Manager (London) and a NA Content & Customer Marketing Manager exist per search titles, so content craft is owned, but no dedicated SEO specialist/team found in site:linkedin.com/in searches for SEO/organic, and Buildots marketing JDs list 'Experience with SEO and website optimization' only as an advantage. Weak-absence caveat: a sizable marketing org (~15+ per one third-party listing, unverified) could use an SEO agency; logged-in People check advised.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Shachar Radin Shomrat", "role": "Chief Marketing Officer", "location_note": "London per LinkedIn search snippet (unverified)", "since": "Jan 2024 per LinkedIn search snippet (unverified)"},
+      {"name": "Dana Bodenstein", "role": "Head of Growth", "location_note": null, "since": null}
+    ],
+    "evidence": [
+      {"claim": "Shachar Radin Shomrat listed as Chief Marketing Officer in the leadership section", "kind": "direct", "url": "https://buildots.com/about-us/", "date": "accessed 2026-11-19"},
+      {"claim": "Search title 'Shachar Radin Shomrat - CMO @Buildots'; snippet 'Chief Marketing Officer (CMO). Buildots. Jan 2024 - Present', location London", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Buildots%22+content+marketing", "date": "accessed 2026-11-19"},
+      {"claim": "Search title 'Dana Bodenstein - Head of Growth at Buildots' ('full-funnel marketing strategies')", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Buildots%22+marketing", "date": "accessed 2026-11-19"},
+      {"claim": "Performance Marketing Manager JD: 'Our Marketing team drives demand generation'; collaborates with 'growth, content, and design teams'", "kind": "direct", "url": "https://buildots.com/careers/5D.27C/", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "confidence_note": "Absence from logged-out search; treat as couldn't-fully-verify. No SEO title surfaced in 3 site:linkedin.com/in queries (SEO, SEO specialist/manager/organic, content marketing).",
+    "evidence": [
+      {"claim": "Buildots marketing roles (Digital Marketing Manager, Campaign Manager, Growth Marketing Manager) list 'Experience with SEO and website optimization - an advantage': SEO is a side skill, not a role", "kind": "inferred", "url": "https://careers.viola-group.com/companies/buildots/jobs/ (search snippet via Google)", "date": "accessed 2026-11-19"},
+      {"claim": "Content people found: Kasia (Katarzyna) Gill, Content Marketing Lead (UK); Sarah Abda, Content Marketing Manager (London, 'online marketing and optimization'); James F. McClister, Content & Customer Marketing Manager, North America (Chicago). None titled SEO.", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Buildots%22+SEO", "date": "accessed 2026-11-19"},
+      {"claim": "Yoast SEO on WordPress; no llms.txt (404); no vs/alternatives pages in page sitemap", "kind": "direct", "url": "https://buildots.com/sitemap.xml", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "situation": {
+    "estimate": "Late-stage (about 8 years old, 201-500 employees per LinkedIn) construction-intelligence vertical SaaS, Israel R&D with a heavy North America/UK go-to-market. The $130M round (Sep 2026, $297M total, 'cusp of unicorn' per CEO in press) funds expansion across North America and EMEA, deeper lifecycle coverage and a Buildots Field workforce product (from the Genda acquisition, Oct 2025). The GTM is shifting from project selling to enterprise selling (stated in the GTM AI Engineer JD), with ABM, paid media, field marketing and a data-center vertical push. Marketing has repositioned around 'construction intelligence' and a research hub (Buildots Intelligence Lab, 15 benchmark pages), while blog cadence dropped from ~41 posts in 2024 to 12 in 2026.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "$130M round led by O.G. Venture Partners (Lightspeed, Intel Capital, Qumra, Viola Growth and others), total raised $297M; plus open Performance Marketing Manager (Tel Aviv) and Field Marketing Manager (Chicago) roles. Round series not named in the press release (an aggregator headline calls it Series E, unverified).",
+    "date": "2026-09-14",
+    "source": "https://www.prnewswire.com/il/news-releases/buildots-raises-130m-to-bring-ai-to-the-16t-construction-industry--and-power-the-global-data-center-buildout-302877516.html"
+  },
+  "fit_evidence": [
+    {"claim": "Raised $130M on 2026-09-14, total $297M, led by O.G. Venture Partners", "kind": "direct", "url": "https://www.prnewswire.com/il/news-releases/buildots-raises-130m-to-bring-ai-to-the-16t-construction-industry--and-power-the-global-data-center-buildout-302877516.html", "date": "2026-09-14"},
+    {"claim": "Previous round: $45M Series D led by Qumra, May 2025", "kind": "direct", "url": "https://buildots.com/blog/buildots-raises-45m-in-series-d-funding/", "date": "2025-05-29"},
+    {"claim": "B2B enterprise, sales-led: 'Get a demo' CTA; buyers are senior stakeholders at the largest GCs and owners; paid media measured by qualified pipeline at target accounts", "kind": "direct", "url": "https://buildots.com/careers/5D.27C/", "date": "accessed 2026-11-19"},
+    {"claim": "Moving GTM 'from project selling to enterprise selling'", "kind": "direct", "url": "https://buildots.com/careers/BD.271/", "date": "accessed 2026-11-19"},
+    {"claim": "Marketing stack: HubSpot, Salesforce, GA4, ABM platform (Influ2/6sense/Demandbase named as examples); HubSpot + Salesforce + SendGrid in SPF; GTM container GTM-W3T5DCZ", "kind": "direct", "url": "https://buildots.com/careers/5D.27C/ ; https://dns.google/resolve?name=buildots.com&type=TXT", "date": "accessed 2026-11-19"},
+    {"claim": "Category language 'construction intelligence' (homepage title 'Construction Intelligence Platform'); 'Construction's first AI-powered research hub' (Intelligence Lab)", "kind": "direct", "url": "https://buildots.com/", "date": "accessed 2026-11-19"},
+    {"claim": "No own comparison/vs/alternatives pages; third-party comparison pages (CB Insights, slashdot, affiliate sites) define Buildots vs OpenSpace/Doxel; OpenSpace acquired Disperse (Oct 2025 per search summary, unverified)", "kind": "inferred", "url": "https://www.cbinsights.com/compare/buildots-vs-openspace", "date": "accessed 2026-11-19"},
+    {"claim": "Company size 201-500, HQ Tel Aviv, founded 2018, 61,634 followers", "kind": "direct", "url": "https://www.linkedin.com/company/buildots/", "date": "accessed 2026-11-19 via Bright Data"}
+  ],
+  "site_and_content": {
+    "cms": "WordPress (wp-content), Yoast SEO sitemaps; marketing pages on pages.buildots.com (HubSpot landing pages, inferred from subdomain + HubSpot verification)",
+    "analytics_tools": "Google Tag Manager GTM-W3T5DCZ, HubSpot script on homepage; DNS TXT: hubspot, mixpanel, zapier, canva, figma, miro, notion, openai/anthropic/cursor verifications; SPF includes HubSpot, Salesforce, SendGrid",
+    "blog": {
+      "posts_in_sitemap": 105,
+      "read": "all 105 post pages fetched; dates from article:published_time",
+      "first": "2019-06-24",
+      "last": "2026-11-12",
+      "per_year": {"2019": 4, "2020": 3, "2021": 3, "2022": 16, "2023": 7, "2024": 41, "2025": 20, "2026": 12},
+      "cadence_note": "Peak weekly cadence in 2024 (41 posts), halved in 2025, about 1/month in 2026 with gaps (Feb-Apr, Apr-Jun). Mostly 500-1,500 words; two 2026 long pieces (2,600-2,800 words) are data-led and link into the Lab.",
+      "internal_linking": "Link-aware read (raw HTML anchors after the H1) of two posts: 2026-02 post has 1 contextual internal blog link plus related-post card; 2026-08 data-center post links to /lab/ benchmarks, /product/ and webinar landing pages with descriptive anchors. Older posts mostly carry only the related-post card (about 2 buildots.com links per <article>). Contextual linking thin except recent pillar-ish pieces; sample of 2 posts read closely, counts for all."
+    },
+    "lab": "Buildots Intelligence Lab: 15 benchmark/resource pages (schedule adherence, MEP risers, data-center MEP benchmarks, healthcare/education benchmarks) plus a Global Construction Benchmarks Report; lab sitemap lastmod 2026-11-19. Strong citable-data asset for AI answers.",
+    "pages": "59 pages: solutions by role (project teams, executives, owners, CM services), by project type (multifamily, data centers, industrial, healthcare, commercial, education, airports), by use case; FR localized pages; 15 case studies",
+    "comparison_pages": "none on own site (no vs/alternatives/compare in page sitemap)",
+    "llms_txt": "404",
+    "robots": "standard WordPress, no AI-crawler rules"
+  },
+  "jobs": {
+    "careers_page": "https://buildots.com/careers/ (embedded Comeet-style IDs; comeet.com/jobs/buildots/ returned 404)",
+    "open_roles_count": 27,
+    "marketing_roles": [
+      {"title": "Performance Marketing Manager", "location": "Tel Aviv", "url": "https://buildots.com/careers/5D.27C/", "notes": "Paid media end-to-end (LinkedIn, Google Ads, ABM), HubSpot/Salesforce/GA4; collaborates with growth, content and design teams. Reports-to not stated on the Buildots page (a third-party board snippet says VP Marketing, unverified). No SEO in JD."},
+      {"title": "Field Marketing Manager", "location": "Chicago, IL", "url": "https://buildots.com/careers/DD.077/", "notes": "NA events/community, member of Global Field Marketing team, $100-130K"},
+      {"title": "GTM AI Engineer (RevOps)", "location": "Tel Aviv", "url": "https://buildots.com/careers/BD.271/", "notes": "Salesforce + LLM agents; states the shift to enterprise selling"}
+    ],
+    "earlier_marketing_posts": "Telegram: Digital Marketing Manager (2026-10-29), Growth Marketing Manager, Field Marketing & Employer Branding Manager; these JDs (per search snippets) list 'Experience with SEO and website optimization - an advantage'. Earlier Buildots-hosted /careers/co/marketing/... URLs now 404.",
+    "seo_role": "none open"
+  },
+  "contacts": [
+    {"name": "Shachar Radin Shomrat", "role": "Chief Marketing Officer", "email": null, "email_verified": false, "source": "https://buildots.com/about-us/", "recipient_rank": 1, "note": "Owns positioning, Lab and content; London-based per search snippet (unverified)."},
+    {"name": "Dana Bodenstein", "role": "Head of Growth", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title (not opened)", "recipient_rank": 2, "note": "Likely owns website/demand gen and the open performance role; role not confirmed on company site."},
+    {"name": "Roy Danon", "role": "CEO & Co-founder", "email": null, "email_verified": false, "source": "https://www.prnewswire.com/il/news-releases/buildots-raises-130m-to-bring-ai-to-the-16t-construction-industry--and-power-the-global-data-center-buildout-302877516.html", "recipient_rank": 3, "note": "Fallback only; at 200-500 people the CMO is the right owner."}
+  ],
+  "outreach_angle": {
+    "hook": "After the $130M round, Buildots is pushing 'construction intelligence' and publishing hard benchmark data through the Intelligence Lab, but has no comparison pages of its own while third-party 'Buildots vs OpenSpace/Doxel' pages define the category for buyers; the audit shows how ChatGPT/Gemini describe Buildots versus OpenSpace and Doxel and whether the Lab data gets cited.",
+    "source": "https://www.prnewswire.com/il/news-releases/buildots-raises-130m-to-bring-ai-to-the-16t-construction-industry--and-power-the-global-data-center-buildout-302877516.html ; https://buildots.com/lab/ ; https://www.cbinsights.com/compare/buildots-vs-openspace",
+    "date": "2026-09-14"
+  },
+  "features": {
+    "industry": "vertical_saas",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "israel_us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "funding",
+    "finding_pattern": "unknown",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no"
+  },
+  "sources": [
+    {"url": "https://t.me/s/hitechjobsmarketing?q=Buildots", "date": "2026-11-18", "kind": "direct", "result": "Performance Marketing Manager posts 2026-11-13 and 2026-11-18 (4+ yrs, Tel Aviv); Digital Marketing Manager 2026-10-29; older Growth/Field marketing posts"},
+    {"url": "https://www.prnewswire.com/il/news-releases/buildots-raises-130m-to-bring-ai-to-the-16t-construction-industry--and-power-the-global-data-center-buildout-302877516.html", "date": "2026-09-14", "kind": "direct", "result": "$130M, O.G. Venture Partners lead, total $297M; no marketing exec named"},
+    {"url": "https://siliconangle.com/2026/09/14/buildots-raises-130-million-to-expand-ai-powered-construction-platform/", "date": "2026-09-14", "kind": "inferred", "result": "corroborating coverage (search result, not opened)"},
+    {"url": "https://buildots.com/about-us/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Leadership list incl. CMO Shachar Radin Shomrat, CRO Ran Fridman, CCO Daphna Beer-Gabel"},
+    {"url": "https://buildots.com/careers/", "date": "accessed 2026-11-19", "kind": "direct", "result": "27 open roles; marketing: Performance Marketing Manager (TA), Field Marketing Manager (Chicago)"},
+    {"url": "https://buildots.com/careers/5D.27C/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Full Performance Marketing Manager JD"},
+    {"url": "https://buildots.com/careers/BD.271/", "date": "accessed 2026-11-19", "kind": "direct", "result": "GTM AI Engineer JD: shift to enterprise selling"},
+    {"url": "https://buildots.com/careers/DD.077/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Field Marketing Manager NA JD"},
+    {"url": "https://buildots.com/sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "Yoast index: page, case-study, blog, lab sitemaps"},
+    {"url": "https://buildots.com/blog-sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "105 posts; all fetched for dates 2019-06-24 to 2026-11-12"},
+    {"url": "https://buildots.com/lab-sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "15 Lab benchmark pages"},
+    {"url": "https://buildots.com/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Title 'Construction Intelligence Platform'; WordPress, GTM, HubSpot"},
+    {"url": "https://dns.google/resolve?name=buildots.com&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "HubSpot, Mixpanel, Zapier, Salesforce SPF, etc."},
+    {"url": "https://www.linkedin.com/company/buildots/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: 201-500 employees, Tel Aviv, founded 2018, 61,634 followers"},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in \"Buildots\" (marketing | VP Marketing | SEO | content marketing | SEO specialist)", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Via Bright Data, titles only: CMO, Head of Growth, Content Marketing Lead, Content Marketing Manager, NA Content & Customer Marketing Manager, Field Marketing Manager (UK); no SEO title"},
+    {"url": "https://www.google.com/search?q=\"Buildots\" \"SEO\" (specialist OR manager OR agency)", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Job-board snippets: SEO listed as 'an advantage' in Digital/Campaign/Growth Marketing Manager JDs"},
+    {"url": "https://www.cbinsights.com/compare/buildots-vs-openspace", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Aggregator comparison page exists (search result)"},
+    {"url": "https://theorg.com/org/buildots", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Search summary: lists CMO; not opened"},
+    {"url": "https://buildots.com/blog/buildots-raises-45m-in-series-d-funding/", "date": "2025-05-29", "kind": "direct", "result": "Prior $45M Series D"}
+  ],
+  "sources_tried_failed": [
+    {"url": "https://www.comeet.com/jobs/buildots/", "result": "404"},
+    {"url": "https://buildots.com/careers/co/other/45.C5D/performance-marketing-manager/ (and older /careers/co/marketing/... links)", "result": "404 (old Telegram-linked URLs; current role at /careers/5D.27C/)"},
+    {"url": "https://doxel.ai/?p=25544840", "result": "Search summary says Doxel's own page compares itself to 'BuildDots'; fetched direct and via Bright Data, page text has no Buildots mention (likely client-rendered or changed). couldn't verify"},
+    {"url": "http://web.archive.org/web/2024.../https://buildots.com/", "result": "Snapshot index available (2023/2024/2025) but fetch blocked by egress policy"},
+    {"url": "https://buildots.com/llms.txt", "result": "404"},
+    {"url": "Google site:linkedin.com/in \"Buildots\" CMO", "result": "Bright Data returned empty body (0 bytes)"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Buildots company page -> People tab, search 'SEO' and 'organic': any SEO specialist/manager? (decides sweet_spot vs single_seo/blocked)",
+    "Confirm Shachar Radin Shomrat is still CMO (about page says so) and where based (snippet says London)",
+    "Who does the Performance Marketing Manager report to (VP Marketing per a third-party snippet; is there a VP Marketing under the CMO?)"
+  ],
+  "open_questions": [
+    "Is SEO outsourced to an agency? Not visible publicly.",
+    "Is there a VP Marketing between the CMO and the team (third-party snippet mentions one)?",
+    "Round series name (Series E per aggregator headline, not in press release)."
+  ]
+}
