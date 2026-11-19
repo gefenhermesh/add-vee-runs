@@ -1,5 +1,7 @@
 # The scout: finding the next companies
 
+**The goal is reply-rate lift** (see LEARNING.md). Don't get stuck on cybersecurity: prefer B2B tech, but deliberately propose a **varied mix** (industries, stages, situations, recipient roles, triggers), so the learning loop has something to learn from. Every proposed company carries its `features` (learn.py → FEATURES). The week's picks come from `learn.py pick`, which balances what works with what's untested.
+
 Finds companies likely to welcome the sponsor's work, as a hire, a partner, or a paid audit. It **proposes**. It never queues: new finds go into `state.json` with status `proposed`, and only the sponsor releases them.
 
 Built on the sponsor's earlier scouting system (Sept 2026, about 21 Israeli cybersecurity startups; handoff brief 2026-11-19). Its lessons and the sponsor's corrections are the rules below.

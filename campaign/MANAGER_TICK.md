@@ -14,6 +14,8 @@ The scheduled task fires this every hour in a **fresh, short session** with this
    - `mark`: nothing to call. `apply` records it.
 5. Write the results (each action plus `"ok": true/false`, `session_id` for starts, `error` if it failed) to `/tmp/results.json`, then `python campaign/tick.py apply /tmp/results.json`.
 6. Commit and push `campaign/state.json` and `campaign/log.md`.
+6b. **Replies and sends (once a day, first tick after 08:00 Israel time):** follow LEARNING.md → The loop, step 2: log newly sent email-1 threads, detect and classify replies, and record them with `learn.py`. **Notify the sponsor immediately for any human reply.** Commit `campaign/learning/`.
+6c. **Weekly (Sunday's first tick):** `learn.py report`, then the scout's proposals and `learn.py pick` (LEARNING.md → step 3). Notify the sponsor that the week's picks are ready to release.
 7. Final reply: the notification lines first (if any), then one line per other action. Nothing else.
 
 ## Never
