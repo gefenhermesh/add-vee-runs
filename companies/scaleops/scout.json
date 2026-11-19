@@ -1,0 +1,140 @@
+{
+  "scout_version": 2,
+  "company": "ScaleOps",
+  "domain": "scaleops.com",
+  "slug": "scaleops",
+  "scouted": "2026-11-19",
+  "source_of_lead": "Telegram hitechjobsmarketing (t.me/s/hitechjobsmarketing): Senior Marketing Designer + Product Marketing Manager posted 2026-11-10, Senior Content Marketing Manager posted 2026-11-12 (all Tel Aviv)",
+  "reason": "Series C ($130M, Mar 2026) Kubernetes/AI-infra automation with a VP Marketing on the site and no SEO team; its open Senior Content Marketing Manager JD asks the hire to 'own SEO end to end' and build for AEO/GEO and track AI-answer visibility, which is exactly the sponsor's work (role or engagement).",
+  "gating_rating": "sweet_spot",
+  "gating_note": "Marketing leader found directly (Igal Zifman, VP Marketing, on scaleops.com/about-us, accessed 2026-11-19; the Oct 9 2026 Wayback snapshot listed Joey Balázs as Head of Marketing instead, so the VP Marketing looks new since October, inferred). No SEO person or team found; the content JD makes the new hire the SEO + AEO/GEO owner and mentions external agencies/freelancers, which implies no in-house SEO team (inferred). An SEO agency may exist (unverified).",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Igal Zifman", "role": "VP Marketing", "kind": "direct", "source": "https://scaleops.com/about-us/", "date": "accessed 2026-11-19", "note": "Not on the about page snapshot of 2026-10-09; no other public footprint found (Google/WebSearch). Likely a very recent hire (inferred)."},
+      {"name": "Joey Balázs", "role": "Head of Marketing (Oct 2026 about page); LinkedIn search title now 'Marketing' / 'Product Marketing Manager' (post title)", "kind": "direct (Wayback) / unverified (snippet)", "source": "http://web.archive.org/web/20261009145645/https://scaleops.com/about-us/", "date": "2026-10-09", "note": "Not on the current about page. Current role couldn't verify."}
+    ],
+    "evidence": [
+      {"claim": "About page lists Igal Zifman, VP Marketing, among leadership (with CEO Yodar Shafrir, CRO Taylor Grabus, CPO Gilad Elyashar)", "kind": "direct", "url": "https://scaleops.com/about-us/", "date": "accessed 2026-11-19"},
+      {"claim": "Oct 2026 about page listed Joey Balázs as Head of Marketing and no VP Marketing", "kind": "direct", "url": "http://web.archive.org/web/20261009145645/https://scaleops.com/about-us/", "date": "2026-10-09"},
+      {"claim": "All leadership headshots re-uploaded in 2026/11 (page redesign), so upload dates do not date the hire", "kind": "direct", "url": "https://scaleops.com/about-us/", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      {"claim": "Senior Content Marketing Manager JD: 'Own SEO end to end, and build for AEO and GEO so ScaleOps surfaces inside AI answers'; 'Track rankings, organic traffic, and AI answer visibility'; 'Manage the WordPress blog end to end, plus external agencies and freelancers'", "kind": "direct", "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4956788101", "date": "first published 2026-08-20, updated 2026-11-17"},
+      {"claim": "No SEO/content/growth title at ScaleOps (the infra company) in Google site:linkedin.com/in title results; weak because logged-out", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in \"ScaleOps\" SEO OR content OR growth", "date": "accessed 2026-11-19"},
+      {"claim": "No SEO role on the Greenhouse board (55 open roles)", "kind": "direct", "url": "https://boards-api.greenhouse.io/v1/boards/scaleops/jobs", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "situation": {
+    "estimate": "Series C company (Mar 2026, $130M at >$800M valuation, $210M total) in hypergrowth: 55 open roles, stated plan to triple headcount, HQ New York with R&D in Tel Aviv. Category language moved from Kubernetes cost/rightsizing to 'Autonomous Orchestration for AI Infrastructure' (GPU, AI SRE agent, MCP), so the brand and narrative are being rebuilt (designer JD: 'from category creator to category leader'). Marketing is being rebuilt too: a new VP Marketing since October, plus PMM (IL + US), content and design hires. Blog output fell after a May 2026 burst (10 posts) to 1-2 a month since July and none in November, which matches the open content-owner seat. Competitors (Cast AI, CloudBolt/StormForge) now publish 'ScaleOps alternative' pages aimed at them.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "Senior Content Marketing Manager (Tel Aviv) whose JD owns SEO + AEO/GEO and AI-answer visibility; plus a new VP Marketing (since Oct 2026, inferred) and the Series C ($130M, 2026-03-30).",
+    "date": "2026-11-12 (Telegram post); Greenhouse first published 2026-08-20, updated 2026-11-17",
+    "source": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4956788101"
+  },
+  "fit_evidence": [
+    {"claim": "Series C $130M at >$800M valuation led by Insight Partners, total $210M", "kind": "direct", "url": "https://scaleops.com/blog/scaleops-series-c/", "date": "2026-03-30"},
+    {"claim": "Same round reported by TechCrunch; Series B $58M was Nov 2024", "kind": "direct", "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding", "date": "2026-03-30"},
+    {"claim": "Plans to triple headcount by year end (SiliconANGLE, via search summary)", "kind": "unverified", "url": "https://siliconangle.com/?p=736819", "date": "2026-03-30"},
+    {"claim": "Content JD explicitly wants SEO ownership plus AEO/GEO so ScaleOps 'surfaces inside AI answers, not just the blue links'", "kind": "direct", "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4956788101", "date": "2026-11-17"},
+    {"claim": "Cast AI publishes 'Cast AI vs ScaleOps: Compare Kubernetes Optimization' (published 2026-10-20, modified 2026-11-03)", "kind": "direct", "url": "https://cast.ai/cast-ai-vs-scaleops/", "date": "2026-10-20"},
+    {"claim": "CloudBolt publishes 'ScaleOps alternative: StormForge by CloudBolt' (published 2026-09-10) and a StormForge vs ScaleOps technical comparison", "kind": "direct", "url": "https://www.cloudbolt.io/blog/scaleops-alternative/", "date": "2026-09-10"},
+    {"claim": "robots.txt (Cloudflare managed) disallows GPTBot, Google-Extended, ClaudeBot, CCBot etc. and sets Content-Signal ai-train=no; search bots allowed. Weak signal, but a GEO-minded owner may want to revisit it", "kind": "direct", "url": "https://scaleops.com/robots.txt", "date": "accessed 2026-11-19"},
+    {"claim": "openai-domain-verification and anthropic-domain-verification TXT records exist (they use those platforms; not an SEO signal)", "kind": "direct", "url": "https://dns.google/resolve?name=scaleops.com&type=TXT", "date": "accessed 2026-11-19"}
+  ],
+  "site_and_content": {
+    "cms": "WordPress (wp-content, /content/uploads), Yoast SEO sitemaps; Cloudflare in front",
+    "tools": "HubSpot (hs-scripts, SPF include hubspotemail.net), Google Tag Manager GTM-MDQXJFNW, GA4, Drift, Chili Piper, G2 widgets; Google Search Console verification x4; Microsoft 365",
+    "blog": "87 posts in post-sitemap. Published dates (article:published_time) run 2023-04-13 to 2026-10-26. Per month: 1-3 through 2024, 2-5 in 2025, 10 in May 2026 (after the round), then 3 Jun, 2 Jul, 1 Aug, 2 Sep, 1 Oct, 0 Nov so far. Sitemap lastmod dates differ (updates), don't use them for cadence.",
+    "authors_sampled": "Ben Grady (VP Customer Experience), Rob Croteau, Nic Vermandé (developer advocate type deep dives), Shaked Shavit",
+    "craft": "Real craft without an SEO team: pillar 'Kubernetes cost optimization' (published 2026-05-26, about 11.7k words) has 18 contextual in-article links to other posts with descriptive anchors (link-aware read of raw HTML <article>); K8s release deep dives cross-link (DRA post 5 links). Older/short posts have 1-5 links; newest vLLM post has 0 in-article links to other posts. FAQPage schema on the pillar.",
+    "comparison_pages": "/compare/ is a generic 'ScaleOps vs Others' table with no named competitor; blog has 'ScaleOps vs Goldilocks' and 'Comparing Kubernetes VPA and ScaleOps', 'Karpenter vs Cluster Autoscaler', '6 best Kubernetes cost optimization tools'. No 'ScaleOps vs Cast AI' or vs PerfectScale/StormForge page found in sitemaps, while Cast AI and CloudBolt target ScaleOps.",
+    "other": "35 resource pages (case studies: Adobe, Roku, Armis, Island, OutSystems, Rokt; news; videos). Event pages for KubeCon NA 2026 and AWS re:Invent 2026. llms.txt: couldn't verify (403 to curl).",
+    "category_language": "Now 'Autonomous Orchestration for AI Infrastructure' / 'Autonomous Cloud and AI Infrastructure Resource Management' (LinkedIn tagline + JDs); earlier 'cloud-native optimization' / Kubernetes resource management"
+  },
+  "jobs": {
+    "board": "Greenhouse EU (job-boards.eu.greenhouse.io/scaleops; API at boards-api.greenhouse.io/v1/boards/scaleops)",
+    "open_roles": 55,
+    "marketing_roles": [
+      {"title": "Senior Content Marketing Manager", "location": "Tel Aviv", "first_published": "2026-08-20", "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4956788101", "notes": "Owns content strategy, SEO end to end, AEO/GEO, AI answer visibility tracking, WordPress, agencies/freelancers; works with developer advocate and engineering. Reporting line not stated."},
+      {"title": "Product Marketing Manager", "location": "Tel Aviv", "first_published": "2026-08-05", "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4930924101", "notes": "Messaging, launches, analyst relations (Gartner/Forrester), win/loss, enablement. Reporting line not stated."},
+      {"title": "Product Marketing Manager - US", "location": "Boston", "first_published": "2026-08-03", "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4921844101"},
+      {"title": "Senior Marketing Designer", "location": "Tel Aviv", "first_published": "2026-09-24", "url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4986538101", "notes": "'joins our design team'; website + brand maturity 'from category creator to category leader'."}
+    ],
+    "seo_roles": [],
+    "other_signals": "Heavy GTM build: AEs (US/UK/ROW), SDRs, Sales Directors, Head of Channels, AWS Alliance Manager, RevOps Manager, TAMs; VP AI, VP HR, VP Operations. A 'Senior Marketing Operations - US' role appears in Google results but not on the current board (closed or filled, couldn't verify)."
+  },
+  "contacts": [
+    {"name": "Igal Zifman", "role": "VP Marketing", "email": null, "email_verified": false, "source": "https://scaleops.com/about-us/ (accessed 2026-11-19)", "recipient_rank": 1},
+    {"name": "Yodar Shafrir", "role": "Founder & CEO", "email": null, "email_verified": false, "source": "https://scaleops.com/about-us/ ; https://scaleops.com/blog/scaleops-series-c/", "recipient_rank": 2},
+    {"name": "Joey Balázs", "role": "Head of Marketing per Oct 2026 about page; current title couldn't verify", "email": null, "email_verified": false, "source": "http://web.archive.org/web/20261009145645/https://scaleops.com/about-us/", "recipient_rank": 3}
+  ],
+  "outreach_angle": {
+    "hook": "Their own content-marketing JD says the next hire must 'own SEO end to end, and build for AEO and GEO so ScaleOps surfaces inside AI answers, not just the blue links' and track AI-answer visibility, while Cast AI (Oct 20 2026) and CloudBolt/StormForge (Sep 10 2026) already publish 'ScaleOps alternative' pages. Offer the AI-visibility audit as the baseline for that seat (role track or interim engagement) to the new VP Marketing.",
+    "source": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4956788101 ; https://cast.ai/cast-ai-vs-scaleops/",
+    "date": "2026-11-17 (JD update); 2026-10-20 (Cast AI page)"
+  },
+  "features": {
+    "industry": "devtools",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "israel_us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "unknown",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "role",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no"
+  },
+  "sources": [
+    {"url": "https://t.me/s/hitechjobsmarketing?q=ScaleOps", "date": "2026-11-12", "kind": "direct", "result": "3 ScaleOps marketing roles: Senior Marketing Designer, PMM (2026-11-10), Senior Content Marketing Manager (2026-11-12), Tel Aviv"},
+    {"url": "https://boards-api.greenhouse.io/v1/boards/scaleops/jobs", "date": "accessed 2026-11-19", "kind": "direct", "result": "55 open roles; 4 marketing, 0 SEO"},
+    {"url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4956788101", "date": "2026-11-17", "kind": "direct", "result": "Full Senior Content Marketing Manager JD read (via API): SEO + AEO/GEO ownership, AI answer visibility, WordPress, agencies; no reporting line"},
+    {"url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4930924101", "date": "2026-11-17", "kind": "direct", "result": "PMM (IL) JD read"},
+    {"url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4921844101", "date": "2026-11-17", "kind": "direct", "result": "PMM (US, Boston) JD read"},
+    {"url": "https://job-boards.eu.greenhouse.io/scaleops/jobs/4986538101", "date": "2026-11-17", "kind": "direct", "result": "Senior Marketing Designer JD read"},
+    {"url": "https://scaleops.com/blog/scaleops-series-c/", "date": "2026-03-30", "kind": "direct", "result": "$130M Series C, >$800M valuation, Insight Partners lead, total $210M"},
+    {"url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding", "date": "2026-03-30", "kind": "direct", "result": "Round confirmed via search result/URL; Series B $58M Nov 2024"},
+    {"url": "https://www.prnewswire.com/il/news-releases/scaleops-raises-130m-series-c-at-over-800m-valuation-to-lead-the-future-of-autonomous-cloud-and-ai-infrastructure-resource-management-302728822.html", "date": "2026-03-30", "kind": "direct", "result": "Press release (seen in search results)"},
+    {"url": "https://scaleops.com/about-us/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Leadership incl. Igal Zifman VP Marketing"},
+    {"url": "http://web.archive.org/web/20261009145645/https://scaleops.com/about-us/", "date": "2026-10-09", "kind": "direct", "result": "Leadership incl. Joey Balázs Head of Marketing, no VP Marketing (fetched via Bright Data; direct id_ fetch 403)"},
+    {"url": "https://scaleops.com/sitemap_index.xml", "date": "2026-11-19", "kind": "direct", "result": "Yoast index: 88 post URLs (87 posts + /blog/), 41 pages, 35 resources, integrations"},
+    {"url": "https://scaleops.com/blog/kubernetes-cost-optimization/", "date": "2026-05-26", "kind": "direct", "result": "Pillar ~11.7k words, 18 in-article links to other posts (raw HTML read)"},
+    {"url": "https://scaleops.com/compare/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Generic ScaleOps vs Others table, no named competitors"},
+    {"url": "https://scaleops.com/robots.txt", "date": "accessed 2026-11-19", "kind": "direct", "result": "Cloudflare managed AI-crawler blocks (GPTBot, ClaudeBot, Google-Extended...), Content-Signal ai-train=no"},
+    {"url": "https://dns.google/resolve?name=scaleops.com&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "HubSpot SPF, 4 Google site verifications, MS365, Cloudflare, OpenAI, Anthropic, Cursor verifications"},
+    {"url": "https://www.linkedin.com/company/scaleops-sh/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: 31,572 followers, 51-200 employees, HQ New York, founded 2022, 'Autonomous Orchestration for AI Infrastructure'"},
+    {"url": "https://cast.ai/cast-ai-vs-scaleops/", "date": "2026-10-20", "kind": "direct", "result": "Competitor comparison page aimed at ScaleOps (modified 2026-11-03)"},
+    {"url": "https://www.cloudbolt.io/blog/scaleops-alternative/", "date": "2026-09-10", "kind": "direct", "result": "Competitor 'ScaleOps alternative' page (modified 2026-11-04)"},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in \"ScaleOps\" marketing", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Titles only via Bright Data: Joey Balázs - Marketing; Paloma Dray - Art Director | Brand & Marketing Designer; Marissa Mendez - Field and ABM; several hits belong to a different ScaleOps (RevOps consultancy, scaleops.co)"},
+    {"url": "https://www.google.com/search?q=\"Joey Balázs\" ScaleOps", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Snippets: 'Joey Balázs, Head of Marketing at ScaleOps' (alexmuresan.com newsletter), LinkedIn post title 'Product Marketing Manager' 1 month ago"},
+    {"url": "https://siliconangle.com/?p=736819", "date": "2026-03-30", "kind": "unverified", "result": "Search summary: will triple headcount by year end (not opened)"}
+  ],
+  "sources_tried_failed": [
+    {"url": "https://boards-api.eu.greenhouse.io/v1/boards/scaleops/jobs", "result": "proxy 502/connect_unreachable; the US API host served the same board"},
+    {"url": "http://web.archive.org/web/20260517081826id_/https://scaleops.com/about-us/", "result": "403 direct; Bright Data returned empty body"},
+    {"url": "https://scaleops.com/llms.txt", "result": "403 to curl (Cloudflare), couldn't verify"},
+    {"url": "Google / WebSearch '\"Igal Zifman\"'", "result": "No external footprint beyond the ScaleOps about page"},
+    {"url": "https://www.linkedin.com/company/scaleops/", "result": "Name collision: a different ScaleOps (fractional RevOps consultancy, scaleops.co, Tel Aviv). Correct page is /company/scaleops-sh"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "ScaleOps (linkedin.com/company/scaleops-sh, NOT /company/scaleops) -> People tab, search 'marketing': confirm Igal Zifman is VP Marketing and when he joined; is Joey Balázs still there and in what role?",
+    "Same People tab, search 'SEO' and 'content': any SEO/content person (would change gating to single_seo)?"
+  ],
+  "open_questions": [
+    "Who does the Senior Content Marketing Manager report to (JD silent): VP Marketing presumably.",
+    "Is an external SEO agency already engaged (JD mentions managing external agencies and freelancers)?",
+    "Igal Zifman start date and background (no public footprint found); public work email not found."
+  ]
+}

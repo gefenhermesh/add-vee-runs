@@ -1,0 +1,202 @@
+[
+ {
+  "slug": "plurai",
+  "features": {
+   "industry": "data_ai_infra",
+   "stage": "seed",
+   "situation": "early",
+   "size_band": "1_50",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "misrepresented",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "buildots",
+  "features": {
+   "industry": "vertical_saas",
+   "stage": "series_c_plus",
+   "situation": "scaling",
+   "size_band": "201_1000",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "unknown",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "darrow",
+  "features": {
+   "industry": "vertical_saas",
+   "stage": "series_b",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "marketing_hire",
+   "finding_pattern": "unknown",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "scaleops",
+  "features": {
+   "industry": "devtools",
+   "stage": "series_c_plus",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "job_post",
+   "finding_pattern": "unknown",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "role",
+   "opener_type": "their_words",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "zenzap",
+  "features": {
+   "industry": "collaboration_saas",
+   "stage": "series_a",
+   "situation": "scaling",
+   "size_band": "1_50",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "misrepresented",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "capitolis",
+  "features": {
+   "industry": "fintech",
+   "stage": "series_c_plus",
+   "situation": "established",
+   "size_band": "51_200",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "unknown",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "bites",
+  "features": {
+   "industry": "hr_tech",
+   "stage": "series_a",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "unknown",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "daylight-security",
+  "features": {
+   "industry": "security",
+   "stage": "series_b",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "israel_us",
+   "marketing_gating": "single_seo",
+   "trigger": "funding",
+   "finding_pattern": "unknown",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "edelbyte",
+  "features": {
+   "industry": "data_ai_infra",
+   "stage": "series_a",
+   "situation": "stealth_exit",
+   "size_band": "1_50",
+   "geo": "israel_us",
+   "marketing_gating": "no_leader_exception",
+   "trigger": "funding",
+   "finding_pattern": "absent",
+   "recipient_role": "ceo",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ },
+ {
+  "slug": "dreeze",
+  "features": {
+   "industry": "cloud_infra",
+   "stage": "seed",
+   "situation": "early",
+   "size_band": "51_200",
+   "geo": "israel_us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "losing_to_named_competitors",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no"
+  }
+ }
+]

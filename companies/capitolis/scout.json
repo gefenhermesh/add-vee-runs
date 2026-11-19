@@ -1,0 +1,137 @@
+{
+  "scout_version": 2,
+  "company": "Capitolis",
+  "domain": "capitolis.com",
+  "slug": "capitolis",
+  "scouted": "2026-11-19",
+  "source_of_lead": "Avi Lewis' LinkedIn list of 2026-11-19 (https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/): Capitolis, $220M Oct, Tel Aviv",
+  "reason": "Established NY/Tel Aviv capital-markets fintech, fresh $220M (incl. $120M Series E, 2026-10-06) funding the eSecLending acquisition; a named VP, Head of Marketing and no SEO person found.\nThe new securities-lending line has no page on capitolis.com (the nav links out to eseclending.com) and thought leadership stopped in Nov 2023: a clear how-AI-sees-the-new-Capitolis angle.",
+  "gating_rating": "sweet_spot",
+  "gating_note": "Leader found (direct): Brian Zilberfarb, VP, Head of Marketing, on capitolis.com/leadership (ex-SAP VP Brand & Awareness / Global Advertising, ex-Ogilvy). No SEO/content-SEO person found in Google site:linkedin.com/in title searches or job boards (couldn't verify fully: logged-out view only). Visible marketing is brand/PR/events-led: PR agency Sloane & Company, a Director/Head of Global Events (London) from search titles, website authors include an agency account (springbox.com). Greenhouse has a Marketing department but 0 open roles. Fit caveat: buyers are a small universe of global banks and asset owners, sold relationship-first, so organic/AI search may weigh less than for a typical B2B SaaS.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Brian Zilberfarb", "role": "VP, Head of Marketing (LinkedIn snippet: Global Head of Marketing)", "kind": "direct", "source": "https://capitolis.com/leadership/", "date": "page lastmod 2026-11-16, accessed 2026-11-19"}
+    ],
+    "evidence": [
+      {"claim": "Leadership page lists Brian Zilberfarb, VP, Head of Marketing, 'responsible for leading Capitolis' global marketing strategy and execution'; previously VP Brand & Awareness Marketing and VP Global Advertising at SAP, earlier Ogilvy & Mather.", "kind": "direct", "url": "https://capitolis.com/leadership/", "date": "2026-11-16"},
+      {"claim": "Brian Zilberfarb is the Capitolis media contact (brianz@capitolis.com) on Business Wire releases, alongside Sloane & Company (PR agency).", "kind": "direct", "url": "https://www.businesswire.com/news/home/20260114623867/en/Capitolis-Achieves-Record-Breaking-2025-Across-Portfolio-Optimization-Business", "date": "2026-01-14"},
+      {"claim": "He is also named contact on the $220M financing release (europesays.com reprint snippet: Michael Guerrera, Sloane; Brian Zilberfarb, Capitolis).", "kind": "inferred", "url": "https://www.europesays.com (Google snippet, query: Capitolis eSecLending businesswire Contacts)", "date": "2026-10-06"},
+      {"claim": "History: Jessica Zall hired as first VP Marketing (Sept 2019); Alicia Tillman Global CMO (Nov 2021), later moved to Delta Air Lines CMO per search titles; Anna Papageorge Director of Marketing & Communications (2021-22 releases); Taylor King Head of Marketing for Brand, Strategy and Ops (Apr 2022). None appear on the current leadership page.", "kind": "inferred", "url": "https://capitolis.com/capitolis-hires-alicia-tillman/ ; https://b2bmarketing.net (2019-09-27) ; https://privateequitywire.com/news/vc-backed-capit... (2022-04-20)", "date": "2019-2022"}
+    ]
+  },
+  "seo_team": {
+    "status": "couldn't verify",
+    "evidence": [
+      {"claim": "Google site:linkedin.com/in title searches via Bright Data for Capitolis + SEO / content / digital marketing / demand generation returned no SEO or content-SEO title at Capitolis. Marketing-adjacent titles seen: Director/Head of Global Events (London), 'Marketing & Project Management' (one Hebrew-locale profile), a Designer (employer not confirmed).", "kind": "inferred", "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Capitolis%22+SEO", "date": "accessed 2026-11-19"},
+      {"claim": "Greenhouse board 'capitolis' has a Marketing department with 0 open jobs (whole board 0 jobs).", "kind": "direct", "url": "https://boards-api.greenhouse.io/v1/boards/capitolis/departments", "date": "accessed 2026-11-19"},
+      {"claim": "Site craft looks agency-maintained, not SEO-team-run: generic titles ('Capitolis - Homepage', 'Capitolis - SA-CCR'), solution pages with 0-2 contextual internal links, no blog beyond press releases since Nov 2023.", "kind": "inferred", "url": "https://capitolis.com/", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "situation": {
+    "estimate": "Established (founded 2017) capital-markets infrastructure fintech HQ'd in New York with R&D in Tel Aviv and an office in London; serves global banks with portfolio optimization (SA-CCR, novations, compression via the 2024 Capitalab acquisition) and a Capital Marketplace. It is in an expansion phase: $220M financing (Oct 2026, $1.9B valuation, bank strategics) funds the $200M all-cash eSecLending acquisition, adding securities lending and an asset-owner client base, plus the April 2026 20 Gates secured-financing deal and an FCA-approved OTF in the UK. A heavy 2025-26 executive rebuild (President, COO, CPO, CFO, CTO, sales heads) points to scaling toward a broader 'financial resource management' platform and possibly an eventual IPO. Category language is shifting from 'optimization' to 'financial resource optimization/management', while the website still sends securities lending to a separate eseclending.com.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "$220M financing: $120M Series E at $1.9B valuation (led by Citi; new strategics Bank of America, Nomura, Tradeweb; existing Barclays, BNP Paribas, J.P. Morgan, State Street, UBS) plus debt (First Citizens, Hercules, Pinegrove); funds the eSecLending acquisition announced 2026-09-29.",
+    "date": "2026-10-06",
+    "source": "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/"
+  },
+  "fit_evidence": [
+    {"claim": "$220M financing incl. $120M Series E at $1.9B valuation, announced 2026-10-06 (company press release; Reuters via TradingView headline confirms same day).", "kind": "direct", "url": "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/", "date": "2026-10-06"},
+    {"claim": "Agreement to acquire eSecLending for $200M all-cash, adding securities lending; 'fourth strategic acquisition in five years'.", "kind": "direct", "url": "https://capitolis.com/capitolis-to-acquire-eseclending-in-200-million-all-cash-transaction-expanding-its-financial-resource-management-solutions-and-client-base-to-include-largest-asset-owners/", "date": "2026-09-29"},
+    {"claim": "Main nav 'Securities Lending' links out to https://www.eseclending.com/ (target=_blank); page-sitemap has no securities-lending page on capitolis.com.", "kind": "direct", "url": "https://capitolis.com/page-sitemap.xml", "date": "accessed 2026-11-19"},
+    {"claim": "Thought-leadership category: about 15 articles, last updated 2023-11-28; everything since is press releases/awards.", "kind": "direct", "url": "https://capitolis.com/category/thought-leadership/", "date": "2023-11-28"},
+    {"claim": "Named VP, Head of Marketing (Brian Zilberfarb) on leadership page.", "kind": "direct", "url": "https://capitolis.com/leadership/", "date": "2026-11-16"},
+    {"claim": "Paid acquisition and marketing automation in place: Google Ads conversion tags (AW-10825172220, AW-10825168182), GA4, Pardot (DNS TXT), Mailchimp/Mailjet SPF.", "kind": "direct", "url": "https://capitolis.com/ ; https://dns.google/resolve?name=capitolis.com&type=TXT", "date": "accessed 2026-11-19"},
+    {"claim": "For a generic 'SA-CCR optimization providers' Google query, OSTTRA's /sa-ccr page and LSEG rank, while Capitolis appears only via its 2021 Acadia press release (one query, Google not AI; scouting signal only).", "kind": "inferred", "url": "https://www.google.com/search?q=financial+resource+optimization+banks+platform+SA-CCR+optimization+providers", "date": "accessed 2026-11-19"}
+  ],
+  "site_and_content": {
+    "cms": "WordPress (Genesis Block theme + child theme), Yoast SEO v28.8; author accounts include an agency (nick-correa@springbox.com, Springbox digital agency)",
+    "analytics_and_tools": "GA4 G-04M62VGCNJ; Google Ads AW-10825172220 and AW-10825168182 with conversion events; DNS TXT: pardot1107972 (Salesforce Pardot / Account Engagement), Mailchimp (servers.mcsv.net), Mailjet, Amazon SES, Zendesk, eventsforce, Zapier, Atlassian, Slack, Anthropic and Cursor domain verifications",
+    "sitemap": "Yoast index: 125 posts, 22 pages, 3 categories (news, press-releases, thought-leadership)",
+    "blog": "No real blog. 125 'posts' are almost all press releases/awards; ~60 were bulk-imported on 2022-10-03..07 (rebrand migration, lastmod dates, not original dates). Since 2023: about 4-6 press releases per quarter, latest 2026-11-18 (Deloitte Fast 500). Thought-leadership category ~15 articles, last 2023-11-28.",
+    "product_pages": "Solutions, Capital Marketplace, Portfolio Optimization, SA-CCR, Novations, PTRR (2026-03). Generic titles ('Capitolis - SA-CCR'). Link-aware read (raw HTML anchors in <main>): Portfolio Optimization page 2 contextual internal links (SA-CCR, Novations); Capital Marketplace 0; SA-CCR page 0 (lead form). Homepage: 10 internal links, all 'Learn more' anchors to company/solutions and press releases.",
+    "comparison_pages": "None on own site. Third-party 'Capitolis alternatives/competitors' pages are aggregator listings (not competitor-authored). No competitor 'vs Capitolis' page found (OSTTRA/LSEG/Quantile mention Capitolis only as a partner/interviewee).",
+    "securities_lending": "No page on capitolis.com; nav links to eseclending.com.",
+    "rebrand": "New brand identity announced 2022 (post 'capitolis-unveils-new-brand-identity...'); LinkedIn tagline now 'the financial resource optimization company'. Wayback snapshot available 2025-01-01 (not diffed).",
+    "llms_txt_robots": "robots.txt is Yoast default, allow all, Crawl-delay 10; no AI-crawler rules (weak signal)"
+  },
+  "jobs": {
+    "greenhouse": "board 'capitolis' exists (embedded on /careers), 0 open jobs on 2026-11-19; departments include Marketing (0 jobs)",
+    "ashby": "404", "lever": "404", "comeet": "comeet.com/jobs/capitolis 404",
+    "aggregators": "ZipRecruiter/Mediabistro/JobLeads list a 'Director, B2B Marketing' (NY, $170-210K) and Atlanta marketing roles under 'Capitolis', but the Mediabistro JD read in full is for Capitalize (401(k) rollover fintech): NAME COLLISION. Atlanta roles appear to be Candescent. Treat aggregator 'Capitolis' marketing jobs as misattributed.",
+    "marketing_roles_open": 0,
+    "seo_roles_open": 0,
+    "note": "Avi's list shows no open-role count for Capitolis."
+  },
+  "contacts": [
+    {"name": "Brian Zilberfarb", "role": "VP, Head of Marketing", "email": "brianz@capitolis.com", "email_verified": false, "email_source": "Business Wire release contacts, 2026-01-14 (public)", "source": "https://capitolis.com/leadership/", "recipient_rank": 1},
+    {"name": "Gil Mandelzis", "role": "CEO & Founder", "email": null, "email_verified": false, "source": "https://capitolis.com/leadership/", "recipient_rank": 2},
+    {"name": "Media Relations", "role": "generic marketing inbox (decoded from press-release page)", "email": "marketing@capitolis.com", "email_verified": false, "source": "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/", "recipient_rank": 3}
+  ],
+  "outreach_angle": {
+    "hook": "Congrats on the $220M / Series E (Oct 6) and eSecLending: Capitolis now sells securities lending, but capitolis.com has no page for it (the menu links out to eseclending.com) and the last thought-leadership piece is from Nov 2023, so how ChatGPT/Gemini describe 'the new Capitolis' to asset owners is being written by third parties. The audit shows how AI sees Capitolis across optimization + securities lending.",
+    "source": "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/ ; https://capitolis.com/page-sitemap.xml",
+    "date": "2026-10-06"
+  },
+  "features": {
+    "industry": "fintech",
+    "stage": "series_c_plus",
+    "situation": "established",
+    "size_band": "51_200",
+    "geo": "israel_us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "funding",
+    "finding_pattern": "unknown",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no"
+  },
+  "sources": [
+    {"url": "https://capitolis.com/capitolis-announces-220-million-in-financing-including-120-million-series-e-at-1-9-billion-valuation-from-bank-of-america-barclays-bnp-paribas-citi-j-p-morgan-nomura-state-street-ubs-tra/", "date": "2026-10-06", "kind": "direct", "result": "Primary press release: $220M incl. $120M Series E at $1.9B, investors, eSecLending purpose"},
+    {"url": "https://www.tradingview.com (Reuters: 'Citi-backed fintech Capitolis valued at about $2 billion')", "date": "2026-10-06", "kind": "inferred", "result": "Google result title/snippet only; independent confirmation of the round date and $1.9B valuation"},
+    {"url": "https://capitolis.com/capitolis-to-acquire-eseclending-in-200-million-all-cash-transaction-expanding-its-financial-resource-management-solutions-and-client-base-to-include-largest-asset-owners/", "date": "2026-09-29", "kind": "direct", "result": "$200M all-cash eSecLending acquisition"},
+    {"url": "https://capitolis.com/leadership/", "date": "2026-11-16", "kind": "direct", "result": "Full leadership list incl. Brian Zilberfarb, VP Head of Marketing"},
+    {"url": "https://www.businesswire.com/news/home/20260114623867/en/Capitolis-Achieves-Record-Breaking-2025-Across-Portfolio-Optimization-Business", "date": "2026-01-14", "kind": "direct", "result": "Fetched via Bright Data; contacts: Shannon Mullins (Sloane & Company), Brian Zilberfarb brianz@capitolis.com"},
+    {"url": "https://capitolis.com/capitolis-hires-alicia-tillman/", "date": "2021-11-03", "kind": "direct", "result": "Alicia Tillman hired as Global CMO (2021); not on current leadership page"},
+    {"url": "https://capitolis.com/sitemap_index.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "Yoast sitemaps: 125 posts, 22 pages; post dates 2022-10 (bulk import) to 2026-11-18"},
+    {"url": "https://capitolis.com/category/thought-leadership/", "date": "2023-11-28", "kind": "direct", "result": "~15 thought-leadership articles, last Nov 2023"},
+    {"url": "https://capitolis.com/", "date": "accessed 2026-11-19", "kind": "direct", "result": "WordPress/Genesis, Yoast, GA4, 2 Google Ads tags; nav Securities Lending -> eseclending.com; link-aware read of main content"},
+    {"url": "https://capitolis.com/portfolio-optimization/", "date": "2025-04-01", "kind": "direct", "result": "2 contextual internal links in main"},
+    {"url": "https://capitolis.com/saccr/", "date": "2023-10-13", "kind": "direct", "result": "0 internal links in main; lead form"},
+    {"url": "https://dns.google/resolve?name=capitolis.com&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "Pardot, Mailchimp, Mailjet, SES, Zendesk, eventsforce, Zapier, etc."},
+    {"url": "https://boards-api.greenhouse.io/v1/boards/capitolis/departments", "date": "accessed 2026-11-19", "kind": "direct", "result": "Board exists, Marketing dept, 0 jobs overall"},
+    {"url": "https://www.linkedin.com/company/capitolis.com/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: 10,549 followers, 51-200 employees, HQ New York; locations New York, London, Tel Aviv; industry Capital Markets"},
+    {"url": "https://www.mediabistro.com/jobs/3542925382-director-b2b-marketing", "date": "2026-09-13", "kind": "direct", "result": "Listed under 'Capitolis' but JD is for Capitalize (name collision)"},
+    {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Capitolis%22+marketing", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Titles only: Brian Zilberfarb - Capitolis; Tara Goldsmith - Director of Global Events; others non-marketing"},
+    {"url": "https://www.google.com/search?q=%22Capitolis%22+%22Head+of+Marketing%22+OR+%22Marketing+Lead%22", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Snippets: Brian Zilberfarb Global Head of Marketing (LinkedIn title), Instagram 'Leaders of Capitolis' Head of Marketing; RocketReach (unverified) same"},
+    {"url": "https://rocketreach.co/brian-zilberfarb-email_11851030", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Snippet only: Global Head of Marketing at Capitolis"},
+    {"url": "http://archive.org/wayback/available?url=capitolis.com&timestamp=20250101", "date": "2025-01-01", "kind": "direct", "result": "Snapshot available; not diffed"}
+  ],
+  "sources_tried_failed": [
+    {"url": "https://www.linkedin.com/company/capitolis/", "result": "Bright Data returned LinkedIn 'Page not found' (wrong slug; real slug capitolis.com)"},
+    {"url": "https://api.ashbyhq.com/posting-api/job-board/capitolis", "result": "404"},
+    {"url": "https://api.lever.co/v0/postings/capitolis", "result": "404"},
+    {"url": "https://www.comeet.com/jobs/capitolis", "result": "404"},
+    {"url": "readers.read_job_board('capitolis')", "result": "None: Greenhouse returns 0 jobs, so reader skips it"},
+    {"url": "https://www.google.com/search?q=%22Becca+Lovano%22", "result": "No results parsed; role unknown"},
+    {"url": "AI-visibility probe (ChatGPT/Gemini)", "result": "Not run: no easy Bright Data route in this session"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Capitolis company page (linkedin.com/company/capitolis.com) -> People tab, filter 'marketing': how many in marketing, and is anyone SEO/content/digital (to confirm no SEO team)?",
+    "Confirm Brian Zilberfarb is still Head of Marketing (title shown on the People card, no profile visit needed).",
+    "People tab, filter Tel Aviv: any marketing person in Israel (Hebrew-locale 'Marketing & Project Management' title appeared in search)?"
+  ],
+  "open_questions": [
+    "Is there any SEO/content person or an SEO agency? Only an agency web account (Springbox) and a PR agency (Sloane) were found.",
+    "How much does organic/AI search matter to a business whose buyers are a few hundred banks and asset owners? Securities lending to asset owners (pensions, insurers) widens the audience somewhat.",
+    "Avi's list places Capitolis in Tel Aviv, but HQ and the marketing lead are in New York; Israel is R&D. Send slot should follow New York time.",
+    "Headcount: LinkedIn says 51-200; eSecLending (closing pending) will add staff."
+  ]
+}

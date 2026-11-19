@@ -15,3 +15,6 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-19T21:31:00+00:00 vega-security gate_1_2_approval.json written on campaign/vega-security (099a80b) from the sponsor's "move on with vega"; Vega session told to merge master and follow the new section
 
 ## Cohorts
+
+## 2026-11-19 · Scout run 1
+Long list: 130 companies (Firgun 13 Nov, Telegram marketing jobs, Avi Lewis list). Filter: `campaign/scout/filter_2026-11-19.md`. Recon: 12. Proposed 10 (plurai, buildots, darrow, scaleops, zenzap, capitolis, bites, daylight-security, edelbyte, dreeze). Held: geoedge (exception without funding; watch for new VP Marketing), dealhub (blocked: SEO Lead). Picks (learn.py, no outcome data yet): capitolis, plurai, scaleops (exploit), buildots, zenzap (explore). LinkedIn People-tab checks for the sponsor are in each `companies/<slug>/scout.json` → `linkedin_checks_for_sponsor`.
