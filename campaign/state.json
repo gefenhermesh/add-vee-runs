@@ -36,24 +36,30 @@
       "slug": "vega-security",
       "company": "Vega Security",
       "domain": "vega.io",
-      "status": "running",
+      "status": "waiting_gate",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
       "session_id": "session_01FkmvpLZ6FUjGe75kzwKsJV",
       "started_at": "2026-11-19T19:46:19+00:00",
       "nudges": 0,
-      "notified": {},
+      "notified": {
+        "gate": "2026-11-19T20:54:34+00:00"
+      },
       "branch": "campaign/vega-security"
     },
     {
       "slug": "gambit-security",
       "company": "Gambit Security",
       "domain": "gambit.security",
-      "status": "queued",
+      "status": "starting",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
-      "cohort_id": "pilot-1"
+      "cohort_id": "pilot-1",
+      "session_id": "session_01FkmvpNiJwuxysfV3X6YW1h",
+      "started_at": "2026-11-19T20:54:34+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "upwind",
@@ -83,7 +89,7 @@
     "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release.",
     "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov)."
   },
-  "last_tick": "2026-11-19T19:53:27+00:00",
+  "last_tick": "2026-11-19T20:54:34+00:00",
   "manager": {
     "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
     "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",

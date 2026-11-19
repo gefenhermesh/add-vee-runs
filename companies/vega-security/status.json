@@ -1,6 +1,6 @@
 {
-  "stage": "loop_a",
-  "ts": "2026-11-19T19:49:00+00:00",
-  "note": "Loop A started: researcher running for vega.io",
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-19T20:21:42+00:00",
+  "note": "Loop A approved (round 2, patch applied); waiting for sponsor Gate 1-2 approval",
   "branch": "campaign/vega-security"
 }
