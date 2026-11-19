@@ -1,0 +1,3233 @@
+{
+ "built": "2026-11-19T19:45:32+00:00",
+ "errors": [],
+ "companies": [
+  {
+   "key": "daylight",
+   "company": "Daylight Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "founders": [
+      "Eldad Rudich"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 80.0,
+     "open_roles": 9
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "founders": [
+      "Eldad Rudich"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 80.0,
+     "open_roles": 9
+    }
+   ]
+  },
+  {
+   "key": "edelbyte",
+   "company": "Edelbyte",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 70.0,
+     "stage": "seed",
+     "founders": [
+      "Evgeney Ryzhyk",
+      "Alexander Sloutsky",
+      "Yoni Leibowitz"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 45.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 70.0,
+     "stage": "seed",
+     "founders": [
+      "Evgeney Ryzhyk",
+      "Alexander Sloutsky",
+      "Yoni Leibowitz"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 45.0
+    }
+   ]
+  },
+  {
+   "key": "spines",
+   "company": "Spines",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 64.0,
+     "stage": "growth",
+     "founders": [
+      "Yehuda Niv"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 64.0,
+     "open_roles": 6
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 64.0,
+     "stage": "growth",
+     "founders": [
+      "Yehuda Niv"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 64.0,
+     "open_roles": 6
+    }
+   ]
+  },
+  {
+   "key": "dreeze",
+   "company": "Dreeze",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 33.0,
+     "stage": "seed",
+     "founders": [
+      "Oded Kedem",
+      "Avi Raichel"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0,
+     "open_roles": 3
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 33.0,
+     "stage": "seed",
+     "founders": [
+      "Oded Kedem",
+      "Avi Raichel"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0,
+     "open_roles": 3
+    }
+   ]
+  },
+  {
+   "key": "plurai",
+   "company": "Plurai",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 13.0,
+     "stage": "seed",
+     "founders": [
+      "Ilan Kadar",
+      "Elad Levi"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 13.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 13.0,
+     "stage": "seed",
+     "founders": [
+      "Ilan Kadar",
+      "Elad Levi"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 13.0
+    }
+   ]
+  },
+  {
+   "key": "pluto",
+   "company": "Pluto Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Marketing Designer",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 42.0,
+     "open_roles": 1
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 42.0,
+     "open_roles": 1
+    }
+   ]
+  },
+  {
+   "key": "ribon",
+   "company": "Ribon",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 200.0,
+     "founders": [
+      "Ehud Schneorson"
+     ],
+     "note": "still in stealth"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 200.0,
+     "founders": [
+      "Ehud Schneorson"
+     ],
+     "note": "still in stealth"
+    }
+   ]
+  },
+  {
+   "key": "pillar",
+   "company": "Pillar Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 150.0,
+     "founders": [
+      "Ziv Karliner"
+     ]
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 150.0,
+     "founders": [
+      "Ziv Karliner"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "laguna health",
+   "company": "Laguna Health",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "founders": [
+      "Yael Peled Adam"
+     ]
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "founders": [
+      "Yael Peled Adam"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vine ventures",
+   "company": "Vine Ventures",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 236.0,
+     "founders": [
+      "Eric Reiner",
+      "Adam Valkin"
+     ]
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 236.0,
+     "founders": [
+      "Eric Reiner",
+      "Adam Valkin"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "capitolis",
+   "company": "Capitolis",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 220.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 220.0
+    }
+   ]
+  },
+  {
+   "key": "sentra",
+   "company": "Sentra",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 150.0,
+     "open_roles": 11
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 150.0,
+     "open_roles": 11
+    }
+   ]
+  },
+  {
+   "key": "corma",
+   "company": "Corma",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 125.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 125.0
+    }
+   ]
+  },
+  {
+   "key": "ramon space",
+   "company": "Ramon.Space",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 124.0,
+     "open_roles": 11
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 124.0,
+     "open_roles": 11
+    }
+   ]
+  },
+  {
+   "key": "bites",
+   "company": "Bites",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 40.0,
+     "open_roles": 2
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 40.0,
+     "open_roles": 2
+    }
+   ]
+  },
+  {
+   "key": "zenzap",
+   "company": "Zenzap",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0
+    }
+   ]
+  },
+  {
+   "key": "mave",
+   "company": "Mave",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 28.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 28.0
+    }
+   ]
+  },
+  {
+   "key": "rein",
+   "company": "Rein Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 25.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 25.0
+    }
+   ]
+  },
+  {
+   "key": "undecimal bio",
+   "company": "Undecimal Bio",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 18.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 18.0
+    }
+   ]
+  },
+  {
+   "key": "modelyo",
+   "company": "Modelyo",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 17.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 17.0
+    }
+   ]
+  },
+  {
+   "key": "high lander",
+   "company": "High Lander",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 16.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 16.0
+    }
+   ]
+  },
+  {
+   "key": "incredibuild",
+   "company": "Incredibuild",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 15.0,
+     "open_roles": 5
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 15.0,
+     "open_roles": 5
+    }
+   ]
+  },
+  {
+   "key": "brava",
+   "company": "Brava Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 15.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 15.0
+    }
+   ]
+  },
+  {
+   "key": "bloomx",
+   "company": "BloomX",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 13.0,
+     "open_roles": 6
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 13.0,
+     "open_roles": 6
+    }
+   ]
+  },
+  {
+   "key": "phantom gi",
+   "company": "Phantom GI",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 5.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 5.0
+    }
+   ]
+  },
+  {
+   "key": "two delta",
+   "company": "Two Delta",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/"
+    }
+   ]
+  },
+  {
+   "key": "wix",
+   "company": "Wix",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Business Analyst - Wix Marketing",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Video Creator - Wix Motion Studio",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Performance Marketing Analyst",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "Product Manager - Premium Growth",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "Brand and Web Designer - DesignDev team",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Senior Visual Designer – Brand & Motion",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Social Media Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 7,
+   "funding": []
+  },
+  {
+   "key": "expressvpn",
+   "company": "ExpressVPN",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-31",
+     "role": "Product Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Head of CRM",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Paid Social Growth Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "(Senior) Business Analyst – User Acquisition and Growth",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Mobile User Acquisition Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 5,
+   "funding": []
+  },
+  {
+   "key": "g stat",
+   "company": "G-STAT",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-01",
+     "role": "Marketing Data Analyst",
+     "location": "Center District"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "Digital Manager"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "מנהל.ת מחלקת תקשורת שיווקית"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "מנהל/ת שיווק",
+     "location": "Central District"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 4,
+   "funding": []
+  },
+  {
+   "key": "viber",
+   "company": "Viber",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Motion & Brand Designer",
+     "location": "Ramat Gan (Hybrid)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Creative Lead",
+     "location": "Ramat Gan (Hybrid)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "SVP, Product Marketing",
+     "location": "Ramat Gan (Hybrid)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "B2B Marketing Design Lead",
+     "location": "Ramat Gan (Hybrid)"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 4,
+   "funding": []
+  },
+  {
+   "key": "medulla",
+   "company": "Medulla",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-08",
+     "role": "אנליסט שיווק",
+     "location": "Tel Aviv (On-site)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-08",
+     "role": "User Acquisition Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Marketing Analyst",
+     "location": "Tel Aviv (On-site)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Marketing Analyst",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 4,
+   "funding": []
+  },
+  {
+   "key": "elbit systems",
+   "company": "Elbit Systems",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "מנהל.ת שיווק",
+     "location": "Ramat HaSharon"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Marketing and Business Development",
+     "location": "Haifa"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "מנהל.ת שיווק תחום עסקי דרום אמריקה",
+     "location": "Carmiel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 3,
+   "funding": []
+  },
+  {
+   "key": "check point",
+   "company": "Check Point",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "Field Marketing Manager - EMEA & APAC",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "Events Operations Specialist - Temporary Position (6 months)",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "Marketing Operations Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 3,
+   "funding": []
+  },
+  {
+   "key": "iai",
+   "company": "IAI",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-07",
+     "role": "ראש/ת מינהל מערכות הגנ\"א ימיות להודו",
+     "location": "Yehud"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-14",
+     "role": "ראש/ת תחום שיווק במינהל מכם מוטס",
+     "location": "Ashdod"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "ראש/ת מינהל משלחות וחברות בנות שיווקיות",
+     "location": "Lod"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 3,
+   "funding": []
+  },
+  {
+   "key": "scaleops",
+   "company": "ScaleOps",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Senior Marketing Designer",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Product Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Senior Content Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 3,
+   "funding": []
+  },
+  {
+   "key": "medison pharma",
+   "company": "Medison Pharma",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Digital & Content Director",
+     "location": "Petah Tikva"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Internal Comms, Employer Brand, Sr. Manager, Marketing & Communications",
+     "location": "Petah Tikva"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "PR Director, Marketing & Communications",
+     "location": "Petah Tikva"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 3,
+   "funding": []
+  },
+  {
+   "key": "echo",
+   "company": "Echo",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Campaign Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Product Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "orchid",
+   "company": "Orchid Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Marketing Operations Manager",
+     "location": "Israel"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-31",
+     "role": "Marketing Operations Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "dream",
+   "company": "Dream",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "CTI Outbound Reasercher",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "CTI Outbound Researcher",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "wonderful",
+   "company": "Wonderful",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "Global Partner Marketing Lead, Hyperscalers",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Social Media Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "lsports",
+   "company": "LSports",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Chief Marketing Officer (CMO)",
+     "location": "Ashkelon"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Chief Marketing Officer",
+     "location": "Ashkelon"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "dealhub",
+   "company": "DealHub",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Head of Brand & Narrative",
+     "location": "Holon"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-16",
+     "role": "Senior SEO & GEO Specialist",
+     "location": "Holon"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "alma lasers",
+   "company": "Alma Lasers",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "Social Media & Campaign Specialist",
+     "location": "Caesarea"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Digital Marketing Operations & Social Media Specialist",
+     "location": "Shoham"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "hunt performance marketing",
+   "company": "Hunt Performance Marketing",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "מנהל/ת קמפיינים (PPC)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "מנהל/ת פרפורמנס בכיר/ה"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "sauce",
+   "company": "Sauce",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "Head of Go-To-Market Engineering",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "Head of Go-To-Market Engineering",
+     "location": "Israel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "logz",
+   "company": "Logz.io",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "GTM Engineer – Marketing",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "GTM Engineer – Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "monday com",
+   "company": "monday.com",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "Product Marketing Manager, AI Builder",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Communications Manager, Social (Maternity leave cover)",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "plus500",
+   "company": "Plus500",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "Affiliate Marketing Specialist",
+     "location": "Haifa"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "UX & Marketing Content Writer",
+     "location": "Haifa"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "zero networks",
+   "company": "Zero Networks",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "Product Marketing Manager",
+     "location": "Israel"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "Product Marketing Manager",
+     "location": "Ramat Gan"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "geoedge",
+   "company": "GeoEdge",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-08",
+     "role": "Head of Product Marketing",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "VP Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "hibob",
+   "company": "HiBob",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Senior Marketing Manager – Israel & Central Europe",
+     "location": "Israel (Hybrid)"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Senior Director Product Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "helfy",
+   "company": "Helfy",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Brand Designer",
+     "location": "Herzliya"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Technical Marketing Operations Manager",
+     "location": "Herzliya"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "frontstory",
+   "company": "FrontStory",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "Performance Marketing Manager (PPC & User Acquisition) – Mobile Apps",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "User Acquisition Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "buildots",
+   "company": "Buildots",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "Performance Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Performance Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "harmony",
+   "company": "harmony",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-14",
+     "role": "Creative Lead, Brand and Video",
+     "location": "Israel"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Creative Lead, Brand and Video (Tel Aviv)",
+     "location": "Israel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "agora re",
+   "company": "Agora RE",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-14",
+     "role": "Communications & Content Lead",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-14",
+     "role": "Head Of Communications & Content",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "spikerz",
+   "company": "Spikerz Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "VP Marketing",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "bluebird aero systems",
+   "company": "BlueBird Aero Systems Ltd.",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Marketing Communications Lead - JB-118",
+     "location": "Center District"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "מוביל/ת תקשורת שיווקית (מרקום)"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "seeking alpha",
+   "company": "Seeking Alpha",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Paid UGC Specialist",
+     "location": "Ra'anana"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Head of Conversion & Retention",
+     "location": "Ra'anana"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "cato networks",
+   "company": "Cato Networks",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "GTM Product Marketing Manager EMEA",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Web Marketing Manager — Contract",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 2,
+   "funding": []
+  },
+  {
+   "key": "kissterra",
+   "company": "Kissterra",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Remarketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "nebius",
+   "company": "Nebius",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Senior User Acquisition Manager, Meta & Google Ads (US Degree Programs)",
+     "location": "Israel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "gloat",
+   "company": "Gloat",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-30",
+     "role": "Demand Generation lead- AI Native",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "rafael",
+   "company": "Rafael",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-10-31",
+     "role": "סטודנט.ית לתקשורת שיווקית בחטיבה טכנולוגית (מרקום)",
+     "location": "Kiryat Bialik"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "natural intelligence",
+   "company": "Natural Intelligence",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "Content Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "pointfive",
+   "company": "PointFive",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-02",
+     "role": "Social & Content Lead",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "hello heart",
+   "company": "Hello Heart",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Senior Director, Product Growth",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "navan",
+   "company": "Navan",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Senior Product Marketing Manager, Navan Expense",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "one zero digital bank",
+   "company": "ONE ZERO Digital Bank",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Marketing Automation & GTM Specialist",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "zota",
+   "company": "Zota",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Social Media & Marketing Analyst",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "commtact",
+   "company": "Commtact",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Marketing Communications Manager",
+     "location": "Modiin"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "allcloud",
+   "company": "AllCloud",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Marketing Automation Specialist",
+     "location": "Ra'anana"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "oak",
+   "company": "Oak",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Social Media & Employer branding Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "wsc sports",
+   "company": "WSC Sports",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-03",
+     "role": "Marketing Vertical Growth, Team Lead",
+     "location": "Israel (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "ai21",
+   "company": "AI21 Labs",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "Senior Marketing Designer",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "astelia",
+   "company": "Astelia",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-04",
+     "role": "Senior Product Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "lusha",
+   "company": "Lusha",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "Senior Content Writer, GTM & AI",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "way",
+   "company": "Way Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "Marketing Operations & Data Analytics Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "plarium",
+   "company": "Plarium",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Marketing Lead",
+     "location": "Herzliya"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "fullpath",
+   "company": "Fullpath",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Marketing Content Specialist -Temporary (Mat Leave Replacement)",
+     "location": "Jerusalem (Hybrid)"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "3dsellers",
+   "company": "3Dsellers",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "limy",
+   "company": "Limy AI",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Marketing Designer",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "remepy",
+   "company": "Remepy",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Content Writer",
+     "location": "Ramat Gan"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "abra it",
+   "company": "Abra IT",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-06",
+     "role": "Marketing Coordinator- Cloud",
+     "location": "Center District"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "welo global",
+   "company": "Welo Global",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-07",
+     "role": "English to Hebrew Linguist for UI, Marketing & Product Content",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "adesco",
+   "company": "Adesco",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-08",
+     "role": "Founding Marketer",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "artlist",
+   "company": "Artlist",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Influencer Marketing Team Lead",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "mind",
+   "company": "MIND Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Senior Technical Product Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "hyperguest",
+   "company": "HyperGuest",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Marketing Internship Role",
+     "location": "Ramat Gan"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "april",
+   "company": "April",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Product Manager, Growth (DIY Tax Filing)",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "bet shemesh engines",
+   "company": "Bet Shemesh Engines",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "אדמין/ית שיווק - משרה זמנית",
+     "location": "Beit Shemesh"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "xtra mile",
+   "company": "xtra-mile",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Marketing Specialist",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "pango",
+   "company": "Pango",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Marketing Automation Team Lead",
+     "location": "Petah Tikva"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "keshet",
+   "company": "keshet",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Creative Copywriter"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "hp",
+   "company": "HP",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Competitive Intelligence Analyst - Student",
+     "location": "Ness Ziona"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "blockaid",
+   "company": "Blockaid",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "Director, Product Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "aidoc",
+   "company": "Aidoc",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "Event and Field Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "cymulate",
+   "company": "Cymulate",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "Marketing Designer- Maternity leave replacement",
+     "location": "Israel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "river",
+   "company": "IO River",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-11",
+     "role": "Head of Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "ionix",
+   "company": "Ionix",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Senior Product Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "seetrue",
+   "company": "SeeTrue",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Technical Product Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "superplay",
+   "company": "SuperPlay",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Cummunity Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "kela",
+   "company": "Kela Technologies",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Senior Marketing Designer",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "anzu",
+   "company": "Anzu",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "TECHNICAL SPECIALIST",
+     "location": "Israel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "jazz",
+   "company": "Jazz",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "AI GTM Engineer",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "cal online",
+   "company": "Cal Online",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "אנליסט.ית חדר מבצעים- משרה זמנית",
+     "location": "Israel"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "nova",
+   "company": "Nova",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "Product Marketing Manager – Dimensional Metrology Division",
+     "location": "Rehovot"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "payoneer",
+   "company": "Payoneer",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "Senior Product Marketing Manager",
+     "location": "Herzliya"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "appalgo",
+   "company": "AppAlgo",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "User Acquisition Manager",
+     "location": "Ramat Gan"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "darrow",
+   "company": "Darrow AI",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-16",
+     "role": "Senior Performance Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "accessibe",
+   "company": "accessiBe",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-16",
+     "role": "Brand & Marketing Designer - Maternity Leave Replacement",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "appcharge",
+   "company": "Appcharge",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-16",
+     "role": "Senior Marketing Designer",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "oobit",
+   "company": "Oobit",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-16",
+     "role": "Graphic & Brand Designer",
+     "location": "Herzliya (On-site)"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "deloitte",
+   "company": "Deloitte",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Marketing Automation Specialist",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "sciplay",
+   "company": "SciPlay",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Art Direction Lead",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "mayven",
+   "company": "Mayven",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Creative Strategist",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "okoora",
+   "company": "Okoora",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-17",
+     "role": "Head of Growth",
+     "location": "Ramat Gan"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "papaya gaming",
+   "company": "Papaya Gaming",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Internal Communications and Employer Branding Manager (Maternity Leave Cover)",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "mediaforce",
+   "company": "MediaForce",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Junior Performance Growth Manager",
+     "location": "Holon"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "qiz",
+   "company": "QIZ Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Field Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "webselenese",
+   "company": "Webselenese",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "User Acquisition Manager (Non-search)",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "kendago",
+   "company": "Kendago",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Brand Growth Lead",
+     "location": "Kiryat Ono"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "the5ers com",
+   "company": "The5ers.com",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "PPC",
+     "location": "Ra'anana"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "10bis",
+   "company": "10bis",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Head of Marketing Israel",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "alta revenue workforce",
+   "company": "Alta | AI Revenue Workforce",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Product Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "radware",
+   "company": "Radware",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Customer Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "guardio",
+   "company": "Guardio",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Junior In-House Content Creator & UGC Specialist",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "figma",
+   "company": "Figma",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-19",
+     "role": "Brand Designer - Figma Weave (Tel Aviv, Israel)",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": false,
+   "marketing_roles": 1,
+   "funding": []
+  },
+  {
+   "key": "bay",
+   "company": "Bay",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 50.0,
+     "stage": "Series A",
+     "founders": [
+      "Yuval Zacharia",
+      "Aner Morag",
+      "Boris Danilovich"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 37.0,
+     "open_roles": 4
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 50.0,
+     "stage": "Series A",
+     "founders": [
+      "Yuval Zacharia",
+      "Aner Morag",
+      "Boris Danilovich"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 37.0,
+     "open_roles": 4
+    }
+   ]
+  },
+  {
+   "key": "upwind",
+   "company": "Upwind Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-05",
+     "role": "Content Writer",
+     "location": "Ramat Gan"
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": true,
+   "marketing_roles": 1,
+   "funding": []
+  }
+ ]
+}

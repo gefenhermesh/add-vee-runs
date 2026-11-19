@@ -64,3 +64,9 @@ Limits that still hold: never act under the sponsor's identity (no connecting, f
 
 ## State between runs
 Keep a `watch` list in `state.json` for proposed and held companies, recording the last-seen marketing leader, funding round and category language. On each weekly scout run, flag changes (new marketing leader, new round, rebrand) as triggers.
+
+## Running the scout (weekly, or when the sponsor asks)
+1. `python campaign/scout/longlist.py --avi-url <Avi Lewis' latest list post>`. This reads VC Cafe Firgun, the marketing-jobs Telegram channel and Avi's list into `campaign/scout/longlist.json`, merged per company, marking companies already known. Readers live in `campaign/scout/readers.py` and are tested on saved pages (`test_readers.py`). Goozali's table still needs a reader. Add other SOURCES.md sources by hand until they have readers.
+2. **Quick filter** of the new, unknown companies: drop non-B2B, non-tech, investors (VC funds show up in round lists) and obvious misfits, one line of reason each.
+3. **Recon** of the survivors, with every source that helps (above): marketing leadership and SEO team (gating), situation, trigger, recipient candidates, the outreach hook. Use `readers.read_job_board(<board name>)` for open roles. Write `companies/<slug>/scout.json` with the `features` (learn.py FEATURES).
+4. **Propose:** add each as `proposed` in `state.json` (with `features`, a two-line reason and the gating rating), then `python campaign/learn.py pick <candidates.json> <n>` to choose the week's set (exploit and explore), and notify the sponsor to release them.
