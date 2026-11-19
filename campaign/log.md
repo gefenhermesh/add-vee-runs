@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-19T21:54:21+00:00 mark vega-security running
+- 2026-11-19T21:54:21+00:00 mark gambit-security waiting_gate
+- 2026-11-19T21:54:21+00:00 notify gambit-security gate
 - 2026-11-19T20:54:34+00:00 mark vega-security waiting_gate
 - 2026-11-19T20:54:34+00:00 notify vega-security gate
 - 2026-11-19T20:54:34+00:00 start gambit-security
