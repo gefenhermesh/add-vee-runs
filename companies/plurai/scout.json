@@ -1,0 +1,128 @@
+{
+  "scout_version": 2,
+  "company": "Plurai",
+  "domain": "plurai.ai",
+  "slug": "plurai",
+  "scouted": "2026-11-19",
+  "source_of_lead": "VC Cafe Weekly Firgun Newsletter, Nov 13 2026 ($13M seed); also Avi Lewis' LinkedIn list",
+  "reason": "Fresh $13M Team8-led seed + public launch (Nov 11 2026) with a brand-new category line ('recursive self-improvement layer for AI agents'); named VP Marketing, no SEO person/team found.\nIts own llms.txt still describes the old 'trust platform / evals & guardrails' positioning, a concrete how-AI-sees-you gap right after a repositioning.",
+  "gating_rating": "sweet_spot",
+  "gating_note": "VP Marketing (Lital Grossman) listed on plurai.ai/about; marketing org looks like VP Marketing + Head of DevRel & DevEx. No SEO/content role found in site team list or Google site:linkedin.com/in snippets (couldn't verify beyond that). robots.txt says Semrush/Ahrefs are 'SEO tooling used in-house', so someone (probably the marketing lead) does SEO work in-house; no dedicated SEO team visible. Weigh: they are SEO-aware.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Lital Grossman", "role": "VP Marketing", "location": "San Francisco Bay Area (per Google snippet of her LinkedIn, not opened)", "since": "unknown"},
+      {"name": "Karishma Shah", "role": "Head of DevRel & DevEx"}
+    ],
+    "evidence": [
+      {"claim": "About page team list names Lital Grossman, VP Marketing, and Karishma Shah, Head of DevRel & DevEx", "kind": "direct", "url": "https://www.plurai.ai/about", "date": "page lastmod 2026-11-11, accessed 2026-11-19"},
+      {"claim": "Google snippet: 'Lital Grossman - San Francisco Bay Area', Tel Aviv University; she posts the launch and Replay feature on LinkedIn", "kind": "inferred", "url": "https://www.google.com/search?q=%22Lital%20Grossman%22%20Plurai", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "seo_team": {
+    "status": "couldn't verify",
+    "evidence": [
+      {"claim": "No SEO/content/growth title in the about-page team list (13 people incl. founders)", "kind": "direct", "url": "https://www.plurai.ai/about", "date": "accessed 2026-11-19"},
+      {"claim": "Google site:linkedin.com/in \"Plurai\" SEO / content OR growth / \"at Plurai\": only founders, engineers, ops; SEO results were unrelated people (name noise)", "kind": "inferred", "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Plurai%22%20SEO", "date": "accessed 2026-11-19"},
+      {"claim": "robots.txt comment: '# --- SEO tooling used in-house: must stay unblocked ---' allowing SemrushBot and AhrefsBot; also explicitly welcomes GPTBot, ClaudeBot, PerplexityBot etc.", "kind": "direct", "url": "https://www.plurai.ai/robots.txt", "date": "accessed 2026-11-19"}
+    ]
+  },
+  "situation": {
+    "estimate": "Seed-stage (founded 2025, LinkedIn 11-50 employees) AI-agent reliability company that just came out publicly: $13M seed led by Team8 and GA of Plurai Simulation on Nov 11 2026, with a free developer tier distributed as plugins for Claude Code, Codex and Copilot. It is repositioning: March 2026 site said 'AI Agent Lifecycle Management Platform / real world trust platform for AI agents'; now 'The Recursive Self-Improvement Layer for AI Agents' (simulation + post-training). Marketing is ramping fast (launch blog burst of 5 posts in a week, Dec 9 webinar, events, Replay feature launch Nov 19), led by a VP Marketing with a DevRel head; go-to-market is moving to product-led developer adoption plus enterprise. Heading: developer adoption and category creation in a crowded agent-evals space (Galileo, Arize, Patronus, etc.).",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "$13M seed led by Team8 (with U&I, Velocity, Mercer, 20+ angels), announced with GA of Plurai Simulation",
+    "date": "2026-11-11",
+    "source": "https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents"
+  },
+  "fit_evidence": [
+    {"claim": "CEO launch post announces $13M seed led by Team8 and free GA of Plurai Simulation", "kind": "direct", "url": "https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents", "date": "2026-11-11"},
+    {"claim": "VC Cafe Firgun lists Plurai's $13M seed 'to apply lessons from autonomous-driving simulation to enterprise agents'", "kind": "direct", "url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/", "date": "2026-11-13"},
+    {"claim": "FinSMEs (snippet): 'a Tel Aviv, Israel-based provider of a simulation infrastructure for AI agents'; CTech (snippet): emerged from stealth with $13M seed", "kind": "inferred", "url": "https://www.finsmes.com", "date": "2026-11-11"},
+    {"claim": "Category language changed: Mar 2026 homepage title 'AI Agent Lifecycle Management Platform', H1 'The real world trust platform for AI agents'; Nov 2026 title 'The Recursive Self-Improvement Layer for AI Agents'", "kind": "direct", "url": "https://web.archive.org/web/20260313212106/https://www.plurai.ai/", "date": "2026-03-13 vs 2026-11-19"},
+    {"claim": "llms.txt still says 'Plurai is an AI agent trust platform for simulation, evals, and guardrails' and calls /launch a 'vibe-training platform for evals and guardrails' page: stale vs the new positioning", "kind": "direct", "url": "https://www.plurai.ai/llms.txt", "date": "accessed 2026-11-19"},
+    {"claim": "No comparison / vs / alternatives pages on plurai.ai (sitemap has 44 URLs, none comparative); third-party aggregators (SourceForge, Slashdot 'Plurai vs Teammately', PeerSpot 'AgentGuards vs Plurai', powerfulai.tools, ainovatools) own the 'Plurai alternatives' results", "kind": "direct", "url": "https://www.plurai.ai/sitemap.xml", "date": "accessed 2026-11-19"},
+    {"claim": "LinkedIn company page: HQ New York City, 11-50 employees, founded 2025, 2,872 followers", "kind": "direct", "url": "https://www.linkedin.com/company/plurai/", "date": "accessed 2026-11-19"}
+  ],
+  "site_and_content": {
+    "cms": "Webflow (cdn.prod.website-files.com, webflow css); docs at docs.plurai.ai on Mintlify; app at app.plurai.ai / simulation.plurai.ai",
+    "tools": "HubSpot (SPF include hubspotemail.net + HubSpot embeds on site), Google Workspace (MX), Google Tag Manager, google-site-verification TXT; Semrush + Ahrefs per robots.txt comment",
+    "blog": "17 posts in /blog, Jan 21 2025 -> Nov 19 2026. Cadence: ~4 posts in 2025 (Jan, Feb, Sep, Dec), ~6 in Apr-Oct 2026, then 6 in Nov 2026 (launch burst: 4 on Nov 11, 1 on Nov 19). Authors are founders and engineers (Elad Levi, Ilan Kadar, Reut Vilek, Arnon Mazza). Research/engineering style, not SEO-structured.",
+    "link_aware_read": "Raw-HTML read of 5 posts across the date range (Jan 2025, Sep 2026, Sep 2026, Nov 11 2026, Nov 19 2026): in-body internal links to other blog posts 0,0,0,0,1; links are to arXiv/GitHub/app. No pillar/cluster structure. Some external links carry '?utm_source=chatgpt.com'. BlogPosting schema present on posts.",
+    "comparison_pages": "none on own site; none found from a named competitor aimed at them (only aggregator comparison pages)",
+    "ai_crawler_signals": "robots.txt explicitly allows GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended (weak signal); llms.txt exists but is stale",
+    "other": "FAQ page, calculator page, events pages (AWS re:Invent, NVIDIA GTC, AI Engineer World's Fair), Dec 9 2026 webinar via Luma; /old-home kept in sitemap"
+  },
+  "jobs": {
+    "status": "not found",
+    "detail": "Careers page has only a general 'tell us about yourself' form, no listed roles. Ashby/Greenhouse/Lever (plurai, plurai-ai, pluraiai) returned nothing; Comeet comeet.com/jobs/plurai 404; jobs.plurai.ai unreachable. Longlist shows 0 marketing roles on the hitechjobsmarketing channel.",
+    "marketing_roles": []
+  },
+  "contacts": [
+    {"name": "Lital Grossman", "role": "VP Marketing", "email": null, "email_verified": false, "source": "https://www.plurai.ai/about", "recipient_rank": 1, "note": "No public email found; any pattern would be a guess (unverified). Location per snippet: SF Bay Area."},
+    {"name": "Ilan Kadar", "role": "Co-founder & CEO", "email": null, "email_verified": false, "source": "https://www.plurai.ai/about", "recipient_rank": 2},
+    {"name": "Karishma Shah", "role": "Head of DevRel & DevEx", "email": null, "email_verified": false, "source": "https://www.plurai.ai/about", "recipient_rank": 3}
+  ],
+  "outreach_angle": {
+    "hook": "Congrats on the $13M seed and Simulation GA (Nov 11). You just moved from 'trust platform for AI agents / evals & guardrails' to 'the recursive self-improvement layer for AI agents', but the file you wrote for AI assistants (plurai.ai/llms.txt) still describes the old positioning, and 'Plurai alternatives' answers are written by aggregators. How do ChatGPT/Gemini describe Plurai today?",
+    "source": "https://www.plurai.ai/llms.txt ; https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents",
+    "date": "2026-11-11 (launch); llms.txt accessed 2026-11-19"
+  },
+  "features": {
+    "industry": "data_ai_infra",
+    "stage": "seed",
+    "situation": "early",
+    "size_band": "1_50",
+    "geo": "israel_us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "funding",
+    "finding_pattern": "misrepresented",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no"
+  },
+  "sources": [
+    {"url": "https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents", "date": "2026-11-11", "kind": "direct", "result": "CEO launch post: $13M seed led by Team8, GA, investors, advisors"},
+    {"url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/", "date": "2026-11-13", "kind": "direct", "result": "Lead line confirmed"},
+    {"url": "https://www.plurai.ai/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Homepage, Webflow, HubSpot, new positioning, blog teaser"},
+    {"url": "https://www.plurai.ai/about", "date": "2026-11-11 (lastmod)", "kind": "direct", "result": "Founders, team list incl. VP Marketing Lital Grossman, Head of DevRel Karishma Shah; Team8 board"},
+    {"url": "https://www.plurai.ai/blog", "date": "accessed 2026-11-19", "kind": "direct", "result": "17 posts, Jan 2025 - Nov 2026"},
+    {"url": "https://www.plurai.ai/sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "44 URLs, no comparison pages"},
+    {"url": "https://www.plurai.ai/robots.txt", "date": "accessed 2026-11-19", "kind": "direct", "result": "AI bots allowed; 'SEO tooling used in-house' (Semrush, Ahrefs)"},
+    {"url": "https://www.plurai.ai/llms.txt", "date": "accessed 2026-11-19", "kind": "direct", "result": "Stale: old 'trust platform / evals & guardrails' positioning"},
+    {"url": "https://www.plurai.ai/careers", "date": "2026-11-18 (lastmod)", "kind": "direct", "result": "General application form only, no listed roles"},
+    {"url": "https://www.plurai.ai/news", "date": "accessed 2026-11-19", "kind": "direct", "result": "3 items incl. Gartner market guide mentions"},
+    {"url": "https://www.plurai.ai/evals", "date": "2026-11-18 (lastmod)", "kind": "direct", "result": "Evals & Guardrails product page (older product line still live)"},
+    {"url": "https://dns.google/resolve?name=plurai.ai&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "SPF: Google + HubSpot email; google-site-verification"},
+    {"url": "https://www.linkedin.com/company/plurai/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: NYC HQ, 11-50, founded 2025, 2,872 followers, Replay feature post"},
+    {"url": "https://web.archive.org/web/20260313212106/https://www.plurai.ai/", "date": "2026-03-13", "kind": "direct", "result": "Via Bright Data (direct blocked by egress): 'AI Agent Lifecycle Management Platform' positioning"},
+    {"url": "https://www.google.com/search?q=%22Lital%20Grossman%22%20Plurai", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Titles/snippets only: VP Marketing on about page, SF Bay Area, launch posts"},
+    {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22at%20Plurai%22", "date": "accessed 2026-11-19", "kind": "inferred", "result": "Titles: founders, ops, eng leads; no marketing/SEO titles"},
+    {"url": "https://www.google.com/search?q=Plurai%20alternatives", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Aggregator comparison pages (SourceForge, Slashdot, PeerSpot, AINovaTools, powerfulai.tools)"},
+    {"url": "https://www.finsmes.com", "date": "2026-11-11", "kind": "unverified", "result": "Snippet only: Tel Aviv-based, $13M seed led by Team8"},
+    {"url": "https://www.calcalistech.com", "date": "2026-11-11", "kind": "inferred", "result": "Snippet only: CTech 'emerged from stealth with a $13 million Seed'"}
+  ],
+  "sources_tried_failed": [
+    {"url": "https://api.ashbyhq.com/posting-api/job-board/plurai (+ plurai-ai, pluraiai; Greenhouse, Lever same)", "result": "no board"},
+    {"url": "https://www.comeet.com/jobs/plurai", "result": "404"},
+    {"url": "https://jobs.plurai.ai", "result": "unreachable (no DNS/host)"},
+    {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin%20%22Plurai%22%20marketing", "result": "Bright Data returned an empty page, then a page with no results parsed (twice); counted as failure"},
+    {"url": "http://archive.org/wayback/available?url=plurai.ai&timestamp=20250601", "result": "timeout from Wayback API"},
+    {"url": "https://web.archive.org/web/20260313212106/https://www.plurai.ai/ (direct)", "result": "blocked by egress policy; succeeded via Bright Data"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Plurai company page -> People tab: anyone with SEO / content / growth / demand-gen title besides Lital Grossman and Karishma Shah?",
+    "Lital Grossman: current title and start date at Plurai (is she still VP Marketing, US-based?)"
+  ],
+  "open_questions": [
+    "Who does the in-house SEO work mentioned in robots.txt (VP Marketing herself, an agency, or an unlisted hire)?",
+    "HQ framing: LinkedIn says New York, FinSMEs says Tel Aviv; VP Marketing appears to be US-based. Which timezone for sending?",
+    "No AI-visibility probe run; finding_pattern 'misrepresented' is a guess based on the stale llms.txt and the fresh repositioning."
+  ]
+}
