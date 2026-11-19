@@ -15,7 +15,7 @@
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
-      "next": "The sponsor sends Bay himself (2026-11-19). Not managed by the tick; nothing to remind.",
+      "next": "Sponsor sends Bay himself; Bay report stays as is (sponsor, 2026-11-19: rebuild not needed).",
       "cohort_id": "pilot-1",
       "gmail_draft_id": "r-3463966262483924157",
       "contacts": {
@@ -87,7 +87,8 @@
     "quality": "Quality over speed and cost: no step is shortened and no cheaper models are used to save usage (sponsor, 2026-11-19).",
     "sender": "Outreach emails are sent from gefen@etico.cr (sponsor, 2026-11-19). Gmail connector confirmed signed in as gefen@etico.cr, display name \"Gefen Hermesh\" (2026-11-19). etico.cr: Google Workspace, SPF + DKIM + DMARC (p=none, live 2026-11-19).",
     "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release.",
-    "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov)."
+    "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov).",
+    "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4."
   },
   "last_tick": "2026-11-19T20:54:34+00:00",
   "manager": {
