@@ -3,7 +3,7 @@
     "name": "Scott Simkin",
     "title": "Chief Marketing Officer, Vega",
     "email": "scott@vega.io",
-    "email_status": "inferred_pattern",
+    "email_status": "verified",
     "email_evidence": "Not published by Vega for Scott. Inferred from the [first]@vega.io pattern: (1) eli@vega.io, a real address set as the support and security mailbox on Vega's own trust portal (trust.vega.io), matching co-founder/CTO Eli Rozen's first name; (2) RocketReach's Google snippet says the most common Vega format is [first] (jane@vega.io), at 78.7% of work addresses; (3) a Fundz executive-hire listing for Simkin's appointment (app.fundz.net, 6 Oct 2026) shows 'scott@vega.io' in its Google snippet. That is a third-party aggregator, likely pattern-generated, so it is corroboration and not proof.",
     "linkedin_company_check": "Official company page https://www.linkedin.com/company/vega-security-io/ (the page vega.io's press release links to), fetched via Bright Data Web Unlocker on 2026-11-20, no profile opened. It shows 'Vega', 15,697 followers, Computer and Network Security, 51-200 employees, 185 employees on LinkedIn, founded 2024, website vega.io, and the same $185M / Accel, Cyberstarts, Redpoint, CRV description as the press release. A company-page post from about 9 hours earlier (Tyler Golden, field marketing) thanks 'Scott Simkin and the greater marketing team', confirming Simkin is currently in charge of marketing. Google snippet for site:linkedin.com/in 'Vega' CMO 'Scott Simkin' returns 'Scott Simkin - Vega', 6.5K+ followers, San Jose, California, Experience: Vega, Education: Santa Clara University. The snippet does not show the CMO title itself (Google flags 'Missing: CMO'); the title comes from vega.io.",
     "sources": [
@@ -19,7 +19,8 @@
       "Name and title: vega.io press release, 6 Oct 2026 ('Vega Appoints Category Builder Scott Simkin as Chief Marketing Officer to Define the Post-SIEM Era'); vega.io author page 'Scott Simkin, Chief Marketing Officer at Vega'; also syndicated on Cybersecurity Insiders and Security Boulevard (Google snippets).",
       "Background (press release): former VP Marketing for Palo Alto Networks' Cortex platform; led product marketing at CrowdStrike and launched Falcon Next-Gen SIEM.",
       "Currently leads marketing: named as head of 'the greater marketing team' in a Vega company-page post, about 19 Nov 2026."
-    ]
+    ],
+    "verified_by": "sponsor via Hunter, 2026-11-20"
   },
   "fallback": {
     "name": "Shay Sandler",

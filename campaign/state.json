@@ -38,7 +38,7 @@
       "domain": "vega.io",
       "status": "done",
       "source": "sponsor (2026-11-19)",
-      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
+      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\"). Email 1 sent by Claude at the sponsor's explicit request after Hunter verification (2026-11-20).",
       "cohort_id": "pilot-1",
       "session_id": "session_01FkmvpLZ6FUjGe75kzwKsJV",
       "started_at": "2026-11-19T19:46:19+00:00",
@@ -48,7 +48,25 @@
         "done": "2026-11-20T04:55:09+00:00"
       },
       "branch": "campaign/vega-security",
-      "gmail_draft_id": "r-4020048317040436923"
+      "threads": [
+        {
+          "id": "vega-security/1",
+          "kind": "email1",
+          "contact": "Scott Simkin",
+          "email": "scott@vega.io",
+          "role": "CMO",
+          "gmail_thread_id": "1a1f9ec56e0aa798",
+          "last_message_id": "1a1f9ec56e0aa798",
+          "sent_at": "2026-11-20T17:06:38+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ],
+      "email1_sent_at": "2026-11-20T17:06:38+00:00"
     },
     {
       "slug": "gambit-security",
