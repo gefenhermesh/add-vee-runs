@@ -30,6 +30,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-20T16:25:00+00:00 sponsor asked to verify Vega review-profile facts: PeerSpot 0 reviews holds; G2 'Vega' = web scanner holds (G2 blocks fetches, checked via Google). Recorded in companies/vega-security/live_checks.json. Live-check gate pushed to add-vee branch system/live-check-gate (not merged)
 - 2026-11-20T16:37:00+00:00 sponsor approved Gate 1-2 for gambit-security, upwind, glow-io ("approve all pending loop a"); approval files pushed to their branches, sessions messaged
 - 2026-11-20T17:06:38+00:00 followup: vega-security/1 email1 sent to CMO
+- 2026-11-20T20:10:00+00:00 sponsor: merge #13 (stuck-job detection, ~100-question target) and use Gemini for stuck AI Mode; rule merged as add-vee #14; Gambit, Upwind, glow.io told to merge master and switch
 
 ## Cohorts
 
