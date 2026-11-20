@@ -72,7 +72,7 @@ Keep a `watch` list in `state.json` for proposed and held companies, recording t
 
 ## Bright Data budget: LinkedIn is for focus, not for sweeping (sponsor, 2026-11-20)
 Bright Data's LinkedIn scrapers are the scout's most expensive source, so they're used narrowly and late:
-- **Long-list stage:** only the list posters' new posts (one or two calls a week). **No broad LinkedIn searches** (no company-wide searches) at this stage. The one exception is the daily SEO-jobs route below: two public job-search pages a day through the Web Unlocker, not the dataset scrapers (sponsor, 2026-11-20). The free sources come first.
+- **Long-list stage:** only the list posters' new posts (one or two calls a week). **No broad LinkedIn searches** (no company-wide searches) at this stage. The one exception is the daily SEO-jobs route below: public job-search pages read directly for free, with the Web Unlocker only as a capped fallback when a site refuses, never the dataset scrapers (sponsor, 2026-11-20). The free sources come first.
 - **Recon stage:** LinkedIn checks (`linkedin_company`, `linkedin_company_posts`, `linkedin_people` for up to 3 people) **only for companies that already look like a sweet spot** after the free recon (site, job boards, news, Google snippets), and at most `recon_linkedin_companies_per_week` companies (budget.json, 6 now).
 - **Hard caps:** `readers.py` logs every Bright Data dataset call to `campaign/scout/bd_usage.jsonl` and refuses calls past the weekly caps in `campaign/scout/budget.json`. Raise a cap only with the sponsor's OK. Report the week's usage line in the run log.
 - **Free first, always:** company job boards (Ashby, Greenhouse, Lever APIs), the company site, news, Google snippets. LinkedIn only adds what those can't.
@@ -107,7 +107,7 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
 ## Daily SEO-jobs route (sponsor, 2026-11-20)
 Startups hiring for SEO right now are the warmest prospects there are: the sponsor would love to be considered for the role, and the audit shows how they'd start. This route runs **every 24 hours in its own short session** (source `add-vee-runs`), started by the manager with the prompt "You are the daily jobs scout: follow campaign/SCOUT.md → Daily SEO-jobs route."
 
-1. **Fetch:** `python campaign/scout/jobs.py fetch`. **Page 1 of each source only, one cheap request each:**
+1. **Fetch:** `python campaign/scout/jobs.py fetch`. Cost stays near zero by design: each page is read directly first (free); only a refused page goes through the Web Unlocker, capped at `unlocker_requests_per_week` in budget.json and logged in bd_usage.jsonl; LinkedIn is read daily, a quiet source less often (up to every 4 days, back to daily when it changes), and only changes are handled. Report the `paid_unlocker_requests_this_week` number in your one line to the manager. **Page 1 of each source only, one cheap request each:**
    - **LinkedIn** public job search for "search engine optimization", last 24 hours, United States and Europe;
    - **Wellfound**'s SEO Specialist role page (startups only; SEO/GEO/AEO titles from the last 3 weeks, with company size);
    - **SEOjobs.com**'s newest listings (last 3 days; mostly noise, the filter does the work);

@@ -15,8 +15,12 @@ last 24 hours, in the United States and in Europe (one results page each: Linked
 keep every company in a stored list so new ones are cheap to spot, and send the startups among them through the
 regular scout route with the "I'd love to be considered" outreach track (SCOUT.md -> Daily SEO-jobs route).
 
-This is the public, logged-out search page read through Bright Data's Web Unlocker (`content_crawler` zone): two
-requests a day, not the LinkedIn dataset scrapers, and no company or person page is opened.
+Cost (sponsor, 2026-11-20: "overtime just get what changed so the expenses go very low"): every page is read
+directly first, for free; Bright Data's Web Unlocker (`content_crawler` zone) is a fallback only when a site refuses
+(SEOjobs did), capped per week in budget.json (`unlocker_requests_per_week`) and logged in bd_usage.jsonl. LinkedIn is
+read daily; a quiet source is checked less often (interval doubles per unchanged check, up to 4 days, back to daily on
+a change). If a LinkedIn day is missed, the next read widens its time window, so nothing is lost. Never the LinkedIn
+dataset scrapers; no company or person page is opened.
 
   python campaign/scout/jobs.py fetch [--only a,b]   read page 1 of every source, keep only what changed, print the NEW companies
   python campaign/scout/jobs.py parse <html>     parse a saved page (tests, debugging)
@@ -53,10 +57,12 @@ WF_SIZE = {"SIZE_1_10": "1-10", "SIZE_11_50": "11-50", "SIZE_51_200": "51-200", 
 CARD = re.compile(r'data-entity-urn="urn:li:jobPosting:(\d+)"(.*?)(?=data-entity-urn="urn:li:jobPosting:|\Z)', re.S)
 
 
-def search_url(region):
+def search_url(region, window_s=86400):
+    """LinkedIn's public search, posts from the last `window_s` seconds (one day by default; wider after a missed
+    day, so a skipped run loses nothing)."""
     q = urllib.request.quote(QUERY)
     loc = urllib.request.quote(REGIONS[region])
-    return f"https://www.linkedin.com/jobs/search?keywords={q}&location={loc}&f_TPR=r86400"
+    return f"https://www.linkedin.com/jobs/search?keywords={q}&location={loc}&f_TPR=r{int(window_s)}"
 
 
 def text(s):
@@ -202,6 +208,7 @@ SOURCES = {
 
 
 def fetch_page(url):
+    """Paid: one Web Unlocker request. Use only through paid_fetch (cap + usage log)."""
     body = json.dumps({"zone": "content_crawler", "url": url, "format": "raw"}).encode()
     req = urllib.request.Request(API, data=body, headers={"Content-Type": "application/json",
                                                            "Authorization": "Bearer placeholder"})  # proxy injects the key
@@ -209,6 +216,23 @@ def fetch_page(url):
         err = r.headers.get("x-brd-error-code")
         page = r.read().decode("utf-8", "ignore")
     return page, err
+
+
+def paid_fetch(url):
+    """A Web Unlocker request, refused past the weekly cap and logged in bd_usage.jsonl (kind "unlocker")."""
+    sys.path.insert(0, str(HERE))
+    import readers as R
+    R.unlocker_check(f"jobs route {url[:80]}")
+    R.log_unlocker("jobs route", url)
+    return fetch_page(url)
+
+
+def direct_fetch(url):
+    """Free: a plain request with no Bright Data. Most job sites answer it (all but SEOjobs on 2026-11-20)."""
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (research script)",
+                                               "Accept-Language": "en-US,en;q=0.9"})
+    with urllib.request.urlopen(req, timeout=40) as r:
+        return r.read().decode("utf-8", "ignore")
 
 
 def load_companies():
@@ -258,45 +282,89 @@ def known_job_ids():
     return {json.loads(l)["job_id"] for l in SEEN.read_text().splitlines() if l.strip()}
 
 
-def run_sources(fetch, now, only=None):
-    """Read page 1 of each source; handle only what changed since the last run. Returns (coverage, posts)."""
+DAILY = {"linkedin_us", "linkedin_europe"}   # LinkedIn's 24-hour search changes every day: always read
+MAX_INTERVAL_DAYS = 4                         # a quiet source is checked at least this often
+
+
+def due(prev, name, now):
+    """A source is due once its interval has passed (two hours' slack, so a daily run that drifts still reads it).
+    Quiet sources back off: each unchanged check doubles the interval, up to MAX_INTERVAL_DAYS; a change resets it."""
+    if name in DAILY or not prev.get("checked"):
+        return True
+    last = dt.datetime.fromisoformat(prev["checked"])
+    return now - last >= dt.timedelta(days=prev.get("interval_days", 1)) - dt.timedelta(hours=2)
+
+
+def source_url(name, url, prev, now):
+    if name.startswith("linkedin_") and prev.get("checked"):
+        gap = (now - dt.datetime.fromisoformat(prev["checked"])).total_seconds() + 3600
+        return search_url(name.split("_", 1)[1], min(max(gap, 86400), 7 * 86400))
+    return url
+
+
+def run_sources(fetch, now, only=None, direct=None):
+    """Read page 1 of each source that is due; handle only what changed since the last run.
+    `direct` (free) is tried first when given; `fetch` (paid Web Unlocker) only when the direct read fails or comes
+    back with no posts where there were posts before. Returns (coverage, posts)."""
     state = json.loads(SOURCE_STATE.read_text()) if SOURCE_STATE.exists() else {}
     known = known_job_ids()
     coverage, posts = [], []
     for name, (url, parser) in SOURCES.items():
         if only and name not in only:
             continue
-        try:
-            page, err = fetch(url)
-        except Exception as e:  # report, never hide
-            coverage.append(f"{name}: FAILED ({type(e).__name__}: {e})")
-            continue
-        got = parser(page, now=now)
-        ids = sorted(p["job_id"] for p in got)
         prev = state.get(name, {})
-        if not page.strip() or err:
-            coverage.append(f"{name}: FAILED ({err or 'empty page'})")
+        if not only and not due(prev, name, now):
+            coverage.append(f"{name}: quiet, next check after {prev.get('interval_days', 1)} days, skipped (free)")
             continue
+        url = source_url(name, url, prev, now)
+        page = err = got = None
+        how = "direct"
+        if direct:
+            try:
+                page = direct(url)
+                got = parser(page, now=now)
+                if not got and prev.get("ids"):
+                    page = None  # an empty page where there were posts: likely a block page, not a quiet day
+            except Exception:
+                page = None
+        if page is None:
+            how = "unlocker"
+            try:
+                page, err = fetch(url)
+            except Exception as e:  # report, never hide
+                coverage.append(f"{name}: FAILED ({type(e).__name__}: {e})")
+                continue
+            if not page.strip() or err:
+                coverage.append(f"{name}: FAILED ({err or 'empty page'})")
+                continue
+            got = parser(page, now=now)
+        ids = sorted(p["job_id"] for p in got)
+        stamp = now.isoformat(timespec="seconds")
         if ids and ids == prev.get("ids"):
-            coverage.append(f"{name}: unchanged since {prev.get('run', '?')[:16]}, skipped")
-            state[name] = {**prev, "checked": now.isoformat(timespec="seconds")}
+            interval = min(prev.get("interval_days", 1) * 2, MAX_INTERVAL_DAYS)
+            coverage.append(f"{name}: unchanged since {prev.get('run', '?')[:16]} ({how}); next check in {interval} days")
+            state[name] = {**prev, "checked": stamp, "interval_days": interval, "via": how}
             continue
         new = [p for p in got if p["job_id"] not in known]
-        line = f"{name}: {len(got)} relevant posts, {len(new)} new"
+        line = f"{name}: {len(got)} relevant posts, {len(new)} new ({how})"
         if got and len(new) == len(got) and prev.get("ids"):
             line += " (every post on the page is new: some older ones may have been missed)"
         coverage.append(line)
         posts += new
-        state[name] = {"run": now.isoformat(timespec="seconds"), "ids": ids}
+        state[name] = {"run": stamp, "checked": stamp, "ids": ids, "interval_days": 1, "via": how}
     SOURCE_STATE.write_text(json.dumps(state, indent=1) + "\n")
     return coverage, posts
 
 
 def cmd_fetch(a):
     now = dt.datetime.now(dt.timezone.utc)
-    coverage, posts = run_sources(fetch_page, now, only=a.only.split(",") if a.only else None)
+    coverage, posts = run_sources(paid_fetch, now, only=a.only.split(",") if a.only else None, direct=direct_fetch)
     new = store(posts, now)
-    print(json.dumps({"coverage": coverage, "new_posts": len(posts), "new_companies": new}, indent=1, ensure_ascii=False))
+    sys.path.insert(0, str(HERE))
+    import readers as R
+    paid, _ = R.bd_usage_this_week("unlocker")
+    print(json.dumps({"coverage": coverage, "new_posts": len(posts), "new_companies": new,
+                      "paid_unlocker_requests_this_week": paid}, indent=1, ensure_ascii=False))
 
 
 def cmd_parse(a):

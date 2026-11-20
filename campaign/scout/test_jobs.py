@@ -101,5 +101,73 @@ class JobsTest(unittest.TestCase):
         self.assertIn("FAILED", cov[0])
 
 
+class CostTest(unittest.TestCase):
+    """Free reads first, paid only on refusal, quiet sources checked less often (sponsor, 2026-11-20)."""
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        d = Path(self.tmp.name)
+        jobs.SEEN, jobs.COMPANIES, jobs.SOURCE_STATE = d / "seen.jsonl", d / "companies.json", d / "sources.json"
+        self.page = (HERE / "fixtures" / "li_jobs_seo_us.html").read_text(errors="ignore")
+        self.paid = []
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def paid_fetch(self, url):
+        self.paid.append(url)
+        return self.page, None
+
+    def test_direct_read_costs_nothing(self):
+        now = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)
+        cov, posts = jobs.run_sources(self.paid_fetch, now, only=["linkedin_us"], direct=lambda u: self.page)
+        self.assertEqual(self.paid, [])
+        self.assertTrue(posts and "(direct)" in cov[0])
+
+    def test_paid_only_when_direct_refused(self):
+        now = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)
+
+        def refuse(url):
+            raise OSError("403")
+        cov, posts = jobs.run_sources(self.paid_fetch, now, only=["linkedin_us"], direct=refuse)
+        self.assertEqual(len(self.paid), 1)
+        self.assertIn("(unlocker)", cov[0])
+
+    def test_quiet_source_backs_off_and_resets(self):
+        t = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)
+        pg = (HERE / "fixtures" / "berlinstartupjobs_seo.html").read_text(errors="ignore")
+        same = lambda u: pg
+        only = None
+        jobs.SOURCES_SAVED = jobs.SOURCES
+        jobs.SOURCES = {"berlinstartupjobs": jobs.SOURCES_SAVED["berlinstartupjobs"]}
+        try:
+            jobs.run_sources(self.paid_fetch, t, only, direct=same)                       # day 0: read
+            cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=1), only, direct=same)  # unchanged -> 2 days
+            self.assertIn("next check in 2 days", cov[0])
+            cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=2), only, direct=same)
+            self.assertIn("skipped (free)", cov[0])
+            cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=3), only, direct=same)  # due again
+            self.assertIn("next check in 4 days", cov[0])
+            self.assertEqual(self.paid, [])
+        finally:
+            jobs.SOURCES = jobs.SOURCES_SAVED
+
+    def test_linkedin_window_widens_after_missed_day(self):
+        t = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)
+        prev = {"checked": (t - dt.timedelta(days=3)).isoformat()}
+        self.assertIn("f_TPR=r262800", jobs.source_url("linkedin_us", "", prev, t))   # 3 days + 1 h
+        self.assertIn("f_TPR=r86400", jobs.source_url("linkedin_us", "", {"checked": (t - dt.timedelta(hours=20)).isoformat()}, t))
+
+    def test_unlocker_cap(self):
+        import readers as R
+        d = Path(self.tmp.name)
+        R._USAGE, R._BUDGET = d / "u.jsonl", d / "b.json"
+        R._BUDGET.write_text(json.dumps({"unlocker_requests_per_week": 2}))
+        R.log_unlocker("t", "u1")
+        R.log_unlocker("t", "u2")
+        self.assertEqual(R.bd_usage_this_week(), (0, 0))          # dataset budget untouched
+        with self.assertRaises(RuntimeError):
+            R.unlocker_check("third")
+
+
 if __name__ == "__main__":
     unittest.main()

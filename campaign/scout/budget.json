@@ -1,6 +1,7 @@
 {
-  "_note": "Weekly Bright Data budget for the scout (ISO week, UTC), enforced by readers.py. LinkedIn scrapers cost the most, so they're for list posters (long-list stage) and sweet-spot companies only (recon stage). Raise the caps here if the sponsor agrees.",
+  "_note": "Weekly Bright Data budget for the scout (ISO week, UTC), enforced in code. LinkedIn scrapers (datasets) cost the most, so they're for list posters (long-list stage) and sweet-spot companies only (recon stage). Web Unlocker page requests are a fallback only: every source is read directly (free) first, and a paid request is made only when a site refuses. Raise the caps here only if the sponsor agrees.",
   "dataset_calls_per_week": 20,
   "dataset_records_per_week": 400,
-  "recon_linkedin_companies_per_week": 6
+  "recon_linkedin_companies_per_week": 6,
+  "unlocker_requests_per_week": 20
 }

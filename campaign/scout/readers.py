@@ -304,15 +304,34 @@ def _week():
     return f"{y}-W{w:02d}"
 
 
-def bd_usage_this_week():
+def bd_usage_this_week(kind="dataset"):
+    """This ISO week's Bright Data use of one kind: "dataset" (scrapers; lines without a kind) or "unlocker"
+    (Web Unlocker page requests). Returns (calls, records)."""
     calls = records = 0
     if _USAGE.exists():
         for line in _USAGE.read_text().splitlines():
             r = json.loads(line)
-            if r.get("week") == _week():
+            if r.get("week") == _week() and r.get("kind", "dataset") == kind:
                 calls += 1
                 records += r.get("records", 0)
     return calls, records
+
+
+def unlocker_check(purpose):
+    """Refuse a paid Web Unlocker request past the weekly cap (budget.json unlocker_requests_per_week)."""
+    b = json.loads(_BUDGET.read_text()) if _BUDGET.exists() else {}
+    calls, _ = bd_usage_this_week("unlocker")
+    cap = b.get("unlocker_requests_per_week", 15)
+    if calls >= cap:
+        raise RuntimeError(f"Web Unlocker weekly cap reached ({calls}/{cap} this week); skipped: {purpose}. "
+                           f"Raise campaign/scout/budget.json only with the sponsor's OK.")
+
+
+def log_unlocker(purpose, url):
+    import datetime as _dt
+    with open(_USAGE, "a") as f:
+        f.write(json.dumps({"week": _week(), "ts": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
+                            "kind": "unlocker", "purpose": purpose, "url": url}) + "\n")
 
 
 def _budget_check(purpose):
