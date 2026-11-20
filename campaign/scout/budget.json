@@ -1,8 +1,18 @@
 {
   "_note": "Weekly Bright Data budget for the scout (ISO week, UTC), enforced in code. LinkedIn scrapers (datasets) cost the most, so they're for list posters (long-list stage) and sweet-spot companies only (recon stage). Web Unlocker page requests are a fallback only: every source is read directly (free) first, and a paid request is made only when a site refuses. Raise the caps here only if the sponsor agrees.",
-  "dataset_calls_per_week": 20,
-  "dataset_records_per_week": 400,
-  "recon_linkedin_companies_per_week": 6,
-  "unlocker_requests_per_week": 20,
-  "_unlocker_note": "Jobs route (sponsor, 2026-11-20): getting the most recent job posts matters more than the cap. If a jobs fetch is skipped because unlocker_requests_per_week was reached, the manager raises it by 10 (pre-approved), reruns that source and says so in one line. Normal use is one or two paid pages a day at most."
+  "dataset_calls_per_week": 0,
+  "dataset_records_per_week": 0,
+  "recon_linkedin_companies_per_week": 0,
+  "unlocker_requests_per_week": 0,
+  "_unlocker_note": "Jobs route (sponsor, 2026-11-20): getting the most recent job posts matters more than the cap. If a jobs fetch is skipped because unlocker_requests_per_week was reached, the manager raises it by 10 (pre-approved), reruns that source and says so in one line. Normal use is one or two paid pages a day at most.",
+  "_paused": {
+    "since": "2026-11-20T20:40:00Z",
+    "reason": "Bright Data credits at 0 (sponsor, 2026-11-20). Caps set to 0 until the sponsor resumes payment; restore to the values in 'resume_to'. The jobs route reads free pages only; the cap-raise rule is suspended while paused.",
+    "resume_to": {
+      "dataset_calls_per_week": 20,
+      "dataset_records_per_week": 400,
+      "recon_linkedin_companies_per_week": 6,
+      "unlocker_requests_per_week": 20
+    }
+  }
 }

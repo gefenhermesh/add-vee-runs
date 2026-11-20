@@ -31,6 +31,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-20T16:37:00+00:00 sponsor approved Gate 1-2 for gambit-security, upwind, glow-io ("approve all pending loop a"); approval files pushed to their branches, sessions messaged
 - 2026-11-20T17:06:38+00:00 followup: vega-security/1 email1 sent to CMO
 - 2026-11-20T20:10:00+00:00 sponsor: merge #13 (stuck-job detection, ~100-question target) and use Gemini for stuck AI Mode; rule merged as add-vee #14; Gambit, Upwind, glow.io told to merge master and switch
+- 2026-11-20T20:45:00+00:00 sponsor: Bright Data credits at 0, pause all Bright Data use until payment resumes. Gambit, Upwind, glow.io told to continue without it or stop at paused_brightdata; no new starts; scout caps 0. add-vee #15 merged.
 
 ## Cohorts
 

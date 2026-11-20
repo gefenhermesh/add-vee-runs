@@ -3,7 +3,8 @@
   "settings": {
     "max_concurrent_running": 1,
     "weekly_target_companies": 5,
-    "plan": "claude max (sponsor, 2026-11-19)"
+    "plan": "claude max (sponsor, 2026-11-19)",
+    "brightdata_paused": true
   },
   "prospects": [
     {
@@ -383,7 +384,8 @@
     "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release.",
     "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov).",
     "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4.",
-    "gemini": "Gemini paused from 2026-11-20 (add-vee PR #12): new runs collect ChatGPT and Google AI Mode only. Vega Security keeps its Gemini data as collected (sponsor, 2026-11-20)."
+    "gemini": "Gemini paused from 2026-11-20 (add-vee PR #12): new runs collect ChatGPT and Google AI Mode only. Vega Security keeps its Gemini data as collected (sponsor, 2026-11-20).",
+    "brightdata_pause": "Bright Data credits at 0 (sponsor, 2026-11-20 ~20:40 UTC): no Bright Data calls anywhere until the sponsor says payment is resumed. tick.py starts no new company while settings.brightdata_paused is true; running audits continue without Bright Data or stop at stage paused_brightdata; scout budgets are 0 (budget.json _paused)."
   },
   "last_tick": "2026-11-20T16:54:01+00:00",
   "manager": {

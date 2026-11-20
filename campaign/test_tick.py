@@ -126,5 +126,36 @@ class PriorityTest(unittest.TestCase):
         self.assertIn('"SEO Lead"', acts[0]["prompt"])
 
 
+class PauseTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        root = Path(self.tmp.name)
+        (root / "campaign").mkdir()
+        (root / "companies" / "a").mkdir(parents=True)
+        tick.ROOT, tick.STATE, tick.LOG = root, root / "campaign" / "state.json", root / "campaign" / "log.md"
+        self.root = root
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def status(self, stage, minutes_ago=300):
+        (self.root / "companies" / "a" / "status.json").write_text(json.dumps({"stage": stage, "ts": iso(minutes_ago)}))
+
+    def test_paused_audit_not_nudged_and_nothing_new_started(self):
+        st = {"settings": {"max_concurrent_running": 1, "brightdata_paused": True}, "prospects": [
+            {"slug": "a", "company": "A", "status": "running", "session_id": "s1"},
+            {"slug": "b", "company": "B", "domain": "b.io", "status": "queued"}]}
+        self.status("paused_brightdata")
+        acts = tick.plan(st, {"s1": {"status_bucket": "idle"}}, NOW)
+        self.assertEqual([(a["do"], a.get("status")) for a in acts], [("mark", "paused")])
+
+    def test_resumed_audit_goes_back_to_running(self):
+        st = {"settings": {"max_concurrent_running": 1}, "prospects": [
+            {"slug": "a", "company": "A", "status": "paused", "session_id": "s1"}]}
+        self.status("loop_c", minutes_ago=5)
+        acts = tick.plan(st, {"s1": {"status_bucket": "working"}}, NOW)
+        self.assertIn(("mark", "running"), [(a["do"], a.get("status")) for a in acts])
+
+
 if __name__ == "__main__":
     unittest.main()

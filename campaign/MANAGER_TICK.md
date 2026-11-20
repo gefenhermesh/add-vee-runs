@@ -23,6 +23,9 @@ Every decision the sponsor makes about a company happens here, never in the comp
 
 The company session's own instructions (add-vee `docs/campaign/company-session.md`, merged as PR #7) tell it to treat that file as the sponsor's decision. Never write an approval the sponsor didn't give in this chat.
 
+## Bright Data pause (sponsor, 2026-11-20)
+While `state.json` → `settings.brightdata_paused` is true: no Bright Data calls anywhere. `tick.py` starts no new company; running audits continue without Bright Data or stop at stage `paused_brightdata` (shown as `paused`, never nudged); scout budgets are 0 (`campaign/scout/budget.json` → `_paused`), so the jobs route reads free pages only and the cap-raise rule is suspended. **When the sponsor says payment is resumed:** set `brightdata_paused` to false, restore the caps from `_paused.resume_to` and remove `_paused`, then `send_message` each `paused` company session: "Bright Data is back (sponsor): resume from your paused step." One line to the sponsor.
+
 ## Each tick
 0. Make sure both repos are present: `add-vee-runs` (this one; push) and `add-vee` next to it (read only here). `git pull` this repo.
 1. `python campaign/tick.py sessions`: the company session ids to check.

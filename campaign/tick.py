@@ -38,6 +38,7 @@ STALL_MIN = 90          # minutes without progress before a nudge
 MAX_NUDGES = 2          # nudges before "stuck"
 ACTIVE = {"starting", "running"}
 WAITING_STAGES = {"waiting_gate_1_2"}
+PAUSED_STAGES = {"paused_brightdata"}  # stopped on purpose (sponsor pause): no nudge, no new starts
 DONE_STAGES = {"done"}
 
 ADD_VEE_REPO = "https://github.com/gefenhermesh/add-vee"
@@ -84,7 +85,7 @@ def plan(state, sessions, now):
     running = 0
     for p in state["prospects"]:
         st = p.get("status")
-        if st not in ACTIVE | {"waiting_gate"}:
+        if st not in ACTIVE | {"waiting_gate", "paused"}:
             continue
         cs = company_status(p["slug"])
         stage = cs.get("stage")
@@ -103,6 +104,10 @@ def plan(state, sessions, now):
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "done",
                                 "message": f"{p['company']}: audit done, outreach draft in Gmail (gefen@etico.cr) for your review"})
             continue
+        if stage in PAUSED_STAGES:
+            if st != "paused":
+                actions.append({"do": "mark", "slug": p["slug"], "status": "paused"})
+            continue
         if stage in WAITING_STAGES:
             if st != "waiting_gate":
                 actions.append({"do": "mark", "slug": p["slug"], "status": "waiting_gate"})
@@ -110,7 +115,7 @@ def plan(state, sessions, now):
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "gate",
                                 "message": f"{p['company']}: Gate 1-2 ready. Reply \"approve {p['slug']}\" or what to change"})
             continue
-        if st == "waiting_gate":
+        if st in ("waiting_gate", "paused"):
             # The company moved past the gate (the sponsor approved): it's working again.
             actions.append({"do": "mark", "slug": p["slug"], "status": "running"})
         running += 1
@@ -129,6 +134,8 @@ def plan(state, sessions, now):
                                     "message": f"{p['company']}: run stuck after {MAX_NUDGES} nudges (stage {stage or '?'}). Needs you"})
                 running -= 1
 
+    if state["settings"].get("brightdata_paused"):
+        return actions  # audits need Bright Data: start nothing new until the sponsor resumes payment
     cap = state["settings"]["max_concurrent_running"]
     order = sorted(state["prospects"], key=lambda p: -int(p.get("priority") or 0))  # SEO-job finds first; stable otherwise
     for p in order:
