@@ -1,6 +1,6 @@
 {
-  "stage": "loop_b",
-  "ts": "2026-11-20T00:54:41+00:00",
-  "note": "Stage 3-4: all 3 platforms collected; Gemini + Google AI Mode built; ChatGPT brand extraction resumed after a usage-limit stop (3 of 4 packets re-running)",
+  "stage": "loop_c",
+  "ts": "2026-11-20T02:27:03+00:00",
+  "note": "Loop C: content-crawler running",
   "branch": "campaign/vega-security"
 }
