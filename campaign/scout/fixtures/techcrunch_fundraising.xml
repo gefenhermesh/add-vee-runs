@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Fundraising | TechCrunch</title>
+	<atom:link href="https://techcrunch.com/category/fundraising/feed/" rel="self" type="application/rss+xml" />
+	<link>https://techcrunch.com/category/fundraising/</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Tue, 17 Nov 2026 17:11:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.12</generator>
+
+<image>
+	<url>https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=32</url>
+	<title>Fundraising | TechCrunch</title>
+	<link>https://techcrunch.com/category/fundraising/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials</title>
+		<link>https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/</link>
+		
+		<dc:creator><![CDATA[Ram Iyer]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:50:58 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[AI drug discovery]]></category>
+		<category><![CDATA[DeepMind]]></category>
+		<category><![CDATA[drug research]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[isomorphic labs]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3189440</guid>
+
+					<description><![CDATA[Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 billion in a Series C funding round.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Cybersecurity AI startup Corma reaches $1B valuation in about 3 months</title>
+		<link>https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 23:32:32 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3189297</guid>
+
+					<description><![CDATA[Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Bedrock Energy raises $24M to build more AI-enabled geothermal drill rigs for enterprise buildings</title>
+		<link>https://techcrunch.com/2026/11/16/bedrock-energy-raises-24m-to-build-more-ai-enabled-geothermal-drill-rigs-for-enterprise-buildings/</link>
+		
+		<dc:creator><![CDATA[Tim De Chant]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Bedrock Energy]]></category>
+		<category><![CDATA[Exclusive]]></category>
+		<category><![CDATA[geothermal energy]]></category>
+		<category><![CDATA[heat pumps]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3188647</guid>
+
+					<description><![CDATA[Geothermal heat pumps could free up significant space on the grid. Bedrock Energy raised $24 million to bring its AI-guided drill rigs to more markets.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI agent startup LangChain hits $3B valuation</title>
+		<link>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Fri, 13 Nov 2026 19:37:57 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[agent]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[langchain]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3188474</guid>
+
+					<description><![CDATA[LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Norwest pushes deeper into AI with new $4B fund</title>
+		<link>https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/</link>
+		
+		<dc:creator><![CDATA[Kirsten Korosec]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2026 15:18:14 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[Norwest]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3187651</guid>
+
+					<description><![CDATA[This is the investment firm's largest fund to date. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>With $720M round, Britain&#8217;s Fractile gets a leg up in the race for AI chips</title>
+		<link>https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/</link>
+		
+		<dc:creator><![CDATA[Anna Heim]]></dc:creator>
+		<pubDate>Wed, 11 Nov 2026 19:34:55 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[semiconductor chips]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3187339</guid>
+
+					<description><![CDATA[Fractile has now become one of the top-funded players in the race for purpose-built AI chips. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Siri co-founder backs Helix for its voice ID tech</title>
+		<link>https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Wed, 11 Nov 2026 15:02:47 +0000</pubDate>
+				<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[siri]]></category>
+		<category><![CDATA[voice AI]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3186258</guid>
+
+					<description><![CDATA[With the rise of AI agents like Instinct and Muse, the industry needs to rethink human identity on the internet and rely on biometric signals like voice, which is where Helix comes in.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>All 7 Anthropic founders will each cash out about $250M in IPO</title>
+		<link>https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 19:57:52 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3187028</guid>
+
+					<description><![CDATA[Each of the seven co-founders plans to sell exactly the same number of shares in the IPO, which would bring each of them about $250 million in cash at the midpoint of the price range while leaving the group in control of the company.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>AI hardware startup Nominal triples valuation to $3B in 8 months</title>
+		<link>https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/</link>
+		
+		<dc:creator><![CDATA[Julie Bort]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2026 19:21:46 +0000</pubDate>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Nominal]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3186344</guid>
+
+					<description><![CDATA[Nominal, a startup that offers an AI platform for hardware engineering and claims Anduril as a major customer, has raised another big round of financing that triples its valuation. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Physicl raises $10M to make the digital world real enough for robots</title>
+		<link>https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/</link>
+		
+		<dc:creator><![CDATA[Tim Fernholz]]></dc:creator>
+		<pubDate>Fri, 06 Nov 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[iNovia Capital]]></category>
+		<category><![CDATA[physical ai]]></category>
+		<category><![CDATA[world models]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3185667</guid>
+
+					<description><![CDATA[Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Harbinger raises $240M after expanding into defense</title>
+		<link>https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/</link>
+		
+		<dc:creator><![CDATA[Sean O'Kane]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2026 17:52:44 +0000</pubDate>
+				<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Transportation]]></category>
+		<category><![CDATA[autonomous vehicles]]></category>
+		<category><![CDATA[electric trucks]]></category>
+		<category><![CDATA[Harbinger]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3185516</guid>
+
+					<description><![CDATA[The Los Angeles-based startup has now raised more than $650 million, and is working on electric trucks, emergency vehicles, and a driverless platform for the military.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Titan OS raises $46 million to expand its smart TV OS internationally</title>
+		<link>https://techcrunch.com/2026/11/04/titan-os-raises-46-million-to-expand-its-smart-tv-os-internationally/</link>
+		
+		<dc:creator><![CDATA[Ivan Mehta]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2026 15:00:00 +0000</pubDate>
+				<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[titan]]></category>
+		<category><![CDATA[tvs]]></category>
+		<category><![CDATA[Highland Europe]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3185043</guid>
+
+					<description><![CDATA[Titan OS has raised $110 million in funding to date.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston</title>
+		<link>https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/</link>
+		
+		<dc:creator><![CDATA[TechCrunch Events]]></dc:creator>
+		<pubDate>Wed, 04 Nov 2026 13:00:00 +0000</pubDate>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[TechCrunch Founder Summit 2026]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3185013</guid>
+
+					<description><![CDATA[Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>The TechCrunch Founder Summit agenda is only half the reason to be in Boston on November 4</title>
+		<link>https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/</link>
+		
+		<dc:creator><![CDATA[TechCrunch Events]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 14:30:00 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[TechCrunch Founder Summit 2026]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184579</guid>
+
+					<description><![CDATA[On November 4, TechCrunch Founder Summit 2026 brings founders and VCs to Boston's SoWa Power Station for practical insights and connections. Register before prices increase at the door.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Tomorrow: TechCrunch Founder Summit takes over Boston and when pass rates increase</title>
+		<link>https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/</link>
+		
+		<dc:creator><![CDATA[TechCrunch Events]]></dc:creator>
+		<pubDate>Tue, 03 Nov 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184568</guid>
+
+					<description><![CDATA[Secure your TechCrunch Founder Summit pass savings before prices increase tomorrow at 9 a.m. ET. Save up to $100 on your pass, and get a second for free.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Trajectory raises $45M to make AI model training accessible to nontechnical experts</title>
+		<link>https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/</link>
+		
+		<dc:creator><![CDATA[Marina Temkin]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 23:13:53 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[fine-tuning]]></category>
+		<category><![CDATA[Sequoia]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184455</guid>
+
+					<description><![CDATA[The one-year-old startup is now valued at $300 million.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Northwood Space raises $375M Series C at a $2B valuation from a16z and DFJ Growth</title>
+		<link>https://techcrunch.com/2026/11/02/northwood-space-raises-375m-series-c-at-a-2b-valuation-from-a16z-and-dfj-growth/</link>
+		
+		<dc:creator><![CDATA[Dominic-Madori Davis]]></dc:creator>
+		<pubDate>Mon, 02 Nov 2026 14:22:35 +0000</pubDate>
+				<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Space]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[Northwood Space]]></category>
+		<category><![CDATA[spacetech]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184091</guid>
+
+					<description><![CDATA[Space infrastructure company Northwood Space on Monday said it had raised $375 million in a Series C round co-led by Andreessen Horowitz and DFJ Growth, valuing the company at $2 billion. ]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale</title>
+		<link>https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/</link>
+		
+		<dc:creator><![CDATA[TechCrunch Events]]></dc:creator>
+		<pubDate>Sat, 31 Oct 2026 21:36:07 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[TechCrunch Founder Summit 2026]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184015</guid>
+
+					<description><![CDATA[On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>OpenAI reportedly lowers funding target for new round</title>
+		<link>https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/</link>
+		
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+		<pubDate>Sat, 31 Oct 2026 16:12:55 +0000</pubDate>
+				<category><![CDATA[AI]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[In Brief]]></category>
+		<category><![CDATA[OpenAI]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3184004</guid>
+
+					<description><![CDATA[OpenAI’s latest funding round doesn't seem to be living up to expectations.]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate</title>
+		<link>https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/</link>
+		
+		<dc:creator><![CDATA[TechCrunch Events]]></dc:creator>
+		<pubDate>Fri, 30 Oct 2026 14:00:00 +0000</pubDate>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[Crypto]]></category>
+		<category><![CDATA[Climate]]></category>
+		<category><![CDATA[Fintech]]></category>
+		<category><![CDATA[Biotech & Health]]></category>
+		<category><![CDATA[Venture]]></category>
+		<category><![CDATA[Media & Entertainment]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[Fundraising]]></category>
+		<category><![CDATA[TechCrunch Founder Summit 2026]]></category>
+		<guid isPermaLink="false">https://techcrunch.com/?p=3183526</guid>
+
+					<description><![CDATA[At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free.]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -259,3 +259,30 @@ def parse_nextplay_feed(xml, url="https://nextplayso.substack.com/feed"):
                               "signal": "funding" if re.search(r"rais", title, re.I) else "hiring",
                               "note": m.group(2).strip(), "location": m.group(3), "list": title, "raw": line[:300]})
     return leads
+
+
+# --- General startup news feeds (RSS): TechCrunch fundraising, Crunchbase News, SiliconANGLE -----------
+GENERAL_FEEDS = {
+    "techcrunch_fundraising": "https://techcrunch.com/category/fundraising/feed/",
+    "crunchbase_news": "https://news.crunchbase.com/feed/",
+    "siliconangle": "https://www.siliconangle.com/feed/",
+}
+
+
+def parse_rss_funding(xml, source):
+    """Funding headlines from a news feed: '<Company> raises $NM ...'. Global, not only Israel."""
+    leads = []
+    for item in re.findall(r"<item>(.*?)</item>", xml, re.S):
+        title = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<title>(.*?)</title>", item, re.S) or [None, ""])[1])).strip()
+        if not (FUNDING_WORDS.search(title) and AMOUNT.search(title)):
+            continue
+        link = (re.search(r"<link>(.*?)</link>", item, re.S) or [None, ""])[1].strip()
+        date = (re.search(r"<pubDate>(.*?)</pubDate>", item, re.S) or [None, ""])[1][:16]
+        m = re.match(r"^(.+?)(?:,.*?)? (?:raises|secures|lands|nabs|bags|closes|gets)\b", title)
+        company = m.group(1).strip() if m else None
+        if company and (len(company) > 40 or company.lower().startswith(("exclusive", "why ", "how ", "the "))):
+            company = re.sub(r"^(Exclusive:|Exclusive)\s*", "", company).strip() if company.lower().startswith("exclusive") else None
+        leads.append({"company": company or f"(unresolved) {title[:70]}", "company_known": bool(company), "source": source,
+                      "source_url": link, "date": date, "signal": "funding", "amount_musd": money(title),
+                      "stage": (STAGE.search(title) or [None])[0], "raw": title[:300]})
+    return leads

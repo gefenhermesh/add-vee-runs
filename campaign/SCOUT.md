@@ -74,6 +74,7 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
      - **CTech Startups:** rounds, rendered with Playwright.
      - **CTech Appointments:** new executives. A **new CMO or VP Marketing is a top trigger** (`marketing_leader_hire`).
      - **The marketing-jobs Telegram channel.**
+     - **General startup news, global:** TechCrunch's fundraising feed, Crunchbase News and SiliconANGLE (funding headlines). Geography is open, so a non-Israeli B2B company is fine.
      - **Avi Lewis' latest list:** best-effort. LinkedIn often answers empty. If it fails, find his latest "רשימת סטארטאפים שגייסו" post with WebSearch and pass it as `--avi-url`.
    - The script prints **one coverage line per source** (leads, or FAILED with the reason). Copy those lines into the run log.
    - Then cover by hand, and list them in the log as covered or not:
@@ -81,6 +82,7 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
      - **israelrounds.com/rounds** (Bright Data);
      - **Goozali** (goozali.com; its company table is an Airtable embed: render it and read the visible rows);
      - **2-3 investor portfolios** each week, rotating through the SOURCES.md list;
+     - **the big databases, for recon and verification rather than discovery:** Crunchbase and Dealroom company pages, and Startup Nation Central Finder (finder.startupnationcentral.org, a JavaScript app: render it). Read through Bright Data and tag `unverified`; they confirm stage, funding date, headcount and investors. Crunchbase's own database search is paywalled, so its free news feed is what's automated;
      - **the comments on Avi's latest post.**
    - **Never report a run as complete without its coverage list.** A source that wasn't read is written down as not read, with the reason.
    - CTech headlines sometimes name a company only in the teaser. Those leads are `(unresolved) …`; read the article to get the company before filtering.

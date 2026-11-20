@@ -73,5 +73,13 @@ class NewReaderTest(unittest.TestCase):
         self.assertEqual(len(leads), 23)
 
 
+class GeneralFeedTest(unittest.TestCase):
+    def test_techcrunch_fundraising(self):
+        leads = R.parse_rss_funding((FX / "techcrunch_fundraising.xml").read_text(errors="ignore"), "techcrunch_fundraising")
+        self.assertTrue(leads)
+        self.assertTrue(all(l["signal"] == "funding" and l["amount_musd"] for l in leads))
+        self.assertTrue(any(l["company_known"] for l in leads))
+
+
 if __name__ == "__main__":
     unittest.main()

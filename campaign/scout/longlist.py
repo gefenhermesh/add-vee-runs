@@ -55,6 +55,8 @@ def collect(avi_urls):
     run("nextplay_feed", lambda: R.parse_nextplay_feed(R.fetch("https://nextplayso.substack.com/feed")))
     run("ctech_startups", lambda: R.parse_ctech_startups(R.render("https://www.calcalistech.com/ctechnews/category/5214")))
     run("ctech_appointments", lambda: R.parse_ctech_appointments(R.render("https://www.calcalistech.com/ctechnews/category/31182")))
+    for name, feed in R.GENERAL_FEEDS.items():
+        run(name, lambda feed=feed, name=name: R.parse_rss_funding(R.fetch(feed), name))
     run("avi_lewis_latest (best-effort; LinkedIn often answers empty)", lambda: R.parse_avi_list(R.fetch(AVI_ACTIVITY, brightdata=True), AVI_ACTIVITY))
     for u in avi_urls:
         run(f"avi_lewis {u[:60]}", lambda u=u: R.parse_avi_list(R.fetch(u, brightdata=True), u))
