@@ -53,5 +53,30 @@ class JobsTest(unittest.TestCase):
             jobs.main(["classify", str(f)])
 
 
+    def test_extra_sources(self):
+        now = dt.datetime(2026, 11, 20, 12, tzinfo=dt.timezone.utc)
+        wf = jobs.parse_wellfound((HERE / "fixtures" / "wellfound_seo_specialist.html").read_text(errors="ignore"), now=now)
+        self.assertTrue(wf)
+        self.assertTrue(all(jobs.SEO_TITLE.search(p["title"]) for p in wf))
+        self.assertTrue(all(p["posted"] >= "2026-10-30" for p in wf))      # old listings dropped
+        self.assertTrue(any(p.get("size") for p in wf))
+        sj = jobs.parse_seojobs((HERE / "fixtures" / "seojobs_jobs.html").read_text(errors="ignore"), now=now)
+        names = {p["company"] for p in sj}
+        self.assertIn("AVILOO", names)
+        self.assertIn("LinkedIn", names)  # not "LinkedIn | $170,000"
+        self.assertTrue(all(p["posted"] >= "2026-11-17" for p in sj))
+
+    def test_same_company_across_sources(self):
+        t = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)
+        jobs.store([{"job_id": "1", "title": "SEO Lead", "company": "Acme, Inc.", "company_url":
+                     "https://www.linkedin.com/company/acme-io", "company_key": "acme-io", "location": "NYC",
+                     "posted": "2026-11-20", "url": "u1", "region": "us"}], t)
+        new = jobs.store([{"job_id": "sj-2", "title": "SEO Manager", "company": "ACME", "company_url": None,
+                           "company_key": "name:acme", "location": "NYC", "posted": "2026-11-20", "url": "u2",
+                           "region": "seojobs"}], t)
+        self.assertEqual(new, [])
+        self.assertEqual(len(json.loads(jobs.COMPANIES.read_text())["acme-io"]["posts"]), 2)
+
+
 if __name__ == "__main__":
     unittest.main()
