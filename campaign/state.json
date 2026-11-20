@@ -4,7 +4,8 @@
     "max_concurrent_running": 1,
     "weekly_target_companies": 5,
     "plan": "claude max (sponsor, 2026-11-19)",
-    "brightdata_paused": true
+    "brightdata_paused": true,
+    "jobs_proposals_per_day": 1
   },
   "prospects": [
     {

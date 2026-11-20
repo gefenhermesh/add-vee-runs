@@ -38,7 +38,8 @@ STALL_MIN = 90          # minutes without progress before a nudge
 MAX_NUDGES = 2          # nudges before "stuck"
 ACTIVE = {"starting", "running"}
 WAITING_STAGES = {"waiting_gate_1_2"}
-PAUSED_STAGES = {"paused_brightdata"}  # stopped on purpose (sponsor pause): no nudge, no new starts
+PAUSED_STAGES = {"paused_brightdata"}
+JOB_EXPIRY_DAYS = 10  # an SEO-job company not started within this many days of its post date drops out (no backlog)  # stopped on purpose (sponsor pause): no nudge, no new starts
 DONE_STAGES = {"done"}
 
 ADD_VEE_REPO = "https://github.com/gefenhermesh/add-vee"
@@ -83,6 +84,16 @@ def company_status(slug):
 def plan(state, sessions, now):
     actions = []
     running = 0
+    for p in state["prospects"]:  # SEO-job finds go stale fast: expire the ones never started in time
+        posted = (p.get("job") or {}).get("posted")
+        if p.get("track") == "seo_job" and p.get("status") in ("proposed", "queued") and posted:
+            try:
+                age = (now.date() - dt.date.fromisoformat(posted[:10])).days
+            except ValueError:
+                continue
+            if age > JOB_EXPIRY_DAYS:
+                actions.append({"do": "mark", "slug": p["slug"], "status": "expired",
+                                "reason": f"job post {age} days old, never started"})
     for p in state["prospects"]:
         st = p.get("status")
         if st not in ACTIVE | {"waiting_gate", "paused"}:

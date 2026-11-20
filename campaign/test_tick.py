@@ -157,5 +157,15 @@ class PauseTest(unittest.TestCase):
         self.assertIn(("mark", "running"), [(a["do"], a.get("status")) for a in acts])
 
 
+class JobExpiryTest(unittest.TestCase):
+    def test_stale_job_finds_expire(self):
+        st = {"settings": {"max_concurrent_running": 0}, "prospects": [
+            {"slug": "old", "company": "O", "status": "proposed", "track": "seo_job", "job": {"posted": "2026-11-05"}},
+            {"slug": "new", "company": "N", "status": "queued", "track": "seo_job", "job": {"posted": "2026-11-20"}},
+            {"slug": "reg", "company": "R", "status": "proposed"}]}
+        acts = tick.plan(st, {}, NOW)
+        self.assertEqual([(a["slug"], a["status"]) for a in acts if a["do"] == "mark"], [("old", "expired")])
+
+
 if __name__ == "__main__":
     unittest.main()

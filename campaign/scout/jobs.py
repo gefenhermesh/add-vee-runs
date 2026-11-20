@@ -44,6 +44,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SEEN = HERE / "jobs_seen.jsonl"
 SOURCE_STATE = HERE / "jobs_sources.json"
+FRESH_DAYS = 3  # only posts this new are triaged; older ones are recorded as seen and left (no backlog)
 COMPANIES = HERE / "jobs_companies.json"
 API = "https://api.brightdata.com/request"
 QUERY = "search engine optimization"
@@ -239,13 +240,26 @@ def load_companies():
     return json.loads(COMPANIES.read_text()) if COMPANIES.exists() else {}
 
 
+def is_fresh(p, now):
+    """A post worth acting on now: posted within FRESH_DAYS. A post with no date counts as fresh only when its
+    source was read before (so it really appeared since the last run), never on a source's first read."""
+    if p.get("posted"):
+        try:
+            return (now.date() - dt.date.fromisoformat(p["posted"][:10])).days <= FRESH_DAYS
+        except ValueError:
+            return False
+    return not p.get("baseline")
+
+
 def store(posts, now, companies=None):
-    """Append unseen posts; update the company list. Returns the companies seen for the first time."""
+    """Append unseen posts; update the company list. Returns the companies to triage today: new companies with a
+    fresh post, and already-recorded but never-classified companies that just posted a fresh role. Companies whose
+    new posts are all older are recorded (so they're never re-read) but not returned: that's how no backlog builds."""
     companies = load_companies() if companies is None else companies
     seen_ids = set()
     if SEEN.exists():
         seen_ids = {json.loads(l)["job_id"] for l in SEEN.read_text().splitlines() if l.strip()}
-    new_companies, today = [], now.date().isoformat()
+    new_companies, today, fresh_keys = [], now.date().isoformat(), set()
     with SEEN.open("a") as f:
         for p in posts:
             if p["job_id"] in seen_ids:
@@ -263,17 +277,27 @@ def store(posts, now, companies=None):
                                                    "first_seen": today, "posts": [], "class": None}
                 new_companies.append(p["company_key"])
             c["last_seen"] = today
+            fresh = is_fresh(p, now)
             c["posts"].append({"job_id": p["job_id"], "title": p["title"], "location": p["location"],
-                               "posted": p["posted"], "url": p["url"], "region": p["region"]})
+                               "posted": p["posted"], "url": p["url"], "region": p["region"], "fresh": fresh})
+            if fresh and not c.get("offered") and c.get("class") in (None, "startup") and not c.get("proposed"):
+                fresh_keys.add(p["company_key"])
             for extra in ("size", "about", "stage"):
                 if p.get(extra):
                     c[extra] = p[extra]
     COMPANIES.write_text(json.dumps(companies, indent=1, ensure_ascii=False) + "\n")
+    store.recorded_only = len([k for k in new_companies if k not in fresh_keys])
+    triage = [k for k in dict.fromkeys(new_companies + sorted(fresh_keys)) if k in fresh_keys]
+    for k in triage:
+        companies[k]["offered"] = today  # handed to the session for triage once; never again
+    COMPANIES.write_text(json.dumps(companies, indent=1, ensure_ascii=False) + "\n")
     return [{"key": k, "name": companies[k]["name"], "company_url": companies[k]["company_url"],
+             "fresh_posts": [{"title": x["title"], "posted": x["posted"], "url": x["url"], "location": x["location"]}
+                             for x in companies[k]["posts"] if x.get("fresh")],
              "titles": sorted({x["title"] for x in companies[k]["posts"]}),
              "locations": sorted({x["location"] or "" for x in companies[k]["posts"]}),
              "sources": sorted({x["region"] for x in companies[k]["posts"]}),
-             **{e: companies[k][e] for e in ("size", "about", "stage") if companies[k].get(e)}} for k in new_companies]
+             **{e: companies[k][e] for e in ("size", "about", "stage") if companies[k].get(e)}} for k in triage]
 
 
 def known_job_ids():
@@ -345,7 +369,7 @@ def run_sources(fetch, now, only=None, direct=None):
             coverage.append(f"{name}: unchanged since {prev.get('run', '?')[:16]} ({how}); next check in {interval} days")
             state[name] = {**prev, "checked": stamp, "interval_days": interval, "via": how}
             continue
-        new = [p for p in got if p["job_id"] not in known]
+        new = [{**p, "baseline": not prev.get("ids")} for p in got if p["job_id"] not in known]
         line = f"{name}: {len(got)} relevant posts, {len(new)} new ({how})"
         if got and len(new) == len(got) and prev.get("ids"):
             line += " (every post on the page is new: some older ones may have been missed)"
@@ -364,6 +388,7 @@ def cmd_fetch(a):
     import readers as R
     paid, _ = R.bd_usage_this_week("unlocker")
     print(json.dumps({"coverage": coverage, "new_posts": len(posts), "new_companies": new,
+                      "recorded_not_triaged": getattr(store, "recorded_only", 0),
                       "paid_unlocker_requests_this_week": paid}, indent=1, ensure_ascii=False))
 
 

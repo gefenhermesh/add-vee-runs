@@ -169,5 +169,20 @@ class CostTest(unittest.TestCase):
             R.unlocker_check("third")
 
 
+    def test_no_backlog_old_posts_recorded_not_triaged(self):
+        now = dt.datetime(2026, 11, 21, 8, tzinfo=dt.timezone.utc)
+        mk = lambda i, posted, base=False: {"job_id": f"j{i}", "title": "SEO Lead", "company": f"Co{i}", "company_url": None,
+                                            "company_key": f"name:co{i}", "location": "NYC", "posted": posted, "url": f"u{i}",
+                                            "region": "us", "baseline": base}
+        out = jobs.store([mk(1, "2026-11-20"), mk(2, "2026-11-05"), mk(3, None, base=True), mk(4, None)], now)
+        self.assertEqual({c["name"] for c in out}, {"Co1", "Co4"})   # fresh dated post; undated post on a known source
+        self.assertEqual(jobs.store.recorded_only, 2)                 # old post and first-read undated post: recorded only
+        # Co2 (recorded, never classified) posts a fresh role later: offered once
+        out = jobs.store([{**mk(5, "2026-11-21"), "company": "Co2", "company_key": "name:co2"}], now)
+        self.assertEqual([c["name"] for c in out], ["Co2"])
+        out = jobs.store([{**mk(6, "2026-11-21"), "company": "Co2", "company_key": "name:co2"}], now)
+        self.assertEqual(out, [])                                     # already offered: not again
+
+
 if __name__ == "__main__":
     unittest.main()
