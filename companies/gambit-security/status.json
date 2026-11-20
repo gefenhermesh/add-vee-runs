@@ -1,6 +1,6 @@
 {
-  "stage": "loop_b",
+  "stage": "loop_c",
   "ts": "2026-11-20T16:37:03Z",
-  "note": "Stage 3-4 done: ChatGPT 45/45 and Gemini 90/90 (Gemini stands in for stuck Google AI Mode, sponsor PR #14); analyst running",
+  "note": "Visibility Report published (https://claude.ai/artifact/226w857Sn9pyFvWcBACAhy); Loop C content-crawler running on WebFetch/WebSearch (Bright Data paused)",
   "branch": "campaign/gambit-security"
 }

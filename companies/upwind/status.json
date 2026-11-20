@@ -1,6 +1,6 @@
 {
-  "stage": "loop_b",
-  "ts": "2026-11-20T20:29:06Z",
-  "note": "Gemini stands in for stuck Google AI Mode (sponsor rule); derived data built; analyst running",
+  "stage": "loop_c",
+  "ts": "2026-11-20T21:36:23Z",
+  "note": "content-crawler running (WebFetch/WebSearch only, Bright Data paused); keyword-strategist skipped (no keyword source connected)",
   "branch": "campaign/upwind"
 }

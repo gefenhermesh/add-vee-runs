@@ -1,6 +1,6 @@
 {
-  "stage": "loop_b",
-  "ts": "2026-11-20T20:24:05Z",
-  "note": "Stage 3-4 done on ChatGPT+Gemini (AI Mode stuck, Gemini stand-in per sponsor); 7b built; starting analyst",
+  "stage": "loop_c",
+  "ts": "2026-11-20T21:16:53Z",
+  "note": "Visibility Report published https://claude.ai/artifact/GpBWy1KzUDPwbQUqrvuWda; starting Loop C (crawler on WebFetch fallback, Bright Data paused)",
   "branch": "campaign/glow-io"
 }
