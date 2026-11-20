@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-20T05:33:33+00:00",
-  "note": "Loop A approved (round 2, patch applied). Scope: https://claude.ai/artifact/3h8Lx7Mf22HRNKWj95xWEE Story: https://claude.ai/artifact/NhgyEfpRmipNF1K5zwHdVf. Branch campaign/upwind. Waiting for gate_1_2_approval.json or gate_1_2_feedback.json.",
+  "stage": "loop_b",
+  "ts": "2026-11-20T16:36:50+00:00",
+  "note": "Gate 1-2 approved by sponsor via manager (approve all pending loop a). Starting Stage 3-4 data collection.",
   "branch": "campaign/upwind"
 }

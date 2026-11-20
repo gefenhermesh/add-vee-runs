@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-19T21:18:20Z",
-  "note": "Loop A approved (round 1, 8 patches). Scope https://claude.ai/artifact/JCcTGBgAwsoJCCZ5KuzeTJ, story https://claude.ai/artifact/XfMydQkKNhnKxK3QTDezcP. Waiting for sponsor approval.",
+  "stage": "loop_b",
+  "ts": "2026-11-20T16:37:03Z",
+  "note": "Gate 1-2 approved by sponsor via manager (gate_1_2_approval.json); master merged; starting Stage 3-4 data collection",
   "branch": "campaign/gambit-security"
 }
