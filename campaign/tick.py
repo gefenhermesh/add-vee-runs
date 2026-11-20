@@ -87,7 +87,7 @@ def plan(state, sessions, now):
         progress = parse(cs.get("ts")) or parse(p.get("started_at"))
         age = int((now - progress).total_seconds() // 60) if progress else None
         sess = sessions.get(p.get("session_id") or "", {})
-        bucket = sess.get("status_bucket")
+        bucket = (sess.get("status_bucket") or "").lower().removeprefix("session_status_bucket_") or None  # get_session returns SESSION_STATUS_BUCKET_X
         notified = p.get("notified", {})
 
         if stage in DONE_STAGES:
