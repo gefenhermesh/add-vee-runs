@@ -1,0 +1,64 @@
+{
+ "company": "Gambit Security",
+ "domain": "gambit.security",
+ "checked_at": "2026-11-20",
+ "method": "public pages via WebFetch/curl and web-search snippets; no Bright Data (paused); no LinkedIn profile opened",
+ "recipient": {
+  "name": "Morgan Cole",
+  "title": "VP of Marketing",
+  "why": "Company is ~51-200 people (73 per Dealroom), not small enough for the CEO; Gambit has a named marketing leader.",
+  "title_verified": true,
+  "title_source": "https://gambit.security/about-us (Leadership Team, raw HTML)",
+  "email": null,
+  "email_status": "unknown: Gambit publishes only role inboxes, so no personal address pattern could be inferred; sponsor to find and verify with Hunter",
+  "linkedin_profile": null,
+  "linkedin_note": "No search snippet found for Morgan Cole + Gambit outside gambit.security; start date unknown."
+ },
+ "fallback": {
+  "name": "Alon Gromakov",
+  "title": "Co-Founder & CEO",
+  "title_verified": true,
+  "title_source": "https://gambit.security/about-us",
+  "email": null,
+  "email_status": "unknown (no pattern)"
+ },
+ "published_addresses": [
+  {
+   "address": "info@gambit.security",
+   "source": "https://gambit.security/terms-of-use",
+   "verified": true
+  },
+  {
+   "address": "privacy@gambit.security",
+   "source": "https://gambit.security/privacy-policy",
+   "verified": true
+  },
+  {
+   "address": "careers@gambit.security",
+   "source": "https://gambit.security/about-us",
+   "verified": true
+  }
+ ],
+ "pr_contacts_not_gambit": [
+  {
+   "address": "sarah@headline.media",
+   "note": "Headline Media, PR agency on the Oct 2026 Disruptors 60 release"
+  }
+ ],
+ "linkedin_company": {
+  "url": "https://linkedin.com/company/gambitsecurity",
+  "verified": "linked from gambit.security",
+  "snippet": "Computer and Network Security, New York, founded 2024, 51-200 employees, ~3,466 followers (search snippet only, inferred)"
+ },
+ "headcount": {
+  "value": "51-200 (LinkedIn snippet); 73 (Dealroom snippet)",
+  "verified": false
+ },
+ "name_collisions": [
+  "Gambit Cyber (KnightGuard CTEM vendor)",
+  "Gambit (drone/autonomy company, Axios coverage)",
+  "Gambit Communications",
+  "Gambit Technologies"
+ ],
+ "notes": "Leadership per About page: Jake Bernardes (CISO), Curtis Simpson (CSO), Matt Stronczek (VP Sales), Martin Walter (CPO), Shelly Poyastro (Head of Finance), Maya Shevel (Chief of Staff), Rachel Silvas Hochberg (VP HR). A Galen Emery snippet shows Gambit tenure ended Dec 2025."
+}

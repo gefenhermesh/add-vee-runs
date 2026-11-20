@@ -1,0 +1,45 @@
+{
+ "company": "Glow Security, Inc. (glow.io)",
+ "checked_at": "2026-11-20",
+ "rule_applied": "Recipient is the CEO: no named marketing leader found in public sources, and Glow is still hiring its first marketing roles (senior technical product marketing manager, analyst relations lead, 'an early member of the marketing organization'); ~100 employees.",
+ "recipient": {
+  "name": "Roi Tiger",
+  "role": "Co-founder & CEO",
+  "verified": true,
+  "sources": [
+   "research.json dossier 'Founders and leadership' (glow.io launch release, TechCrunch, Globes, Redpoint)",
+   "https://dealroom.co/companies/glow-security-labs/ (founded 2025 by CEO Roi Tiger)",
+   "https://www.crunchbase.com/person/roi-tiger (ex-VP Engineering Facebook; Onavo co-founder & CTO)"
+  ],
+  "email": {
+   "value": null,
+   "candidates": [
+    "roi@glow.io",
+    "roi.tiger@glow.io",
+    "rtiger@glow.io"
+   ],
+   "verified": false,
+   "note": "No real @glow.io address found in public sources (the launch release, the CISO announcement and search results show none; Prospeo's 'Glow Security' email-format page is a different, 1-10 person company in Ohio). Candidates are common startup patterns, not observed; the sponsor verifies with Hunter before sending."
+  }
+ },
+ "alternates": [
+  {
+   "name": "Emily Heath",
+   "role": "COO (ex-CISO United Airlines)",
+   "source": "research.json dossier",
+   "verified": true,
+   "note": "Fallback only."
+  }
+ ],
+ "linkedin": {
+  "company_page": "https://www.linkedin.com/company/glowsecurity",
+  "company_page_facts": "Privately held, Palo Alto, founded 2025, 51-200 employees, website glow.io (from search-result snippets)",
+  "method": "WebSearch snippets only. Bright Data is paused (credits at 0), so the public company page was not fetched through it. No personal profile was opened.",
+  "ceo_profile": "Not found in site:linkedin.com/in snippets; a LinkedIn post by a Glow employee tags Roi Tiger in the launch announcement (search snippet). Not verified as a profile URL."
+ },
+ "not_verified": [
+  "Recipient email address",
+  "CEO LinkedIn profile URL",
+  "LinkedIn company page fetched directly (snippet only)"
+ ]
+}

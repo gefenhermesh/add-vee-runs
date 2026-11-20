@@ -1,6 +1,6 @@
 {
-  "stage": "loop_c",
+  "stage": "done",
   "ts": "2026-11-20T16:37:03Z",
-  "note": "Visibility Report published (https://claude.ai/artifact/226w857Sn9pyFvWcBACAhy); Loop C content-crawler running on WebFetch/WebSearch (Bright Data paused)",
+  "note": "Done: report https://claude.ai/artifact/226w857Sn9pyFvWcBACAhy, action plan https://claude.ai/artifact/B3QFKqoG7diPJFGiAvx5iv, story https://claude.ai/artifact/XfMydQkKNhnKxK3QTDezcP; outreach in outreach/ (recipient email to verify). Bright Data paused; Gemini stood in for Google AI Mode.",
   "branch": "campaign/gambit-security"
 }

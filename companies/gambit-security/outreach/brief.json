@@ -1,0 +1,57 @@
+{
+ "company": "Gambit Security",
+ "domain": "gambit.security",
+ "situation": "early",
+ "business_type": "sales-led enterprise B2B SaaS (security / infrastructure resilience)",
+ "finding_pattern": "absent",
+ "angle": "Buyers who don't already know Gambit never meet it: AI answers their recovery questions with the backup incumbents, because none of Gambit's pages are retrieved for unbranded questions, and Gemini isn't sure who Gambit is.",
+ "lead_claims": [
+  {
+   "claim_id": "C-010",
+   "figure": "7.5% Prompt Coverage (6 of 80 unprompted category turns)"
+  },
+  {
+   "claim_id": "C-011/C-012",
+   "figure": "ChatGPT 15.0%, Gemini 0.0%"
+  },
+  {
+   "claim_id": "C-025",
+   "figure": "90.0% of unprompted buying conversations name another vendor and not Gambit (36 of 40)"
+  },
+  {
+   "claim_id": "C-086",
+   "figure": "36 of 40 unprompted conversations retrieve no gambit.security page"
+  },
+  {
+   "claim_id": "C-101",
+   "figure": "Gemini #21: Gambit 'may be a typo, a very niche tool, or a fictional name'"
+  },
+  {
+   "claim_id": "C-061",
+   "figure": "Recommendation Rate 11.5% of 87 turns naming Gambit"
+  },
+  {
+   "claim_id": "C-052",
+   "figure": "Comparative Win Rate 16.7% (2 of 12)"
+  }
+ ],
+ "opener": {
+  "type": "recent_research_press",
+  "text": "Congrats on the N12 segment on your extortion research. AI reading nearly 400,000 stolen files to size a $500,000 demand is a striking find.",
+  "source_url": "https://gambit.security/news/n12-ai-powered-extortion",
+  "date": "2026-11-16",
+  "checked_live": "2026-11-20 (curl)",
+  "bridge_source": "Nir Varon quote on the same page: 'The best way to protect yourself in events like these is to make sure you have the ability to recover.'"
+ },
+ "contacts": {
+  "recipient": "Morgan Cole, VP of Marketing (title verified on gambit.security/about-us; email unknown, no personal-address pattern published)",
+  "fallback": "Alon Gromakov, Co-Founder & CEO",
+  "file": "outreach/contacts.json"
+ },
+ "artifacts": {
+  "visibility_report": "https://claude.ai/artifact/226w857Sn9pyFvWcBACAhy",
+  "action_plan": "https://claude.ai/artifact/B3QFKqoG7diPJFGiAvx5iv",
+  "research_story": "https://claude.ai/artifact/XfMydQkKNhnKxK3QTDezcP"
+ },
+ "rationale": "Gambit is nine months out of stealth with a large round and no customer proof yet, and the audit's dominant finding is absence: unbranded recovery questions don't reach Gambit's pages, so AI answers with the backup incumbents, and Gemini isn't sure who Gambit is. The opener uses Gambit's own week-old research and its researcher's line about recoverability, which bridges directly to what buyers ask AI. Recipient is the VP of Marketing (about 73 people, so not the CEO). Two things for the sponsor before sending: find and verify Morgan Cole's address (Hunter), and note the run compared ChatGPT and Gemini only (Google AI Mode stalled at Bright Data), which the email doesn't need to mention. Before sending, re-read the MEDIUM-confidence claims the email cites: C-010, C-011, C-012, C-025, C-026, C-028, C-101."
+}

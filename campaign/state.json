@@ -74,7 +74,7 @@
       "slug": "gambit-security",
       "company": "Gambit Security",
       "domain": "gambit.security",
-      "status": "running",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
@@ -82,8 +82,10 @@
       "started_at": "2026-11-19T20:54:34+00:00",
       "nudges": 0,
       "notified": {
-        "gate": "2026-11-19T21:54:21+00:00"
-      }
+        "gate": "2026-11-19T21:54:21+00:00",
+        "done": "2026-11-20T22:55:22+00:00"
+      },
+      "gmail_draft_id": "r-4177365579608058927"
     },
     {
       "slug": "upwind",
@@ -104,7 +106,7 @@
       "slug": "glow-io",
       "company": "glow.io",
       "domain": "glow.io",
-      "status": "running",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
@@ -112,8 +114,10 @@
       "started_at": "2026-11-20T05:54:24+00:00",
       "nudges": 0,
       "notified": {
-        "gate": "2026-11-20T06:54:09+00:00"
-      }
+        "gate": "2026-11-20T06:54:09+00:00",
+        "done": "2026-11-20T22:55:22+00:00"
+      },
+      "gmail_draft_id": "r-7315545422549119884"
     },
     {
       "slug": "plurai",
@@ -388,7 +392,7 @@
     "gemini": "Gemini paused from 2026-11-20 (add-vee PR #12): new runs collect ChatGPT and Google AI Mode only. Vega Security keeps its Gemini data as collected (sponsor, 2026-11-20).",
     "brightdata_pause": "Bright Data credits at 0 (sponsor, 2026-11-20 ~20:40 UTC): no Bright Data calls anywhere until the sponsor says payment is resumed. tick.py starts no new company while settings.brightdata_paused is true; running audits continue without Bright Data or stop at stage paused_brightdata; scout budgets are 0 (budget.json _paused)."
   },
-  "last_tick": "2026-11-20T16:54:01+00:00",
+  "last_tick": "2026-11-20T22:55:22+00:00",
   "manager": {
     "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
     "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",
