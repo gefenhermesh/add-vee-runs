@@ -36,7 +36,7 @@
       "slug": "vega-security",
       "company": "Vega Security",
       "domain": "vega.io",
-      "status": "running",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
@@ -44,9 +44,11 @@
       "started_at": "2026-11-19T19:46:19+00:00",
       "nudges": 1,
       "notified": {
-        "gate": "2026-11-19T20:54:34+00:00"
+        "gate": "2026-11-19T20:54:34+00:00",
+        "done": "2026-11-20T04:55:09+00:00"
       },
-      "branch": "campaign/vega-security"
+      "branch": "campaign/vega-security",
+      "gmail_draft_id": "r-4020048317040436923"
     },
     {
       "slug": "gambit-security",
@@ -67,10 +69,14 @@
       "slug": "upwind",
       "company": "Upwind",
       "domain": "upwind.io",
-      "status": "queued",
+      "status": "starting",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
-      "cohort_id": "pilot-1"
+      "cohort_id": "pilot-1",
+      "session_id": "session_01FkmvpQfLQcLcZQ3PwufxPW",
+      "started_at": "2026-11-20T04:55:09+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "glow-io",
@@ -352,7 +358,7 @@
     "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov).",
     "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4."
   },
-  "last_tick": "2026-11-20T00:54:24+00:00",
+  "last_tick": "2026-11-20T04:55:09+00:00",
   "manager": {
     "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
     "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",

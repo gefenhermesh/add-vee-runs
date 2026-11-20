@@ -1,0 +1,51 @@
+{
+  "options": [
+    {
+      "type": "milestone",
+      "fact": "This week at CyberMarketingCon (the Cybersecurity Marketing Society's conference), Vega won Best Cyber Marketing Activation of the year for its Post-SIEM Era experience at Black Hat. Vega's field marketing lead credited 'Scott Simkin and the greater marketing team' in the announcement, which Vega shared on its company page.",
+      "quote": "Earlier this week at CyberMarketingCon, Vega was awarded Best Cyber Marketing Activation of the year for our Post-SIEM Era experience at Black Hat. ... To Scott Simkin and the greater marketing team, and of course to Shay Sandler and Eli Rozen, thank you for putting up with some crazy ideas and trusting us to run with them. The Post-SIEM Era is gaining momentum, and fast.",
+      "source_url": "https://www.linkedin.com/company/vega-security-io/",
+      "date": "about 2026-11-19 (post shown as '9h' on the company page fetched 2026-11-20; award 'earlier this week')",
+      "bridge": "Award-winning booths shape how people at the show see a category. More and more buyers now also form that view by asking ChatGPT and Gemini for a SIEM alternative, so I was curious whether the post-SIEM story reaches them there.",
+      "caveats": "Source is Tyler Golden's (Vega field marketing) post, reshared on Vega's official company page; Google also shows a Cybersecurity Marketing Society image result repeating it. No independent winners list was found yet. Phrase it as 'congrats on the CyberMarketingCon award' rather than quoting a category name the society hasn't published. The activation was field marketing's; credit 'your team'. Very fresh (this week)."
+    },
+    {
+      "type": "recipient_said",
+      "fact": "In the press release announcing his appointment as CMO, Simkin said CISOs have asked him for three years whether AI in the SOC is just an iteration on the SIEM.",
+      "quote": "For three years, CISOs have asked me the same question about AI in their SOC: isn't this just an iteration on the SIEM? They were right, and Vega is the answer.",
+      "source_url": "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer",
+      "date": "2026-10-06",
+      "bridge": "CISOs now ask ChatGPT and Gemini that same question, so I wanted to see what those platforms tell them, and whether Vega comes up.",
+      "caveats": "Strongest on its own and the most natural bridge to AI visibility, but six weeks old. Combines well with option 0: congratulate the award in line 1, then use this quote as the bridge in line 2."
+    },
+    {
+      "type": "milestone",
+      "fact": "Simkin joined Vega as CMO after leading marketing for Palo Alto Networks' Cortex platform (annual revenue approaching $2B) and launching CrowdStrike's Falcon Next-Gen SIEM, which CrowdStrike says now exceeds $600M ARR, to 'define the post-SIEM era'.",
+      "quote": "Scott built the stories and execution engine behind the two biggest names in security operations. Now he will help Vega define the post-SIEM era. (Shay Sandler, CEO)",
+      "source_url": "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer",
+      "date": "2026-10-06",
+      "bridge": "Defining a category now happens partly inside AI answers, when buyers ask which SIEM alternatives exist, so I looked at what they hear about Vega there.",
+      "caveats": "Congratulating a six-week-old hire is a little late. Don't call it 'new' without 'congrats on joining'."
+    },
+    {
+      "type": "milestone",
+      "fact": "Vega II launched 29 Sep 2026, which Vega calls its most important release since emerging from stealth: the first model Vega says is trained for cyber defense, agentic memory, and access to data outside the SIEM.",
+      "quote": "today introduced Vega II, the next generation of its platform and its most important release since emerging from stealth.",
+      "source_url": "https://vega.io/press/vega-arms-defenders-with-first-model-for-agentic-cyber-defense",
+      "date": "2026-09-29",
+      "bridge": "After a launch that size, buyers start asking AI platforms what's changed in the category, so I was curious what they hear about Vega.",
+      "caveats": "Product-led, and before Simkin joined; less personal for the CMO. 'First model trained for cyber defense' is Vega's claim, so attribute it if used."
+    },
+    {
+      "type": "milestone",
+      "fact": "AIShield, a Taiwanese MSSP, named Vega its strategic managed-service partner for a 24/7 in-country AI SOC, with Vega available in the AWS Taipei region.",
+      "quote": null,
+      "source_url": "iThome vendor press release, 23 Oct 2026 (cited in output/vega-security/research.json dossier; not re-read for this file)",
+      "date": "2026-10-23",
+      "bridge": "Channel expansion means new buyers asking AI about Vega in new markets.",
+      "caveats": "Weakest for a CMO and the source wasn't re-read here. Not recommended. re:Invent 2026: no Vega event page for re:Invent 2026 found on vega.io (only re:Invent 2025 webinar recordings), so it is not used."
+    }
+  ],
+  "recommended": 0,
+  "recommendation_note": "Lead with the CyberMarketingCon award: it happened this week, it is a marketing win the CMO's team earned, and it passes the 'could this go to any other company?' test. For line 2, the best bridge uses Simkin's own words (option 1), e.g. 'Congrats on the CyberMarketingCon award this week for the Post-SIEM Era experience at Black Hat.' / 'You said CISOs kept asking whether AI in the SOC was just another SIEM. More of them now ask ChatGPT, so I was curious what it tells them about Vega.' If the sponsor prefers a source on vega.io itself over a LinkedIn post, use option 1 alone."
+}

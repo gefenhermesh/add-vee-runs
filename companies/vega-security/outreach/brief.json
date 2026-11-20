@@ -1,0 +1,89 @@
+{
+  "company": "Vega Security",
+  "domain": "vega.io",
+  "slug": "vega-security",
+  "situation": "scaling",
+  "situation_note": "$120M Series B (Accel, Feb 2026), $185M raised, ~$700M valuation reported; Vega II launched Sep 2026; CMO hired Oct 2026.",
+  "finding_pattern": "absent",
+  "secondary_pattern": "misrepresented",
+  "angle": "Buyers who don't already know Vega get a full shortlist of its rivals, and buyers who do ask about Vega sometimes hear another Vega's facts or a description of a product Vega isn't.",
+  "lead_claims": [
+    {
+      "claim_id": "C-010",
+      "figure": "6.3% (14 of 222) of category answers that don't name Vega name it"
+    },
+    {
+      "claim_id": "C-016",
+      "figure": "0 of 42 AI SOC category answers name Vega"
+    },
+    {
+      "claim_id": "C-087",
+      "figure": "7 of 12 head-to-head losses rest on a wrong or outdated description of Vega"
+    },
+    {
+      "claim_id": "C-145",
+      "figure": "ChatGPT answers 'No' to zero data retention from tryvega.tech's subprocessor disclosure"
+    },
+    {
+      "claim_id": "C-184",
+      "figure": "13 of 34 confirmed errors are another Vega's facts"
+    },
+    {
+      "claim_id": "C-001",
+      "figure": "84 questions, 252 conversations"
+    }
+  ],
+  "opener": {
+    "line": "Congrats on the CyberMarketingCon award this week for your team's Post-SIEM Era experience at Black Hat.",
+    "type": "milestone",
+    "source_url": "https://www.linkedin.com/company/vega-security-io/",
+    "caveat": "Only source is Vega's own reshared LinkedIn post (2026-11-20); no official winners list found, so the category name isn't quoted."
+  },
+  "bridge": {
+    "line": "You've said CISOs kept asking whether AI in the SOC is just another SIEM. Many of them now ask ChatGPT, so I was curious what it tells them about Vega.",
+    "source_url": "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer",
+    "quote": "For three years, CISOs have asked me the same question about AI in their SOC: isn't this just an iteration on the SIEM?"
+  },
+  "contacts": {
+    "recipient": {
+      "name": "Scott Simkin",
+      "title": "Chief Marketing Officer, Vega",
+      "email": "scott@vega.io",
+      "email_status": "inferred_pattern",
+      "email_evidence": "Not published by Vega for Scott. Inferred from the [first]@vega.io pattern: (1) eli@vega.io, a real address set as the support and security mailbox on Vega's own trust portal (trust.vega.io), matching co-founder/CTO Eli Rozen's first name; (2) RocketReach's Google snippet says the most common Vega format is [first] (jane@vega.io), at 78.7% of work addresses; (3) a Fundz executive-hire listing for Simkin's appointment (app.fundz.net, 6 Oct 2026) shows 'scott@vega.io' in its Google snippet. That is a third-party aggregator, likely pattern-generated, so it is corroboration and not proof.",
+      "linkedin_company_check": "Official company page https://www.linkedin.com/company/vega-security-io/ (the page vega.io's press release links to), fetched via Bright Data Web Unlocker on 2026-11-20, no profile opened. It shows 'Vega', 15,697 followers, Computer and Network Security, 51-200 employees, 185 employees on LinkedIn, founded 2024, website vega.io, and the same $185M / Accel, Cyberstarts, Redpoint, CRV description as the press release. A company-page post from about 9 hours earlier (Tyler Golden, field marketing) thanks 'Scott Simkin and the greater marketing team', confirming Simkin is currently in charge of marketing. Google snippet for site:linkedin.com/in 'Vega' CMO 'Scott Simkin' returns 'Scott Simkin - Vega', 6.5K+ followers, San Jose, California, Experience: Vega, Education: Santa Clara University. The snippet does not show the CMO title itself (Google flags 'Missing: CMO'); the title comes from vega.io.",
+      "sources": [
+        "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer",
+        "https://vega.io/authors/scott-simkin",
+        "https://www.linkedin.com/company/vega-security-io/",
+        "https://trust.vega.io",
+        "Google snippet: site:linkedin.com/in \"Vega\" CMO \"Scott Simkin\" (via Bright Data, 2026-11-20)",
+        "Google snippet: RocketReach 'Vega Email Format | vega.io' (via Bright Data, 2026-11-20)",
+        "Google snippet: Fundz 'Vega Security appoints Scott Simkin (October 2026)' (via Bright Data, 2026-11-20)"
+      ],
+      "verified": [
+        "Name and title: vega.io press release, 6 Oct 2026 ('Vega Appoints Category Builder Scott Simkin as Chief Marketing Officer to Define the Post-SIEM Era'); vega.io author page 'Scott Simkin, Chief Marketing Officer at Vega'; also syndicated on Cybersecurity Insiders and Security Boulevard (Google snippets).",
+        "Background (press release): former VP Marketing for Palo Alto Networks' Cortex platform; led product marketing at CrowdStrike and launched Falcon Next-Gen SIEM.",
+        "Currently leads marketing: named as head of 'the greater marketing team' in a Vega company-page post, about 19 Nov 2026."
+      ]
+    },
+    "fallback": {
+      "name": "Shay Sandler",
+      "title": "Co-founder and CEO, Vega",
+      "email": "shay@vega.io",
+      "email_status": "inferred_pattern",
+      "email_evidence": "Same [first]@vega.io inference as above (eli@vega.io on trust.vega.io; RocketReach format snippet). No published address for Shay found.",
+      "sources": [
+        "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer (quoted as 'co-founder and CEO of Vega')",
+        "https://vega.io/press/vega-arms-defenders-with-first-model-for-agentic-cyber-defense",
+        "https://vega.io/about"
+      ],
+      "note": "Use only if Scott is not reachable. Vega is Series B (about 140-185 staff, $185M raised), so the marketing leader is the primary recipient under the campaign rule."
+    }
+  },
+  "artifacts": {
+    "visibility_report": "https://claude.ai/artifact/A4EWcr9DzJYcu7kfhk5SqB",
+    "action_plan": "https://claude.ai/artifact/2gahMu96wiYP2PDKU1ori5"
+  },
+  "rationale": "Vega is a well-funded scaling company whose new CMO came from Cortex and Falcon Next-Gen SIEM and is defining a 'post-SIEM' category, so AI visibility in the SIEM and AI SOC categories is squarely his problem. The audit's strongest, most concrete hooks are the near-total absence from unprompted category answers (zero in AI SOC), comparison losses that rest on wrong descriptions rather than real limits, and the brand collision where another Vega's DPA produces a 'No' on zero data retention, a vendor-risk answer he would want to fix. The opener uses this week's award credited to his team, and the bridge reuses his own words from the hire release. The email body is about 180 words by a strict count (numbers included), close to the Bay reference. scott@vega.io is inferred from the first-name pattern (eli@vega.io is published on trust.vega.io); verify with Hunter before sending. Fallback: CEO Shay Sandler."
+}

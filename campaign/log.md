@@ -3,6 +3,10 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-20T04:55:09+00:00 mark vega-security done
+- 2026-11-20T04:55:09+00:00 draft vega-security
+- 2026-11-20T04:55:09+00:00 notify vega-security done
+- 2026-11-20T04:55:09+00:00 start upwind
 - 2026-11-20T00:54:24+00:00 nudge vega-security
 - 2026-11-19T21:54:21+00:00 mark vega-security running
 - 2026-11-19T21:54:21+00:00 mark gambit-security waiting_gate

@@ -1,6 +1,6 @@
 {
-  "stage": "loop_c",
-  "ts": "2026-11-20T02:27:03+00:00",
-  "note": "Loop C: content-crawler running",
+  "stage": "done",
+  "ts": "2026-11-20T04:24:52+00:00",
+  "note": "Audit complete; outreach material in output/vega-security/outreach/ (nothing sent)",
   "branch": "campaign/vega-security"
 }
