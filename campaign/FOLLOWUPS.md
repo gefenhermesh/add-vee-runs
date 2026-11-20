@@ -1,6 +1,6 @@
 # Follow-ups: how they're tracked, decided and written
 
-Status: **proposal, 2026-11-20**, for the sponsor to approve or change. Nothing here runs until approved. The pitch text (`pitch.md`) stays the sponsor's; wording below is suggested lines to adopt, not edits to it.
+Status: **approved by the sponsor 2026-11-20** ("approve and build it"); built the same day: `followup.py` (+ tests), add-vee `docs/campaign/followup-strategist.md`, `MANAGER_TICK.md` step 6. The pitch text (`pitch.md`) stays the sponsor's; wording below is suggested lines to adopt, not edits to it.
 
 Builds on what's already decided: the negative rules and conditions in add-vee `docs/proposals/2026-11-12-outreach-methodology.md` §5, the sequence in `pitch.md` §3, and the learning loop in `LEARNING.md`.
 

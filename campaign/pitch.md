@@ -77,6 +77,9 @@ C is also the strongest argument for hiring the sponsor rather than buying a too
 - **`engagement`**:
   > I run this as a fixed-scope audit, and help teams act on it afterwards.
 
+### 2.5b The follow-ups and the email-1 additions (sponsor, 2026-11-20)
+Approved with `FOLLOWUPS.md`. The follow-up types (V full value, N new evidence, T trigger, L last check, C committee), the V content (more and more realistic conversations, their own sales context and materials, every platform, a system the team can question, run regularly, help putting it in place with SEO as conductor, plus a deeper peek at the recommendations, one per team) and how each is written now live in add-vee `docs/campaign/followup-strategist.md`, which the strategist follows. Email 1 keeps its format, with a word here and there: "a research system of my own", "people don't ask AI a keyword, they hold a conversation", "what would normally take weeks of manual work" (add-vee `docs/campaign/company-session.md` §3). Section 3's follow-up lines below are superseded by those.
+
 ### 2.6 Calls to action
 - Email 1: > Want the full report? I'll send it over.
 - Follow-up 1: > Happy to walk you and the team through it, 20 minutes.
