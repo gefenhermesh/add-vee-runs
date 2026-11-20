@@ -328,3 +328,78 @@ def linkedin_people(profile_urls):
         out.append({"url": r.get("input_url") or r.get("url"), "name": r.get("name"), "position": r.get("position"),
                     "current_company": r.get("current_company_name"), "city": r.get("city")})
     return out
+
+
+LI_JOBS_DS = "gd_lpfll7v5hcqtkxl6l"       # discover by keyword: LinkedIn Jobs search
+LI_POSTS_DS = "gd_lyy3tktm25m4avu764"     # discover by profile_url / company_url: recent posts
+
+
+def brightdata_discover(dataset_id, by, inputs, wait_s=600):
+    """Like brightdata_dataset, but discovery mode (search by keyword, profile or company)."""
+    import time
+    api = "https://api.brightdata.com/datasets/v3"
+    hdr = {"Content-Type": "application/json", "Authorization": "Bearer dummy"}
+
+    def call(path, data=None):
+        req = urllib.request.Request(api + path, data=json.dumps(data).encode() if data is not None else None,
+                                     method="POST" if data is not None else "GET", headers=hdr)
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read().decode())
+
+    sid = call(f"/trigger?dataset_id={dataset_id}&include_errors=true&type=discover_new&discover_by={by}", inputs)["snapshot_id"]
+    end = time.time() + wait_s
+    while time.time() < end:
+        st = call(f"/progress/{sid}").get("status")
+        if st == "ready":
+            return call(f"/snapshot/{sid}?format=json")
+        if st == "failed":
+            raise RuntimeError(f"snapshot {sid} failed")
+        time.sleep(10)
+    raise TimeoutError(f"Bright Data snapshot {sid} not ready after {wait_s}s")
+
+
+MARKETING_TITLE = re.compile(r"market|growth|content|seo|brand|demand|communications|\bpr\b|community|gtm|ppc|acquisition", re.I)
+
+
+def parse_li_jobs(records):
+    leads = []
+    for x in records:
+        title, company = x.get("job_title"), x.get("company_name")
+        if not (title and company and MARKETING_TITLE.search(title)):
+            continue
+        leads.append({"company": company, "source": "linkedin_jobs", "source_url": x.get("url") or (x.get("input") or {}).get("url"),
+                      "date": (x.get("job_posted_date") or "")[:10], "signal": "marketing_role", "role": title,
+                      "location": x.get("job_location"), "seo_role": bool(re.search(r"\bseo\b|organic|search", title, re.I))})
+    return leads
+
+
+def linkedin_marketing_jobs(location="Israel", keywords=("marketing", "SEO", "growth marketing", "content marketing"),
+                            time_range="Past week"):
+    recs = brightdata_discover(LI_JOBS_DS, "keyword", [{"keyword": k, "location": location, "time_range": time_range}
+                                                       for k in keywords])
+    return parse_li_jobs(recs)
+
+
+def parse_avi_posts(records):
+    """Avi Lewis' recent posts (Bright Data posts scraper); parse his latest 'startups that raised' list."""
+    lists = sorted((p for p in records if "רשימת סטארטאפים" in (p.get("post_text") or "")),
+                   key=lambda p: p.get("date_posted") or "", reverse=True)
+    if not lists:
+        return []
+    p = lists[0]
+    text = re.sub(r"\s+(?=[א-ת]{1,2}\.\s)", "\n", p["post_text"])  # the scraper flattens the list onto one line
+    text = re.sub(r"\s+(?=פספסתי)", "\n", text)
+    page = "<div>" + html.escape(text).replace("\n", "<br>") + "</div>"
+    return [dict(l, source_url=p.get("url"), date=(p.get("date_posted") or "")[:10]) for l in parse_avi_list(page, p.get("url"))]
+
+
+def avi_latest():
+    return parse_avi_posts(brightdata_discover(LI_POSTS_DS, "profile_url",
+                                               [{"url": "https://www.linkedin.com/in/avi-lewis/"}]))
+
+
+def linkedin_company_posts(company_url, limit=10):
+    """Recent company posts (launches, hires, events) for recon and openers."""
+    recs = brightdata_discover(LI_POSTS_DS, "company_url", [{"url": company_url}])
+    return [{"date": (r.get("date_posted") or "")[:10], "text": (r.get("post_text") or "")[:500], "url": r.get("url")}
+            for r in recs[:limit]]

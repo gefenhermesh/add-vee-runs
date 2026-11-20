@@ -57,7 +57,8 @@ def collect(avi_urls):
     run("ctech_appointments", lambda: R.parse_ctech_appointments(R.render("https://www.calcalistech.com/ctechnews/category/31182")))
     for name, feed in R.GENERAL_FEEDS.items():
         run(name, lambda feed=feed, name=name: R.parse_rss_funding(R.fetch(feed), name))
-    run("avi_lewis_latest (best-effort; LinkedIn often answers empty)", lambda: R.parse_avi_list(R.fetch(AVI_ACTIVITY, brightdata=True), AVI_ACTIVITY))
+    run("avi_lewis_latest (LinkedIn posts via Bright Data)", R.avi_latest)
+    run("linkedin_jobs_marketing_israel (Bright Data)", R.linkedin_marketing_jobs)
     for u in avi_urls:
         run(f"avi_lewis {u[:60]}", lambda u=u: R.parse_avi_list(R.fetch(u, brightdata=True), u))
     return leads, coverage

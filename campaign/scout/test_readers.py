@@ -81,5 +81,19 @@ class GeneralFeedTest(unittest.TestCase):
         self.assertTrue(any(l["company_known"] for l in leads))
 
 
+class LinkedInDatasetTest(unittest.TestCase):
+    def test_jobs(self):
+        import json
+        leads = R.parse_li_jobs(json.loads((FX / "li_jobs_marketing_israel.json").read_text()))
+        self.assertGreater(len(leads), 10)
+        self.assertTrue(any(l["company"] == "Wix" and l["seo_role"] for l in leads))  # "organic growth marketer"
+
+    def test_avi_posts(self):
+        import json
+        leads = R.parse_avi_posts(json.loads((FX / "li_posts_avi.json").read_text()))
+        self.assertEqual(len(leads), 23)
+        self.assertEqual({l["company"] for l in leads} >= {"Sentra", "Bay"}, True)
+
+
 if __name__ == "__main__":
     unittest.main()
