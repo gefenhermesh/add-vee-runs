@@ -91,7 +91,7 @@
       "slug": "upwind",
       "company": "Upwind",
       "domain": "upwind.io",
-      "status": "running",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
@@ -99,8 +99,10 @@
       "started_at": "2026-11-20T04:55:09+00:00",
       "nudges": 0,
       "notified": {
-        "gate": "2026-11-20T05:54:24+00:00"
-      }
+        "gate": "2026-11-20T05:54:24+00:00",
+        "done": "2026-11-20T23:51:43+00:00"
+      },
+      "gmail_draft_id": "r-3578694624410055410"
     },
     {
       "slug": "glow-io",
@@ -392,7 +394,7 @@
     "gemini": "Gemini paused from 2026-11-20 (add-vee PR #12): new runs collect ChatGPT and Google AI Mode only. Vega Security keeps its Gemini data as collected (sponsor, 2026-11-20).",
     "brightdata_pause": "Bright Data credits at 0 (sponsor, 2026-11-20 ~20:40 UTC): no Bright Data calls anywhere until the sponsor says payment is resumed. tick.py starts no new company while settings.brightdata_paused is true; running audits continue without Bright Data or stop at stage paused_brightdata; scout budgets are 0 (budget.json _paused)."
   },
-  "last_tick": "2026-11-20T22:55:22+00:00",
+  "last_tick": "2026-11-20T23:51:43+00:00",
   "manager": {
     "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
     "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",

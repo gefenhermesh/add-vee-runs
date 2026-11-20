@@ -1,0 +1,59 @@
+{
+ "company": "Upwind",
+ "domain": "upwind.io",
+ "situation": "scaling",
+ "situation_note": "Series C $400M at $3.8B (Oct 28, 2026), 600+ employees, 400+ customers; scaling fast in CNAPP, runtime detection and AI security",
+ "finding_pattern": "absent",
+ "angle": "Buyers who don't already know Upwind never meet it: AI builds every cloud-security shortlist from third-party lists that leave Upwind out, even though it describes Upwind accurately and often picks it once a buyer names it.",
+ "lead_claims": [
+  {
+   "claim_id": "C-007",
+   "figure": "0.9% (1 of 116 answers to questions that don't name Upwind)",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "claim_id": "C-083",
+   "figure": "0 of 8 methodology-backed best-of lists ChatGPT cited name Upwind",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "claim_id": "C-103",
+   "figure": "92.0% (126 of 137) answers about Upwind with no confirmed error",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "claim_id": "C-051",
+   "figure": "44.4% (8 of 18) head-to-head verdicts pick Upwind",
+   "verdict": "CONFIRMED"
+  }
+ ],
+ "opener": {
+  "text": "Congrats on the new CMO role, and on arriving the same month as a $400M Series C at a $3.8B valuation, less than nine months after the Series B.",
+  "type": "milestone_congrats",
+  "sources": [
+   "https://itdigest.com/cloud-computing-mobility/cloud-security/upwind-appoints-joel-minnick-as-chief-marketing-officer/ (Oct 8, 2026)",
+   "https://www.upwind.io/blog/the-next-wave-is-here-upwinds-400m-series-c-to-build-the-cloud-ai-security-platform",
+   "https://futurumgroup.com/?p=97250 (independent, confirms the $3.8B valuation)"
+  ]
+ },
+ "contacts": {
+  "to": "Joel Minnick, Chief Marketing Officer",
+  "email": "joel.minnick@upwind.io",
+  "email_verified": false,
+  "alternate": "Amiram Shachar, CEO"
+ },
+ "images": [
+  "outreach/findings.jpg",
+  "outreach/plan.jpg"
+ ],
+ "artifacts": {
+  "action_plan": "https://claude.ai/artifact/HZ6kiRyE1q5De4NsYRi8eU",
+  "visibility_report": "https://claude.ai/artifact/WnaB4ARiioYVbGQxyeeaEA"
+ },
+ "caveats": [
+  "Two platforms only (ChatGPT, Gemini); Google AI Mode collection stalled and Bright Data was paused, so Gemini stands in.",
+  "Recipient email follows the first.last pattern and is unverified; the domain may be catch-all. Verify with Hunter before sending.",
+  "C-051 and C-103 are MEDIUM confidence (single run, no re-run)."
+ ],
+ "rationale": "Upwind is a scaling company with a new CMO and fresh Series C money, so the natural audience is marketing, and the result is a sharp, non-obvious story rather than a generic 'you're invisible': AI describes Upwind accurately and picks it in close to half of head-to-heads once named, but almost never brings it up unprompted, and none of the methodology-backed best-of lists ChatGPT cited for these questions includes it. That points the new CMO at concrete, fundable work (buyer-guide submissions, review volume, a few fact pages) right as the budget arrives. The opener ties the CMO's start to the round, both sourced; the email asks for nothing beyond whether to send the report."
+}

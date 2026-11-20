@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-20T23:51:43+00:00 mark upwind done
+- 2026-11-20T23:51:43+00:00 draft upwind
+- 2026-11-20T23:51:43+00:00 notify upwind done
 - 2026-11-20T22:55:22+00:00 mark gambit-security done
 - 2026-11-20T22:55:22+00:00 draft gambit-security
 - 2026-11-20T22:55:22+00:00 notify gambit-security done
