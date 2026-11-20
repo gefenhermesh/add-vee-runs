@@ -17,15 +17,27 @@ import urllib.request
 UA = {"User-Agent": "Mozilla/5.0 (research script)"}
 
 
-def fetch(url, brightdata=False, timeout=40):
+def fetch(url, brightdata=False, timeout=None):
+    timeout = timeout or (150 if brightdata else 40)
     if brightdata:
         body = json.dumps({"zone": "content_crawler", "url": url, "format": "raw"}).encode()
         req = urllib.request.Request("https://api.brightdata.com/request", data=body, method="POST",
                                      headers={"Content-Type": "application/json", "Authorization": "Bearer dummy"})
     else:
         req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "replace")
+    import time
+    last = None
+    for attempt in range(3):  # Bright Data sometimes answers empty or times out; retry before reporting a failure
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                body = r.read().decode("utf-8", "replace")
+            if body.strip():
+                return body
+            last = RuntimeError("empty response")
+        except Exception as e:
+            last = e
+        time.sleep(5 * (attempt + 1))
+    raise last
 
 
 def text_of(page):
@@ -162,3 +174,88 @@ def read_job_board(board):
         except Exception:
             continue
     return None, None
+
+
+# --- Rendering (pages that load their lists with JavaScript) ------------------------------------------
+def render(url, wait_ms=2500):
+    """Final HTML of a JavaScript page, via Playwright (campaign/scout/tools/render.js)."""
+    import subprocess
+    from pathlib import Path
+    js = Path(__file__).resolve().parent / "tools" / "render.js"
+    r = subprocess.run(["node", str(js), url, str(wait_ms)], capture_output=True, text=True, timeout=150)
+    return r.stdout
+
+
+def _ctech_items(page):
+    seen, out = set(), []
+    for art, inner in re.findall(r'href="https://www\.calcalistech\.com/ctechnews/article/([a-z0-9]+)"[^>]*>(.*?)</a>', page, re.S):
+        t = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", inner))).strip()
+        if len(t) < 20 or art in seen:
+            continue
+        seen.add(art)
+        m = re.search(r"(\d{2})\.(\d{2})\.(\d{2})", t)
+        out.append({"text": t, "url": f"https://www.calcalistech.com/ctechnews/article/{art}",
+                    "date": f"20{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None})
+    return out
+
+
+# --- CTech (Calcalist) Startups and Appointments (category 5214 / 31182; rendered) ---------------------
+FUNDING_WORDS = re.compile(r"\braises?\b|\bsecures?\b|\binvests?\b|\bSeries [A-H]\b|\bseed\b|from stealth", re.I)
+
+
+def parse_ctech_startups(page):
+    leads = []
+    for it in _ctech_items(page):
+        t = it["text"]
+        if not (FUNDING_WORDS.search(t) and AMOUNT.search(t)):
+            continue
+        head, _, teaser = t.partition(" | ")
+        m = re.match(r"^(?:[A-Z][\w.&-]*(?: [A-Z][\w.&-]*){0,3}) (?=raises|secures|goes|lands)", head)
+        company = m.group(0).strip() if m and not head.lower().startswith(("israeli", "former", "cyber startup")) else None
+        leads.append({"company": company or f"(unresolved) {head[:70]}", "company_known": bool(company), "source": "ctech_startups",
+                      "source_url": it["url"], "date": it["date"], "signal": "funding",
+                      "amount_musd": money(t), "stage": (STAGE.search(t) or [None])[0], "raw": t[:400]})
+    return leads
+
+
+def parse_ctech_appointments(page):
+    """'Appointment | <Company> appoints <Name> as <Role> <dd.mm.yy>'. A marketing-leader hire is a trigger."""
+    leads = []
+    for it in _ctech_items(page):
+        m = re.match(r"Appointment \| (.+?) (?:appoints|names|hires|taps) (.+?) as (.+?) \d{2}\.\d{2}\.\d{2}", it["text"])
+        if not m:
+            continue
+        role = m.group(3).strip()
+        leads.append({"company": m.group(1).strip(), "source": "ctech_appointments", "source_url": it["url"],
+                      "date": it["date"], "signal": "exec_hire", "role": role, "person": m.group(2).strip(),
+                      "marketing_leader_hire": bool(re.search(r"\bCMO\b|marketing|growth", role, re.I)),
+                      "raw": it["text"][:300]})
+    return leads
+
+
+# --- Next Play public feed (nextplayso.substack.com/feed; no Gmail needed) -----------------------------
+def parse_nextplay_feed(xml, url="https://nextplayso.substack.com/feed"):
+    leads = []
+    for item in re.findall(r"<item>(.*?)</item>", xml, re.S):
+        title = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", (re.search(r"<title>(.*?)</title>", item, re.S) or [None, ""])[1]))
+        link = (re.search(r"<link>(.*?)</link>", item, re.S) or [None, url])[1].strip()
+        date = (re.search(r"<pubDate>(.*?)</pubDate>", item, re.S) or [None, ""])[1][:16]
+        body = (re.search(r"<content:encoded>(.*?)</content:encoded>", item, re.S) or [None, ""])[1]
+        text = text_of(html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", body)))
+        if title.startswith("Should you join:"):
+            leads.append({"company": title.split(":", 1)[1].strip(), "source": "nextplay", "source_url": link, "date": date,
+                          "signal": "profile", "raw": title})
+            continue
+        for line in text.split("\n"):
+            line = line.strip()
+            m = re.search(r"\bfrom ([A-Z][\w.&'’ -]{1,40}?) is hiring (.+?)\. They are building (.+?)\.", line)
+            if m:
+                leads.append({"company": m.group(1).strip(), "source": "nextplay", "source_url": link, "date": date,
+                              "signal": "hiring", "role": m.group(2).strip(), "note": m.group(3).strip()[:160], "raw": line[:300]})
+                continue
+            m = re.match(r"^([A-Z][\w.&'’ -]{1,40}?) - (.{5,120}?) \(([^)]*)\) - Careers$", line)
+            if m:
+                leads.append({"company": m.group(1).strip(), "source": "nextplay", "source_url": link, "date": date,
+                              "signal": "funding" if re.search(r"rais", title, re.I) else "hiring",
+                              "note": m.group(2).strip(), "location": m.group(3), "list": title, "raw": line[:300]})
+    return leads

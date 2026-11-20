@@ -1,105 +1,47 @@
 {
- "built": "2026-11-19T21:34:10+00:00",
- "errors": [],
+ "built": "2026-11-20T02:57:05+00:00",
+ "coverage": [
+  {
+   "source": "vccafe_firgun",
+   "leads": 10,
+   "ok": true
+  },
+  {
+   "source": "telegram_hitechjobsmarketing",
+   "leads": 157,
+   "ok": true
+  },
+  {
+   "source": "nextplay_feed",
+   "leads": 123,
+   "ok": true
+  },
+  {
+   "source": "ctech_startups",
+   "leads": 10,
+   "ok": true
+  },
+  {
+   "source": "ctech_appointments",
+   "leads": 11,
+   "ok": true
+  },
+  {
+   "source": "avi_lewis_latest",
+   "leads": 0,
+   "ok": false,
+   "error": "The read operation timed out"
+  }
+ ],
+ "errors": [
+  {
+   "source": "avi_lewis_latest",
+   "leads": 0,
+   "ok": false,
+   "error": "The read operation timed out"
+  }
+ ],
  "companies": [
-  {
-   "key": "daylight",
-   "company": "Daylight Security",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 80.0,
-     "stage": "Series B",
-     "founders": [
-      "Eldad Rudich"
-     ]
-    },
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 80.0,
-     "open_roles": 9
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 80.0,
-     "stage": "Series B",
-     "founders": [
-      "Eldad Rudich"
-     ]
-    },
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 80.0,
-     "open_roles": 9
-    }
-   ]
-  },
-  {
-   "key": "edelbyte",
-   "company": "Edelbyte",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 70.0,
-     "stage": "seed",
-     "founders": [
-      "Evgeney Ryzhyk",
-      "Alexander Sloutsky",
-      "Yoni Leibowitz"
-     ]
-    },
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 45.0
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 70.0,
-     "stage": "seed",
-     "founders": [
-      "Evgeney Ryzhyk",
-      "Alexander Sloutsky",
-      "Yoni Leibowitz"
-     ]
-    },
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 45.0
-    }
-   ]
-  },
   {
    "key": "spines",
    "company": "Spines",
@@ -122,9 +64,21 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 64.0,
      "open_roles": 6
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 64.0,
+     "stage": "growth",
+     "founders": [
+      "Yehuda Niv"
+     ],
+     "raw": "Mabruk Yehuda Niv and team Spines on securing $64 million in growth capital for your AI publishing platform: $29 million in Series A-1 plus a $35 million financing facility to help authors take their manuscripts through editing, design, production and distribution, and reports a $50 million revenue run rate. A reminder that Israeli AI extends well beyond cyber!"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 0,
    "funding": [
@@ -145,12 +99,25 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 64.0,
      "open_roles": 6
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 64.0,
+     "stage": "growth",
+     "founders": [
+      "Yehuda Niv"
+     ],
+     "raw": "Mabruk Yehuda Niv and team Spines on securing $64 million in growth capital for your AI publishing platform: $29 million in Series A-1 plus a $35 million financing facility to help authors take their manuscripts through editing, design, production and distribution, and reports a $50 million revenue run rate. A reminder that Israeli AI extends well beyond cyber!"
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
-   "key": "dreeze",
-   "company": "Dreeze",
+   "key": "ribon",
+   "company": "Ribon",
    "first_seen": "2026-11-19",
    "signals": [
     {
@@ -158,22 +125,26 @@
      "source": "vccafe_firgun",
      "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
      "date": "November 13 2026",
-     "amount_musd": 33.0,
-     "stage": "seed",
+     "amount_musd": 200.0,
      "founders": [
-      "Oded Kedem",
-      "Avi Raichel"
-     ]
+      "Ehud Schneorson"
+     ],
+     "note": "still in stealth"
     },
     {
      "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 33.0,
-     "open_roles": 3
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 200.0,
+     "founders": [
+      "Ehud Schneorson"
+     ],
+     "note": "still in stealth",
+     "raw": "Impressive milestone Idan Nurick, Ehud Schneorson and team Ribon (still in stealth) on raising undisclosed funding (ranging up to $200M in tranches) intro a company before it’s even founded!"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 0,
    "funding": [
@@ -182,25 +153,30 @@
      "source": "vccafe_firgun",
      "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
      "date": "November 13 2026",
-     "amount_musd": 33.0,
-     "stage": "seed",
+     "amount_musd": 200.0,
      "founders": [
-      "Oded Kedem",
-      "Avi Raichel"
-     ]
+      "Ehud Schneorson"
+     ],
+     "note": "still in stealth"
     },
     {
      "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 33.0,
-     "open_roles": 3
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 200.0,
+     "founders": [
+      "Ehud Schneorson"
+     ],
+     "note": "still in stealth",
+     "raw": "Impressive milestone Idan Nurick, Ehud Schneorson and team Ribon (still in stealth) on raising undisclosed funding (ranging up to $200M in tranches) intro a company before it’s even founded!"
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
-   "key": "plurai",
-   "company": "Plurai",
+   "key": "pillar",
+   "company": "Pillar Security",
    "first_seen": "2026-11-19",
    "signals": [
     {
@@ -208,21 +184,24 @@
      "source": "vccafe_firgun",
      "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
      "date": "November 13 2026",
-     "amount_musd": 13.0,
-     "stage": "seed",
+     "amount_musd": 150.0,
      "founders": [
-      "Ilan Kadar",
-      "Elad Levi"
+      "Ziv Karliner"
      ]
     },
     {
      "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 13.0
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 150.0,
+     "founders": [
+      "Ziv Karliner"
+     ],
+     "raw": "Mazal tov Dor Sarig, Ziv Karliner and team Pillar Security on the reported agreement to be acquired by Vanta for approximately $150 million, in cash and shares to help connect AI governance policies with technical controls!"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 0,
    "funding": [
@@ -231,20 +210,177 @@
      "source": "vccafe_firgun",
      "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
      "date": "November 13 2026",
-     "amount_musd": 13.0,
-     "stage": "seed",
+     "amount_musd": 150.0,
      "founders": [
-      "Ilan Kadar",
-      "Elad Levi"
+      "Ziv Karliner"
      ]
     },
     {
      "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 150.0,
+     "founders": [
+      "Ziv Karliner"
+     ],
+     "raw": "Mazal tov Dor Sarig, Ziv Karliner and team Pillar Security on the reported agreement to be acquired by Vanta for approximately $150 million, in cash and shares to help connect AI governance policies with technical controls!"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "laguna health",
+   "company": "Laguna Health",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "founders": [
+      "Yael Peled Adam"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "founders": [
+      "Yael Peled Adam"
+     ],
+     "raw": "Well done Yoni Shtein, Yael Peled Adam and team Laguna Health on the acquisition by Elligint Health for an undisclosed sum to empower healthcare management teams to automate clinical documentation, monitor call quality, and support member interactions"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "founders": [
+      "Yael Peled Adam"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "founders": [
+      "Yael Peled Adam"
+     ],
+     "raw": "Well done Yoni Shtein, Yael Peled Adam and team Laguna Health on the acquisition by Elligint Health for an undisclosed sum to empower healthcare management teams to automate clinical documentation, monitor call quality, and support member interactions"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "vine ventures",
+   "company": "Vine Ventures",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 236.0,
+     "founders": [
+      "Eric Reiner",
+      "Adam Valkin"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 236.0,
+     "founders": [
+      "Eric Reiner",
+      "Adam Valkin"
+     ],
+     "raw": "Congrats Eric Reiner, Adam Valkin and team Vine Ventures on closing a $236 million Fund III, to continue investing across the US–Israel early stage technology ecosystem!"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 236.0,
+     "founders": [
+      "Eric Reiner",
+      "Adam Valkin"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 236.0,
+     "founders": [
+      "Eric Reiner",
+      "Adam Valkin"
+     ],
+     "raw": "Congrats Eric Reiner, Adam Valkin and team Vine Ventures on closing a $236 million Fund III, to continue investing across the US–Israel early stage technology ecosystem!"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "ramon space",
+   "company": "Ramon.Space",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
      "source": "avi_lewis_list",
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 13.0
+     "amount_musd": 124.0,
+     "open_roles": 11
+    },
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/ryr9t6tcgl",
+     "date": "2026-11-17",
+     "amount_musd": 124.0,
+     "raw": "Ramon.Space raises $124 million to build the computing infrastructure of space 17.11.26 | Meir Orbach The Israeli company, backed by Micron and PSG, develops systems that allow satellites to process, store, and transmit data in orbit. The funding will support expanded production and the rollout of its next generation of products as demand grows for AI and other computing workloads in space."
     }
-   ]
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 124.0,
+     "open_roles": 11
+    },
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/ryr9t6tcgl",
+     "date": "2026-11-17",
+     "amount_musd": 124.0,
+     "raw": "Ramon.Space raises $124 million to build the computing infrastructure of space 17.11.26 | Meir Orbach The Israeli company, backed by Micron and PSG, develops systems that allow satellites to process, store, and transmit data in orbit. The funding will support expanded production and the rollout of its next generation of products as demand grows for AI and other computing workloads in space."
+    }
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "pluto",
@@ -267,7 +403,7 @@
      "open_roles": 1
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
    "funding": [
@@ -278,161 +414,49 @@
      "amount_musd": 42.0,
      "open_roles": 1
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
-   "key": "ribon",
-   "company": "Ribon",
+   "key": "mind",
+   "company": "MIND Security",
    "first_seen": "2026-11-19",
    "signals": [
     {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-09",
+     "role": "Senior Technical Product Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
      "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 200.0,
-     "founders": [
-      "Ehud Schneorson"
-     ],
-     "note": "still in stealth"
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Tel Aviv",
+     "note": "AI-native data loss prevention",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "MIND - AI-native data loss prevention (Tel Aviv) - Careers"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
-   "marketing_roles": 0,
+   "marketing_roles": 1,
    "funding": [
     {
      "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 200.0,
-     "founders": [
-      "Ehud Schneorson"
-     ],
-     "note": "still in stealth"
-    }
-   ]
-  },
-  {
-   "key": "pillar",
-   "company": "Pillar Security",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 150.0,
-     "founders": [
-      "Ziv Karliner"
-     ]
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Tel Aviv",
+     "note": "AI-native data loss prevention",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "MIND - AI-native data loss prevention (Tel Aviv) - Careers"
     }
    ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 150.0,
-     "founders": [
-      "Ziv Karliner"
-     ]
-    }
-   ]
-  },
-  {
-   "key": "laguna health",
-   "company": "Laguna Health",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "founders": [
-      "Yael Peled Adam"
-     ]
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "founders": [
-      "Yael Peled Adam"
-     ]
-    }
-   ]
-  },
-  {
-   "key": "vine ventures",
-   "company": "Vine Ventures",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 236.0,
-     "founders": [
-      "Eric Reiner",
-      "Adam Valkin"
-     ]
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "vccafe_firgun",
-     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
-     "date": "November 13 2026",
-     "amount_musd": 236.0,
-     "founders": [
-      "Eric Reiner",
-      "Adam Valkin"
-     ]
-    }
-   ]
-  },
-  {
-   "key": "capitolis",
-   "company": "Capitolis",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 220.0
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 220.0
-    }
-   ]
+   "marketing_leader_hire": false
   },
   {
    "key": "sentra",
@@ -458,7 +482,8 @@
      "amount_musd": 150.0,
      "open_roles": 11
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "corma",
@@ -482,83 +507,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 125.0
     }
-   ]
-  },
-  {
-   "key": "ramon space",
-   "company": "Ramon.Space",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 124.0,
-     "open_roles": 11
-    }
    ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 124.0,
-     "open_roles": 11
-    }
-   ]
-  },
-  {
-   "key": "bites",
-   "company": "Bites",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 40.0,
-     "open_roles": 2
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 40.0,
-     "open_roles": 2
-    }
-   ]
-  },
-  {
-   "key": "zenzap",
-   "company": "Zenzap",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 33.0
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 0,
-   "funding": [
-    {
-     "signal": "funding",
-     "source": "avi_lewis_list",
-     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
-     "amount_musd": 33.0
-    }
-   ]
+   "marketing_leader_hire": false
   },
   {
    "key": "mave",
@@ -582,7 +532,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 28.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "rein",
@@ -606,7 +557,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 25.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "undecimal bio",
@@ -630,7 +582,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 18.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "modelyo",
@@ -654,7 +607,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 17.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "high lander",
@@ -678,7 +632,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 16.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "incredibuild",
@@ -704,7 +659,8 @@
      "amount_musd": 15.0,
      "open_roles": 5
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "brava",
@@ -728,7 +684,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 15.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "bloomx",
@@ -754,7 +711,8 @@
      "amount_musd": 13.0,
      "open_roles": 6
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "phantom gi",
@@ -778,7 +736,8 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 5.0
     }
-   ]
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "two delta",
@@ -800,7 +759,677 @@
      "source": "avi_lewis_list",
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/"
     }
-   ]
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "savvy wealth",
+   "company": "Savvy Wealth",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "NYC / US remote",
+     "note": "AI-native wealth management platform",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Savvy Wealth - AI-native wealth management platform (NYC / US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "NYC / US remote",
+     "note": "AI-native wealth management platform",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Savvy Wealth - AI-native wealth management platform (NYC / US remote) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "penelope health",
+   "company": "Penelope Health",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "NYC / London",
+     "note": "real-time payer policy intelligence",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Penelope Health - real-time payer policy intelligence (NYC / London) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "NYC / London",
+     "note": "real-time payer policy intelligence",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Penelope Health - real-time payer policy intelligence (NYC / London) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "delos data",
+   "company": "Delos Data",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Bay Area / Charlottesville / Taiwan / Remote",
+     "note": "AI inference interconnect technology",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Delos Data - AI inference interconnect technology (Bay Area / Charlottesville / Taiwan / Remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Bay Area / Charlottesville / Taiwan / Remote",
+     "note": "AI inference interconnect technology",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Delos Data - AI inference interconnect technology (Bay Area / Charlottesville / Taiwan / Remote) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "tandem health",
+   "company": "Tandem Health",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Stockholm / Europe",
+     "note": "AI clinical assistant for notes and medical documentation",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Tandem Health - AI clinical assistant for notes and medical documentation (Stockholm / Europe) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Stockholm / Europe",
+     "note": "AI clinical assistant for notes and medical documentation",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Tandem Health - AI clinical assistant for notes and medical documentation (Stockholm / Europe) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "watney robotics",
+   "company": "Watney Robotics Inc",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Bay Area",
+     "note": "autonomous critical infrastructure robots",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Watney Robotics Inc - autonomous critical infrastructure robots (Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Bay Area",
+     "note": "autonomous critical infrastructure robots",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Watney Robotics Inc - autonomous critical infrastructure robots (Bay Area) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "archy",
+   "company": "Archy",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Dallas / LATAM / US remote",
+     "note": "dental practice management software",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Archy - dental practice management software (Dallas / LATAM / US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/31-teams-hiring-after-a-50m-100m",
+     "date": "Mon, 16 Nov 2026",
+     "location": "Dallas / LATAM / US remote",
+     "note": "dental practice management software",
+     "list": "31 teams hiring after a $50m-$100m raise",
+     "raw": "Archy - dental practice management software (Dallas / LATAM / US remote) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "ramona optics",
+   "company": "Ramona Optics",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Durham, NC",
+     "note": "high-throughput live-cell imaging systems",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Ramona Optics - high-throughput live-cell imaging systems (Durham, NC) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Durham, NC",
+     "note": "high-throughput live-cell imaging systems",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Ramona Optics - high-throughput live-cell imaging systems (Durham, NC) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "spott",
+   "company": "Spott",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "NYC / Leuven / Sydney",
+     "note": "ATS and CRM for agency recruiters",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Spott - ATS and CRM for agency recruiters (NYC / Leuven / Sydney) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "NYC / Leuven / Sydney",
+     "note": "ATS and CRM for agency recruiters",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Spott - ATS and CRM for agency recruiters (NYC / Leuven / Sydney) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "corridor",
+   "company": "Corridor",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Bay Area",
+     "note": "AI-native security for software development",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Corridor - AI-native security for software development (Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Bay Area",
+     "note": "AI-native security for software development",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Corridor - AI-native security for software development (Bay Area) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "altis",
+   "company": "Altis Labs",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Toronto / US remote",
+     "note": "AI software predicting drug efficacy",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Altis Labs - AI software predicting drug efficacy (Toronto / US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Toronto / US remote",
+     "note": "AI software predicting drug efficacy",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Altis Labs - AI software predicting drug efficacy (Toronto / US remote) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "raindrop",
+   "company": "Raindrop",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Bay Area",
+     "note": "AI agent monitoring and testing",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Raindrop - AI agent monitoring and testing (Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "Bay Area",
+     "note": "AI agent monitoring and testing",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Raindrop - AI agent monitoring and testing (Bay Area) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "noetive",
+   "company": "Noetive",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "US remote",
+     "note": "self-improving AI for industrial operations",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Noetive - self-improving AI for industrial operations (US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-startups-hiring-after-raising",
+     "date": "Mon, 09 Nov 2026",
+     "location": "US remote",
+     "note": "self-improving AI for industrial operations",
+     "list": "29 startups hiring after raising $10m-$50m in funding",
+     "raw": "Noetive - self-improving AI for industrial operations (US remote) - Careers"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "boarding pass",
+   "company": "(unresolved) Boarding Pass",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bglkwnk9f",
+     "date": "2026-11-19",
+     "amount_musd": 2.5,
+     "raw": "Boarding Pass | Israeli startup secures $2.5M to recycle industrial gas waste instead of burning it 19.11.26 | CTech Founded in 2024 by former Intel engineers, CleanTech company CoolVOC is developing a no-combustion alternative to traditional gas treatment, aiming at a $15 billion market."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bglkwnk9f",
+     "date": "2026-11-19",
+     "amount_musd": 2.5,
+     "raw": "Boarding Pass | Israeli startup secures $2.5M to recycle industrial gas waste instead of burning it 19.11.26 | CTech Founded in 2024 by former Intel engineers, CleanTech company CoolVOC is developing a no-combustion alternative to traditional gas treatment, aiming at a $15 billion market."
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "israeli startup raises 11 million seed to automate the growing burden",
+   "company": "(unresolved) Israeli startup raises $11 million Seed to automate the growing burden",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/skfvymoafl",
+     "date": "2026-11-18",
+     "amount_musd": 11.0,
+     "stage": "Seed",
+     "raw": "Israeli startup raises $11 million Seed to automate the growing burden of AI security 18.11.26 | Meir Orbach Vero Security is building a platform that translates enterprise security policies into controls across AI agents, tools and permissions, then automatically enforces them as systems change."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/skfvymoafl",
+     "date": "2026-11-18",
+     "amount_musd": 11.0,
+     "stage": "Seed",
+     "raw": "Israeli startup raises $11 million Seed to automate the growing burden of AI security 18.11.26 | Meir Orbach Vero Security is building a platform that translates enterprise security policies into controls across AI agents, tools and permissions, then automatically enforces them as systems change."
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "insight partners invests 15 million in incredibuild s push into so",
+   "company": "(unresolved) Insight Partners invests $15 million in Incredibuild's push into AI so",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/b1i6zjocgg",
+     "date": "2026-11-18",
+     "amount_musd": 15.0,
+     "raw": "Insight Partners invests $15 million in Incredibuild's push into AI software development 18.11.26 | CTech The Israeli company is directing the investment toward Islo, a platform designed to automate entire engineering workflows rather than simply help developers write code. The deal follows layoffs affecting approximately 18% of its workforce."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/b1i6zjocgg",
+     "date": "2026-11-18",
+     "amount_musd": 15.0,
+     "raw": "Insight Partners invests $15 million in Incredibuild's push into AI software development 18.11.26 | CTech The Israeli company is directing the investment toward Islo, a platform designed to automate entire engineering workflows rather than simply help developers write code. The deal follows layoffs affecting approximately 18% of its workforce."
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "israeli startup newsbound raises 3 million to take on the pr agency m",
+   "company": "(unresolved) Israeli startup Newsbound raises $3 million to take on the PR agency m",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/hjvcityrfl",
+     "date": "2026-11-17",
+     "amount_musd": 3.0,
+     "raw": "Israeli startup Newsbound raises $3 million to take on the PR agency model 17.11.26 | CTech The AI platform monitors breaking news, identifies relevant journalists and prepares tailored pitches for company executives to send themselves. Newsbound says 70% of its paying customers have already left their agencies, although it did not disclose the total number of customers."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/hjvcityrfl",
+     "date": "2026-11-17",
+     "amount_musd": 3.0,
+     "raw": "Israeli startup Newsbound raises $3 million to take on the PR agency model 17.11.26 | CTech The AI platform monitors breaking news, identifies relevant journalists and prepares tailored pitches for company executives to send themselves. Newsbound says 70% of its paying customers have already left their agencies, although it did not disclose the total number of customers."
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "cyber startup corma goes from stealth to unicorn in just three months",
+   "company": "(unresolved) Cyber startup Corma goes from stealth to unicorn in just three months ",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bjiqapu0me",
+     "date": "2026-11-16",
+     "amount_musd": 125.0,
+     "stage": "Series A",
+     "raw": "Cyber startup Corma goes from stealth to unicorn in just three months with $125 million Series A 16.11.26 | Meir Orbach Founded in 2025, the Israeli startup has raised $185 million in total funding, including a $60 million Seed round announced in August. NEA led the latest financing, which values the company at $1 billion."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bjiqapu0me",
+     "date": "2026-11-16",
+     "amount_musd": 125.0,
+     "stage": "Series A",
+     "raw": "Cyber startup Corma goes from stealth to unicorn in just three months with $125 million Series A 16.11.26 | Meir Orbach Founded in 2025, the Israeli startup has raised $185 million in total funding, including a $60 million Seed round announced in August. NEA led the latest financing, which values the company at $1 billion."
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "former nexar researchers raise 13 million seed to bring autonomous",
+   "company": "(unresolved) Former Nexar AI researchers raise $13 million Seed to bring autonomous",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/skzt6lmagl",
+     "date": "2026-11-11",
+     "amount_musd": 13.0,
+     "stage": "Seed",
+     "raw": "Former Nexar AI researchers raise $13 million Seed to bring autonomous-driving simulations to AI agents 11.11.26 | Meir Orbach Plurai's founders are applying techniques used to test self-driving systems to enterprise AI agents. The company's platform simulates thousands of scenarios, identifies failures and automatically improves agents before they reach customers."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/skzt6lmagl",
+     "date": "2026-11-11",
+     "amount_musd": 13.0,
+     "stage": "Seed",
+     "raw": "Former Nexar AI researchers raise $13 million Seed to bring autonomous-driving simulations to AI agents 11.11.26 | Meir Orbach Plurai's founders are applying techniques used to test self-driving systems to enterprise AI agents. The company's platform simulates thousands of scenarios, identifies failures and automatically improves agents before they reach customers."
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "from stealth to a 500 million valuation former microsoft engineers r",
+   "company": "(unresolved) From stealth to a $500 million valuation: Former Microsoft engineers r",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx",
+     "date": "2026-11-11",
+     "amount_musd": 500.0,
+     "stage": "Seed",
+     "raw": "From stealth to a $500 million valuation: Former Microsoft engineers raise $70 million to challenge data giants 11.11.26 | Meir Orbach Edelbyte raised a $25 million Seed round led by Sequoia Capital, followed by a $45 million Series A led by Quiet Capital, with participation from Greenoaks and Swish Ventures. The company says it is already serving Fortune 500 customers with a platform designed to "
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx",
+     "date": "2026-11-11",
+     "amount_musd": 500.0,
+     "stage": "Seed",
+     "raw": "From stealth to a $500 million valuation: Former Microsoft engineers raise $70 million to challenge data giants 11.11.26 | Meir Orbach Edelbyte raised a $25 million Seed round led by Sequoia Capital, followed by a $45 million Series A led by Quiet Capital, with participation from Greenoaks and Swish Ventures. The company says it is already serving Fortune 500 customers with a platform designed to "
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "former unit 8200 officers raise 50 million in just nine months for",
+   "company": "(unresolved) Former Unit 8200 officers raise $50 million in just nine months for AI",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bjx11v5x0gx",
+     "date": "2026-11-10",
+     "amount_musd": 50.0,
+     "stage": "Series A",
+     "raw": "Former Unit 8200 officers raise $50 million in just nine months for AI security startup 10.11.26 | Meir Orbach Bay, founded in 2026, has developed a platform that monitors AI agents across corporate systems and blocks potentially dangerous actions, even when they are carried out using legitimate permissions. The $37 million Series A was led by Battery Ventures, with participation from Micron Ventu"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bjx11v5x0gx",
+     "date": "2026-11-10",
+     "amount_musd": 50.0,
+     "stage": "Series A",
+     "raw": "Former Unit 8200 officers raise $50 million in just nine months for AI security startup 10.11.26 | Meir Orbach Bay, founded in 2026, has developed a platform that monitors AI agents across corporate systems and blocks potentially dangerous actions, even when they are carried out using legitimate permissions. The $37 million Series A was led by Battery Ventures, with participation from Micron Ventu"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "israeli cyber startup daylight raises 80 million series b at estimate",
+   "company": "(unresolved) Israeli cyber startup Daylight raises $80 million Series B at estimate",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/x8vrvo7dt",
+     "date": "2026-11-10",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "raw": "Israeli cyber startup Daylight raises $80 million Series B at estimated $400 million valuation 10.11.26 | Meir Orbach Founded in 2025 by former Torq executives, the Israeli company combines AI agents with human security experts to detect and respond to cyber threats. Daylight says revenue has grown more than 40-fold over the past year."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "ctech_startups",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/x8vrvo7dt",
+     "date": "2026-11-10",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "raw": "Israeli cyber startup Daylight raises $80 million Series B at estimated $400 million valuation 10.11.26 | Meir Orbach Founded in 2025 by former Torq executives, the Israeli company combines AI agents with human security experts to detect and respond to cyber threats. Daylight says revenue has grown more than 40-fold over the past year."
+    }
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "wix",
@@ -864,10 +1493,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 7,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "expressvpn",
@@ -915,10 +1545,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 5,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "g stat",
@@ -956,10 +1587,11 @@
      "location": "Central District"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 4,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "viber",
@@ -999,10 +1631,11 @@
      "location": "Ramat Gan (Hybrid)"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 4,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "medulla",
@@ -1042,10 +1675,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 4,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "elbit systems",
@@ -1077,10 +1711,11 @@
      "location": "Carmiel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 3,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "check point",
@@ -1112,10 +1747,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 3,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "iai",
@@ -1147,45 +1783,11 @@
      "location": "Lod"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 3,
-   "funding": []
-  },
-  {
-   "key": "scaleops",
-   "company": "ScaleOps",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-10",
-     "role": "Senior Marketing Designer",
-     "location": "Tel Aviv"
-    },
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-10",
-     "role": "Product Marketing Manager",
-     "location": "Tel Aviv"
-    },
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-12",
-     "role": "Senior Content Marketing Manager",
-     "location": "Tel Aviv"
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 3,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "medison pharma",
@@ -1217,10 +1819,11 @@
      "location": "Petah Tikva"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 3,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "echo",
@@ -1244,10 +1847,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "orchid",
@@ -1271,10 +1875,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "dream",
@@ -1298,10 +1903,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "wonderful",
@@ -1325,10 +1931,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "lsports",
@@ -1352,10 +1959,11 @@
      "location": "Ashkelon"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "dealhub",
@@ -1379,10 +1987,11 @@
      "location": "Holon"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "alma lasers",
@@ -1406,10 +2015,11 @@
      "location": "Shoham"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "hunt performance marketing",
@@ -1431,10 +2041,11 @@
      "role": "מנהל/ת פרפורמנס בכיר/ה"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "sauce",
@@ -1458,10 +2069,11 @@
      "location": "Israel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "logz",
@@ -1485,10 +2097,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "monday com",
@@ -1512,10 +2125,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "plus500",
@@ -1539,10 +2153,11 @@
      "location": "Haifa"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "zero networks",
@@ -1566,10 +2181,11 @@
      "location": "Ramat Gan"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "geoedge",
@@ -1593,10 +2209,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "hibob",
@@ -1620,10 +2237,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "helfy",
@@ -1647,10 +2265,11 @@
      "location": "Herzliya"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "frontstory",
@@ -1674,37 +2293,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
-  },
-  {
-   "key": "buildots",
-   "company": "Buildots",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-13",
-     "role": "Performance Marketing Manager",
-     "location": "Tel Aviv"
-    },
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-18",
-     "role": "Performance Marketing Manager",
-     "location": "Tel Aviv"
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "harmony",
@@ -1728,10 +2321,11 @@
      "location": "Israel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "agora re",
@@ -1755,10 +2349,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "spikerz",
@@ -1782,10 +2377,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "bluebird aero systems",
@@ -1808,10 +2404,11 @@
      "role": "מוביל/ת תקשורת שיווקית (מרקום)"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "seeking alpha",
@@ -1835,10 +2432,11 @@
      "location": "Ra'anana"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "cato networks",
@@ -1862,10 +2460,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 2,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "kissterra",
@@ -1881,10 +2480,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "nebius",
@@ -1900,10 +2500,11 @@
      "location": "Israel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "gloat",
@@ -1919,10 +2520,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "rafael",
@@ -1938,10 +2540,11 @@
      "location": "Kiryat Bialik"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "natural intelligence",
@@ -1957,10 +2560,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "pointfive",
@@ -1976,10 +2580,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "hello heart",
@@ -1995,10 +2600,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "navan",
@@ -2014,10 +2620,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "one zero digital bank",
@@ -2033,10 +2640,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "zota",
@@ -2052,10 +2660,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "commtact",
@@ -2071,10 +2680,11 @@
      "location": "Modiin"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "allcloud",
@@ -2090,10 +2700,11 @@
      "location": "Ra'anana"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "oak",
@@ -2109,10 +2720,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "wsc sports",
@@ -2128,10 +2740,11 @@
      "location": "Israel (Remote)"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "ai21",
@@ -2147,10 +2760,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "astelia",
@@ -2166,10 +2780,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "lusha",
@@ -2185,10 +2800,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "way",
@@ -2204,10 +2820,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "plarium",
@@ -2223,10 +2840,11 @@
      "location": "Herzliya"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "fullpath",
@@ -2242,10 +2860,11 @@
      "location": "Jerusalem (Hybrid)"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "3dsellers",
@@ -2261,10 +2880,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "limy",
@@ -2280,10 +2900,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "remepy",
@@ -2297,12 +2918,23 @@
      "date": "2026-11-06",
      "role": "Content Writer",
      "location": "Ramat Gan"
+    },
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/h1n6jzdtgx",
+     "date": "2026-09-16",
+     "role": "Chief Medical Officer",
+     "person": "Eran Harary",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Remepy appoints Eran Harary as Chief Medical Officer 16.09.26 | CTech"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "abra it",
@@ -2318,10 +2950,11 @@
      "location": "Center District"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "welo global",
@@ -2337,10 +2970,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "adesco",
@@ -2356,10 +2990,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "artlist",
@@ -2375,29 +3010,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
-  },
-  {
-   "key": "mind",
-   "company": "MIND Security",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-09",
-     "role": "Senior Technical Product Marketing Manager",
-     "location": "Tel Aviv"
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "hyperguest",
@@ -2413,10 +3030,11 @@
      "location": "Ramat Gan"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "april",
@@ -2432,10 +3050,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "bet shemesh engines",
@@ -2451,10 +3070,11 @@
      "location": "Beit Shemesh"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "xtra mile",
@@ -2470,10 +3090,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "pango",
@@ -2489,10 +3110,11 @@
      "location": "Petah Tikva"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "keshet",
@@ -2507,10 +3129,11 @@
      "role": "Creative Copywriter"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "hp",
@@ -2526,10 +3149,11 @@
      "location": "Ness Ziona"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "blockaid",
@@ -2545,10 +3169,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "aidoc",
@@ -2564,10 +3189,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "cymulate",
@@ -2583,10 +3209,11 @@
      "location": "Israel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "river",
@@ -2602,10 +3229,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "ionix",
@@ -2621,10 +3249,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "seetrue",
@@ -2640,10 +3269,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "superplay",
@@ -2659,10 +3289,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "kela",
@@ -2678,10 +3309,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "anzu",
@@ -2697,10 +3329,11 @@
      "location": "Israel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "jazz",
@@ -2716,10 +3349,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "cal online",
@@ -2735,10 +3369,11 @@
      "location": "Israel"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "nova",
@@ -2754,10 +3389,11 @@
      "location": "Rehovot"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "payoneer",
@@ -2773,10 +3409,11 @@
      "location": "Herzliya"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "appalgo",
@@ -2792,29 +3429,11 @@
      "location": "Ramat Gan"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
-  },
-  {
-   "key": "darrow",
-   "company": "Darrow AI",
-   "first_seen": "2026-11-19",
-   "signals": [
-    {
-     "signal": "marketing_role",
-     "source": "telegram_hitechjobsmarketing",
-     "source_url": "https://t.me/s/hitechjobsmarketing",
-     "date": "2026-11-16",
-     "role": "Senior Performance Marketing",
-     "location": "Tel Aviv"
-    }
-   ],
-   "last_seen": "2026-11-19",
-   "known": false,
-   "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "accessibe",
@@ -2830,10 +3449,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "appcharge",
@@ -2847,12 +3467,23 @@
      "date": "2026-11-16",
      "role": "Senior Marketing Designer",
      "location": "Tel Aviv"
+    },
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/rk08fuihze",
+     "date": "2026-10-21",
+     "role": "Chief Operating Officer",
+     "person": "former Monday exec Ronen Morecki",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Appcharge appoints former Monday exec Ronen Morecki as Chief Operating Officer 21.10.26 | CTech"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "oobit",
@@ -2868,10 +3499,11 @@
      "location": "Herzliya (On-site)"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "deloitte",
@@ -2887,10 +3519,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "sciplay",
@@ -2906,10 +3539,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "mayven",
@@ -2925,10 +3559,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "okoora",
@@ -2944,10 +3579,11 @@
      "location": "Ramat Gan"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "papaya gaming",
@@ -2963,10 +3599,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "mediaforce",
@@ -2982,10 +3619,11 @@
      "location": "Holon"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "qiz",
@@ -3001,10 +3639,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "webselenese",
@@ -3020,10 +3659,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "kendago",
@@ -3039,10 +3679,11 @@
      "location": "Kiryat Ono"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "the5ers com",
@@ -3058,10 +3699,11 @@
      "location": "Ra'anana"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "10bis",
@@ -3077,10 +3719,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "alta revenue workforce",
@@ -3096,10 +3739,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "radware",
@@ -3115,10 +3759,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "guardio",
@@ -3134,10 +3779,11 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "figma",
@@ -3153,10 +3799,2741 @@
      "location": "Tel Aviv"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": false,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "genesis computing",
+   "company": "Genesis Computing",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "profile",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/should-you-join-genesis-computing",
+     "date": "Thu, 19 Nov 2026",
+     "raw": "Should you join: Genesis Computing"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "kickoff",
+   "company": "Kickoff",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a product lead and a head of care",
+     "note": "a personal health and training platform that’s grown 10x this year",
+     "raw": "John from Kickoff is hiring a product lead and a head of care. They are building a personal health and training platform that’s grown 10x this year. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "lumbra",
+   "company": "Lumbra",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a deployment strategist",
+     "note": "a platform for running AI agents in classified environments",
+     "raw": "Aaron from Lumbra is hiring a deployment strategist. They are building a platform for running AI agents in classified environments. Aaron is a former CIA officer. Apply here. (Arlington)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "coral",
+   "company": "Coral",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a finance lead, an account executive, and a senior forward deployed engineer",
+     "note": "AI that handles healthcare paperwork like patient intake and prior authorizations",
+     "raw": "Ajay from Coral is hiring a finance lead, an account executive, and a senior forward deployed engineer. They are building AI that handles healthcare paperwork like patient intake and prior authorizations. Apply here. (NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "se3",
+   "company": "SE3",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a head of government affairs and communications and a head of finance",
+     "note": "GPS-free navigation software for drones",
+     "raw": "Lukas from SE3 is hiring a head of government affairs and communications and a head of finance. They are building GPS-free navigation software for drones. Apply here. (Berlin, Munich)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "verra",
+   "company": "Verra",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a growth lead",
+     "note": "institutional memory for consulting firms",
+     "raw": "Kashyap from Verra is hiring a growth lead. They are building institutional memory for consulting firms. They passed $1m in sales in their first five months. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "open human",
+   "company": "Open Human",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a full stack engineer",
+     "note": "a growth decision engine for b2c companies",
+     "raw": "Alessandro from Open Human is hiring a full stack engineer. They are building a growth decision engine for b2c companies. Reach out: alessandro@openhumanlab.com. (London)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "cara",
+   "company": "Cara",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a forward deployed broker and an account executive",
+     "note": "AI agents for insurance brokerages",
+     "raw": "Vic from Cara is hiring a forward deployed broker and an account executive. They are building AI agents for insurance brokerages. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "luca iq",
+   "company": "Luca IQ",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a founding tax lead",
+     "note": "a tax engine and IRS e-filing for CPA firms",
+     "raw": "Angelo from Luca IQ is hiring a founding tax lead. They are building a tax engine and IRS e-filing for CPA firms. Apply here. (Chicago, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "surface",
+   "company": "Surface Labs",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a chief of staff",
+     "note": "AI agents that run marketing for enterprises",
+     "raw": "Saharsh from Surface Labs is hiring a chief of staff. They are building AI agents that run marketing for enterprises. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "closure",
+   "company": "Closure",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a founding account executive",
+     "note": "AI agents that help police sort through evidence",
+     "raw": "Aaron from Closure is hiring a founding account executive. They are building AI agents that help police sort through evidence. Apply here. (NYC, SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "gauge",
+   "company": "Gauge",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a founding customer strategist and a founding salesperson",
+     "note": "tools that help products get recommended by agents",
+     "raw": "Caelean from Gauge is hiring a founding customer strategist and a founding salesperson. They are building tools that help products get recommended by agents. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "coframe",
+   "company": "Coframe",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a growth marketing lead and a finance and operations lead",
+     "note": "AI that rewrites websites for each visitor",
+     "raw": "Josh from Coframe is hiring a growth marketing lead and a finance and operations lead. They are building AI that rewrites websites for each visitor. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "sixtyfour",
+   "company": "Sixtyfour",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a founding social growth lead",
+     "note": "AI agents that research people and companies for fraud and risk teams",
+     "raw": "Saarth from Sixtyfour is hiring a founding social growth lead. They are building AI agents that research people and companies for fraud and risk teams. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "pure",
+   "company": "Pure",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a founding GTM leader and a social media and content lead",
+     "note": "a marketplace and vault for rare coins and precious metals",
+     "raw": "Trey from Pure is hiring a founding GTM leader and a social media and content lead. They are building a marketplace and vault for rare coins and precious metals. Apply here. (LA)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "griffin",
+   "company": "Griffin",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a commercial lead",
+     "note": "a UK bank for fintechs",
+     "raw": "David from Griffin is hiring a commercial lead. They are building a UK bank for fintechs. Recurring revenue grew 3.2x last year. Apply here. (London, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "prism data",
+   "company": "Prism Data",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a people director and an enterprise account executive",
+     "note": "credit scores from bank transaction data for lenders",
+     "raw": "Jason from Prism Data is hiring a people director and an enterprise account executive. They are building credit scores from bank transaction data for lenders. Lender API requests are up more than 100x in two years. Apply here. (NYC, San Diego)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "antimetal",
+   "company": "Antimetal",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "an early marketer and an SDR",
+     "note": "AI that troubleshoots production software",
+     "raw": "Matthew from Antimetal is hiring an early marketer and an SDR. They are building AI that troubleshoots production software. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "arketa",
+   "company": "Arketa",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a GTM strategy and operations lead",
+     "note": "software for boutique fitness and wellness studios",
+     "raw": "Rachel from Arketa is hiring a GTM strategy and operations lead. They are building software for boutique fitness and wellness studios. Apply here. (NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "verse medical",
+   "company": "Verse Medical",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a chief of staff and a strategy and operations lead",
+     "note": "software for at-home medical equipment",
+     "raw": "Dhaivat from Verse Medical is hiring a chief of staff and a strategy and operations lead. They are building software for at-home medical equipment. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "prosper health",
+   "company": "Prosper Health",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a director of strategic initiatives",
+     "note": "a diagnosis and therapy platform for autistic adults",
+     "raw": "Ben from Prosper Health is hiring a director of strategic initiatives. They are building a diagnosis and therapy platform for autistic adults. They have grown 3x year over year into the mid double digit millions in run rate revenue. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "mirendil",
+   "company": "Mirendil",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a founding finance lead. They just raised $1b",
+     "note": "AI to speed up AI and scientific research",
+     "raw": "Behnam from Mirendil is hiring a founding finance lead. They just raised $1b. They are building AI to speed up AI and scientific research. The founders are former Anthropic researchers. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "axiamatic",
+   "company": "Axiamatic",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a product marketing lead and a head of design",
+     "note": "a platform that reduces the cost of AI enterprise transformation projects",
+     "raw": "Rajiv from Axiamatic is hiring a product marketing lead and a head of design. They are building a platform that reduces the cost of AI enterprise transformation projects. Apply here. (SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "nominal",
+   "company": "Nominal",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a social media strategist and a bizops generalist. They just raised $240m",
+     "note": "a data platform for testing hardware like aircraft and satellites",
+     "raw": "Cameron from Nominal is hiring a social media strategist and a bizops generalist. They just raised $240m. They are building a data platform for testing hardware like aircraft and satellites. Apply here. (Austin, NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "langchain",
+   "company": "LangChain",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a head of narratives and a founding emerging talent recruiter. They just raised $300m",
+     "note": "tools to build and run AI agents and have over 7,000 organizations as customers",
+     "raw": "Harrison from LangChain is hiring a head of narratives and a founding emerging talent recruiter. They just raised $300m. They are building tools to build and run AI agents and have over 7,000 organizations as customers. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "posh",
+   "company": "Posh",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "campus growth ambassadors and a brand designer",
+     "note": "a ticketing and social app for IRL events that has 10m+ users",
+     "raw": "Avante from Posh is hiring campus growth ambassadors and a brand designer. They are building a ticketing and social app for IRL events that has 10m+ users. Apply here. (NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "gamma",
+   "company": "Gamma",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "an AI creative strategist and a growth marketing manager",
+     "note": "an AI tool for making presentations, docs, and websites",
+     "raw": "Grant from Gamma is hiring an AI creative strategist and a growth marketing manager. They are building an AI tool for making presentations, docs, and websites. They passed $100m ARR and have been profitable for more than two years. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "permitflow",
+   "company": "PermitFlow",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a chief of staff and an events marketing manager",
+     "note": "AI that automates construction permitting",
+     "raw": "Francis from PermitFlow is hiring a chief of staff and an events marketing manager. They are building AI that automates construction permitting. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "imprint",
+   "company": "Imprint",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a data journalist and a general manager",
+     "note": "co-branded credit cards for brands",
+     "raw": "Daragh from Imprint is hiring a data journalist and a general manager. They are building co-branded credit cards for brands. Revenue is up 150% this year. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "mavria",
+   "company": "Mavria",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a marketing director and a talent director. They just raised $130m",
+     "note": "factory-built data centers for AI",
+     "raw": "Adam from Mavria is hiring a marketing director and a talent director. They just raised $130m. They are building factory-built data centers for AI. The founders met at the Department of Energy. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "mews",
+   "company": "Mews",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a senior account executive. They raised $300m",
+     "note": "an operating system for hotels",
+     "raw": "Matt from Mews is hiring a senior account executive. They raised $300m. They are building an operating system for hotels. Apply here. (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "ocient",
+   "company": "Ocient",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a demand generation manager",
+     "note": "analytics software for huge enterprise datasets",
+     "raw": "John from Ocient is hiring a demand generation manager. They are building analytics software for huge enterprise datasets. Apply here. (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "instrumentl",
+   "company": "Instrumentl",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a head of product and a customer success manager",
+     "note": "grant discovery software for nonprofits",
+     "raw": "Gauri from Instrumentl is hiring a head of product and a customer success manager. They are building grant discovery software for nonprofits. More than 6,000 nonprofits use it. Apply here. (Oakland, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "quo",
+   "company": "Quo",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a partner development manager",
+     "note": "an AI business phone system for small businesses that 90k+ businesses use",
+     "raw": "Mahyar from Quo is hiring a partner development manager. They are building an AI business phone system for small businesses that 90k+ businesses use. Apply here. (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "lumin digital",
+   "company": "Lumin Digital",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/28-recent-unicorn-companies-hiring",
+     "date": "Fri, 13 Nov 2026",
+     "location": "US remote",
+     "note": "digital banking platform for banks and credit unions",
+     "list": "28 recent unicorn companies hiring",
+     "raw": "Lumin Digital - digital banking platform for banks and credit unions (US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "ominimo",
+   "company": "Ominimo",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/28-recent-unicorn-companies-hiring",
+     "date": "Fri, 13 Nov 2026",
+     "location": "Budapest / Belgrade / Novi Sad",
+     "note": "AI-powered auto insurance",
+     "list": "28 recent unicorn companies hiring",
+     "raw": "Ominimo - AI-powered auto insurance (Budapest / Belgrade / Novi Sad) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "flex",
+   "company": "Flex",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/28-recent-unicorn-companies-hiring",
+     "date": "Fri, 13 Nov 2026",
+     "location": "US remote / Miami / NYC / Brazil remote",
+     "note": "financial platform for business owners",
+     "list": "28 recent unicorn companies hiring",
+     "raw": "Flex - financial platform for business owners (US remote / Miami / NYC / Brazil remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "moneybox",
+   "company": "Moneybox",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/28-recent-unicorn-companies-hiring",
+     "date": "Fri, 13 Nov 2026",
+     "location": "London / UK remote",
+     "note": "savings and wealth app",
+     "list": "28 recent unicorn companies hiring",
+     "raw": "Moneybox - savings and wealth app (London / UK remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "vouched",
+   "company": "Vouched",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "profile",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/should-you-join-vouched",
+     "date": "Thu, 12 Nov 2026",
+     "raw": "Should you join: Vouched"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "chariot",
+   "company": "Chariot",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a product marketer",
+     "note": "a platform to make it easier to donate to non-profits through donor-advised funds",
+     "raw": "Salomon from Chariot is hiring a product marketer. They are building a platform to make it easier to donate to non-profits through donor-advised funds. Apply here. (Charlotte)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "vera health",
+   "company": "Vera Health",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a former founder and a founding designer",
+     "note": "a medical search engine for clinicians that has 800k+ users, including one in four doctors in Spain and Italy",
+     "raw": "Taieb from Vera Health is hiring a former founder and a founding designer. They are building a medical search engine for clinicians that has 800k+ users, including one in four doctors in Spain and Italy. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "cogent",
+   "company": "Cogent Security",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a former founder",
+     "note": "AI agents that find and fix security issues",
+     "raw": "Vineet from Cogent Security is hiring a former founder. They are building AI agents that find and fix security issues. Apply here. (NYC, SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "protege",
+   "company": "Protege",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a strategic account manager",
+     "note": "a platform that supplies real-world data (starting with healthcare) for training AI models",
+     "raw": "Bobby from Protege is hiring a strategic account manager. They are building a platform that supplies real-world data (starting with healthcare) for training AI models. Apply here. (Remote, NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "parakeet health",
+   "company": "Parakeet Health",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a founding technical recruiter and a senior customer success manager",
+     "note": "AI that handles a medical practice’s inbound and outbound patient calls",
+     "raw": "Jung from Parakeet Health is hiring a founding technical recruiter and a senior customer success manager. They are building AI that handles a medical practice’s inbound and outbound patient calls. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "trajectory",
+   "company": "Trajectory",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a founding recruiter and a member of business staff",
+     "note": "a platform that lets companies keep retraining their AI models on real customer feedback",
+     "raw": "Ronak from Trajectory is hiring a founding recruiter and a member of business staff. They are building a platform that lets companies keep retraining their AI models on real customer feedback. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "corridian",
+   "company": "Corridian",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a federal affairs director",
+     "note": "ultra-large autonomous underwater vehicles that carry containerized payloads over thousands of nautical miles",
+     "raw": "Mike from Corridian is hiring a federal affairs director. They are building ultra-large autonomous underwater vehicles that carry containerized payloads over thousands of nautical miles. Apply here. (Boston, DC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "freebuff",
+   "company": "Freebuff",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a founding growth marketer",
+     "note": "free consumer AI agents",
+     "raw": "James from Freebuff is hiring a founding growth marketer. They are building free consumer AI agents. Apply here. (SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "lato",
+   "company": "LATO",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a founding commercial lead",
+     "note": "an AI research and simulation system that lets investors test a thesis by predicting how market participants will behave",
+     "raw": "Tymek from LATO is hiring a founding commercial lead. They are building an AI research and simulation system that lets investors test a thesis by predicting how market participants will behave. Apply here. (London, New York, SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "flick",
+   "company": "Flick",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "an YouTuber/educator and a GTM Intern",
+     "note": "AI filmmaking software, like a Figma for film",
+     "raw": "Ray from Flick is hiring an YouTuber/educator and a GTM Intern. They are building AI filmmaking software, like a Figma for film. Ray was a founding engineer on Instagram Stories. Apply here. (Remote, US)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "answerthis",
+   "company": "AnswerThis",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a Founding BDR and a Growth Lead",
+     "note": "a research workspace for scientists that has 200k+ users",
+     "raw": "Ayush from AnswerThis is hiring a Founding BDR and a Growth Lead. They are building a research workspace for scientists that has 200k+ users. Apply here. (SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "bloomy",
+   "company": "Bloomy",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a partnerships account executive. They’re in YC’s Summer 2026 batch",
+     "note": "an AI-based curriculum for k-12 schools",
+     "raw": "Alex from Bloomy is hiring a partnerships account executive. They’re in YC’s Summer 2026 batch. They are building an AI-based curriculum for k-12 schools. They claim that in early pilots, students grew about twice as fast as the national average, according to the founder’s YC launch post. Apply here"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "aside",
+   "company": "Aside",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a GTM person",
+     "note": "an AI browser that works using your tools",
+     "raw": "Jun from Aside is hiring a GTM person. They are building an AI browser that works using your tools. Apply here. (SF , Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "craftwork",
+   "company": "Craftwork",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a head of marketing",
+     "note": "a tech-enabled home services company starting with residential painting that’s raised over $25m and grown to 80 employees",
+     "raw": "Tim from Craftwork is hiring a head of marketing. They are building a tech-enabled home services company starting with residential painting that’s raised over $25m and grown to 80 employees. Apply here. (Charlotte)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "sauna",
+   "company": "Sauna",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a head of growth, a senior product engineer, and a senior platform engineer",
+     "note": "a proactive AI assistant for work that integrates with iMessage, Slack, and more",
+     "raw": "Filip from Sauna is hiring a head of growth, a senior product engineer, and a senior platform engineer. They are building a proactive AI assistant for work that integrates with iMessage, Slack, and more. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "monarch money",
+   "company": "Monarch Money",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a Product Manager",
+     "note": "a personal finance app",
+     "raw": "Val from Monarch Money is hiring a Product Manager. They are building a personal finance app. Val was the first product manager on the original Mint team, and Monarch recently passed $100m ARR. Apply here. (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "fleetworks",
+   "company": "Fleetworks",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a head of customer deployments",
+     "note": "an AI assistant for the freight industry",
+     "raw": "Paul from Fleetworks is hiring a head of customer deployments. They are building an AI assistant for the freight industry. Apply here. (SF, Chicago)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "pliant",
+   "company": "Pliant",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a partnerships enablement manager. They just raised $80m",
+     "note": "B2B payments infrastructure",
+     "raw": "Malte from Pliant is hiring a partnerships enablement manager. They just raised $80m. They are building B2B payments infrastructure. They passed $100m in ARR and have doubled each year for three years. Apply here. (Berlin, London, New York, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "kalepa",
+   "company": "Kalepa",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a Strategic Partnerships Manager. They just raised $75m",
+     "note": "AI software for commercial insurers",
+     "raw": "Paul from Kalepa is hiring a Strategic Partnerships Manager. They just raised $75m. They are building AI software for commercial insurers. They’ve been cash-flow positive for more than two years while tripling top-line. Apply here. (NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "traversal",
+   "company": "Traversal",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a strategy and operations lead. They just raised $120M",
+     "note": "AI agents to diagnose bugs",
+     "raw": "Anish from Traversal is hiring a strategy and operations lead. They just raised $120M. They are building AI agents to diagnose bugs. ARR is up 9x this year. Apply here. (NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "northwood",
+   "company": "Northwood",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a growth director. They just raised a $375m",
+     "note": "a global ground network for space communications",
+     "raw": "Bridgit from Northwood is hiring a growth director. They just raised a $375m. They are building a global ground network for space communications. Apply here. (Torrance)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "crosby",
+   "company": "Crosby",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "an events lead and a founding account executive",
+     "note": "an AI-first law firm",
+     "raw": "Ryan from Crosby is hiring an events lead and a founding account executive. They are building an AI-first law firm. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "nooks",
+   "company": "Nooks",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "an AI Deployment Strategist. They just secured a $500M commitment from General Catalyst’s Customer Value Fund",
+     "note": "an AI platform for sales teams",
+     "raw": "Dan from Nooks is hiring an AI Deployment Strategist. They just secured a $500M commitment from General Catalyst’s Customer Value Fund. They are building an AI platform for sales teams. They report 135% NRR and expect ARR to triple by the end of the year. Apply here. (SF, Remote, Ireland, Sydney)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "corgi",
+   "company": "Corgi",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a country launcher and a founding BDR to focus on new product lines",
+     "note": "an AI-native insurance company",
+     "raw": "Nico from Corgi is hiring a country launcher and a founding BDR to focus on new product lines. They are building an AI-native insurance company. They have reported they are profitable. Apply here. (SF, NYC, Boston, Chicago, Dallas, London)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "sift",
+   "company": "Sift",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "an account executive",
+     "note": "data infrastructure for rockets, satellites, robots, etc",
+     "raw": "Austin from Sift is hiring an account executive. They are building data infrastructure for rockets, satellites, robots, etc. Apply here. (LA, SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "gigs",
+   "company": "Gigs",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/next-play-mcp-four-project-ideas",
+     "date": "Tue, 10 Nov 2026",
+     "role": "a Forward Deployed Product Manager and a Founding Enterprise AE. They raised $73m",
+     "note": "telecom-as-a-service: an API that lets other apps launch their own mobile plans",
+     "raw": "Hermann from Gigs is hiring a Forward Deployed Product Manager and a Founding Enterprise AE. They raised $73m. They are building telecom-as-a-service: an API that lets other apps launch their own mobile plans. Apply here. (New York, SF, London, Berlin, Amsterdam, and São Paulo)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "epsilon health",
+   "company": "Epsilon Health",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/16-tiny-teams-under-10-people-hiring",
+     "date": "Fri, 06 Nov 2026",
+     "location": "Bay Area",
+     "note": "AI-native radiology practice",
+     "list": "16 tiny teams (under 10 people) hiring",
+     "raw": "Epsilon Health - AI-native radiology practice (Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "aslan",
+   "company": "Aslan",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/16-tiny-teams-under-10-people-hiring",
+     "date": "Fri, 06 Nov 2026",
+     "location": "DC",
+     "note": "AI agents for national security",
+     "list": "16 tiny teams (under 10 people) hiring",
+     "raw": "Aslan - AI agents for national security (DC) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "deep cogito",
+   "company": "Deep Cogito",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/16-tiny-teams-under-10-people-hiring",
+     "date": "Fri, 06 Nov 2026",
+     "location": "Bay Area / Remote",
+     "note": "AI research lab building general superintelligence",
+     "list": "16 tiny teams (under 10 people) hiring",
+     "raw": "Deep Cogito - AI research lab building general superintelligence (Bay Area / Remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "multiplier",
+   "company": "Multiplier",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/16-tiny-teams-under-10-people-hiring",
+     "date": "Fri, 06 Nov 2026",
+     "location": "NYC",
+     "note": "AI agents for asset managers",
+     "list": "16 tiny teams (under 10 people) hiring",
+     "raw": "Multiplier - AI agents for asset managers (NYC) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "circuit mind",
+   "company": "Circuit Mind",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding account executive",
+     "note": "an electronics design intelligence platform",
+     "raw": "Tomide from Circuit Mind is hiring a founding account executive. They are building an electronics design intelligence platform. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "clipbook",
+   "company": "Clipbook",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding full stack engineer",
+     "note": "an AI platform for monitoring communications and PR",
+     "raw": "Adam from Clipbook is hiring a founding full stack engineer. They are building an AI platform for monitoring communications and PR. They raised a seed round from Mark Cuban. Apply here. (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "hyperbolic",
+   "company": "Hyperbolic",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a capital markets lead and a head of marketing",
+     "note": "a GPU marketplace with over 250,000 customers",
+     "raw": "Jasper from Hyperbolic is hiring a capital markets lead and a head of marketing. They are building a GPU marketplace with over 250,000 customers. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "ravical",
+   "company": "Ravical",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "an AI solutions lead and an account executive",
+     "note": "an AI platform for accountants, and have 100+ customers in Europe",
+     "raw": "Joris from Ravical is hiring an AI solutions lead and an account executive. They are building an AI platform for accountants, and have 100+ customers in Europe. The founders previously started a platform which has 1,000+ accounting firms as customers. Apply here. (Ghent, London, the Netherlands, Fra"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "joey",
+   "company": "Joey AI",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding engineer and a marketing/community lead",
+     "note": "an AI matchmaker that gets to know you over the phone and makes thoughtful introductions",
+     "raw": "Carly from Joey AI is hiring a founding engineer and a marketing/community lead. They are building an AI matchmaker that gets to know you over the phone and makes thoughtful introductions. Reach out: carly@calljoey.ai. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "hyphenate",
+   "company": "Hyphenate",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding field and events marketing manager",
+     "note": "an autonomous finance platform for the CFO’s office",
+     "raw": "Ramnandan from Hyphenate is hiring a founding field and events marketing manager. They are building an autonomous finance platform for the CFO’s office. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "claritycare",
+   "company": "ClarityCare",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a GTM lead",
+     "note": "AI agents that run payer operations for health plans",
+     "raw": "Hermine from ClarityCare is hiring a GTM lead. They are building AI agents that run payer operations for health plans. ARR is up 15x since January. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "capitalos",
+   "company": "CapitalOS",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a GTM lead and a customer operations and experience associate",
+     "note": "money movement infrastructure for B2B software platforms",
+     "raw": "Nir from CapitalOS is hiring a GTM lead and a customer operations and experience associate. They are building money movement infrastructure for B2B software platforms. Apply here. (Remote, US)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "mach9",
+   "company": "Mach9",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding recruiting lead",
+     "note": "AI CAD software for civil engineering",
+     "raw": "Alex from Mach9 is hiring a founding recruiting lead. They are building AI CAD software for civil engineering. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "catchback cards",
+   "company": "CatchBack Cards",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a lead creator and social media manager",
+     "note": "an app for Pokémon and sports card collectors",
+     "raw": "Joseph from CatchBack Cards is hiring a lead creator and social media manager. They are building an app for Pokémon and sports card collectors. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "lance",
+   "company": "Lance",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a deployment specialist and an account executive",
+     "note": "AI agents that run hotel operations",
+     "raw": "Caleb from Lance is hiring a deployment specialist and an account executive. They are building AI agents that run hotel operations. They went from $0 to $2m+ ARR and are live at 50+ hotels across Marriott, Hilton, and Hyatt brands. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "stoa",
+   "company": "Stoa",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a chief of staff",
+     "note": "pricing and trading infrastructure for AI hardware",
+     "raw": "Berat from Stoa is hiring a chief of staff. They are building pricing and trading infrastructure for AI hardware. Apply here. (SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "klaimee",
+   "company": "Klaimee",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a head of insurance and a founding broker partnerships lead",
+     "note": "liability insurance for AI agents",
+     "raw": "Ines from Klaimee is hiring a head of insurance and a founding broker partnerships lead. They are building liability insurance for AI agents. Apply here. (SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "prescience",
+   "company": "Prescience",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding GTM and a founding head of operations",
+     "note": "AI-run health insurance plans that they say they save employers 20–50% on costs",
+     "raw": "Rishab from Prescience is hiring a founding GTM and a founding head of operations. They are building AI-run health insurance plans that they say they save employers 20–50% on costs. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "pocket",
+   "company": "Pocket",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founding content creator and a founding account executive",
+     "note": "a screenless AI voice recorder",
+     "raw": "Akshay from Pocket is hiring a founding content creator and a founding account executive. They are building a screenless AI voice recorder. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "cambio",
+   "company": "Cambio",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "an enterprise account executive and a customer success lead",
+     "note": "an AI operations platform for commercial real estate",
+     "raw": "Leia from Cambio is hiring an enterprise account executive and a customer success lead. They are building an AI operations platform for commercial real estate. Apply here. (SF and NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "general compute",
+   "company": "General Compute",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a social and community lead and a head of capital markets. They just raised a $100m Series A",
+     "note": "an inference cloud on alternative AI chips",
+     "raw": "Finn from General Compute is hiring a social and community lead and a head of capital markets. They just raised a $100m Series A. They are building an inference cloud on alternative AI chips. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "solink",
+   "company": "Solink",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a chief of staff for GTM and an enterprise account executive",
+     "note": "a platform that turns video footage into insights for retailers and warehouses",
+     "raw": "Mike from Solink is hiring a chief of staff for GTM and an enterprise account executive. They are building a platform that turns video footage into insights for retailers and warehouses. They cover ~500,000 cameras at 35,000+ locations in 65 countries. Apply here. (Ottawa, Toronto, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "glimpse",
+   "company": "Glimpse",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a senior software engineer, a partnership manager, and an FDE",
+     "note": "an AI platform for CPG brands and have over 200 customers",
+     "raw": "Akash from Glimpse is hiring a senior software engineer, a partnership manager, and an FDE. They are building an AI platform for CPG brands and have over 200 customers. Apply here. (NYC)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "collective",
+   "company": "Collective",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a member success manager and an account executive",
+     "note": "an AI-native financial back office for solopreneurs",
+     "raw": "Hooman from Collective is hiring a member success manager and an account executive. They are building an AI-native financial back office for solopreneurs. ARR grew 120% year over year. Apply here. (SF, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "nevis",
+   "company": "Nevis",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a founder’s associate and an enterprise account executive. They just raised $70m",
+     "note": "an AI wealth management platform",
+     "raw": "Mark from Nevis is hiring a founder’s associate and an enterprise account executive. They just raised $70m. They are building an AI wealth management platform. They grew assets from $50bn to $700bn. Apply here. (NYC, London, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "foundry",
+   "company": "Foundry",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a business development manager",
+     "note": "and running their own autonomous factories",
+     "raw": "Adarsh from Foundry is hiring a business development manager. They are building and running their own autonomous factories. Apply here. (Emeryville, CA)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "hex",
+   "company": "Hex",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a brand designer and an enterprise account executive. They just raised $100m",
+     "note": "an AI analytics platform for data exploration and have 2,500+ customers",
+     "raw": "Barry from Hex is hiring a brand designer and an enterprise account executive. They just raised $100m. They are building an AI analytics platform for data exploration and have 2,500+ customers. Apply here. (SF, NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "bedrock robotics",
+   "company": "Bedrock Robotics",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a creative and editorial lead and a regional fleet operations manager. They just raised $600m",
+     "note": "a retrofit kit that turns excavators into self-driving vehicles",
+     "raw": "Boris from Bedrock Robotics is hiring a creative and editorial lead and a regional fleet operations manager. They just raised $600m. They are building a retrofit kit that turns excavators into self-driving vehicles. Apply here. (SF, NYC, Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "legora",
+   "company": "Legora",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "an editorial specialist and an account executive",
+     "note": "a collaborative AI platform for lawyers",
+     "raw": "Max from Legora is hiring an editorial specialist and an account executive. They are building a collaborative AI platform for lawyers. They passed $200m ARR. Apply here. (Stockholm, London, NYC, SF, Chicago)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "greptile",
+   "company": "Greptile",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a chief of staff for GTM and an enterprise account executive",
+     "note": "AI code review",
+     "raw": "Daksh from Greptile is hiring a chief of staff for GTM and an enterprise account executive. They are building AI code review. They review 5bn lines of code a month for 22,000+ customers. Apply here. (SF)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "emergent",
+   "company": "Emergent",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/27-of-the-fastest-growing-startups",
+     "date": "Mon, 02 Nov 2026",
+     "location": "Bangalore / Bay Area",
+     "note": "AI app and website builder",
+     "list": "27 of the fastest-growing startups to consider joining",
+     "raw": "Emergent - AI app and website builder (Bangalore / Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "genspark",
+   "company": "Genspark",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/27-of-the-fastest-growing-startups",
+     "date": "Mon, 02 Nov 2026",
+     "location": "Bay Area / NYC / Tokyo",
+     "note": "AI workspace for knowledge work",
+     "list": "27 of the fastest-growing startups to consider joining",
+     "raw": "Genspark - AI workspace for knowledge work (Bay Area / NYC / Tokyo) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "lovable",
+   "company": "Lovable",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/27-of-the-fastest-growing-startups",
+     "date": "Mon, 02 Nov 2026",
+     "location": "Stockholm / Bay Area / Boston / NYC / London",
+     "note": "AI app builder from prompts",
+     "list": "27 of the fastest-growing startups to consider joining",
+     "raw": "Lovable - AI app builder from prompts (Stockholm / Bay Area / Boston / NYC / London) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "wispr flow",
+   "company": "Wispr Flow",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/27-of-the-fastest-growing-startups",
+     "date": "Mon, 02 Nov 2026",
+     "location": "Bay Area / NYC / US remote",
+     "note": "voice dictation for computers",
+     "list": "27 of the fastest-growing startups to consider joining",
+     "raw": "Wispr Flow - voice dictation for computers (Bay Area / NYC / US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "factory",
+   "company": "Factory",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/27-of-the-fastest-growing-startups",
+     "date": "Mon, 02 Nov 2026",
+     "location": "Bay Area / NYC / London",
+     "note": "AI coding agents for enterprises",
+     "list": "27 of the fastest-growing startups to consider joining",
+     "raw": "Factory - AI coding agents for enterprises (Bay Area / NYC / London) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "unconventional",
+   "company": "Unconventional AI",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Bay Area / Seattle / US remote",
+     "note": "biology-scale AI computing",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Unconventional AI - biology-scale AI computing (Bay Area / Seattle / US remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "hark",
+   "company": "Hark",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Bay Area",
+     "note": "personal intelligence and AI hardware",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Hark - personal intelligence and AI hardware (Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "armadin",
+   "company": "Armadin",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Bay Area / DC / Mexico / Remote",
+     "note": "autonomous AI security agents",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Armadin - autonomous AI security agents (Bay Area / DC / Mexico / Remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "inertia enterprises",
+   "company": "Inertia Enterprises",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Livermore",
+     "note": "laser-driven inertial fusion power",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Inertia Enterprises - laser-driven inertial fusion power (Livermore) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "gimlet",
+   "company": "Gimlet Labs",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Bay Area",
+     "note": "multi-silicon cloud for AI inference",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Gimlet Labs - multi-silicon cloud for AI inference (Bay Area) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "mercury",
+   "company": "Mercury",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Bay Area / NYC / Portland, OR / North America remote",
+     "note": "banking for startups",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Mercury - banking for startups (Bay Area / NYC / Portland, OR / North America remote) - Careers"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "huskeys",
+   "company": "Huskeys",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/ry68jtfamx",
+     "date": "2026-11-17",
+     "role": "Chief Customer Officer",
+     "person": "Eyal Kaldes",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Huskeys appoints Eyal Kaldes as Chief Customer Officer 17.11.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "terra",
+   "company": "Terra Security",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bkdz00ctpmx",
+     "date": "2026-11-05",
+     "role": "CMO",
+     "person": "Tal Kapulnik, formerly of Eon and Lemonade,",
+     "marketing_leader_hire": true,
+     "raw": "Appointment | Terra Security appoints Tal Kapulnik, formerly of Eon and Lemonade, as CMO 05.11.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": true
+  },
+  {
+   "key": "gong",
+   "company": "Gong",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/rkebnzy6fg",
+     "date": "2026-11-04",
+     "role": "Chief R&D Officer",
+     "person": "Liron Shtraichman",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Gong appoints Liron Shtraichman as Chief R&D Officer 04.11.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "ground up ventures",
+   "company": "Ground Up Ventures",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bj200hdu6gg",
+     "date": "2026-11-02",
+     "role": "General Partner",
+     "person": "Navot Volk",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Ground Up Ventures appoints Navot Volk as General Partner 02.11.26 | Meir Orbach"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "manifold",
+   "company": "Manifold",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bk0mvti9fe",
+     "date": "2026-10-01",
+     "role": "CPO",
+     "person": "Yehoshua Cohen",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Manifold appoints Yehoshua Cohen as CPO 01.10.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "kaltura",
+   "company": "Kaltura",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bkwkfpdyml",
+     "date": "2026-09-16",
+     "role": "SVP Agentic AI Platform",
+     "person": "Galit Levin",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Kaltura appoints Galit Levin as SVP Agentic AI Platform 16.09.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "reachplayers",
+   "company": "ReachPlayers",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/hjjggwbdme",
+     "date": "2026-09-02",
+     "role": "General Manager for Israel",
+     "person": "Amir Biran",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | ReachPlayers appoints Amir Biran as General Manager for Israel 02.09.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "unframe",
+   "company": "Unframe",
+   "first_seen": "2026-11-20",
+   "signals": [
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bjytvdusml",
+     "date": "2026-07-28",
+     "role": "VP Finance",
+     "person": "Lior Hakimi",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Unframe appoints Lior Hakimi as VP Finance 28.07.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": false,
+   "marketing_roles": 0,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "daylight",
+   "company": "Daylight Security",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "founders": [
+      "Eldad Rudich"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 80.0,
+     "open_roles": 9
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "founders": [
+      "Eldad Rudich"
+     ],
+     "raw": "Kol hakavod Hagai Shapira, Eldad Rudich and team Daylight Security on an $80 million Series B to combine AI agents with human security experts to detect, investigate and respond to cyber threats!"
+    },
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "a brand and marketing program manager",
+     "note": "managed security that pairs AI agents with human experts",
+     "raw": "Hagai from Daylight is hiring a brand and marketing program manager. They are building managed security that pairs AI agents with human experts. Revenue grew more than 40x this past year. Apply here. (Remote)"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "founders": [
+      "Eldad Rudich"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 80.0,
+     "open_roles": 9
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 80.0,
+     "stage": "Series B",
+     "founders": [
+      "Eldad Rudich"
+     ],
+     "raw": "Kol hakavod Hagai Shapira, Eldad Rudich and team Daylight Security on an $80 million Series B to combine AI agents with human security experts to detect, investigate and respond to cyber threats!"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "edelbyte",
+   "company": "Edelbyte",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 70.0,
+     "stage": "seed",
+     "founders": [
+      "Evgeney Ryzhyk",
+      "Alexander Sloutsky",
+      "Yoni Leibowitz"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 45.0
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 70.0,
+     "stage": "seed",
+     "founders": [
+      "Evgeney Ryzhyk",
+      "Alexander Sloutsky",
+      "Yoni Leibowitz"
+     ],
+     "raw": "Well done Avner Aharoni, Evgeney Ryzhyk, Alexander Sloutsky, Yoni Leibowitz and team Edelbyte on emerging from stealth with $70 million raised across two rounds: a previously raised $25 million seed and a $45 million Series A for their an AI-native unified data platform for high-speed search and big data analytics!"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 70.0,
+     "stage": "seed",
+     "founders": [
+      "Evgeney Ryzhyk",
+      "Alexander Sloutsky",
+      "Yoni Leibowitz"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 45.0
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 70.0,
+     "stage": "seed",
+     "founders": [
+      "Evgeney Ryzhyk",
+      "Alexander Sloutsky",
+      "Yoni Leibowitz"
+     ],
+     "raw": "Well done Avner Aharoni, Evgeney Ryzhyk, Alexander Sloutsky, Yoni Leibowitz and team Edelbyte on emerging from stealth with $70 million raised across two rounds: a previously raised $25 million seed and a $45 million Series A for their an AI-native unified data platform for high-speed search and big data analytics!"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "dreeze",
+   "company": "Dreeze",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 33.0,
+     "stage": "seed",
+     "founders": [
+      "Oded Kedem",
+      "Avi Raichel"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0,
+     "open_roles": 3
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 33.0,
+     "stage": "seed",
+     "founders": [
+      "Oded Kedem",
+      "Avi Raichel"
+     ],
+     "raw": "Good stuff Ziv Kedem, Oded Kedem, Avi Raichel and team Dreeze on a $33 million seed round to take on cloud application recovery, including the infrastructure, configurations and dependencies needed to get a business running again!"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 33.0,
+     "stage": "seed",
+     "founders": [
+      "Oded Kedem",
+      "Avi Raichel"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0,
+     "open_roles": 3
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 33.0,
+     "stage": "seed",
+     "founders": [
+      "Oded Kedem",
+      "Avi Raichel"
+     ],
+     "raw": "Good stuff Ziv Kedem, Oded Kedem, Avi Raichel and team Dreeze on a $33 million seed round to take on cloud application recovery, including the infrastructure, configurations and dependencies needed to get a business running again!"
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "plurai",
+   "company": "Plurai",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 13.0,
+     "stage": "seed",
+     "founders": [
+      "Ilan Kadar",
+      "Elad Levi"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 13.0
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 13.0,
+     "stage": "seed",
+     "founders": [
+      "Ilan Kadar",
+      "Elad Levi"
+     ],
+     "raw": "Congrats Ilan Kadar, Elad Levi and team Plurai on a $13 million seed round to apply lessons from autonomous-driving simulation to enterprise agents, finding failures in testing before customers encounter them in production."
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 13.0,
+     "stage": "seed",
+     "founders": [
+      "Ilan Kadar",
+      "Elad Levi"
+     ]
+    },
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 13.0
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 13.0,
+     "stage": "seed",
+     "founders": [
+      "Ilan Kadar",
+      "Elad Levi"
+     ],
+     "raw": "Congrats Ilan Kadar, Elad Levi and team Plurai on a $13 million seed round to apply lessons from autonomous-driving simulation to enterprise agents, finding failures in testing before customers encounter them in production."
+    }
+   ],
+   "marketing_leader_hire": false
   },
   {
    "key": "bay",
@@ -3182,9 +6559,32 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 37.0,
      "open_roles": 4
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 50.0,
+     "stage": "Series A",
+     "founders": [
+      "Yuval Zacharia",
+      "Aner Morag",
+      "Boris Danilovich"
+     ],
+     "raw": "Kudos Yuval Zacharia, Aner Morag, Boris Danilovich and team Bay on coming out of stealth with $50 million in total funding. That includes a $37 million Series A and a previously undisclosed $13 million seed round tackle the problem of agents having legitimate permissions and still take actions that put a business at risk!"
+    },
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/founding-roles-at-mirendil-our-new",
+     "date": "Tue, 17 Nov 2026",
+     "role": "an account executive. They just raised $50m",
+     "note": "security software that controls what AI agents can do",
+     "raw": "Yuval from Bay is hiring an account executive. They just raised $50m. They are building security software that controls what AI agents can do. Apply here. (Remote)"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": true,
    "marketing_roles": 0,
    "funding": [
@@ -3207,8 +6607,194 @@
      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
      "amount_musd": 37.0,
      "open_roles": 4
+    },
+    {
+     "signal": "funding",
+     "source": "vccafe_firgun",
+     "source_url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+     "date": "November 13 2026",
+     "amount_musd": 50.0,
+     "stage": "Series A",
+     "founders": [
+      "Yuval Zacharia",
+      "Aner Morag",
+      "Boris Danilovich"
+     ],
+     "raw": "Kudos Yuval Zacharia, Aner Morag, Boris Danilovich and team Bay on coming out of stealth with $50 million in total funding. That includes a $37 million Series A and a previously undisclosed $13 million seed round tackle the problem of agents having legitimate permissions and still take actions that put a business at risk!"
     }
-   ]
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "capitolis",
+   "company": "Capitolis",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 220.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 220.0
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "bites",
+   "company": "Bites",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 40.0,
+     "open_roles": 2
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 40.0,
+     "open_roles": 2
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "zenzap",
+   "company": "Zenzap",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0
+    }
+   ],
+   "last_seen": "2026-11-19",
+   "known": true,
+   "marketing_roles": 0,
+   "funding": [
+    {
+     "signal": "funding",
+     "source": "avi_lewis_list",
+     "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/",
+     "amount_musd": 33.0
+    }
+   ],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "scaleops",
+   "company": "ScaleOps",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Senior Marketing Designer",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-10",
+     "role": "Product Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-12",
+     "role": "Senior Content Marketing Manager",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 3,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "buildots",
+   "company": "Buildots",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-13",
+     "role": "Performance Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-18",
+     "role": "Performance Marketing Manager",
+     "location": "Tel Aviv"
+    },
+    {
+     "signal": "exec_hire",
+     "source": "ctech_appointments",
+     "source_url": "https://www.calcalistech.com/ctechnews/article/bynbjtt0me",
+     "date": "2026-11-17",
+     "role": "Chief Revenue Officer",
+     "person": "Ran Fridman",
+     "marketing_leader_hire": false,
+     "raw": "Appointment | Buildots appoints Ran Fridman as Chief Revenue Officer 17.11.26 | CTech"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 2,
+   "funding": [],
+   "marketing_leader_hire": false
+  },
+  {
+   "key": "darrow",
+   "company": "Darrow AI",
+   "first_seen": "2026-11-19",
+   "signals": [
+    {
+     "signal": "marketing_role",
+     "source": "telegram_hitechjobsmarketing",
+     "source_url": "https://t.me/s/hitechjobsmarketing",
+     "date": "2026-11-16",
+     "role": "Senior Performance Marketing",
+     "location": "Tel Aviv"
+    }
+   ],
+   "last_seen": "2026-11-20",
+   "known": true,
+   "marketing_roles": 1,
+   "funding": [],
+   "marketing_leader_hire": false
   },
   {
    "key": "upwind",
@@ -3222,12 +6808,32 @@
      "date": "2026-11-05",
      "role": "Content Writer",
      "location": "Ramat Gan"
+    },
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/chief-of-staff-opening-at-greptile",
+     "date": "Tue, 03 Nov 2026",
+     "role": "a product marketing manager and an enterprise account executive. They just raised $400m",
+     "note": "a runtime-first cloud security platform",
+     "raw": "Amiram from Upwind is hiring a product marketing manager and an enterprise account executive. They just raised $400m. They are building a runtime-first cloud security platform. They turned down an acquisition offer from Datadog. Apply here. (Tel Aviv, SF, NYC, Remote)"
+    },
+    {
+     "signal": "hiring",
+     "source": "nextplay",
+     "source_url": "https://nextplayso.substack.com/p/29-time-founder-companies-hiring",
+     "date": "Fri, 30 Oct 2026",
+     "location": "Tel Aviv / Americas / EMEA / APAC",
+     "note": "runtime-first cloud security platform",
+     "list": "29 second-time founder companies hiring",
+     "raw": "Upwind - runtime-first cloud security platform (Tel Aviv / Americas / EMEA / APAC) - Careers"
     }
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "known": true,
    "marketing_roles": 1,
-   "funding": []
+   "funding": [],
+   "marketing_leader_hire": false
   }
  ]
 }

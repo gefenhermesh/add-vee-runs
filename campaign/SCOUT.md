@@ -67,7 +67,23 @@ Keep a `watch` list in `state.json` for proposed and held companies, recording t
 
 ## Running the scout (weekly, in its own session)
 The scout runs in **its own session, created from this repo** (source `add-vee-runs`), never in the manager's chat, which must stay small. The manager starts it on Sunday's first tick with the prompt "You are the weekly scout: follow campaign/SCOUT.md → Running the scout." and is told when it's done.
-1. `python campaign/scout/longlist.py --avi-url <Avi Lewis' latest list post, if any>`. This reads VC Cafe Firgun, the marketing-jobs Telegram channel and Avi's list into `campaign/scout/longlist.json`, merged per company and marked `known`. Readers live in `campaign/scout/readers.py`, tested on saved pages.
+1. **Collect from every source, and show what was covered.**
+   - `python campaign/scout/longlist.py [--avi-url <Avi's latest list post>]` reads, with tested readers:
+     - **VC Cafe Firgun:** every Israeli round of the week.
+     - **Next Play's public feed** (nextplayso.substack.com/feed): hiring roles, "Should you join" profiles, funded-and-hiring lists. No Gmail needed; scout sessions don't have Gmail anyway.
+     - **CTech Startups:** rounds, rendered with Playwright.
+     - **CTech Appointments:** new executives. A **new CMO or VP Marketing is a top trigger** (`marketing_leader_hire`).
+     - **The marketing-jobs Telegram channel.**
+     - **Avi Lewis' latest list:** best-effort. LinkedIn often answers empty. If it fails, find his latest "רשימת סטארטאפים שגייסו" post with WebSearch and pass it as `--avi-url`.
+   - The script prints **one coverage line per source** (leads, or FAILED with the reason). Copy those lines into the run log.
+   - Then cover by hand, and list them in the log as covered or not:
+     - **CTech's "Full list of Israeli high-tech funding rounds in 2026"** article;
+     - **israelrounds.com/rounds** (Bright Data);
+     - **Goozali** (goozali.com; its company table is an Airtable embed: render it and read the visible rows);
+     - **2-3 investor portfolios** each week, rotating through the SOURCES.md list;
+     - **the comments on Avi's latest post.**
+   - **Never report a run as complete without its coverage list.** A source that wasn't read is written down as not read, with the reason.
+   - CTech headlines sometimes name a company only in the teaser. Those leads are `(unresolved) …`; read the article to get the company before filtering.
 2. **Quick filter** of the new, unknown companies: drop non-B2B, non-tech, investors (VC funds appear in round lists), consumer/biotech/hardware, and obvious misfits. Give a one-line reason each, in `campaign/scout/filter_<date>.md`. **Keep the mix varied** (LEARNING.md): don't default to security.
 3. **Recon** of the 8-12 strongest survivors, using every source that helps (above): marketing leadership and SEO team (gating), situation, trigger, recipient candidates, the outreach hook. Use `readers.read_job_board(<board name>)` for open roles, and the no-footprint LinkedIn check. Write `companies/<slug>/scout.json` with `"scout_version": 2` and every field `propose.py` requires (`company, domain, reason, gating_rating, features, contacts, sources[{url, date, kind}]`).
 4. `python campaign/scout/propose.py check` until every file is OK, then `propose.py add <slugs>` (status `proposed`, never queued) and `propose.py pick 5`.

@@ -45,5 +45,33 @@ class ReaderTest(unittest.TestCase):
         self.assertEqual(p["marketing_roles"], [])
 
 
+
+class NewReaderTest(unittest.TestCase):
+    def test_ctech_appointments(self):
+        leads = R.parse_ctech_appointments((FX / "ctech_appointments_rendered.html").read_text(errors="ignore"))
+        by = {l["company"]: l for l in leads}
+        self.assertTrue(by["Terra Security"]["marketing_leader_hire"])
+        self.assertEqual(by["Buildots"]["role"], "Chief Revenue Officer")
+        self.assertFalse(by["Buildots"]["marketing_leader_hire"])
+        self.assertEqual(by["Terra Security"]["date"], "2026-11-05")
+
+    def test_ctech_startups(self):
+        leads = R.parse_ctech_startups((FX / "ctech_startups_rendered.html").read_text(errors="ignore"))
+        by = {l["company"]: l for l in leads if l["company_known"]}
+        self.assertEqual(by["Ramon.Space"]["amount_musd"], 124)
+        self.assertTrue(any("Vero" in l["raw"] for l in leads))  # company only in the teaser: kept raw for the scout
+
+    def test_nextplay_feed(self):
+        leads = R.parse_nextplay_feed((FX / "nextplay_feed.xml").read_text(errors="ignore"))
+        names = {l["company"] for l in leads}
+        self.assertIn("MIND", names)          # list post line
+        self.assertIn("Genesis Computing", names)  # "Should you join"
+        self.assertTrue(any(l["signal"] == "hiring" and l.get("role") for l in leads))
+
+    def test_avi_recent_activity(self):
+        leads = R.parse_avi_list((FX / "avi_recent_activity.html").read_text(errors="ignore"))
+        self.assertEqual(len(leads), 23)
+
+
 if __name__ == "__main__":
     unittest.main()
