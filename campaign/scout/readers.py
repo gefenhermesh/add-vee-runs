@@ -286,3 +286,45 @@ def parse_rss_funding(xml, source):
                       "source_url": link, "date": date, "signal": "funding", "amount_musd": money(title),
                       "stage": (STAGE.search(title) or [None])[0], "raw": title[:300]})
     return leads
+
+
+# --- LinkedIn via Bright Data's own scrapers (no login, no footprint on the sponsor) -------------------
+LI_COMPANY_DS = "gd_l1vikfnt1wgvvqz95w"   # input: company page URL -> size, HQ, founded, followers, a few employees
+LI_PEOPLE_DS = "gd_l1viktl72bvl7bjuj0"    # input: profile URL -> name, current company, city (title often empty)
+
+
+def brightdata_dataset(dataset_id, inputs, wait_s=300):
+    """Trigger a Bright Data dataset collection and wait for the result (list of records)."""
+    import time
+    api = "https://api.brightdata.com/datasets/v3"
+    hdr = {"Content-Type": "application/json", "Authorization": "Bearer dummy"}
+
+    def call(path, data=None):
+        req = urllib.request.Request(api + path, data=json.dumps(data).encode() if data is not None else None,
+                                     method="POST" if data is not None else "GET", headers=hdr)
+        with urllib.request.urlopen(req, timeout=60) as r:
+            return json.loads(r.read().decode())
+
+    sid = call(f"/trigger?dataset_id={dataset_id}&include_errors=true", inputs)["snapshot_id"]
+    end = time.time() + wait_s
+    while time.time() < end:
+        if call(f"/progress/{sid}").get("status") == "ready":
+            return call(f"/snapshot/{sid}?format=json")
+        time.sleep(10)
+    raise TimeoutError(f"Bright Data snapshot {sid} not ready after {wait_s}s")
+
+
+def linkedin_company(url):
+    r = brightdata_dataset(LI_COMPANY_DS, [{"url": url}])
+    r = r[0] if isinstance(r, list) else r
+    return {k: r.get(k) for k in ("name", "company_size", "headquarters", "founded", "followers", "industries", "website")} | \
+        {"employees_shown": [e.get("title") for e in r.get("employees") or []]}
+
+
+def linkedin_people(profile_urls):
+    """Verify people found via Google snippets: current company and city. Never visits as the sponsor."""
+    out = []
+    for r in brightdata_dataset(LI_PEOPLE_DS, [{"url": u} for u in profile_urls]):
+        out.append({"url": r.get("input_url") or r.get("url"), "name": r.get("name"), "position": r.get("position"),
+                    "current_company": r.get("current_company_name"), "city": r.get("city")})
+    return out
