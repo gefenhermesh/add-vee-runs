@@ -1,6 +1,17 @@
 {
   "_note": "LinkedIn profiles or company pages that regularly post lists of startups that raised and/or are hiring. The scout reads only their posts since the last run (Bright Data posts scraper). Add new posters here; the sponsor found several by searching 'startups that hire now'.",
   "posters": [
-    {"name": "Avi Lewis", "url": "https://www.linkedin.com/in/avi-lewis/", "kind": "profile", "note": "Hebrew lists of Israeli startups that raised and are hiring, about monthly; tracks rounds on goozali.com"}
+    {
+      "name": "Avi Lewis",
+      "url": "https://www.linkedin.com/in/avi-lewis/",
+      "kind": "profile",
+      "note": "Hebrew lists of Israeli startups that raised and are hiring, about monthly; tracks rounds on goozali.com"
+    },
+    {
+      "name": "a16z (Andreessen Horowitz)",
+      "url": "https://www.linkedin.com/company/a16z/",
+      "kind": "company",
+      "note": "US/global. About weekly 'open roles at breakout startups' posts plus portfolio funding announcements. Tagged companies include investors and big brands (Bessemer, DoorDash, Figma): the quick filter drops those. Tested 2026-11-20: 70 posts in 30 days, 54 tagged-company leads."
+    }
   ]
 }
