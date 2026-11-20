@@ -88,6 +88,23 @@ class LinkedInDatasetTest(unittest.TestCase):
         self.assertGreater(len(leads), 10)
         self.assertTrue(any(l["company"] == "Wix" and l["seo_role"] for l in leads))  # "organic growth marketer"
 
+    def test_list_posts_generic(self):
+        import json
+        leads = R.parse_list_posts(json.loads((FX / "li_posts_avi.json").read_text()))
+        names = {l["company"] for l in leads}
+        self.assertTrue({"Sentra", "Capitolis", "Daylight Security"} <= names)
+        self.assertTrue(all(l["signal"] == "list_mention" for l in leads))
+
+    def test_budget_blocks(self):
+        import json, tempfile
+        from pathlib import Path
+        tmp = Path(tempfile.mkdtemp())
+        R._USAGE, R._BUDGET = tmp / "u.jsonl", tmp / "b.json"
+        R._BUDGET.write_text(json.dumps({"dataset_calls_per_week": 1, "dataset_records_per_week": 100}))
+        R._log_usage("t", "ds", 1, 5)
+        with self.assertRaises(RuntimeError):
+            R._budget_check("next call")
+
     def test_avi_posts(self):
         import json
         leads = R.parse_avi_posts(json.loads((FX / "li_posts_avi.json").read_text()))

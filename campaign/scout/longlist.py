@@ -57,8 +57,7 @@ def collect(avi_urls):
     run("ctech_appointments", lambda: R.parse_ctech_appointments(R.render("https://www.calcalistech.com/ctechnews/category/31182")))
     for name, feed in R.GENERAL_FEEDS.items():
         run(name, lambda feed=feed, name=name: R.parse_rss_funding(R.fetch(feed), name))
-    run("avi_lewis_latest (LinkedIn posts via Bright Data)", R.avi_latest)
-    run("linkedin_jobs_marketing_israel (Bright Data)", R.linkedin_marketing_jobs)
+    run("linkedin_list_posters (new posts only, Bright Data; see list_posters.json)", R.list_posters_new_posts)
     for u in avi_urls:
         run(f"avi_lewis {u[:60]}", lambda u=u: R.parse_avi_list(R.fetch(u, brightdata=True), u))
     return leads, coverage
@@ -100,6 +99,8 @@ def main(argv=None):
     print(f"{len(leads)} leads -> {len(companies)} companies ({len(new)} new today)")
     for c in coverage:
         print(f"  source {c['source']}: " + (f"{c['leads']} leads" if c["ok"] else f"FAILED {c.get('error')}"))
+    calls, records = R.bd_usage_this_week()
+    print(f"  Bright Data datasets this week: {calls} calls, {records} records (caps in campaign/scout/budget.json)")
     for c in companies[:25]:
         f = c["funding"][0] if c["funding"] else {}
         print(f"  {'known ' if c['known'] else '      '}{c['company'][:30]:30s} funding={f.get('amount_musd')} {f.get('stage') or ''} "

@@ -293,7 +293,44 @@ LI_COMPANY_DS = "gd_l1vikfnt1wgvvqz95w"   # input: company page URL -> size, HQ,
 LI_PEOPLE_DS = "gd_l1viktl72bvl7bjuj0"    # input: profile URL -> name, current company, city (title often empty)
 
 
-def brightdata_dataset(dataset_id, inputs, wait_s=300):
+from pathlib import Path as _P
+_USAGE = _P(__file__).resolve().parent / "bd_usage.jsonl"
+_BUDGET = _P(__file__).resolve().parent / "budget.json"
+
+
+def _week():
+    import datetime as _dt
+    y, w, _ = _dt.date.today().isocalendar()
+    return f"{y}-W{w:02d}"
+
+
+def bd_usage_this_week():
+    calls = records = 0
+    if _USAGE.exists():
+        for line in _USAGE.read_text().splitlines():
+            r = json.loads(line)
+            if r.get("week") == _week():
+                calls += 1
+                records += r.get("records", 0)
+    return calls, records
+
+
+def _budget_check(purpose):
+    b = json.loads(_BUDGET.read_text()) if _BUDGET.exists() else {}
+    calls, records = bd_usage_this_week()
+    if calls >= b.get("dataset_calls_per_week", 20) or records >= b.get("dataset_records_per_week", 400):
+        raise RuntimeError(f"Bright Data weekly budget reached ({calls} calls, {records} records this week); "
+                           f"skipped: {purpose}. Raise campaign/scout/budget.json only with the sponsor's OK.")
+
+
+def _log_usage(purpose, dataset_id, n_inputs, n_records):
+    import datetime as _dt
+    with open(_USAGE, "a") as f:
+        f.write(json.dumps({"week": _week(), "ts": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
+                            "purpose": purpose, "dataset": dataset_id, "inputs": n_inputs, "records": n_records}) + "\n")
+
+
+def brightdata_dataset(dataset_id, inputs, wait_s=300, purpose=""):
     """Trigger a Bright Data dataset collection and wait for the result (list of records)."""
     import time
     api = "https://api.brightdata.com/datasets/v3"
@@ -305,11 +342,14 @@ def brightdata_dataset(dataset_id, inputs, wait_s=300):
         with urllib.request.urlopen(req, timeout=60) as r:
             return json.loads(r.read().decode())
 
+    _budget_check(purpose or dataset_id)
     sid = call(f"/trigger?dataset_id={dataset_id}&include_errors=true", inputs)["snapshot_id"]
     end = time.time() + wait_s
     while time.time() < end:
         if call(f"/progress/{sid}").get("status") == "ready":
-            return call(f"/snapshot/{sid}?format=json")
+            out = call(f"/snapshot/{sid}?format=json")
+            _log_usage(purpose or dataset_id, dataset_id, len(inputs), len(out) if isinstance(out, list) else 1)
+            return out
         time.sleep(10)
     raise TimeoutError(f"Bright Data snapshot {sid} not ready after {wait_s}s")
 
@@ -334,7 +374,7 @@ LI_JOBS_DS = "gd_lpfll7v5hcqtkxl6l"       # discover by keyword: LinkedIn Jobs s
 LI_POSTS_DS = "gd_lyy3tktm25m4avu764"     # discover by profile_url / company_url: recent posts
 
 
-def brightdata_discover(dataset_id, by, inputs, wait_s=600):
+def brightdata_discover(dataset_id, by, inputs, wait_s=600, purpose=""):
     """Like brightdata_dataset, but discovery mode (search by keyword, profile or company)."""
     import time
     api = "https://api.brightdata.com/datasets/v3"
@@ -346,12 +386,15 @@ def brightdata_discover(dataset_id, by, inputs, wait_s=600):
         with urllib.request.urlopen(req, timeout=60) as r:
             return json.loads(r.read().decode())
 
+    _budget_check(purpose or dataset_id)
     sid = call(f"/trigger?dataset_id={dataset_id}&include_errors=true&type=discover_new&discover_by={by}", inputs)["snapshot_id"]
     end = time.time() + wait_s
     while time.time() < end:
         st = call(f"/progress/{sid}").get("status")
         if st == "ready":
-            return call(f"/snapshot/{sid}?format=json")
+            out = call(f"/snapshot/{sid}?format=json")
+            _log_usage(purpose or dataset_id, dataset_id, len(inputs), len(out) if isinstance(out, list) else 1)
+            return out
         if st == "failed":
             raise RuntimeError(f"snapshot {sid} failed")
         time.sleep(10)
@@ -403,3 +446,44 @@ def linkedin_company_posts(company_url, limit=10):
     recs = brightdata_discover(LI_POSTS_DS, "company_url", [{"url": company_url}])
     return [{"date": (r.get("date_posted") or "")[:10], "text": (r.get("post_text") or "")[:500], "url": r.get("url")}
             for r in recs[:limit]]
+
+
+# --- List posters: people/pages that regularly post "startups that raised / are hiring" lists ----------
+LIST_WORDS = re.compile(r"hiring|are hiring|raised|funding|startups|מגייסים|גייסו|סטארטאפים|משרות", re.I)
+
+
+def parse_list_posts(records, min_tagged=4):
+    """Leads from list-style posts: every company the post tags (LinkedIn's tagged_companies), with the post as source.
+    Avi's Hebrew format also gets amounts and open roles from parse_avi_posts."""
+    leads = []
+    for p in records:
+        text = p.get("post_text") or ""
+        tagged = p.get("tagged_companies") or []
+        if len(tagged) < min_tagged or not LIST_WORDS.search(text):
+            continue
+        for t in tagged:
+            name = (t.get("name") or "").strip()
+            if not name:
+                continue
+            link = (t.get("link") or "").split("?")[0]
+            leads.append({"company": name, "source": f"list_post:{p.get('user_id') or p.get('user_name')}",
+                          "source_url": p.get("url"), "date": (p.get("date_posted") or "")[:10],
+                          "signal": "list_mention", "note": link})
+    return leads
+
+
+def list_posters_new_posts(since_days=8, posters_file=None):
+    import datetime as _dt
+    pf = _P(posters_file) if posters_file else _P(__file__).resolve().parent / "list_posters.json"
+    posters = json.loads(pf.read_text())["posters"]
+    start = (_dt.datetime.now(_dt.timezone.utc) - _dt.timedelta(days=since_days)).strftime("%Y-%m-%dT00:00:00.000Z")
+    leads = []
+    for kind in ("profile", "company"):
+        group = [{"url": x["url"], "start_date": start} for x in posters if x.get("kind", "profile") == kind]
+        if not group:
+            continue
+        recs = brightdata_discover(LI_POSTS_DS, f"{kind}_url", group, purpose=f"list posters ({kind}): {len(group)}")
+        leads += parse_list_posts(recs)
+        avi = parse_avi_posts(recs)  # adds amounts / open roles where the post is Avi's Hebrew format
+        leads += avi
+    return leads

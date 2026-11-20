@@ -1,0 +1,6 @@
+{
+  "_note": "LinkedIn profiles or company pages that regularly post lists of startups that raised and/or are hiring. The scout reads only their posts since the last run (Bright Data posts scraper). Add new posters here; the sponsor found several by searching 'startups that hire now'.",
+  "posters": [
+    {"name": "Avi Lewis", "url": "https://www.linkedin.com/in/avi-lewis/", "kind": "profile", "note": "Hebrew lists of Israeli startups that raised and are hiring, about monthly; tracks rounds on goozali.com"}
+  ]
+}

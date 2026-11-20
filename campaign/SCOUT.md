@@ -70,6 +70,13 @@ Limits that still hold: never act under the sponsor's identity (no connecting, f
 ## State between runs
 Keep a `watch` list in `state.json` for proposed and held companies, recording the last-seen marketing leader, funding round and category language. On each weekly scout run, flag changes (new marketing leader, new round, rebrand) as triggers.
 
+## Bright Data budget: LinkedIn is for focus, not for sweeping (sponsor, 2026-11-20)
+Bright Data's LinkedIn scrapers are the scout's most expensive source, so they're used narrowly and late:
+- **Long-list stage:** only the list posters' new posts (one or two calls a week). **No broad LinkedIn searches** (no LinkedIn Jobs sweep, no company-wide searches) at this stage. The free sources come first.
+- **Recon stage:** LinkedIn checks (`linkedin_company`, `linkedin_company_posts`, `linkedin_people` for up to 3 people) **only for companies that already look like a sweet spot** after the free recon (site, job boards, news, Google snippets), and at most `recon_linkedin_companies_per_week` companies (budget.json, 6 now).
+- **Hard caps:** `readers.py` logs every Bright Data dataset call to `campaign/scout/bd_usage.jsonl` and refuses calls past the weekly caps in `campaign/scout/budget.json`. Raise a cap only with the sponsor's OK. Report the week's usage line in the run log.
+- **Free first, always:** company job boards (Ashby, Greenhouse, Lever APIs), the company site, news, Google snippets. LinkedIn only adds what those can't.
+
 ## Running the scout (weekly, in its own session)
 The scout runs in **its own session, created from this repo** (source `add-vee-runs`), never in the manager's chat, which must stay small. The manager starts it on Sunday's first tick with the prompt "You are the weekly scout: follow campaign/SCOUT.md → Running the scout." and is told when it's done.
 1. **Collect from every source, and show what was covered.**
@@ -80,8 +87,7 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
      - **CTech Appointments:** new executives. A **new CMO or VP Marketing is a top trigger** (`marketing_leader_hire`).
      - **The marketing-jobs Telegram channel.**
      - **General startup news, global:** TechCrunch's fundraising feed, Crunchbase News and SiliconANGLE (funding headlines). Geography is open, so a non-Israeli B2B company is fine.
-     - **Avi Lewis' latest list,** found automatically through Bright Data's LinkedIn posts scraper (search by his profile).
-     - **LinkedIn Jobs:** marketing, SEO, growth and content roles posted in Israel this past week (Bright Data's job-listings scraper, about 250 roles a week). A company hiring marketers = a marketing team forming; an SEO or organic role = a direct need (`seo_role`).
+     - **LinkedIn list posters** (`campaign/scout/list_posters.json`: Avi Lewis and others who regularly post "startups that raised / are hiring" lists): **only their posts since the last run**, read with Bright Data's posts scraper. Every company a list post tags becomes a lead.
    - The script prints **one coverage line per source** (leads, or FAILED with the reason). Copy those lines into the run log.
    - Then cover by hand, and list them in the log as covered or not:
      - **CTech's "Full list of Israeli high-tech funding rounds in 2026"** article;
