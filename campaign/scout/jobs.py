@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """Daily SEO-jobs route, step 1: LinkedIn's public job search -> a stored list of hiring companies. Deterministic.
 
-Sources (sponsor, 2026-11-20): LinkedIn Jobs (below), plus two thin, cheap extras: Wellfound's SEO Specialist role
-page (startups only; one page) and SEOjobs.com's newest listings (one page). Each is one Web Unlocker request a day.
+Sources (sponsor, 2026-11-20; one page each, one Web Unlocker request each, see SOURCES): LinkedIn Jobs US + Europe,
+Wellfound's SEO Specialist page, SEOjobs.com's newest, VC portfolio boards on Getro (Accel, General Catalyst: every
+company is VC-backed and carries its stage), and Berlin Startup Jobs' SEO skill page.
+
+Only what changed is handled: each source's page-1 job ids are remembered in jobs_sources.json. A page whose ids are
+the same as last time is reported "unchanged" and skipped; otherwise only posts never seen before are stored, and
+only companies never seen before are printed for classification. Pages beyond the first are never read; if every
+post on a page is new (the page may have overflowed since the last run), the coverage line says so.
 
 Sponsor request (2026-11-20): every 24 hours, read LinkedIn Jobs for "search engine optimization" posted in the
 last 24 hours, in the United States and in Europe (one results page each: LinkedIn's location filter is coarse),
@@ -12,7 +18,7 @@ regular scout route with the "I'd love to be considered" outreach track (SCOUT.m
 This is the public, logged-out search page read through Bright Data's Web Unlocker (`content_crawler` zone): two
 requests a day, not the LinkedIn dataset scrapers, and no company or person page is opened.
 
-  python campaign/scout/jobs.py fetch            fetch both pages, store every post, print the NEW companies (JSON)
+  python campaign/scout/jobs.py fetch [--only a,b]   read page 1 of every source, keep only what changed, print the NEW companies
   python campaign/scout/jobs.py parse <html>     parse a saved page (tests, debugging)
   python campaign/scout/jobs.py classify <json>  record the session's cheap classification of new companies
   python campaign/scout/jobs.py startups [--date YYYY-MM-DD]   the companies classified "startup" on that day
@@ -33,12 +39,13 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 SEEN = HERE / "jobs_seen.jsonl"
+SOURCE_STATE = HERE / "jobs_sources.json"
 COMPANIES = HERE / "jobs_companies.json"
 API = "https://api.brightdata.com/request"
 QUERY = "search engine optimization"
 REGIONS = {"us": "United States", "europe": "Europe"}
 CLASSES = {"startup", "agency", "recruiter", "enterprise", "other", "unknown"}
-EXTRA = {"wellfound": "https://wellfound.com/role/seo-specialist", "seojobs": "https://www.seojobs.com/jobs/"}
+LATE_STAGES = {"ipo", "acquisition", "acquired", "private_equity", "public"}
 SEO_TITLE = re.compile(r"\b(seo|geo|aeo|search|organic)\b", re.I)
 WF_SIZE = {"SIZE_1_10": "1-10", "SIZE_11_50": "11-50", "SIZE_51_200": "51-200", "SIZE_201_500": "201-500",
            "SIZE_501_1000": "501-1000", "SIZE_1001_5000": "1001-5000", "SIZE_5001_10000": "5001-10000"}
@@ -140,6 +147,60 @@ def parse_seojobs(page, max_age_days=3, now=None):
     return posts
 
 
+def parse_getro(page, max_age_days=10, now=None, board=None):
+    """A VC portfolio job board on Getro (newest first). Drops companies past the startup stage (IPO, acquired, PE)."""
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page, re.S)
+    if not m:
+        return []
+    found = json.loads(m.group(1))["props"]["pageProps"]["initialState"]["jobs"]["found"]
+    now = now or dt.datetime.now(dt.timezone.utc)
+    posts = []
+    for j in found:
+        org = j.get("organization") or {}
+        created = dt.datetime.fromtimestamp(j.get("createdAt") or 0, dt.timezone.utc)
+        if not SEO_TITLE.search(j.get("title", "")) or (now - created).days > max_age_days:
+            continue
+        if (org.get("stage") or "") in LATE_STAGES:
+            continue
+        posts.append({"job_id": f"getro-{j['id']}", "title": j["title"], "company": org.get("name", ""),
+                      "company_url": None, "company_key": "name:" + norm_name(org.get("name")),
+                      "location": ", ".join(j.get("locations") or []) or None, "posted": created.date().isoformat(),
+                      "url": j.get("url"), "region": board or "getro", "stage": org.get("stage")})
+    return posts
+
+
+def parse_berlin(page, now=None):
+    """Berlin Startup Jobs, SEO skill page (startups only, a handful of posts)."""
+    posts = []
+    for item in page.split('<li class="bjs-jlid">')[1:]:
+        a = re.search(r'bjs-jlid__h"><a href="([^"]+)">(.*?)</a>', item, re.S)
+        comp = re.search(r'class="bjs-jlid__b"[^>]*>(.*?)</a>', item, re.S)
+        if not (a and comp):
+            continue
+        slug = a.group(1).rstrip("/").rsplit("/", 1)[-1]
+        name = text(comp.group(1))
+        posts.append({"job_id": f"bsj-{slug}", "title": text(a.group(2)), "company": name, "company_url": None,
+                      "company_key": "name:" + norm_name(name), "location": "Berlin", "posted": None,
+                      "url": a.group(1), "region": "berlinstartupjobs"})
+    return posts
+
+
+def parse_linkedin(region):
+    return lambda page, now=None: parse(page, region)
+
+
+SOURCES = {
+    "linkedin_us": (search_url("us"), parse_linkedin("us")),
+    "linkedin_europe": (search_url("europe"), parse_linkedin("europe")),
+    "wellfound": ("https://wellfound.com/role/seo-specialist", parse_wellfound),
+    "seojobs": ("https://www.seojobs.com/jobs/", parse_seojobs),
+    "getro_accel": ("https://jobs.accel.com/jobs?q=seo", lambda pg, now=None: parse_getro(pg, now=now, board="accel")),
+    "getro_general_catalyst": ("https://jobs.generalcatalyst.com/jobs?q=seo",
+                               lambda pg, now=None: parse_getro(pg, now=now, board="general_catalyst")),
+    "berlinstartupjobs": ("https://berlinstartupjobs.com/skill-areas/seo/", parse_berlin),
+}
+
+
 def fetch_page(url):
     body = json.dumps({"zone": "content_crawler", "url": url, "format": "raw"}).encode()
     req = urllib.request.Request(API, data=body, headers={"Content-Type": "application/json",
@@ -180,7 +241,7 @@ def store(posts, now, companies=None):
             c["last_seen"] = today
             c["posts"].append({"job_id": p["job_id"], "title": p["title"], "location": p["location"],
                                "posted": p["posted"], "url": p["url"], "region": p["region"]})
-            for extra in ("size", "about"):
+            for extra in ("size", "about", "stage"):
                 if p.get(extra):
                     c[extra] = p[extra]
     COMPANIES.write_text(json.dumps(companies, indent=1, ensure_ascii=False) + "\n")
@@ -188,35 +249,54 @@ def store(posts, now, companies=None):
              "titles": sorted({x["title"] for x in companies[k]["posts"]}),
              "locations": sorted({x["location"] or "" for x in companies[k]["posts"]}),
              "sources": sorted({x["region"] for x in companies[k]["posts"]}),
-             **{e: companies[k][e] for e in ("size", "about") if companies[k].get(e)}} for k in new_companies]
+             **{e: companies[k][e] for e in ("size", "about", "stage") if companies[k].get(e)}} for k in new_companies]
+
+
+def known_job_ids():
+    if not SEEN.exists():
+        return set()
+    return {json.loads(l)["job_id"] for l in SEEN.read_text().splitlines() if l.strip()}
+
+
+def run_sources(fetch, now, only=None):
+    """Read page 1 of each source; handle only what changed since the last run. Returns (coverage, posts)."""
+    state = json.loads(SOURCE_STATE.read_text()) if SOURCE_STATE.exists() else {}
+    known = known_job_ids()
+    coverage, posts = [], []
+    for name, (url, parser) in SOURCES.items():
+        if only and name not in only:
+            continue
+        try:
+            page, err = fetch(url)
+        except Exception as e:  # report, never hide
+            coverage.append(f"{name}: FAILED ({type(e).__name__}: {e})")
+            continue
+        got = parser(page, now=now)
+        ids = sorted(p["job_id"] for p in got)
+        prev = state.get(name, {})
+        if not page.strip() or err:
+            coverage.append(f"{name}: FAILED ({err or 'empty page'})")
+            continue
+        if ids and ids == prev.get("ids"):
+            coverage.append(f"{name}: unchanged since {prev.get('run', '?')[:16]}, skipped")
+            state[name] = {**prev, "checked": now.isoformat(timespec="seconds")}
+            continue
+        new = [p for p in got if p["job_id"] not in known]
+        line = f"{name}: {len(got)} relevant posts, {len(new)} new"
+        if got and len(new) == len(got) and prev.get("ids"):
+            line += " (every post on the page is new: some older ones may have been missed)"
+        coverage.append(line)
+        posts += new
+        state[name] = {"run": now.isoformat(timespec="seconds"), "ids": ids}
+    SOURCE_STATE.write_text(json.dumps(state, indent=1) + "\n")
+    return coverage, posts
 
 
 def cmd_fetch(a):
     now = dt.datetime.now(dt.timezone.utc)
-    posts, coverage = [], []
-    for region in REGIONS:
-        url = search_url(region)
-        try:
-            page, err = fetch_page(url)
-            got = parse(page, region)
-            coverage.append(f"{region}: {len(got)} posts" + (f" (Bright Data {err})" if err else ""))
-            if not got:
-                coverage[-1] += " FAILED: no job cards parsed"
-            posts += got
-        except Exception as e:  # report, never hide
-            coverage.append(f"{region}: FAILED ({type(e).__name__}: {e})")
-    for name, url in EXTRA.items():
-        try:
-            page, err = fetch_page(url)
-            got = (parse_wellfound if name == "wellfound" else parse_seojobs)(page, now=now)
-            coverage.append(f"{name}: {len(got)} recent SEO posts" + (f" (Bright Data {err})" if err else ""))
-            if not page.strip():
-                coverage[-1] += " FAILED: empty page"
-            posts += got
-        except Exception as e:
-            coverage.append(f"{name}: FAILED ({type(e).__name__}: {e})")
+    coverage, posts = run_sources(fetch_page, now, only=a.only.split(",") if a.only else None)
     new = store(posts, now)
-    print(json.dumps({"coverage": coverage, "posts": len(posts), "new_companies": new}, indent=1, ensure_ascii=False))
+    print(json.dumps({"coverage": coverage, "new_posts": len(posts), "new_companies": new}, indent=1, ensure_ascii=False))
 
 
 def cmd_parse(a):
@@ -248,7 +328,7 @@ def cmd_startups(a):
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("fetch").set_defaults(fn=cmd_fetch)
+    x = sub.add_parser("fetch"); x.add_argument("--only", help="comma-separated source names"); x.set_defaults(fn=cmd_fetch)
     x = sub.add_parser("parse"); x.add_argument("html"); x.set_defaults(fn=cmd_parse)
     x = sub.add_parser("classify"); x.add_argument("file"); x.set_defaults(fn=cmd_classify)
     x = sub.add_parser("startups"); x.add_argument("--date"); x.set_defaults(fn=cmd_startups)

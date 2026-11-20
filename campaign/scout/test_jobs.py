@@ -15,7 +15,7 @@ class JobsTest(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         d = Path(self.tmp.name)
-        jobs.SEEN, jobs.COMPANIES = d / "seen.jsonl", d / "companies.json"
+        jobs.SEEN, jobs.COMPANIES, jobs.SOURCE_STATE = d / "seen.jsonl", d / "companies.json", d / "sources.json"
         self.us = jobs.parse((HERE / "fixtures" / "li_jobs_seo_us.html").read_text(errors="ignore"), "us")
         self.eu = jobs.parse((HERE / "fixtures" / "li_jobs_seo_europe.html").read_text(errors="ignore"), "europe")
 
@@ -76,6 +76,29 @@ class JobsTest(unittest.TestCase):
                            "region": "seojobs"}], t)
         self.assertEqual(new, [])
         self.assertEqual(len(json.loads(jobs.COMPANIES.read_text())["acme-io"]["posts"]), 2)
+
+
+    def test_getro_and_berlin(self):
+        now = dt.datetime(2026, 11, 21, 12, tzinfo=dt.timezone.utc)
+        g = jobs.parse_getro((HERE / "fixtures" / "getro_accel_seo.html").read_text(errors="ignore"), now=now, board="accel")
+        self.assertTrue(g)
+        self.assertTrue(all(p["stage"] not in jobs.LATE_STAGES for p in g))       # Klaviyo (IPO), Fever (PE) dropped
+        self.assertNotIn("Klaviyo", {p["company"] for p in g})
+        b = jobs.parse_berlin((HERE / "fixtures" / "berlinstartupjobs_seo.html").read_text(errors="ignore"))
+        self.assertIn("Scento", {p["company"] for p in b})
+
+    def test_only_what_changed(self):
+        page = (HERE / "fixtures" / "berlinstartupjobs_seo.html").read_text(errors="ignore")
+        fetch = lambda url: (page, None)
+        now = dt.datetime(2026, 11, 21, 8, tzinfo=dt.timezone.utc)
+        cov, posts = jobs.run_sources(fetch, now, only=["berlinstartupjobs"])
+        self.assertTrue(posts)
+        jobs.store(posts, now)
+        cov, posts = jobs.run_sources(fetch, now + dt.timedelta(days=1), only=["berlinstartupjobs"])
+        self.assertEqual(posts, [])
+        self.assertIn("unchanged", cov[0])
+        cov, _ = jobs.run_sources(lambda url: ("", "dd_hardblock"), now, only=["berlinstartupjobs"])
+        self.assertIn("FAILED", cov[0])
 
 
 if __name__ == "__main__":
