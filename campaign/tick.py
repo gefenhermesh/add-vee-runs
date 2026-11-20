@@ -39,7 +39,7 @@ MAX_NUDGES = 2          # nudges before "stuck"
 ACTIVE = {"starting", "running"}
 WAITING_STAGES = {"waiting_gate_1_2"}
 PAUSED_STAGES = {"paused_brightdata"}
-JOB_EXPIRY_DAYS = 10  # an SEO-job company not started within this many days of its post date drops out (no backlog)  # stopped on purpose (sponsor pause): no nudge, no new starts
+JOB_EXPIRY_DAYS = 10  # an SEO-job company not started within this many days of the post last being confirmed open drops out  # stopped on purpose (sponsor pause): no nudge, no new starts
 DONE_STAGES = {"done"}
 
 ADD_VEE_REPO = "https://github.com/gefenhermesh/add-vee"
@@ -85,15 +85,18 @@ def plan(state, sessions, now):
     actions = []
     running = 0
     for p in state["prospects"]:  # SEO-job finds go stale fast: expire the ones never started in time
-        posted = (p.get("job") or {}).get("posted")
-        if p.get("track") == "seo_job" and p.get("status") in ("proposed", "queued") and posted:
+        job = p.get("job") or {}
+        # Age counts from the last time the post was confirmed open (jobs.py check-open), else from its post date:
+        # an older post that's still open is a live opening, not a stale one.
+        since = job.get("open_checked") or job.get("posted")
+        if p.get("track") == "seo_job" and p.get("status") in ("proposed", "queued") and since:
             try:
-                age = (now.date() - dt.date.fromisoformat(posted[:10])).days
+                age = (now.date() - dt.date.fromisoformat(since[:10])).days
             except ValueError:
                 continue
             if age > JOB_EXPIRY_DAYS:
                 actions.append({"do": "mark", "slug": p["slug"], "status": "expired",
-                                "reason": f"job post {age} days old, never started"})
+                                "reason": f"job post not confirmed open for {age} days, never started"})
     for p in state["prospects"]:
         st = p.get("status")
         if st not in ACTIVE | {"waiting_gate", "paused"}:

@@ -26,6 +26,8 @@ dataset scrapers; no company or person page is opened.
   python campaign/scout/jobs.py parse <html>     parse a saved page (tests, debugging)
   python campaign/scout/jobs.py classify <json>  record the session's cheap classification of new companies
   python campaign/scout/jobs.py startups [--date YYYY-MM-DD]   the companies classified "startup" on that day
+  python campaign/scout/jobs.py backlog [--limit N]   older-post companies still to classify (catch-up mode until 0)
+  python campaign/scout/jobs.py check-open <job url>  free check that a job post is still open
 
 Files:
   campaign/scout/jobs_seen.jsonl     every post ever seen: {job_id, title, company, company_url, location, posted, url, region, seen_at}
@@ -44,7 +46,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SEEN = HERE / "jobs_seen.jsonl"
 SOURCE_STATE = HERE / "jobs_sources.json"
-FRESH_DAYS = 3  # only posts this new are triaged; older ones are recorded as seen and left (no backlog)
+FRESH_DAYS = 3  # posts this new are triaged the day they appear; older ones go to the backlog (worked through, not ignored)
+BACKLOG_PER_DAY = 40  # backlog companies classified per daily run, until the backlog is cleared
 COMPANIES = HERE / "jobs_companies.json"
 API = "https://api.brightdata.com/request"
 QUERY = "search engine optimization"
@@ -282,6 +285,8 @@ def store(posts, now, companies=None):
                                "posted": p["posted"], "url": p["url"], "region": p["region"], "fresh": fresh})
             if fresh and not c.get("offered") and c.get("class") in (None, "startup") and not c.get("proposed"):
                 fresh_keys.add(p["company_key"])
+            elif not fresh and c.get("class") is None and not c.get("offered"):
+                c["backlog"] = True  # older post, maybe still open: classified later from the backlog, never dropped
             for extra in ("size", "about", "stage"):
                 if p.get(extra):
                     c[extra] = p[extra]
@@ -412,6 +417,44 @@ def cmd_classify(a):
     print(f"classified {len(rows)}")
 
 
+def backlog_rows(companies):
+    """Unclassified companies recorded from older posts, newest post first (likeliest to still be open)."""
+    rows = [(k, v) for k, v in companies.items()
+            if v.get("backlog") and v.get("class") is None and not v.get("offered")]  # offered = triaged as fresh
+    newest = lambda v: max((x.get("posted") or "") for x in v["posts"]) if v["posts"] else ""
+    return sorted(rows, key=lambda kv: newest(kv[1]), reverse=True)
+
+
+def cmd_backlog(a):
+    """Today's share of the backlog to classify, and whether the route is still catching up."""
+    companies = load_companies()
+    rows = backlog_rows(companies)
+    take = rows[: a.limit]
+    out = [{"key": k, "name": v["name"], "company_url": v.get("company_url"),
+            "posts": [{"title": x["title"], "posted": x.get("posted"), "url": x["url"], "location": x.get("location")}
+                      for x in v["posts"]],
+            **{e: v[e] for e in ("size", "about", "stage") if v.get(e)}} for k, v in take]
+    print(json.dumps({"mode": "catching_up" if rows else "routine", "backlog_left": len(rows),
+                      "today": out}, indent=1, ensure_ascii=False))
+
+
+CLOSED_MARKERS = ("no longer accepting applications", "this job is no longer available", "job has expired",
+                  "position has been filled", "this job has been closed", "job not found")
+
+
+def cmd_check_open(a):
+    """Is a job post still open? Free direct read; a 404/410 or a 'no longer accepting' notice means closed."""
+    import urllib.error
+    try:
+        page = direct_fetch(a.url).lower()
+        state = "closed" if any(m in page for m in CLOSED_MARKERS) else "open"
+    except urllib.error.HTTPError as e:
+        state = "closed" if e.code in (404, 410) else f"unknown (HTTP {e.code})"
+    except Exception as e:
+        state = f"unknown ({type(e).__name__})"
+    print(json.dumps({"url": a.url, "state": state, "checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}))
+
+
 def cmd_startups(a):
     day = a.date or dt.datetime.now(dt.timezone.utc).date().isoformat()
     out = [{"key": k, **v} for k, v in load_companies().items() if v.get("class") == "startup" and v.get("first_seen") == day]
@@ -425,6 +468,8 @@ def main(argv=None):
     x = sub.add_parser("parse"); x.add_argument("html"); x.set_defaults(fn=cmd_parse)
     x = sub.add_parser("classify"); x.add_argument("file"); x.set_defaults(fn=cmd_classify)
     x = sub.add_parser("startups"); x.add_argument("--date"); x.set_defaults(fn=cmd_startups)
+    x = sub.add_parser("backlog"); x.add_argument("--limit", type=int, default=BACKLOG_PER_DAY); x.set_defaults(fn=cmd_backlog)
+    x = sub.add_parser("check-open"); x.add_argument("url"); x.set_defaults(fn=cmd_check_open)
     a = ap.parse_args(argv)
     a.fn(a)
 

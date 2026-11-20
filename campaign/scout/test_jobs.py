@@ -177,11 +177,14 @@ class CostTest(unittest.TestCase):
         out = jobs.store([mk(1, "2026-11-20"), mk(2, "2026-11-05"), mk(3, None, base=True), mk(4, None)], now)
         self.assertEqual({c["name"] for c in out}, {"Co1", "Co4"})   # fresh dated post; undated post on a known source
         self.assertEqual(jobs.store.recorded_only, 2)                 # old post and first-read undated post: recorded only
+        names = [r[1]["name"] for r in jobs.backlog_rows(json.loads(jobs.COMPANIES.read_text()))]
+        self.assertEqual(names, ["Co2", "Co3"])                        # ...but kept in the backlog, newest post first
         # Co2 (recorded, never classified) posts a fresh role later: offered once
         out = jobs.store([{**mk(5, "2026-11-21"), "company": "Co2", "company_key": "name:co2"}], now)
         self.assertEqual([c["name"] for c in out], ["Co2"])
         out = jobs.store([{**mk(6, "2026-11-21"), "company": "Co2", "company_key": "name:co2"}], now)
         self.assertEqual(out, [])                                     # already offered: not again
+        self.assertNotIn("Co2", [r[1]["name"] for r in jobs.backlog_rows(json.loads(jobs.COMPANIES.read_text()))])
 
 
 if __name__ == "__main__":

@@ -33,7 +33,7 @@ def problems(rec):
         out.append(f"gating_rating must be one of {sorted(GATING)}")
     if rec.get("track") == "seo_job":
         job = rec.get("job") or {}
-        out += [f"job.{k} missing" for k in ("title", "url", "posted") if not job.get(k)]
+        out += [f"job.{k} missing" for k in ("title", "url", "posted", "open_checked") if not job.get(k)]
         if rec.get("gating_rating") != "seo_job_opening":
             out.append("track seo_job needs gating_rating seo_job_opening")
     if rec.get("gating_rating") == "blocked_seo_team":

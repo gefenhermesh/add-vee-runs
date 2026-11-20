@@ -162,7 +162,9 @@ class JobExpiryTest(unittest.TestCase):
         st = {"settings": {"max_concurrent_running": 0}, "prospects": [
             {"slug": "old", "company": "O", "status": "proposed", "track": "seo_job", "job": {"posted": "2026-11-05"}},
             {"slug": "new", "company": "N", "status": "queued", "track": "seo_job", "job": {"posted": "2026-11-20"}},
-            {"slug": "reg", "company": "R", "status": "proposed"}]}
+            {"slug": "reg", "company": "R", "status": "proposed"},
+            {"slug": "still", "company": "S", "status": "proposed", "track": "seo_job",
+             "job": {"posted": "2026-10-20", "open_checked": "2026-11-21"}}]}
         acts = tick.plan(st, {}, NOW)
         self.assertEqual([(a["slug"], a["status"]) for a in acts if a["do"] == "mark"], [("old", "expired")])
 
