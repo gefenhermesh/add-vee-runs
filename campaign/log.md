@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-20T05:54:24+00:00 mark upwind waiting_gate
+- 2026-11-20T05:54:24+00:00 notify upwind gate
+- 2026-11-20T05:54:24+00:00 start glow-io
 - 2026-11-20T04:55:09+00:00 mark vega-security done
 - 2026-11-20T04:55:09+00:00 draft vega-security
 - 2026-11-20T04:55:09+00:00 notify vega-security done

@@ -104,7 +104,7 @@ def plan(state, sessions, now):
                 actions.append({"do": "mark", "slug": p["slug"], "status": "waiting_gate"})
             if not notified.get("gate"):
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "gate",
-                                "message": f"{p['company']}: Gate 1-2 ready. Approve or push back in its session"})
+                                "message": f"{p['company']}: Gate 1-2 ready. Reply \"approve {p['slug']}\" or what to change"})
             continue
         if st == "waiting_gate":
             # The company moved past the gate (the sponsor approved): it's working again.
