@@ -84,14 +84,16 @@
       "slug": "glow-io",
       "company": "glow.io",
       "domain": "glow.io",
-      "status": "starting",
+      "status": "waiting_gate",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
       "session_id": "session_01FkmvpMCznvSa4X3ZqsUQUH",
       "started_at": "2026-11-20T05:54:24+00:00",
       "nudges": 0,
-      "notified": {}
+      "notified": {
+        "gate": "2026-11-20T06:54:09+00:00"
+      }
     },
     {
       "slug": "plurai",
@@ -364,7 +366,7 @@
     "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov).",
     "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4."
   },
-  "last_tick": "2026-11-20T05:54:24+00:00",
+  "last_tick": "2026-11-20T06:54:09+00:00",
   "manager": {
     "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
     "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",
