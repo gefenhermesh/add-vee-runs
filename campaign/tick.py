@@ -48,6 +48,10 @@ this company (CLAUDE.md, unchanged, including the Gate 1-2 stop), keep output/{s
 and write the outreach material into output/{slug}/outreach/. You need no other repository and no Gmail.
 Never send email or contact anyone."""
 
+JOB_TRACK = """
+Outreach track: seo_job. They're hiring for "{title}" ({url}, posted {posted}). Write the outreach as the sponsor's
+"I'd love to be considered for this role" email: docs/campaign/company-session.md -> "Track seo_job"."""
+
 NUDGE_PROMPT = """Campaign manager check: this session looks idle with the run unfinished (last progress {age} min ago).
 If you stopped on a usage limit or an error, continue now: run `python scripts/run_ledger.py status {slug}` and
 resume from the recorded resume point (COMPANY_SESSION.md, "Resuming"). If you're waiting for the sponsor at
@@ -126,13 +130,15 @@ def plan(state, sessions, now):
                 running -= 1
 
     cap = state["settings"]["max_concurrent_running"]
-    for p in state["prospects"]:
+    order = sorted(state["prospects"], key=lambda p: -int(p.get("priority") or 0))  # SEO-job finds first; stable otherwise
+    for p in order:
         if running >= cap:
             break
         if p.get("status") == "queued":
             actions.append({"do": "start", "slug": p["slug"], "source_url": ADD_VEE_REPO,
                             "title": f"add-vee campaign: {p['company']}",
-                            "prompt": START_PROMPT.format(company=p["company"], domain=p.get("domain", ""), slug=p["slug"])})
+                            "prompt": START_PROMPT.format(company=p["company"], domain=p.get("domain", ""), slug=p["slug"])
+                            + (JOB_TRACK.format(**p["job"]) if p.get("track") == "seo_job" else "")})
             running += 1
     return actions
 

@@ -114,5 +114,17 @@ class TickTest(unittest.TestCase):
         self.assertEqual(tick.plan(s, {}, NOW), [])
 
 
+class PriorityTest(unittest.TestCase):
+    def test_seo_job_started_first_with_track_prompt(self):
+        st = {"settings": {"max_concurrent_running": 1}, "prospects": [
+            {"slug": "a", "company": "A", "domain": "a.io", "status": "queued"},
+            {"slug": "b", "company": "B", "domain": "b.io", "status": "queued", "priority": 1, "track": "seo_job",
+             "job": {"title": "SEO Lead", "url": "https://x/1", "posted": "2026-11-21"}}]}
+        acts = [a for a in tick.plan(st, {}, NOW) if a["do"] == "start"]
+        self.assertEqual([a["slug"] for a in acts], ["b"])
+        self.assertIn("Track seo_job", acts[0]["prompt"])
+        self.assertIn('"SEO Lead"', acts[0]["prompt"])
+
+
 if __name__ == "__main__":
     unittest.main()
