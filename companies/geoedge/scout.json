@@ -11,26 +11,86 @@
   "marketing_leadership": {
     "status": "couldn't verify",
     "who": [
-      {"name": "Tobias Silber", "role": "Chief Business Officer (formerly titled 'CBO / VP Marketing')", "kind": "direct", "note": "Live about page: 'CBO'. Wayback 2024-06-01 about page: 'CBO / VP MARKETING'. Crunchbase/XING snippets still say VP Marketing (unverified, stale). Inferred interim owner of marketing."},
-      {"name": "Amnon Siev", "role": "CEO", "kind": "direct", "note": "The VP Marketing JD says the role works closely with the CEO. Likely hiring manager (inferred)."},
-      {"name": "Yuval Shiboli", "role": "PMM & GTM Operations", "kind": "unverified", "note": "Google snippet of a LinkedIn profile (title only, not opened): 'Built GeoEdge's entire marketing technology and GTM systems stack from scratch'. Listed among employees on the LinkedIn company page. Individual contributor, not a leader."}
+      {
+        "name": "Tobias Silber",
+        "role": "Chief Business Officer (formerly titled 'CBO / VP Marketing')",
+        "kind": "direct",
+        "note": "Live about page: 'CBO'. Wayback 2024-06-01 about page: 'CBO / VP MARKETING'. Crunchbase/XING snippets still say VP Marketing (unverified, stale). Inferred interim owner of marketing."
+      },
+      {
+        "name": "Amnon Siev",
+        "role": "CEO",
+        "kind": "direct",
+        "note": "The VP Marketing JD says the role works closely with the CEO. Likely hiring manager (inferred)."
+      },
+      {
+        "name": "Yuval Shiboli",
+        "role": "PMM & GTM Operations",
+        "kind": "unverified",
+        "note": "Google snippet of a LinkedIn profile (title only, not opened): 'Built GeoEdge's entire marketing technology and GTM systems stack from scratch'. Listed among employees on the LinkedIn company page. Individual contributor, not a leader."
+      }
     ],
     "evidence": [
-      {"claim": "VP Marketing role open, Tel Aviv; owns narrative, positioning and messaging, and builds the marketing function; works closely with the CEO", "kind": "direct", "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/", "date": "2026-11-18"},
-      {"claim": "Head of Product Marketing and Product Marketing Manager postings now closed ('position may have been closed')", "kind": "direct", "url": "https://www.geoedge.com/careers/co/other/8C.479/head-of-product-marketing/all/", "date": "accessed 2026-11-19"},
-      {"claim": "Leadership page lists CEO, CTO, CBO, CCO, VPs of Security & Data, R&D, Product, Client Services, HR, BD, Head of AppHarbr: no marketing title", "kind": "direct", "url": "https://www.geoedge.com/about-us/", "date": "accessed 2026-11-19"},
-      {"claim": "June 2024 about page listed Tobias Silber as 'CBO / VP MARKETING'", "kind": "direct", "url": "http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/", "date": "2024-06-01"},
-      {"claim": "Former marketing people: Michal Nissenson (Director of Customer Marketing, now Intent IQ), Pratik Thakker (Head of Marketing 2018-2021), Maya Raveh (Marketing Director from 2011)", "kind": "unverified", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+%22marketing+manager%22", "date": "accessed 2026-11-19"},
-      {"claim": "Alisha Rosen listed as 'Director, Marketing Communications' (ZoomInfo) and is a site author; her LinkedIn posts about GeoEdge are 1-2 years old. Current status unknown", "kind": "unverified", "url": "https://www.google.com/search?q=%22GeoEdge%22+marketing+%22Michal%22+OR+%22Alisha%22", "date": "accessed 2026-11-19"}
+      {
+        "claim": "VP Marketing role open, Tel Aviv; owns narrative, positioning and messaging, and builds the marketing function; works closely with the CEO",
+        "kind": "direct",
+        "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/",
+        "date": "2026-11-18"
+      },
+      {
+        "claim": "Head of Product Marketing and Product Marketing Manager postings now closed ('position may have been closed')",
+        "kind": "direct",
+        "url": "https://www.geoedge.com/careers/co/other/8C.479/head-of-product-marketing/all/",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Leadership page lists CEO, CTO, CBO, CCO, VPs of Security & Data, R&D, Product, Client Services, HR, BD, Head of AppHarbr: no marketing title",
+        "kind": "direct",
+        "url": "https://www.geoedge.com/about-us/",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "June 2024 about page listed Tobias Silber as 'CBO / VP MARKETING'",
+        "kind": "direct",
+        "url": "http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/",
+        "date": "2024-06-01"
+      },
+      {
+        "claim": "Former marketing people: Michal Nissenson (Director of Customer Marketing, now Intent IQ), Pratik Thakker (Head of Marketing 2018-2021), Maya Raveh (Marketing Director from 2011)",
+        "kind": "unverified",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+%22marketing+manager%22",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Alisha Rosen listed as 'Director, Marketing Communications' (ZoomInfo) and is a site author; her LinkedIn posts about GeoEdge are 1-2 years old. Current status unknown",
+        "kind": "unverified",
+        "url": "https://www.google.com/search?q=%22GeoEdge%22+marketing+%22Michal%22+OR+%22Alisha%22",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "seo_team": {
     "status": "not found",
     "note": "No SEO title in any Google site:linkedin.com/in result for GeoEdge + SEO/content. Found a content writer (Sigal Hirsch, 'Content Writer at AppHarbr by GeoEdge', snippet) and security researchers who write the research posts. Logged-out search is limited, so this stays weak evidence (closer to couldn't verify).",
     "evidence": [
-      {"claim": "site:linkedin.com/in GeoEdge SEO OR content: no SEO titles; Sigal Hirsch, Content Writer at AppHarbr by GeoEdge", "kind": "unverified", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+SEO+OR+content", "date": "accessed 2026-11-19"},
-      {"claim": "VP Marketing JD does not mention SEO, organic, search or AI visibility. Content and demand gen are framed as functions to build 'over time'", "kind": "direct", "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/", "date": "2026-11-18"},
-      {"claim": "Yoast SEO Premium installed; robots.txt blocks AhrefsBot, SemrushBot, MJ12bot, DotBot, BLEXBot, Yandex, Baidu", "kind": "direct", "url": "https://www.geoedge.com/robots.txt", "date": "accessed 2026-11-19"}
+      {
+        "claim": "site:linkedin.com/in GeoEdge SEO OR content: no SEO titles; Sigal Hirsch, Content Writer at AppHarbr by GeoEdge",
+        "kind": "unverified",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+SEO+OR+content",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "VP Marketing JD does not mention SEO, organic, search or AI visibility. Content and demand gen are framed as functions to build 'over time'",
+        "kind": "direct",
+        "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/",
+        "date": "2026-11-18"
+      },
+      {
+        "claim": "Yoast SEO Premium installed; robots.txt blocks AhrefsBot, SemrushBot, MJ12bot, DotBot, BLEXBot, Yandex, Baidu",
+        "kind": "direct",
+        "url": "https://www.geoedge.com/robots.txt",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "situation": {
@@ -44,14 +104,54 @@
     "source": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/"
   },
   "fit_evidence": [
-    {"claim": "Hiring a VP Marketing to 'own how the market understands GeoEdge', hands-on positioning across the product portfolio, and to build demand gen, content and brand over time", "kind": "direct", "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/", "date": "2026-11-18"},
-    {"claim": "Requires experience marketing to US B2B audiences; the role is based in Tel Aviv (an Israel-based marketing role)", "kind": "direct", "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/", "date": "2026-11-18"},
-    {"claim": "New product line: GeoEdge URL Security MCP server ('real-time URL analysis inside your AI assistants and agents')", "kind": "direct", "url": "https://www.geoedge.com/security-mcp-server/", "date": "2026-11-10"},
-    {"claim": "Self-described 'bootstrapped startup with bases in Tel Aviv and NYC'", "kind": "direct", "url": "https://www.geoedge.com/careers/", "date": "accessed 2026-11-19"},
-    {"claim": "Blog: 152 posts 2016-2026; 8 in 2024, 8 in 2025, 6 in 2026 (Apr, May, Aug, Sep x2, Nov)", "kind": "direct", "url": "https://www.geoedge.com/wp-json/wp/v2/posts?per_page=100", "date": "accessed 2026-11-19"},
-    {"claim": "Two 2026 long-form compliance guides (about 1.9k and 2.7k words) each carry only 1 internal link (to /free-trial/), against 12-22 external links. The 2026-11-19 research post has 0 internal links", "kind": "direct", "url": "https://www.geoedge.com/wp-json/wp/v2/posts?slug=political-advertising-rules-for-publishers", "date": "2026-09-01"},
-    {"claim": "Third-party comparison content already frames the buying shortlist: 'Confiant vs GeoEdge' (VASTlint, 2026-10-02), 'Top 10+ GeoEdge Alternatives' (adtechlist.io), SourceForge/Slashdot compare pages", "kind": "direct", "url": "https://vastlint.org/blog/confiant-vs-geoedge", "date": "2026-10-02"},
-    {"claim": "openai-domain-verification TXT record present (they have some OpenAI account/integration)", "kind": "direct", "url": "https://dns.google/resolve?name=geoedge.com&type=TXT", "date": "accessed 2026-11-19"}
+    {
+      "claim": "Hiring a VP Marketing to 'own how the market understands GeoEdge', hands-on positioning across the product portfolio, and to build demand gen, content and brand over time",
+      "kind": "direct",
+      "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/",
+      "date": "2026-11-18"
+    },
+    {
+      "claim": "Requires experience marketing to US B2B audiences; the role is based in Tel Aviv (an Israel-based marketing role)",
+      "kind": "direct",
+      "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/",
+      "date": "2026-11-18"
+    },
+    {
+      "claim": "New product line: GeoEdge URL Security MCP server ('real-time URL analysis inside your AI assistants and agents')",
+      "kind": "direct",
+      "url": "https://www.geoedge.com/security-mcp-server/",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "Self-described 'bootstrapped startup with bases in Tel Aviv and NYC'",
+      "kind": "direct",
+      "url": "https://www.geoedge.com/careers/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Blog: 152 posts 2016-2026; 8 in 2024, 8 in 2025, 6 in 2026 (Apr, May, Aug, Sep x2, Nov)",
+      "kind": "direct",
+      "url": "https://www.geoedge.com/wp-json/wp/v2/posts?per_page=100",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Two 2026 long-form compliance guides (about 1.9k and 2.7k words) each carry only 1 internal link (to /free-trial/), against 12-22 external links. The 2026-11-19 research post has 0 internal links",
+      "kind": "direct",
+      "url": "https://www.geoedge.com/wp-json/wp/v2/posts?slug=political-advertising-rules-for-publishers",
+      "date": "2026-09-01"
+    },
+    {
+      "claim": "Third-party comparison content already frames the buying shortlist: 'Confiant vs GeoEdge' (VASTlint, 2026-10-02), 'Top 10+ GeoEdge Alternatives' (adtechlist.io), SourceForge/Slashdot compare pages",
+      "kind": "direct",
+      "url": "https://vastlint.org/blog/confiant-vs-geoedge",
+      "date": "2026-10-02"
+    },
+    {
+      "claim": "openai-domain-verification TXT record present (they have some OpenAI account/integration)",
+      "kind": "direct",
+      "url": "https://dns.google/resolve?name=geoedge.com&type=TXT",
+      "date": "accessed 2026-11-19"
+    }
   ],
   "site_and_content": {
     "cms": "WordPress + Elementor Pro (Astra theme, custom 'Geoedge' child theme), Gravity Forms, Yoast SEO Premium v28.8",
@@ -65,18 +165,65 @@
   },
   "jobs": {
     "board": "Comeet via the WordPress plugin on geoedge.com/careers. Public Comeet URL comeet.com/jobs/geoedge returned 404. Ashby/Greenhouse/Lever boards 'geoedge' and 'geo-edge' had none.",
-    "open_roles_on_careers_page": ["VP Marketing (Tel Aviv)", "Head of Security & Research (Tel Aviv)", "Senior Security Researcher - Web Threats (Tel Aviv)", "Customer Success Manager - AppHarbr (Tel Aviv)", "Presales Solution Engineer, APAC (Beijing)"],
+    "open_roles_on_careers_page": [
+      "VP Marketing (Tel Aviv)",
+      "Head of Security & Research (Tel Aviv)",
+      "Senior Security Researcher - Web Threats (Tel Aviv)",
+      "Customer Success Manager - AppHarbr (Tel Aviv)",
+      "Presales Solution Engineer, APAC (Beijing)"
+    ],
     "marketing_roles": [
-      {"title": "VP Marketing", "status": "open", "posted": "2026-11-18", "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/", "reports_to": "not stated; 'work closely with the CEO and senior leadership'", "seo_mention": false},
-      {"title": "Head of Product Marketing", "status": "closed (link says position closed)", "posted": "2026-11-08 per Telegram", "url": "https://www.geoedge.com/careers/co/other/8C.479/head-of-product-marketing/all/"},
-      {"title": "Product Marketing Manager", "status": "closed", "posted": "unknown (linked from the Telegram channel)", "url": "https://www.geoedge.com/careers/co/other/C9.E66/product-marketing-manager/all/"}
+      {
+        "title": "VP Marketing",
+        "status": "open",
+        "posted": "2026-11-18",
+        "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/",
+        "reports_to": "not stated; 'work closely with the CEO and senior leadership'",
+        "seo_mention": false
+      },
+      {
+        "title": "Head of Product Marketing",
+        "status": "closed (link says position closed)",
+        "posted": "2026-11-08 per Telegram",
+        "url": "https://www.geoedge.com/careers/co/other/8C.479/head-of-product-marketing/all/"
+      },
+      {
+        "title": "Product Marketing Manager",
+        "status": "closed",
+        "posted": "unknown (linked from the Telegram channel)",
+        "url": "https://www.geoedge.com/careers/co/other/C9.E66/product-marketing-manager/all/"
+      }
     ],
     "reading": "They moved from a PMM / Head of PMM hire to a VP-level hire within about 10 days. The JD is PMM-heavy and silent on SEO, organic or AI search."
   },
   "contacts": [
-    {"name": "Amnon Siev", "role": "CEO", "email": null, "email_verified": false, "source": "https://www.geoedge.com/about-us/", "recipient_rank": 1, "note": "The VP Marketing JD says the hire works closely with the CEO. Likely hiring manager and decision-maker at a bootstrapped company. Also a public face (podcasts, ExchangeWire)."},
-    {"name": "Tobias Silber", "role": "Chief Business Officer (formerly CBO / VP Marketing)", "email": null, "email_verified": false, "source": "https://www.geoedge.com/about-us/ ; http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/", "recipient_rank": 2, "note": "Likely interim marketing owner (inferred)."},
-    {"name": "Yuval Shiboli", "role": "PMM & GTM Operations", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in snippet (title only); LinkedIn company page employee list", "recipient_rank": 3, "note": "Individual contributor, built the martech stack. Not a decision-maker."}
+    {
+      "name": "Amnon Siev",
+      "role": "CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.geoedge.com/about-us/",
+      "recipient_rank": 1,
+      "note": "The VP Marketing JD says the hire works closely with the CEO. Likely hiring manager and decision-maker at a bootstrapped company. Also a public face (podcasts, ExchangeWire)."
+    },
+    {
+      "name": "Tobias Silber",
+      "role": "Chief Business Officer (formerly CBO / VP Marketing)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.geoedge.com/about-us/ ; http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/",
+      "recipient_rank": 2,
+      "note": "Likely interim marketing owner (inferred)."
+    },
+    {
+      "name": "Yuval Shiboli",
+      "role": "PMM & GTM Operations",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in snippet (title only); LinkedIn company page employee list",
+      "recipient_rank": 3,
+      "note": "Individual contributor, built the martech stack. Not a decision-maker."
+    }
   ],
   "outreach_angle": {
     "hook": "Your VP Marketing posting (Nov 18) says the role will 'own how the market understands GeoEdge'. More and more, buyers form that understanding through ChatGPT and Gemini answers to 'Confiant vs GeoEdge' or 'best malvertising protection' questions, where third-party pages (e.g., VASTlint's Oct 2026 'Confiant vs GeoEdge') are what gets cited. Offer: the audit as a baseline the incoming VP can start from, ideally covering the new URL Security / MCP line too.",
@@ -98,42 +245,176 @@
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no"
+    "contact_verified": "no",
+    "seo_need": "unassessed"
   },
   "sources": [
-    {"url": "https://t.me/s/hitechjobsmarketing?q=GeoEdge", "date": "2026-11-08 / 2026-11-18", "kind": "direct", "result": "Two cards: Head of Product Marketing (2026-11-08, Tel Aviv, 5+ yrs), VP Marketing (2026-11-18, Tel Aviv). Also links to a PMM posting."},
-    {"url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/", "date": "2026-11-18", "kind": "direct", "result": "Full JD read (via Bright Data after a direct 504). datePosted 2026-11-18T15:34:22Z."},
-    {"url": "https://www.geoedge.com/careers/co/other/8C.479/head-of-product-marketing/all/", "date": "accessed 2026-11-19", "kind": "direct", "result": "'The position may have been closed'"},
-    {"url": "https://www.geoedge.com/careers/co/other/C9.E66/product-marketing-manager/all/", "date": "accessed 2026-11-19", "kind": "direct", "result": "'The position may have been closed'"},
-    {"url": "https://www.geoedge.com/careers/", "date": "accessed 2026-11-19", "kind": "direct", "result": "5 openings incl. VP Marketing; 'bootstrapped startup with bases in Tel Aviv and NYC'"},
-    {"url": "https://www.geoedge.com/about-us/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Leadership list, no marketing title; Tobias Silber 'CBO'"},
-    {"url": "http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/", "date": "2024-06-01", "kind": "direct", "result": "Tobias Silber 'CBO / VP MARKETING' (via Bright Data; direct Wayback fetch returned 403)"},
-    {"url": "https://www.geoedge.com/", "date": "accessed 2026-11-19 (modified 2026-10-01)", "kind": "direct", "result": "Raw HTML: WP/Elementor, Yoast Premium, Pardot, GTM, ZoomInfo, Intercom; '450+ Publishers & Platforms'"},
-    {"url": "https://www.geoedge.com/security-mcp-server/", "date": "2026-11-10", "kind": "direct", "result": "URL Security MCP server product page"},
-    {"url": "https://www.geoedge.com/zero-trust-link-guard/", "date": "2024-12-13 (modified 2026-07-29)", "kind": "direct", "result": "Web Security / URL security page"},
-    {"url": "https://www.geoedge.com/sitemap_index.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "Index plus post/page/author/resources/university sitemaps read; post lastmods bulk-updated in 2025"},
-    {"url": "https://www.geoedge.com/wp-json/wp/v2/posts?per_page=100", "date": "accessed 2026-11-19", "kind": "direct", "result": "152 posts with publish dates, 2016-08-03 to 2026-11-19; categories; content HTML for 4 posts (link-aware read)"},
-    {"url": "https://www.geoedge.com/robots.txt", "date": "accessed 2026-11-19", "kind": "direct", "result": "Blocks Ahrefs/Semrush/MJ12/DotBot/BLEX/Yandex/Baidu; sitemap14/29 referenced"},
-    {"url": "https://dns.google/resolve?name=geoedge.com&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "Pardot, Google, OpenAI, Apple, MS, Atlassian verifications; SPF Postmark + Outlook"},
-    {"url": "https://www.linkedin.com/company/geoedge", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: 51-200 employees, HQ New York, founded 2010, 19,743 followers; employees shown: Amnon Siev, Guy Books, Yuval Shiboli, Alon Landau"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+marketing", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Titles: Tobias Silber CBO, Tali Perry Bakshi CCO, Yuval Shiboli 'AI-Powered GTM Systems Leader' (PMM & GTM Operations at GeoEdge), sales/BD staff; no marketing leader title"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+SEO+OR+content", "date": "accessed 2026-11-19", "kind": "unverified", "result": "No SEO titles; Sigal Hirsch, Content Writer at AppHarbr by GeoEdge"},
-    {"url": "https://www.google.com/search?q=%22Tobias+Silber%22+GeoEdge+marketing", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Crunchbase and XING still list him as VP Marketing (stale aggregator data)"},
-    {"url": "https://vastlint.org/blog/confiant-vs-geoedge", "date": "2026-10-02", "kind": "direct", "result": "Third-party 'Confiant vs GeoEdge' comparison article"},
-    {"url": "https://www.google.com/search?q=Confiant+vs+GeoEdge", "date": "accessed 2026-11-19", "kind": "direct", "result": "VASTlint, SourceForge, Slashdot, adtechlist.io 'Top 10+ GeoEdge Alternatives', Gartner ad verification category; no GeoEdge-owned comparison page in the results"}
+    {
+      "url": "https://t.me/s/hitechjobsmarketing?q=GeoEdge",
+      "date": "2026-11-08 / 2026-11-18",
+      "kind": "direct",
+      "result": "Two cards: Head of Product Marketing (2026-11-08, Tel Aviv, 5+ yrs), VP Marketing (2026-11-18, Tel Aviv). Also links to a PMM posting."
+    },
+    {
+      "url": "https://www.geoedge.com/careers/co/other/F4.571/vp-marketing/all/",
+      "date": "2026-11-18",
+      "kind": "direct",
+      "result": "Full JD read (via Bright Data after a direct 504). datePosted 2026-11-18T15:34:22Z."
+    },
+    {
+      "url": "https://www.geoedge.com/careers/co/other/8C.479/head-of-product-marketing/all/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "'The position may have been closed'"
+    },
+    {
+      "url": "https://www.geoedge.com/careers/co/other/C9.E66/product-marketing-manager/all/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "'The position may have been closed'"
+    },
+    {
+      "url": "https://www.geoedge.com/careers/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "5 openings incl. VP Marketing; 'bootstrapped startup with bases in Tel Aviv and NYC'"
+    },
+    {
+      "url": "https://www.geoedge.com/about-us/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Leadership list, no marketing title; Tobias Silber 'CBO'"
+    },
+    {
+      "url": "http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/",
+      "date": "2024-06-01",
+      "kind": "direct",
+      "result": "Tobias Silber 'CBO / VP MARKETING' (via Bright Data; direct Wayback fetch returned 403)"
+    },
+    {
+      "url": "https://www.geoedge.com/",
+      "date": "accessed 2026-11-19 (modified 2026-10-01)",
+      "kind": "direct",
+      "result": "Raw HTML: WP/Elementor, Yoast Premium, Pardot, GTM, ZoomInfo, Intercom; '450+ Publishers & Platforms'"
+    },
+    {
+      "url": "https://www.geoedge.com/security-mcp-server/",
+      "date": "2026-11-10",
+      "kind": "direct",
+      "result": "URL Security MCP server product page"
+    },
+    {
+      "url": "https://www.geoedge.com/zero-trust-link-guard/",
+      "date": "2024-12-13 (modified 2026-07-29)",
+      "kind": "direct",
+      "result": "Web Security / URL security page"
+    },
+    {
+      "url": "https://www.geoedge.com/sitemap_index.xml",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Index plus post/page/author/resources/university sitemaps read; post lastmods bulk-updated in 2025"
+    },
+    {
+      "url": "https://www.geoedge.com/wp-json/wp/v2/posts?per_page=100",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "152 posts with publish dates, 2016-08-03 to 2026-11-19; categories; content HTML for 4 posts (link-aware read)"
+    },
+    {
+      "url": "https://www.geoedge.com/robots.txt",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Blocks Ahrefs/Semrush/MJ12/DotBot/BLEX/Yandex/Baidu; sitemap14/29 referenced"
+    },
+    {
+      "url": "https://dns.google/resolve?name=geoedge.com&type=TXT",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Pardot, Google, OpenAI, Apple, MS, Atlassian verifications; SPF Postmark + Outlook"
+    },
+    {
+      "url": "https://www.linkedin.com/company/geoedge",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Via Bright Data: 51-200 employees, HQ New York, founded 2010, 19,743 followers; employees shown: Amnon Siev, Guy Books, Yuval Shiboli, Alon Landau"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+marketing",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "Titles: Tobias Silber CBO, Tali Perry Bakshi CCO, Yuval Shiboli 'AI-Powered GTM Systems Leader' (PMM & GTM Operations at GeoEdge), sales/BD staff; no marketing leader title"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22GeoEdge%22+SEO+OR+content",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "No SEO titles; Sigal Hirsch, Content Writer at AppHarbr by GeoEdge"
+    },
+    {
+      "url": "https://www.google.com/search?q=%22Tobias+Silber%22+GeoEdge+marketing",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "Crunchbase and XING still list him as VP Marketing (stale aggregator data)"
+    },
+    {
+      "url": "https://vastlint.org/blog/confiant-vs-geoedge",
+      "date": "2026-10-02",
+      "kind": "direct",
+      "result": "Third-party 'Confiant vs GeoEdge' comparison article"
+    },
+    {
+      "url": "https://www.google.com/search?q=Confiant+vs+GeoEdge",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "VASTlint, SourceForge, Slashdot, adtechlist.io 'Top 10+ GeoEdge Alternatives', Gartner ad verification category; no GeoEdge-owned comparison page in the results"
+    }
   ],
   "sources_tried_failed": [
-    {"url": "https://www.geoedge.com/sitemap.xml", "result": "504 direct (site 504s intermittently on direct fetches; Bright Data worked)"},
-    {"url": "https://www.comeet.com/jobs/geoedge", "result": "404"},
-    {"url": "Ashby/Greenhouse/Lever boards 'geoedge', 'geo-edge'", "result": "none"},
-    {"url": "https://www.geoedge.com/llms.txt", "result": "404 page"},
-    {"url": "https://www.geoedge.com/wp-json/wp/v2/users", "result": "401 (user listing disabled)"},
-    {"url": "http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/", "result": "403 direct; succeeded via Bright Data"},
-    {"url": "http://archive.org/wayback/available?url=geoedge.com/about-us/", "result": "no snapshots for /about-us/ (the old URL was /about/)"},
-    {"url": "https://www.google.com/search?q=%22GeoEdge%22+%22VP+Marketing%22+OR+%22CMO%22+OR+%22marketing+director%22", "result": "empty response (0 bytes) via Bright Data"},
-    {"url": "Google '\"GeoEdge\" MCP server URL security 2026'", "result": "Only a name collision (GeoEDGE MCP, a GIS tool); no press coverage of GeoEdge's MCP launch found"},
-    {"url": "Google '\"Yuval Shiboli\" GeoEdge'", "result": "Irrelevant results"},
-    {"url": "AI-visibility probe (ChatGPT/Gemini)", "result": "Not run: no easy Bright Data route; skipped per brief"}
+    {
+      "url": "https://www.geoedge.com/sitemap.xml",
+      "result": "504 direct (site 504s intermittently on direct fetches; Bright Data worked)"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/geoedge",
+      "result": "404"
+    },
+    {
+      "url": "Ashby/Greenhouse/Lever boards 'geoedge', 'geo-edge'",
+      "result": "none"
+    },
+    {
+      "url": "https://www.geoedge.com/llms.txt",
+      "result": "404 page"
+    },
+    {
+      "url": "https://www.geoedge.com/wp-json/wp/v2/users",
+      "result": "401 (user listing disabled)"
+    },
+    {
+      "url": "http://web.archive.org/web/20240601183219/https://www.geoedge.com/about/",
+      "result": "403 direct; succeeded via Bright Data"
+    },
+    {
+      "url": "http://archive.org/wayback/available?url=geoedge.com/about-us/",
+      "result": "no snapshots for /about-us/ (the old URL was /about/)"
+    },
+    {
+      "url": "https://www.google.com/search?q=%22GeoEdge%22+%22VP+Marketing%22+OR+%22CMO%22+OR+%22marketing+director%22",
+      "result": "empty response (0 bytes) via Bright Data"
+    },
+    {
+      "url": "Google '\"GeoEdge\" MCP server URL security 2026'",
+      "result": "Only a name collision (GeoEDGE MCP, a GIS tool); no press coverage of GeoEdge's MCP launch found"
+    },
+    {
+      "url": "Google '\"Yuval Shiboli\" GeoEdge'",
+      "result": "Irrelevant results"
+    },
+    {
+      "url": "AI-visibility probe (ChatGPT/Gemini)",
+      "result": "Not run: no easy Bright Data route; skipped per brief"
+    }
   ],
   "linkedin_checks_for_sponsor": [
     "GeoEdge company page -> People tab, search 'marketing': who is on the marketing team today (is Alisha Rosen still there? anyone with SEO/content/growth in the title?)",

@@ -11,21 +11,61 @@
   "marketing_leadership": {
     "status": "found",
     "who": [
-      {"name": "Gideon Thomas", "role": "CMO", "kind": "inferred", "source": "Google site:linkedin.com/in snippet title 'Gideon Thomas - CMO at DealHub AI | Run Agentic Revenue' (accessed 2026-11-19); also a blog author page dealhub.io/author/gideon-thomas/; Head of Integrated Marketing JD mentions 'the CMO'"}
+      {
+        "name": "Gideon Thomas",
+        "role": "CMO",
+        "kind": "inferred",
+        "source": "Google site:linkedin.com/in snippet title 'Gideon Thomas - CMO at DealHub AI | Run Agentic Revenue' (accessed 2026-11-19); also a blog author page dealhub.io/author/gideon-thomas/; Head of Integrated Marketing JD mentions 'the CMO'"
+      }
     ],
     "evidence": [
-      {"claim": "A CMO exists (JD: 'The CMO is focused on strategy... rather than writing campaign copy')", "kind": "direct", "url": "https://dealhub.io/careers/C0.47A/head-of-integrated-marketing/", "date": "accessed 2026-11-19"},
-      {"claim": "Marketing org has Demand Gen, Brand, Social, Field and Partner Marketing, Customer and Community Marketing, Design, Web teams", "kind": "direct", "url": "https://dealhub.io/careers/C0.47A/head-of-integrated-marketing/", "date": "accessed 2026-11-19"},
-      {"claim": "Other marketing titles in search snippets: Performance Marketing Team Lead, Head of Marketing Automation, Senior Marketing Designer", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+marketing", "date": "accessed 2026-11-19"}
+      {
+        "claim": "A CMO exists (JD: 'The CMO is focused on strategy... rather than writing campaign copy')",
+        "kind": "direct",
+        "url": "https://dealhub.io/careers/C0.47A/head-of-integrated-marketing/",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Marketing org has Demand Gen, Brand, Social, Field and Partner Marketing, Customer and Community Marketing, Design, Web teams",
+        "kind": "direct",
+        "url": "https://dealhub.io/careers/C0.47A/head-of-integrated-marketing/",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Other marketing titles in search snippets: Performance Marketing Team Lead, Head of Marketing Automation, Senior Marketing Designer",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+marketing",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "seo_team": {
     "status": "found",
     "evidence": [
-      {"claim": "Senior SEO & GEO Specialist reports 'directly to the SEO Lead, who sets strategy and priorities'; senior IC role; works with Content, Product Marketing, Web Development and Growth", "kind": "direct", "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/", "date": "accessed 2026-11-19 (Telegram post 2026-11-16)"},
-      {"claim": "An SEO/GEO Lead at DealHub.ai appears in a Google site:linkedin.com/in result title (name in contacts); profile not opened", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+SEO", "date": "accessed 2026-11-19"},
-      {"claim": "Stack named in JD: WordPress, GSC, GA4, Ahrefs/Semrush, Screaming Frog; AI visibility platforms Profound / Peec AI / Trakkr preferred; Claude Skills for page-type templates (glossary, alternatives, case studies)", "kind": "direct", "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/", "date": "accessed 2026-11-19"},
-      {"claim": "Programmatic SEO at scale: glossary sitemaps list 1,212 URLs (lastmod 2024-04 to 2026-11-18); alternatives section (Salesforce CPQ, Salesforce Revenue Cloud, Nue, Experlogix; lastmod 2026-04 to 2026-11-17)", "kind": "direct", "url": "https://dealhub.io/sitemap_index.xml", "date": "accessed 2026-11-19"}
+      {
+        "claim": "Senior SEO & GEO Specialist reports 'directly to the SEO Lead, who sets strategy and priorities'; senior IC role; works with Content, Product Marketing, Web Development and Growth",
+        "kind": "direct",
+        "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+        "date": "accessed 2026-11-19 (Telegram post 2026-11-16)"
+      },
+      {
+        "claim": "An SEO/GEO Lead at DealHub.ai appears in a Google site:linkedin.com/in result title (name in contacts); profile not opened",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+SEO",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Stack named in JD: WordPress, GSC, GA4, Ahrefs/Semrush, Screaming Frog; AI visibility platforms Profound / Peec AI / Trakkr preferred; Claude Skills for page-type templates (glossary, alternatives, case studies)",
+        "kind": "direct",
+        "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Programmatic SEO at scale: glossary sitemaps list 1,212 URLs (lastmod 2024-04 to 2026-11-18); alternatives section (Salesforce CPQ, Salesforce Revenue Cloud, Nue, Experlogix; lastmod 2026-04 to 2026-11-17)",
+        "kind": "direct",
+        "url": "https://dealhub.io/sitemap_index.xml",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "situation": {
@@ -39,14 +79,46 @@
     "source": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/"
   },
   "fit_evidence": [
-    {"claim": "Hiring Senior SEO & GEO Specialist explicitly to drive visibility in ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews / AI Mode", "kind": "direct", "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/", "date": "accessed 2026-11-19"},
-    {"claim": "Role reports to an existing SEO Lead (blocker for an engagement)", "kind": "direct", "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/", "date": "accessed 2026-11-19"},
-    {"claim": "New category language: 'Agentic Quote-to-Revenue platform', 'Own Your Revenue', brand now 'DealHub.ai'", "kind": "direct", "url": "https://dealhub.io/careers/C0.47B/head-of-brand-narrative/", "date": "accessed 2026-11-19"},
-    {"claim": "Funding: $20M Series B Jun 2021 (Israel Growth Partners); $60M Jun 2022, total about $107M", "kind": "inferred", "url": "https://techcrunch.com/2021/06/02/dealhub-raises-20m-series-b-for-its-sales-platform/ ; https://www.builtinaustin.com/austin-tech-news-062022", "date": "2021-06-02 / 2022-06-20 (read as Google snippets only)"}
+    {
+      "claim": "Hiring Senior SEO & GEO Specialist explicitly to drive visibility in ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews / AI Mode",
+      "kind": "direct",
+      "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Role reports to an existing SEO Lead (blocker for an engagement)",
+      "kind": "direct",
+      "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "New category language: 'Agentic Quote-to-Revenue platform', 'Own Your Revenue', brand now 'DealHub.ai'",
+      "kind": "direct",
+      "url": "https://dealhub.io/careers/C0.47B/head-of-brand-narrative/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Funding: $20M Series B Jun 2021 (Israel Growth Partners); $60M Jun 2022, total about $107M",
+      "kind": "inferred",
+      "url": "https://techcrunch.com/2021/06/02/dealhub-raises-20m-series-b-for-its-sales-platform/ ; https://www.builtinaustin.com/austin-tech-news-062022",
+      "date": "2021-06-02 / 2022-06-20 (read as Google snippets only)"
+    }
   ],
   "site_and_content": {
     "cms": "WordPress with Yoast (wp-content, Yoast sitemap index); VWO (A/B testing) and HubSpot scripts on homepage; Segment references",
-    "sitemaps": {"post": 158, "page": 45, "glossary": 1212, "af-resource": 158, "af-events": 39, "customers": 48, "integrations": 17, "alternatives": 4, "features": 6, "authors": 11, "careers": 30},
+    "sitemaps": {
+      "post": 158,
+      "page": 45,
+      "glossary": 1212,
+      "af-resource": 158,
+      "af-events": 39,
+      "customers": 48,
+      "integrations": 17,
+      "alternatives": 4,
+      "features": 6,
+      "authors": 11,
+      "careers": 30
+    },
     "blog": "158 post URLs; sitemap lastmod by year: 2022:18, 2023:11, 2024:2, 2025:80, 2026:47 (lastmod = last update, not publish date; posts not individually read). Latest lastmod 2026-10-08. Suggests a 2025 content/refresh push.",
     "comparison_pages": "Own: /alternatives/salesforce-cpq/, /alternatives/salesforce-revenue-cloud/, /alternatives/nue/, /alternatives/experlogix/; nav also has 'Salesforce CPQ Migration' and buyer's guide 'Best CPQ Software 2026'. Third-party pages aimed at them: 'Top DealHub CPQ Alternatives', 'Salesforce CPQ vs DealHub: How to Choose in 2026', 'A Better Alternative to DealHub' (Google results, not opened).",
     "dns_txt": "google-site-verification (x5), MS, facebook, hubspot-developer, anthropic-domain-verification, atlassian, jetbrains, northpass, globalsign; SPF includes Google and Mandrill",
@@ -56,7 +128,13 @@
   "jobs": {
     "board": "Comeet (company uid 86.005), mirrored on dealhub.io/careers; Ashby/Greenhouse/Lever boards not found",
     "open_roles_on_site": 30,
-    "marketing_roles": ["Senior SEO & GEO Specialist", "Head of Brand & Narrative", "Head of Integrated Marketing", "Product Marketing Manager (GTM Content)", "Field & Partner Marketing Manager"],
+    "marketing_roles": [
+      "Senior SEO & GEO Specialist",
+      "Head of Brand & Narrative",
+      "Head of Integrated Marketing",
+      "Product Marketing Manager (GTM Content)",
+      "Field & Partner Marketing Manager"
+    ],
     "seo_jd": {
       "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
       "comeet_url": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
@@ -70,9 +148,30 @@
     }
   },
   "contacts": [
-    {"name": "Asaf Bernstein", "role": "SEO/GEO Lead (hiring manager for the Senior SEO & GEO role)", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title 'Asaf Bernstein - SEO/GEO Lead @ DealHub.ai' (accessed 2026-11-19), profile not opened", "recipient_rank": 1},
-    {"name": "Gideon Thomas", "role": "CMO", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title 'Gideon Thomas - CMO at DealHub AI' (accessed 2026-11-19); author page dealhub.io/author/gideon-thomas/", "recipient_rank": 2},
-    {"name": "Eyal Elbahary", "role": "CEO / co-founder", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title 'Eyal Elbahary - DealHub.ai CEO' (accessed 2026-11-19); press 2021", "recipient_rank": 3}
+    {
+      "name": "Asaf Bernstein",
+      "role": "SEO/GEO Lead (hiring manager for the Senior SEO & GEO role)",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result title 'Asaf Bernstein - SEO/GEO Lead @ DealHub.ai' (accessed 2026-11-19), profile not opened",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Gideon Thomas",
+      "role": "CMO",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result title 'Gideon Thomas - CMO at DealHub AI' (accessed 2026-11-19); author page dealhub.io/author/gideon-thomas/",
+      "recipient_rank": 2
+    },
+    {
+      "name": "Eyal Elbahary",
+      "role": "CEO / co-founder",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result title 'Eyal Elbahary - DealHub.ai CEO' (accessed 2026-11-19); press 2021",
+      "recipient_rank": 3
+    }
   ],
   "outreach_angle": {
     "hook": "Role track only: DealHub's Senior SEO & GEO Specialist post (2026-11-16) asks for someone to make DealHub 'impossible to miss' in ChatGPT, Perplexity, Gemini and Claude, measured with AI-visibility tooling and built into Claude Skills; the sponsor's AI-search audit of DealHub would be the work sample attached to an application.",
@@ -94,29 +193,112 @@
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no"
+    "contact_verified": "no",
+    "seo_need": "unassessed"
   },
   "sources": [
-    {"url": "https://t.me/s/hitechjobsmarketing", "date": "2026-11-03 / 2026-11-16", "kind": "direct", "result": "lead via campaign/scout/longlist.json: two Holon marketing roles"},
-    {"url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/", "date": "accessed 2026-11-19", "kind": "direct", "result": "full SEO & GEO JD: reports to SEO Lead, stack, scope"},
-    {"url": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572", "date": "accessed 2026-11-19", "kind": "direct", "result": "200, Comeet posting exists (company uid 86.005)"},
-    {"url": "https://dealhub.io/careers/C0.47B/head-of-brand-narrative/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Head of Brand & Narrative JD; 'Agentic Quote-to-Revenue' language"},
-    {"url": "https://dealhub.io/careers/C0.47A/head-of-integrated-marketing/", "date": "accessed 2026-11-19", "kind": "direct", "result": "mentions CMO and full list of marketing teams"},
-    {"url": "https://dealhub.io/careers/09.E60/product-marketing-manager-gtm-content/", "date": "accessed 2026-11-19", "kind": "direct", "result": "200, PMM GTM content role open"},
-    {"url": "https://dealhub.io/sitemap_index.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "16 sub-sitemaps; counts in site_and_content"},
-    {"url": "https://dealhub.io/", "date": "accessed 2026-11-19", "kind": "direct", "result": "WordPress/Yoast, HubSpot, VWO scripts"},
-    {"url": "https://dns.google/resolve?name=dealhub.io&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "TXT verifications listed in site_and_content"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+SEO", "date": "accessed 2026-11-19", "kind": "inferred", "result": "titles: SEO/GEO Lead @ DealHub.ai; CMO; Performance Marketing Team Lead (via Bright Data)"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+CMO", "date": "accessed 2026-11-19", "kind": "inferred", "result": "titles: CEO, CMO, CFO, CRO, VP Product, CCO, CISO"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+marketing", "date": "accessed 2026-11-19", "kind": "inferred", "result": "titles: Head of Marketing Automation, Senior Marketing Designer, Marketing Ops intern"},
-    {"url": "https://www.google.com/search?q=DealHub+funding+Series+B+raised", "date": "accessed 2026-11-19", "kind": "inferred", "result": "snippets: TechCrunch 2021-06-02 $20M Series B (IGP), BuiltIn Austin 2022-06-20 $60M, total $107M"},
-    {"url": "https://www.google.com/search?q=%22DealHub%22+vs+OR+alternatives+CPQ+-site:dealhub.io", "date": "accessed 2026-11-19", "kind": "inferred", "result": "third-party DealHub alternatives / vs pages exist (quotewerks, getaccept, monetizenow, others); not opened"}
+    {
+      "url": "https://t.me/s/hitechjobsmarketing",
+      "date": "2026-11-03 / 2026-11-16",
+      "kind": "direct",
+      "result": "lead via campaign/scout/longlist.json: two Holon marketing roles"
+    },
+    {
+      "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "full SEO & GEO JD: reports to SEO Lead, stack, scope"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "200, Comeet posting exists (company uid 86.005)"
+    },
+    {
+      "url": "https://dealhub.io/careers/C0.47B/head-of-brand-narrative/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Head of Brand & Narrative JD; 'Agentic Quote-to-Revenue' language"
+    },
+    {
+      "url": "https://dealhub.io/careers/C0.47A/head-of-integrated-marketing/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "mentions CMO and full list of marketing teams"
+    },
+    {
+      "url": "https://dealhub.io/careers/09.E60/product-marketing-manager-gtm-content/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "200, PMM GTM content role open"
+    },
+    {
+      "url": "https://dealhub.io/sitemap_index.xml",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "16 sub-sitemaps; counts in site_and_content"
+    },
+    {
+      "url": "https://dealhub.io/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "WordPress/Yoast, HubSpot, VWO scripts"
+    },
+    {
+      "url": "https://dns.google/resolve?name=dealhub.io&type=TXT",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "TXT verifications listed in site_and_content"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+SEO",
+      "date": "accessed 2026-11-19",
+      "kind": "inferred",
+      "result": "titles: SEO/GEO Lead @ DealHub.ai; CMO; Performance Marketing Team Lead (via Bright Data)"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+CMO",
+      "date": "accessed 2026-11-19",
+      "kind": "inferred",
+      "result": "titles: CEO, CMO, CFO, CRO, VP Product, CCO, CISO"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22DealHub%22+marketing",
+      "date": "accessed 2026-11-19",
+      "kind": "inferred",
+      "result": "titles: Head of Marketing Automation, Senior Marketing Designer, Marketing Ops intern"
+    },
+    {
+      "url": "https://www.google.com/search?q=DealHub+funding+Series+B+raised",
+      "date": "accessed 2026-11-19",
+      "kind": "inferred",
+      "result": "snippets: TechCrunch 2021-06-02 $20M Series B (IGP), BuiltIn Austin 2022-06-20 $60M, total $107M"
+    },
+    {
+      "url": "https://www.google.com/search?q=%22DealHub%22+vs+OR+alternatives+CPQ+-site:dealhub.io",
+      "date": "accessed 2026-11-19",
+      "kind": "inferred",
+      "result": "third-party DealHub alternatives / vs pages exist (quotewerks, getaccept, monetizenow, others); not opened"
+    }
   ],
   "sources_tried_failed": [
-    {"url": "readers.read_job_board dealhub / dealhubio / dealhub-io / dealhubltd", "result": "no Ashby/Greenhouse/Lever board (they use Comeet)"},
-    {"url": "https://dealhub.io/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572", "result": "404 (sitemap alias); same JD found at /careers/B4.572/senior-seo-geo-specialist/"},
-    {"url": "https://www.linkedin.com/company/dealhub-io/ (Bright Data)", "result": "page returned but no size/HQ/follower fields parsed (likely auth wall); couldn't verify size from LinkedIn"},
-    {"url": "Wayback, AI-visibility probe", "result": "not run: company blocked, not needed for the decision"}
+    {
+      "url": "readers.read_job_board dealhub / dealhubio / dealhub-io / dealhubltd",
+      "result": "no Ashby/Greenhouse/Lever board (they use Comeet)"
+    },
+    {
+      "url": "https://dealhub.io/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
+      "result": "404 (sitemap alias); same JD found at /careers/B4.572/senior-seo-geo-specialist/"
+    },
+    {
+      "url": "https://www.linkedin.com/company/dealhub-io/ (Bright Data)",
+      "result": "page returned but no size/HQ/follower fields parsed (likely auth wall); couldn't verify size from LinkedIn"
+    },
+    {
+      "url": "Wayback, AI-visibility probe",
+      "result": "not run: company blocked, not needed for the decision"
+    }
   ],
   "linkedin_checks_for_sponsor": [
     "Only if the sponsor considers the role track: DealHub company page -> People tab, search 'SEO' / 'content': how many people sit under the SEO/GEO Lead today?"

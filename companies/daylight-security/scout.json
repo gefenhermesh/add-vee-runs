@@ -11,27 +11,89 @@
   "marketing_leadership": {
     "status": "found",
     "who": [
-      {"name": "Maya Rotenberg", "role": "VP Marketing (Google snippet shows 'Vice President Marketing, Daylight Security, Dec 2025 - Present'; headline 'Chief Marketing Officer - B2B SaaS')", "kind": "direct (search snippet)", "location": "Boston, MA (RocketReach, unverified)"},
-      {"name": "Maria McLaughlin", "role": "Head of Global Brand + Creative (snippet)", "kind": "direct (search snippet)"},
-      {"name": "Tara Sullivan", "role": "Field Marketing Lead (snippet)", "kind": "direct (search snippet)"},
-      {"name": "Julia Rozenberg", "role": "Sr. Design Manager, Brand & Creative (snippet)", "kind": "direct (search snippet)"}
+      {
+        "name": "Maya Rotenberg",
+        "role": "VP Marketing (Google snippet shows 'Vice President Marketing, Daylight Security, Dec 2025 - Present'; headline 'Chief Marketing Officer - B2B SaaS')",
+        "kind": "direct (search snippet)",
+        "location": "Boston, MA (RocketReach, unverified)"
+      },
+      {
+        "name": "Maria McLaughlin",
+        "role": "Head of Global Brand + Creative (snippet)",
+        "kind": "direct (search snippet)"
+      },
+      {
+        "name": "Tara Sullivan",
+        "role": "Field Marketing Lead (snippet)",
+        "kind": "direct (search snippet)"
+      },
+      {
+        "name": "Julia Rozenberg",
+        "role": "Sr. Design Manager, Brand & Creative (snippet)",
+        "kind": "direct (search snippet)"
+      }
     ],
     "evidence": [
-      {"claim": "Maya Rotenberg is VP Marketing at Daylight Security since Dec 2025; 'Today, I lead marketing @ Daylight Security'", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Daylight Security\" SEO (BD, result title/snippet only)", "date": "accessed 2026-11-19"},
-      {"claim": "Recruiter post: 'SIGNED Maya Rotenberg to Daylight Security as VP Marketing'", "kind": "direct", "url": "https://www.google.com/search?q=\"Maya Rotenberg\" Daylight marketing (snippet of a linkedin.com/posts result, not opened)", "date": "accessed 2026-11-19"},
-      {"claim": "RocketReach: marketing department led by Maya Rotenberg (VP Marketing), 4 employees", "kind": "unverified", "url": "https://rocketreach.co (snippet: daylight-security-marketing-department)", "date": "accessed 2026-11-19"},
-      {"claim": "Greenhouse JD 'Senior Program Manager, Brand & Marketing' (first published 2026-11-08): first program-management hire across Product Marketing, Content, PR & Communications, Brand, Creative, Digital, Events, Analyst Relations; manages vendor and agency partnerships", "kind": "direct", "url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4485717009", "date": "2026-11-08"},
-      {"claim": "Maya Rotenberg byline on 40 blog posts (Mar-Sep 2026), mostly competitor alternatives/vs pages", "kind": "direct", "url": "https://daylight.ai/blog", "date": "accessed 2026-11-19"}
+      {
+        "claim": "Maya Rotenberg is VP Marketing at Daylight Security since Dec 2025; 'Today, I lead marketing @ Daylight Security'",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in \"Daylight Security\" SEO (BD, result title/snippet only)",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Recruiter post: 'SIGNED Maya Rotenberg to Daylight Security as VP Marketing'",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=\"Maya Rotenberg\" Daylight marketing (snippet of a linkedin.com/posts result, not opened)",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "RocketReach: marketing department led by Maya Rotenberg (VP Marketing), 4 employees",
+        "kind": "unverified",
+        "url": "https://rocketreach.co (snippet: daylight-security-marketing-department)",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Greenhouse JD 'Senior Program Manager, Brand & Marketing' (first published 2026-11-08): first program-management hire across Product Marketing, Content, PR & Communications, Brand, Creative, Digital, Events, Analyst Relations; manages vendor and agency partnerships",
+        "kind": "direct",
+        "url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4485717009",
+        "date": "2026-11-08"
+      },
+      {
+        "claim": "Maya Rotenberg byline on 40 blog posts (Mar-Sep 2026), mostly competitor alternatives/vs pages",
+        "kind": "direct",
+        "url": "https://daylight.ai/blog",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "seo_team": {
     "status": "not found",
     "status_note": "No SEO/content/growth-titled person found in Google site:linkedin.com/in snippets (5 queries). Logged-out view is limited, so a single growth/SEO hire may exist unseen: couldn't verify the hire for the Growth Marketer role.",
     "evidence": [
-      {"claim": "Senior Growth Marketer JD: 'You'll own growth and operations across all digital channels like SEO/AEO, paid, website, marketing ops, and video content... You'll orchestrate top agencies and talented freelancers'; 'SEO/AEO strategy and execution (with agency support)'. Company described as '25-person... just emerged from stealth with serious Series A'. Posted ~9 months ago, 'No longer accepting applications'.", "kind": "direct", "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959", "date": "posted ~Feb 2026 (page says '9 months ago'); accessed 2026-11-19"},
-      {"claim": "Same role was also on Comeet; the Comeet account is now deactivated (company moved to Greenhouse)", "kind": "direct", "url": "https://www.comeet.com/jobs/daylightsecurity/7A.00D/senior-growth-marketer/B8.B58", "date": "accessed 2026-11-19"},
-      {"claim": "No SEO/content/growth role among 34 open Greenhouse roles", "kind": "direct", "url": "https://boards-api.greenhouse.io/v1/boards/daylightsecurity/jobs", "date": "accessed 2026-11-19"},
-      {"claim": "Blog volume and structure (~220 posts in 9 months, programmatic vs/alternatives/pricing pages) suggests an agency-backed SEO program", "kind": "inferred", "url": "https://daylight.ai/sitemap.xml", "date": "accessed 2026-11-19"}
+      {
+        "claim": "Senior Growth Marketer JD: 'You'll own growth and operations across all digital channels like SEO/AEO, paid, website, marketing ops, and video content... You'll orchestrate top agencies and talented freelancers'; 'SEO/AEO strategy and execution (with agency support)'. Company described as '25-person... just emerged from stealth with serious Series A'. Posted ~9 months ago, 'No longer accepting applications'.",
+        "kind": "direct",
+        "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959",
+        "date": "posted ~Feb 2026 (page says '9 months ago'); accessed 2026-11-19"
+      },
+      {
+        "claim": "Same role was also on Comeet; the Comeet account is now deactivated (company moved to Greenhouse)",
+        "kind": "direct",
+        "url": "https://www.comeet.com/jobs/daylightsecurity/7A.00D/senior-growth-marketer/B8.B58",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "No SEO/content/growth role among 34 open Greenhouse roles",
+        "kind": "direct",
+        "url": "https://boards-api.greenhouse.io/v1/boards/daylightsecurity/jobs",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Blog volume and structure (~220 posts in 9 months, programmatic vs/alternatives/pricing pages) suggests an agency-backed SEO program",
+        "kind": "inferred",
+        "url": "https://daylight.ai/sitemap.xml",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "situation": {
@@ -45,16 +107,66 @@
     "source": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives"
   },
   "fit_evidence": [
-    {"claim": "$80M Series B led by Goldman Sachs Alternatives, total $120M, revenue up 40x in a year; customers include Lovable, LastPass, Rogo, dLocal, Miro", "kind": "direct", "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives", "date": "2026-11-10"},
-    {"claim": "WSJ Pro: 'Goldman Leads Investment in Cybersecurity Startup' ($80M in Daylight Security), search snippet only", "kind": "direct", "url": "https://www.wsj.com/pro/private-equity (Google snippet)", "date": "2026-11-10"},
-    {"claim": "Funding to expand U.S. presence and enter EMEA and APAC markets", "kind": "direct", "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives", "date": "2026-11-10"},
-    {"claim": "VP Marketing in seat since Dec 2025", "kind": "direct", "url": "Google site:linkedin.com/in snippet via Bright Data (profile not opened)", "date": "accessed 2026-11-19"},
-    {"claim": "Company explicitly cares about AEO: growth JD lists 'SEO/AEO strategy and execution (with agency support)'", "kind": "direct", "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959", "date": "~2026-02"},
-    {"claim": "Blog had 1 post in Aug 2025 (Wayback) and ~221 posts dated 2026-02-16 to 2026-11-10 now", "kind": "direct", "url": "https://web.archive.org/web/20250813165013/https://daylight.ai/blog", "date": "2025-08-13 snapshot; sitemap accessed 2026-11-19"},
-    {"claim": "Own comparison program: daylight-vs-expel, -reliaquest, -7ai, -dropzone-ai, -prophet-security; alternatives pages for Expel, Huntress, eSentire, CrowdStrike Falcon Complete, 7AI, Dropzone, Prophet, SIEM; MDR pricing pages for CrowdStrike, SentinelOne, Sophos, Rapid7, Bitdefender", "kind": "direct", "url": "https://daylight.ai/sitemap.xml", "date": "accessed 2026-11-19"},
-    {"claim": "Third-party comparison/directory pages about them exist (mdrproviders.io 'Daylight Security Alternatives', 'vs UnderDefense', 'vs DirectDefense'; PeerSpot; G2 'Top 10 Daylight AI-Powered MDR Alternatives'; cisotribune 'Critical Start vs Daylight'); no competitor-vendor-authored page aimed at them found", "kind": "direct", "url": "https://www.google.com/search?q=\"Daylight Security\" vs (BD)", "date": "accessed 2026-11-19"},
-    {"claim": "Category language shift: 2025 homepage 'Agentic Security Services'; May 2026 'Introducing MASS, Managed Security Services Rebuilt for SecOps'; Nov 2026 title 'Managed Security Services | Daylight', hero 'AI-NATIVE Security Services'", "kind": "direct", "url": "https://web.archive.org/web/20250805/https://daylight.ai/ ; https://web.archive.org/web/20260527212254/https://daylight.ai/ ; https://daylight.ai/", "date": "2025-08-05 / 2026-05-27 / 2026-11-19"},
-    {"claim": "Gartner Peer Insights: Daylight Managed Agentic MDR, 4.8 (13 reviews)", "kind": "direct", "url": "https://www.gartner.com/reviews/product/daylight-managed-agentic-mdr (search snippet + homepage links)", "date": "accessed 2026-11-19"}
+    {
+      "claim": "$80M Series B led by Goldman Sachs Alternatives, total $120M, revenue up 40x in a year; customers include Lovable, LastPass, Rogo, dLocal, Miro",
+      "kind": "direct",
+      "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "WSJ Pro: 'Goldman Leads Investment in Cybersecurity Startup' ($80M in Daylight Security), search snippet only",
+      "kind": "direct",
+      "url": "https://www.wsj.com/pro/private-equity (Google snippet)",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "Funding to expand U.S. presence and enter EMEA and APAC markets",
+      "kind": "direct",
+      "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "VP Marketing in seat since Dec 2025",
+      "kind": "direct",
+      "url": "Google site:linkedin.com/in snippet via Bright Data (profile not opened)",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Company explicitly cares about AEO: growth JD lists 'SEO/AEO strategy and execution (with agency support)'",
+      "kind": "direct",
+      "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959",
+      "date": "~2026-02"
+    },
+    {
+      "claim": "Blog had 1 post in Aug 2025 (Wayback) and ~221 posts dated 2026-02-16 to 2026-11-10 now",
+      "kind": "direct",
+      "url": "https://web.archive.org/web/20250813165013/https://daylight.ai/blog",
+      "date": "2025-08-13 snapshot; sitemap accessed 2026-11-19"
+    },
+    {
+      "claim": "Own comparison program: daylight-vs-expel, -reliaquest, -7ai, -dropzone-ai, -prophet-security; alternatives pages for Expel, Huntress, eSentire, CrowdStrike Falcon Complete, 7AI, Dropzone, Prophet, SIEM; MDR pricing pages for CrowdStrike, SentinelOne, Sophos, Rapid7, Bitdefender",
+      "kind": "direct",
+      "url": "https://daylight.ai/sitemap.xml",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Third-party comparison/directory pages about them exist (mdrproviders.io 'Daylight Security Alternatives', 'vs UnderDefense', 'vs DirectDefense'; PeerSpot; G2 'Top 10 Daylight AI-Powered MDR Alternatives'; cisotribune 'Critical Start vs Daylight'); no competitor-vendor-authored page aimed at them found",
+      "kind": "direct",
+      "url": "https://www.google.com/search?q=\"Daylight Security\" vs (BD)",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Category language shift: 2025 homepage 'Agentic Security Services'; May 2026 'Introducing MASS, Managed Security Services Rebuilt for SecOps'; Nov 2026 title 'Managed Security Services | Daylight', hero 'AI-NATIVE Security Services'",
+      "kind": "direct",
+      "url": "https://web.archive.org/web/20250805/https://daylight.ai/ ; https://web.archive.org/web/20260527212254/https://daylight.ai/ ; https://daylight.ai/",
+      "date": "2025-08-05 / 2026-05-27 / 2026-11-19"
+    },
+    {
+      "claim": "Gartner Peer Insights: Daylight Managed Agentic MDR, 4.8 (13 reviews)",
+      "kind": "direct",
+      "url": "https://www.gartner.com/reviews/product/daylight-managed-agentic-mdr (search snippet + homepage links)",
+      "date": "accessed 2026-11-19"
+    }
   ],
   "site_and_content": {
     "cms": "Webflow (cdn.prod.website-files.com; stylesheet named 'daylightai-staging', suggesting a recent site rebuild)",
@@ -63,9 +175,26 @@
       "posts_in_sitemap": 222,
       "posts_parsed": 221,
       "date_range": "2026-02-16 to 2026-11-10 (all parsed posts); Wayback Aug 2025 blog index showed 1 post ('from-darkness-to-daylight')",
-      "cadence_by_month": {"2026-02": 4, "2026-03": 13, "2026-04": 24, "2026-05": 12, "2026-06": 32, "2026-07": 11, "2026-08": 52, "2026-09": 18, "2026-10": 54, "2026-11": 1},
+      "cadence_by_month": {
+        "2026-02": 4,
+        "2026-03": 13,
+        "2026-04": 24,
+        "2026-05": 12,
+        "2026-06": 32,
+        "2026-07": 11,
+        "2026-08": 52,
+        "2026-09": 18,
+        "2026-10": 54,
+        "2026-11": 1
+      },
       "cadence_note": "Batch publishing (many posts on the same day), ~25/month average; only 1 post in Nov so far (the funding release)",
-      "categories": {"Insights": 181, "Engineering": 12, "Research": 11, "News": 9, "Product": 8},
+      "categories": {
+        "Insights": 181,
+        "Engineering": 12,
+        "Research": 11,
+        "News": 9,
+        "Product": 8
+      },
       "bylines": "Hagai Shapira (CEO) 74, Lior Liberman (VP Product per snippet) 50, Maya Rotenberg (VP Marketing) 40, Eldad Rudich 18, others small. Exec bylines on SEO-pattern posts suggest agency/ghost-written content (inferred)",
       "length": "median ~2,500 words (article body)",
       "internal_linking": "Link-aware read of raw HTML article bodies: median 6 internal links per post, only 1 post with zero; anchors mostly descriptive ('MDR pricing models', 'threat hunting', 'AI MDR service'), some vague ('an ownership question', 'context depth')",
@@ -81,14 +210,43 @@
     "open_roles": 34,
     "note_vs_lead": "Avi Lewis' list said 9 roles; Greenhouse shows 34 on 2026-11-19 (most published 2026-11-09/10, right around the round)",
     "mix": "Sales-heavy US build-out: 6 Mid-Market AEs, 5 Senior AEs (incl. UK), 2 RVPs (West, EMEA), 3 Regional Channel Managers, 4 Sales Engineers, Sales Enablement; Tel Aviv R&D (backend, frontend, full stack, product, design, FinOps, IT); Security Engineers (US, Tel Aviv, Singapore)",
-    "marketing_roles": [{"title": "Senior Program Manager, Brand & Marketing", "location": "United States - Remote", "url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4485717009", "published": "2026-11-08", "note": "first program-management hire; no SEO mention; lists 'Digital' and 'Content' as functions; manages agencies"}],
+    "marketing_roles": [
+      {
+        "title": "Senior Program Manager, Brand & Marketing",
+        "location": "United States - Remote",
+        "url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4485717009",
+        "published": "2026-11-08",
+        "note": "first program-management hire; no SEO mention; lists 'Digital' and 'Content' as functions; manages agencies"
+      }
+    ],
     "seo_roles": [],
-    "past_roles": [{"title": "Senior Growth Marketer (owns SEO/AEO with agency support, paid, website, marketing ops)", "location": "United States", "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959", "date": "~Feb 2026, closed"}],
+    "past_roles": [
+      {
+        "title": "Senior Growth Marketer (owns SEO/AEO with agency support, paid, website, marketing ops)",
+        "location": "United States",
+        "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959",
+        "date": "~Feb 2026, closed"
+      }
+    ],
     "israel_marketing_roles": "none; marketing is US-based"
   },
   "contacts": [
-    {"name": "Maya Rotenberg", "role": "VP Marketing", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in snippet via Bright Data (accessed 2026-11-19); blog bylines on daylight.ai; recruiter post snippet", "recipient_rank": 1},
-    {"name": "Hagai Shapira", "role": "Co-founder & CEO", "email": null, "email_verified": false, "source": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives (2026-11-10)", "recipient_rank": 2}
+    {
+      "name": "Maya Rotenberg",
+      "role": "VP Marketing",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in snippet via Bright Data (accessed 2026-11-19); blog bylines on daylight.ai; recruiter post snippet",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Hagai Shapira",
+      "role": "Co-founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives (2026-11-10)",
+      "recipient_rank": 2
+    }
   ],
   "outreach_angle": {
     "hook": "Congrats on the $80M Series B (10 Nov) and the EMEA/APAC push. Since February you've published ~220 long posts, including daylight-vs-Expel/7AI/ReliaQuest and MDR pricing pages, and your growth JD named SEO/AEO as a channel: the audit shows whether ChatGPT and Gemini actually use that work when buyers ask for 'best MDR providers' or 'AI SOC vs MDR', and how they describe Daylight after three category-name changes.",
@@ -110,37 +268,152 @@
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no"
+    "contact_verified": "no",
+    "seo_need": "unassessed"
   },
   "sources": [
-    {"url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives", "date": "2026-11-10", "kind": "direct", "result": "Press release: $80M Series B, Goldman Sachs Alternatives lead, $120M total, use of funds, founders"},
-    {"url": "https://www.wsj.com/pro/private-equity", "date": "2026-11-10", "kind": "direct", "result": "Google snippet only (paywalled article not opened): Goldman leads $80M in Daylight Security"},
-    {"url": "https://daylight.ai/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Homepage: Webflow, HubSpot, GTM; positioning 'AI-native security services', MDR/AI security/phishing/DLP/threat hunting/data lake/managed SIEM"},
-    {"url": "https://daylight.ai/sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "245 URLs, 222 blog posts, 4 customer stories"},
-    {"url": "https://daylight.ai/blog (all 221 posts fetched from sitemap)", "date": "accessed 2026-11-19", "kind": "direct", "result": "Dates 2026-02-16..2026-11-10, bylines, word counts, internal links parsed from raw HTML"},
-    {"url": "https://dns.google/resolve?name=daylight.ai&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "SPF incl. HubSpot + SendGrid + Google; mixpanel, notion, descope, wiz, google-site verification"},
-    {"url": "https://boards-api.greenhouse.io/v1/boards/daylightsecurity/jobs", "date": "accessed 2026-11-19", "kind": "direct", "result": "34 open roles; 1 marketing (Senior Program Manager, Brand & Marketing); no SEO role"},
-    {"url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4485717009", "date": "2026-11-08", "kind": "direct", "result": "Full JD read via Greenhouse API"},
-    {"url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959", "date": "~2026-02 (closed)", "kind": "direct", "result": "Job page via Bright Data: SEO/AEO with agency support; '25-person' startup; no longer accepting applications"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in (6+ queries: marketing, VP Marketing/CMO, SEO, content/growth, product marketing, Daylight AI)", "date": "accessed 2026-11-19", "kind": "direct", "result": "Titles/snippets only: Maya Rotenberg VP Marketing, Maria McLaughlin Head of Brand Creative, Tara Sullivan Field Marketing Lead, Julia Rozenberg Sr Design Manager, Lior Liberman VP Product, Elinor Cohen CBO; no SEO person"},
-    {"url": "https://rocketreach.co (snippet: Daylight Security marketing department)", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Marketing led by Maya Rotenberg (VP Marketing), 4 employees; Maya based in Boston"},
-    {"url": "https://web.archive.org/web/20250813165013/https://daylight.ai/blog", "date": "2025-08-13", "kind": "direct", "result": "Via Bright Data: blog index with one post"},
-    {"url": "https://web.archive.org/cdx/search/cdx?url=daylight.ai/blog/*", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: earliest captured post URLs from 2026"},
-    {"url": "https://web.archive.org/web/20250805/https://daylight.ai/", "date": "2025-08-05", "kind": "direct", "result": "Homepage: 'Agentic Security Services', Black Hat 2025"},
-    {"url": "https://web.archive.org/web/20260527212254/https://daylight.ai/", "date": "2026-05-27", "kind": "direct", "result": "Homepage: 'Introducing MASS, Managed Security Services, Rebuilt for SecOps'"},
-    {"url": "https://www.google.com/search?q=\"Daylight Security\" vs / alternatives / \"vs Daylight\"", "date": "accessed 2026-11-19", "kind": "direct", "result": "Directory/aggregator comparison pages (mdrproviders.io, PeerSpot, G2, Slashdot, cisotribune); no competitor-vendor page aimed at Daylight found"},
-    {"url": "https://www.bing.com/search?q=\"Senior Growth Marketer\" \"Daylight Security\"", "date": "accessed 2026-11-19", "kind": "direct", "result": "Located the LinkedIn and Comeet URLs of the growth role"},
-    {"url": "https://www.slashdot.org (Daylight listings)", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Snippet: founded 2025, country United States"}
+    {
+      "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives",
+      "date": "2026-11-10",
+      "kind": "direct",
+      "result": "Press release: $80M Series B, Goldman Sachs Alternatives lead, $120M total, use of funds, founders"
+    },
+    {
+      "url": "https://www.wsj.com/pro/private-equity",
+      "date": "2026-11-10",
+      "kind": "direct",
+      "result": "Google snippet only (paywalled article not opened): Goldman leads $80M in Daylight Security"
+    },
+    {
+      "url": "https://daylight.ai/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Homepage: Webflow, HubSpot, GTM; positioning 'AI-native security services', MDR/AI security/phishing/DLP/threat hunting/data lake/managed SIEM"
+    },
+    {
+      "url": "https://daylight.ai/sitemap.xml",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "245 URLs, 222 blog posts, 4 customer stories"
+    },
+    {
+      "url": "https://daylight.ai/blog (all 221 posts fetched from sitemap)",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Dates 2026-02-16..2026-11-10, bylines, word counts, internal links parsed from raw HTML"
+    },
+    {
+      "url": "https://dns.google/resolve?name=daylight.ai&type=TXT",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "SPF incl. HubSpot + SendGrid + Google; mixpanel, notion, descope, wiz, google-site verification"
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/daylightsecurity/jobs",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "34 open roles; 1 marketing (Senior Program Manager, Brand & Marketing); no SEO role"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/daylightsecurity/jobs/4485717009",
+      "date": "2026-11-08",
+      "kind": "direct",
+      "result": "Full JD read via Greenhouse API"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/senior-growth-marketer-at-daylight-security-4381812959",
+      "date": "~2026-02 (closed)",
+      "kind": "direct",
+      "result": "Job page via Bright Data: SEO/AEO with agency support; '25-person' startup; no longer accepting applications"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in (6+ queries: marketing, VP Marketing/CMO, SEO, content/growth, product marketing, Daylight AI)",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Titles/snippets only: Maya Rotenberg VP Marketing, Maria McLaughlin Head of Brand Creative, Tara Sullivan Field Marketing Lead, Julia Rozenberg Sr Design Manager, Lior Liberman VP Product, Elinor Cohen CBO; no SEO person"
+    },
+    {
+      "url": "https://rocketreach.co (snippet: Daylight Security marketing department)",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "Marketing led by Maya Rotenberg (VP Marketing), 4 employees; Maya based in Boston"
+    },
+    {
+      "url": "https://web.archive.org/web/20250813165013/https://daylight.ai/blog",
+      "date": "2025-08-13",
+      "kind": "direct",
+      "result": "Via Bright Data: blog index with one post"
+    },
+    {
+      "url": "https://web.archive.org/cdx/search/cdx?url=daylight.ai/blog/*",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Via Bright Data: earliest captured post URLs from 2026"
+    },
+    {
+      "url": "https://web.archive.org/web/20250805/https://daylight.ai/",
+      "date": "2025-08-05",
+      "kind": "direct",
+      "result": "Homepage: 'Agentic Security Services', Black Hat 2025"
+    },
+    {
+      "url": "https://web.archive.org/web/20260527212254/https://daylight.ai/",
+      "date": "2026-05-27",
+      "kind": "direct",
+      "result": "Homepage: 'Introducing MASS, Managed Security Services, Rebuilt for SecOps'"
+    },
+    {
+      "url": "https://www.google.com/search?q=\"Daylight Security\" vs / alternatives / \"vs Daylight\"",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Directory/aggregator comparison pages (mdrproviders.io, PeerSpot, G2, Slashdot, cisotribune); no competitor-vendor page aimed at Daylight found"
+    },
+    {
+      "url": "https://www.bing.com/search?q=\"Senior Growth Marketer\" \"Daylight Security\"",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Located the LinkedIn and Comeet URLs of the growth role"
+    },
+    {
+      "url": "https://www.slashdot.org (Daylight listings)",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "Snippet: founded 2025, country United States"
+    }
   ],
   "sources_tried_failed": [
-    {"url": "https://www.linkedin.com/company/daylight-security/", "result": "Bright Data returned a LinkedIn 404 page (slug probably wrong); company page not read. Google shows the company page has 8.2K+ followers."},
-    {"url": "https://www.comeet.com/jobs/daylightsecurity/7A.00D", "result": "Comeet account deactivated"},
-    {"url": "https://web.archive.org (direct fetch)", "result": "Blocked by egress policy; used via Bright Data instead"},
-    {"url": "https://duckduckgo.com/html/", "result": "Bright Data: 'endpoint not supported'"},
-    {"url": "https://www.google.com/search?q=\"Daylight Security\" SEO agency case study", "result": "Empty response from Bright Data"},
-    {"url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search", "result": "Worked but no current Daylight marketing roles returned"},
-    {"url": "https://daylightsecurity.com", "result": "Connection reset; daylight.security redirects to daylight.ai"},
-    {"url": "AI-visibility probe (ChatGPT/Gemini)", "result": "Not attempted: no easy Bright Data route; skipped per brief"}
+    {
+      "url": "https://www.linkedin.com/company/daylight-security/",
+      "result": "Bright Data returned a LinkedIn 404 page (slug probably wrong); company page not read. Google shows the company page has 8.2K+ followers."
+    },
+    {
+      "url": "https://www.comeet.com/jobs/daylightsecurity/7A.00D",
+      "result": "Comeet account deactivated"
+    },
+    {
+      "url": "https://web.archive.org (direct fetch)",
+      "result": "Blocked by egress policy; used via Bright Data instead"
+    },
+    {
+      "url": "https://duckduckgo.com/html/",
+      "result": "Bright Data: 'endpoint not supported'"
+    },
+    {
+      "url": "https://www.google.com/search?q=\"Daylight Security\" SEO agency case study",
+      "result": "Empty response from Bright Data"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search",
+      "result": "Worked but no current Daylight marketing roles returned"
+    },
+    {
+      "url": "https://daylightsecurity.com",
+      "result": "Connection reset; daylight.security redirects to daylight.ai"
+    },
+    {
+      "url": "AI-visibility probe (ChatGPT/Gemini)",
+      "result": "Not attempted: no easy Bright Data route; skipped per brief"
+    }
   ],
   "linkedin_checks_for_sponsor": [
     "Daylight Security company page -> People tab, filter 'growth', 'SEO', 'content', 'digital': was the Senior Growth Marketer (SEO/AEO) role filled, and is there anyone else owning SEO/content? This decides single_seo vs sweet_spot.",

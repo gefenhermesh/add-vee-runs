@@ -12,17 +12,47 @@
     "status": "couldn't verify",
     "who": [],
     "evidence": [
-      {"claim": "About page lists only the four co-founders (CEO, CTO, VP Eng, VP Platform Eng); no marketing role shown", "kind": "direct", "url": "https://edelbyte.io/about", "date": "accessed 2026-11-19"},
-      {"claim": "Press names only the founders; CTech says ~40 employees across Israel, Europe and the US", "kind": "direct", "url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx", "date": "2026-11-11"},
-      {"claim": "Google site:linkedin.com/in searches (marketing / VP Marketing / CMO / Head of Marketing / product marketing / GTM) via Bright Data: Edelbyte-tied titles found are Chief People Officer (Limor Drezner), General Counsel (Yael Nardi), VP Finance (Nir Bernstein), Product Manager (Thomas Mahlberg), engineers; no marketing title tied to Edelbyte", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Edelbyte%22+marketing", "date": "accessed 2026-11-19"},
-      {"claim": "'Shay Rootman - VP Business Development & Marketing' surfaces in Edelbyte-keyword searches but no snippet names Edelbyte as his employer; unresolved", "kind": "unverified", "url": "https://www.google.com/search?q=%22Shay+Rootman%22+Edelbyte", "date": "accessed 2026-11-19"},
-      {"claim": "Company LinkedIn post thanks a PR agency ('Shalom Tel Aviv') for the stealth exit; a brand-kit GitHub repo is mentioned: marketing is being done, owner unknown", "kind": "direct", "url": "https://www.linkedin.com/company/edelbyte-io/", "date": "post ~2026-11-18, accessed 2026-11-19"}
+      {
+        "claim": "About page lists only the four co-founders (CEO, CTO, VP Eng, VP Platform Eng); no marketing role shown",
+        "kind": "direct",
+        "url": "https://edelbyte.io/about",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Press names only the founders; CTech says ~40 employees across Israel, Europe and the US",
+        "kind": "direct",
+        "url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx",
+        "date": "2026-11-11"
+      },
+      {
+        "claim": "Google site:linkedin.com/in searches (marketing / VP Marketing / CMO / Head of Marketing / product marketing / GTM) via Bright Data: Edelbyte-tied titles found are Chief People Officer (Limor Drezner), General Counsel (Yael Nardi), VP Finance (Nir Bernstein), Product Manager (Thomas Mahlberg), engineers; no marketing title tied to Edelbyte",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Edelbyte%22+marketing",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "'Shay Rootman - VP Business Development & Marketing' surfaces in Edelbyte-keyword searches but no snippet names Edelbyte as his employer; unresolved",
+        "kind": "unverified",
+        "url": "https://www.google.com/search?q=%22Shay+Rootman%22+Edelbyte",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Company LinkedIn post thanks a PR agency ('Shalom Tel Aviv') for the stealth exit; a brand-kit GitHub repo is mentioned: marketing is being done, owner unknown",
+        "kind": "direct",
+        "url": "https://www.linkedin.com/company/edelbyte-io/",
+        "date": "post ~2026-11-18, accessed 2026-11-19"
+      }
     ]
   },
   "seo_team": {
     "status": "not found",
     "evidence": [
-      {"claim": "No SEO/content/growth title tied to Edelbyte in site:linkedin.com/in searches; no blog exists; site is 12 URLs. Logged-out view only, so a hidden hire is possible", "kind": "inferred", "url": "https://edelbyte.io/sitemap.xml", "date": "accessed 2026-11-19"}
+      {
+        "claim": "No SEO/content/growth title tied to Edelbyte in site:linkedin.com/in searches; no blog exists; site is 12 URLs. Logged-out view only, so a hidden hire is possible",
+        "kind": "inferred",
+        "url": "https://edelbyte.io/sitemap.xml",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "situation": {
@@ -36,14 +66,54 @@
     "source": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx ; https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008 ; https://www.forbes.com/sites/timkeary/2026/11/11/edelbyte-raises-70-million-to-bring-big-data-analytics-to-ai-agents/"
   },
   "fit_evidence": [
-    {"claim": "$70M across seed + Series A announced at stealth exit, led by Sequoia and Quiet Capital", "kind": "direct", "url": "https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008", "date": "2026-11-11"},
-    {"claim": "Valued at $500M; positions against Snowflake, Databricks and ClickHouse; ~40 employees in Israel, Europe, US", "kind": "direct", "url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx", "date": "2026-11-11"},
-    {"claim": "Funding will be used to grow installed base and hire", "kind": "direct", "url": "https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/", "date": "2026-11-11"},
-    {"claim": "Site sitemap has 12 URLs (home, pricing, about, news, events x3, contact, legal x4); no blog, no use-case, comparison or docs pages publicly crawlable", "kind": "direct", "url": "https://edelbyte.io/sitemap.xml", "date": "accessed 2026-11-19"},
-    {"claim": "Site is a client-rendered SPA: server HTML for every route is an empty 4.5KB shell (content only in JS bundles); llms.txt present", "kind": "direct", "url": "https://edelbyte.io/", "date": "accessed 2026-11-19"},
-    {"claim": "B2B sales-led motion: contact form (Sales / Request a demo), usage-based pricing with quote request, re:Invent booth and meetings", "kind": "direct", "url": "https://edelbyte.io/events/reinvent-2026", "date": "accessed 2026-11-19"},
-    {"claim": "Salesforce org verification in DNS TXT (00D... token) suggests Salesforce CRM; no HubSpot/Marketo/Pardot tokens", "kind": "inferred", "url": "https://dns.google/resolve?name=edelbyte.io&type=TXT", "date": "accessed 2026-11-19"},
-    {"claim": "Wayback has no snapshot before Nov 2026: the web presence started at the stealth exit", "kind": "direct", "url": "http://archive.org/wayback/available?url=edelbyte.io&timestamp=2025", "date": "accessed 2026-11-19"}
+    {
+      "claim": "$70M across seed + Series A announced at stealth exit, led by Sequoia and Quiet Capital",
+      "kind": "direct",
+      "url": "https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008",
+      "date": "2026-11-11"
+    },
+    {
+      "claim": "Valued at $500M; positions against Snowflake, Databricks and ClickHouse; ~40 employees in Israel, Europe, US",
+      "kind": "direct",
+      "url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx",
+      "date": "2026-11-11"
+    },
+    {
+      "claim": "Funding will be used to grow installed base and hire",
+      "kind": "direct",
+      "url": "https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/",
+      "date": "2026-11-11"
+    },
+    {
+      "claim": "Site sitemap has 12 URLs (home, pricing, about, news, events x3, contact, legal x4); no blog, no use-case, comparison or docs pages publicly crawlable",
+      "kind": "direct",
+      "url": "https://edelbyte.io/sitemap.xml",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Site is a client-rendered SPA: server HTML for every route is an empty 4.5KB shell (content only in JS bundles); llms.txt present",
+      "kind": "direct",
+      "url": "https://edelbyte.io/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "B2B sales-led motion: contact form (Sales / Request a demo), usage-based pricing with quote request, re:Invent booth and meetings",
+      "kind": "direct",
+      "url": "https://edelbyte.io/events/reinvent-2026",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Salesforce org verification in DNS TXT (00D... token) suggests Salesforce CRM; no HubSpot/Marketo/Pardot tokens",
+      "kind": "inferred",
+      "url": "https://dns.google/resolve?name=edelbyte.io&type=TXT",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Wayback has no snapshot before Nov 2026: the web presence started at the stealth exit",
+      "kind": "direct",
+      "url": "http://archive.org/wayback/available?url=edelbyte.io&timestamp=2025",
+      "date": "accessed 2026-11-19"
+    }
   ],
   "site_and_content": {
     "cms_and_stack": "Custom React/TanStack Start SPA (JS bundles; DNS has lovable_verification token, so possibly built or prototyped with Lovable). GA4 (G-11TBR6SQ5R) via gtag. Cloudflare. DNS TXT: Salesforce org id, Microsoft 365 (SPF outlook), Google site verification, Stripe, DocuSign, Zoom, Plain (support), Apple, Anthropic, Wiz, Proof. No HubSpot/Marketo/Pardot/Webflow. Trust center at trust.edelbyte.io (SafeBase, SOC 2 Type 2).",
@@ -61,8 +131,24 @@
     "note": "No public marketing or SEO job post found. Avi Lewis' list gives no open-role count ('–')."
   },
   "contacts": [
-    {"name": "Avner Aharoni", "role": "Co-founder & CEO", "email": null, "email_verified": false, "source": "https://edelbyte.io/about ; https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008", "recipient_rank": 1, "note": "CEO from press and site (no marketing leader found). No public email seen."},
-    {"name": "Yoni Leibowitz", "role": "Co-founder & VP Platform Engineering", "email": null, "email_verified": false, "source": "https://edelbyte.io/events/reinvent-2026", "recipient_rank": 2, "note": "Most public-facing founder (launch post, Sequoia fireside at re:Invent); fallback only."}
+    {
+      "name": "Avner Aharoni",
+      "role": "Co-founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://edelbyte.io/about ; https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008",
+      "recipient_rank": 1,
+      "note": "CEO from press and site (no marketing leader found). No public email seen."
+    },
+    {
+      "name": "Yoni Leibowitz",
+      "role": "Co-founder & VP Platform Engineering",
+      "email": null,
+      "email_verified": false,
+      "source": "https://edelbyte.io/events/reinvent-2026",
+      "recipient_rank": 2,
+      "note": "Most public-facing founder (launch post, Sequoia fireside at re:Invent); fallback only."
+    }
   ],
   "outreach_angle": {
     "hook": "Congrats on the 11 Nov stealth exit ($70M, Sequoia/Quiet). CTech frames Edelbyte against Snowflake, Databricks and ClickHouse, yet edelbyte.io is 12 URLs with no blog, use-case or comparison pages (and an empty HTML shell to non-JS crawlers), so when buyers ask ChatGPT for ClickHouse/Elastic/Kusto alternatives ahead of re:Invent, there's little for it to cite.",
@@ -84,39 +170,158 @@
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no"
+    "contact_verified": "no",
+    "seo_need": "unassessed"
   },
   "sources": [
-    {"url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/", "date": "2026-11-13", "kind": "direct", "result": "Lead line: founders, $70M across $25M seed + $45M Series A"},
-    {"url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx", "date": "2026-11-11", "kind": "direct", "result": "Round split and leads, $500M valuation, ~40 employees, founded Nov 2025, competitors named"},
-    {"url": "https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008", "date": "2026-11-11", "kind": "direct", "result": "$70M stealth exit, 40 employees in Israel/US/Europe"},
-    {"url": "https://www.forbes.com/sites/timkeary/2026/11/11/edelbyte-raises-70-million-to-bring-big-data-analytics-to-ai-agents/", "date": "2026-11-11", "kind": "direct", "result": "Read via Bright Data: Tel Aviv + SF, ex-Azure Kusto founders, Fortune 500 deployments, 4 design partners"},
-    {"url": "https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/", "date": "2026-11-11", "kind": "direct", "result": "Product details; funds for installed base growth and hiring"},
-    {"url": "https://edelbyte.io/", "date": "accessed 2026-11-19", "kind": "direct", "result": "SPA shell; content read from JS bundles (homepage, about, news, events, contact, re:Invent)"},
-    {"url": "https://edelbyte.io/sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "12 URLs, no blog"},
-    {"url": "https://edelbyte.io/llms.txt", "date": "accessed 2026-11-19", "kind": "direct", "result": "Page list and positioning"},
-    {"url": "https://edelbyte.io/events/reinvent-2026", "date": "accessed 2026-11-19", "kind": "direct", "result": "Booth #458; session DAT319-S (Sloutsky, PM Henning Rauch, benchANT CTO); Sequoia fireside with Yoni Leibowitz"},
-    {"url": "https://dns.google/resolve?name=edelbyte.io&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "Salesforce, M365, Lovable, Stripe, DocuSign, Plain, Zoom, Anthropic, Wiz tokens; no marketing-automation tokens"},
-    {"url": "https://www.linkedin.com/company/edelbyte-io/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: 11-50 employees, HQ San Francisco, Tel Aviv office, 1,246 followers, founded 2025; recent posts (launch, behind-the-scenes song, PR agency thanks)"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Edelbyte%22+marketing", "date": "accessed 2026-11-19", "kind": "direct", "result": "Titles only: CEO, CTO, VP Eng, Chief People Officer, General Counsel, VP Finance, PM; ambiguous Shay Rootman hit"},
-    {"url": "https://israelvc.com/startups/edelbyte/", "date": "accessed 2026-11-19", "kind": "unverified", "result": "Via Bright Data (403 direct): $45M Series A; job listings not connected"},
-    {"url": "https://trust.edelbyte.io", "date": "accessed 2026-11-19", "kind": "direct", "result": "SafeBase trust center, SOC 2 Type 2"},
-    {"url": "http://archive.org/wayback/available?url=edelbyte.io&timestamp=2025", "date": "accessed 2026-11-19", "kind": "direct", "result": "Closest snapshot 2026-11-19; nothing earlier"},
-    {"url": "https://www.bing.com/search?q=Edelbyte+%2470+million+Globes", "date": "accessed 2026-11-19", "kind": "direct", "result": "Press coverage list (Globes, Forbes, Yahoo, SiliconANGLE, Unite.AI, CTech, Calcalist)"},
-    {"url": "/home/user/add-vee-runs/campaign/sources/2026-11-19-avi-lewis-lists.md", "date": "2026-11-19", "kind": "unverified", "result": "Avi Lewis list: Edelbyte $45M Nov, location Herzliya (company says Tel Aviv)"}
+    {
+      "url": "https://www.vccafe.com/weekly-firgun-newsletter-november-13-2026/",
+      "date": "2026-11-13",
+      "kind": "direct",
+      "result": "Lead line: founders, $70M across $25M seed + $45M Series A"
+    },
+    {
+      "url": "https://www.calcalistech.com/ctechnews/article/rk9dvkfrmx",
+      "date": "2026-11-11",
+      "kind": "direct",
+      "result": "Round split and leads, $500M valuation, ~40 employees, founded Nov 2025, competitors named"
+    },
+    {
+      "url": "https://en.globes.co.il/en/article-israeli-data-infrastructure-co-edelbyte-raises-70m-1001563008",
+      "date": "2026-11-11",
+      "kind": "direct",
+      "result": "$70M stealth exit, 40 employees in Israel/US/Europe"
+    },
+    {
+      "url": "https://www.forbes.com/sites/timkeary/2026/11/11/edelbyte-raises-70-million-to-bring-big-data-analytics-to-ai-agents/",
+      "date": "2026-11-11",
+      "kind": "direct",
+      "result": "Read via Bright Data: Tel Aviv + SF, ex-Azure Kusto founders, Fortune 500 deployments, 4 design partners"
+    },
+    {
+      "url": "https://siliconangle.com/2026/11/11/edelbyte-reels-in-70m-for-its-multi-purpose-data-analytics-platform/",
+      "date": "2026-11-11",
+      "kind": "direct",
+      "result": "Product details; funds for installed base growth and hiring"
+    },
+    {
+      "url": "https://edelbyte.io/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "SPA shell; content read from JS bundles (homepage, about, news, events, contact, re:Invent)"
+    },
+    {
+      "url": "https://edelbyte.io/sitemap.xml",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "12 URLs, no blog"
+    },
+    {
+      "url": "https://edelbyte.io/llms.txt",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Page list and positioning"
+    },
+    {
+      "url": "https://edelbyte.io/events/reinvent-2026",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Booth #458; session DAT319-S (Sloutsky, PM Henning Rauch, benchANT CTO); Sequoia fireside with Yoni Leibowitz"
+    },
+    {
+      "url": "https://dns.google/resolve?name=edelbyte.io&type=TXT",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Salesforce, M365, Lovable, Stripe, DocuSign, Plain, Zoom, Anthropic, Wiz tokens; no marketing-automation tokens"
+    },
+    {
+      "url": "https://www.linkedin.com/company/edelbyte-io/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Via Bright Data: 11-50 employees, HQ San Francisco, Tel Aviv office, 1,246 followers, founded 2025; recent posts (launch, behind-the-scenes song, PR agency thanks)"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Edelbyte%22+marketing",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Titles only: CEO, CTO, VP Eng, Chief People Officer, General Counsel, VP Finance, PM; ambiguous Shay Rootman hit"
+    },
+    {
+      "url": "https://israelvc.com/startups/edelbyte/",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "Via Bright Data (403 direct): $45M Series A; job listings not connected"
+    },
+    {
+      "url": "https://trust.edelbyte.io",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "SafeBase trust center, SOC 2 Type 2"
+    },
+    {
+      "url": "http://archive.org/wayback/available?url=edelbyte.io&timestamp=2025",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Closest snapshot 2026-11-19; nothing earlier"
+    },
+    {
+      "url": "https://www.bing.com/search?q=Edelbyte+%2470+million+Globes",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Press coverage list (Globes, Forbes, Yahoo, SiliconANGLE, Unite.AI, CTech, Calcalist)"
+    },
+    {
+      "url": "/home/user/add-vee-runs/campaign/sources/2026-11-19-avi-lewis-lists.md",
+      "date": "2026-11-19",
+      "kind": "unverified",
+      "result": "Avi Lewis list: Edelbyte $45M Nov, location Herzliya (company says Tel Aviv)"
+    }
   ],
   "sources_tried_failed": [
-    {"url": "https://api.ashbyhq.com/posting-api/job-board/edelbyte (+ greenhouse, lever; also edelbyteio, edelbyte-io)", "result": "no board found"},
-    {"url": "https://www.comeet.com/jobs/edelbyte", "result": "404"},
-    {"url": "https://edelbyte.io/careers", "result": "SPA shell; no careers route in JS manifest"},
-    {"url": "https://t.me/s/hitechjobsmarketing?q=Edelbyte", "result": "0 posts"},
-    {"url": "https://sequoiacap.com/article/partnering-with-edelbyte/", "result": "404 on guessed URL (Sequoia 'Partnering with Edelbyte' post exists per search title, dated 2026-11-11)"},
-    {"url": "https://github.com/edelbyte", "result": "403 from proxy"},
-    {"url": "https://seedtable.com/startups/edelbyte", "result": "403 Cloudflare challenge"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Edelbyte%22+%22VP+Marketing%22+OR+CMO", "result": "first try empty response; retry: no results"},
-    {"url": "https://www.google.com/search?q=%22Edelbyte%22+alternatives", "result": "empty response (209 bytes)"},
-    {"url": "http://web.archive.org/cdx/search/cdx?url=edelbyte.io", "result": "blocked by egress policy"},
-    {"url": "https://app.edelbyte.io/docs", "result": "SPA shell, docs content not readable without JS/login"}
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/edelbyte (+ greenhouse, lever; also edelbyteio, edelbyte-io)",
+      "result": "no board found"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/edelbyte",
+      "result": "404"
+    },
+    {
+      "url": "https://edelbyte.io/careers",
+      "result": "SPA shell; no careers route in JS manifest"
+    },
+    {
+      "url": "https://t.me/s/hitechjobsmarketing?q=Edelbyte",
+      "result": "0 posts"
+    },
+    {
+      "url": "https://sequoiacap.com/article/partnering-with-edelbyte/",
+      "result": "404 on guessed URL (Sequoia 'Partnering with Edelbyte' post exists per search title, dated 2026-11-11)"
+    },
+    {
+      "url": "https://github.com/edelbyte",
+      "result": "403 from proxy"
+    },
+    {
+      "url": "https://seedtable.com/startups/edelbyte",
+      "result": "403 Cloudflare challenge"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Edelbyte%22+%22VP+Marketing%22+OR+CMO",
+      "result": "first try empty response; retry: no results"
+    },
+    {
+      "url": "https://www.google.com/search?q=%22Edelbyte%22+alternatives",
+      "result": "empty response (209 bytes)"
+    },
+    {
+      "url": "http://web.archive.org/cdx/search/cdx?url=edelbyte.io",
+      "result": "blocked by egress policy"
+    },
+    {
+      "url": "https://app.edelbyte.io/docs",
+      "result": "SPA shell, docs content not readable without JS/login"
+    }
   ],
   "linkedin_checks_for_sponsor": [
     "Edelbyte company page (linkedin.com/company/edelbyte-io) -> People tab: anyone in marketing, product marketing, growth, content or DevRel?",

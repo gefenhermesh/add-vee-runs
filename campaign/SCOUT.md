@@ -34,6 +34,20 @@ Judge **craft, not artifacts**: depth, pillar/cluster structure, contextual inte
 
 **Israel-based marketing roles are a plus** (less competition). Record a location only where a source states it.
 
+## SEO need: does this company actually need the work? (sponsor's rule, 2026-11-21)
+Gating says whether the work is **open** (a leader, no SEO team). It doesn't say whether the work **matters to them**. A company with no SEO investment may have a gap, or may have no need. The scout must tell those apart. Run these four checks for every recon'd company:
+1. **How buyers research.** Do buyers find and compare vendors by searching, or asking ChatGPT/Gemini? Or is it relationship/RFP-led with a small known buyer set? Proxies: how many possible buyers there are; whether G2/PeerSpot/Capterra categories exist; whether analysts and "best X tools" lists cover the category; self-serve versus enterprise sales.
+2. **Competition in search.** Name the 3-5 real competitors. For each: does it invest in content/SEO (blog cadence, guides, comparison pages)? Run 3-5 category queries through Google via Bright Data (e.g. "best <category> software", "<category> vendors", "<company> alternatives") and record who ranks. Vendors and listicles ranking = a contested space. Only trade press and regulators = low demand. A competitor's "vs <company>" page aimed at them is the strongest sign.
+3. **Cost of staying invisible.** What goes wrong for them, concretely? Examples: a new product line with no page; a category shift that AI answers haven't caught up with; competitors defining the category. If you can't name a concrete risk, the need is low.
+4. **Why not so far** (required for mature companies with little SEO). Best hypothesis with evidence: `no_need` (buyers don't search; the work wouldn't pay back), `never_prioritized` (brand/PR/sales-led culture, while competitors invest), `agency_run` (an agency does it), `founder_led` (too early), or `unclear`.
+
+Record it as `seo_need` in scout.json: `{"rating": "high|medium|low", "buyer_research": "...", "competitors": [{"name", "seo_investment", "evidence_url"}], "serp_checks": [{"query", "top_results", "date"}], "cost_of_absence": "...", "why_not_yet": "...", "evidence": [...]}`. Also set the `seo_need` feature to the rating.
+- **high:** buyers research online, competitors invest or target them, and there's a concrete cost. Strong candidate.
+- **medium:** some search demand, or a specific risk (e.g. a new product line), but the buying motion is mostly relationship-led. Propose only with a sharp, specific angle, and say so in the reason.
+- **low:** relationship/RFP-led, a small buyer set, competitors don't invest either, no concrete cost. **Don't propose.** Record it with the reason, as with a blocked company.
+
+The outreach angle should name the risk from check 3. It answers "why would they care?".
+
 ## Honesty rules
 - **Status vocabulary** for every check: `found` / `not found` / `couldn't verify`. "Couldn't verify" beats an optimistic guess. CAPTCHA pages, login walls, 404s and empty pages are failures, not visits.
 - **Every claim tagged** `direct` (read it) or `inferred`, with the source URL and the source's date. Aggregators (theorg, RocketReach, ZoomInfo, LeadIQ, Tracxn, Dealroom) are `unverified`, and can be stale (a listed "VP Marketing" had left).
@@ -59,7 +73,7 @@ Depth over speed and cost. For each company, use every source that sharpens the 
 Limits that still hold: never act under the sponsor's identity (no connecting, following, messaging, reacting, form fills or demo requests). Keep personal data to what the decision needs: name, role, company, public work email. Everything else in "Honesty rules" applies.
 
 ## Output per company
-- `companies/<slug>/scout.json`: the fit evidence, each item tagged direct/inferred with URL and date; marketing-leadership status and gating rating; situation estimate; contacts (public sources only, emails marked verified or not); the **outreach angle**, meaning one concrete, citable hook.
+- `companies/<slug>/scout.json`: the fit evidence, each item tagged direct/inferred with URL and date; marketing-leadership status and gating rating; the **SEO need** assessment (`seo_need`); situation estimate; contacts (public sources only, emails marked verified or not); the **outreach angle**, meaning one concrete, citable hook.
 - A `proposed` entry in `state.json` with a two-line reason.
 
 ## State between runs
@@ -67,8 +81,8 @@ Keep a `watch` list in `state.json` for proposed and held companies, recording t
 
 ## Running the scout (weekly, in its own session)
 The scout runs in **its own session, created from this repo** (source `add-vee-runs`), never in the manager's chat, which must stay small. The manager starts it on Sunday's first tick with the prompt "You are the weekly scout: follow campaign/SCOUT.md → Running the scout." and is told when it's done.
-1. `python campaign/scout/longlist.py --avi-url <Avi Lewis' latest list post, if any>`. This reads VC Cafe Firgun, the marketing-jobs Telegram channel and Avi's list into `campaign/scout/longlist.json`, merged per company and marked `known`. Readers live in `campaign/scout/readers.py`, tested on saved pages.
+1. `python campaign/scout/longlist.py --avi-url <Avi Lewis' latest list post, if any>`. This reads VC Cafe Firgun, the marketing-jobs Telegram channel and Avi's list into `campaign/scout/longlist.json`, merged per company and marked `known`. Readers live in `campaign/scout/readers.py`, tested on saved pages. **Also read Next Play** in gefen@etico.cr with the Gmail query in `state.json` → `rules.next_play_intake` (the script doesn't read it yet) and add its companies to the filter.
 2. **Quick filter** of the new, unknown companies: drop non-B2B, non-tech, investors (VC funds appear in round lists), consumer/biotech/hardware, and obvious misfits. Give a one-line reason each, in `campaign/scout/filter_<date>.md`. **Keep the mix varied** (LEARNING.md): don't default to security.
-3. **Recon** of the 8-12 strongest survivors, using every source that helps (above): marketing leadership and SEO team (gating), situation, trigger, recipient candidates, the outreach hook. Use `readers.read_job_board(<board name>)` for open roles, and the no-footprint LinkedIn check. Write `companies/<slug>/scout.json` with `"scout_version": 2` and every field `propose.py` requires (`company, domain, reason, gating_rating, features, contacts, sources[{url, date, kind}]`).
+3. **Recon** of the 8-12 strongest survivors, using every source that helps (above): marketing leadership and SEO team (gating), **SEO need** (buyer research, competition in search, cost of absence, why not so far), situation, trigger, recipient candidates, the outreach hook. Use `readers.read_job_board(<board name>)` for open roles, and the no-footprint LinkedIn check. Write `companies/<slug>/scout.json` with `"scout_version": 3` and every field `propose.py` requires (`company, domain, reason, gating_rating, seo_need{rating,...}, features, contacts, sources[{url, date, kind}]`).
 4. `python campaign/scout/propose.py check` until every file is OK, then `propose.py add <slugs>` (status `proposed`, never queued) and `propose.py pick 5`.
 5. Commit and push, then send the manager **one line**: "Scout: N proposed, picks: a, b, c, d, e (explore: x)". The manager passes it to the sponsor in one line; the sponsor releases companies in the manager chat ("release a, b").

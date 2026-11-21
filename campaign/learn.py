@@ -51,6 +51,7 @@ FEATURES = {
     "subject_style": "how_ai_sees_x, finding_hook, question, other",
     "send_slot": "sun_thu_morning_local, other",
     "contact_verified": "yes, no",
+    "seo_need": "high, medium, low, unassessed (SCOUT.md: buyer research, competition in search, cost of absence)",
 }
 
 

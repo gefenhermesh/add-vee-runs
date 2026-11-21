@@ -33,6 +33,17 @@ class ProposeTest(unittest.TestCase):
         r["gating_rating"] = "blocked_seo_team"
         self.assertTrue(any("blocked" in x for x in propose.problems(r)))
 
+    def test_v3_needs_seo_need(self):
+        r = good()
+        r["scout_version"] = 3
+        self.assertTrue(any("seo_need.rating" in x for x in propose.problems(r)))
+        r["seo_need"] = {"rating": "medium", "buyer_research": "mixed", "competitors": [{"name": "Y"}],
+                         "cost_of_absence": "new line has no page", "why_not_yet": "never_prioritized"}
+        r["features"]["seo_need"] = "medium"
+        self.assertEqual(propose.problems(r), [])
+        r["seo_need"]["rating"] = r["features"]["seo_need"] = "low"
+        self.assertTrue(any("low SEO need" in x for x in propose.problems(r)))
+
 
 if __name__ == "__main__":
     unittest.main()

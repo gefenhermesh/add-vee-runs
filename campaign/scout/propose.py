@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT / "campaign"))
 import learn  # noqa: E402
 
 REQUIRED = ["company", "domain", "reason", "gating_rating", "features", "contacts", "sources"]
+SEO_NEED = {"high", "medium", "low"}
 GATING = {"sweet_spot", "single_seo", "blocked_seo_team", "no_leader_exception", "too_early", "unclear"}
 
 
@@ -32,6 +33,16 @@ def problems(rec):
         out.append(f"gating_rating must be one of {sorted(GATING)}")
     if rec.get("gating_rating") == "blocked_seo_team":
         out.append("blocked by an SEO team: record it, but don't propose it")
+    if rec.get("scout_version", 0) >= 3:
+        need = rec.get("seo_need") or {}
+        if need.get("rating") not in SEO_NEED:
+            out.append(f"seo_need.rating must be one of {sorted(SEO_NEED)}")
+        elif need["rating"] == "low":
+            out.append("low SEO need: record it, but don't propose it")
+        else:
+            out += [f"seo_need.{k} missing" for k in ("buyer_research", "competitors", "cost_of_absence", "why_not_yet") if not need.get(k)]
+        if feats.get("seo_need") != need.get("rating"):
+            out.append("feature seo_need must equal seo_need.rating")
     for s in rec.get("sources") or []:
         if not (isinstance(s, dict) and s.get("url") and s.get("date") and s.get("kind") in ("direct", "inferred", "unverified")):
             out.append(f"source needs url, date and kind direct/inferred/unverified: {s}")
@@ -47,7 +58,7 @@ def cmd_check():
     bad = 0
     for f in scout_files():
         rec = json.loads(f.read_text())
-        if rec.get("scout_version") != 2:
+        if rec.get("scout_version", 0) < 2:
             continue  # older hand-made files (e.g. Bay) are not proposals
         p = problems(rec)
         bad += bool(p)

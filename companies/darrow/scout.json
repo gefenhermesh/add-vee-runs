@@ -11,23 +11,72 @@
   "marketing_leadership": {
     "status": "found",
     "who": [
-      {"name": "Kari Szul", "role": "Vice President Marketing (Jul 2026 - present), New York", "kind": "direct (search-result title/snippet, profile not opened)"}
+      {
+        "name": "Kari Szul",
+        "role": "Vice President Marketing (Jul 2026 - present), New York",
+        "kind": "direct (search-result title/snippet, profile not opened)"
+      }
     ],
     "evidence": [
-      {"claim": "Google result title 'Kari Szul - Vice President Marketing at Darrow AI'; snippet 'Vice President Marketing. Darrow AI. Jul 2026 - Present 4 months ... Google 7 years 4 months, Senior Product Marketing Lead | Gemini | Google Workspace'", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" marketing", "date": "accessed 2026-11-19"},
-      {"claim": "Public LinkedIn company page lists Kari Szul among 'Employees at Darrow AI'", "kind": "direct", "url": "https://www.linkedin.com/company/darrow-ai", "date": "accessed 2026-11-19"},
-      {"claim": "Darrow advertised 'VP Marketing, Growth & Brand AI LegalTech Leader', New York, $210,000 (posting dated ~Jul 15, 2026) before the hire", "kind": "unverified", "url": "https://www.mediabistro.com/jobs/ (search snippet, job 3542201656)", "date": "2026-07-15"},
-      {"claim": "theorg lists Kari Szul as VP Marketing at Darrow", "kind": "unverified", "url": "https://theorg.com/org/darrow/person/kari-szul", "date": "accessed 2026-11-19"},
-      {"claim": "No marketing executive on the darrow.ai About > Leadership list (12 people: CEO, CTO, SVP Product & Tech, VPs Strategy, People, Finance, BD, Intelligence, Litigation Partnerships, GC, Chief of Staff, Head of Capital Markets)", "kind": "direct", "url": "https://www.darrow.ai/company/about", "date": "accessed 2026-11-19"}
+      {
+        "claim": "Google result title 'Kari Szul - Vice President Marketing at Darrow AI'; snippet 'Vice President Marketing. Darrow AI. Jul 2026 - Present 4 months ... Google 7 years 4 months, Senior Product Marketing Lead | Gemini | Google Workspace'",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" marketing",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Public LinkedIn company page lists Kari Szul among 'Employees at Darrow AI'",
+        "kind": "direct",
+        "url": "https://www.linkedin.com/company/darrow-ai",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Darrow advertised 'VP Marketing, Growth & Brand AI LegalTech Leader', New York, $210,000 (posting dated ~Jul 15, 2026) before the hire",
+        "kind": "unverified",
+        "url": "https://www.mediabistro.com/jobs/ (search snippet, job 3542201656)",
+        "date": "2026-07-15"
+      },
+      {
+        "claim": "theorg lists Kari Szul as VP Marketing at Darrow",
+        "kind": "unverified",
+        "url": "https://theorg.com/org/darrow/person/kari-szul",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "No marketing executive on the darrow.ai About > Leadership list (12 people: CEO, CTO, SVP Product & Tech, VPs Strategy, People, Finance, BD, Intelligence, Litigation Partnerships, GC, Chief of Staff, Head of Capital Markets)",
+        "kind": "direct",
+        "url": "https://www.darrow.ai/company/about",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "seo_team": {
     "status": "not found",
     "evidence": [
-      {"claim": "Former 'Content and SEO Manager, Darrow AI, Sep 2024 - Feb 2026'; now 'SEO Consultant at Kahena' (since Nov 2026)", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" SEO", "date": "accessed 2026-11-19"},
-      {"claim": "No current SEO-titled person in site:linkedin.com/in searches for Darrow AI + SEO / content / growth / demand gen; results are performance marketing (Team Lead Shoshana Gluckmann TLV; specialists Lia Strauss, Yuval Shayo, Adam Stern TLV; Rylan Gordon NY), a Senior Content Marketing Manager (Liat Piazza, TLV), Head of Plaintiff Services", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" marketing", "date": "accessed 2026-11-19"},
-      {"claim": "Blog internal-linking and cadence collapse right after Feb 2026 (see site_and_content) fits the SEO owner leaving without replacement", "kind": "inferred", "url": "https://www.darrow.ai/sitemap.xml", "date": "accessed 2026-11-19"},
-      {"claim": "Performance marketing is plaintiff acquisition (consumer ads to find plaintiffs for cases), not B2B organic: Forbes says Darrow 'helps them find people to become plaintiffs for a case through targeted digital advertising'; ex-staff snippet 'Owned user acquisition for US legal cases end to end, launching over 120 campaigns'", "kind": "direct", "url": "https://www.forbes.com (search snippet, 'This AI-Fueled Startup Is Helping Attorneys Find New...')", "date": "2025-08-21"}
+      {
+        "claim": "Former 'Content and SEO Manager, Darrow AI, Sep 2024 - Feb 2026'; now 'SEO Consultant at Kahena' (since Nov 2026)",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" SEO",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "No current SEO-titled person in site:linkedin.com/in searches for Darrow AI + SEO / content / growth / demand gen; results are performance marketing (Team Lead Shoshana Gluckmann TLV; specialists Lia Strauss, Yuval Shayo, Adam Stern TLV; Rylan Gordon NY), a Senior Content Marketing Manager (Liat Piazza, TLV), Head of Plaintiff Services",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" marketing",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Blog internal-linking and cadence collapse right after Feb 2026 (see site_and_content) fits the SEO owner leaving without replacement",
+        "kind": "inferred",
+        "url": "https://www.darrow.ai/sitemap.xml",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "Performance marketing is plaintiff acquisition (consumer ads to find plaintiffs for cases), not B2B organic: Forbes says Darrow 'helps them find people to become plaintiffs for a case through targeted digital advertising'; ex-staff snippet 'Owned user acquisition for US legal cases end to end, launching over 120 campaigns'",
+        "kind": "direct",
+        "url": "https://www.forbes.com (search snippet, 'This AI-Fueled Startup Is Helping Attorneys Find New...')",
+        "date": "2025-08-21"
+      }
     ]
   },
   "situation": {
@@ -41,17 +90,72 @@
     "source": "https://www.darrow.ai/press-releases/darrow-ranks-among-top-30-on-the-2026-inc-5000 ; https://www.darrow.ai/company/careers ; Google site:linkedin.com/in snippets"
   },
   "fit_evidence": [
-    {"claim": "B2B vertical AI: sells legal intelligence to plaintiff law firms and (since 2026) insurers and compliance teams", "kind": "direct", "url": "https://www.darrow.ai/", "date": "accessed 2026-11-19"},
-    {"claim": "New category language 'Legal Exposure Management' / 'AI research lab' on homepage, about, careers JD; May 2025 homepage said 'Legal Intelligence to Drive Results' and PlaintiffLink for law firms only", "kind": "direct", "url": "https://web.archive.org/web/20250527030518/https://www.darrow.ai/", "date": "2025-05-27 vs accessed 2026-11-19"},
-    {"claim": "Series B $35M led by Georgian (with F2, Entree, NFX, YC)", "kind": "direct", "url": "https://www.darrow.ai/resources/darrows-new-season-announcing-our-35m-series-b-round", "date": "2023-09-19"},
-    {"claim": "Same round reported by TechCrunch and CTech", "kind": "direct", "url": "https://techcrunch.com/2023/09/19/darrow-legal-tech/", "date": "2023-09-19"},
-    {"claim": "Inc. 5000 2026, 250% 3-year revenue growth; Mathew Keshav Lewis quoted as COO", "kind": "direct", "url": "https://www.darrow.ai/press-releases/darrow-ranks-among-top-30-on-the-2026-inc-5000", "date": "2026-08-12"},
-    {"claim": "Deloitte Technology Fast 500 2026, No. 271 (press-release teaser on the site)", "kind": "direct", "url": "https://www.darrow.ai/company/newsroom", "date": "2026-11-19"},
-    {"claim": "New Darrow Platform ('portfolio' workspace for plaintiff firms) launched; LawSites calls Darrow 'the AI Lab for Legal Risk'", "kind": "direct", "url": "https://www.lawnext.com/2026/05/ (search snippet)", "date": "2026-05-27"},
-    {"claim": "Blog: 17 posts since Feb 2026 average 0.8 contextual internal links in the article body (8 with none) vs 4.6 across 73 posts Jan 2025-Jan 2026; one post since 2026-06-28", "kind": "direct", "url": "https://www.darrow.ai/blog", "date": "accessed 2026-11-19 (all 142 posts read, link-aware)"},
-    {"claim": "No own comparison / 'vs' / alternatives pages in the sitemap; only aggregator comparisons (SourceForge 'Darrow vs LegistAI', Toolify 'Darrow AI alternatives') show up", "kind": "direct", "url": "https://www.darrow.ai/sitemap.xml", "date": "accessed 2026-11-19"},
-    {"claim": "Employee count 51-200, HQ New York, 10,798 followers", "kind": "direct", "url": "https://www.linkedin.com/company/darrow-ai", "date": "accessed 2026-11-19"},
-    {"claim": "Fundz lists a 'Series B $35M led by Y Combinator, July 2026, despite recent layoffs': contradicts primary sources, likely garbled; no layoffs found elsewhere", "kind": "unverified", "url": "https://app.fundz.net (search snippet)", "date": "2026-07-07"}
+    {
+      "claim": "B2B vertical AI: sells legal intelligence to plaintiff law firms and (since 2026) insurers and compliance teams",
+      "kind": "direct",
+      "url": "https://www.darrow.ai/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "New category language 'Legal Exposure Management' / 'AI research lab' on homepage, about, careers JD; May 2025 homepage said 'Legal Intelligence to Drive Results' and PlaintiffLink for law firms only",
+      "kind": "direct",
+      "url": "https://web.archive.org/web/20250527030518/https://www.darrow.ai/",
+      "date": "2025-05-27 vs accessed 2026-11-19"
+    },
+    {
+      "claim": "Series B $35M led by Georgian (with F2, Entree, NFX, YC)",
+      "kind": "direct",
+      "url": "https://www.darrow.ai/resources/darrows-new-season-announcing-our-35m-series-b-round",
+      "date": "2023-09-19"
+    },
+    {
+      "claim": "Same round reported by TechCrunch and CTech",
+      "kind": "direct",
+      "url": "https://techcrunch.com/2023/09/19/darrow-legal-tech/",
+      "date": "2023-09-19"
+    },
+    {
+      "claim": "Inc. 5000 2026, 250% 3-year revenue growth; Mathew Keshav Lewis quoted as COO",
+      "kind": "direct",
+      "url": "https://www.darrow.ai/press-releases/darrow-ranks-among-top-30-on-the-2026-inc-5000",
+      "date": "2026-08-12"
+    },
+    {
+      "claim": "Deloitte Technology Fast 500 2026, No. 271 (press-release teaser on the site)",
+      "kind": "direct",
+      "url": "https://www.darrow.ai/company/newsroom",
+      "date": "2026-11-19"
+    },
+    {
+      "claim": "New Darrow Platform ('portfolio' workspace for plaintiff firms) launched; LawSites calls Darrow 'the AI Lab for Legal Risk'",
+      "kind": "direct",
+      "url": "https://www.lawnext.com/2026/05/ (search snippet)",
+      "date": "2026-05-27"
+    },
+    {
+      "claim": "Blog: 17 posts since Feb 2026 average 0.8 contextual internal links in the article body (8 with none) vs 4.6 across 73 posts Jan 2025-Jan 2026; one post since 2026-06-28",
+      "kind": "direct",
+      "url": "https://www.darrow.ai/blog",
+      "date": "accessed 2026-11-19 (all 142 posts read, link-aware)"
+    },
+    {
+      "claim": "No own comparison / 'vs' / alternatives pages in the sitemap; only aggregator comparisons (SourceForge 'Darrow vs LegistAI', Toolify 'Darrow AI alternatives') show up",
+      "kind": "direct",
+      "url": "https://www.darrow.ai/sitemap.xml",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Employee count 51-200, HQ New York, 10,798 followers",
+      "kind": "direct",
+      "url": "https://www.linkedin.com/company/darrow-ai",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Fundz lists a 'Series B $35M led by Y Combinator, July 2026, despite recent layoffs': contradicts primary sources, likely garbled; no layoffs found elsewhere",
+      "kind": "unverified",
+      "url": "https://app.fundz.net (search snippet)",
+      "date": "2026-07-07"
+    }
   ],
   "site_and_content": {
     "cms_and_tools": "Webflow (site markup), HubSpot (scripts + SPF include for hubspotemail), Google Tag Manager GTM-NHH8BVWB, Meta pixel (fbq), Comeet ATS on careers, Salesforce + Amazon SES in SPF, Canva and Google site verification in DNS TXT. Senior Performance Marketing JD asks for 'Familiarity with WordPress' (likely plaintiff-acquisition landing pages; inferred).",
@@ -65,9 +169,25 @@
   "jobs": {
     "boards": "Comeet (company 'darrow', uid D8.000) embedded in darrow.ai/careers; Ashby/Greenhouse/Lever boards 'darrow', 'darrowai', 'darrow-ai': none.",
     "open_roles": [
-      {"title": "Senior Performance Marketing NY", "dept": "Revenue", "location": "New York City", "url": "https://www.darrow.ai/careers/position-54_947", "notes": "Large-scale paid acquisition (Meta, LinkedIn, Google), PPC, A/B tests; 'Familiarity with WordPress'; $70-90k. JD says 100+ people in Israel, US & Europe. No SEO mention; reporting line not stated."},
-      {"title": "Litigation Partnership Executive", "dept": "Revenue", "location": "New York City", "url": "https://www.darrow.ai/careers/position-77_848"},
-      {"title": "Senior AI/ML Engineer", "dept": "R&D", "location": "Tel Aviv", "url": "https://www.darrow.ai/careers/position-1a_271"}
+      {
+        "title": "Senior Performance Marketing NY",
+        "dept": "Revenue",
+        "location": "New York City",
+        "url": "https://www.darrow.ai/careers/position-54_947",
+        "notes": "Large-scale paid acquisition (Meta, LinkedIn, Google), PPC, A/B tests; 'Familiarity with WordPress'; $70-90k. JD says 100+ people in Israel, US & Europe. No SEO mention; reporting line not stated."
+      },
+      {
+        "title": "Litigation Partnership Executive",
+        "dept": "Revenue",
+        "location": "New York City",
+        "url": "https://www.darrow.ai/careers/position-77_848"
+      },
+      {
+        "title": "Senior AI/ML Engineer",
+        "dept": "R&D",
+        "location": "Tel Aviv",
+        "url": "https://www.darrow.ai/careers/position-1a_271"
+      }
     ],
     "lead_posting": "Telegram 2026-11-16 'Senior Performance Marketing', Tel Aviv, 3+ years, link darrow.ai/careers/position-fd_744 returns 404 on 2026-11-19 (filled or pulled).",
     "earlier": "VP Marketing, Growth & Brand (NY, $210k) seen on Mediabistro/Vaia aggregators, ~Jul 2026 (unverified), apparently filled by Kari Szul.",
@@ -75,8 +195,22 @@
     "seo_roles": "none open"
   },
   "contacts": [
-    {"name": "Kari Szul", "role": "VP Marketing (since Jul 2026), New York", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result titles/snippets + public LinkedIn company page employee list (accessed 2026-11-19); profile not opened. No public email found.", "recipient_rank": 1},
-    {"name": "Evyatar (Evya) Ben Artzi", "role": "Co-Founder & CEO", "email": null, "email_verified": false, "source": "https://www.darrow.ai/company/about (accessed 2026-11-19); quoted in press releases", "recipient_rank": 2}
+    {
+      "name": "Kari Szul",
+      "role": "VP Marketing (since Jul 2026), New York",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result titles/snippets + public LinkedIn company page employee list (accessed 2026-11-19); profile not opened. No public email found.",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Evyatar (Evya) Ben Artzi",
+      "role": "Co-Founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.darrow.ai/company/about (accessed 2026-11-19); quoted in press releases",
+      "recipient_rank": 2
+    }
   ],
   "outreach_angle": {
     "hook": "Congrats on the Deloitte Fast 500 (announced 2026-11-19). Darrow now calls itself 'Legal Exposure Management' for law firms and insurers (new platform May 2026), but most of its indexed content still describes the 2025 plaintiff case-finding story, and the 2026 posts barely link to each other: does ChatGPT/Gemini describe Darrow in the new category, or still as a case-finder (or not at all) when an insurer asks about legal exposure tools? Offer the audit to the new VP Marketing.",
@@ -98,41 +232,176 @@
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no"
+    "contact_verified": "no",
+    "seo_need": "unassessed"
   },
   "sources": [
-    {"url": "https://t.me/s/hitechjobsmarketing", "date": "2026-11-16", "kind": "direct", "result": "Lead: Darrow AI, Senior Performance Marketing, Tel Aviv, 3+ years"},
-    {"url": "https://www.darrow.ai/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Homepage: Legal Exposure Management, law firms + insurers; Webflow, HubSpot, GTM, Meta pixel"},
-    {"url": "https://www.darrow.ai/company/about", "date": "accessed 2026-11-19", "kind": "direct", "result": "Leadership list, no marketing exec; investors Georgian, F2, Entree, NFX, YC"},
-    {"url": "https://www.darrow.ai/company/careers", "date": "accessed 2026-11-19", "kind": "direct", "result": "3 open roles incl. Senior Performance Marketing NY; Marketing department exists"},
-    {"url": "https://www.darrow.ai/careers/position-54_947", "date": "accessed 2026-11-19", "kind": "direct", "result": "Full JD: paid acquisition, $70-90k, 100+ people"},
-    {"url": "https://www.darrow.ai/sitemap.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "244 URLs, 142 blog posts, no comparison pages"},
-    {"url": "https://www.darrow.ai/resources/ (all 142 posts)", "date": "accessed 2026-11-19", "kind": "direct", "result": "Dates, word counts, link-aware internal-link counts per post"},
-    {"url": "https://www.darrow.ai/resources/darrows-new-season-announcing-our-35m-series-b-round", "date": "2023-09-19", "kind": "direct", "result": "$35M Series B led by Georgian"},
-    {"url": "https://techcrunch.com/2023/09/19/darrow-legal-tech/", "date": "2023-09-19", "kind": "direct", "result": "Search snippet confirms $35M round (article not opened)"},
-    {"url": "https://www.darrow.ai/press-releases/darrow-ranks-among-top-30-on-the-2026-inc-5000", "date": "2026-08-12", "kind": "direct", "result": "Inc. 5000, 250% growth; teaser list shows Deloitte Fast 500 release dated 2026-11-19"},
-    {"url": "https://www.darrow.ai/press-releases/darrow-names-mathew-keshav-lewis-as-chief-revenue-officer-us-general-manager", "date": "2024 (page says Series B 'last year')", "kind": "direct", "result": "First CRO & US GM; NY HQ"},
-    {"url": "https://web.archive.org/web/20250527030518/https://www.darrow.ai/", "date": "2025-05-27", "kind": "direct", "result": "Old positioning 'Legal Intelligence to Drive Results', PlaintiffLink (via Bright Data; direct fetch 403)"},
-    {"url": "https://www.linkedin.com/company/darrow-ai", "date": "accessed 2026-11-19", "kind": "direct", "result": "51-200 employees, HQ NY, 10,798 followers, employees incl. Kari Szul"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" marketing", "date": "accessed 2026-11-19", "kind": "direct", "result": "Titles: VP Marketing Kari Szul (Jul 2026), performance marketing team"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" SEO", "date": "accessed 2026-11-19", "kind": "direct", "result": "Ex Content and SEO Manager Sep 2024-Feb 2026, now at SEO agency; no current SEO person"},
-    {"url": "https://www.google.com/search?q=Darrow AI funding 2025 OR 2026 raises", "date": "accessed 2026-11-19", "kind": "direct", "result": "No round after Sep 2023 at a primary source; aggregators $55-63M total"},
-    {"url": "https://tracxn.com/d/companies/darrow", "date": "accessed 2026-11-19 (snippet)", "kind": "unverified", "result": "$63M over 3 rounds"},
-    {"url": "https://app.fundz.net", "date": "2026-07-07 (snippet)", "kind": "unverified", "result": "Garbled 'Series B July 2026 led by YC, despite layoffs'; contradicts primary sources"},
-    {"url": "https://crustdata.com/profiles/company/darrow", "date": "2026-08 (snippet)", "kind": "unverified", "result": "189 employees"},
-    {"url": "https://www.mediabistro.com/jobs/ (VP Marketing, Growth & Brand, Darrow AI)", "date": "2026-07-15 (snippet)", "kind": "unverified", "result": "VP Marketing role NY $210k"},
-    {"url": "https://www.lawnext.com/2026/05/ (Darrow, the 'AI Lab for Legal Risk')", "date": "2026-05-27 (snippet)", "kind": "direct", "result": "Platform launch coverage"},
-    {"url": "https://dns.google/resolve?name=darrow.ai&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "HubSpot, Salesforce, SES, Google SPF; Canva, Slack, Google verification"}
+    {
+      "url": "https://t.me/s/hitechjobsmarketing",
+      "date": "2026-11-16",
+      "kind": "direct",
+      "result": "Lead: Darrow AI, Senior Performance Marketing, Tel Aviv, 3+ years"
+    },
+    {
+      "url": "https://www.darrow.ai/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Homepage: Legal Exposure Management, law firms + insurers; Webflow, HubSpot, GTM, Meta pixel"
+    },
+    {
+      "url": "https://www.darrow.ai/company/about",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Leadership list, no marketing exec; investors Georgian, F2, Entree, NFX, YC"
+    },
+    {
+      "url": "https://www.darrow.ai/company/careers",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "3 open roles incl. Senior Performance Marketing NY; Marketing department exists"
+    },
+    {
+      "url": "https://www.darrow.ai/careers/position-54_947",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Full JD: paid acquisition, $70-90k, 100+ people"
+    },
+    {
+      "url": "https://www.darrow.ai/sitemap.xml",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "244 URLs, 142 blog posts, no comparison pages"
+    },
+    {
+      "url": "https://www.darrow.ai/resources/ (all 142 posts)",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Dates, word counts, link-aware internal-link counts per post"
+    },
+    {
+      "url": "https://www.darrow.ai/resources/darrows-new-season-announcing-our-35m-series-b-round",
+      "date": "2023-09-19",
+      "kind": "direct",
+      "result": "$35M Series B led by Georgian"
+    },
+    {
+      "url": "https://techcrunch.com/2023/09/19/darrow-legal-tech/",
+      "date": "2023-09-19",
+      "kind": "direct",
+      "result": "Search snippet confirms $35M round (article not opened)"
+    },
+    {
+      "url": "https://www.darrow.ai/press-releases/darrow-ranks-among-top-30-on-the-2026-inc-5000",
+      "date": "2026-08-12",
+      "kind": "direct",
+      "result": "Inc. 5000, 250% growth; teaser list shows Deloitte Fast 500 release dated 2026-11-19"
+    },
+    {
+      "url": "https://www.darrow.ai/press-releases/darrow-names-mathew-keshav-lewis-as-chief-revenue-officer-us-general-manager",
+      "date": "2024 (page says Series B 'last year')",
+      "kind": "direct",
+      "result": "First CRO & US GM; NY HQ"
+    },
+    {
+      "url": "https://web.archive.org/web/20250527030518/https://www.darrow.ai/",
+      "date": "2025-05-27",
+      "kind": "direct",
+      "result": "Old positioning 'Legal Intelligence to Drive Results', PlaintiffLink (via Bright Data; direct fetch 403)"
+    },
+    {
+      "url": "https://www.linkedin.com/company/darrow-ai",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "51-200 employees, HQ NY, 10,798 followers, employees incl. Kari Szul"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" marketing",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Titles: VP Marketing Kari Szul (Jul 2026), performance marketing team"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in \"Darrow AI\" SEO",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Ex Content and SEO Manager Sep 2024-Feb 2026, now at SEO agency; no current SEO person"
+    },
+    {
+      "url": "https://www.google.com/search?q=Darrow AI funding 2025 OR 2026 raises",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "No round after Sep 2023 at a primary source; aggregators $55-63M total"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/darrow",
+      "date": "accessed 2026-11-19 (snippet)",
+      "kind": "unverified",
+      "result": "$63M over 3 rounds"
+    },
+    {
+      "url": "https://app.fundz.net",
+      "date": "2026-07-07 (snippet)",
+      "kind": "unverified",
+      "result": "Garbled 'Series B July 2026 led by YC, despite layoffs'; contradicts primary sources"
+    },
+    {
+      "url": "https://crustdata.com/profiles/company/darrow",
+      "date": "2026-08 (snippet)",
+      "kind": "unverified",
+      "result": "189 employees"
+    },
+    {
+      "url": "https://www.mediabistro.com/jobs/ (VP Marketing, Growth & Brand, Darrow AI)",
+      "date": "2026-07-15 (snippet)",
+      "kind": "unverified",
+      "result": "VP Marketing role NY $210k"
+    },
+    {
+      "url": "https://www.lawnext.com/2026/05/ (Darrow, the 'AI Lab for Legal Risk')",
+      "date": "2026-05-27 (snippet)",
+      "kind": "direct",
+      "result": "Platform launch coverage"
+    },
+    {
+      "url": "https://dns.google/resolve?name=darrow.ai&type=TXT",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "HubSpot, Salesforce, SES, Google SPF; Canva, Slack, Google verification"
+    }
   ],
   "sources_tried_failed": [
-    {"url": "https://darrow.ai/careers/position-fd_744", "result": "404 (Telegram-linked TLV posting removed)"},
-    {"url": "https://www.comeet.co/careers-api/2.0/company/D8.000/positions", "result": "not fetched (blocked by session permission policy)"},
-    {"url": "https://www.comeet.com/jobs/darrow/D8.000", "result": "no job data in returned page"},
-    {"url": "Ashby/Greenhouse/Lever boards darrow, darrowai, darrow-ai", "result": "none"},
-    {"url": "https://www.darrow.ai/blog?2d1d498b_page=N", "result": "pagination returns page 1 (client-side); used sitemap + per-post reads instead"},
-    {"url": "http://web.archive.org/web/20250527030518/https://www.darrow.ai/", "result": "403 direct; succeeded via Bright Data"},
-    {"url": "Google 'Darrow AI raises funding 2026' and '\"Darrow AI\" head of marketing ...'", "result": "empty response from Bright Data (0 bytes); reran with other wording"},
-    {"url": "Google site:linkedin.com/in '\"at Darrow\" VP Marketing OR CMO'", "result": "irrelevant results (name collisions with 'Darrow' surname / Arrow)"}
+    {
+      "url": "https://darrow.ai/careers/position-fd_744",
+      "result": "404 (Telegram-linked TLV posting removed)"
+    },
+    {
+      "url": "https://www.comeet.co/careers-api/2.0/company/D8.000/positions",
+      "result": "not fetched (blocked by session permission policy)"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/darrow/D8.000",
+      "result": "no job data in returned page"
+    },
+    {
+      "url": "Ashby/Greenhouse/Lever boards darrow, darrowai, darrow-ai",
+      "result": "none"
+    },
+    {
+      "url": "https://www.darrow.ai/blog?2d1d498b_page=N",
+      "result": "pagination returns page 1 (client-side); used sitemap + per-post reads instead"
+    },
+    {
+      "url": "http://web.archive.org/web/20250527030518/https://www.darrow.ai/",
+      "result": "403 direct; succeeded via Bright Data"
+    },
+    {
+      "url": "Google 'Darrow AI raises funding 2026' and '\"Darrow AI\" head of marketing ...'",
+      "result": "empty response from Bright Data (0 bytes); reran with other wording"
+    },
+    {
+      "url": "Google site:linkedin.com/in '\"at Darrow\" VP Marketing OR CMO'",
+      "result": "irrelevant results (name collisions with 'Darrow' surname / Arrow)"
+    }
   ],
   "linkedin_checks_for_sponsor": [
     "Darrow AI company page > People tab, filter 'marketing': confirm Kari Szul is current VP Marketing and see who reports into marketing (content, PMM, brand) vs the performance/plaintiff-acquisition team",

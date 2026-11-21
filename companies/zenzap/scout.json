@@ -11,23 +11,73 @@
   "marketing_leadership": {
     "status": "found",
     "who": [
-      {"name": "Boris Zlatkin", "role": "VP Marketing", "location": "Israel (per snippet)", "kind": "direct (search snippet title + company LinkedIn page employee list)"},
-      {"name": "Shiri Lasman", "role": "Marketing Manager", "location": "Israel (per snippet)", "kind": "direct (search snippet)"},
-      {"name": "Rebecca Lazar", "role": "Senior Product Marketing Manager", "location": "Tel Aviv (per snippet)", "kind": "direct (search snippet)"},
-      {"name": "Jonathan Stein", "role": "Content Marketing Manager", "location": "Israel (per snippet)", "kind": "direct (search snippet)"},
-      {"name": "Nir Yannai", "role": "VP Revenue and Growth", "location": "United States (per snippet)", "kind": "direct (search snippet)"}
+      {
+        "name": "Boris Zlatkin",
+        "role": "VP Marketing",
+        "location": "Israel (per snippet)",
+        "kind": "direct (search snippet title + company LinkedIn page employee list)"
+      },
+      {
+        "name": "Shiri Lasman",
+        "role": "Marketing Manager",
+        "location": "Israel (per snippet)",
+        "kind": "direct (search snippet)"
+      },
+      {
+        "name": "Rebecca Lazar",
+        "role": "Senior Product Marketing Manager",
+        "location": "Tel Aviv (per snippet)",
+        "kind": "direct (search snippet)"
+      },
+      {
+        "name": "Jonathan Stein",
+        "role": "Content Marketing Manager",
+        "location": "Israel (per snippet)",
+        "kind": "direct (search snippet)"
+      },
+      {
+        "name": "Nir Yannai",
+        "role": "VP Revenue and Growth",
+        "location": "United States (per snippet)",
+        "kind": "direct (search snippet)"
+      }
     ],
     "evidence": [
-      {"claim": "'Boris Zlatkin - VP Marketing @ Zenzap | Building the Future of Work Communication'; snippet: 'Led Spot's digital marketing strategy, overseeing SEO, con...'", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Zenzap\" (SEO OR content OR growth) (via Bright Data)", "date": "accessed 2026-11-19 (snippet undated)"},
-      {"claim": "Boris Zlatkin is listed under 'Employees at Zenzap' on the public company page", "kind": "direct", "url": "https://www.linkedin.com/company/zenzap", "date": "accessed 2026-11-19"}
+      {
+        "claim": "'Boris Zlatkin - VP Marketing @ Zenzap | Building the Future of Work Communication'; snippet: 'Led Spot's digital marketing strategy, overseeing SEO, con...'",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in \"Zenzap\" (SEO OR content OR growth) (via Bright Data)",
+        "date": "accessed 2026-11-19 (snippet undated)"
+      },
+      {
+        "claim": "Boris Zlatkin is listed under 'Employees at Zenzap' on the public company page",
+        "kind": "direct",
+        "url": "https://www.linkedin.com/company/zenzap",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "seo_team": {
     "status": "couldn't verify",
     "evidence": [
-      {"claim": "No SEO, organic or GEO title found among Zenzap people in three site:linkedin.com/in Google searches (marketing / VP-CMO / SEO-content-growth). The logged-out view is limited, so absence is weak", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Zenzap\" (SEO OR content OR growth)", "date": "accessed 2026-11-19"},
-      {"claim": "No public job board (Ashby/Greenhouse/Lever/Comeet) and no careers page, so no SEO job post to read", "kind": "direct", "url": "https://www.zenzap.co/careers/", "date": "accessed 2026-11-19"},
-      {"claim": "A Content Marketing Manager exists (Jonathan Stein, formerly a Senior Brand and B2B Copywriter at Natural Intelligence). He is likely the content owner, but no SEO title", "kind": "direct", "url": "Google site:linkedin.com/in snippet (via Bright Data)", "date": "accessed 2026-11-19"}
+      {
+        "claim": "No SEO, organic or GEO title found among Zenzap people in three site:linkedin.com/in Google searches (marketing / VP-CMO / SEO-content-growth). The logged-out view is limited, so absence is weak",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in \"Zenzap\" (SEO OR content OR growth)",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "No public job board (Ashby/Greenhouse/Lever/Comeet) and no careers page, so no SEO job post to read",
+        "kind": "direct",
+        "url": "https://www.zenzap.co/careers/",
+        "date": "accessed 2026-11-19"
+      },
+      {
+        "claim": "A Content Marketing Manager exists (Jonathan Stein, formerly a Senior Brand and B2B Copywriter at Natural Intelligence). He is likely the content owner, but no SEO title",
+        "kind": "direct",
+        "url": "Google site:linkedin.com/in snippet (via Bright Data)",
+        "date": "accessed 2026-11-19"
+      }
     ]
   },
   "situation": {
@@ -41,14 +91,54 @@
     "source": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe"
   },
   "fit_evidence": [
-    {"claim": "Series A $33M closed Aug 2025, announced Oct 14 2026; 45 employees across Tel Aviv, US and Europe; customers in healthcare and financial services", "kind": "direct", "url": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe", "date": "2026-10-14"},
-    {"claim": "$44M total from Bessemer, Lightspeed, The Garage plus angels (Wix president Nir Zohar); first-time fundraise for the CEO; product positioned against WhatsApp at work", "kind": "direct", "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/", "date": "2026-10-14"},
-    {"claim": "Category change: homepage title 'Zenzap - Powerful chat to manage your business' (Dec 2024) -> 'Zenzap - The Professional Work Chat App' / H1 'Work Chat Built for the AI Era' (May 2026) -> 'Zenzap | AI Agents for Work' (Nov 2026)", "kind": "direct", "url": "http://web.archive.org/web/20260518224029/https://www.zenzap.co/", "date": "2024-12-31 / 2026-05-18 / accessed 2026-11-19"},
-    {"claim": "403 blog posts (WP REST API), first 2024-05-13, last 2026-11-19. Volume runs from Aug 2025 at about 17-36 a month. 81% of posts predate Aug 2026; 'agent' appears in 43 titles, all published Sept 2026 or later", "kind": "direct", "url": "https://www.zenzap.co/wp-json/wp/v2/blog?per_page=100", "date": "accessed 2026-11-19"},
-    {"claim": "36 self-ranking listicles ('The Top 10 companies in the professional work chat app space for ...'), with Zenzap ranked #1 in the one read, plus 46 'Zenzap vs X' posts (Slack, Teams, WhatsApp, Chanty, Flock, Twist, Signal, Telegram, Zoom, Google Chat), many near-duplicates. This is a volume GEO-style pattern", "kind": "direct", "url": "https://www.zenzap.co/blog-posts/the-top-10-companies-in-the-professional-work-chat-app-space-for-small-businesses/", "date": "accessed 2026-11-19"},
-    {"claim": "Thin contextual internal linking: link-aware reads of 4 posts across 2025-2026 found 0, 1, 2 and 1 in-body internal links, with generic anchors ('Zenzap', 'this internal guide'). There is no author byline and no Article/BlogPosting schema (only WebPage/Breadcrumb/Organization via Yoast)", "kind": "direct", "url": "https://www.zenzap.co/blog-posts/zenzap-vs-traditional-messaging-which-team-communication-app-boosts-sme-productivity/", "date": "accessed 2026-11-19"},
-    {"claim": "Third-party 'Zenzap alternatives' pages target the brand (G2: 'best alternatives are ClickUp, Slack, monday AI Work Platform'; GetApp, Capterra, SoftwareSuggest), plus a WindowsForum piece 'Zenzap vs Teams Copilot vs Slack AI: Business Memory in 2026'", "kind": "direct", "url": "https://www.google.com/search?q=\"Zenzap vs\" OR \"Zenzap alternatives\" -site:zenzap.co", "date": "accessed 2026-11-19 (Google result titles/snippets via Bright Data; G2 page itself not opened)"},
-    {"claim": "Has a VP Marketing and a 4-5 person marketing org, with no SEO title found", "kind": "inferred", "url": "https://www.linkedin.com/company/zenzap", "date": "accessed 2026-11-19"}
+    {
+      "claim": "Series A $33M closed Aug 2025, announced Oct 14 2026; 45 employees across Tel Aviv, US and Europe; customers in healthcare and financial services",
+      "kind": "direct",
+      "url": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe",
+      "date": "2026-10-14"
+    },
+    {
+      "claim": "$44M total from Bessemer, Lightspeed, The Garage plus angels (Wix president Nir Zohar); first-time fundraise for the CEO; product positioned against WhatsApp at work",
+      "kind": "direct",
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "date": "2026-10-14"
+    },
+    {
+      "claim": "Category change: homepage title 'Zenzap - Powerful chat to manage your business' (Dec 2024) -> 'Zenzap - The Professional Work Chat App' / H1 'Work Chat Built for the AI Era' (May 2026) -> 'Zenzap | AI Agents for Work' (Nov 2026)",
+      "kind": "direct",
+      "url": "http://web.archive.org/web/20260518224029/https://www.zenzap.co/",
+      "date": "2024-12-31 / 2026-05-18 / accessed 2026-11-19"
+    },
+    {
+      "claim": "403 blog posts (WP REST API), first 2024-05-13, last 2026-11-19. Volume runs from Aug 2025 at about 17-36 a month. 81% of posts predate Aug 2026; 'agent' appears in 43 titles, all published Sept 2026 or later",
+      "kind": "direct",
+      "url": "https://www.zenzap.co/wp-json/wp/v2/blog?per_page=100",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "36 self-ranking listicles ('The Top 10 companies in the professional work chat app space for ...'), with Zenzap ranked #1 in the one read, plus 46 'Zenzap vs X' posts (Slack, Teams, WhatsApp, Chanty, Flock, Twist, Signal, Telegram, Zoom, Google Chat), many near-duplicates. This is a volume GEO-style pattern",
+      "kind": "direct",
+      "url": "https://www.zenzap.co/blog-posts/the-top-10-companies-in-the-professional-work-chat-app-space-for-small-businesses/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Thin contextual internal linking: link-aware reads of 4 posts across 2025-2026 found 0, 1, 2 and 1 in-body internal links, with generic anchors ('Zenzap', 'this internal guide'). There is no author byline and no Article/BlogPosting schema (only WebPage/Breadcrumb/Organization via Yoast)",
+      "kind": "direct",
+      "url": "https://www.zenzap.co/blog-posts/zenzap-vs-traditional-messaging-which-team-communication-app-boosts-sme-productivity/",
+      "date": "accessed 2026-11-19"
+    },
+    {
+      "claim": "Third-party 'Zenzap alternatives' pages target the brand (G2: 'best alternatives are ClickUp, Slack, monday AI Work Platform'; GetApp, Capterra, SoftwareSuggest), plus a WindowsForum piece 'Zenzap vs Teams Copilot vs Slack AI: Business Memory in 2026'",
+      "kind": "direct",
+      "url": "https://www.google.com/search?q=\"Zenzap vs\" OR \"Zenzap alternatives\" -site:zenzap.co",
+      "date": "accessed 2026-11-19 (Google result titles/snippets via Bright Data; G2 page itself not opened)"
+    },
+    {
+      "claim": "Has a VP Marketing and a 4-5 person marketing org, with no SEO title found",
+      "kind": "inferred",
+      "url": "https://www.linkedin.com/company/zenzap",
+      "date": "accessed 2026-11-19"
+    }
   ],
   "site_and_content": {
     "cms": "WordPress (Roots Bedrock/Sage theme 'sage-acf-starter', Yoast SEO); uploads start 2026/09 and the favicon filename is a Webflow asset id, so it migrated from Webflow around Sept 2026 (Wayback Dec 2024 and May 2026 snapshots show Webflow). inferred",
@@ -66,9 +156,30 @@
     "marketing_roles": []
   },
   "contacts": [
-    {"name": "Boris Zlatkin", "role": "VP Marketing", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in snippet title (via Bright Data) + company LinkedIn page employee list, accessed 2026-11-19", "recipient_rank": 1},
-    {"name": "Guy Weiss", "role": "CEO and co-founder", "email": null, "email_verified": false, "source": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe (2026-10-14); TechCrunch 2026-10-14", "recipient_rank": 2},
-    {"name": "Jonathan Stein", "role": "Content Marketing Manager", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in snippet (via Bright Data), accessed 2026-11-19", "recipient_rank": 3}
+    {
+      "name": "Boris Zlatkin",
+      "role": "VP Marketing",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in snippet title (via Bright Data) + company LinkedIn page employee list, accessed 2026-11-19",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Guy Weiss",
+      "role": "CEO and co-founder",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe (2026-10-14); TechCrunch 2026-10-14",
+      "recipient_rank": 2
+    },
+    {
+      "name": "Jonathan Stein",
+      "role": "Content Marketing Manager",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in snippet (via Bright Data), accessed 2026-11-19",
+      "recipient_rank": 3
+    }
   ],
   "outreach_angle": {
     "hook": "On Oct 14 Zenzap stepped out of stealth as 'AI agents for work', yet about 330 of its 403 blog posts (published before Aug 2026) describe a 'professional work chat app', and the 36 'Top 10 work chat apps' lists rank Zenzap #1 for the old category. The audit question: when buyers ask ChatGPT or Gemini about AI agents for teams, does Zenzap show up as an agent platform, or still as a WhatsApp-for-work chat app?",
@@ -90,35 +201,142 @@
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no"
+    "contact_verified": "no",
+    "seo_need": "unassessed"
   },
   "sources": [
-    {"url": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe", "date": "2026-10-14", "kind": "direct", "result": "$33M Series A, Bessemer + Lightspeed co-lead, The Garage; $44M total; seed $11M in 2022; Series A closed Aug 2025; emerging from stealth; 45 employees; founders"},
-    {"url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/", "date": "2026-10-14", "kind": "direct", "result": "$44M total, investors and angels, founder background, WhatsApp-at-work positioning"},
-    {"url": "https://www.zenzap.co/about-us/", "date": "accessed 2026-11-19", "kind": "direct", "result": "'In October 2026, Zenzap emerged from stealth'; 10,500+ teams, 15,000+ agents, $44M, 400+ connectors, founded 2022"},
-    {"url": "https://www.zenzap.co/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Title 'Zenzap | AI Agents for Work'; WordPress/Sage; HubSpot, GTM, VWO"},
-    {"url": "https://www.zenzap.co/sitemap_index.xml", "date": "accessed 2026-11-19", "kind": "direct", "result": "Yoast: 31 pages, 403 blog, 719 connectors, 26 customers, 15 solutions, 2 webinars"},
-    {"url": "https://www.zenzap.co/wp-json/wp/v2/blog?per_page=100&page=1..5", "date": "accessed 2026-11-19", "kind": "direct", "result": "403 posts with dates and titles; cadence computed"},
-    {"url": "https://www.zenzap.co/blog-posts/the-top-10-companies-in-the-professional-work-chat-app-space-for-small-businesses/", "date": "accessed 2026-11-19", "kind": "direct", "result": "Self-ranking list, Zenzap #1; 1 in-body internal link"},
-    {"url": "https://www.zenzap.co/blog-posts/slack-vs-discord-which-chat-app-actually-works-for-your-team/", "date": "accessed 2026-11-19 (post 2025-06-18)", "kind": "direct", "result": "831 words, 0 internal links"},
-    {"url": "https://www.zenzap.co/blog-posts/building-ai-agents-vs-hiring-ai-employees-what-every-manager-in-ai-work-must-consider/", "date": "accessed 2026-11-19 (post Nov 2026)", "kind": "direct", "result": "2 internal links, descriptive-ish anchors"},
-    {"url": "https://dns.google/resolve?name=zenzap.co&type=TXT", "date": "accessed 2026-11-19", "kind": "direct", "result": "Google Workspace, Zoom, Twilio, Paddle, Zapier, Slack, Cursor, MongoDB, TikTok TXT tokens"},
-    {"url": "http://web.archive.org/web/20241231235843/https://www.zenzap.co/", "date": "2024-12-31", "kind": "direct", "result": "Webflow, 'Powerful Chat to Manage Your Business' (via Bright Data; direct fetch got 403)"},
-    {"url": "http://web.archive.org/web/20260518224029/https://www.zenzap.co/", "date": "2026-05-18", "kind": "direct", "result": "Webflow, 'The Professional Work Chat App' / 'Work Chat Built for the AI Era'"},
-    {"url": "https://www.linkedin.com/company/zenzap", "date": "accessed 2026-11-19", "kind": "direct", "result": "Via Bright Data: 51-200 employees, HQ New York, founded 2023 (per page), 13,516 followers; employees listed include Boris Zlatkin"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in \"Zenzap\" marketing", "date": "accessed 2026-11-19", "kind": "direct", "result": "Titles: Marketing Manager, Senior PMM, VP Marketing, Content Marketing Manager, CEO, COO, sales, BD"},
-    {"url": "https://www.google.com/search?q=\"Zenzap vs\" OR \"Zenzap alternatives\" -site:zenzap.co", "date": "accessed 2026-11-19", "kind": "direct", "result": "G2, GetApp, Capterra, SoftwareSuggest alternatives pages; WindowsForum comparison; Findstack; Solid Growth"},
-    {"url": "https://www.thesaasnews.com/news/zenzap-raises-33m-series-a/", "date": "2026-10", "kind": "unverified", "result": "aggregator, not read; listed only"},
-    {"url": "https://aifunding.me/companies/zenzap", "date": "accessed 2026-11-19", "kind": "unverified", "result": "aggregator (search summary) shows $77M, double-counted; ignored"}
+    {
+      "url": "https://www.calcalistech.com/ctechnews/article/b1zgob6jfe",
+      "date": "2026-10-14",
+      "kind": "direct",
+      "result": "$33M Series A, Bessemer + Lightspeed co-lead, The Garage; $44M total; seed $11M in 2022; Series A closed Aug 2025; emerging from stealth; 45 employees; founders"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "date": "2026-10-14",
+      "kind": "direct",
+      "result": "$44M total, investors and angels, founder background, WhatsApp-at-work positioning"
+    },
+    {
+      "url": "https://www.zenzap.co/about-us/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "'In October 2026, Zenzap emerged from stealth'; 10,500+ teams, 15,000+ agents, $44M, 400+ connectors, founded 2022"
+    },
+    {
+      "url": "https://www.zenzap.co/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Title 'Zenzap | AI Agents for Work'; WordPress/Sage; HubSpot, GTM, VWO"
+    },
+    {
+      "url": "https://www.zenzap.co/sitemap_index.xml",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Yoast: 31 pages, 403 blog, 719 connectors, 26 customers, 15 solutions, 2 webinars"
+    },
+    {
+      "url": "https://www.zenzap.co/wp-json/wp/v2/blog?per_page=100&page=1..5",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "403 posts with dates and titles; cadence computed"
+    },
+    {
+      "url": "https://www.zenzap.co/blog-posts/the-top-10-companies-in-the-professional-work-chat-app-space-for-small-businesses/",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Self-ranking list, Zenzap #1; 1 in-body internal link"
+    },
+    {
+      "url": "https://www.zenzap.co/blog-posts/slack-vs-discord-which-chat-app-actually-works-for-your-team/",
+      "date": "accessed 2026-11-19 (post 2025-06-18)",
+      "kind": "direct",
+      "result": "831 words, 0 internal links"
+    },
+    {
+      "url": "https://www.zenzap.co/blog-posts/building-ai-agents-vs-hiring-ai-employees-what-every-manager-in-ai-work-must-consider/",
+      "date": "accessed 2026-11-19 (post Nov 2026)",
+      "kind": "direct",
+      "result": "2 internal links, descriptive-ish anchors"
+    },
+    {
+      "url": "https://dns.google/resolve?name=zenzap.co&type=TXT",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Google Workspace, Zoom, Twilio, Paddle, Zapier, Slack, Cursor, MongoDB, TikTok TXT tokens"
+    },
+    {
+      "url": "http://web.archive.org/web/20241231235843/https://www.zenzap.co/",
+      "date": "2024-12-31",
+      "kind": "direct",
+      "result": "Webflow, 'Powerful Chat to Manage Your Business' (via Bright Data; direct fetch got 403)"
+    },
+    {
+      "url": "http://web.archive.org/web/20260518224029/https://www.zenzap.co/",
+      "date": "2026-05-18",
+      "kind": "direct",
+      "result": "Webflow, 'The Professional Work Chat App' / 'Work Chat Built for the AI Era'"
+    },
+    {
+      "url": "https://www.linkedin.com/company/zenzap",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Via Bright Data: 51-200 employees, HQ New York, founded 2023 (per page), 13,516 followers; employees listed include Boris Zlatkin"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in \"Zenzap\" marketing",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "Titles: Marketing Manager, Senior PMM, VP Marketing, Content Marketing Manager, CEO, COO, sales, BD"
+    },
+    {
+      "url": "https://www.google.com/search?q=\"Zenzap vs\" OR \"Zenzap alternatives\" -site:zenzap.co",
+      "date": "accessed 2026-11-19",
+      "kind": "direct",
+      "result": "G2, GetApp, Capterra, SoftwareSuggest alternatives pages; WindowsForum comparison; Findstack; Solid Growth"
+    },
+    {
+      "url": "https://www.thesaasnews.com/news/zenzap-raises-33m-series-a/",
+      "date": "2026-10",
+      "kind": "unverified",
+      "result": "aggregator, not read; listed only"
+    },
+    {
+      "url": "https://aifunding.me/companies/zenzap",
+      "date": "accessed 2026-11-19",
+      "kind": "unverified",
+      "result": "aggregator (search summary) shows $77M, double-counted; ignored"
+    }
   ],
   "sources_tried_failed": [
-    {"url": "https://api.ashbyhq.com/posting-api/job-board/zenzap (+ greenhouse, lever; also zenzap-ai, zenzapco)", "result": "no board or empty"},
-    {"url": "https://www.comeet.com/jobs/zenzap", "result": "404"},
-    {"url": "https://www.zenzap.co/careers/ and /jobs/", "result": "soft 404 (homepage served)"},
-    {"url": "https://www.zenzap.co/llms.txt", "result": "soft 404 (homepage served)"},
-    {"url": "http://web.archive.org/web/20251229155443/https://www.zenzap.co/", "result": "empty body via Bright Data; direct got 403"},
-    {"url": "https://www.google.com/search?q=Zenzap jobs marketing OR SEO OR growth 2026", "result": "irrelevant results (name collisions: Zen, ZennoLab); only a BeBee aggregator listing"},
-    {"url": "web search '\"Boris Zlatkin\" Zenzap marketing'", "result": "no press or bio confirming the role outside LinkedIn; Product Hunt profile of a Boris Zlatkin (ecom/SEO tools) may be the same person, not confirmed"}
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/zenzap (+ greenhouse, lever; also zenzap-ai, zenzapco)",
+      "result": "no board or empty"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/zenzap",
+      "result": "404"
+    },
+    {
+      "url": "https://www.zenzap.co/careers/ and /jobs/",
+      "result": "soft 404 (homepage served)"
+    },
+    {
+      "url": "https://www.zenzap.co/llms.txt",
+      "result": "soft 404 (homepage served)"
+    },
+    {
+      "url": "http://web.archive.org/web/20251229155443/https://www.zenzap.co/",
+      "result": "empty body via Bright Data; direct got 403"
+    },
+    {
+      "url": "https://www.google.com/search?q=Zenzap jobs marketing OR SEO OR growth 2026",
+      "result": "irrelevant results (name collisions: Zen, ZennoLab); only a BeBee aggregator listing"
+    },
+    {
+      "url": "web search '\"Boris Zlatkin\" Zenzap marketing'",
+      "result": "no press or bio confirming the role outside LinkedIn; Product Hunt profile of a Boris Zlatkin (ecom/SEO tools) may be the same person, not confirmed"
+    }
   ],
   "linkedin_checks_for_sponsor": [
     "Zenzap company page -> People tab, search 'SEO', 'organic', 'growth', 'content': is anyone in an SEO/GEO role, or is there an agency?",
