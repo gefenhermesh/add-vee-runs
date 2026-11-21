@@ -1,0 +1,452 @@
+{
+  "scout_version": 3,
+  "company": "Elpida",
+  "domain": "getelpida.com",
+  "slug": "elpida",
+  "scouted": "2026-11-21",
+  "source_of_lead": "Sponsor asked for it by name; lead from Startup Nation Central Finder profile (finder.startupnationcentral.org/company_page/elpida).",
+  "reason": "Do not propose. Pre-seed, ~9 people, no marketing leader (CBO/founders run growth), and since ~Nov 2026 Elpida sells its own free 'AEO Pulse' AI-visibility report to any business, i.e. it competes with the sponsor's offer.",
+  "gating_rating": "too_early",
+  "gating_note": "No marketing leader found: About page lists CEO, CBO (business/partnership/growth), CTO, President, VP Data; LinkedIn content is posted by the CBO, CTO and company page. Outbound PR via an agency (Propel Strategic Communications). No SEO person or team. Too early by the table, and an exception isn't justified because the company now offers an AI-answer-engine readiness product of its own (conflict, and 'they may take the ideas' risk applies in full).",
+  "competitor_of_sponsor": {
+    "status": "found",
+    "detail": "Homepage nav item and section 'AEO Pulse: see how AI answers describe your brand' -> tools.getelpida.com/aeo-pulse/check: free AI readiness report (six areas: how AI describes you, share of AI answers, content coverage, sources AI trusts, agent readability, technical access) plus a 7-day guided support plan; 'Built for growing businesses: founders and owners, CMOs and marketing leads, growth leads'; 'For any business'. Not present in the Wayback snapshot of 2026-10-31; homepage sitemap lastmod 2026-11-15, so launched roughly 1-15 Nov 2026 (inferred). Stripe verification TXT suggests paid self-serve plans (inferred).",
+    "kind": "direct",
+    "urls": [
+      "https://getelpida.com/",
+      "https://tools.getelpida.com/aeo-pulse/check"
+    ],
+    "date": "accessed 2026-11-21"
+  },
+  "marketing_leadership": {
+    "status": "not found",
+    "who": [
+      {
+        "name": "Omri Dolev",
+        "role": "CBO & Co-Founder (Business, Partnership & Growth)",
+        "note": "closest to a marketing owner; writes the brand's LinkedIn content"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Team on About page: Gal Levenhaim CEO & Co-Founder; Omri Dolev CBO & Co-Founder; Ben Ari Kutai CTO & Co-Founder; Kobi Marenko President & Co-Founder (Arbe, Taptica); Yuval Menchik VP Data. No marketing title.",
+        "kind": "direct",
+        "url": "https://getelpida.com/about/",
+        "date": "page lastmod 2026-03-08, accessed 2026-11-21"
+      },
+      {
+        "claim": "LinkedIn company page: 2-10 employees, 'View all 9 employees', 359 followers, HQ New York; posts authored/reshared from CBO and CTO.",
+        "kind": "direct",
+        "url": "https://www.linkedin.com/company/getelpida/",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "Google site:linkedin.com/in searches return only name collisions (people named Elpida) plus the CEO's title; no marketing title at this Elpida seen in snippets.",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22%40Elpida%22+OR+%22at+Elpida%22+regulatory+AI+healthcare",
+        "date": "2026-11-21"
+      }
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      {
+        "claim": "Blog ('Velocity') has 8 posts, all published 15-27 Feb 2026; none since. Posts ~500 words, no contextual in-body internal links (link-aware read: only nav/related-post/footer anchors).",
+        "kind": "direct",
+        "url": "https://getelpida.com/wp-sitemap-posts-post-1.xml",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "No SEO/content roles: no Ashby/Greenhouse/Lever board (elpida, getelpida, elpida-ai), no careers page (/careers/ and /jobs/ 404), Comeet 404.",
+        "kind": "direct",
+        "url": "https://getelpida.com/careers/",
+        "date": "2026-11-21"
+      }
+    ]
+  },
+  "situation": {
+    "estimate": "Pre-seed (Fresh Fund, Jan 2026, amount undisclosed), founded mid-2025, ~9 people, Israel/US (Tel Aviv dateline, Delaware office, LinkedIn HQ New York). Category language has moved fast: Jan 2026 'AI GTM strategies and compliant campaigns for healthcare & wellness brands' -> Mar 2026 launch as 'AI-powered marketing compliance platform' (Business Wire) -> May 'The MLR Operating System' -> Oct 'Your AI Regulatory Brain' -> Nov 2026 adds a horizontal 'AEO Pulse' AI-visibility product for any business. GTM looks founder/partner-led (RAPS conference, partnering with regulatory consultancies and agencies, Publicis Israel testimonial) with a PR agency for launches. Heading: still searching for product-market fit, now hedging into a self-serve AEO tool.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "launch",
+    "detail": "Business Wire launch of the AI marketing-compliance platform (23 Mar 2026); pre-seed from Fresh Fund Jan 2026 (unverified, SNC Finder only); newest: AEO Pulse launch ~Nov 2026 (inferred from site/Wayback).",
+    "date": "2026-03-23",
+    "source": "https://www.businesswire.com/news/home/20260323942268/en/Elpida-Launches-New-AI-Powered-Marketing-Compliance-Platform-for-the-Healthcare-Industry"
+  },
+  "fit_evidence": [
+    {
+      "claim": "Right company: SNC Finder profile links to getelpida.com and linkedin.com/company/105728526; founder Gal Levenhaim matches the site's About page. Not Elpida Memory or other Elpidas.",
+      "kind": "direct",
+      "url": "https://finder.startupnationcentral.org/company_page/elpida",
+      "date": "profile snippet dated 2026-02-17; accessed 2026-11-21"
+    },
+    {
+      "claim": "Pre-seed from Fresh Fund in January 2026, 1-10 employees, founded June 2025.",
+      "kind": "unverified",
+      "url": "https://finder.startupnationcentral.org/company_page/elpida",
+      "date": "2026-02-17"
+    },
+    {
+      "claim": "Fresh Fund newsroom lists 'Elpida Launches AI Marketing Compliance Platform' as portfolio news (confirms Fresh Fund relationship).",
+      "kind": "direct",
+      "url": "https://www.fresh.fund/news-room",
+      "date": "item dated 2026-03-31"
+    },
+    {
+      "claim": "Launch press release, Tel Aviv dateline, CEO quote, PR contact at Propel Strategic Communications; no funding amount mentioned.",
+      "kind": "direct",
+      "url": "https://www.businesswire.com/news/home/20260323942268/en/Elpida-Launches-New-AI-Powered-Marketing-Compliance-Platform-for-the-Healthcare-Industry",
+      "date": "2026-03-23"
+    },
+    {
+      "claim": "Elpida sells an AI answer-engine (AEO/GEO) readiness report and 7-day support plan to any business: direct overlap with the sponsor's AI-visibility audit.",
+      "kind": "direct",
+      "url": "https://tools.getelpida.com/aeo-pulse/check",
+      "date": "accessed 2026-11-21"
+    },
+    {
+      "claim": "Brand search 'getelpida' on Google does not return getelpida.com in the first page; 'Elpida MLR' returns only unrelated results.",
+      "kind": "direct",
+      "url": "https://www.google.com/search?q=getelpida",
+      "date": "2026-11-21"
+    }
+  ],
+  "site_and_content": {
+    "cms": "WordPress, custom theme 'elpida'; GTM container GTM-WNZNN7WP; WP core sitemaps (wp-sitemap.xml), no SEO plugin markers seen",
+    "pages": "Single long homepage + About + 8 blog posts + legal pages; duplicate drafts in sitemap (home-page, home-page-2, blog-page, article-page, a page slugged 'https-getelpida-com-category-velocity')",
+    "blog": "8 posts, all Feb 15-27 2026 (sitemap lastmod), none since; ~500 words each; category 'Velocity'; authors gil/omri/ori; no contextual in-body internal links (raw-HTML anchor read of 'not-all-violations-were-born-equal')",
+    "comparison_pages": "none on their site; no competitor 'vs Elpida' or 'Elpida alternatives' page found",
+    "lead_magnets": "free 'violations audit report', 7-day Perimeter Assessment, AEO Pulse free report (tools.getelpida.com)",
+    "dns_txt_tools": "Google Workspace, Brevo (2 codes), HubSpot email SPF, Mailgun, Stripe verification, Microsoft (MS=), Google Search Console, Anthropic domain verification",
+    "wayback": "2026-01-14 'Scale with Confidence' AI GTM for healthcare & wellness; 2026-05-07 'Move Fast. Break Nothing. The MLR Operating System'; 2026-10-31 'Your AI Regulatory Brain', no AEO; 2026-11-21 live adds AEO Pulse",
+    "robots": "standard WordPress; no llms.txt (404)"
+  },
+  "jobs": {
+    "status": "not found",
+    "boards_tried": [
+      "ashby/greenhouse/lever: elpida, getelpida, elpida-ai (no board)",
+      "comeet.com/jobs/elpida (404)",
+      "getelpida.com/careers/ and /jobs/ (404)"
+    ],
+    "marketing_roles": [],
+    "note": "LinkedIn jobs tab not checked logged-in"
+  },
+  "contacts": [
+    {
+      "name": "Gal Levenhaim",
+      "role": "CEO & Co-Founder",
+      "email": null,
+      "email_verified": false,
+      "source": "https://getelpida.com/about/ ; Business Wire release 2026-03-23",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Omri Dolev",
+      "role": "CBO & Co-Founder (business, partnership & growth)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://getelpida.com/about/",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "None recommended. If the sponsor still wants contact, the only honest angle is partnership, not an audit: Elpida's MLR product is invisible in category search (Veeva, Vodori, ZS, Red Marker and free FDA claim checkers rank for 'MLR review software' / 'FDA claims checker'; getelpida.com doesn't show even for its own brand), but they now sell an AEO readiness tool themselves, so an audit pitch would be pitching a competitor.",
+    "source": "https://tools.getelpida.com/aeo-pulse/check ; Google SERP checks 2026-11-21",
+    "date": "2026-11-21"
+  },
+  "seo_need": {
+    "rating": "medium",
+    "buyer_research": "Mixed. Big-pharma MLR buyers (Veeva PromoMats, IQVIA, Aprimo customers) buy through enterprise/RFP and relationships, a small known buyer set. But Elpida's stated targets also include DTC health/wellness brands, small medtech, agencies and regulatory consultancies, a long tail that does search: 'best AI tools for regulated marketing', 'top 10 MLR review software' listicles and free FDA claim-checker tools rank. Elpida's own GTM evidence is relationship-led (RAPS conference, consultancy partnerships, Publicis Israel).",
+    "competitors": [
+      {
+        "name": "Veeva Vault PromoMats",
+        "seo_investment": "Ranks #1 for 'MLR review software' with an AI MLR resource page; large content program",
+        "evidence_url": "https://www.veeva.com/"
+      },
+      {
+        "name": "Vodori (Pepper Flow)",
+        "seo_investment": "~141 blog URLs in sitemap; dedicated comparison pages 'Vodori vs Veeva Vault PromoMats 2026' and a PromoMats-alternative landing page; ranks for MLR queries",
+        "evidence_url": "https://www.vodori.com/vodori-veeva-vault-promomats-alternative"
+      },
+      {
+        "name": "Marketbeam",
+        "seo_investment": "~397 sitemap URLs incl. 'AI MLR prechecks', 'FDA' and many '<tool> alternative' pages; ranks for AI MLR and promo-review queries",
+        "evidence_url": "https://marketbeam.io/ai-mlr-prechecks"
+      },
+      {
+        "name": "Red Marker (acquired by IntelligenceBank)",
+        "seo_investment": "Ranks #1 for 'healthcare marketing compliance software AI'; ~25 posts/news 2024-04/2026, nothing since Apr 2026",
+        "evidence_url": "https://redmarker.ai/"
+      },
+      {
+        "name": "ComplianceQ / Arca / Authoritize (AI claim checkers)",
+        "seo_investment": "Free FDA/FTC claim-checker tool pages rank top 4 for 'FDA OPDP compliance AI marketing claims checker'; ComplianceQ publishes guides",
+        "evidence_url": "https://complianceq.ai/tools/fda-claim-checker"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "MLR review software",
+        "top_results": [
+          "veeva.com (Next-gen MLR Review with AI)",
+          "intuitionlabs.ai (Top 10 MLR Review Software)",
+          "zaidyn.zs.com",
+          "agilisium.com",
+          "improvado.io",
+          "vodori.com",
+          "insights.indegene.com",
+          "astuteanalytica.com",
+          "4allportal.com"
+        ],
+        "date": "2026-11-21"
+      },
+      {
+        "query": "AI MLR review tools pharma",
+        "top_results": [
+          "LinkedIn post",
+          "schlafenderhase.com",
+          "avslifesciences.com",
+          "revisto.com",
+          "indegene.com",
+          "LinkedIn post",
+          "madeai.com",
+          "marketbeam.io (AI MLR Prechecks)",
+          "trakkr.ai (Best AI visibility tools for pharma)"
+        ],
+        "date": "2026-11-21"
+      },
+      {
+        "query": "healthcare marketing compliance software AI",
+        "top_results": [
+          "redmarker.ai",
+          "mind-core.com (Best AI tools for regulated marketing 2026)",
+          "healthcarecompliancepros.com",
+          "buzzboxmedia.com (15 AI healthcare marketing tools)",
+          "lytho.com",
+          "prezent.ai (Top 13 brand compliance platforms for pharma)",
+          "pharma-mkting.com",
+          "hathr.ai",
+          "studioclose.com"
+        ],
+        "date": "2026-11-21"
+      },
+      {
+        "query": "best promotional review software for pharma",
+        "top_results": [
+          "slashdot.org",
+          "globalrph.com",
+          "techimply.com",
+          "revealsite.com",
+          "f6s.com",
+          "getgen.ai",
+          "softwareconnect.com",
+          "marketbeam.io",
+          "filestage.io"
+        ],
+        "date": "2026-11-21"
+      },
+      {
+        "query": "FDA OPDP compliance AI marketing claims checker",
+        "top_results": [
+          "complianceq.ai (Free FDA Claim Checker)",
+          "grep.ai",
+          "arca.inc (promo claim checker)",
+          "authoritize.ai (claim checker)",
+          "ermasystems.com",
+          "casemark.com",
+          "getgen.ai",
+          "pharmacytimes.com",
+          "marketbeam.io"
+        ],
+        "date": "2026-11-21"
+      },
+      {
+        "query": "getelpida / Elpida MLR / \"Elpida\" vs OR alternatives MLR compliance",
+        "top_results": [
+          "getelpida.com absent; only LinkedIn posts by Elpida/CBO and unrelated Elpida-named results"
+        ],
+        "date": "2026-11-21"
+      }
+    ],
+    "cost_of_absence": "Concrete: competitors (Vodori, Marketbeam, free AI claim checkers) define 'AI MLR' and 'FDA claim checker' in search and listicles while Elpida does not appear for its category or even its brand; its two category pivots (MLR OS -> Regulatory Brain) have no pages to rank. For a long-tail DTC/agency buyer this means Elpida is never shortlisted. Tempered by an early, relationship-led motion.",
+    "why_not_yet": "founder_led: pre-seed, ~9 people, no marketing hire; one-burst blog in Feb 2026 then stopped; PR agency for launch. Note they now build AEO tooling themselves, so they likely see AI visibility as their own product area rather than a service to buy.",
+    "evidence": [
+      "https://getelpida.com/wp-sitemap-posts-post-1.xml",
+      "https://tools.getelpida.com/aeo-pulse/check",
+      "https://www.vodori.com/blog/vodori-vs.-veeva-vault-promomats-2026-mlr-software-comparison"
+    ]
+  },
+  "features": {
+    "industry": "vertical_saas",
+    "stage": "seed",
+    "situation": "early",
+    "size_band": "1_50",
+    "geo": "israel_us",
+    "marketing_gating": "no_leader_exception",
+    "trigger": "launch",
+    "finding_pattern": "absent",
+    "recipient_role": "ceo",
+    "ask_track": "engagement",
+    "opener_type": "none",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "seo_need": "medium"
+  },
+  "sources": [
+    {
+      "url": "https://finder.startupnationcentral.org/company_page/elpida",
+      "date": "2026-02-17 (snippet date); accessed 2026-11-21",
+      "kind": "unverified",
+      "result": "Profile: founded June 2025, Gal Levenhaim, 1-10, Fresh Fund pre-seed Jan 2026, Mar 2026 launch; links getelpida.com. Finder itself closed 2026-08-31 (data frozen)."
+    },
+    {
+      "url": "https://getelpida.com/",
+      "date": "lastmod 2026-11-15; accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Homepage: AI Regulatory Brain, MLR acceleration, testimonials (Publicis Israel, Kamada, QuantalX), AEO Pulse section"
+    },
+    {
+      "url": "https://getelpida.com/about/",
+      "date": "lastmod 2026-03-08; accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Team list, no marketing role"
+    },
+    {
+      "url": "https://tools.getelpida.com/aeo-pulse/check",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Free AEO readiness report + 7-day support plan for any business"
+    },
+    {
+      "url": "https://getelpida.com/wp-sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "8 posts (Feb 2026), 10 pages, 3 authors"
+    },
+    {
+      "url": "https://getelpida.com/not-all-violations-were-born-equal/",
+      "date": "2026-02-27",
+      "kind": "direct",
+      "result": "Link-aware read: no contextual in-body internal links"
+    },
+    {
+      "url": "https://web.archive.org/web/20260114100611/https://getelpida.com/",
+      "date": "2026-01-14",
+      "kind": "direct",
+      "result": "Earlier positioning: AI GTM + compliant campaigns for healthcare & wellness (fetched via Bright Data; direct archive fetch 403)"
+    },
+    {
+      "url": "https://web.archive.org/web/20260507193217/https://getelpida.com/",
+      "date": "2026-05-07",
+      "kind": "direct",
+      "result": "'The MLR Operating System'"
+    },
+    {
+      "url": "https://web.archive.org/web/20261031021404/https://getelpida.com/",
+      "date": "2026-10-31",
+      "kind": "direct",
+      "result": "'Your AI Regulatory Brain', no AEO Pulse"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260323942268/en/Elpida-Launches-New-AI-Powered-Marketing-Compliance-Platform-for-the-Healthcare-Industry",
+      "date": "2026-03-23",
+      "kind": "direct",
+      "result": "Launch release; PR by Propel Strategic Communications; no funding info (direct fetch failed, read via Bright Data)"
+    },
+    {
+      "url": "https://www.fresh.fund/news-room",
+      "date": "item 2026-03-31; accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Lists Elpida launch as portfolio news"
+    },
+    {
+      "url": "https://www.linkedin.com/company/getelpida/",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "2-10 employees (9 listed), 359 followers, HQ NYC; posts Jul-Aug 2026 by CBO/CTO; RAPS 2026 partnership push"
+    },
+    {
+      "url": "https://dns.google/resolve?name=getelpida.com&type=TXT",
+      "date": "2026-11-21",
+      "kind": "direct",
+      "result": "Google Workspace, Brevo, HubSpot SPF, Mailgun, Stripe, MS, GSC, Anthropic verification"
+    },
+    {
+      "url": "https://www.google.com/search?q=MLR+review+software",
+      "date": "2026-11-21",
+      "kind": "direct",
+      "result": "Vendors + listicles; Elpida absent (plus 4 more category queries, see seo_need.serp_checks)"
+    },
+    {
+      "url": "https://www.vodori.com/sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "~260 URLs, ~141 blog, vs-Veeva comparison pages"
+    },
+    {
+      "url": "https://marketbeam.io/sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "~397 URLs incl. AI MLR prechecks and alternative pages"
+    },
+    {
+      "url": "https://redmarker.ai/sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "69 URLs, posts 2024-01 to 2026-04; acquired by IntelligenceBank"
+    },
+    {
+      "url": "https://complianceq.ai/sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "15 URLs, claim-checker tool + guides"
+    }
+  ],
+  "sources_tried_failed": [
+    {
+      "url": "https://getelpida.com/llms.txt",
+      "result": "404"
+    },
+    {
+      "url": "https://getelpida.com/careers/ , /jobs/",
+      "result": "404"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/elpida",
+      "result": "404"
+    },
+    {
+      "url": "Ashby/Greenhouse/Lever boards elpida, getelpida, elpida-ai",
+      "result": "no board"
+    },
+    {
+      "url": "http://web.archive.org/cdx/search/cdx?url=getelpida.com",
+      "result": "blocked by egress policy; availability API + Bright Data snapshot fetches used instead"
+    },
+    {
+      "url": "https://web.archive.org/web/<ts>id_/https://getelpida.com/ (direct)",
+      "result": "403; worked via Bright Data"
+    },
+    {
+      "url": "https://finder.startupnationcentral.org/company_page/elpida via Bright Data",
+      "result": "timed out; direct fetch worked"
+    },
+    {
+      "url": "Funding amount",
+      "result": "couldn't verify: no primary source (no Fresh Fund or company announcement of the round found; SNC only)"
+    }
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Only if the sponsor still wants to pursue: Elpida company page (linkedin.com/company/getelpida) -> People tab: is any of the 9 in marketing/content/growth beyond CBO Omri Dolev?"
+  ],
+  "open_questions": [
+    "Is AEO Pulse a serious second product line or an experiment/lead magnet? (decides 'competitor' vs 'possible partner')",
+    "Pre-seed amount and date: only SNC (frozen aggregator) states Jan 2026",
+    "Is the team Israel-based with a US shell (Tel Aviv dateline, Delaware office) or US-based (LinkedIn says NYC)?"
+  ],
+  "feature_notes": "marketing_gating uses the nearest FEATURES label (no_leader_exception = no marketing leader); the actual gating_rating is too_early and no exception is claimed."
+}
