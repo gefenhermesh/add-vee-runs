@@ -1,11 +1,11 @@
 {
-  "scout_version": 2,
+  "scout_version": 3,
   "company": "Capitolis",
   "domain": "capitolis.com",
   "slug": "capitolis",
   "scouted": "2026-11-19",
   "source_of_lead": "Avi Lewis' LinkedIn list of 2026-11-19 (https://www.linkedin.com/feed/update/urn:li:activity:7529116071530815489/): Capitolis, $220M Oct, Tel Aviv",
-  "reason": "Established NY/Tel Aviv capital-markets fintech, fresh $220M (incl. $120M Series E, 2026-10-06) funding the eSecLending acquisition; a named VP, Head of Marketing and no SEO person found.\nThe new securities-lending line has no page on capitolis.com (the nav links out to eseclending.com) and thought leadership stopped in Nov 2023: a clear how-AI-sees-the-new-Capitolis angle.",
+  "reason": "Low SEO need: buyers are a few hundred banks and asset owners reached via relationships, RFPs and consultants; category SERPs are regulators/trade press, and Capitolis already ranks #1-2 for its niche terms.\nGating is sweet_spot (VP Head of Marketing, no SEO team), but no concrete cost of invisibility: record, don't propose (revisit if eseclending.com is folded into capitolis.com).",
   "gating_rating": "sweet_spot",
   "gating_note": "Leader found (direct): Brian Zilberfarb, VP, Head of Marketing, on capitolis.com/leadership (ex-SAP VP Brand & Awareness / Global Advertising, ex-Ogilvy). No SEO/content-SEO person found in Google site:linkedin.com/in title searches or job boards (couldn't verify fully: logged-out view only). Visible marketing is brand/PR/events-led: PR agency Sloane & Company, a Director/Head of Global Events (London) from search titles, website authors include an agency account (springbox.com). Greenhouse has a Marketing department but 0 open roles. Fit caveat: buyers are a small universe of global banks and asset owners, sold relationship-first, so organic/AI search may weigh less than for a typical B2B SaaS.",
   "marketing_leadership": {
@@ -192,7 +192,7 @@
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
     "contact_verified": "no",
-    "seo_need": "unassessed"
+    "seo_need": "low"
   },
   "sources": [
     {
@@ -308,6 +308,108 @@
       "date": "2025-01-01",
       "kind": "direct",
       "result": "Snapshot available; not diffed"
+    },
+    {
+      "url": "https://www.google.com/search?q=SA-CCR+optimization&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Capitolis #2, LSEG #1, rest regulators/ISDA"
+    },
+    {
+      "url": "https://www.google.com/search?q=portfolio+compression+derivatives+providers&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "regulators/academic/trade press; OSTTRA #3"
+    },
+    {
+      "url": "https://www.google.com/search?q=third+party+securities+lending+agent&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "BNP #1, eSecLending PDF #2, banks/regulators/Callan"
+    },
+    {
+      "url": "https://www.google.com/search?q=securities+lending+for+pension+funds&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "asset managers, regulators, BNY"
+    },
+    {
+      "url": "https://www.google.com/search?q=request+for+proposal+securities+lending+agent+services+retirement+system&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "public pension RFPs"
+    },
+    {
+      "url": "https://www.google.com/search?q=Capitolis+alternatives&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Capitally name collision"
+    },
+    {
+      "url": "https://www.google.com/search?q=Capitolis+competitors&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "aggregators only"
+    },
+    {
+      "url": "https://www.google.com/search?q=OSTTRA+vs+Capitolis&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "no vs page"
+    },
+    {
+      "url": "https://www.google.com/search?q=derivatives+novation+platform&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "Capitolis #1"
+    },
+    {
+      "url": "https://www.google.com/search?q=initial+margin+optimization&hl=en (via Bright Data)",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "academic/Quantile video/Numerix"
+    },
+    {
+      "url": "https://osttra.com/articles-sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "133 articles, lastmods 2023-03..2026-11"
+    },
+    {
+      "url": "https://equilend.com/sitemap-0.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "496 insights, 172 press releases"
+    },
+    {
+      "url": "https://www.pirum.com/sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "222 news URLs"
+    },
+    {
+      "url": "https://www.eseclending.com/page-sitemap.xml",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "126 podcast pages, no articles"
+    },
+    {
+      "url": "https://www.g2.com/products/capitolis/competitors/alternatives",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "irrelevant alternatives list"
+    },
+    {
+      "url": "https://acadia.inc/blog",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "3 dated items Apr-Oct 2026"
+    },
+    {
+      "url": "https://www.callan.com/blog/securities-lending-101/",
+      "date": "accessed 2026-11-21",
+      "kind": "direct",
+      "result": "consultant education; RFPs section on site"
     }
   ],
   "sources_tried_failed": [
@@ -338,6 +440,30 @@
     {
       "url": "AI-visibility probe (ChatGPT/Gemini)",
       "result": "Not run: no easy Bright Data route in this session"
+    },
+    {
+      "url": "https://www.google.com/search?q=portfolio+compression+vendors&hl=en (via Bright Data)",
+      "result": "Bright Data returned unrelated webull.com results (degraded SERP); re-run with different wording"
+    },
+    {
+      "url": "https://www.google.com/search?q=initial+margin+optimization+providers&hl=en (via Bright Data) ; https://www.google.com/search?q=securities+lending+agent+selection+consultant&hl=en (via Bright Data)",
+      "result": "Empty response from Bright Data"
+    },
+    {
+      "url": "https://www.lseg.com/en/post-trade/quantile",
+      "result": "LSEG 404 page"
+    },
+    {
+      "url": "https://www.quantile.com/ ; https://www.quantile.com/sitemap.xml",
+      "result": "Empty response"
+    },
+    {
+      "url": "https://www.statestreet.com/us/en/solutions/agency-lending",
+      "result": "'can't find the page' shell (location/role gate)"
+    },
+    {
+      "url": "https://www.northerntrust.com/united-states/what-we-do/investment-management/securities-lending",
+      "result": "'page has moved or unavailable'"
     }
   ],
   "linkedin_checks_for_sponsor": [
@@ -349,6 +475,238 @@
     "Is there any SEO/content person or an SEO agency? Only an agency web account (Springbox) and a PR agency (Sloane) were found.",
     "How much does organic/AI search matter to a business whose buyers are a few hundred banks and asset owners? Securities lending to asset owners (pensions, insurers) widens the audience somewhat.",
     "Avi's list places Capitolis in Tel Aviv, but HQ and the marketing lead are in New York; Israel is R&D. Send slot should follow New York time.",
-    "Headcount: LinkedIn says 51-200; eSecLending (closing pending) will add staff."
-  ]
+    "Headcount: LinkedIn says 51-200; eSecLending (closing pending) will add staff.",
+    "Will eseclending.com be migrated into capitolis.com? That is the one event that would create a concrete SEO risk (and a medium-need angle)."
+  ],
+  "seo_need": {
+    "rating": "low",
+    "buyer_research": "Relationship/RFP-led with a small, known buyer set. Optimization (compression, SA-CCR, novations, IM) is bought by derivatives/XVA/resource desks at global dealers plus some buy-side and regional banks (Capitolis' own 2025 release: offerings 'developed in response to client demand' that 'attracted both buyside and regional banks'; no client count published; inferred: a few hundred institutions at most). Securities lending is bought by asset owners (pensions, insurers, asset managers) through formal RFPs, often bundled with custody and run with investment consultants: Google returns public RFPs from NJ PFRS, LACERS, Illinois Treasurer, ACERA, TMRS for the query on sec-lending agent RFPs; Callan publishes 'Securities Lending 101' and lists RFPs on its site. eSecLending itself is sold via 26 years of 'institutional investor relationships' (acquisition release). Discovery venues are trade press (Risk.net glossary ranks for compression; Securities Finance Times and Finadium dominate the eSecLending brand SERP) and conferences (eSecLending podcast episodes on ISLA Americas, Oct 2026). G2 has a Capitolis page but its 'alternatives' are irrelevant (SAP Multi-Bank Connectivity, Basis, Joist): no real review-site category exists. No 'best X' listicles appeared in any of 13 category queries.",
+    "competitors": [
+      {
+        "name": "OSTTRA (incl. TriOptima triReduce/triBalance; KKR-owned since 2025)",
+        "seo_investment": "Moderate: 133 /articles/ in Yoast sitemap (lastmods 2023-03..2026-11, 56 touched in 2026; many are periodic 'compression and optimisation update' notes), case studies, gated factsheets, landing pages. Ranks #3 for 'portfolio compression derivatives providers'. No 'vs Capitolis' page; the 'OSTTRA vs Capitolis' SERP shows only joint CFTC no-action coverage.",
+        "evidence_url": "https://osttra.com/articles-sitemap.xml"
+      },
+      {
+        "name": "LSEG Post Trade (Quantile; Acadia, now LSEG)",
+        "seo_investment": "Some: LSEG SA-CCR white paper ranks #1 for 'SA-CCR optimization'; Quantile 'Initial Margin Optimisation' video ranks #2 for 'initial margin optimization'. lseg.com/en/post-trade/quantile returned a 404 page and quantile.com returned empty via Bright Data (couldn't verify cadence). acadia.inc/blog shows only 3 dated items (Apr-Oct 2026).",
+        "evidence_url": "https://acadia.inc/blog"
+      },
+      {
+        "name": "EquiLend (securities-finance platform/data, DataLend)",
+        "seo_investment": "Heavy content: 496 /resources/insights/ URLs and 172 press releases in sitemap-0 (DataLend market reports, newsletters, profiles). Market-commentary content, not comparison/SEO pages.",
+        "evidence_url": "https://equilend.com/sitemap-0.xml"
+      },
+      {
+        "name": "Pirum (sec-finance post-trade)",
+        "seo_investment": "222 /news/ URLs in sitemap (mix of news and thought pieces, e.g. T+1 recalls); no comparison pages seen.",
+        "evidence_url": "https://www.pirum.com/sitemap.xml"
+      },
+      {
+        "name": "Agent lenders: State Street, BNY, BNP Paribas, Northern Trust, SSGA/BlackRock",
+        "seo_investment": "Large-bank solution and education pages rank for sec-lending queries (BNP #1 and State Street #8 for 'third party securities lending agent'; BlackRock, SSGA, BNY, Vanguard for 'securities lending for pension funds'), as by-products of big corporate sites, not targeted SEO. State Street agency-lending URL from SERP rendered a 'can't find the page' shell via Bright Data; Northern Trust sec-lending URL returned 'page has moved' (both failures).",
+        "evidence_url": "https://www.statestreet.com/us/en/solutions/agency-lending"
+      },
+      {
+        "name": "eSecLending (the acquired line, own domain)",
+        "seo_investment": "No blog/articles; insights = 126 podcast pages (about 2/month in H2 2026: 2026-07-07 .. 2026-10-27) plus a best-practices PDF that ranks #2 for 'third party securities lending agent'. Homepage copy is a tagline only ('Securities Finance. Only Better.').",
+        "evidence_url": "https://www.eseclending.com/page-sitemap.xml"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "portfolio compression vendors",
+        "top_results": [
+          "Bright Data returned a degraded SERP: 8 unrelated webull.com/news results (failure, not a reading)"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "portfolio compression derivatives providers",
+        "top_results": [
+          "esrb.europa.eu (regulator paper)",
+          "cls-group.com (FX compression news)",
+          "osttra.com Portfolio Compression (vendor)",
+          "rulebook.sama.gov.sa (regulator)",
+          "risk.net definition (trade press)",
+          "ecmi.eu (academic)",
+          "optiver.com insights",
+          "eurex.com compression services (vendor/CCP)",
+          "aei.pitt.edu (academic)"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "SA-CCR optimization",
+        "top_results": [
+          "lseg.com SA-CCR white paper (vendor)",
+          "capitolis.com/saccr (Capitolis #2)",
+          "cftc.gov paper (regulator)",
+          "occ.gov bulletin (regulator)",
+          "isda.org (industry body)",
+          "elysiannxt.com (consultancy blog)",
+          "Databricks video (irrelevant)",
+          "mathworks.com docs",
+          "clarusft.com (analytics vendor blog)"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "initial margin optimization",
+        "top_results": [
+          "arxiv.org (academic)",
+          "Quantile video (vendor)",
+          "quant.stackexchange.com",
+          "numerix.com webinar (vendor)",
+          "financeunlocked.com (education)",
+          "thefullfx.com (trade press)",
+          "LinkedIn post"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "derivatives novation platform",
+        "top_results": [
+          "capitolis.com Novations Platform release (Capitolis #1)",
+          "isda.org Novation Protocol",
+          "lexology.com (legal)",
+          "sysvine.com (irrelevant)",
+          "practicallaw (legal)",
+          "viewpoint.pwc.com (accounting)",
+          "ir.theice.com ICE Link (vendor)",
+          "LinkedIn post",
+          "capitolis.com Fast-Track Novations (Capitolis #9)"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "third party securities lending agent",
+        "top_results": [
+          "securities.cib.bnpparibas (agent lender)",
+          "eseclending.com best-practices PDF (#2)",
+          "ssga.com education",
+          "ici.org",
+          "sec.gov rider",
+          "gfoa.org",
+          "callan.com blog (consultant)",
+          "statestreet.com agency lending",
+          "financialresearch.gov (regulator)"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "securities lending for pension funds",
+        "top_results": [
+          "blackrock.com",
+          "investor.gov (regulator)",
+          "gfoa.org",
+          "financialresearch.gov",
+          "ici.org",
+          "ssga.com",
+          "gao.gov",
+          "bny.com",
+          "investor.vanguard.com"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "request for proposal securities lending agent services retirement system",
+        "top_results": [
+          "nj.gov PFRS RFP",
+          "cdn.ymaws.com sample RFP",
+          "lacers.org custody+sec lending RFP",
+          "pcr-ma.org RFP",
+          "tmrs.com RFP",
+          "Illinois Treasurer sec lending RFP",
+          "acera.org RFP",
+          "gfoa.org",
+          "sjcera.org RFP"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "Capitolis alternatives",
+        "top_results": [
+          "ghostfol.io / mycapitally.com / getapp / alternativeto: all about 'Capitally' (name collision)",
+          "citywire.com x2 (unrelated)",
+          "fintechdemand.com Capitolis funding news (#8)"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "Capitolis competitors",
+        "top_results": [
+          "cbinsights",
+          "g2.com (irrelevant alternatives)",
+          "owler",
+          "growjo",
+          "sourceforge",
+          "spotsaas",
+          "zoominfo",
+          "cbinsights",
+          "tracxn: aggregators only"
+        ],
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "query": "OSTTRA vs Capitolis",
+        "top_results": [
+          "finadium.com joint CFTC no-action story",
+          "osttra.com",
+          "capitolis.com CFTC release",
+          "kkr.com",
+          "marketswiki",
+          "S&P/CME sale of OSTTRA to KKR",
+          "sec.gov: no comparison page"
+        ],
+        "date": "accessed 2026-11-21"
+      }
+    ],
+    "cost_of_absence": "Weak. Capitolis already ranks #1-2 on Google for its niche terms (SA-CCR optimization, derivatives novation platform) without content investment, and the acquired eSecLending ranks #2 for 'third party securities lending agent' on its own domain. Asset owners pick lending agents through public RFPs and consultants, so a missing securities-lending page on capitolis.com costs little near-term. Residual, speculative risks: (1) if eseclending.com is later folded into capitolis.com, a domain migration could lose those rankings; (2) brand-name queries ('Capitolis alternatives') are polluted by Capitally, and aggregator pages (G2, CB Insights) define the 'competitors' set; (3) AI answers may not yet link Capitolis to securities lending. None is a demonstrated loss.",
+    "why_not_yet": "no_need (best-evidenced), with never_prioritized as a secondary factor. Buyers are a few hundred known institutions reached by relationships, RFPs, consultants, trade press and conferences; category SERPs hold regulators, academics, trade press and a few vendor pages, with no listicles or vs pages; competitors' content is market commentary (OSTTRA updates, EquiLend DataLend reports, eSecLending podcasts), not search-targeted. Marketing has been brand/PR/events-led (ex-SAP brand/advertising leaders Alicia Tillman then Brian Zilberfarb, PR agency Sloane, a global events head). Counter-signal: Google Ads conversion tags on capitolis.com show some paid search spend (keywords unknown).",
+    "evidence": [
+      {
+        "claim": "Public pension funds select securities-lending agents through formal RFPs (NJ PFRS, LACERS, Illinois Treasurer, ACERA, TMRS RFP documents rank for the query).",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=request+for+proposal+securities+lending+agent+services+retirement+system&hl=en (via Bright Data)",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "eSecLending works with 'many of the world's largest asset owners' via 'an extensive network of institutional investor relationships' over 26 years.",
+        "kind": "direct",
+        "url": "https://capitolis.com/capitolis-to-acquire-eseclending-in-200-million-all-cash-transaction-expanding-its-financial-resource-management-solutions-and-client-base-to-include-largest-asset-owners/",
+        "date": "2026-09-29"
+      },
+      {
+        "claim": "Capitolis ranks #2 for 'SA-CCR optimization' (capitolis.com/saccr) and #1 for 'derivatives novation platform'.",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=SA-CCR+optimization&hl=en (via Bright Data)",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "No 'best X' listicles or competitor 'vs Capitolis' pages in 13 queries; 'Capitolis alternatives' is a Capitally name collision; 'Capitolis competitors' returns aggregators only.",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=Capitolis+alternatives&hl=en (via Bright Data)",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "G2 'Capitolis alternatives' lists unrelated tools (SAP Multi-Bank Connectivity, Basis, Joist): no meaningful review-site category.",
+        "kind": "direct",
+        "url": "https://www.g2.com/products/capitolis/competitors/alternatives",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "OSTTRA publishes 133 articles (56 updated in 2026) and ranks #3 for compression providers; EquiLend 496 insights; Pirum 222 news posts; eSecLending ~126 podcasts, no articles.",
+        "kind": "direct",
+        "url": "https://osttra.com/articles-sitemap.xml ; https://equilend.com/sitemap-0.xml ; https://www.pirum.com/sitemap.xml ; https://www.eseclending.com/page-sitemap.xml",
+        "date": "accessed 2026-11-21"
+      },
+      {
+        "claim": "Buyer set size estimate (a few hundred dealers/banks for optimization; hundreds of large asset owners for lending) is an inference: Capitolis publishes no client count.",
+        "kind": "inferred",
+        "url": "https://capitolis.com/capitolis-achieves-record-breaking-2025-across-portfolio-optimization-business/",
+        "date": "2026-01-14"
+      }
+    ]
+  }
 }

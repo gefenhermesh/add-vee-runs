@@ -16,7 +16,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -36,7 +37,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -56,7 +58,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -76,7 +79,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -96,27 +100,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
-  }
- },
- {
-  "slug": "capitolis",
-  "features": {
-   "industry": "fintech",
-   "stage": "series_c_plus",
-   "situation": "established",
-   "size_band": "51_200",
-   "geo": "israel_us",
-   "marketing_gating": "sweet_spot",
-   "trigger": "funding",
-   "finding_pattern": "unknown",
-   "recipient_role": "cmo_vp_marketing",
-   "ask_track": "engagement",
-   "opener_type": "milestone_congrats",
-   "email_variant": "v4_two_images",
-   "subject_style": "how_ai_sees_x",
-   "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -136,7 +121,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -156,7 +142,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -176,7 +163,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  },
  {
@@ -196,7 +184,8 @@
    "email_variant": "v4_two_images",
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
-   "contact_verified": "no"
+   "contact_verified": "no",
+   "seo_need": "unassessed"
   }
  }
 ]

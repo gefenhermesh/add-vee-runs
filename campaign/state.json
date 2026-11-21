@@ -218,7 +218,7 @@
       "slug": "capitolis",
       "company": "Capitolis",
       "domain": "capitolis.com",
-      "status": "proposed",
+      "status": "withdrawn",
       "reason": "Established NY/Tel Aviv capital-markets fintech, fresh $220M (incl. $120M Series E, 2026-10-06) funding the eSecLending acquisition; a named VP, Head of Marketing and no SEO person found.\nThe new securities-lending line has no page on capitolis.com (the nav links out to eseclending.com) and thought leadership stopped in Nov 2023: a clear how-AI-sees-the-new-Capitolis angle.",
       "gating_rating": "sweet_spot",
       "features": {
@@ -237,9 +237,10 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "low"
       },
-      "source": "scout"
+      "source": "scout",
+      "status_note": "Withdrawn by the scout 2026-11-21: low SEO need (relationship/RFP-led buyers, already ranks #1-2 for niche terms, no contested SERPs). See companies/capitolis/scout.json seo_need."
     },
     {
       "slug": "bites",
@@ -409,7 +410,7 @@
     },
     {
       "slug": "capitolis",
-      "status": "proposed",
+      "status": "withdrawn_low_need",
       "last_seen": "2026-11-19",
       "marketing_leader": "Brian Zilberfarb, VP Head of Marketing",
       "funding": "$220M incl. $120M Series E, 2026-10-06",
@@ -464,6 +465,15 @@
       "funding": "no recent round found",
       "category_language": "Agentic Quote-to-Revenue (DealHub.ai rebrand)",
       "note": "Blocked: SEO Lead in place (Senior SEO & GEO Specialist reports to the SEO Lead). Only a role-track opening; sponsor decides if that's of interest."
+    },
+    {
+      "slug": "elpida",
+      "status": "not_a_fit",
+      "last_seen": "2026-11-21",
+      "marketing_leader": "none (founders + CBO)",
+      "funding": "pre-seed (Fresh Fund, Jan 2026, unverified)",
+      "category_language": "AI marketing compliance (MLR) for healthcare; AEO Pulse launched Nov 2026",
+      "note": "Too early, and its AEO Pulse overlaps the sponsor's offer: a competitor. Partnership conversation is the only honest angle; sponsor's call."
     }
   ]
 }

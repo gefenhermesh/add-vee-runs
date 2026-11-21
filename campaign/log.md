@@ -15,3 +15,6 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 
 ## 2026-11-19 · Scout run 1
 Long list: 130 companies (Firgun 13 Nov, Telegram marketing jobs, Avi Lewis list). Filter: `campaign/scout/filter_2026-11-19.md`. Recon: 12. Proposed 10 (plurai, buildots, darrow, scaleops, zenzap, capitolis, bites, daylight-security, edelbyte, dreeze). Held: geoedge (exception without funding; watch for new VP Marketing), dealhub (blocked: SEO Lead). Picks (learn.py, no outcome data yet): capitolis, plurai, scaleops (exploit), buildots, zenzap (explore). LinkedIn People-tab checks for the sponsor are in each `companies/<slug>/scout.json` → `linkedin_checks_for_sponsor`.
+
+## 2026-11-21 · Scout: SEO need added
+Sponsor asked for an SEO-need check (competition, risk, why not invested). Added to SCOUT.md, propose.py (scout_version 3) and learn.py (feature seo_need). Capitolis re-checked: low (relationship/RFP-led, already ranks for its niche, no contested SERPs) → withdrawn. Elpida recon'd on the sponsor's request: too early, and its AEO Pulse overlaps the sponsor's offer → not proposed. Other 9 proposals: seo_need unassessed.
