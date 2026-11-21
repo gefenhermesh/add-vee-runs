@@ -25,7 +25,7 @@ So, to the question "more results or more pitch?": **both, in that order.** V gi
 
 ### Email 1: small additions inside the existing format (sponsor, 2026-11-20)
 A word here and there, not a rewrite. Suggested lines:
-- In 2.1 (who I am): "…building **a research system of my own** that uses AI agents…"
+- In 2.1 (who I am): "…building **a unique research system** that uses AI agents…" (sponsor, 2026-11-21: always "unique research system")
 - In the method line: "**People don't ask AI a keyword; they hold a conversation.** So I ran the real conversations Vega's buyers have…"
 - Before the image: "…what would normally take **weeks of manual work**: 84 buyer questions, 252 conversations, every answer read."
 
