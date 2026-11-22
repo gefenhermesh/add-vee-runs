@@ -6,6 +6,7 @@ Company sessions need nothing but add-vee. They follow add-vee's `docs/campaign/
 
 ## Setup, once (in the new manager session)
 1. The sponsor opens a **new session from the Claude app** with both repos (`add-vee`, `add-vee-runs`) and writes: *"You are the add-vee campaign manager. Read add-vee-runs/campaign/MANAGER_TICK.md and set yourself up."*
+1b. **Read `campaign/MANAGER_HANDOFF.md`** (the previous manager's note: current state, open items, lessons). If the campaign is paused there, set yourself up but don't create the hourly task until the sponsor resumes it.
 2. The manager checks it has `get_session`, `create_session`, `send_message`, Gmail (signed in as gefen@etico.cr) and `PushNotification`, and reports any that are missing.
 3. It creates its own hourly scheduled task **bound to this same session** (`create_trigger` with no `persistent_session_id` and no `create_new_session_on_fire`; cron hourly; prompt: "Campaign tick: follow MANAGER_TICK.md → Each tick."). Then it runs the first tick right away.
 4. It records its own session id and the trigger id in `state.json` → `manager`.

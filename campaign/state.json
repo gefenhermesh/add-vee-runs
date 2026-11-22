@@ -418,9 +418,13 @@
   },
   "last_tick": "2026-11-20T23:51:43+00:00",
   "manager": {
-    "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
-    "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",
-    "note": "Persistent manager session opened by the sponsor from the app on 2026-11-19; hourly tick at :53 bound to it."
+    "session_id": null,
+    "trigger_id": null,
+    "previous": {
+      "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
+      "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM (disabled, bound to the old session)"
+    },
+    "note": "Handoff 2026-11-22: the sponsor opens a new manager session from the app; it reads MANAGER_TICK.md and MANAGER_HANDOFF.md and records itself here."
   },
   "watch": [
     {

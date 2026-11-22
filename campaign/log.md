@@ -46,6 +46,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-22 Bay email 1 sent to yuval@bay.io (sponsor's explicit request; v5, etico images, 'a unique research system'); follow-up thread bay/1, learn.py logged (features reconstructed).
 - 2026-11-22 sponsor: drafts must carry the Gmail signature. Gambit, glow.io, Upwind drafts recreated with includeSignature (sponsor's edited text kept) and the old ones deleted; rule added to MANAGER_TICK and state.rules. add-vee #20 merged.
 - 2026-11-22 Gambit, glow.io, Upwind images re-shot in the etico palette (approved Action Plan data, cluster colours mapped to etico, no data change); drafts recreated with signature, old ones deleted. Screenshot script kept in campaign/tools/shoot_action_plan.js.
+- 2026-11-22 manager handoff written (campaign/MANAGER_HANDOFF.md); the sponsor opens a new manager session; the old one stops managing.
 
 ## Cohorts
 
