@@ -18,9 +18,9 @@
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
-      "next": "Sponsor sends Bay himself; Bay report stays as is (sponsor, 2026-11-19: rebuild not needed).",
+      "next": "v5 draft in Gmail to yuval@bay.io (etico-palette images, updated text), for the sponsor to send personally (2026-11-22).",
       "cohort_id": "pilot-1",
-      "gmail_draft_id": "r-3463966262483924157",
+      "gmail_draft_id": "r4253246397444497258",
       "contacts": {
         "primary": "yuval@bay.io (verified)",
         "backup": "aner@bay.io (not yet verified)"
@@ -29,7 +29,8 @@
         "v0 deleted",
         "v1 deleted",
         "r2555942432531902109 (v2, in Gmail)",
-        "r-3430667485240077676 (v3, in Gmail)"
+        "r-3430667485240077676 (v3, in Gmail)",
+        "r-3463966262483924157 (v4, in Gmail)"
       ],
       "note": "Bay Action Plan artifact not rebuilt with the new cluster-count subheader: builder refuses (analysis approval predates the reading-file hash rule); needs sponsor decision (override or reviewer re-confirm).",
       "status": "manual",
