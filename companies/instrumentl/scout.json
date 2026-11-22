@@ -1,0 +1,171 @@
+{
+  "scout_version": 3,
+  "company": "Instrumentl",
+  "domain": "instrumentl.com",
+  "slug": "instrumentl",
+  "scouted": "2026-11-22",
+  "source_of_lead": "Next Play issue (late Nov 2026, gefen@etico.cr): Instrumentl hiring a Head of Product and a Customer Success Manager (Oakland/remote)",
+  "reason": "Borderline proposal: a VP of Marketing and Head of Growth Marketing, no SEO title on the 97-person team page, but a very mature search program (≈90k programmatic grant pages, 9 vs-pages, Ahrefs) built by a Growth Product engineering team that includes an SEO-agency founder. Need is high (competitors publish 'Instrumentl alternatives' pages that frame it as the pricey option); propose only with that sharp angle, sponsor's call on gating.",
+  "gating_rating": "single_seo",
+  "gating_note": "Marketing leader found (Betty Mok, VP of Marketing, on the company About page). No SEO/content-marketing title among the 7 'Growth'-tagged people or the 97 listed staff. But SEO is clearly owned somewhere: a Growth Product engineering team builds a huge programmatic footprint (grants, foundations, 990 reports, county/city browse pages), and one of its engineers, Kane Jamison, founded the SEO/content agency-turned-SaaS Content Harmony. Ahrefs domain verification in DNS. Treat as one SEO-expert person (in engineering), not a visible SEO team; the logged-out LinkedIn check was cut short when Bright Data suspended the account, so a hidden SEO/content team is possible.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Betty Mok", "role": "VP of Marketing", "kind": "direct", "source": "https://www.instrumentl.com/about (accessed 2026-11-22); Google site:linkedin.com/in title 'Betty Mok - Marketing Leader at Instrumentl, Go-To-Market Growth Accelerator; ex-LinkedIn, Intuit, Pendo' (accessed 2026-11-22)"},
+      {"name": "Judy Kimball", "role": "Head of Growth Marketing", "kind": "direct", "source": "https://www.instrumentl.com/about; LinkedIn snippet 'Head of Growth Marketing at Instrumentl ... driving predictable pipeline' (accessed 2026-11-22)"},
+      {"name": "Mac Hasley", "role": "Senior Product Marketing Manager (snippet says Head of Product Marketing)", "kind": "direct", "source": "https://www.instrumentl.com/about"}
+    ],
+    "evidence": [
+      {"claim": "About page lists 7 Growth-team people: VP of Marketing, Head of Growth Marketing, 2 PMMs, Event Marketing Manager, Events & Community Manager, Marketing Operations Coordinator. No SEO, content-marketing or editor title.", "kind": "direct", "url": "https://www.instrumentl.com/about", "date": "accessed 2026-11-22"},
+      {"claim": "The 'Content' team tag on the About page is grant-data content (Apply/Review/990s associates, Grant Building Team Lead), not marketing content.", "kind": "direct", "url": "https://www.instrumentl.com/about", "date": "accessed 2026-11-22"}
+    ]
+  },
+  "seo_team": {
+    "status": "couldn't verify",
+    "evidence": [
+      {"claim": "No SEO title among 97 people on the About page.", "kind": "direct", "url": "https://www.instrumentl.com/about", "date": "accessed 2026-11-22"},
+      {"claim": "Kane Jamison, Senior Full Stack Engineer, 'engineer on the Growth Product team at Instrumentl', also founder of Content Harmony (content marketing/SEO agency since 2012, now SaaS).", "kind": "inferred", "url": "https://github.com/kanejamison (via Google snippet); https://www.instrumentl.com/about", "date": "accessed 2026-11-22"},
+      {"claim": "Google site:linkedin.com/in 'Instrumentl' SEO returned no in-house SEO title; only freelancers (e.g. a freelance SEO content writer who worked with Instrumentl Jun-Jul 2025) and ex-staff (a former Growth Associate).", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Instrumentl%22+SEO", "date": "accessed 2026-11-22"},
+      {"claim": "DNS TXT has ahrefs-site-verification and 4 google-site-verification tokens: active SEO tooling.", "kind": "direct", "url": "https://dns.google/resolve?name=instrumentl.com&type=TXT", "date": "accessed 2026-11-22"},
+      {"claim": "Programmatic SEO at scale: grants sitemap index with 9 sub-sitemaps (sitemap1 alone = 10,000 URLs), 4,633 foundation URLs, 3,141 county and 320 city browse pages, 322 990-report pages, 51 grant-database pages.", "kind": "direct", "url": "https://www.instrumentl.com/sitemap.xml", "date": "lastmod 2026-11-21, accessed 2026-11-22"}
+    ]
+  },
+  "situation": {
+    "estimate": "Established, profitable growth-stage vertical SaaS (founded 2015/16, YC-backed, $55M Summit Partners growth round April 2025, 'cash flow positive'), ~120 employees. Customer count rose from 4,500 (April 2025) to 6,000+ (2026 JDs). It is repositioning from a grant database/prospecting tool to 'the system of record for grants' / an 'AI-native operating system for grant-funded organizations' (GrantOS, award management, spenddown, MCP/ChatGPT/Claude connectors). Now hiring a Head of Product under co-founder Angela Braren and splitting CS into high-touch and scaled motions, i.e. scaling up-market (universities, governments, enterprise) while keeping a self-serve trial funnel.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "Hiring Head of Product (Oakland, posted 2026-09-28), Customer Success Manager (remote, 2026-06-03), Manager Scaled CS, Staff PM GrantOS, Staff Product Designer, SDR. No marketing role open. Last round: $55M Summit Partners growth investment, 2025-04-23 (19 months old).",
+    "date": "2026-11 (Next Play); Lever postings 2025-11-18 to 2026-09-28",
+    "source": "https://api.lever.co/v0/postings/Instrumentl?mode=json"
+  },
+  "fit_evidence": [
+    {"claim": "Buying journey = committee: buyers are nonprofits, universities, state/county governments; JDs describe grant work spanning 'fundraising, finance, and HR', enterprise AEs and a scaled CS motion. Executive director, development team and finance weigh in; switching a system of record is high-stakes.", "kind": "inferred", "url": "https://jobs.lever.co/Instrumentl/12d124d4-e51d-4a90-bd22-fdc28cc010bb", "date": "posted 2026-06-03"},
+    {"claim": "'More than 6,000 nonprofits rely on Instrumentl'; 'cash flow positive, YC-backed'; 'AI-native operating system for grant-funded organizations'", "kind": "direct", "url": "https://jobs.lever.co/Instrumentl/5c5cb21d-427f-4b68-8651-1c6b8a68a7d9", "date": "posted 2026-09-28"},
+    {"claim": "$55M growth investment from Summit Partners (minority); 4,500 clients at the time", "kind": "direct", "url": "https://thenonprofittimes.com/npt_articles/55-million-investment-in-grants-platform-instrumentl/", "date": "2025-04-24"},
+    {"claim": "Summit Partners portfolio page: 'Invested in 2025', San Francisco", "kind": "direct", "url": "https://www.summitpartners.com/companies/instrumentl", "date": "accessed 2026-11-22"},
+    {"claim": "LinkedIn company page: 51-200 employees, 123 on LinkedIn, 14,379 followers, HQ San Francisco, founded 2016", "kind": "direct", "url": "https://www.linkedin.com/company/instrumentl", "date": "accessed 2026-11-22"},
+    {"claim": "Homepage title now 'Your intelligent grant operating system' (category language moving from grant database to grant OS)", "kind": "direct", "url": "https://www.instrumentl.com/", "date": "accessed 2026-11-22"}
+  ],
+  "site_and_content": {
+    "cms_and_tools": "Webflow (marketing pages, webflow_* sitemaps) plus a Rails/Heroku app serving programmatic grant/foundation pages; GTM-MHXWS5P, GA4 G-49WMESE3W5; DNS TXT: HubSpot email SPF, Mailchimp, MailerLite, Ahrefs, Growsurf (referrals), Stripe, Rippling, Perplexity and Anthropic domain verifications. llms.txt exists. robots.txt blocks GPTBot/ClaudeBot/CCBot etc. from /grants (the programmatic grant pages) but allows the rest.",
+    "blog": "466 blog URLs in sitemap. Random sample of 30 posts: datePublished 2021 (1), 2022 (2), 2023 (6), 2024 (16), 2026 (1), 4 undated; bulk dateModified Feb 18 2025 / Apr 23 2026 (refresh passes). Blog index shows 2026 posts roughly every 2-4 weeks (May 7, May 16, Jun 11, Jun 25, Jul 17, Sep 18, Oct 8, Oct 29). Long-form guides (2,000-5,400 words) and 'best X' listicles; bylines mostly an AE/CSM (Karen Lee, 15 of 30 sampled) and 'Instrumentl', plus ~30 author pages (freelancers/guests). Link-aware read (raw HTML anchors): median ~5-6 distinct /blog/ links per post plus product/database links; webinar-recap posts have 1.",
+    "comparison_pages": "9 /compare pages: Foundation Directory Online, FoundationSearch, GrantHub Pro, Grantseeker, GrantStation, GrantWatch, Impala, Inside Philanthropy, plus a hub. Also blog alternatives posts (e.g. foundation-directory-online-alternatives, best grant management software 'Topic Hub').",
+    "programmatic": "≈90k grant URLs (9 sitemaps; first has 10,000), 4,633 foundation pages, 3,141 county + 320 city browse pages, 322 990-report pages, 54 templates, 127 newsletter pages. Grants database claims '31K+ active grants', '550k+ funder profiles'.",
+    "ai_surface": "Blog posts announcing an Instrumentl ChatGPT plugin and a Claude connector (2026); Perplexity domain verification.",
+    "wayback": "Snapshot 2025-01-08 exists; replay page 403 from this session, so no before/after comparison."
+  },
+  "jobs": {
+    "board": "Lever (Instrumentl)",
+    "open_roles": ["Head of Product (Oakland, 2026-09-28)", "Staff Product Manager - GrantOS Platform (Oakland, 2026-02-05)", "Manager, Scaled Customer Success (Remote US, 2026-07-20)", "Customer Success Manager (Remote US, 2026-06-03)", "Outbound SDR (Remote US, 2025-11-18)", "Staff Product Designer (Grant OS) (Remote US/Canada, careers page only)"],
+    "marketing_roles": [],
+    "seo_roles": [],
+    "notes": "Head of Product reports to co-founder Angela Braren; 'product-led and sales-led growth' experience wanted; Staff PM GrantOS covers 'Platform (data layer, MCP, and BI)'."
+  },
+  "contacts": [
+    {"name": "Betty Mok", "role": "VP of Marketing", "email": null, "email_verified": false, "source": "https://www.instrumentl.com/about", "recipient_rank": 1},
+    {"name": "Judy Kimball", "role": "Head of Growth Marketing", "email": null, "email_verified": false, "source": "https://www.instrumentl.com/about", "recipient_rank": 2},
+    {"name": "Gauri Manglik", "role": "CEO & Co-founder", "email": null, "email_verified": false, "source": "https://www.instrumentl.com/about; https://thenonprofittimes.com/npt_articles/55-million-investment-in-grants-platform-instrumentl/", "recipient_rank": 3}
+  ],
+  "outreach_angle": {
+    "hook": "Competitors now publish pages aimed squarely at Instrumentl (Grantsights 'Best Instrumentl Alternatives 2026: Cheaper Options', updated 2026-10-14; Grant Frog '9 Instrumentl Alternatives'; Grantboost 'vs Instrumentl'; FoundationSearch 'vs Instrumentl') and they rank for 'Instrumentl alternatives' / 'Instrumentl vs'. These pages frame Instrumentl as the pricey grant database just as it repositions as a grant operating system. The audit shows how AI answers describe Instrumentl against them.",
+    "source": "Google SERP 'Instrumentl alternatives' and 'Instrumentl vs' (accessed 2026-11-22); https://www.grantboost.io/vs-instrumentl",
+    "date": "2026-11-22"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Search-led and large: tens of thousands of US nonprofits, grant consultants and universities; 14-day free trial (self-serve) plus enterprise sales; Capterra/Software Advice/G2 categories and many 'best grant management/research software' listicles (Temelio, TechSoup, USD online degrees, Reddit r/nonprofit threads). Google AI Mode answers appear on the category queries.",
+    "competitors": [
+      {"name": "Candid (Foundation Directory Online)", "seo_investment": "heavy: learning.candid.org ranks for 'how do I find grants for my nonprofit'; FDO ranks on the same query; blog/sitemap 403 to direct fetch", "evidence_url": "https://learning.candid.org/finding-grants"},
+      {"name": "GrantStation", "seo_investment": "medium-heavy: programmatic grantmaker pages (17 sitemap pages, 2,000 URLs on page 1), newsletters, TrendTrack insights", "evidence_url": "https://grantstation.com/sitemap.xml"},
+      {"name": "Foundant (GrantHub)", "seo_investment": "medium: 212 blog posts, latest lastmod 2026-11; no vs/alternatives pages in page sitemap", "evidence_url": "https://www.foundant.com/post-sitemap.xml"},
+      {"name": "Submittable", "seo_investment": "heavy: 230 blog URLs, 32 guides, 80 customer stories, ~10 '<competitor>-alternatives' pages (Foundant, Blackbaud, AmpliFund, SurveyMonkey Apply...), sitemap lastmods Sep-Nov 2026", "evidence_url": "https://www.submittable.com/sitemap.xml"},
+      {"name": "Grantboost / Grantsights / Grant Frog (AI-native challengers)", "seo_investment": "targeting Instrumentl directly with vs and alternatives pages that rank top 3 for 'Instrumentl alternatives' / 'Instrumentl vs'", "evidence_url": "https://www.grantboost.io/vs-instrumentl"}
+    ],
+    "serp_checks": [
+      {"query": "best grant management software for nonprofits", "top_results": ["instrumentl.com blog Topic Hub (#1)", "reddit r/nonprofit", "techsoup.org", "trytemelio.com listicle", "YouTube 'The 7 Best Grant Management Software'", "grantmanagementmadeeasy.com", "neworg.com", "sage.com", "donorperfect.com"], "date": "2026-11-22"},
+      {"query": "grant discovery tool", "top_results": ["simpler.grants.gov", "grantfinder.com", "grantforward.com", "grantwatch.com", "grantassistant.ai", "grantedai.com", "instrumentl.com (#7)", "onlinedegrees.sandiego.edu listicle", "grantcopilot.ai"], "date": "2026-11-22"},
+      {"query": "how to find grants for my nonprofit", "top_results": ["grants.gov", "thegrantportal.com", "learning.candid.org", "grantwatch.com", "tgrc.hogg.utexas.edu", "fconline.foundationcenter.org (Candid FDO)", "pro.gofundme.com", "coloradononprofits.org", "grants.gov programs"], "date": "2026-11-22"},
+      {"query": "Instrumentl alternatives", "top_results": ["grantfrog.com '9 Instrumentl Alternatives'", "instrumentl.com (Grant Gopher alternatives post)", "grantsights.com 'Instrumentl vs Candid 2026'", "softwareadvice.co.uk", "fundrobin.com", "reddit", "instrumentl.com", "learngrantwriting.org", "grantcue.com 'Instrumentl vs GrantStation vs Candid: Prices Compared'"], "date": "2026-11-22"},
+      {"query": "Instrumentl vs", "top_results": ["grantfrog.com", "foundationsearch.com 'FoundationSearch vs Instrumentl'", "grantsights.com", "fundingforgood.org", "instrumentl.com/compare/grantstation", "g2.com 'Top 10 Instrumentl Alternatives'", "grantboost.io/vs-instrumentl", "instrumentl.com/compare/grantwatch"], "date": "2026-11-22"}
+    ],
+    "cost_of_absence": "Third parties define Instrumentl on its own brand queries: challenger vs/alternatives pages outrank or sit beside Instrumentl's own /compare pages for 'Instrumentl alternatives', framing it on price and as a database, while the company is moving up-market as a grant operating system (GrantOS, award management, spenddown). Buyers' committees (ED, development, finance) who ask an AI assistant 'is Instrumentl worth it / what are cheaper alternatives' get the competitors' framing.",
+    "why_not_yet": "Not a gap of investment: they invest heavily (programmatic pages, compare pages, Ahrefs, AI connectors). The likely gap is ownership: SEO appears engineering-led (Growth Product team) with freelance writers and no dedicated SEO/content marketer on the marketing side, so brand-query defense and AI-answer framing may fall between teams. Best label: unclear (leaning engineering-run).",
+    "evidence": [
+      {"claim": "Grantsights 'Best Instrumentl Alternatives 2026: Cheaper Options', updated Oct 14, 2026, cited in Google's AI Mode answer for 'Instrumentl alternatives' (scouting signal only, not for outreach)", "kind": "direct", "url": "https://www.google.com/search?q=Instrumentl+alternatives", "date": "accessed 2026-11-22"},
+      {"claim": "Grantboost page 'Grantboost vs Instrumentl - AI Writer vs Grant Database'", "kind": "direct", "url": "https://www.grantboost.io/vs-instrumentl", "date": "accessed 2026-11-22"}
+    ]
+  },
+  "features": {
+    "industry": "vertical_saas",
+    "stage": "series_c_plus",
+    "situation": "established",
+    "size_band": "51_200",
+    "geo": "us",
+    "marketing_gating": "single_seo",
+    "trigger": "competitor_comparison_page",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {"url": "https://www.instrumentl.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "homepage, title 'Your intelligent grant operating system'; GTM/GA4 ids"},
+    {"url": "https://www.instrumentl.com/sitemap.xml", "date": "lastmod 2026-11-21", "kind": "direct", "result": "25 sub-sitemaps; counted each (grants ~90k, foundations 4,633, county 3,141, blog 466, compare 9)"},
+    {"url": "https://www.instrumentl.com/robots.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "AI crawlers blocked from /grants; crawl-delay 10"},
+    {"url": "https://www.instrumentl.com/about", "date": "accessed 2026-11-22", "kind": "direct", "result": "97 people with titles/team tags; Growth team of 7 led by VP of Marketing; no SEO title"},
+    {"url": "https://www.instrumentl.com/blog", "date": "accessed 2026-11-22", "kind": "direct", "result": "recent post dates May-Oct 2026"},
+    {"url": "https://www.instrumentl.com/sitemaps/webflow_blog/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "466 blog URLs (no lastmod); 30 sampled directly for JSON-LD dates, bylines, word counts, internal links"},
+    {"url": "https://www.instrumentl.com/compare", "date": "accessed 2026-11-22", "kind": "direct", "result": "compare hub + 8 vs pages"},
+    {"url": "https://www.instrumentl.com/author/karen-lee", "date": "accessed 2026-11-22", "kind": "direct", "result": "top blog byline is an Account Executive"},
+    {"url": "https://api.lever.co/v0/postings/Instrumentl?mode=json", "date": "accessed 2026-11-22", "kind": "direct", "result": "5 open roles with created dates; full JDs read (Head of Product, CSM)"},
+    {"url": "https://jobs.lever.co/Instrumentl/513688c0-2efa-442e-b4de-19f0da10519c", "date": "accessed 2026-11-22", "kind": "direct", "result": "Staff Product Designer (Grant OS), only on careers page"},
+    {"url": "https://www.instrumentl.com/careers", "date": "accessed 2026-11-22", "kind": "direct", "result": "6 Lever links"},
+    {"url": "https://www.linkedin.com/company/instrumentl", "date": "accessed 2026-11-22", "kind": "direct", "result": "via Bright Data: 51-200, 123 employees on LinkedIn, 14,379 followers, SF, founded 2016"},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Instrumentl%22+SEO", "date": "accessed 2026-11-22", "kind": "inferred", "result": "titles: Head of Growth Marketing, Marketing Operations, Kane Jamison (Growth Product engineer), Marketing Leader (Betty Mok), PMM, Content Operations Supervisor, freelancers"},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Instrumentl%22+marketing", "date": "accessed 2026-11-22", "kind": "inferred", "result": "same marketing names + VP Sales, Head of Events & Community"},
+    {"url": "https://www.google.com/search?q=%22Kane+Jamison%22+Instrumentl", "date": "accessed 2026-11-22", "kind": "inferred", "result": "GitHub bio: engineer on Growth Product team, founder of Content Harmony"},
+    {"url": "https://dns.google/resolve?name=instrumentl.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "Ahrefs, HubSpot, Mailchimp, MailerLite, Perplexity, Anthropic, Growsurf verifications"},
+    {"url": "https://thenonprofittimes.com/npt_articles/55-million-investment-in-grants-platform-instrumentl/", "date": "2025-04-24", "kind": "direct", "result": "$55M Summit Partners growth investment, 4,500 clients"},
+    {"url": "https://www.summitpartners.com/companies/instrumentl", "date": "accessed 2026-11-22", "kind": "direct", "result": "portfolio page, invested 2025"},
+    {"url": "https://www.businesswire.com/news/home/ (Instrumentl Raises $55M from Summit Partners)", "date": "2025-04-23", "kind": "inferred", "result": "seen as Google result snippet only"},
+    {"url": "https://tracxn.com (Instrumentl profile)", "date": "2026-09-19", "kind": "unverified", "result": "snippet: $55.1M over 2 rounds, first 2016-03-31"},
+    {"url": "https://www.google.com/search?q=best+grant+management+software+for+nonprofits", "date": "accessed 2026-11-22", "kind": "direct", "result": "Instrumentl #1; listicles and vendors"},
+    {"url": "https://www.google.com/search?q=Instrumentl+alternatives", "date": "accessed 2026-11-22", "kind": "direct", "result": "Grant Frog, Grantsights, Software Advice, FundRobin, GrantCue pages aimed at Instrumentl"},
+    {"url": "https://www.google.com/search?q=Instrumentl+vs", "date": "accessed 2026-11-22", "kind": "direct", "result": "FoundationSearch, Grantboost, Grant Frog, Grantsights, G2 + Instrumentl compare pages"},
+    {"url": "https://www.google.com/search?q=grant+discovery+tool", "date": "accessed 2026-11-22", "kind": "direct", "result": "gov + AI-native challengers; Instrumentl #7"},
+    {"url": "https://www.google.com/search?q=how+to+find+grants+for+my+nonprofit", "date": "accessed 2026-11-22", "kind": "direct", "result": "grants.gov, Candid, GrantWatch; no Instrumentl on page 1"},
+    {"url": "https://www.grantboost.io/vs-instrumentl", "date": "accessed 2026-11-22", "kind": "direct", "result": "competitor vs page aimed at Instrumentl"},
+    {"url": "https://www.submittable.com/sitemap.xml", "date": "lastmod 2026-11", "kind": "direct", "result": "230 blog, 32 guides, ~10 alternatives pages"},
+    {"url": "https://www.foundant.com/post-sitemap.xml", "date": "lastmod 2026-11", "kind": "direct", "result": "212 posts"},
+    {"url": "https://grantstation.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "17 sitemap pages, programmatic grantmaker pages"}
+  ],
+  "sources_tried_failed": [
+    {"url": "Bright Data (all requests after ~23:20 UTC 2026-11-22)", "result": "empty bodies; header X-Brd-Err-Msg 'Account is suspended' (client_10020). Cut short follow-up LinkedIn searches ('Growth Engineer', 'content marketing', 'SEO' variants) and BD fetches of Candid/Submittable/Grant Frog."},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in \"Instrumentl\" \"Head of Marketing\" OR ... (OR query)", "result": "page returned with no organic results"},
+    {"url": "https://candid.org/blog/ and https://candid.org/sitemap.xml", "result": "403 direct"},
+    {"url": "https://www.submittable.com/blog/", "result": "403 direct (sitemap worked)"},
+    {"url": "https://grantfrog.com/", "result": "403 direct"},
+    {"url": "https://www.g2.com/products/instrumentl/reviews", "result": "403 direct"},
+    {"url": "http://web.archive.org/web/20250108165551/https://www.instrumentl.com/", "result": "403 direct"},
+    {"url": "Gmail Next Play issue", "result": "not re-read in this recon; lead taken from the brief, roles confirmed on Lever"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Instrumentl company page -> People tab, search 'SEO' and 'content': is there an SEO manager / content marketing manager not on the About page?",
+    "Instrumentl People tab, search 'Growth Product': how many engineers/PMs sit on the Growth Product team and does it own SEO?",
+    "Confirm Betty Mok is still VP of Marketing (About page title vs snippet 'Marketing Leader ... Go-To-Market Growth Accelerator', which could read as a fractional/advisor role)."
+  ],
+  "open_questions": [
+    "Is Betty Mok a full-time VP or a fractional 'growth accelerator'? Her snippet headline is ambiguous.",
+    "Who owns SEO: the Growth Product engineering team (Kane Jamison), an outside agency, or a hidden in-house role? If a team, this flips to blocked_seo_team.",
+    "Would a company this search-savvy (ChatGPT plugin, Claude connector, Perplexity verification) see an outside AI-visibility audit as new information?",
+    "Exact series label: last disclosed round is a growth equity investment (treated as series_c_plus)."
+  ]
+}

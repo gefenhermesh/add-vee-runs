@@ -1,0 +1,163 @@
+{
+  "scout_version": 3,
+  "company": "Pliant",
+  "domain": "getpliant.com",
+  "slug": "pliant",
+  "scouted": "2026-11-22",
+  "source_of_lead": "Next Play issue (10 Nov 2026): Pliant hiring a Partnerships Enablement Manager (Berlin/London/NY/remote); $80M raised; >$100M ARR",
+  "reason": "Fresh $80M Series C (4 Nov 2026) + US push, VP Marketing in place, no SEO team found; competitors (Spendesk, Payhawk, Pleo, Moss) invest heavily in comparison content and Spendesk runs a 'vs Pliant' page that misstates Pliant's product. A 2026 third-party study found Pliant missing from AI answers in its home DACH market, where its German blog has been dormant since 2024.",
+  "gating_rating": "sweet_spot",
+  "gating_note": "VP Marketing Christoph Brack listed on Pliant's own About page (direct). Marketing team seen: Content Marketing Manager (Stefan Masarwa, blog bylines), Senior Brand and Content Manager (Simki Dutta, LinkedIn snippet + Nov 2026 byline), VP Growth (Leon Faulstroh, About page; remit unknown). No SEO-titled person found in Google site:linkedin.com/in snippets (several queries; later retries failed because Bright Data returned empty pages, so status = couldn't verify, not 'none'). The open Website Product Manager role (Marketing Brand & Content dept, posted 2026-10-28) carries 'Technical SEO setup' as one duty among many, which suggests SEO sits with generalists rather than an SEO team. Caveat: a new English GEO-style comparison push (Nov 9-11 2026: 2 listicles + 3 'versus' pages, one already ranking #1 in US for 'Stripe Issuing alternatives') shows someone is executing search deliberately; could be the content team or an agency. Sponsor should check the People tab before sending.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Christoph Brack", "role": "VP Marketing", "kind": "direct", "source": "https://www.getpliant.com/en/about-pliant (accessed 2026-11-22); also marketingx.at speaker bio (ex Head of Marketing & Communications at Ratepay; Serviceplan, Springer & Jacoby) and Google LinkedIn snippet 'Christoph Brack - VP Marketing - Pliant, Berlin'"},
+      {"name": "Leon Faulstroh", "role": "VP Growth", "kind": "direct", "source": "https://www.getpliant.com/en/about-pliant (accessed 2026-11-22); remit (marketing vs sales growth) unknown"}
+    ],
+    "evidence": [
+      {"claim": "About page leadership list includes 'Christoph Brack VP Marketing' and 'Leon Faulstroh VP Growth'", "kind": "direct", "url": "https://www.getpliant.com/en/about-pliant", "date": "accessed 2026-11-22"},
+      {"claim": "Speaker bio: VP Marketing at Pliant, 15+ years, previously Head of Marketing & Communications at Ratepay", "kind": "direct", "url": "https://marketingx.at/person/christoph-brack", "date": "accessed 2026-11-22"},
+      {"claim": "Stefan Masarwa labelled 'Content Marketing Manager' on Pliant blog author box; main blog author 2021-2026", "kind": "direct", "url": "https://www.getpliant.com/en/blog/profitable-banking-card-spend-management-programs", "date": "2026-08-02"},
+      {"claim": "Simki Dutta - Senior Brand and Content Manager at Pliant (LinkedIn snippet title); author of 18 Nov 2026 post", "kind": "inferred", "url": "https://www.getpliant.com/en/blog/finance-workflows-automate-ai-agents", "date": "2026-11-18"},
+      {"claim": "Mara Münzing (Product Marketing Lead @ Pliant since Aug 2023) appears to have left: snippet shows Head of Marketing at Ski Arlberg West since Jul 2026", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Pliant%22+%22VP+Marketing%22+OR+CMO+OR+%22Head+of+Marketing%22", "date": "accessed 2026-11-22"}
+    ]
+  },
+  "seo_team": {
+    "status": "couldn't verify",
+    "evidence": [
+      {"claim": "No SEO-titled Pliant employee in Google site:linkedin.com/in snippets for 'Pliant SEO', 'SEO Manager/SEO Lead/Head of SEO/Organic Growth' (results were other companies or name collisions with Pliant Therapeutics)", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Pliant%22+%22SEO+Manager%22+OR+%22SEO+Lead%22+OR+%22Head+of+SEO%22+OR+%22Organic+Growth%22", "date": "accessed 2026-11-22"},
+      {"claim": "Website Product Manager JD (dept Marketing Brand & Content) lists 'Technical SEO setup (meta tags, structured data, sitemaps, Core Web Vitals)' and 'infra-level SEO' with Engineering: technical SEO owned by a website generalist, no SEO team named among collaborators (Content, Design, PMM, Engineering)", "kind": "direct", "url": "https://jobs.ashbyhq.com/pliant/c1bd7960-0471-4a47-9dc8-18200a445490", "date": "2026-10-28"},
+      {"claim": "Deliberate search work exists: Nov 2026 'Top 5 Stripe Issuing alternatives' and 'Best provider to launch a card program 2027' listicles plus /en-us/versus/ pages for Stripe Issuing, Enfuce, Mynt (all lastmod 2026-11-11); the alternatives listicle ranks #1 on Google US", "kind": "direct", "url": "https://www.getpliant.com/en-us/blog/top-5-stripe-issuing-alternatives", "date": "2026-11-09"},
+      {"claim": "Google snippet search for SEO people could not be re-run: Bright Data returned empty 200 responses for later queries", "kind": "inferred", "url": "https://api.brightdata.com/request", "date": "2026-11-22"}
+    ]
+  },
+  "situation": {
+    "estimate": "Series C scale-up (founded 2020, Berlin, 300+ staff, 8 offices) that crossed $100M ARR in mid-2026 after doubling three years running, and raised $80M on 4 Nov 2026 to expand in the US/Canada and push 'agentic payments' (MCP access for AI agents). It has two motions: corporate cards/spend for businesses (vs Pleo, Moss, Payhawk, Spendesk in Europe) and white-label card programs for banks, fintechs and software platforms (vs Enfuce, Mynt, Stripe Issuing, Swan, Solaris). Marketing is restarting content after a near-silent 2025: English posts resumed March 2026 and a US-targeted comparison push landed one week after the round, while the German blog (home market) has had no new post since Oct 2025. The direction is US expansion plus the bank/platform side, so the new search work is US/English; DACH SMB/mid-market visibility looks left to legacy content.",
+    "confidence": "medium"
+  },
+  "trigger": {"type": "funding", "detail": "$80M Series C led by Seaya Nova and Speedinvest, with Illuminate Financial, Motive Partners, Molten Ventures; >$100M ARR; expansion in US and Canada; AI agent payments", "date": "2026-11-04", "source": "https://www.getpliant.com/en/press/80-million-series-c"},
+  "fit_evidence": [
+    {"claim": "buying_journey = committee: CFO/finance team, accounting, IT/security and employees weigh in on corporate cards and spend software; bank/platform card programs are long, regulated partner decisions", "kind": "inferred", "url": "https://www.getpliant.com/en-us/blog/best-provider-to-launch-a-card-program-for-a-b2b-product-in-2027", "date": "2026-11-11"},
+    {"claim": "Series C $80M, >$100M ARR, doubled business three consecutive years, 300+ employees, 8 offices", "kind": "direct", "url": "https://www.getpliant.com/en/press/80-million-series-c", "date": "2026-11-04"},
+    {"claim": "Spendesk runs 'Spendesk vs Pliant' pages (EN, DE, FR) stating Pliant 'does not offer invoice management', 'does not offer expense claims' and 'does not offer native accounting integrations'", "kind": "direct", "url": "https://www.spendesk.com/alternative/pliant/", "date": "accessed 2026-11-22"},
+    {"claim": "Pliant's own site contradicts that: an Accounts Payable product ('capture invoices, streamline approvals') and a DATEV integration page ('Direct export with one click'), plus 20+ integration pages", "kind": "direct", "url": "https://www.getpliant.com/en/integrations/datev", "date": "accessed 2026-11-22"},
+    {"claim": "Spendesk DE comparison 'Payhawk, Pliant, Moss und Spendesk im Vergleich' (published 2026-08-14, modified 2026-11-20)", "kind": "direct", "url": "https://www.spendesk.com/de/blog/payhawk-pliant-moss-ausgabenmanagement-vergleich/", "date": "2026-11-20"},
+    {"claim": "Radyant (Berlin SEO/AI-search agency) study of 25 German buyer prompts on 4 AI platforms: Moss leads, Pleo second, 'Pliant doesn't appear in the top 10 sources across the entire prompt set'; Pliant visible only for card/limit-specific prompts", "kind": "direct", "url": "https://www.radyant.io/marketing-breakdowns/fintech-ai-visibility", "date": "2026-03-06"},
+    {"claim": "German blog: 57 posts, 2021-07 to 2025-10, none in 2026 (34 from 2023); English blog: 77 posts, 2022-10 to 2026-11 with a gap Oct 2024 - Mar 2026 (one engineering post)", "kind": "direct", "url": "https://www.getpliant.com/sitemap.xml", "date": "accessed 2026-11-22"}
+  ],
+  "site_and_content": {
+    "cms_and_tools": "Next.js front end on Storyblok headless CMS (raw HTML), GTM-58D3NQV, HubSpot (scripts + 2 DNS verification tokens + HubSpot SPF), Usercentrics consent. DNS TXT also: openai-domain-verification, anthropic-domain-verification, google-site-verification x7, linkedin, facebook, stripe, zoho.",
+    "sitemap": "2,064 URLs in 11 locales (en 301, en-us 279, en-gb 276, de 230, fi 161, it 156, nl 147, pt 143, fr 141, es 133, pl 97) with hreflang alternates. Most lastmod values = 2026-10-07 (bulk re-publish/migration), so lastmod is not a publish date.",
+    "blog_en": "77 posts (read datePublished on all 77): 2022-10-30 to 2026-11-18. 2022-23 SEO-style explainers by Duline Theogene and Ella-Roosa Koivupuro (cvv-code, bookkeeping-vs-accounting, what-is-gobd); 2024 mostly travel/CaaS posts by Stefan Masarwa; Oct 2024 - Mar 2026 near-silent (1 engineering post); restart Mar 2026 (agencies, travel, interchange), bank-program posts Jun-Aug 2026, AI agent posts Nov 2026.",
+    "blog_de": "57 posts (datePublished on all 57): 2021-07 to 2025-10-30; 2021:2, 2022:8, 2023:34, 2024:11, 2025:2, 2026:0. Topics like firmenkreditkarte-vergleich, firmenkreditkarte-kostenlos, kreditkartenlimit: old keyword plays not refreshed.",
+    "comparison_pages": "Only on en-us: /en-us/versus/stripe-issuing, /en-us/versus/enfuce, /en-us/versus/mynt and blog listicles 'Top 5 Stripe Issuing alternatives for 2027' (2026-11-09) and 'Best provider to launch a card program for a B2B product in 2027' (2026-11-11), all aimed at the bank/platform (CaaS) side. No Pliant pages vs Pleo, Moss, Payhawk, Spendesk, Ramp or Brex, in any locale. No German comparison pages beyond two 2022-23 blog posts.",
+    "link_aware_notes": "Raw-HTML anchor read of the two listicles, the press release and the Stripe versus page: the listicles link to each other but none of the four pages links to any /en-us/versus/ page; the versus pages were found only via sitemap (small sample, not a full link graph). Social share URLs on the listicles contain a doubled path (/en-us/en-us/blog/...). The Mynt versus page's comparison table header reads 'Pliant | Enfuce' instead of Mynt (copy-paste error).",
+    "wayback": "Earliest snapshot near 2025 query: 2022-05-18; not needed further (no rebrand found)."
+  },
+  "jobs": {
+    "board": "Ashby (api.ashbyhq.com/posting-api/job-board/pliant): 30 open roles on 2026-11-22",
+    "marketing_roles": [
+      {"title": "Website Product Manager (m/f/d)", "dept": "Marketing Brand & Content", "location": "Berlin (hybrid)", "published": "2026-10-28", "url": "https://jobs.ashbyhq.com/pliant/c1bd7960-0471-4a47-9dc8-18200a445490", "notes": "Owns website as a product; Storyblok, technical SEO, GTM/GA4, CRO; works with Content, Design, PMM, Engineering. No AI-search/GEO mention."}
+    ],
+    "lead_role": {"title": "Partnerships Enablement Manager - US", "location": "New York (hybrid)", "published": "2026-11-03", "url": "https://jobs.ashbyhq.com/pliant/2a2de380-0238-49f9-a3e8-8c80392eca9b", "notes": "Reports to North America Partnerships Director; not a marketing role."},
+    "other_signals": "Head of Product - Growth (onboarding/credit, not marketing), BDMs UK/DACH, Inbound Sales Manager Berlin, SDR DACH. A '(Senior) Marketing Manager, Performance & Growth' role appeared in Google results (First Momentum / Built In) but is not on the Ashby board now.",
+    "seo_roles": "none on the board"
+  },
+  "contacts": [
+    {"name": "Christoph Brack", "role": "VP Marketing", "email": null, "email_verified": false, "source": "https://www.getpliant.com/en/about-pliant", "recipient_rank": 1},
+    {"name": "Stefan Masarwa", "role": "Content Marketing Manager", "email": null, "email_verified": false, "source": "Pliant blog author box, e.g. https://www.getpliant.com/en-us/blog/top-5-stripe-issuing-alternatives", "recipient_rank": 3},
+    {"name": "Malte Rau", "role": "Co-founder & CEO", "email": null, "email_verified": false, "source": "https://www.getpliant.com/en/press/80-million-series-c", "recipient_rank": 2}
+  ],
+  "outreach_angle": {
+    "hook": "Congrats on the Series C. Spendesk runs 'Spendesk vs Pliant' pages in English, German and French saying Pliant has no invoice management and no native accounting integrations, while your own site shows Accounts Payable and DATEV. Those pages are what AI assistants read when a CFO asks for a Pliant alternative. A March 2026 study also found Pliant outside the top 10 AI sources for German expense-management prompts, where Moss and Pleo lead. Your new US 'versus' pages show the playbook works; DACH and the spend-management side have no equivalent yet.",
+    "source": "https://www.spendesk.com/alternative/pliant/ ; https://www.getpliant.com/en/integrations/datev ; https://www.radyant.io/marketing-breakdowns/fintech-ai-visibility",
+    "date": "2026-11-22 (Spendesk page accessed); study 2026-03-06; round 2026-11-04"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Large buyer set (SMBs to mid-market finance teams across 30+ countries) that compares vendors online: G2, Capterra, Software Advice, GetApp, OMR Reviews and Gartner Peer Insights all list Pliant with 'alternatives' and 'X vs Pliant' pages; German comparison portals (check24, verivox, für-gruender) and listicles rank for 'Firmenkreditkarte Vergleich'. The bank/platform (CaaS) side has fewer buyers but vendors are actively publishing 'best card issuing provider' and 'alternatives' listicles (Pliant now ranks #1 US for 'Stripe Issuing alternatives').",
+    "competitors": [
+      {"name": "Spendesk", "seo_investment": "Very high: 2,890 sitemap URLs, ~1,900 blog/guide URLs, 86 comparison/alternative URLs incl. /alternative/pliant/ (EN/DE/FR) and a DE comparison 'Payhawk, Pliant, Moss, Spendesk' updated 2026-11-20", "evidence_url": "https://www.spendesk.com/alternative/pliant/"},
+      {"name": "Payhawk", "seo_investment": "High: 1,054 URLs, 677 blog URLs, 13 '<competitor>-alternative' landing pages (Pleo, Spendesk, Brex, Ramp, Soldo...) plus 'best X alternatives' posts; no Pliant page", "evidence_url": "https://payhawk.com/pleo-alternative"},
+      {"name": "Pleo", "seo_investment": "High: 1,310 URLs, alternative pages vs Payhawk, Spendesk, Moss, Circula in 7 locales; second in Radyant's AI-visibility ranking", "evidence_url": "https://www.pleo.io/en/moss-alternative"},
+      {"name": "Moss", "seo_investment": "High: 1,718 URLs, finance and corporate-card guides in DE/EN (firmenkreditkarten-im-vergleich, virtuelle-kreditkarten-im-vergleich), /comparisons/moss-vs-pleo; Testsieger on für-gruender and top in AI answers in DACH", "evidence_url": "https://www.getmoss.com/de-de/finanzleitfaden/firmenkreditkarten-im-vergleich"},
+      {"name": "Enfuce (CaaS side)", "seo_investment": "Medium-high: 163 article/guide URLs incl. long-tail 'how alternative lenders launch a branded credit card' pages and /compare/top-issuer-processors", "evidence_url": "https://enfuce.com/compare/top-issuer-processors"}
+    ],
+    "serp_checks": [
+      {"query": "Stripe Issuing alternatives (en, US)", "top_results": ["getpliant.com/en-us/blog/top-5-stripe-issuing-alternatives (#1)", "stripe.com/issuing", "g2.com Stripe Issuing", "highnote.com comparisons", "openbankingtracker.com alternatives", "wallester.com", "nevermined.ai", "blog.cardspro.com"], "date": "2026-11-22"},
+      {"query": "Firmenkreditkarte Vergleich (de, DE)", "top_results": ["check24.de", "verivox.de", "cardscout.de", "reisetopia.de", "finanzfluss.de", "handelsblatt.com", "miles-and-more-kreditkarte.com", "americanexpress.com"], "date": "2026-11-22"},
+      {"query": "beste Firmenkreditkarte für Unternehmen (de, DE)", "top_results": ["check24.de", "americanexpress.com", "fuer-gruender.de (Testsieger: Moss)", "bild.de", "reisetopia.de", "verivox.de", "gruenderkueche.de", "meilenoptimieren.com"], "date": "2026-11-22"},
+      {"query": "Pliant vs Pleo (en, US)", "top_results": ["softwareadvice.ie Pleo vs Pliant", "Capterra UK Pleo vs Pliant", "CB Insights", "radyant.io fintech AI visibility", "wise.com Pliant competitors", "Capterra DE", "G2 Pliant alternatives"], "date": "2026-11-22"},
+      {"query": "Pliant alternatives (en, US)", "top_results": ["softwareadvice.ie", "Gartner Peer Insights (name collision)", "getpliant.com blog", "Software Advice", "GetLatka Pliant vs Ramp", "Slashdot (name collision)", "G2", "OMR Reviews", "Capterra", "GetApp"], "date": "2026-11-22"},
+      {"query": "best corporate card Europe 2026 (en, US)", "top_results": ["wise.com", "ofx.com", "navan.com", "mobilexpense.com (lists Qonto, Payhawk, Moss, Soldo, Revolut)", "airwallex.com", "merchantsavvy", "amnis"], "date": "2026-11-22"}
+    ],
+    "cost_of_absence": "1) Competitors define Pliant in comparison content: Spendesk's EN/DE/FR 'vs Pliant' pages claim Pliant lacks AP, expense claims and native accounting integrations, which Pliant's own pages contradict; AI answers to 'Pliant alternatives' draw on such pages. 2) Home-market DACH: Moss and Pleo win German buyer prompts and listicles (Radyant, Mar 2026; für-gruender Testsieger Moss), and Pliant's German blog has not published since Oct 2025. 3) New US/Canada market after the round: a new entrant with no brand memory in AI answers; the new versus pages cover only CaaS rivals, not US spend platforms (Ramp, Brex). 4) New 'agentic payments' category language with no settled AI answer yet.",
+    "why_not_yet": "never_prioritized (partly): sales/partner-led growth with heavy PR; the blog was near-silent Oct 2024 - Mar 2026 and the German blog is dormant, while competitors kept investing. Evidence that it is now being picked up for the US/CaaS side (Nov 2026 listicles and versus pages, Website PM hire with technical SEO), so the gap is DACH + spend-management + AI visibility rather than zero activity.",
+    "evidence": [
+      "https://www.radyant.io/marketing-breakdowns/fintech-ai-visibility",
+      "https://www.spendesk.com/alternative/pliant/",
+      "https://www.getpliant.com/sitemap.xml",
+      "https://jobs.ashbyhq.com/pliant/c1bd7960-0471-4a47-9dc8-18200a445490"
+    ]
+  },
+  "features": {
+    "industry": "fintech",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "eu",
+    "marketing_gating": "sweet_spot",
+    "trigger": "funding",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {"url": "https://www.getpliant.com/en/press/80-million-series-c", "date": "2026-11-04", "kind": "direct", "result": "Press release: $80M Series C, leads, ARR >$100M, 300+ staff"},
+    {"url": "https://www.google.com/search?q=Pliant+raises+%2480+million", "date": "accessed 2026-11-22", "kind": "direct", "result": "Reuters/TradingView 4 Nov 2026, Tech Funding News, FinTech Futures coverage of the round"},
+    {"url": "https://www.getpliant.com/en/about-pliant", "date": "accessed 2026-11-22", "kind": "direct", "result": "Leadership list incl. VP Marketing Christoph Brack, VP Growth Leon Faulstroh"},
+    {"url": "https://marketingx.at/person/christoph-brack", "date": "accessed 2026-11-22", "kind": "direct", "result": "Speaker bio, VP Marketing at Pliant"},
+    {"url": "https://www.getpliant.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "2,064 URLs, 11 locales; versus pages and listicles on en-us"},
+    {"url": "https://www.getpliant.com/en/blog", "date": "accessed 2026-11-22", "kind": "direct", "result": "All 77 EN and 57 DE post pages fetched; datePublished + author read"},
+    {"url": "https://www.getpliant.com/en-us/versus/stripe-issuing", "date": "2026-11-11", "kind": "direct", "result": "Versus page; also /enfuce and /mynt (Mynt table header error)"},
+    {"url": "https://www.getpliant.com/en-us/blog/top-5-stripe-issuing-alternatives", "date": "2026-11-09", "kind": "direct", "result": "Listicle by Stefan Masarwa; ranks #1 US for 'Stripe Issuing alternatives'"},
+    {"url": "https://www.getpliant.com/en/integrations/datev", "date": "accessed 2026-11-22", "kind": "direct", "result": "DATEV integration page"},
+    {"url": "https://www.getpliant.com/en/card-spend-os/features/accounts-payable", "date": "accessed 2026-11-22", "kind": "direct", "result": "AP automation product page"},
+    {"url": "https://api.ashbyhq.com/posting-api/job-board/pliant", "date": "accessed 2026-11-22", "kind": "direct", "result": "30 roles; full JDs for Website PM, Partnerships Enablement US, Head of Product Growth"},
+    {"url": "https://dns.google/resolve?name=getpliant.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "HubSpot, Google, OpenAI, Anthropic, LinkedIn verification tokens"},
+    {"url": "https://www.radyant.io/marketing-breakdowns/fintech-ai-visibility", "date": "2026-03-06", "kind": "direct", "result": "Third-party AI-visibility study: Pliant not in top 10 sources"},
+    {"url": "https://www.spendesk.com/alternative/pliant/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Spendesk vs Pliant page (EN; DE/FR versions in sitemap)"},
+    {"url": "https://www.spendesk.com/de/blog/payhawk-pliant-moss-ausgabenmanagement-vergleich/", "date": "2026-11-20", "kind": "direct", "result": "DE comparison incl. Pliant"},
+    {"url": "https://www.spendesk.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "2,890 URLs, 86 vs/alternative URLs"},
+    {"url": "https://payhawk.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "1,054 URLs, 30 vs/alternative URLs, no Pliant page"},
+    {"url": "https://www.pleo.io/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "1,310 URLs, 16 alternative pages, no Pliant page"},
+    {"url": "https://www.getmoss.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "1,718 URLs, guides + comparisons, no Pliant page"},
+    {"url": "https://enfuce.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "309 URLs, 163 articles/guides"},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Christoph+Brack%22", "date": "accessed 2026-11-22", "kind": "inferred", "result": "Snippet titles only: VP Marketing at Pliant; also Simki Dutta, Mara Muenzing, Malte Rau titles from related queries"},
+    {"url": "https://www.google.com/search?q=Firmenkreditkarte+Vergleich&hl=de&gl=de", "date": "accessed 2026-11-22", "kind": "direct", "result": "Comparison portals dominate; Moss Testsieger; Pliant not in top results"},
+    {"url": "http://archive.org/wayback/available?url=getpliant.com&timestamp=20250101", "date": "accessed 2026-11-22", "kind": "direct", "result": "Closest snapshot 2022-05-18; not used further"}
+  ],
+  "sources_tried_failed": [
+    {"url": "https://www.linkedin.com/company/getpliant/ (also /pliant-gmbh/, /pliant/, de.linkedin.com/company/getpliant)", "date": "2026-11-22", "result": "Bright Data returned empty 200 bodies; Google snippet shows 'LinkedIn · Pliant 19.9K+ followers'"},
+    {"url": "Google via Bright Data: '\"Leon Faulstroh\" Pliant', 'site:linkedin.com/in \"SEO\" \"Pliant\" Berlin', 'site:linkedin.com/in \"Pliant\" \"SEO Specialist\" OR ...', '\"Simki Dutta\" Pliant'", "date": "2026-11-22", "result": "Empty responses after ~20 successful queries (retried 3 times); Bing via Bright Data also empty"},
+    {"url": "https://ramp.com/sitemap.xml", "date": "2026-11-22", "result": "0 URLs parsed (likely blocked); Ramp/Brex content investment not checked"},
+    {"url": "Greenhouse/Lever boards 'pliant', 'getpliant', 'pliantgmbh', 'pliant-gmbh'", "date": "2026-11-22", "result": "No boards; Ashby 'pliant' is the board"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Pliant company page (linkedin.com/company/getpliant) -> People tab, search 'SEO', 'organic', 'search', 'GEO', 'content': is there an SEO specialist or SEO lead (this decides sweet_spot vs single_seo/blocked)?",
+    "Same People tab: does Leon Faulstroh (VP Growth) own marketing/acquisition, and is Christoph Brack still VP Marketing (About page says yes as of 2026-11-22)?",
+    "Any agency credited for the Nov 2026 'versus' pages / listicles (posts by Stefan Masarwa or Christoph Brack mentioning an SEO/GEO agency)?"
+  ],
+  "open_questions": [
+    "Who is executing the new US comparison/GEO push (in-house content team vs agency)? If an SEO/GEO agency or specialist owns it, the pitch must avoid duplicating it and focus on DACH + spend-management side.",
+    "Is DACH SMB/mid-market still a priority after the round, or is the company deliberately shifting to US and bank/platform programs (which would weaken the DACH angle)?",
+    "Radyant (the agency behind the Mar 2026 study) may already have pitched Pliant; the sponsor should not lean on that study as the main hook, the Spendesk page is the sponsor's own citable finding."
+  ]
+}
