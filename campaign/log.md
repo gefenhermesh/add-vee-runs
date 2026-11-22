@@ -52,3 +52,5 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 
 ## 2026-11-19 · Scout run 1
 Long list: 130 companies (Firgun 13 Nov, Telegram marketing jobs, Avi Lewis list). Filter: `campaign/scout/filter_2026-11-19.md`. Recon: 12. Proposed 10 (plurai, buildots, darrow, scaleops, zenzap, capitolis, bites, daylight-security, edelbyte, dreeze). Held: geoedge (exception without funding; watch for new VP Marketing), dealhub (blocked: SEO Lead). Picks (learn.py, no outcome data yet): capitolis, plurai, scaleops (exploit), buildots, zenzap (explore). LinkedIn People-tab checks for the sponsor are in each `companies/<slug>/scout.json` → `linkedin_checks_for_sponsor`.
+
+- 2026-11-22 22:30 UTC: new manager session session_01FkmvpLcuCN59ctDmE7xHax set up (tools OK, Gmail gefen@etico.cr); campaign paused, no hourly task yet.
