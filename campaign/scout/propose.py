@@ -43,6 +43,12 @@ def problems(rec):
             out.append("low SEO need: record it, but don't propose it")
         else:
             out += [f"seo_need.{k} missing" for k in ("buyer_research", "competitors", "cost_of_absence", "why_not_yet") if not need.get(k)]
+        if rec.get("scout_version", 0) >= 4:
+            gc = rec.get("game_changer") or {}
+            if gc.get("verdict") not in ("yes", "maybe", "no") or not gc.get("why"):
+                out.append("game_changer needs verdict yes/maybe/no and why (SCOUT.md: the game-changer test)")
+            elif gc["verdict"] == "no":
+                out.append("game changer: no: record it, but don't propose it")
         if feats.get("seo_need") != need.get("rating"):
             out.append("feature seo_need must equal seo_need.rating")
     for s in rec.get("sources") or []:

@@ -1,0 +1,819 @@
+{
+ "items": [
+  {
+   "name": "Mavria",
+   "key": "mavria",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-19",
+   "notes": [
+    "2026-11-22: rescued: recon next",
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Nominal",
+   "key": "nominal",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-19",
+   "notes": [
+    "2026-11-22: rescued: recon next",
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Hello Heart",
+   "key": "hello heart",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: rescued: recon next",
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Spines",
+   "key": "spines",
+   "sources": [
+    "firgun/avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": false,
+   "trigger_date": "2026-11-13",
+   "notes": [
+    "2026-11-22: rescued: recon next (non-B2B explore)",
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Pure",
+   "key": "pure",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": false,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: rescued: recon next (non-B2B explore)",
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Northwood",
+   "key": "northwood",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-10",
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "High Lander",
+   "key": "high lander",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-10-15",
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "BloomX",
+   "key": "bloomx",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-10-15",
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Remepy",
+   "key": "remepy",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "April",
+   "key": "april",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Open Human",
+   "key": "open human",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Chariot",
+   "key": "chariot",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Posh",
+   "key": "posh",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Flick",
+   "key": "flick",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Artlist",
+   "key": "artlist",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Kickoff",
+   "key": "kickoff",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": false,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "ONE ZERO",
+   "key": "one zero",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": false,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: light check"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Logz.io",
+   "key": "logz",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: check SEO team"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Cymulate",
+   "key": "cymulate",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: check SEO team"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Kela",
+   "key": "kela",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: check SEO team"
+   ],
+   "slug": null
+  },
+  {
+   "name": "LangChain",
+   "key": "langchain",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: check SEO team"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Gamma",
+   "key": "gamma",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: check SEO team"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Sentra",
+   "key": "sentra",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-15",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Corma",
+   "key": "corma",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-16",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Mave",
+   "key": "mave",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-10-22",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Rein Security",
+   "key": "rein",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-10-15",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Brava Security",
+   "key": "brava",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-04",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Pluto Security",
+   "key": "pluto",
+   "sources": [
+    "avi/telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-10-15",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Modelyo",
+   "key": "modelyo",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-10-22",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Incredibuild",
+   "key": "incredibuild",
+   "sources": [
+    "avi"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": "2026-11-15",
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Gloat",
+   "key": "gloat",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "PointFive",
+   "key": "pointfive",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "IO River",
+   "key": "river",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Spikerz Security",
+   "key": "spikerz",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Okoora",
+   "key": "okoora",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Alta",
+   "key": "alta",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Fullpath",
+   "key": "fullpath",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "LSports",
+   "key": "lsports",
+   "sources": [
+    "telegram"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held run 1"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Nooks",
+   "key": "nooks",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Gigs",
+   "key": "gigs",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Fleetworks",
+   "key": "fleetworks",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Mews",
+   "key": "mews",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Coframe",
+   "key": "coframe",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Verra",
+   "key": "verra",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Prism Data",
+   "key": "prism data",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Griffin",
+   "key": "griffin",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Cara",
+   "key": "cara",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Luca IQ",
+   "key": "luca iq",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Sixtyfour",
+   "key": "sixtyfour",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Corgi",
+   "key": "corgi",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Sift",
+   "key": "sift",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Coral",
+   "key": "coral",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Prosper Health",
+   "key": "prosper health",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": false,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held (non-B2B/B2B2C explore)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Imprint",
+   "key": "imprint",
+   "sources": [
+    "next_play"
+   ],
+   "added": "2026-11-22",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-22: held"
+   ],
+   "slug": null
+  }
+ ]
+}

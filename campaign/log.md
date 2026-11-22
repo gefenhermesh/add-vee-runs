@@ -21,3 +21,6 @@ Sponsor asked for an SEO-need check (competition, risk, why not invested). Added
 
 ## 2026-11-22 · Scout: Next Play intake + broader fit rule
 Sponsor: Israel/US/EU in scope by design; fit = considered purchase (buying committee or long journey), not only B2B. Next Play (7 emails) filtered (`campaign/scout/filter_2026-11-22_nextplay.md`), 12 recon'd with the SEO-need check. Proposed 9: traversal, antimetal, vouched, hanover-park, ocient, permitflow, kalepa, craftwork, pliant. Held: genesis-computing, axiamatic (no-leader exceptions), instrumentl (mature in-house search). Bright Data account suspended mid-run (billing): instrumentl, pliant, axiamatic LinkedIn/SERP checks incomplete; readers.fetch now raises on Bright Data error headers. Pool: 18 proposed (9 from run 1 still seo_need unassessed). learn.py pick 5: bites, kalepa, zenzap (exploit), daylight-security, craftwork (explore); no reply data yet.
+
+## 2026-11-22 · Scout: slow and deep
+Sponsor: the bottom line is SEO cooperation (work where add-vee is used); B2B priority, not a limit; work lists gradually. SCOUT.md: goal rewritten; leads go to `campaign/scout/queue.json` (scout_queue.py); each run takes one batch of ~15, light-checks all, recons the best 3-5, proposes only what passes the new game-changer test (scout_version 4). Queue seeded with 54 held/rescued companies; held.json retired.
