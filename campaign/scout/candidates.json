@@ -17,7 +17,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -38,7 +39,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -59,7 +61,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -80,7 +83,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -101,7 +105,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "considered"
   }
  },
  {
@@ -122,7 +127,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -143,7 +149,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -164,7 +171,8 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
   }
  },
  {
@@ -185,7 +193,206 @@
    "subject_style": "how_ai_sees_x",
    "send_slot": "sun_thu_morning_local",
    "contact_verified": "no",
-   "seo_need": "unassessed"
+   "seo_need": "unassessed",
+   "buying_journey": "committee"
+  }
+ },
+ {
+  "slug": "traversal",
+  "features": {
+   "industry": "devtools",
+   "stage": "series_b",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "us",
+   "marketing_gating": "single_seo",
+   "trigger": "funding",
+   "finding_pattern": "losing_to_named_competitors",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "antimetal",
+  "features": {
+   "industry": "devtools",
+   "stage": "series_a",
+   "situation": "early",
+   "size_band": "1_50",
+   "geo": "us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "job_post",
+   "finding_pattern": "misrepresented",
+   "recipient_role": "head_of_growth",
+   "ask_track": "engagement",
+   "opener_type": "their_words",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "vouched",
+  "features": {
+   "industry": "identity_verification",
+   "stage": "series_a",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "marketing_hire",
+   "finding_pattern": "losing_to_named_competitors",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "their_words",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "hanover-park",
+  "features": {
+   "industry": "fintech",
+   "stage": "series_a",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "us",
+   "marketing_gating": "no_leader_exception",
+   "trigger": "competitor_comparison_page",
+   "finding_pattern": "misrepresented",
+   "recipient_role": "ceo",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "ocient",
+  "features": {
+   "industry": "data_ai_infra",
+   "stage": "series_c_plus",
+   "situation": "scaling",
+   "size_band": "201_1000",
+   "geo": "us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "absent",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "permitflow",
+  "features": {
+   "industry": "vertical_saas",
+   "stage": "series_b",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "job_post",
+   "finding_pattern": "losing_to_named_competitors",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "their_words",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "kalepa",
+  "features": {
+   "industry": "insurtech",
+   "stage": "series_b",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "losing_to_named_competitors",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
+  }
+ },
+ {
+  "slug": "craftwork",
+  "features": {
+   "industry": "home_services",
+   "stage": "series_a",
+   "situation": "scaling",
+   "size_band": "51_200",
+   "geo": "us",
+   "marketing_gating": "sweet_spot",
+   "trigger": "marketing_hire",
+   "finding_pattern": "unknown",
+   "recipient_role": "head_of_growth",
+   "ask_track": "engagement",
+   "opener_type": "their_words",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "considered",
+   "seo_need": "medium"
+  }
+ },
+ {
+  "slug": "pliant",
+  "features": {
+   "industry": "fintech",
+   "stage": "series_c_plus",
+   "situation": "scaling",
+   "size_band": "201_1000",
+   "geo": "eu",
+   "marketing_gating": "sweet_spot",
+   "trigger": "funding",
+   "finding_pattern": "losing_to_named_competitors",
+   "recipient_role": "cmo_vp_marketing",
+   "ask_track": "engagement",
+   "opener_type": "milestone_congrats",
+   "email_variant": "v4_two_images",
+   "subject_style": "how_ai_sees_x",
+   "send_slot": "sun_thu_morning_local",
+   "contact_verified": "no",
+   "buying_journey": "committee",
+   "seo_need": "high"
   }
  }
 ]

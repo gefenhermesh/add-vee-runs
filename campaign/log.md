@@ -18,3 +18,6 @@ Long list: 130 companies (Firgun 13 Nov, Telegram marketing jobs, Avi Lewis list
 
 ## 2026-11-21 · Scout: SEO need added
 Sponsor asked for an SEO-need check (competition, risk, why not invested). Added to SCOUT.md, propose.py (scout_version 3) and learn.py (feature seo_need). Capitolis re-checked: low (relationship/RFP-led, already ranks for its niche, no contested SERPs) → withdrawn. Elpida recon'd on the sponsor's request: too early, and its AEO Pulse overlaps the sponsor's offer → not proposed. Other 9 proposals: seo_need unassessed.
+
+## 2026-11-22 · Scout: Next Play intake + broader fit rule
+Sponsor: Israel/US/EU in scope by design; fit = considered purchase (buying committee or long journey), not only B2B. Next Play (7 emails) filtered (`campaign/scout/filter_2026-11-22_nextplay.md`), 12 recon'd with the SEO-need check. Proposed 9: traversal, antimetal, vouched, hanover-park, ocient, permitflow, kalepa, craftwork, pliant. Held: genesis-computing, axiamatic (no-leader exceptions), instrumentl (mature in-house search). Bright Data account suspended mid-run (billing): instrumentl, pliant, axiamatic LinkedIn/SERP checks incomplete; readers.fetch now raises on Bright Data error headers. Pool: 18 proposed (9 from run 1 still seo_need unassessed). learn.py pick 5: bites, kalepa, zenzap (exploit), daylight-security, craftwork (explore); no reply data yet.
