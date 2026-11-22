@@ -1,0 +1,329 @@
+{
+ "note": "Carried into the next scout run's filter first (SCOUT.md step 2).",
+ "held": [
+  {
+   "company": "Mavria",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "rescued: recon next"
+  },
+  {
+   "company": "Nominal",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "rescued: recon next"
+  },
+  {
+   "company": "Hello Heart",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "rescued: recon next"
+  },
+  {
+   "company": "Spines",
+   "source": "firgun/avi",
+   "held_on": "2026-11-22",
+   "note": "rescued: recon next (non-B2B explore)"
+  },
+  {
+   "company": "Pure",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "rescued: recon next (non-B2B explore)"
+  },
+  {
+   "company": "Northwood",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "High Lander",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "BloomX",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Remepy",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "April",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Open Human",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Chariot",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Posh",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Flick",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Artlist",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Kickoff",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "ONE ZERO",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "light check"
+  },
+  {
+   "company": "Logz.io",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "check SEO team"
+  },
+  {
+   "company": "Cymulate",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "check SEO team"
+  },
+  {
+   "company": "Kela",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "check SEO team"
+  },
+  {
+   "company": "LangChain",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "check SEO team"
+  },
+  {
+   "company": "Gamma",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "check SEO team"
+  },
+  {
+   "company": "Sentra",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Corma",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Mave",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Rein Security",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Brava Security",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Pluto Security",
+   "source": "avi/telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Modelyo",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Incredibuild",
+   "source": "avi",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Gloat",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "PointFive",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "IO River",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Spikerz Security",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Okoora",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Alta",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Fullpath",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "LSports",
+   "source": "telegram",
+   "held_on": "2026-11-22",
+   "note": "held run 1"
+  },
+  {
+   "company": "Nooks",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Gigs",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Fleetworks",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Mews",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Coframe",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Verra",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Prism Data",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Griffin",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Cara",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Luca IQ",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Sixtyfour",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Corgi",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Sift",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Coral",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  },
+  {
+   "company": "Prosper Health",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held (non-B2B/B2B2C explore)"
+  },
+  {
+   "company": "Imprint",
+   "source": "next_play",
+   "held_on": "2026-11-22",
+   "note": "held"
+  }
+ ]
+}
