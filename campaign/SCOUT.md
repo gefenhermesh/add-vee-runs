@@ -1,6 +1,6 @@
 # The scout: finding the next companies
 
-**The goal is reply-rate lift** (see LEARNING.md). Don't get stuck on cybersecurity: prefer B2B tech, but deliberately propose a **varied mix** (industries, stages, situations, recipient roles, triggers), so the learning loop has something to learn from. Every proposed company carries its `features` (learn.py → FEATURES). The week's picks come from `learn.py pick`, which balances what works with what's untested.
+**The goal is reply-rate lift** (see LEARNING.md). Don't get stuck on cybersecurity or on Israel. **The fit is a considered purchase** (see "Who fits" below), B2B tech being the classic case. **Israel, US and EU companies are all in scope by design** (sponsor, 2026-11-22). Deliberately propose a **varied mix** (industries, stages, situations, recipient roles, triggers), so the learning loop has something to learn from. Every proposed company carries its `features` (learn.py → FEATURES). The week's picks come from `learn.py pick`, which balances what works with what's untested.
 
 Finds companies likely to welcome the sponsor's work, as a hire, a partner, or a paid audit. It **proposes**. It never queues: new finds go into `state.json` with status `proposed`, and only the sponsor releases them.
 
@@ -8,9 +8,16 @@ Built on the sponsor's earlier scouting system (Sept 2026, about 21 Israeli cybe
 
 ## How it runs: a funnel, not one big pass
 1. **Sources → long list.** Next Play in gefen@etico.cr (`state.json` → `rules.next_play_intake`), funding news, category lists, the sponsor's own picks.
-2. **Quick filter (cheap).** B2B, sales-led, stage, a funding date. Drop the obvious misfits, with a one-line reason each.
+2. **Quick filter (cheap).** A considered purchase (see "Who fits"), stage, a funding date. Drop the obvious misfits, with a one-line reason each.
 3. **Recon (broad, not a checklist).** For each survivor, read the signals, connect them, and estimate **what stage the company is in, what is changing, and where it's heading**. A thin company gets three sentences and a low-confidence note. Don't pad it.
 4. **Score and propose.** Only the companies that earned it, each with the reason, and the reason for every exclusion.
+
+## Who fits: a considered purchase, not only B2B (sponsor, 2026-11-22)
+add-vee studies **buying committees and buying journeys**: who researches, who weighs in, what they ask along the way. So the test is not "is it B2B?" but **"is the purchase considered?"**:
+- **Buying committee:** several people decide or weigh in (e.g. a CFO, users, IT/security, legal, auditors). Classic B2B, but also fund administration, healthcare providers and payers, schools and universities, law firms, insurers, construction, nonprofits buying software.
+- **Long or high-stakes journey:** a research phase, comparisons, high price, high switching cost or regulatory risk, even with one or two buyers (e.g. a high-value home service, specialist healthcare, wealth and financial products, education programs).
+- **Not a fit:** impulse or low-consideration purchases (casual apps, games, cheap consumer goods), where no one researches or compares.
+Record it as the `buying_journey` feature: `committee`, `considered` (long or high-stakes, few decision makers) or `transactional` (don't propose). Keep the mix varied here too: B2B committee purchases stay the core, with considered non-B2B companies as deliberate explore picks.
 
 ## The signals that mattered most in practice
 - **New or renamed category language** (e.g. "Agentic Exposure Management"). It usually comes with an education/content push.
@@ -32,7 +39,7 @@ The blocker is **a real SEO team**, not good SEO craft. Craft still shapes the a
 
 Judge **craft, not artifacts**: depth, pillar/cluster structure, contextual internal links with descriptive anchors, publishing cadence, presence in comparison/buyer's-guide results. `llms.txt`, AI-crawler rules in `robots.txt`, `Content-Signal` and FAQ/schema blocks are weak signals. An earlier ranking over-credited them and had to be redone. Any internal-linking claim needs a **link-aware read** (raw HTML / DOM, or add-vee's `compute_link_graph.py`). Plain-text extraction drops links and once produced a false "zero internal links".
 
-**Israel-based marketing roles are a plus** (less competition). Record a location only where a source states it.
+**Israel-based marketing roles are a plus** for the role track (less competition), but US and EU companies are equally in scope for audits and engagements. Record a location only where a source states it.
 
 ## SEO need: does this company actually need the work? (sponsor's rule, 2026-11-21)
 Gating says whether the work is **open** (a leader, no SEO team). It doesn't say whether the work **matters to them**. A company with no SEO investment may have a gap, or may have no need. The scout must tell those apart. Run these four checks for every recon'd company:
@@ -82,7 +89,7 @@ Keep a `watch` list in `state.json` for proposed and held companies, recording t
 ## Running the scout (weekly, in its own session)
 The scout runs in **its own session, created from this repo** (source `add-vee-runs`), never in the manager's chat, which must stay small. The manager starts it on Sunday's first tick with the prompt "You are the weekly scout: follow campaign/SCOUT.md → Running the scout." and is told when it's done.
 1. `python campaign/scout/longlist.py --avi-url <Avi Lewis' latest list post, if any>`. This reads VC Cafe Firgun, the marketing-jobs Telegram channel and Avi's list into `campaign/scout/longlist.json`, merged per company and marked `known`. Readers live in `campaign/scout/readers.py`, tested on saved pages. **Also read Next Play** in gefen@etico.cr with the Gmail query in `state.json` → `rules.next_play_intake` (the script doesn't read it yet) and add its companies to the filter.
-2. **Quick filter** of the new, unknown companies: drop non-B2B, non-tech, investors (VC funds appear in round lists), consumer/biotech/hardware, and obvious misfits. Give a one-line reason each, in `campaign/scout/filter_<date>.md`. **Keep the mix varied** (LEARNING.md): don't default to security.
+2. **Quick filter** of the new, unknown companies: keep considered purchases ("Who fits"), from any of Israel, the US and the EU; drop transactional/impulse purchases, investors (VC funds appear in round lists), companies without a real product to audit (stealth, pure hardware/biotech R&D), large incumbents with an obvious SEO team, and obvious misfits. Give a one-line reason each, in `campaign/scout/filter_<date>.md`. **Keep the mix varied** (LEARNING.md): don't default to security.
 3. **Recon** of the 8-12 strongest survivors, using every source that helps (above): marketing leadership and SEO team (gating), **SEO need** (buyer research, competition in search, cost of absence, why not so far), situation, trigger, recipient candidates, the outreach hook. Use `readers.read_job_board(<board name>)` for open roles, and the no-footprint LinkedIn check. Write `companies/<slug>/scout.json` with `"scout_version": 3` and every field `propose.py` requires (`company, domain, reason, gating_rating, seo_need{rating,...}, features, contacts, sources[{url, date, kind}]`).
 4. `python campaign/scout/propose.py check` until every file is OK, then `propose.py add <slugs>` (status `proposed`, never queued) and `propose.py pick 5`.
 5. Commit and push, then send the manager **one line**: "Scout: N proposed, picks: a, b, c, d, e (explore: x)". The manager passes it to the sponsor in one line; the sponsor releases companies in the manager chat ("release a, b").

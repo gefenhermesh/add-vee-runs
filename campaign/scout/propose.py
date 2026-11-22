@@ -33,6 +33,8 @@ def problems(rec):
         out.append(f"gating_rating must be one of {sorted(GATING)}")
     if rec.get("gating_rating") == "blocked_seo_team":
         out.append("blocked by an SEO team: record it, but don't propose it")
+    if feats.get("buying_journey") == "transactional":
+        out.append("transactional purchase: record it, but don't propose it")
     if rec.get("scout_version", 0) >= 3:
         need = rec.get("seo_need") or {}
         if need.get("rating") not in SEO_NEED:

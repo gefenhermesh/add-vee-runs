@@ -31,7 +31,8 @@
 
 ## Starting mix (week 1, before any data)
 Variety on purpose:
-- industries: security, devtools, data/AI infrastructure, fintech, HR/martech;
+- industries: security, devtools, data/AI infrastructure, fintech, HR/martech, plus considered non-B2B purchases as explore picks (SCOUT.md "Who fits");
+- geo: Israel, US and EU (by design);
 - stages: seed to Series C;
 - situations: just launched to established;
 - recipient roles: CEO and marketing leader.

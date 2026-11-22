@@ -36,7 +36,7 @@ SAMPLES = 4000
 
 # The features every record carries. Values are short lowercase labels; new values are welcome.
 FEATURES = {
-    "industry": "security, devtools, data_ai_infra, fintech, hr_tech, martech, vertical_saas, ...",
+    "industry": "security, devtools, data_ai_infra, fintech, hr_tech, martech, vertical_saas, healthcare, home_services, ...",
     "stage": "seed, series_a, series_b, series_c_plus, public",
     "situation": "stealth_exit, early, scaling, established, category_leader",
     "size_band": "1_50, 51_200, 201_1000, 1000_plus",
@@ -51,6 +51,7 @@ FEATURES = {
     "subject_style": "how_ai_sees_x, finding_hook, question, other",
     "send_slot": "sun_thu_morning_local, other",
     "contact_verified": "yes, no",
+    "buying_journey": "committee, considered, transactional (SCOUT.md: who fits)",
     "seo_need": "high, medium, low, unassessed (SCOUT.md: buyer research, competition in search, cost of absence)",
 }
 

@@ -102,7 +102,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -129,7 +130,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -156,7 +158,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -183,7 +186,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -210,7 +214,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "considered"
       },
       "source": "scout"
     },
@@ -237,7 +242,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "low"
+        "seo_need": "low",
+        "buying_journey": "committee"
       },
       "source": "scout",
       "status_note": "Withdrawn by the scout 2026-11-21: low SEO need (relationship/RFP-led buyers, already ranks #1-2 for niche terms, no contested SERPs). See companies/capitolis/scout.json seo_need."
@@ -265,7 +271,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -292,7 +299,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -319,7 +327,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     },
@@ -346,7 +355,8 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed"
+        "seo_need": "unassessed",
+        "buying_journey": "committee"
       },
       "source": "scout"
     }
