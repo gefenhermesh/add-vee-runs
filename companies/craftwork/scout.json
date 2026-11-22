@@ -1,0 +1,162 @@
+{
+ "scout_version": 3,
+ "company": "Craftwork",
+ "domain": "craftwork.com",
+ "slug": "craftwork",
+ "scouted": "2026-11-22",
+ "source_of_lead": "Next Play issue 'Next Play MCP, four project ideas, business roles at Trajectory' (Tue 10 Nov 2026, forwarded to gefen@etico.cr 2026-11-19): 'Tim from Craftwork is hiring a head of marketing ... tech-enabled home services company starting with residential painting that's raised over $25m and grown to 80 employees (Charlotte)'",
+ "reason": "Considered home purchase (several quotes, high ticket, in-home trust) in a contested local SERP: Craftwork wins the Charlotte map pack (5.0, 442 reviews) but is absent from organic top results for every category/cost query checked, its blog has stalled, and it is about to enter 3 new markets with no local equity. Medium SEO need: the open Head of Marketing JD is field/referral/paid-led and never mentions search, so propose only as an explore pick with the new-market angle.",
+ "gating_rating": "sweet_spot",
+ "gating_note": "Who runs marketing now: co-founder and Chief Growth Officer Joey Skavroneck (GrepBeat 2026-06-04, direct), with a Lead Brand Designer (Marybeth Burns) and an agency for paid (JD: 'agency accountability'). The Head of Marketing seat is open (YC jobs page, $175-200K, 'hands-on, zero-to-one leadership role'), plus Field Marketer, Marketing Intern and Brand Design Intern roles (LinkedIn jobs, Nov 2026): a marketing org is forming now. No SEO person/team found; the HoM JD has zero mentions of SEO, search, content or Google. The technical GEO work on the site (llms.txt since at least Aug 2025, .md mirrors of every page, openai-domain-verification TXT) looks engineering-built (CTO Mike Bifulco), not an SEO team (inferred). Rated sweet_spot on the CGO as the leader; caveat: founder-led growth and a leader about to be hired, so timing matters (a new HoM will reset priorities; reaching them in their first 90 days may be better).",
+ "marketing_leadership": {
+  "status": "found",
+  "who": [
+   {"name": "Joey Skavroneck", "role": "Co-founder, Chief Growth Officer", "note": "owns growth today (founder-led); per GrepBeat and LinkedIn search title"},
+   {"name": "Tim Griffin", "role": "Co-founder, CEO", "note": "posted the Head of Marketing role (Next Play 'Tim from Craftwork')"},
+   {"name": "Marybeth Burns", "role": "Lead Brand Designer", "note": "brand/design, not a marketing leader"}
+  ],
+  "open_seat": "Head of Marketing (Charlotte), open as of Nov 2026; reports-to not stated in the JD",
+  "evidence": [
+   {"claim": "Co-Founders: Tim Griffin (CEO), Mike Bifulco (CTO), Joey Skavroneck (Chief Growth Officer), Suzanne Griffin (Chief Success Officer / COO in caption)", "kind": "direct", "url": "https://grepbeat.com/2026/06/04/how-charlottes-craftwork-is-disrupting-the-painting-industry/", "date": "2026-06-04"},
+   {"claim": "Search title 'Joey Skavroneck - Co-founder, Chief Growth Officer at ...'", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Craftwork%22+SEO+OR+%22content%22+OR+growth", "date": "accessed 2026-11-22"},
+   {"claim": "Head of Marketing role: 'build the repeatable demand-generation engine', 'hands-on, zero-to-one leadership role', $175K-$200K, 0.02%-0.04%, 6+ years", "kind": "direct", "url": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing", "date": "accessed 2026-11-22"},
+   {"claim": "LinkedIn jobs: 4 open roles, all marketing/brand: Head of Marketing (5 days ago), Field Marketer (CLT) and Marketing Intern (CLT) (2 days ago), Brand Design Intern (4 weeks ago)", "kind": "direct", "url": "https://www.linkedin.com/jobs/craftwork-jobs-worldwide?f_C=90401231", "date": "accessed 2026-11-22"},
+   {"claim": "Search title 'Marybeth Burns - Lead Brand Designer at Craftwork'; she is quoted as lead brand designer in GrepBeat", "kind": "direct", "url": "https://grepbeat.com/2026/06/04/how-charlottes-craftwork-is-disrupting-the-painting-industry/", "date": "2026-06-04"}
+  ]
+ },
+ "seo_team": {
+  "status": "not found",
+  "confidence_note": "Logged-out search only (couldn't fully verify). site:linkedin.com/in queries for SEO/content/growth returned only name collisions (Craftwork Digital, Craftwork Marketing Ltd UK). The HoM JD (full read) never mentions SEO/search/content.",
+  "evidence": [
+   {"claim": "HoM JD channels: field marketing, partnerships, referral channels, paid acquisition; 'Develop Organic Channels' means field/partnerships/referrals; no SEO/search/content/Google mention anywhere", "kind": "direct", "url": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing", "date": "accessed 2026-11-22"},
+   {"claim": "Site carries llms.txt, llms-full.txt and a .md mirror of every page, with an OpenAI domain verification TXT record: technical GEO groundwork, likely built by engineering (CTO is a developer-writer)", "kind": "inferred", "url": "https://craftwork.com/llms.txt", "date": "accessed 2026-11-22; Wayback snapshot 2025-08-04"}
+  ]
+ },
+ "situation": {
+  "estimate": "YC S23 painting company with full-time employed painters and its own software (instant online quotes, customer portal, crew app). Raised $4M (Jul 2023), $6M seed (Nov 2023, Forerunner) and a $7M Series A (Jan 2025, Slow Ventures, Lachy Groom); $17M total per a Dec 2025 report, and 'over $25M' per its Nov 2026 JD, which implies another, unannounced round in 2026 (inferred). About 80 employees, operating in Charlotte and Raleigh, planning three new markets in the next 12 months (Atlanta and Nashville named in June 2026). Marketing is moving from founder-led (CGO) to a first Head of Marketing whose brief is a repeatable local demand engine per market: field, partnerships, referrals, paid. Search/AI visibility is not in that brief, while the content program has stalled (1 article since June 2025).",
+  "confidence": "medium"
+ },
+ "trigger": {"type": "marketing_hire", "detail": "Hiring a Head of Marketing (Charlotte, $175-200K) to build a multi-market local demand engine ahead of 3 new-market launches; also Field Marketer + Marketing Intern posted ~2026-11-20", "date": "2026-11-10 (Next Play); YC/LinkedIn postings live 2026-11-22", "source": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing"},
+ "fit_evidence": [
+  {"claim": "buying_journey = considered: residential painting is a high-ticket, in-home purchase (Charlotte interior jobs commonly quoted $1,500-$5,500, per a local competitor's guide) where homeowners collect several quotes, check reviews and often decide as a couple; YC launch post itself describes the journey: 'searching for a reputable contractor, coordinating multiple walkthroughs, reviewing quotes, selecting a provider'. One or two decision makers, not a committee.", "kind": "direct", "url": "https://www.ycombinator.com/companies/craftwork", "date": "accessed 2026-11-22"},
+  {"claim": "Craftwork's own reviews show the journey: 'After a not so great experience with another painting company my husband and I were hesitant to hire another crew'; 'my colleague recommended...' (referral)", "kind": "direct", "url": "https://craftwork.com/", "date": "accessed 2026-11-22"},
+  {"claim": "Fresh marketing-leader hire open; 3 new markets planned in 12 months", "kind": "direct", "url": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing", "date": "accessed 2026-11-22"},
+  {"claim": "Series A $7M, Jan 2025 (Slow Ventures, Lachy Groom); $17M raised total and Raleigh expansion (Dec 2025)", "kind": "inferred", "url": "https://www.bizjournals.com/charlotte/ (search snippets: Jan 22, 2025 and Dec 12, 2025 articles; paywalled, not opened)", "date": "2025-01-22 / 2025-12-12"},
+  {"claim": "Investors named by the company: Y Combinator, Seven Seven Six, Slow Ventures, Forerunner Ventures, General Catalyst, Lachy Groom; 'over $25M'", "kind": "direct", "url": "https://www.ycombinator.com/companies/craftwork/jobs", "date": "accessed 2026-11-22"}
+ ],
+ "site_and_content": {
+  "stack": "Next.js (/_next/static), Google Tag Manager GTM-N66ND5Q. DNS TXT: google-site-verification x2, openai-domain-verification, facebook-domain-verification, apple-domain-verification, twilio, yandex. No HubSpot/Marketo token.",
+  "sitemap": "230 URLs: 33 articles + 6 newsletter profiles (each also as .md), 2 metro pages + 23 neighborhood pages (13 Charlotte, 10 Raleigh), 19 resource pages (process/FAQ/parts/colors per service, color library, dictionary), painting-cost-calculator, commercial, property-managers, real-estate and interior-design partner pages, llms.txt/llms-full.txt.",
+  "blog": "RSS: 40 items. 34 articles 2023-02-01 to 2026-03-31: 20 in 2023, 10 in 2024, 3 in 2025 (last 2025-06-25), 1 in 2026 (Hardie board guide, 2026-03-31). Plus 6 'Meet ...' local-personality newsletter profiles Jul-Oct 2026 (biweekly). Topics mostly paint-color lists; few decision-stage pages (one 'cabinet painting vs replacement', one 'tips for hiring a residential painter' from 2023, a cost calculator).",
+  "internal_linking": "Link-aware read of raw HTML (header/nav/footer removed): articles link only to themselves, /articles, /estimate and at most one other article; no contextual links from articles to service or location pages. Metro and neighborhood pages link to sibling neighborhoods and /estimate; the /locations hub links Charlotte neighborhoods only (0 Raleigh links). Homepage links services but not metro/neighborhood pages directly.",
+  "comparison_pages": "None of their own (no vs/alternatives; 'cabinet painting vs replacement' is a decision guide). No competitor 'vs Craftwork' page found ('Craftwork vs CertaPro' returned aggregators only).",
+  "ai_readiness": "llms.txt (archived 2025-08-04), llms-full.txt, a .md version of every page, structured estimate instructions for agents. Weak signals by SCOUT.md rules, but it shows the team already believes AI assistants matter. Minor: the .md mirror of neighborhood pages drops the 'Top Neighborhoods' content (empty bullets) present in the HTML; homepage says '300+ Five-Star Reviews' while Google shows 442.",
+  "local_presence": "Google map pack for 'best house painters Charlotte': 'Craftwork Painting 5.0 (442), 3+ years in business'. Listed in Yelp 'best 10 painters in Charlotte'. Recommended in an r/Charlotte thread (6 months old)."
+ },
+ "jobs": {
+  "boards_tried": "Ashby/Greenhouse/Lever for craftwork, craftworkhq, craftwork-painting, craftworkpainting: none. Careers link (crft.link/hq-jobs) redirects to LinkedIn jobs. YC Work at a Startup lists 2 roles.",
+  "open_roles": ["Head of Marketing (Charlotte, $175-200K)", "Field Marketer (CLT)", "Marketing Intern (CLT)", "Brand Design Intern ($18-21/h)"],
+  "hom_jd_summary": "Build a repeatable local demand engine for multi-market growth: field marketing, partnerships, referrals, paid acquisition; neighborhood brand density (yard signs, events); market-launch playbook with the Market Launch team; marketing P&L, CAC, attribution. Manages agencies. No mention of SEO, search, content, reviews or AI assistants. Reports-to not stated.",
+  "also_seen": "Jobleads listing 'Head of Local Growth & Demand Engine | Charlotte' (likely an earlier title for the same role; unverified)"
+ },
+ "contacts": [
+  {"name": "Joey Skavroneck", "role": "Co-founder, Chief Growth Officer", "email": null, "email_verified": false, "source": "https://grepbeat.com/2026/06/04/how-charlottes-craftwork-is-disrupting-the-painting-industry/", "recipient_rank": 1},
+  {"name": "Tim Griffin", "role": "Co-founder, CEO (posted the HoM role)", "email": null, "email_verified": false, "source": "https://www.ycombinator.com/companies/craftwork", "recipient_rank": 2},
+  {"name": "(the incoming Head of Marketing, once hired)", "role": "Head of Marketing", "email": null, "email_verified": false, "source": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing", "recipient_rank": 3}
+ ],
+ "outreach_angle": {
+  "hook": "You're about to open three new markets and the Head of Marketing brief is field, partnerships, referrals and paid. In Charlotte, where you're the 5.0/442-review leader in the map pack, you still don't show up in the organic results or the cost/'best painter' pages that homeowners (and the AI answers built on them) read; Yelp, Thumbtack, Angi and local painters' cost guides do. In Atlanta and Nashville you'll start with no reviews, so those pages will decide who gets the first quote requests. Here's how AI assistants describe painters in your markets today.",
+  "source": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing (JD) + Google SERP checks via Bright Data 2026-11-22",
+  "date": "2026-11-22"
+ },
+ "seo_need": {
+  "rating": "medium",
+  "buyer_research": "Local, search-led and comparison-heavy: homeowners search 'painters near me' / 'best painters <city>' / cost questions, read Yelp/Thumbtack/Angi/Houzz/BuildZoom listicles and Reddit threads, and request several quotes; referrals matter too. Every category query returned listicles plus local painters' cost guides: a contested space. AI assistants are reported to be a growing step (vendor stats, unverified: 28% of US homeowners planning a remodel use ChatGPT/Perplexity/AI Overviews to pick a contractor; 48.5% of homeowners who use ChatGPT found a provider through it). Craftwork itself added llms.txt, .md mirrors and an OpenAI domain verification, so it believes AI answers matter. Still, local choice is dominated by the map pack and reviews, where Craftwork already wins in Charlotte. add-vee's journey analysis applies partly (the questions a couple asks across the quote journey: cost, cabinet paint vs replace, Hardie board, trust in the crew); its committee analysis does not (1-2 deciders).",
+  "competitors": [
+   {"name": "CertaPro Painters (franchise; North Charlotte, South Charlotte, Charlotte-Matthews, North Raleigh)", "seo_investment": "Heavy: 390 franchise sub-sitemaps, 234 national posts (2021 to 2026-11-10); ranks #3 organically for 'painters Raleigh NC'", "evidence_url": "https://certapro.com/sitemap.xml"},
+   {"name": "Five Star Painting (Neighborly franchise)", "seo_investment": "Heavy: 4,288 sitemap URLs, ~494 expert-tips/blog URLs, Charlotte metro + north/south Charlotte local pages", "evidence_url": "https://www.fivestarpainting.com/sitemap.xml"},
+   {"name": "Painter Bros (multi-market painting franchise, Charlotte)", "seo_investment": "Medium-heavy: 868 sitemap URLs, 54 blog URLs, 23 Charlotte-area pages; ranks for 'cabinet painting Charlotte NC'", "evidence_url": "https://www.painterbros.com/sitemap.xml"},
+   {"name": "Carolina Renew Painting & Finishes (local)", "seo_investment": "Active content: ~118 blog URLs incl. 2026 cost guides; ranks #1 for 'how much does it cost to paint a house interior Charlotte'", "evidence_url": "https://carolinarenew.com/sitemap-blog.xml"},
+   {"name": "Charlotte Pro Painters (local)", "seo_investment": "27 posts, updated through 2026-11-11; '2026 Interior Painting Cost Guide: Charlotte & Union County' ranks top 5", "evidence_url": "https://charlottepropainters.com/post-sitemap.xml"},
+   {"name": "Angi / Thumbtack / Yelp / HomeAdvisor (marketplaces)", "seo_investment": "Dominant listicle and cost pages for every query checked ('The Best Home Painters in Charlotte', '2026 Interior House Painting Costs in Charlotte')", "evidence_url": "https://www.thumbtack.com/nc/charlotte/"}
+  ],
+  "serp_checks": [
+   {"query": "painters Charlotte NC", "top_results": ["groovyhues.com (Charlotte area page)", "yelp DC Painting", "carolinapaintingcompany.com", "mapquest House Painters of Charlotte"], "craftwork": "not in organic top results", "date": "2026-11-22"},
+   {"query": "best house painters Charlotte", "top_results": ["Yelp best 10 (lists Craftwork)", "Reddit r/Charlotte (recommends Craftwork)", "Thumbtack", "Houzz", "BuildZoom", "Angi", "C&A Home Contractors", "Valentine Painting"], "craftwork": "map pack (5.0, 442 reviews) and inside Yelp/Reddit; own site not in organic top 8", "date": "2026-11-22"},
+   {"query": "cabinet painting Charlotte NC", "top_results": ["Yelp Charlotte Cabinet Painting", "Indeed", "residentialpainting.contractors", "Painter Bros", "Thumbtack"], "craftwork": "absent", "date": "2026-11-22"},
+   {"query": "how much does it cost to paint a house interior Charlotte", "top_results": ["carolinarenew.com cost guide 2026", "Thumbtack cost Charlotte", "Angi", "Reddit r/Charlotte", "charlottepropainters.com cost guide", "queencitypaintingcompany.com", "biddaro.com", "gwpaintingco.com"], "craftwork": "absent despite a painting-cost-calculator page", "date": "2026-11-22"},
+   {"query": "painters Raleigh NC / exterior painters Raleigh NC", "top_results": ["Yelp best 10 Raleigh", "Professional Touch Paint", "CertaPro North Raleigh", "Alvarez Painting", "Anderson Painting", "Houzz", "wow1day"], "craftwork": "absent from text of both result pages", "date": "2026-11-22"}
+  ],
+  "cost_of_absence": "Three new-market launches in the next 12 months (Atlanta, Nashville named): with no reviews or map-pack equity on day one, the organic and AI answers to 'best painters in <city>' and '<city> painting cost' (today owned by Yelp/Thumbtack/Angi listicles, CertaPro/Five Star franchise pages and local cost guides) decide who gets the first quote requests, raising paid CAC, which the HoM is told to reduce. In Charlotte the decision-stage content (cost, cabinet paint vs replace) is owned by local competitors while Craftwork's blog has stalled.",
+  "why_not_yet": "never_prioritized (with a twist): growth is founder-led and built on paid, field, partnerships and reviews; the HoM brief repeats that mix and omits search. The technical AI-readiness work (llms.txt, .md mirrors) suggests engineering owns 'AI visibility' as a dev project, while content and SEO strategy has no owner (inferred).",
+  "evidence": [
+   "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing",
+   "https://craftwork.com/rss.xml",
+   "https://craftwork.com/sitemap.xml",
+   "Google SERPs via Bright Data, 2026-11-22 (queries above)",
+   "https://www.scorpion.co/ and https://openlens.com/ blog snippets on homeowner AI use (unverified vendor stats, 2026-10-26 / 2026-07-19)"
+  ]
+ },
+ "features": {
+  "industry": "home_services",
+  "stage": "series_a",
+  "situation": "scaling",
+  "size_band": "51_200",
+  "geo": "us",
+  "marketing_gating": "sweet_spot",
+  "trigger": "marketing_hire",
+  "finding_pattern": "unknown",
+  "recipient_role": "head_of_growth",
+  "ask_track": "engagement",
+  "opener_type": "their_words",
+  "email_variant": "v4_two_images",
+  "subject_style": "how_ai_sees_x",
+  "send_slot": "sun_thu_morning_local",
+  "contact_verified": "no",
+  "buying_journey": "considered",
+  "seo_need": "medium"
+ },
+ "sources": [
+  {"url": "gmail thread 1a1f4db67becbd16 (Next Play, 'Next Play MCP, four project ideas, business roles at Trajectory')", "date": "2026-11-10", "kind": "direct", "result": "Lead text: Tim from Craftwork hiring head of marketing, >$25M, 80 employees, Charlotte"},
+  {"url": "https://www.ycombinator.com/companies/craftwork", "date": "accessed 2026-11-22", "kind": "direct", "result": "YC S23; founders Tim Griffin (CEO), Suzanne Griffin, Joey Skavroneck; launch post on the homeowner journey; news list"},
+  {"url": "https://www.ycombinator.com/companies/craftwork/jobs/LIGeaVt-head-of-marketing", "date": "accessed 2026-11-22", "kind": "direct", "result": "Full HoM JD read; channels named; no SEO mention; ~80 employees; >$25M; 3 new markets in 12 months"},
+  {"url": "https://www.linkedin.com/jobs/craftwork-jobs-worldwide?f_C=90401231", "date": "accessed 2026-11-22", "kind": "direct", "result": "4 open roles, all marketing/brand (via Bright Data)"},
+  {"url": "https://www.linkedin.com/company/90401231", "date": "accessed 2026-11-22", "kind": "direct", "result": "Construction, Charlotte, 5,279 followers, 34 employees on LinkedIn, size 11-50, founded 2023 (via Bright Data)"},
+  {"url": "https://www.linkedin.com/company/craftwork", "date": "accessed 2026-11-22", "kind": "direct", "result": "NAME COLLISION: Danish embedded-software firm craftwork.dk, not this company"},
+  {"url": "https://grepbeat.com/2026/06/04/how-charlottes-craftwork-is-disrupting-the-painting-industry/", "date": "2026-06-04", "kind": "direct", "result": "Leadership titles incl. CGO; ~30 painters; next round planned; Atlanta, Nashville targets"},
+  {"url": "https://www.axios.com/local/charlotte/2025/01/16/charlotte-startup-craftwork-funding-round", "date": "2025-01-19", "kind": "inferred", "result": "Direct fetch failed (502); $7M round from search snippet"},
+  {"url": "https://www.bizjournals.com/charlotte/ (Series A $7M, 2025-01-22; Raleigh office, $17M raised, 2025-12-12)", "date": "2025-12-12", "kind": "inferred", "result": "Search snippets only (paywall, not opened)"},
+  {"url": "https://craftwork.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Homepage, reviews, Next.js, GTM; raw HTML links"},
+  {"url": "https://craftwork.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "230 URLs"},
+  {"url": "https://craftwork.com/rss.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "40 items with dates 2023-02-01..2026-10-16"},
+  {"url": "https://craftwork.com/llms.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "llms.txt and .md mirrors present; Wayback snapshot 2025-08-04"},
+  {"url": "https://dns.google/resolve?name=craftwork.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "google x2, openai, facebook, apple, twilio, yandex verifications; Google SPF"},
+  {"url": "https://www.google.com/search?q=best+house+painters+Charlotte", "date": "accessed 2026-11-22", "kind": "direct", "result": "Map pack shows Craftwork 5.0 (442); organic listicles; via Bright Data"},
+  {"url": "https://certapro.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "390 franchise sitemaps incl. 3 Charlotte; post sitemap 234 URLs to 2026-11-10"},
+  {"url": "https://www.fivestarpainting.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "4,288 URLs; Charlotte pages"},
+  {"url": "https://www.painterbros.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "868 URLs, 54 blog, 23 Charlotte"},
+  {"url": "https://carolinarenew.com/sitemap-blog.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "~118 blog URLs"},
+  {"url": "https://charlottepropainters.com/post-sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "27 posts, lastmod to 2026-11-11"},
+  {"url": "https://www.google.com/search?q=homeowners+using+ChatGPT+to+find+contractors+survey", "date": "accessed 2026-11-22", "kind": "unverified", "result": "Vendor-blog stats (Scorpion 2026-10-26, OpenLens 2026-07-19, a Facebook post): 28% / 48.5% figures, not checked at origin"},
+  {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Craftwork%22+marketing", "date": "accessed 2026-11-22", "kind": "inferred", "result": "Titles: Tim Griffin CEO, Dustin Kerns COO, Marybeth Burns Lead Brand Designer, Mike Bifulco CTO; collisions with Craftwork Marketing Ltd (UK), Craftwork Digital"}
+ ],
+ "sources_tried_failed": [
+  "Ashby/Greenhouse/Lever APIs for craftwork, craftworkhq, craftwork-painting, craftworkpainting: no board",
+  "axios.com Jan 2025 funding article via Bright Data: HTTP 502",
+  "queencitypaintingcompany.com sitemap: bot interstitial ('One moment, please...')",
+  "certapro.com sitemap direct: 403 (worked via Bright Data)",
+  "Google via Bright Data returned empty bodies for several queries (e.g. 'best painting company Charlotte reddit', '\"Mike Bifulco\" Craftwork' returned nothing parsed, Series B query) - retried some, not all",
+  "Wayback CDX for craftwork.com: connection closed by proxy (availability API worked)"
+ ],
+ "linkedin_checks_for_sponsor": [
+  "Craftwork company page (linkedin.com/company/90401231, NOT /company/craftwork which is a Danish firm) -> People tab: anyone titled marketing, growth, SEO or content besides Joey Skavroneck and Marybeth Burns?",
+  "Whether the Head of Marketing role has been filled (posting age, new hire announcement) before sending"
+ ],
+ "open_questions": [
+  "Whether the ~$8M+ beyond the $17M reported in Dec 2025 is an unannounced 2026 round (would make it a fresh funding trigger)",
+  "Who the HoM reports to (CEO or CGO): decides the right first recipient",
+  "Whether an agency handles SEO/local listings (the JD mentions agency accountability for paid only)",
+  "How much of the quote flow already comes from organic/GBP vs paid vs referral: if the map pack carries Charlotte, the audit's value is mainly the new markets",
+  "Whether add-vee's audit format (built for B2B committees) transfers to a local considered purchase; this is the test case"
+ ]
+}
