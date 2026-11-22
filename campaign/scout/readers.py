@@ -25,6 +25,11 @@ def fetch(url, brightdata=False, timeout=40):
     else:
         req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=timeout) as r:
+        err = r.headers.get("X-Brd-Error") or r.headers.get("X-Brd-Err-Msg")
+        if brightdata and err:
+            # Bright Data reports its own failures (e.g. "Account is suspended") in headers with HTTP 200 and an
+            # empty body. Treat them as failures, never as an empty page (SCOUT.md honesty rules).
+            raise RuntimeError(f"Bright Data error ({r.headers.get('X-Brd-Err-Code')}): {err}")
         return r.read().decode("utf-8", "replace")
 
 
