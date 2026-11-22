@@ -1,0 +1,164 @@
+{
+  "scout_version": 3,
+  "company": "Traversal",
+  "domain": "traversal.com",
+  "slug": "traversal",
+  "scouted": "2026-11-22",
+  "source_of_lead": "Next Play issue (10 Nov 2026, per caller): hiring a Strategy & Operations lead (NYC/remote); just raised $120M; AI SRE agents; ARR up 9x this year (ARR claim not verified).",
+  "reason": "Fresh $120M Series B (3 Nov 2026) in the most contested category we've seen: at least 7 competitors publish 'vs Traversal' / 'Traversal alternatives' pages, and Traversal itself doesn't rank in the top 9 for 'Traversal alternatives'. Caution: Traversal already runs a heavy, skilled SEO/AEO content program through its growth team (single_seo), so the work is partly owned. Propose only as a sharp-angle explore pick.",
+  "gating_rating": "single_seo",
+  "gating_note": "Leader found directly: Ryan Powers, SVP of Marketing (traversal.com leadership post and BusinessWire, 11 Mar 2026). No titled SEO role or team was found, but a growth function owns organic: Nick Billy leads Growth Marketing and GTM Engineering (LinkedIn post snippet, about 8 months ago) and John Stevens Pineda is Sr. Manager, Growth & GTM Ops, with 'SEO / Organic Search' listed in his profile snippet. The output looks like a deliberate, well-run SEO/AEO program: 2-3 answer-first posts a week since Jul 2026, 'best X tools' listicles that rank Traversal #1, 5 vs pages, about 45 glossary pages, llms.txt and a robots.txt tuned for AI-citation bots. That's one or two people (or an unidentified agency), not a confirmed SEO team, so case by case and leaning toward owned.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Ryan Powers", "role": "SVP of Marketing", "kind": "direct", "source": "https://www.traversal.com/blog/leadership-announcement", "date": "2026-03-11", "note": "Also on the BusinessWire release 'Traversal Expands Executive Team with Six Senior...' (Mar 11, 2026, Google snippet) and in a LinkedIn search title 'SVP of Marketing @ Traversal' (unverified snippet, Nov 2026). Background: the post says the GTM hires scaled Cribl, Redis and SignalFx (it doesn't say who did what)."},
+      {"name": "Nick Billy", "role": "Growth (leads Growth Marketing and GTM Engineering)", "kind": "unverified", "source": "Google site:linkedin.com snippets via Bright Data", "date": "accessed 2026-11-22", "note": "Snippet: 'Excited to share that I've joined Traversal to lead Growth Marketing and GTM Engineering' (post about 8 months ago). Earlier: SignalFx, Skydio (Director, Demand Generation & Growth). RocketReach/ZoomInfo list him as 'Head of Growth' (unverified)."},
+      {"name": "Chloe Hauenstein", "role": "Marketing (first marketer)", "kind": "unverified", "source": "Google site:linkedin.com snippet", "date": "accessed 2026-11-22", "note": "Snippet: 'I joined Traversal as its first marketer'."},
+      {"name": "John Stevens Pineda", "role": "Sr. Manager, Growth & GTM Operations", "kind": "unverified", "source": "Google site:linkedin.com snippet; traversal.com/careers quotes 'Stevens Pineda, Marketing'", "date": "accessed 2026-11-22", "note": "His profile snippet lists 'SEO / Organic Search'. He's the closest thing to an SEO owner found."},
+      {"name": "Elizabeth Martinez", "role": "Field Marketing", "kind": "unverified", "source": "Google site:linkedin.com snippet", "date": "accessed 2026-11-22"}
+    ],
+    "evidence": [
+      {"claim": "The leadership announcement names Ryan Powers as SVP of Marketing among six GTM/engineering hires", "kind": "direct", "url": "https://www.traversal.com/blog/leadership-announcement", "date": "2026-03-11"},
+      {"claim": "The marketing department has 5 open roles: Content & Brand Communications Manager, Brand Designer (the 'first internal' one), Senior Manager Product Marketing, Field & Events Marketing Manager, Go-To-Market Engineer", "kind": "direct", "url": "https://api.ashbyhq.com/posting-api/job-board/traversal", "date": "accessed 2026-11-22"}
+    ]
+  },
+  "seo_team": {
+    "status": "couldn't verify",
+    "evidence": [
+      {"claim": "No SEO/AEO/organic role is among the 30 open Ashby jobs. None of the marketing JDs mentions SEO; the PMM JD mentions 'website copy... technical blogs'; the Content & Brand JD covers social, newsletter, thought leadership and a comms agency", "kind": "direct", "url": "https://api.ashbyhq.com/posting-api/job-board/traversal", "date": "accessed 2026-11-22"},
+      {"claim": "A growth function (Nick Billy, growth lead; John Stevens Pineda, Sr. Manager Growth & GTM Ops, whose snippet lists SEO / Organic Search) probably owns SEO", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Stevens+Pineda%22", "date": "accessed 2026-11-22"},
+      {"claim": "The content output is SEO/AEO-engineered: answer-first intros ('The best AI tools for incident management in 2026 are Traversal, PagerDuty...'), 'Best for / Strengths / Potential limitations' blocks, contextual internal links with descriptive anchors (9 in-body internal links on the listicle, 12 on what-is-mttr, from a raw-HTML link read)", "kind": "direct", "url": "https://www.traversal.com/blog/best-ai-tools-for-incident-management", "date": "2026-11-17"},
+      {"claim": "No agency was identified. A Google search for a Traversal SEO/AEO agency case study returned nothing relevant", "kind": "direct", "url": "https://www.google.com/search?q=%22Traversal%22+AI+SRE+SEO+OR+AEO+agency+case+study", "date": "accessed 2026-11-22"}
+    ]
+  },
+  "situation": {
+    "estimate": "A NYC AI SRE company founded by causal-ML academics (Columbia/Cornell/MIT). It raised a $120M Series B at a $1B valuation on 3 Nov 2026 (Kleiner, Redpoint, Khosla co-led; Sequoia, Battery). It sells to Fortune 100/500 enterprises (Amex, PepsiCo, DigitalOcean, Nubank). It went from founder-led to a built GTM org in 2026: an SVP Sales, an SVP Marketing and RVPs in March, the team 'more than doubled' in two months, and LinkedIn shows about 114 employees. Marketing is now scaling brand, content, PMM and field, and has run an aggressive SEO/AEO content engine since about July 2026. Next: broadening from incident RCA to 'self-driving production' (Workers, MCP, self-healing), in a crowded category where incumbents (Datadog Bits AI SRE, PagerDuty, incident.io, Splunk, Elastic) and about 20 startups all fight for the same 'AI SRE' terms.",
+    "confidence": "high"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "$120M Series B at a $1B valuation, co-led by Kleiner Perkins, Redpoint Ventures and Khosla Ventures, with Sequoia and Battery participating (Amex also mentioned in the Yahoo snippet). Total funding is about $173M (unverified social snippet). 'ARR up 9x' comes from Next Play only and wasn't verified; the company's own post says monthly investigations grew more than 100x, from 513 to nearly 73,000.",
+    "date": "2026-11-03",
+    "source": "https://www.traversal.com/blog/traversal-series-b-120-million-ai-sre (datePublished 2026-11-03); BusinessWire 'Traversal Raises $120M with a $1 Billion Valuation...' Nov 3, 2026 (Google snippet); Forbes 'The Billion-Dollar Business Of Fixing What AI Builds' Nov 3, 2026 (snippet; the page fetch failed with 502)"
+  },
+  "fit_evidence": [
+    {"claim": "buying_journey = committee: enterprise SRE/platform teams plus infosec and procurement. Traversal's own blog has 'Deploying AI SRE without drowning in procurement/infosec', and it sells BYOC/on-prem to Fortune 100 companies", "kind": "direct", "url": "https://www.traversal.com/blog/deploying-ai-sre-without-drowning-procurement-infosec", "date": "2025-11-21"},
+    {"claim": "Series B of $120M at a $1B valuation, announced 3 Nov 2026", "kind": "direct", "url": "https://www.traversal.com/blog/traversal-series-b-120-million-ai-sre", "date": "2026-11-03"},
+    {"claim": "The funding will go to 'hiring top talent across research, engineering, and go-to-market'", "kind": "direct", "url": "https://www.traversal.com/blog/traversal-series-b-120-million-ai-sre", "date": "2026-11-03"},
+    {"claim": "At least 7 competitors publish pages aimed at Traversal: Better Stack '10 Best Traversal Alternatives' (29 Mar 2026), NOFire 'Resolve AI vs Traversal' (24 Sep 2026) and 'Traversal alternatives, 2026' (1 Oct 2026), Edge Delta 'Edge Delta vs Traversal' (2 Oct 2026), CloudThinker 'CloudThinker vs Traversal', NeuBird 'NeuBird vs. Traversal' (neubird.ai/compare/neubird-vs-traversal), dash0 'Datadog Bits AI alternatives' listing Traversal, Aurora SRE 'Cleric alternatives', and wetheflywheel 'Cleric vs Resolve.ai vs Traversal'", "kind": "direct", "url": "https://www.google.com/search?q=Traversal+alternatives+AI+SRE", "date": "accessed 2026-11-22"},
+    {"claim": "For 'Traversal alternatives AI SRE', none of the top 9 results is traversal.com (all competitors or listicles)", "kind": "direct", "url": "https://www.google.com/search?q=Traversal+alternatives+AI+SRE", "date": "accessed 2026-11-22"},
+    {"claim": "Traversal ranks well on its own terms: #1 for 'Traversal vs' (its Rootly page), #2 for 'best AI tools for incident management', top 5 for 'best AI SRE tools' (its financial services listicle) and #8 for 'AI SRE platform' (what-is-an-ai-sre)", "kind": "direct", "url": "https://www.google.com/search?q=best+AI+SRE+tools", "date": "accessed 2026-11-22"},
+    {"claim": "The JDs were written with ChatGPT help: every Ashby JD links 'traversal.com/?utm_source=chatgpt.com'. Minor, shows AI-tool-heavy marketing", "kind": "direct", "url": "https://jobs.ashbyhq.com/traversal/aa31c35b-1daa-40e2-b656-767e05f08146", "date": "2026-09-29"}
+  ],
+  "site_and_content": {
+    "cms_and_tools": "Webflow (data-wf-site, website-files.com assets); HubSpot (forms embedded, SPF include hubspotemail.net); GTM-W6DJVGV4; RB2B and Vector visitor-ID scripts in the homepage source; Google Workspace + Microsoft 365 SPF; LinkedIn site verification; Notion, Rippling, Docker and HackerOne verifications in DNS TXT. llms.txt is present (200). robots.txt explicitly allows GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended etc. and blocks training-only crawlers (CCBot, Bytespider, Diffbot, Meta-ExternalAgent). These are weak signals on their own, but deliberate.",
+    "sitemap": "180 URLs (https://www.traversal.com/sitemap.xml, accessed 2026-11-22): about 95 blog posts, about 45 glossary terms, 5 comparison pages, 5 customer stories, product/capability/surface pages, an ebook, a research page, videos and a podcast.",
+    "blog": "About 95 posts by datePublished (all fetched): first 2025-06-20 (launch announcement), latest 2026-11-18. Cadence: about 1/month in 2025 (6 posts Jun-Dec 2025), about 3-5/month in Jan-Jun 2026, then about 2-3/week from Jul 2026 (most bylined 'Traversal'). Since Oct 2026 the mix moved to commercial-intent listicles: best-alert-triage-tools (10-12), best-production-debugging-tools (10-20), best-ai-sre-tools-for-financial-services (11-06), best-tools-for-reducing-mttr (11-11), best-ai-tools-for-incident-management (11-17), best-escalation-management-tools (11-18). Posts run about 2-3k words, with outbound citations to Uptime Institute, DORA, the Google SRE book and arXiv.",
+    "comparison_pages": "/comparison/traversal-vs-datadog, -vs-incident-io, -vs-neubird, -vs-resolve-ai, -vs-rootly (sitemap lastmod 2026-11-02). There are also two stub glossary/traversal-vs-* pages (285 words, probably leftovers). No vs pages yet for Cleric, PagerDuty, Better Stack, NOFire, Edge Delta or CloudThinker, and no 'Traversal alternatives' page of its own.",
+    "internal_linking": "Link-aware raw-HTML read of the richtext body: best-ai-tools-for-incident-management has 9 internal in-body links with descriptive anchors (capability pages, PepsiCo case study, benchmark post) and 5 external; what-is-mttr has 12 internal (glossary, product posts, related posts) and 4 external. Contextual linking is good.",
+    "craft_verdict": "High craft: an answer-first AEO format, a glossary cluster, listicles that rank Traversal #1, vs pages and AI-crawler policy. This is an owned, active program, not a gap. The gaps are narrower: the 'Traversal alternatives' and competitor-authored 'X vs Traversal' results, and vs coverage of challengers."
+  },
+  "jobs": {
+    "board": "Ashby (traversal): 30 open roles, accessed 2026-11-22. readers.read_job_board('traversal') raised a TypeError in the caller snippet (open_roles is an int), so I read the API directly.",
+    "marketing_roles": [
+      {"title": "Content & Brand Communications Manager", "location": "New York", "published": "2026-09-29", "notes": "Social (LinkedIn, X, Reddit), newsletter, exec thought leadership, video, works with a communications agency. No SEO."},
+      {"title": "Brand Designer", "location": "New York", "published": "2026-09-29", "notes": "First internal brand designer; OOH and subway ads."},
+      {"title": "Senior Manager, Product Marketing", "location": "New York", "published": "2026-08-20", "notes": "Positioning, website copy, technical blogs, competitive analysis; works with the CEO and BizOps lead. The JD text is stale ('out of stealth')."},
+      {"title": "Field and Events Marketing Manager", "location": "Remote", "published": "2026-07-27"},
+      {"title": "Go-To-Market Engineer", "location": "New York", "published": "2026-09-08", "notes": "Sits in Marketing. Builds a 'centralized marketing AI agent... enabling rapid creation of ads, social content, blogs' (likely the engine behind the content cadence, inferred). Stack: Salesforce, HubSpot, Clay, Outreach."}
+    ],
+    "lead_role": "Strategy & Operations (New York, published 2026-09-15); the JD reports to the 'Strategy & Operations Lead', which matches Next Play's mention.",
+    "seo_roles": "none"
+  },
+  "contacts": [
+    {"name": "Ryan Powers", "role": "SVP of Marketing", "email": null, "email_verified": false, "source": "https://www.traversal.com/blog/leadership-announcement (2026-03-11)", "recipient_rank": 1},
+    {"name": "Nick Billy", "role": "Growth lead (Growth Marketing & GTM Engineering)", "email": null, "email_verified": false, "source": "Google site:linkedin.com snippet (unverified), accessed 2026-11-22", "recipient_rank": 2},
+    {"name": "Anish Agarwal", "role": "Co-founder (CEO per press; not confirmed on the about page)", "email": null, "email_verified": false, "source": "https://www.traversal.com/about", "recipient_rank": 3}
+  ],
+  "outreach_angle": {
+    "hook": "Congrats on the $120M Series B (3 Nov). Your own listicles rank #1-2 for 'best AI tools for incident management', but the 'Traversal alternatives' results belong to competitors: Better Stack, NOFire, CloudThinker, dash0 and Aurora all rank with pages about Traversal, and NeuBird and Edge Delta have 'vs Traversal' pages. So when an enterprise buyer on a committee asks ChatGPT or Google about alternatives after the round, competitors define what they read about Traversal.",
+    "source": "https://www.google.com/search?q=Traversal+alternatives+AI+SRE ; https://neubird.ai/compare/neubird-vs-traversal ; https://betterstack.com/community/comparisons/ (Traversal alternatives, 29 Mar 2026)",
+    "date": "accessed 2026-11-22"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Enterprise committee buy (SRE/platform leaders, infosec, procurement), but buyers clearly research online first: a Reddit r/sre thread 'Resolve.ai & Traversal', a LinkedIn 'AI SRE tools in 2026' post with 70+ comments, a GitHub awesome-ai-sre list, a Gartner SRE-tooling page, Databricks answers and many 'best AI SRE tools' listicles. It's a new category that AI answers are still forming opinions about.",
+    "competitors": [
+      {"name": "Resolve.ai", "seo_investment": "Heavy: 60 blog posts, 46 glossary pages (including 'What is an AI SRE?', which ranks #1 for 'AI SRE platform'), prompt library, 'alternative' pages", "evidence_url": "https://resolve.ai/sitemap.xml"},
+      {"name": "NeuBird", "seo_investment": "Heavy: 404 sitemap URLs, 130 blog posts, 32 glossary pages, compare pages including neubird-vs-traversal and resolve-ai-alternatives", "evidence_url": "https://neubird.ai/compare/neubird-vs-traversal"},
+      {"name": "Rootly", "seo_investment": "Very heavy: 1,045 URLs, 272 blog posts, 262 /sre pages, /alternatives vs pages (vs Resolve AI, PagerDuty, incident.io...), an AI SRE guide", "evidence_url": "https://rootly.com/sitemap.xml"},
+      {"name": "incident.io", "seo_investment": "Ranks #1 for 'best AI tools for incident management' (own listicle) and 'AI root cause analysis tool' (solution page)", "evidence_url": "https://incident.io/solution/ai-sre"},
+      {"name": "NOFire AI / Better Stack / Cleric / Datadog Bits AI SRE", "seo_investment": "NOFire and Better Stack publish Traversal-specific alternatives/vs pages. Cleric is the subject of competitor 'alternatives' lists (its sitemap is an index; not counted). Datadog, Splunk and Elastic have AI SRE product pages ranking for 'AI SRE platform'.", "evidence_url": "https://betterstack.com/community/comparisons/"}
+    ],
+    "serp_checks": [
+      {"query": "best AI SRE tools", "top_results": ["LinkedIn post 'AI SRE tools in 2026'", "gartner.com SRE tooling", "github agamm/awesome-ai-sre", "sherlocks.ai Top 13 AI SRE Tools", "traversal.com best-ai-sre-tools-for-financial-services (#5)", "community.ibm.com", "wetheflywheel.com", "hackernoon", "answers.databricks.com"], "date": "2026-11-22"},
+      {"query": "AI SRE platform", "top_results": ["resolve.ai glossary What is an AI SRE", "harness.io", "nudgebee.com 7 Best Autonomous AI SRE Platforms", "splunk.com AI SRE", "LinkedIn post", "github awesome-ai-sre", "sherlocks.ai", "traversal.com what-is-an-ai-sre (#8)", "elastic.co AI SRE"], "date": "2026-11-22"},
+      {"query": "Traversal alternatives AI SRE", "top_results": ["betterstack.com 10 Best Traversal Alternatives", "nofire.ai Traversal alternatives 2026", "cloudthinker.io 10 Best AI SRE Tools", "dash0.com Datadog Bits AI alternatives", "anyshift.io comparisons", "aurorasre.ai Cleric alternatives", "LinkedIn post", "wetheflywheel.com Cleric vs Resolve.ai vs Traversal", "sherlocks.ai (no traversal.com in the top 9)"], "date": "2026-11-22"},
+      {"query": "Traversal vs", "top_results": ["traversal.com traversal-vs-rootly (#1)", "nofire.ai Resolve AI vs Traversal", "edgedelta.com Edge Delta vs Traversal", "path traversal (noise)", "cloudthinker.io CloudThinker vs Traversal", "neubird.ai NeuBird vs Traversal", "wetheflywheel.com", "reddit r/sre Resolve.ai & Traversal"], "date": "2026-11-22"},
+      {"query": "best AI tools for incident management", "top_results": ["incident.io 5 best AI-powered incident management platforms", "traversal.com best-ai-tools-for-incident-management (#2)", "augmentcode.com", "thectoclub.com", "nofire.ai", "xurrent.com", "pagerduty.com", "invgate", "resolve.ai glossary"], "date": "2026-11-22"},
+      {"query": "AI root cause analysis tool for incidents", "top_results": ["incident.io AI SRE", "sherlocks.ai", "logz.io", "8labs.ai", "nofire.ai glossary", "zenml.io", "coroot.com", "contentsquare.com", "servicenow.com (no traversal.com)"], "date": "2026-11-22"},
+      {"query": "Traversal vs Resolve AI", "top_results": ["LinkedIn posts", "rootly.com evaluate AI guide", "resolve.ai blog; traversal.com/comparison/traversal-vs-resolve-ai not in the top 8"], "date": "2026-11-22"}
+    ],
+    "cost_of_absence": "Right after a $1B-valuation round, the most commercial queries about Traversal itself ('Traversal alternatives', 'X vs Traversal', 'Traversal vs Resolve AI') are answered by competitors' pages. AI assistants that cite these will describe Traversal on competitors' terms during enterprise evaluations. Category head terms ('AI SRE platform', 'AI root cause analysis tool') go to Resolve.ai, incident.io and incumbents.",
+    "why_not_yet": "Not a 'never invested' case. Traversal invests heavily (since about Jul 2026, run by the growth team, partly AI-produced via a GTM-engineer-built content agent). The gap is coverage of branded-comparison and alternatives queries, and measuring AI-answer presence, not effort. Best hypothesis: never_prioritized for branded/defensive queries, while the in-house program focuses on category listicles.",
+    "evidence": [
+      "https://www.traversal.com/sitemap.xml",
+      "https://www.traversal.com/blog/best-ai-tools-for-incident-management",
+      "https://neubird.ai/compare/neubird-vs-traversal",
+      "https://www.google.com/search?q=Traversal+alternatives+AI+SRE"
+    ]
+  },
+  "features": {
+    "industry": "devtools",
+    "stage": "series_b",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "us",
+    "marketing_gating": "single_seo",
+    "trigger": "funding",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {"url": "https://www.traversal.com/blog/traversal-series-b-120-million-ai-sre", "date": "2026-11-03", "kind": "direct", "result": "Series B $120M at $1B, co-leads and participants, use of funds"},
+    {"url": "https://www.google.com/search?q=Traversal+%22%24120+million%22+Series+B+AI+SRE", "date": "accessed 2026-11-22", "kind": "direct", "result": "BusinessWire, Yahoo Finance, Forbes, securities.io snippets dated Nov 3, 2026; dealroom (unverified)"},
+    {"url": "https://www.traversal.com/blog/leadership-announcement", "date": "2026-03-11", "kind": "direct", "result": "Ryan Powers, SVP of Marketing, and five other leadership hires"},
+    {"url": "https://www.traversal.com/about", "date": "accessed 2026-11-22", "kind": "direct", "result": "Founders, NYC address, awards; no marketing names"},
+    {"url": "https://www.traversal.com/careers", "date": "accessed 2026-11-22", "kind": "direct", "result": "Employee quotes, including Stevens Pineda (Marketing); mentions subway ads"},
+    {"url": "https://www.traversal.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "180 URLs; all 128 blog/glossary/comparison pages fetched for datePublished, byline and word count"},
+    {"url": "https://www.traversal.com/robots.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "AI-citation bots allowed, training-only bots blocked"},
+    {"url": "https://dns.google/resolve?name=traversal.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "HubSpot SPF, Google/Microsoft, LinkedIn, Notion, Rippling, Docker, HackerOne, Tailscale verifications"},
+    {"url": "https://api.ashbyhq.com/posting-api/job-board/traversal", "date": "accessed 2026-11-22", "kind": "direct", "result": "30 open roles, 5 in marketing, no SEO role; full JDs read"},
+    {"url": "https://www.linkedin.com/company/traversal-ai/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Via Bright Data: 51-200 employees, 114 on LinkedIn, 11,801 followers, HQ New York"},
+    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Traversal%22+%22AI+SRE%22+marketing", "date": "accessed 2026-11-22", "kind": "unverified", "result": "Titles: Ryan Powers SVP Marketing; Elizabeth Martinez Field Marketing; plus Nick Billy (Growth), Chloe Hauenstein (first marketer), John Stevens Pineda (Sr. Mgr Growth & GTM Ops, SEO skill) from related queries"},
+    {"url": "https://www.google.com/search?q=Traversal+alternatives+AI+SRE", "date": "accessed 2026-11-22", "kind": "direct", "result": "Competitor/listicle pages only; no traversal.com in the top 9"},
+    {"url": "https://www.google.com/search?q=Traversal+vs", "date": "accessed 2026-11-22", "kind": "direct", "result": "traversal.com #1; NOFire, Edge Delta, CloudThinker, NeuBird vs pages"},
+    {"url": "https://www.google.com/search?q=best+AI+SRE+tools", "date": "accessed 2026-11-22", "kind": "direct", "result": "Listicles and vendors; traversal.com #5"},
+    {"url": "https://neubird.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "404 URLs, compare/neubird-vs-traversal"},
+    {"url": "https://resolve.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "252 URLs: 60 blog, 46 glossary"},
+    {"url": "https://rootly.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "1,045 URLs, alternatives pages"}
+  ],
+  "sources_tried_failed": [
+    {"url": "https://www.forbes.com/sites/the-prompt/2026/11/03/the-billion-dollar-business-of-fixing-what-ai-builds/", "result": "Bright Data returned 502 Bad Gateway; only the Google snippet was used"},
+    {"url": "Google: 'Traversal Series B ARR 9x'", "result": "No results parsed; the ARR 9x claim is unverified (Next Play only)"},
+    {"url": "https://cleric.ai/sitemap.xml and https://incident.io/sitemap.xml", "result": "Sitemap index only; sub-sitemaps not counted"},
+    {"url": "readers.read_job_board('traversal')", "result": "Ashby was found, but my wrapper's len() on open_roles (an int) failed; I read the Ashby API directly instead"}
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Traversal company page (linkedin.com/company/traversal-ai) -> People tab, search 'SEO', 'content', 'organic', 'growth': is there anyone besides Nick Billy and John Stevens Pineda working on organic/SEO, or an agency contractor?",
+    "Ryan Powers' current title (still SVP Marketing at Traversal?), seen on the People tab without opening his profile"
+  ],
+  "open_questions": [
+    "Who runs the SEO/AEO program: Nick Billy/John Stevens Pineda in-house, or an agency? If it's a 2+ person dedicated function, this becomes blocked_seo_team.",
+    "The 'ARR up 9x' figure (Next Play) isn't confirmed at a primary source.",
+    "Was Anish Agarwal confirmed as CEO? Press calls him CEO; the about page only lists him as a founder."
+  ]
+}
