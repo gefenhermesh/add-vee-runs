@@ -29,6 +29,16 @@ A word here and there, not a rewrite. Suggested lines:
 - In the method line: "**People don't ask AI a keyword; they hold a conversation.** So I ran the real conversations Vega's buyers have…"
 - Before the image: "…what would normally take **weeks of manual work**: 84 buyer questions, 252 conversations, every answer read."
 
+### The stance behind every follow-up
+- **Lead with them, not with the offer.** What they're trying to achieve and what the research showed about it comes first; the form of working together comes last, in one or two sentences.
+- **Say plainly what it isn't.** One short line, e.g. "This isn't a software subscription pitch."
+- **Offer the forms as flexibility, not as a menu.** Name them in one sentence as examples of fitting their situation, never as a list of options for them to pick from.
+- **End with one concrete next step** (the 20-minute walkthrough), never "let me know what you'd prefer".
+- Draft wording, to adapt per company and to be tested:
+  > "To be clear, this isn't a software subscription pitch. I'm looking for a few teams to work closely with, and I shape it around what helps most: running the research for you, working alongside your team on what it finds, or putting the system in your team's hands. Happy to walk you through it, 20 minutes."
+  > Shorter: "Not a tool to sign up for: I work with a few teams at a time, in whatever form fits them best. Happy to show you what that looks like, 20 minutes."
+This replaces the old V step 4 line ("why it takes a person plus the system") when space is short; both say the same thing from two sides.
+
 ### Follow-up V ("email 2"): the full value proposition
 Same thread, day 4-6 business days. Structure:
 1. One line back to email 1 (no "just following up"): "One thing I didn't get to in my last note: what a full engagement looks like."
