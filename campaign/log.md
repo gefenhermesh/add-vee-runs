@@ -44,6 +44,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-21T05:10:00+00:00 sponsor: pause the campaign until Bright Data resumes; hourly tick disabled; add-vee #17 merged.
 - 2026-11-22T21:55:07+00:00 followup: bay/1 email1 sent to CEO
 - 2026-11-22 Bay email 1 sent to yuval@bay.io (sponsor's explicit request; v5, etico images, 'a unique research system'); follow-up thread bay/1, learn.py logged (features reconstructed).
+- 2026-11-22 sponsor: drafts must carry the Gmail signature. Gambit, glow.io, Upwind drafts recreated with includeSignature (sponsor's edited text kept) and the old ones deleted; rule added to MANAGER_TICK and state.rules. add-vee #20 merged.
 
 ## Cohorts
 
