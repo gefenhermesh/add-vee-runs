@@ -1,0 +1,169 @@
+{
+ "scout_version": 3,
+ "company": "Axiamatic",
+ "domain": "axiamatic.com",
+ "slug": "axiamatic",
+ "scouted": "2026-11-22",
+ "source_of_lead": "Next Play newsletter forwarded to gefen@etico.cr 2026-11-19 ('Rajiv from Axiamatic is hiring a product marketing lead and a head of design ... platform that reduces the cost of AI enterprise transformation projects (SF, Remote)')",
+ "reason": "Series A ($54M Greylock seed + Bessemer A, out of stealth 2026-03-11), a new 'agentic control plane for enterprise transformation' category, CEO writes all the content, and the first marketing hire (Director of Product Marketing) has been open since 2026-03-10.\nNo-leader exception: absent from an Oct 2026 'best AI tools for SAP S/4HANA transformation' listicle that names smaller rivals (Qorelo, Tessera Labs), and its llms.txt still says 'Copilots and Agents for ERP modernization'. SEO need is medium (SI/enterprise-led sales), so propose only with this angle.",
+ "gating_rating": "no_leader_exception",
+ "gating_note": "No marketing leader found. GTM is sales-led: Max Branman joined as Head of Sales on 2026-06-01 (now 'Head of GTM' in a Google snippet), a Head of Channels and Alliances, and several AEs titled 'GTM @ Axiamatic'. The PMM JD ('As our Director of Product Marketing ... build the foundational narrative framework', 'define the category') reads as the first marketing hire. It has been open 8+ months (Date_Opened 2026-03-10). All 33 resources posts are by the CEO. Exception because: an $54M Series A, 14 open roles, a new category, and two concrete AI-visibility findings. Risk: the person hired for the PMM role becomes the natural owner. One Google snippet (founding product designer's profile) mentions 'the Director of Marketing'. That may be a past employer, so couldn't verify. No SEO person or team found.",
+ "marketing_leadership": {
+  "status": "couldn't verify",
+  "who": [
+   {"name": "Max Branman", "role": "Head of Sales (blog, 2026-06-01); 'Head of GTM @ Axiamatic' per Google snippet", "note": "sales leader, not marketing"},
+   {"name": "Rajiv Gupta", "role": "Co-founder & CEO; author of every blog/perspective post", "note": "de facto marketing/narrative owner"}
+  ],
+  "evidence": [
+   {"claim": "PMM JD: 'As our Director of Product Marketing, you'll be the architect of how the world understands our value ... build the foundational narrative framework ... joining early enough to shape our market category'. No reporting line is stated and SEO isn't mentioned. Date_Opened 2026-03-10, Menlo Park CA, on-site (Remote_Job false)", "kind": "direct", "url": "https://axiamatic.zohorecruit.in/jobs/Careers/167099000001182079/Product-Marketing-Lead", "date": "opened 2026-03-10, accessed 2026-11-22"},
+   {"claim": "Company page leadership lists only the two co-founders (CEO Rajiv Gupta, CTO Kaushik Narayan)", "kind": "direct", "url": "https://www.axiamatic.com/company", "date": "accessed 2026-11-22"},
+   {"claim": "'Welcoming Max Branman as Axiamatic's Head of Sales' (8 years at MuleSoft)", "kind": "direct", "url": "https://www.axiamatic.com/resources/welcoming-max-branman-as-axiamatic-s-head-of-sales", "date": "2026-06-01"},
+   {"claim": "Google site:linkedin.com/in snippets for Axiamatic + marketing / product marketing / VP Marketing / CMO / Head of Marketing / marketing manager / demand gen show only GTM/AE, CS, FDPM, ops and design people. No marketing title at Axiamatic (Axiomatics/Axiomatic name collisions excluded)", "kind": "inferred", "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Axiamatic%22+marketing", "date": "accessed 2026-11-22"}
+  ]
+ },
+ "seo_team": {
+  "status": "not found",
+  "evidence": [
+   {"claim": "No SEO/content/growth-marketing role among 14 open roles. No SEO title in Google LinkedIn snippets. The PMM JD doesn't mention SEO, search or web", "kind": "inferred", "url": "https://axiamatic.zohorecruit.in/jobs/Careers", "date": "accessed 2026-11-22"},
+   {"claim": "All 33 resources posts are authored by Rajiv Gupta (CEO)", "kind": "direct", "url": "https://www.axiamatic.com/sitemap.xml", "date": "posts 2026-03-11 to 2026-10-28, accessed 2026-11-22"}
+  ]
+ },
+ "situation": {
+  "estimate": "Series A enterprise AI company (founded by the Skyhigh Networks founders; Greylock seed + Bessemer A, $54M total, out of stealth 2026-03-11) selling an 'agentic control plane' for ERP/CRM/supply-chain transformation programs to large enterprises and through SIs. Early customers: Heico and Marmon. The team is roughly 51-200 per LinkedIn. It is scaling GTM fast: a Head of Sales from MuleSoft in June 2026, a wave of AEs hired in June 2026, a channels lead and SAP Store listings. Marketing is still founder-run: a CEO-written weekly 'Myth' series (Jun-Oct 2026, paused since Oct 28) and long case studies. The PMM/category role has been unfilled for 8 months. Category language has shifted from 'AI for ERP modernization / Copilots and Agents' (llms.txt, 2026-03-03) to 'agentic control plane for enterprise transformation'. The next step is defining that category in public, which is exactly what the open PMM role is for.",
+  "confidence": "medium"
+ },
+ "trigger": {
+  "type": "job_post",
+  "detail": "Hiring a Product Marketing Lead (JD: Director of Product Marketing, category creation) and a Head of Design, featured in Next Play 2026-11-19. The underlying milestone is a $54M raise (Greylock-led seed + Bessemer-led Series A) announced 2026-03-11.",
+  "date": "2026-11-19 (Next Play); round 2026-03-11; PMM role opened 2026-03-10",
+  "source": "https://www.axiamatic.com/resources/our-54m-raise-ai-enterprise-transformations ; https://greylock.com/greymatter/introducing-axiamatic-ai-for-enterprise-transformation/ ; Next Play email 2026-11-19"
+ },
+ "fit_evidence": [
+  {"claim": "$54M from Greylock and Bessemer, announced March 11, 2026 (company blog by the CEO)", "kind": "direct", "url": "https://www.axiamatic.com/resources/our-54m-raise-ai-enterprise-transformations", "date": "2026-03-11"},
+  {"claim": "Greylock: out of stealth with $54M, 'including a Series Seed led by Greylock and a Series A financing led by ... Bessemer'", "kind": "direct", "url": "https://greylock.com/greymatter/introducing-axiamatic-ai-for-enterprise-transformation/", "date": "2026-03-11"},
+  {"claim": "Also covered by Business Wire and Fortune (exclusive) on 2026-03-11, per Google result snippets; the articles themselves were not opened", "kind": "inferred", "url": "https://fortune.com/2026/03/11/exclusive-ai-startup-axiamatic-raises-54-million/", "date": "2026-03-11"},
+  {"claim": "buying_journey=committee: buyers are CIO, PMO, OCM and executives at large enterprises running multi-hundred-million-dollar ERP programs, with SI partners involved (site solutions by role: CIO/PMO/OCM; JD: 'multi-year, multi-hundred-million-dollar initiatives')", "kind": "direct", "url": "https://www.axiamatic.com/solutions", "date": "accessed 2026-11-22"},
+  {"claim": "Hiring 14 roles incl. Product Marketing Lead, Head of Design, Head of RevOps, Enterprise AE, BDR, Product Lead (Zoho Recruit)", "kind": "direct", "url": "https://axiamatic.zohorecruit.in/jobs/Careers", "date": "accessed 2026-11-22"},
+  {"claim": "Listed on SAP Store ('Assure SAP modernization success with continuous risk detection and proactive remediation')", "kind": "direct", "url": "https://www.sap.com/australia/products/artificial-intelligence/partners/axiamatic-inc-assurance-from-axiamatic.html", "date": "accessed 2026-11-22 via search results"}
+ ],
+ "site_and_content": {
+  "cms_stack": "Next.js on Vercel with Sanity CMS (/studio disallowed in robots, 'sanity' in source); trackers: Apollo website tracker, HubSpot (hs-scripts), PostHog, LinkedIn Insight (snap.licdn). DNS TXT: Google site verification, Atlassian, GitLab pages, SPF incl. Outlook, Amazon SES, SendGrid, Salesforce",
+  "pages": "Sitemap: 49 URLs. 8 core pages (platform, solutions, partners, company, demo, resources, risk-assessment), 6 solution-by-role/use-case pages, 33 resources posts, 1 author page. No comparison/vs/alternatives pages, no docs, no glossary/guide pages",
+  "blog": "33 posts read (all in the sitemap), 2026-03-11 to 2026-10-28, all by Rajiv Gupta. Mix: 2 company blogs (raise, Head of Sales), 7 case studies (~1,300-1,600 words each), 24 'Perspective' posts (mostly a weekly 'Myth: ...' series, short ~300-450 words of body; plus 4 long essays). Cadence: nothing Mar 12-May; weekly or more Jun 10-Oct 28; nothing since Oct 28 (3.5 weeks)",
+  "internal_linking": "Link-aware read of raw HTML (article body between date and 'You may also like'): across 33 posts, the only contextual links are a demo link / hello@ mailto, except the launch post (links to platform anchors and partners). No post links to another post or to a solution page. The 'You may also like' block is the only cross-linking",
+  "llms_txt": "llms.txt (Last updated 2026-03-03) still describes 'Axiamatic — AI for ERP Modernization ... Copilots and Agents for SAP, Oracle, and Dynamics 365', and links /blog, which 308-redirects to /resources. The current site says 'agentic control plane for enterprise transformation'. A weak signal, but a concrete stale-positioning finding",
+  "duplicates": "A Vercel preview copy (axm-website-kappa.vercel.app) is served publicly and appears in web search results. It carries canonical tags to www.axiamatic.com, so impact is mitigated; noted only",
+  "meta": "Homepage title 'Enterprise AI Transformation | Axiamatic'; H1-level claim 'AI to accelerate enterprise transformation programs ... Cut up to 50% off the cost and timeline'"
+ },
+ "jobs": {
+  "board": "Zoho Recruit (axiamatic.zohorecruit.in). Ashby/Greenhouse/Lever boards return nothing; /careers on site is 404 (nav links to Zoho)",
+  "open_roles": 14,
+  "marketing_roles": [
+   {"title": "Product Marketing Lead (JD headline: Director of Product Marketing)", "location": "Menlo Park, CA (Remote_Job false; Next Play says SF/Remote)", "opened": "2026-03-10", "url": "https://axiamatic.zohorecruit.in/jobs/Careers/167099000001182079/Product-Marketing-Lead", "notes": "Read in full. Owns messaging framework, category definition, persona/awareness-stage messaging ('from I don't know I have this problem to I'm evaluating solutions'), urgency/ROI, social proof engine, analyst/influencer/media validation, case studies, story arcs per journey stage. 7+ yrs PMM, Series A-C, category creation. 'Scrappy ... building from zero with limited resources'. No mention of SEO, search, website, demand gen or AI search. No reporting line stated. JD says 'Our Series A funding'"}
+  ],
+  "other_relevant": ["Head of Design (Menlo Park; player-coach, 'define what an entirely new category of enterprise software should feel like'; JD says 'came out of stealth in March 2026 with $54M')", "Head of Revenue Operations (Menlo Park)", "Enterprise Account Executive (remote)", "Business Development Representative (remote)", "Agentic Growth & Value Transformation Lead (remote, opened 2026-09-01; implementation/CS, not marketing)"],
+  "seo_roles": []
+ },
+ "contacts": [
+  {"name": "Rajiv Gupta", "role": "Co-founder & CEO (author of all site content; named in Next Play as the hiring contact)", "email": null, "email_verified": false, "source": "https://www.axiamatic.com/company", "recipient_rank": 1},
+  {"name": "Max Branman", "role": "Head of Sales / Head of GTM", "email": null, "email_verified": false, "source": "https://www.axiamatic.com/resources/welcoming-max-branman-as-axiamatic-s-head-of-sales", "recipient_rank": 2},
+  {"name": "(generic)", "role": "public company inbox", "email": "hello@axiamatic.com", "email_verified": false, "source": "https://www.axiamatic.com/company", "recipient_rank": 3}
+ ],
+ "outreach_angle": {
+  "hook": "Rajiv is trying to define a new category ('agentic control plane for enterprise transformation') and has been hiring the person to do it since March. Meanwhile buyer-facing roundups are already defining the space without them: Trupeer's 'Best AI tools for SAP S/4HANA transformation' (Oct 5 2026) lists Qorelo, Tessera Labs, Laminar, lab0, Nova Intelligence and SAP Joule, but not Axiamatic. Their own llms.txt still describes them as 'Copilots and Agents for ERP modernization'. Risk named: competitors and listicles set the category in AI answers before the PMM hire lands. Opener: their words (the weekly 'Myth' series).",
+  "source": "https://www.trupeer.ai/blog/ai-tools-for-sap-s4hana-transformation ; https://www.axiamatic.com/llms.txt ; https://axiamatic.zohorecruit.in/jobs/Careers/167099000001182079/Product-Marketing-Lead",
+  "date": "2026-10-05 (listicle); 2026-03-03 (llms.txt); accessed 2026-11-22"
+ },
+ "seo_need": {
+  "rating": "medium",
+  "buyer_research": "Committee buyers (CIO, PMO, OCM leads, SI partners) at large enterprises. The buyer set is large in absolute terms: thousands of SAP ECC-to-S/4HANA migrations ahead of the 2027 end of mainstream maintenance. But the motion is enterprise/SI-led: AEs, a channels and alliances lead, SAP Store and SI partnerships. Research is still visible: vendor listicles for 'AI tools for SAP S/4HANA transformation' exist (Trupeer, Energent), consultancies (PwC, BCG, Roland Berger) publish on AI in ERP transformations, and the company has a G2 listing (G2 alternatives page appears in Google for 'Axiamatic vs'/'alternatives'; the page itself couldn't be fetched). It is a new category, so AI answers to 'how do we de-risk our S/4HANA program' have no settled vendor set yet.",
+  "competitors": [
+   {"name": "Panaya (Infosys)", "seo_investment": "Heavy: 86 posts in post-sitemap, 57 updated Oct 2026; many 'vs' and best-practice posts (e.g. S/4HANA cloud vs on-premise, ERP testing best practices); separate resource, podcast and webinar sitemaps", "evidence_url": "https://www.panaya.com/post-sitemap.xml"},
+   {"name": "Qorelo", "seo_investment": "Moderate: ~21 English 'insights' articles plus German versions (e.g. 'how to evaluate AI capabilities of ERP vendors 2026', 'fit-to-standard vs custom development 2026'); listed in the Trupeer roundup; SAP Store listing", "evidence_url": "https://www.qorelo.com/sitemap.xml"},
+   {"name": "Tessera Labs", "seo_investment": "Minimal: 7-URL sitemap, no blog, yet named in the Trupeer roundup as 'multi-agent execution of ERP transformation work'", "evidence_url": "https://tesseralabs.ai/sitemap.xml"},
+   {"name": "SAP (Signavio / Joule / Cognitive Twin)", "seo_investment": "Platform incumbent dominating SERPs for AI + S/4HANA transformation queries", "evidence_url": "https://www.trupeer.ai/blog/ai-tools-for-sap-s4hana-transformation"},
+   {"name": "Big Four / SIs (PwC transformation risk series, BCG)", "seo_investment": "Heavy thought leadership on AI transformation risk for ERP (PwC series Aug 2026); both rival and partner", "evidence_url": "https://www.pwc.com/us/en/services/audit-assurance/library/ai-transformation-risk-erp.html"}
+  ],
+  "serp_checks": [
+   {"query": "Axiamatic vs (Google via Bright Data)", "top_results": ["g2.com Top 10 Axiamatic Alternatives & Competitors", "slashdot Compare Axiamatic vs. XHawk (Agentic AI Platforms)", "axiamatic.com/solutions", "dealroom", "SAP partners profile"], "date": "2026-11-22"},
+   {"query": "ERP transformation risk management software (Google via Bright Data)", "top_results": ["priority-software.com ERP risk management", "pwc.com AI transformation risk in ERP", "safepaas.com blog", "datricks.com press release", "microsoft.com dynamics", "vialaurea.com blog", "hyperbots.com glossary", "ardoq.com ERP transformation guide"], "date": "2026-11-22"},
+   {"query": "AI platform for SAP S/4HANA transformation program management (Google via Bright Data)", "top_results": ["trupeer.ai Best AI Tools for SAP S/4HANA Transformation (by Phase) [twice]", "aiscorp.ai", "datastreetsolutions.com", "cio.com", "learning.sap.com", "energent.ai Best SAP S/4HANA with AI Tools (2026 Guide)", "appse.ai"], "date": "2026-11-22"},
+   {"query": "best transformation management software (Google via Bright Data)", "top_results": ["softwareworld.co AI change management software list", "getapp.com change management", "slashdot change management", "cioreview top digital transformation solutions", "moxo.com 13 best change management tools"], "date": "2026-11-22"},
+   {"query": "best AI tools for ERP transformation program management 2026 (WebSearch fallback after Bright Data suspended)", "top_results": ["gartner.com abstract", "sap.com blogs", "bcg.com gen AI ERP transformations", "thedigitalprojectmanager.com best AI ERP software", "randgroup.com", "rolandberger.com", "slashdot AI ERP", "thecfoclub.com"], "date": "2026-11-22"},
+   {"query": "AI platform ERP transformation program risk detection SAP S/4HANA (WebSearch fallback)", "top_results": ["sap.com SAP Store Axiamatic listing (multiple locales)", "engrxiv preprint", "pwc.com transformation risk series", "sap.com Datricks listing"], "date": "2026-11-22"}
+  ],
+  "cost_of_absence": "Concrete: Axiamatic isn't on the vendor-written 'best AI tools for SAP S/4HANA transformation' list (Oct 2026). That list puts smaller, less-funded rivals (Qorelo $3.5M, Tessera Labs) in front of the same buyers, and it is the kind of page AI answers draw on. Axiamatic ranks only for its own name and the SAP Store, with no category pages, comparisons or guides. Its llms.txt still feeds AI crawlers the old 'Copilots for ERP modernization' line. While the category is being named, others are naming it. Mitigant: deals are SI/AE-led, so the cost shows up in the shortlist and in category perception, not in inbound volume.",
+  "why_not_yet": "founder_led: all content is written by the CEO, there's no marketing hire (the PMM role has been open since 2026-03-10), and the GTM build has been sales-first (Head of Sales June 2026, AEs, channels). The company is 8 months out of stealth, not a mature company that chose not to invest.",
+  "evidence": [
+   {"claim": "Trupeer roundup 'Best AI Tools for SAP S/4HANA Transformation (by Phase)' names Trupeer, Nova Intelligence, Qorelo, Tessera Labs, lab0, Laminar, SAP Joule, SAP Signavio. No mention of Axiamatic (0 occurrences)", "kind": "direct", "url": "https://www.trupeer.ai/blog/ai-tools-for-sap-s4hana-transformation", "date": "2026-10-05"},
+   {"claim": "llms.txt: 'Axiamatic — AI for ERP Modernization ... Copilots and Agents for SAP, Oracle, and Dynamics 365', last updated 2026-03-03", "kind": "direct", "url": "https://www.axiamatic.com/llms.txt", "date": "2026-03-03"},
+   {"claim": "PMM JD asks for messaging 'for different personas, use cases, and stages of awareness' and analyst/media validation, but doesn't mention search or web", "kind": "direct", "url": "https://axiamatic.zohorecruit.in/jobs/Careers/167099000001182079/Product-Marketing-Lead", "date": "2026-03-10"}
+  ]
+ },
+ "features": {
+  "industry": "enterprise_ai_saas",
+  "stage": "series_a",
+  "situation": "scaling",
+  "size_band": "51_200",
+  "geo": "us",
+  "marketing_gating": "no_leader_exception",
+  "trigger": "job_post",
+  "finding_pattern": "absent",
+  "recipient_role": "ceo",
+  "ask_track": "engagement",
+  "opener_type": "their_words",
+  "email_variant": "v4_two_images",
+  "subject_style": "how_ai_sees_x",
+  "send_slot": "sun_thu_morning_local",
+  "contact_verified": "no",
+  "buying_journey": "committee",
+  "seo_need": "medium"
+ },
+ "sources": [
+  {"url": "Gmail thread 1a1f4da53a13d5c0 (Next Play fwd)", "date": "2026-11-19", "kind": "direct", "result": "Rajiv from Axiamatic hiring product marketing lead + head of design (SF, Remote)"},
+  {"url": "https://www.axiamatic.com", "date": "accessed 2026-11-22", "kind": "direct", "result": "homepage; Next.js/Sanity; Apollo, HubSpot, PostHog, LinkedIn Insight"},
+  {"url": "https://www.axiamatic.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "49 URLs, no lastmod"},
+  {"url": "https://www.axiamatic.com/robots.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "allow all; disallow /studio/, /api/"},
+  {"url": "https://www.axiamatic.com/llms.txt", "date": "2026-03-03", "kind": "direct", "result": "old 'AI for ERP Modernization / Copilots' positioning"},
+  {"url": "https://www.axiamatic.com/resources/our-54m-raise-ai-enterprise-transformations", "date": "2026-03-11", "kind": "direct", "result": "$54M from Greylock and Bessemer"},
+  {"url": "https://greylock.com/greymatter/introducing-axiamatic-ai-for-enterprise-transformation/", "date": "2026-03-11", "kind": "direct", "result": "Greylock-led seed + Bessemer-led Series A, $54M"},
+  {"url": "https://www.axiamatic.com/company", "date": "accessed 2026-11-22", "kind": "direct", "result": "founders only; Bay Area + Bengaluru; hello@axiamatic.com"},
+  {"url": "https://www.axiamatic.com/resources/welcoming-max-branman-as-axiamatic-s-head-of-sales", "date": "2026-06-01", "kind": "direct", "result": "Head of Sales hire"},
+  {"url": "https://www.axiamatic.com/resources (33 posts fetched from sitemap)", "date": "2026-03-11 to 2026-10-28", "kind": "direct", "result": "all by CEO; link-aware body read"},
+  {"url": "https://axiamatic.zohorecruit.in/jobs/Careers", "date": "accessed 2026-11-22", "kind": "direct", "result": "14 open roles"},
+  {"url": "https://axiamatic.zohorecruit.in/jobs/Careers/167099000001182079/Product-Marketing-Lead", "date": "opened 2026-03-10", "kind": "direct", "result": "full PMM JD read"},
+  {"url": "https://axiamatic.zohorecruit.in/jobs/Careers/167099000002174331/Head-of-Design", "date": "accessed 2026-11-22", "kind": "direct", "result": "Head of Design JD (about section + role)"},
+  {"url": "https://axiamatic.zohorecruit.in/jobs/Careers/167099000001834011/Agentic-Growth-Value-Transformation-Lead", "date": "opened 2026-09-01", "kind": "direct", "result": "implementation/CS role, not marketing"},
+  {"url": "https://dns.google/resolve?name=axiamatic.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "google-site-verification, atlassian, gitlab, SPF (Outlook, SES, SendGrid, Salesforce); no HubSpot/Marketo token"},
+  {"url": "https://www.linkedin.com/company/axiamatic/ (via Bright Data)", "date": "accessed 2026-11-22", "kind": "direct", "result": "Menlo Park, 5,959 followers, 51-200 employees, 100 on LinkedIn"},
+  {"url": "https://theorg.com/org/axiamatic", "date": "accessed 2026-11-22", "kind": "unverified", "result": "founders, Head of India Ops, Head of Customer Engagement; no marketing"},
+  {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Axiamatic%22+marketing (and 8 related queries, via Bright Data)", "date": "accessed 2026-11-22", "kind": "inferred", "result": "titles: Head of GTM, GTM/AEs, channels, CS, FDPM, design; no marketing title"},
+  {"url": "https://www.trupeer.ai/blog/ai-tools-for-sap-s4hana-transformation", "date": "2026-10-05", "kind": "direct", "result": "competitor roundup without Axiamatic"},
+  {"url": "https://www.panaya.com/post-sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "86 posts"},
+  {"url": "https://www.qorelo.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "~21 EN insights + DE"},
+  {"url": "https://tesseralabs.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "7 URLs, no blog"},
+  {"url": "https://axm-website-kappa.vercel.app", "date": "accessed 2026-11-22", "kind": "direct", "result": "public preview copy with canonical to www.axiamatic.com"}
+ ],
+ "sources_tried_failed": [
+  {"url": "https://www.axiamatic.com/careers", "result": "404 (nav points to Zoho Recruit)"},
+  {"url": "Ashby/Greenhouse/Lever boards 'axiamatic'", "result": "no board"},
+  {"url": "https://www.g2.com/products/axiamatic/competitors/alternatives (Bright Data, twice)", "result": "empty response; G2 alternatives list not read"},
+  {"url": "Bright Data Google searches after ~23:19 UTC (competitor and category queries)", "result": "Bright Data returned 407 'Account is suspended' (client_10020); remaining SERP checks done with WebSearch (not Google), labelled as such"},
+  {"url": "http://web.archive.org/web/20250522025534id_/https://www.axiamatic.com/ and 20251216 snapshot", "result": "403 Forbidden; snapshots exist (2025-05-22, 2025-12-16) but weren't read"},
+  {"url": "https://www.laminar.run/sitemap.xml", "result": "now Minicor sitemap; Laminar competitor content not assessed"},
+  {"url": "https://lab0.ai/sitemap.xml", "result": "404"},
+  {"url": "Fortune / Business Wire articles", "result": "not opened; seen as Google snippets only"}
+ ],
+ "linkedin_checks_for_sponsor": [
+  "Axiamatic company page -> People tab, search 'marketing': has a Director/Head of Product Marketing or any marketing lead joined since March 2026 (the PMM role is still posted)?",
+  "Check whether Ashwin Shroff's (Founding Product Designer) 'Director of Marketing' collaboration line refers to Axiamatic or a previous employer",
+  "Is Max Branman's title now Head of GTM (i.e. owns marketing too)?"
+ ],
+ "open_questions": [
+  "Is there a marketing owner not visible publicly (e.g. a fractional/agency PMM, or marketing under Max Branman as Head of GTM)?",
+  "Has the PMM role been filled but left posted (open 8+ months)?",
+  "Does G2 list real alternatives (G2 page not readable; Bright Data suspended)?",
+  "How much inbound/self-research happens versus SI-sourced deals? This decides whether seo_need is medium or low",
+  "Funding label: the company and the JD say Series A; Greylock says seed (Greylock) + Series A (Bessemer) totalling $54M"
+ ]
+}
