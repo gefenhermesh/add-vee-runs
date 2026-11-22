@@ -1,0 +1,156 @@
+{
+ "scout_version": 3,
+ "company": "Hanover Park",
+ "domain": "hanoverpark.com",
+ "slug": "hanover-park",
+ "scouted": "2026-11-22",
+ "source_of_lead": "Next Play 'Should you join: Hanover Park' (22 Nov 2026), via the caller's brief: AI-native fund administration for VC/PE, ~$50B AUA (from $1B late 2024), ARR 20x+ in 15 months, $31M raised incl. $27M Series A led by Emergence (Lux, Susa), NYC in-office, building its first GTM team. The ARR figure was not re-checked at a primary source.",
+ "reason": "No marketing leader (exception): a fast-growing Series A ($1B to $50B AUA, first GTM team forming) that Carta's 'best fund administration software' comparison page (Jun 2026) now describes to fund CFOs in Carta's own words. Hanover Park has no comparison/buyer's-guide content and is missing from the emerging-VC fund-admin listicles.",
+ "gating_rating": "no_leader_exception",
+ "gating_note": "No marketing person at all, and the company says so: the Founding AE JD (Ashby, published 2026-11-17) says 'No SDR layer to lean on. No marketing engine to blame' and 'our CEO Chris has scaled sales singlehandedly'. GTM hires so far are ex-bankers/investors as 'Member of Business Staff' and a 'GTM' generalist; the 10 open Ashby roles include no marketing role. By the table this is too_early, but marked as an exception because it is strong on the other parameters: hypergrowth (AUA $15B in Mar 2026 to $50B on the homepage now), the largest competitor (Carta) has published a comparison page describing them with limitations, buyers visibly research the category online (Reddit thread asking about them, Substack listicles), and the brand name collides with a Chicago suburb and an NJ high school in search. Risk: the next hire may be a marketing leader who would own this, and the CEO says inbound already exceeds capacity.",
+ "marketing_leadership": {
+  "status": "not found",
+  "who": [],
+  "evidence": [
+   {"claim": "Founding AE JD: 'We're building the Navy SEALs of go-to-market... No SDR layer to lean on. No marketing engine to blame. No sales ops...'; 'To date, our CEO Chris has scaled sales singlehandedly'; 'You're the second sales hire'; 'inbound demand is overwhelming and we can't keep up'", "kind": "direct", "url": "https://jobs.ashbyhq.com/hanover-park/59a752d8-5608-4788-a67c-e2ece03e29b7", "date": "2026-11-17"},
+   {"claim": "Ashby board: 10 open roles (FDE, Product Engineer, Product Designer, Fund Accountant, Operations Associate, Treasury Ops, Account Executive, Founding Recruiter, Member of Business Staff, Founding Design Engineer); no marketing, content or SEO role", "kind": "direct", "url": "https://api.ashbyhq.com/posting-api/job-board/hanover-park", "date": "accessed 2026-11-22"},
+   {"claim": "Member of Business Staff JD: work 'directly with the CEO to decide which customers we pursue, how we reach them, and how we price and package' (market strategy sits with the CEO and generalists)", "kind": "direct", "url": "https://jobs.ashbyhq.com/hanover-park/a90fd75d-a18e-4239-83bf-7891d5cb0f2d", "date": "2026-11-17"},
+   {"claim": "site:linkedin.com/in searches (marketing / CMO-VP-Head of Marketing-Growth / SEO-content-brand / 'at Hanover Park' GTM) returned no marketing-titled Hanover Park (fund admin) employee. Results were dominated by Hanover Park, Illinois (village) and Hanover Park High School (NJ) people: name collision. Titles seen: CEO Chris Hladczuk, 'GTM at Hanover Park' (Michael Condon), Founding Talent Lead, Founding Deployment Strategist, Founding Director of Fund Services, engineers", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"at Hanover Park\" (growth OR marketing OR \"go-to-market\" OR GTM) (via Bright Data)", "date": "accessed 2026-11-22 (snippets undated)"},
+   {"claim": "Company LinkedIn page: 4,974 followers, 84 employees, 51-200, NYC (115 E 23rd St), founded 2024. Recent posts are CEO announcements of a Chief of Staff (ex-Evercore/Carlyle) and a Member of Business Staff (ex-Morgan Stanley/Apollo); no marketing hire announced", "kind": "direct", "url": "https://www.linkedin.com/company/hanoverpark/", "date": "accessed 2026-11-22"}
+  ]
+ },
+ "seo_team": {
+  "status": "not found",
+  "evidence": [
+   {"claim": "No SEO/content person in LinkedIn snippet searches and the JD states there is no marketing engine; the blog is 12 customer stories/product notes, none written as search content", "kind": "inferred", "url": "https://jobs.ashbyhq.com/hanover-park/59a752d8-5608-4788-a67c-e2ece03e29b7", "date": "2026-11-17"}
+  ]
+ },
+ "situation": {
+  "estimate": "Series A AI-native fund administrator (software plus CPA-reviewed services) in hypergrowth: $1B AUA in late 2024, $15B at the March 2026 round, $50B claimed on the homepage now, with Conviction, South Park Commons, Susa and Optimist as public customers. Growth has been CEO-led and referral/inbound-driven. The company is now forming its first GTM team (second AE, Members of Business Staff, Chief of Staff, founding recruiter) and moving up-market from VC to PE and private credit. Incumbents (SS&C, Citco, Apex) and Carta, the venture-native leader, now treat it as the named challenger: Carta's comparison page frames it as early, engineering-led and narrow. The next 12 months are about turning referral momentum into a repeatable motion in a market where CFOs increasingly ask peers, Reddit and AI tools which admin to switch to.",
+  "confidence": "medium"
+ },
+ "trigger": {
+  "type": "competitor_comparison_page",
+  "detail": "Carta's 'The Best Fund Administration Software & Services for 2026' (dated June 9, 2026) has a section 'Newer AI-forward entrant: Hanover Park' listing limitations ('has not completed audit season at scale', 'narrow breadth: no tax preparation, compliance workflows, portfolio valuations, fund formations, or private credit', 'engineering-led startup, domain accounting depth is worth evaluating'). Context: $27M Series A, March 18, 2026 (GlobeNewswire); Next Play deep dive Nov 22, 2026; homepage now claims $50B AUA.",
+  "date": "2026-06-09",
+  "source": "https://carta.com/compare/best-fund-administration-software/"
+ },
+ "fit_evidence": [
+  {"claim": "$27M Series A led by Emergence Capital with Lux Capital and Susa Ventures; AUA grew $1B to $15B in under 12 months", "kind": "direct", "url": "https://www.globenewswire.com/news-release/2026/03/18/3258626/0/en/hanover-park-raises-27m-series-a-to-replace-the-financial-infrastructure-behind-100-trillion-in-global-assets.html", "date": "2026-03-18"},
+  {"claim": "Emergence's announcement post confirms it led the $27M Series A alongside Lux and Susa", "kind": "direct", "url": "https://www.emcap.com/thoughts/the-end-of-human-duct-tape-why-we-led-hanover-parks-series-a", "date": "2026-03-18"},
+  {"claim": "Total raised $31M from Emergence, Lux, Susa and fund CFOs from Bain Capital, Clearlake, CD&R, Hellman & Friedman (company's own JD boilerplate)", "kind": "direct", "url": "https://jobs.ashbyhq.com/hanover-park/59a752d8-5608-4788-a67c-e2ece03e29b7", "date": "2026-11-17"},
+  {"claim": "Homepage claims $50B assets under administration and 12K+ LPs, while the same page also says 'Trusted by funds managing over $40B of assets' (two different figures on one page)", "kind": "direct", "url": "https://www.hanoverpark.com/", "date": "accessed 2026-11-22"},
+  {"claim": "Buying journey = committee: buyers are fund CFOs/COOs plus GPs, with auditors and LPs affected; the JD describes discovery, demo, 'technical deep-dives with CFOs', pricing, contract and migration; switching an administrator is high-stakes (Conviction's $1B+ migration is a headline case study)", "kind": "inferred", "url": "https://jobs.ashbyhq.com/hanover-park/59a752d8-5608-4788-a67c-e2ece03e29b7", "date": "2026-11-17"},
+  {"claim": "ARR 20x+ in 15 months (Next Play)", "kind": "unverified", "url": "Next Play 'Should you join: Hanover Park' newsletter (gefen@etico.cr)", "date": "2026-11-22"}
+ ],
+ "site_and_content": {
+  "cms_and_tools": "Framer site (thousands of 'framer' references in the HTML), PostHog analytics, Intercom. DNS TXT: Google Workspace SPF, google-site-verification (Search Console likely set up), Rippling, OpenAI and Anthropic domain verifications. No HubSpot/Marketo/Pardot token. robots.txt allows all.",
+  "sitemap": "28 URLs: homepage, 6 product pages (fund-administration, portfolio-intelligence, portfolio-kpi-collection, lp-experience, ai-agents, 'buiilt-for-complexity' [typo in the URL slug]), security, careers, plus a stale 'careers-old', contact, blog and 13 blog URLs.",
+  "blog": "12 posts, Dec 29, 2025 to Oct 22, 2026 (all 12 read for dates): about one a month. All are customer case studies (South Park Commons, Optimist, Conviction, Premise, Level, Dream Ventures, IO Capital, Susa, Steel Atlas) or product announcements (automated payments, Ramp sync). No guides, no category/education content, no 'vs'/alternatives/buyer's-guide pages, no pricing page.",
+  "internal_linking": "Link-aware read (raw HTML anchors) of 3 posts: about 63 anchors each, all nav/footer plus 'related posts'; no contextual in-body links from posts to the product pages. One post links out to a customer's LinkedIn profile.",
+  "on_page": "Homepage <title> is just 'Hanover Park' (no category words); meta description 'From reactive to proactive fund operations...'. No JSON-LD found on the homepage.",
+  "brand_collision": "Google 'Hanover Park' ranks the village of Hanover Park, IL first (hpil.org), the company second; 'Hanover Park vs' returns only Hanover Park High School (NJ) sports results. The name competes with a town and a school in search.",
+  "wayback": "Earliest snapshot found at 2025-02-01; fetch of the snapshot failed (connection reset)."
+ },
+ "jobs": {
+  "board": "Ashby: hanover-park (10 open roles, all New York City, on-site)",
+  "marketing_roles": [],
+  "seo_roles": [],
+  "notable": [
+   {"title": "Account Executive (Founding AE)", "published": "2026-11-17", "note": "'No marketing engine to blame'; CEO scaled sales singlehandedly; second sales hire; inbound overwhelming", "url": "https://jobs.ashbyhq.com/hanover-park/59a752d8-5608-4788-a67c-e2ece03e29b7"},
+   {"title": "Member of Business Staff", "published": "2026-11-17", "note": "ex-banker/investor generalists who own GTM with the CEO", "url": "https://jobs.ashbyhq.com/hanover-park/a90fd75d-a18e-4239-83bf-7891d5cb0f2d"},
+   {"title": "Founding Recruiter (Business & Operations)", "published": "2026-11-19", "note": "first full-time recruiter for every non-technical team; fund accounting is 40% of the team", "url": "https://jobs.ashbyhq.com/hanover-park/34d12bff-2f9d-41d8-98d6-db18fc6ebd5c"}
+  ],
+  "collision_note": "Greenhouse board 'hanover' belongs to Hanover Communications (London healthcare PR), not this company."
+ },
+ "contacts": [
+  {"name": "Chris Hladczuk", "role": "CEO and co-founder", "email": "chris@hanoverpark.com", "email_verified": false, "source": "Email published by the company on its blog ('reach out to me at chris@hanoverpark.com'), https://www.hanoverpark.com/blog/announcing-hanover-park-s-automated-payments (Jan 20, 2026); role from GlobeNewswire 2026-03-18. No independent verification (e.g. Hunter) done.", "recipient_rank": 1}
+ ],
+ "outreach_angle": {
+  "hook": "Carta's own 'best fund administration software' comparison page (June 2026) now introduces Hanover Park to fund CFOs as early, engineering-led and narrow ('has not completed audit season at scale'), and Hanover Park has no comparison or buyer's-guide page of its own to answer it. That is the version of Hanover Park that AI answers and search will repeat as CFOs research a switch, while a Chicago suburb and an NJ high school take the brand query.",
+  "source": "https://carta.com/compare/best-fund-administration-software/",
+  "date": "2026-06-09"
+ },
+ "seo_need": {
+  "rating": "high",
+  "buyer_research": "Mixed, leaning to online research at the evaluation stage. The motion is referral- and CFO-network-led (CEO-led sales, testimonials, peer referrals), but buyers clearly research online: a r/venturecapital thread titled 'Fund Admin recs? Hanover Park?' asks whether it is robust enough; Substack and vendor listicles ('best fund admins for emerging VCs (2026)', '10 best fund administrators for emerging managers') rank for category queries; Carta, Ceviche and Juniper Square invest in 'best'/'alternatives' pages. The buyer set is large (thousands of VC, PE and private-credit GPs, from emerging managers up), and the CEO himself pitches 'live fund performance through ChatGPT/Claude via our MCP', so AI-assisted research fits this audience.",
+  "competitors": [
+   {"name": "Carta (Fund Administration)", "seo_investment": "Heavy: blog, learning resources and a compare-posts section; ranks #1 for 'fund administration software for private equity'; its 'best fund administration software' page (Jun 9, 2026) names Hanover Park with a limitations list", "evidence_url": "https://carta.com/compare/best-fund-administration-software/"},
+   {"name": "Ceviche AI", "seo_investment": "Heavy programmatic comparison content: ~116 sitemap URLs incl. carta-fund-administration-alternatives, juniper-square-alternatives, allvue-alternatives, best-vc-fund-accounting-software, best-fund-administration-software; ranks #1 for 'Carta fund administration alternatives'. Does not mention Hanover Park", "evidence_url": "https://www.ceviche.ai/resources/carta-fund-administration-alternatives"},
+   {"name": "Juniper Square", "seo_investment": "Sustained: 272 blog URLs in its blog sitemap (latest lastmod 2026-11-18), plus guides and education sections; appears in most 'best fund admin' and 'Carta alternatives' lists", "evidence_url": "https://www.junipersquare.com/sitemaps-1-section-blog-1-sitemap.xml"},
+   {"name": "Alter Domus / SS&C / Citco / Apex (incumbents)", "seo_investment": "Brand-led with insight content; Alter Domus ranks #1 for 'best fund administrators for venture capital funds' with an insight article; SS&C, Apex, Alter Domus and Citco top third-party 'top fund administrators 2026' lists", "evidence_url": "https://alterdomus.com/insight/venture-capital-fund-administration-scaling/"},
+   {"name": "Aduro Advisors / Decile / Vector AIS (VC-focused admins)", "seo_investment": "Decile ranks with a 'Fund Admin for Venture Capital' page; Aduro and Vector are named in the Teel emerging-VC listicle. Aduro's blog couldn't be read (bot challenge, and BD returned no post links)", "evidence_url": "https://teel.substack.com/p/the-best-fund-admins-for-emerging-768"}
+  ],
+  "serp_checks": [
+   {"query": "best fund administrators for venture capital funds", "top_results": ["alterdomus.com insight", "teel.substack.com 'The best fund admins for emerging VCs (2026)' (no Hanover Park)", "a VC admin service page", "explainer", "private capital admin services", "Decile Partners 'Fund Admin for Venture Capital'", "Caruso 'Best Private Equity Fund Administrators'", "'Expert rankings of the best PE fund administrators' listicle", "'Best Fund Administration Software and Tools for PE and VC'"], "date": "2026-11-22"},
+   {"query": "fund administration software for private equity", "top_results": ["carta.com/fund-management/fund-administration", "eFront", "'Best Fund Administration Software: 7 Compared (2026)'", "'Top 7 private equity fund administration technologies'", "Fundwave", "VC tools directory", "Workiva", "RSM"], "date": "2026-11-22"},
+   {"query": "AI fund administration", "top_results": ["hanoverpark.com (#1)", "grantthornton.com", "AI in fund admin articles", "a competitor 'AI Fund Administration Software for PE & VC' page", "agentic AI article", "real-estate AI-native fund admin page", "OpEff"], "date": "2026-11-22"},
+   {"query": "Carta fund administration alternatives", "top_results": ["ceviche.ai alternatives page (#1, no Hanover Park)", "carta.com", "'What to look for... alternative to Carta'", "Fundwave 'Carta alternative'", "r/Accounting thread", "'Best PE Fund Administration Software for 2026'", "'Carta alternatives for fund administration' (Easefolio)", "'Carta Fund Management Alternatives and Competitors'"], "date": "2026-11-22"},
+   {"query": "Hanover Park alternatives fund administration", "top_results": ["hanoverpark.com", "carta.com/compare/best-fund-administration-software (#2, Carta's framing of Hanover Park)", "hanoverpark.com/fund-administration", "LinkedIn company page", "GAII Institute profile", "a profile page", "Dream Ventures case study", "GlobeNewswire PR"], "date": "2026-11-22"},
+   {"query": "Hanover Park / Hanover Park vs", "top_results": ["'Hanover Park': hpil.org (village of Hanover Park, IL) #1, hanoverpark.com #2, Wikipedia village, Park District", "'Hanover Park vs': only Hanover Park High School (NJ) sports pages"], "date": "2026-11-22"},
+   {"query": "Hanover Park fund administrator review", "top_results": ["Dream Ventures case study", "reddit r/venturecapital 'Fund Admin recs? Hanover Park?'", "LinkedIn post", "podcast 'Inside Hanover Park'", "CEO LinkedIn post", "Built In NYC", "GAII Institute", "GlobeNewswire"], "date": "2026-11-22"}
+  ],
+  "cost_of_absence": "The narrative at the comparison stage is written by others: Carta's comparison page frames Hanover Park as early, engineering-led and narrow (no tax, compliance, valuations, fund formation or private credit), right as Hanover Park moves up-market into PE and private credit, and it ranks #2 for 'Hanover Park alternatives'. Hanover Park is absent from the Teel emerging-VC listicle and Ceviche's alternatives pages, has no vs/buyer's-guide content and no in-body links to product pages, and its brand query is shared with a town and a high school. Prospects asking 'is Hanover Park robust enough?' (the Reddit thread's exact question) find competitor framing, not Hanover Park's answer, and AI answers built from those pages will repeat it.",
+  "why_not_yet": "founder_led: 2-year-old company where the CEO has run sales himself, inbound exceeds capacity, and the JD says there is 'no marketing engine'. Content to date is customer stories timed with deals.",
+  "evidence": [
+   {"claim": "Carta comparison page section 'Newer AI-forward entrant: Hanover Park' with limitations", "kind": "direct", "url": "https://carta.com/compare/best-fund-administration-software/", "date": "2026-06-09"},
+   {"claim": "Reddit thread title/snippet: 'Fund Admin recs? Hanover Park?... Their offering looks great but it's so new not sure if it's robust enough' (thread itself not readable: Bright Data refused reddit.com without KYC; plain fetch 403)", "kind": "direct", "url": "https://www.reddit.com/r/venturecapital/comments/1ovkvsx/fund_admin_recs_hanover_park/", "date": "accessed 2026-11-22 (snippet only, thread date unknown)"},
+   {"claim": "Teel 'The best fund admins for emerging VCs (2026)' names Vector AIS, Aduro, Carta, AngelList, Juniper Square, Standish; no Hanover Park", "kind": "direct", "url": "https://teel.substack.com/p/the-best-fund-admins-for-emerging-768", "date": "2026-01-02"},
+   {"claim": "Ceviche's Carta-alternatives page does not mention Hanover Park", "kind": "direct", "url": "https://www.ceviche.ai/resources/carta-fund-administration-alternatives", "date": "accessed 2026-11-22"}
+  ]
+ },
+ "features": {
+  "industry": "fintech",
+  "stage": "series_a",
+  "situation": "scaling",
+  "size_band": "51_200",
+  "geo": "us",
+  "marketing_gating": "no_leader_exception",
+  "trigger": "competitor_comparison_page",
+  "finding_pattern": "misrepresented",
+  "recipient_role": "ceo",
+  "ask_track": "engagement",
+  "opener_type": "milestone_congrats",
+  "email_variant": "v4_two_images",
+  "subject_style": "how_ai_sees_x",
+  "send_slot": "sun_thu_morning_local",
+  "contact_verified": "no",
+  "buying_journey": "committee",
+  "seo_need": "high"
+ },
+ "sources": [
+  {"url": "https://www.hanoverpark.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Framer site; $50B AUA and 'over $40B' both on the page; title 'Hanover Park'"},
+  {"url": "https://www.hanoverpark.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "28 URLs"},
+  {"url": "https://www.hanoverpark.com/robots.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "allow all"},
+  {"url": "https://www.hanoverpark.com/blog", "date": "accessed 2026-11-22", "kind": "direct", "result": "12 posts listed; all 12 fetched, dated Dec 29, 2025 to Oct 22, 2026"},
+  {"url": "https://dns.google/resolve?name=hanoverpark.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "Rippling, Google, OpenAI, Anthropic verifications, Google SPF"},
+  {"url": "https://api.ashbyhq.com/posting-api/job-board/hanover-park", "date": "accessed 2026-11-22", "kind": "direct", "result": "10 roles, JDs read for AE, MBS, Founding Recruiter"},
+  {"url": "https://www.globenewswire.com/news-release/2026/03/18/3258626/0/en/hanover-park-raises-27m-series-a-to-replace-the-financial-infrastructure-behind-100-trillion-in-global-assets.html", "date": "2026-03-18", "kind": "direct", "result": "round confirmed (plain fetch 403; read via Bright Data); PR contact is LaunchSquad (agency for Emergence)"},
+  {"url": "https://www.emcap.com/thoughts/the-end-of-human-duct-tape-why-we-led-hanover-parks-series-a", "date": "2026-03-18", "kind": "direct", "result": "lead investor post confirms"},
+  {"url": "https://www.linkedin.com/company/hanoverpark/", "date": "accessed 2026-11-22", "kind": "direct", "result": "via Bright Data: 4,974 followers, 84 employees, recent hire posts"},
+  {"url": "https://carta.com/compare/best-fund-administration-software/", "date": "2026-06-09", "kind": "direct", "result": "Hanover Park section with limitations"},
+  {"url": "https://teel.substack.com/p/the-best-fund-admins-for-emerging-768", "date": "2026-01-02", "kind": "direct", "result": "no Hanover Park"},
+  {"url": "https://www.ceviche.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "116 URLs, many alternatives/best-of pages"},
+  {"url": "https://www.junipersquare.com/sitemaps-1-section-blog-1-sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "272 blog URLs, lastmod 2026-11-18"},
+  {"url": "https://www.google.com/search (Bright Data, brd_json=1), 12+ queries listed in seo_need.serp_checks and marketing_leadership.evidence", "date": "accessed 2026-11-22", "kind": "direct", "result": "parsed organic results"},
+  {"url": "https://app.dealroom.co/news/note/hanover-park-raises-27m-series-a-after-scaling-to-15b-in-assets-on-its-platform", "date": "accessed 2026-11-22 (snippet only)", "kind": "unverified", "result": "aggregator snippet, consistent with the PR"},
+  {"url": "http://archive.org/wayback/available?url=hanoverpark.com&timestamp=20250101", "date": "accessed 2026-11-22", "kind": "direct", "result": "closest snapshot 2025-02-01"}
+ ],
+ "sources_tried_failed": [
+  {"url": "https://www.reddit.com/r/venturecapital/comments/1ovkvsx/fund_admin_recs_hanover_park/", "result": "plain fetch empty; Bright Data refused (reddit requires KYC); old.reddit and .json also failed. Only the Google snippet was read"},
+  {"url": "https://web.archive.org/web/20250201051831/https://www.hanoverpark.com/", "result": "connection reset; category-language history not checked"},
+  {"url": "https://aduroadvisors.com/blog/", "result": "plain fetch: bot challenge; Bright Data returned a page with no blog post links: couldn't verify Aduro's cadence"},
+  {"url": "https://carta.com/types/compare-posts.xml", "result": "bot challenge page ('One moment, please...')"},
+  {"url": "boards greenhouse/lever 'hanoverpark', 'hanoverparkai', 'hanoverparkhq'", "result": "no board; Greenhouse 'hanover' is a different company (Hanover Communications)"}
+ ],
+ "linkedin_checks_for_sponsor": [
+  "Hanover Park company page (linkedin.com/company/hanoverpark) -> People tab, search 'marketing', 'content', 'brand', 'growth': is there any marketing hire not visible logged-out (e.g. started in the last month)?",
+  "Same People tab: what does Michael Condon ('GTM at Hanover Park') actually do: marketing or sales?"
+ ],
+ "open_questions": [
+  "Is a marketing-leader hire imminent (Founding Recruiter JD lists sales, ops and fund accounting searches, not marketing)? If one is hired before outreach, gating becomes sweet_spot and the recipient should switch.",
+  "finding_pattern 'misrepresented' is a guess from Carta's page being the main third-party comparison source; no AI-visibility probe was run.",
+  "AUA inconsistency on the homepage ($50B vs 'over $40B'); ARR 20x+ is from Next Play only.",
+  "With inbound already 'overwhelming', the CEO may see no need for more visibility; the angle has to be narrative control at the comparison stage (up-market PE/private credit buyers), not more leads."
+ ]
+}
