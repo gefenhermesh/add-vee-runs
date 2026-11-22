@@ -17,7 +17,7 @@ const srv = http.createServer((q, r) => { const f = path.join(dir, decodeURIComp
     const intro = document.querySelector('section.plan-intro'); const ic = intro.cloneNode(true); ic.querySelector('.plan-controls')?.remove(); ic.style.borderTop='none'; wrap.appendChild(ic);
     const cl = document.getElementById('clusterList'); const cc = cl.cloneNode(false); [...cl.children].slice(0, 4).forEach((c, i) => { const k = c.cloneNode(true); if (i === 3) fade(k); cc.appendChild(k); }); wrap.appendChild(cc);
     const om = document.getElementById('offpageMoves'); const head = om.previousElementSibling?.tagName === 'H3' ? om.previousElementSibling : om.parentElement.querySelector('h3');
-    const h = head.cloneNode(true); h.style.marginTop = '22px'; wrap.appendChild(h);
+    const h = head.cloneNode(true); h.style.marginTop = '22px'; wrap.appendChild(h); const sub = om.parentElement.querySelector('.beyond-sub'); if (sub) wrap.appendChild(sub.cloneNode(true));
     const mc = om.cloneNode(false); [...om.children].slice(0, 3).forEach((c, i) => { const k = c.cloneNode(true); if (i === 2) fade(k); mc.appendChild(k); }); wrap.appendChild(mc);
     document.querySelectorAll('#expandAllBtn').forEach(e => e.remove());
     document.body.prepend(wrap); window.scrollTo(0, 0);
