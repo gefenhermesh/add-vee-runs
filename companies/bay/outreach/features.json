@@ -1,0 +1,17 @@
+{
+  "industry": "security",
+  "stage": "series_a",
+  "situation": "stealth_exit",
+  "size_band": "1_50",
+  "geo": "israel_us",
+  "marketing_gating": "no_leader_exception",
+  "trigger": "launch",
+  "finding_pattern": "absent",
+  "recipient_role": "ceo",
+  "ask_track": "role",
+  "opener_type": "milestone_congrats",
+  "email_variant": "v5_two_images_etico",
+  "subject_style": "how_ai_sees_x",
+  "send_slot": "other",
+  "contact_verified": "yes"
+}

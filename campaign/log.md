@@ -42,6 +42,8 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-20T20:10:00+00:00 sponsor: merge #13 (stuck-job detection, ~100-question target) and use Gemini for stuck AI Mode; rule merged as add-vee #14; Gambit, Upwind, glow.io told to merge master and switch
 - 2026-11-20T20:45:00+00:00 sponsor: Bright Data credits at 0, pause all Bright Data use until payment resumes. Gambit, Upwind, glow.io told to continue without it or stop at paused_brightdata; no new starts; scout caps 0. add-vee #15 merged.
 - 2026-11-21T05:10:00+00:00 sponsor: pause the campaign until Bright Data resumes; hourly tick disabled; add-vee #17 merged.
+- 2026-11-22T21:55:07+00:00 followup: bay/1 email1 sent to CEO
+- 2026-11-22 Bay email 1 sent to yuval@bay.io (sponsor's explicit request; v5, etico images, 'a unique research system'); follow-up thread bay/1, learn.py logged (features reconstructed).
 
 ## Cohorts
 

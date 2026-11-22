@@ -6,7 +6,7 @@ Congrats on coming out of stealth earlier this month. Nine months from founding 
 
 The first weeks after a launch are when buyers first ask ChatGPT and Gemini about a new name, so I was curious what they're hearing about Bay.
 
-I'm Gefen Hermesh, an SEO with over nine years in B2B startups. I've been building a research system of my own that runs real buyer conversations on AI platforms and reads every answer. I ran it on Bay: 100 buyer questions, 300 conversations.
+I'm Gefen Hermesh, an SEO with over nine years in B2B startups. I've been building a unique research system that runs real buyer conversations on AI platforms and reads every answer. I ran it on Bay: 100 buyer questions, 300 conversations.
 
 [image 1: findings.jpg]
 

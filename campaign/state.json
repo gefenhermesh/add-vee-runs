@@ -18,9 +18,8 @@
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
-      "next": "v5 draft in Gmail to yuval@bay.io, in the latest drafts' format (etico-palette findings.jpg/plan.jpg from the approved Action Plan data, plan counts line, standard text), for the sponsor to send personally (2026-11-22). v4 still in Gmail.",
+      "next": "Email 1 sent to yuval@bay.io by Claude at the sponsor's explicit request (2026-11-22), v5 text with 'a unique research system'. Follow-ups tracked in threads (followup.py).",
       "cohort_id": "pilot-1",
-      "gmail_draft_id": "r5347132903774698915",
       "contacts": {
         "primary": "yuval@bay.io (verified)",
         "backup": "aner@bay.io (not yet verified)"
@@ -33,8 +32,27 @@
         "r-3463966262483924157 (v4, in Gmail)"
       ],
       "note": "Bay Action Plan artifact not rebuilt with the new cluster-count subheader: builder refuses (analysis approval predates the reading-file hash rule); needs sponsor decision (override or reviewer re-confirm).",
-      "status": "manual",
-      "status_note": "Bay was audited and drafted by hand before the manager existed; not managed by tick.py"
+      "status": "done",
+      "status_note": "Bay was audited and drafted by hand before the manager existed; not managed by tick.py",
+      "threads": [
+        {
+          "id": "bay/1",
+          "kind": "email1",
+          "contact": "Yuval",
+          "email": "yuval@bay.io",
+          "role": "CEO",
+          "gmail_thread_id": "1a2053f1aa189a7a",
+          "last_message_id": "1a2053f1aa189a7a",
+          "sent_at": "2026-11-22T21:55:07+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ],
+      "email1_sent_at": "2026-11-22T21:55:07+00:00"
     },
     {
       "slug": "vega-security",
