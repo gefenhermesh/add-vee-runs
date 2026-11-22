@@ -1,0 +1,173 @@
+{
+ "scout_version": 3,
+ "company": "Vouched",
+ "domain": "vouched.id",
+ "slug": "vouched",
+ "scouted": "2026-11-22",
+ "source_of_lead": "Next Play 'Should you join: Vouched' (12 Nov 2026), as relayed by the scout manager; the email itself was not re-read in this recon",
+ "reason": "Seattle Series A identity-verification company ($17M, Sep 2025) moving from 'digital identity verification' to 'identity assurance for humans and AI agents' (Know Your Agent). It hired a new VP Marketing on 27 Aug 2026 and has no SEO person found.\nIt runs a high-volume content program (about 400 long posts since Dec 2025) but doesn't rank in its own category searches ('best identity verification software', 'identity verification for telehealth'), while Persona, Entrust, Trulioo and Experian now publish KYA content of their own.",
+ "gating_rating": "sweet_spot",
+ "gating_note": "Leader: Claudia Gallardo, VP Marketing since Aug 2026 (company press release, 27 Aug 2026). Patrick Williams is also listed as Head of Marketing (joined Dec 2024 as Senior Director of Marketing); how he relates to Gallardo is unclear. The previous CMO, Ladd Martin (Dec 2025 - Jul 2026, per search snippet), has left. No SEO-, content- or AEO-titled employee was found in Google site:linkedin.com/in snippets. Blog posts are bylined 'Vouched Editorial Team', which points to an agency or AI-assisted content operation, not a named SEO team. SEO craft is high (long-form guides, listicles, contextual internal links, an 'AEO' section in robots.txt), so the angle has to be AI visibility and category presence, not 'publish more'. 'No SEO person' rests on a logged-out search, so it's couldn't-verify strength.",
+ "marketing_leadership": {
+  "status": "found",
+  "who": [
+   {"name": "Claudia Gallardo", "role": "Vice President of Marketing (joined Aug 2026); ex-Validic, Reveleer, Ciox Health, Episource, TeleSign", "kind": "direct (company press release)"},
+   {"name": "Patrick Williams", "role": "Head of Marketing (joined Dec 2024 as Senior Director of Marketing), New York", "kind": "direct (press release Dec 2024 + search-result title); current relation to the VP unclear"}
+  ],
+  "evidence": [
+   {"claim": "Business Wire release on vouched.id: 'Claudia Gallardo joins as Vice President of Marketing... a decade marketing healthcare technology, most recently at Validic... digital identity earlier in her career at TeleSign.' CEO quote: '...Claudia to explain what we find to the people who have to act on it.'", "kind": "direct", "url": "https://www.vouched.id/learn/vouched-bolsters-leadership-team-to-define-the-future-of-identity-assurance-for-humans-and-ai-agents", "date": "2026-08-27"},
+   {"claim": "Google result title 'Claudia Gallardo - Know who's on the other side of every ...', snippet 'Los Angeles Metropolitan Area · Vice President Marketing · Vouched ... Vice President Marketing. Vouched. Aug 2026; Principal - Healthcare Marketing & Growth. Electric Lemon Marketing'", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Vouched\" marketing", "date": "accessed 2026-11-22"},
+   {"claim": "Search snippet of a vouched.id release (19 Dec 2024): '... Patrick Williams as Senior Director of Marketing'. A LinkedIn result title shows 'Patrick Williams - Head of Marketing · Vouched', New York", "kind": "direct", "url": "https://www.google.com/search?q=Vouched \"Patrick Williams\" marketing", "date": "2024-12-19 / accessed 2026-11-22"},
+   {"claim": "Previous CMO: result snippet 'Ladd Martin ... Chief Marketing Officer. Vouched. Dec 2025 - Jul 2026'; now Founder & CEO of altb partners", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Vouched\" \"VP Marketing\" OR CMO OR \"Head of Marketing\"", "date": "accessed 2026-11-22"},
+   {"claim": "Other GTM/marketing names in snippets: Jai Mehra (Go to Market, 'building brand awareness & driving pipeline'), Hana Sent (Marketing Specialist, Hong Kong), Matt Nuguid (GTM & Partnerships for KYA)", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Vouched\" marketing", "date": "accessed 2026-11-22"}
+  ]
+ },
+ "seo_team": {
+  "status": "not found",
+  "evidence": [
+   {"claim": "site:linkedin.com/in searches for Vouched + SEO / content / growth / product marketing returned no current SEO, content or AEO title at Vouched (results were collisions such as VouchedFor and Vouch, or SEO people at other companies)", "kind": "direct", "url": "https://www.google.com/search?q=site:linkedin.com/in \"Vouched\" SEO", "date": "accessed 2026-11-22"},
+   {"claim": "Blog posts since Dec 2025 are bylined 'Vouched Editorial Team' (or 'Vouched Team'), not a named content or SEO person. Only exceptions: some posts by CEO Peter Horadan, and a Developer Advocate post (Brandon Minnick)", "kind": "direct", "url": "https://www.vouched.id/learn/author/vouched-editorial-team", "date": "accessed 2026-11-22"},
+   {"claim": "Who produces the content (agency, AI-assisted, freelancers) is unknown. The volume (about 30-55 long posts a month from Dec 2025) began the month the CMO, Ladd Martin, joined, and continued after he left", "kind": "inferred", "url": "https://www.vouched.id/sitemap.xml", "date": "accessed 2026-11-22"},
+   {"claim": "Open roles (Workable): Senior QA/SDET (2026-11-06) and VP of Customer Success (2026-10-20). No marketing or SEO role open", "kind": "direct", "url": "https://apply.workable.com/api/v1/widget/accounts/vouched", "date": "accessed 2026-11-22"}
+  ]
+ },
+ "situation": {
+  "estimate": "This is a Series A company ($17M led by Spring Rock Ventures, Sep 2025; about $22M raised in total and >$10M ARR per Dealroom, unverified), with about 61 people on LinkedIn, fully remote, HQ in Seattle. It's on the Inc. 5000 and the Deloitte Fast 500 for the third year (190% three-year revenue growth). The core business is identity verification for telehealth, health systems (Epic MyChart and EpicCare Link) and financial services. On top of that it's repositioning into 'identity assurance for humans and AI agents' with Know Your Agent (Agent Checkpoint: Detect/Enforce/Govern) and KYA-OS, an open spec donated to DIF and ratified at v1.0 in Jul 2026. Marketing is in transition: the CMO it hired in Dec 2025 left by Jul 2026, and a healthcare-focused VP Marketing started Aug 2026. Meanwhile a high-volume SEO content engine runs. The homepage no longer says 'identity verification' in its title (Mar 2025: 'Digital Identity Verification'; now 'Know who's on the other end'). Heading: a two-front fight. Healthcare IDV against ID.me, CLEAR, Persona and Ping in Epic Toolbox, and the KYA category, which Persona, Entrust, Trulioo, Experian and Shufti now also claim.",
+  "confidence": "medium"
+ },
+ "trigger": {
+  "type": "marketing_hire",
+  "detail": "Claudia Gallardo joined as VP of Marketing (announced 27 Aug 2026, about 3 months ago). Context: the $17M Series A (4 Sep 2025, now 14 months old) and the Next Play 'Should you join' feature (12 Nov 2026)",
+  "date": "2026-08-27",
+  "source": "https://www.vouched.id/learn/vouched-bolsters-leadership-team-to-define-the-future-of-identity-assurance-for-humans-and-ai-agents"
+ },
+ "fit_evidence": [
+  {"claim": "buying_journey = committee: an enterprise identity-verification and KYC/AML purchase by health systems, telehealth, banks and lenders. Security, compliance, product and IT all weigh in; it runs through Epic Toolbox, SOC 2, Kantara IAL2 and BAA paperwork", "kind": "inferred", "url": "https://www.vouched.id/company/legal/business-associate-agreement", "date": "accessed 2026-11-22"},
+  {"claim": "$17M Series A led by Spring Rock Ventures to scale Know Your Agent", "kind": "direct", "url": "https://www.vouched.id/learn/vouched-raises-17m-series-a-to-scale-know-your-agent-and-bring-real-identity-to-ai-agents", "date": "2025-09-04"},
+  {"claim": "GeekWire: 'Vouched, the Seattle startup that uses AI to help companies verify identity, raised $17 million... Series A' (search snippet)", "kind": "direct", "url": "https://www.geekwire.com (search result 'ID verification startup Vouched raises $17M...')", "date": "2025-09-04"},
+  {"claim": "Inc. 5000 No. 1,825 (third year), 190% three-year revenue growth; Deloitte Fast 500 No. 327 (2026)", "kind": "direct", "url": "https://www.linkedin.com/company/vouched", "date": "2026-11 (posts dated 2-3 days before access)"},
+  {"claim": "LinkedIn company page: Seattle, founded 2018, 11-50 band, 'View all 61 employees', 16,495 followers, tagline 'Identity Assurance for Humans and AI Agents'", "kind": "direct", "url": "https://www.linkedin.com/company/vouched", "date": "accessed 2026-11-22"},
+  {"claim": "Category language changed: the Mar 2025 homepage title was 'Vouched | Digital Identity Verification' ('Painless Identity Verification'); now it's 'Vouched | Know who's on the other end.', covering enrolment, account recovery and agents", "kind": "direct", "url": "https://web.archive.org/web/20250303012541/https://www.vouched.id/", "date": "2025-03-03 vs accessed 2026-11-22"},
+  {"claim": "Dealroom: $22M raised to date, >$10M ARR", "kind": "unverified", "url": "https://app.dealroom.co (search snippet 'Vouched raises $17M for AI tools')", "date": "accessed 2026-11-22"}
+ ],
+ "site_and_content": {
+  "cms_and_tools": "HubSpot CMS (hubfs assets, _hcms paths, hs-scripts), GTM-5SZ3NG4, LinkedIn Insight pixel. DNS TXT has SPF for HubSpot email, Salesforce, Zendesk and SendGrid, plus Google Search Console (4 tokens), OpenAI and Anthropic domain verification, Miro, Linear, Stripe and Atlassian. Site redesign theme 'Vouched_November2025'.",
+  "robots_txt": "Explicit 'AI CRAWLER RULES — all allowed (AEO)' section for GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot and Google AI. A weak signal, but it shows someone thinks about AEO.",
+  "sitemap": "743 URLs: /learn 648 (blog 421, news 61, podcast 16, case studies 10, webinars 10, plus about 125 press and news-mention pages at /learn/<slug>), solutions 21, industries 10, know-your-agent 6, platform 6, 'for' use-case pages 7.",
+  "blog_cadence": "Blog lastmod by month: 2023-07..2025-01 about 1-7 a month (old posts date back to 2021, short 60-75-word 'news' items by founder John Baird). Dec 2025: 55, Jan 2026: 40, Feb: 37, Mar: 34, Apr: 52, May: 36, Jun: 29, Jul: 6, Aug: 13, Sep: 24, Oct: 26, Nov (to 22nd): 28. Sampled published dates match (26 posts read across the range). Since Dec 2025 posts are 2,000-5,500 words, bylined 'Vouched Editorial Team'. The July dip coincides with the CMO's exit.",
+  "content_types": "Many 'best X' listicles (14 slugs, e.g. best-digital-id-verification-providers, best-liveness-detection-api, best-kyc-software-lending), 85 'guide' slugs, 'what is' explainers, 12 KYA posts (kya-verification-vs-kyc, kya-compliance-guide, the CISO guide to KYA), healthcare credentialing and HIPAA guides.",
+  "internal_linking": "Link-aware read of raw HTML post bodies (26 posts). Old 2021 posts have 1 link with 'here' anchors. Dec 2025 - Oct 2026 posts have 5-16 contextual internal links with descriptive anchors. Nov 2026 posts have 17-26 internal links pointing to product and solution pages ('identity-verified account recovery', 'banking identity verification overview'), so linking is being actively tuned.",
+  "comparison_pages": "On their own site: one 569-word 'Vouched vs. Persona: The Telehealth IDV Built to Convert' (2026-08-04) and two long vendor-comparison listicles (identity-verification-vendors-compared, 2026-05-13; identity-verification-companies-comparison, 2026-05-19). No /compare or /alternatives section. No pages vs Socure, Jumio, ID.me, CLEAR or Incode found in the sitemap.",
+  "competitor_pages_aimed_at_them": "None found from vendors. Persona has about 20 'persona-vs-X' landing pages (Jumio, Incode, CLEAR, Mitek, Alloy, 1Kosmos, Nametag...) but none vs Vouched. Persona does buy Google ads on the query 'Persona vs Vouched'. 'Vouched alternatives' and 'Vouched vs' results are owned by aggregators: G2, RFP.wiki ('Vouched vs Veridas', 'Vouched Alternatives', Aug-Oct 2026), 6sense, SourceForge, Slashdot, Capterra, GetLatka."
+ },
+ "jobs": {
+  "board": "Workable (apply.workable.com/vouched). Ashby, Greenhouse and Lever under vouched, vouchedid and vouched-id: none found",
+  "open_roles": [
+   {"title": "Senior QA/SDET", "location": "Remote, US", "published": "2026-11-06", "url": "https://apply.workable.com/j/9E23E1830B"},
+   {"title": "VP of Customer Success", "location": "Remote, US", "published": "2026-10-20", "url": "https://apply.workable.com/j/D337455A00"}
+  ],
+  "marketing_roles": [],
+  "note": "No marketing, SEO or content role open, so the ask track is engagement, not role. The careers page (vouched.id/company/careers) lists no roles inline; it's fully remote."
+ },
+ "contacts": [
+  {"name": "Claudia Gallardo", "role": "VP of Marketing", "email": null, "email_verified": false, "source": "https://www.vouched.id/learn/vouched-bolsters-leadership-team-to-define-the-future-of-identity-assurance-for-humans-and-ai-agents", "recipient_rank": 1},
+  {"name": "Peter Horadan", "role": "CEO", "email": null, "email_verified": false, "source": "https://www.vouched.id/learn/vouched-raises-17m-series-a-to-scale-know-your-agent-and-bring-real-identity-to-ai-agents", "recipient_rank": 2},
+  {"name": "Patrick Williams", "role": "Head of Marketing (Senior Director of Marketing at the Dec 2024 hire)", "email": null, "email_verified": false, "source": "https://www.google.com/search?q=Vouched \"Patrick Williams\" marketing (vouched.id Dec 2024 release snippet + search-result title)", "recipient_rank": 3}
+ ],
+ "outreach_angle": {
+  "hook": "Vouched publishes about 30 long guides a month, including its own 'best identity verification' listicles. Yet in Google's results for 'best identity verification software' and 'identity verification for telehealth' (its healthcare home turf), the vendors that show up are Persona, Jumio, Veriff, Regula and IDEMIA, not Vouched. Meanwhile Persona, Entrust, Trulioo and Experian now publish 'Know Your Agent' pages for the category Vouched says it created. For a VP Marketing three months in: how do AI answers describe Vouched next to them, and does the 'identity assurance' repositioning (the homepage title dropped 'identity verification') cost it the head term?",
+  "source": "Google SERPs via Bright Data (accessed 2026-11-22); https://withpersona.com/solutions/know-your-agent; https://www.vouched.id/learn/vouched-bolsters-leadership-team-to-define-the-future-of-identity-assurance-for-humans-and-ai-agents",
+  "date": "2026-11-22"
+ },
+ "seo_need": {
+  "rating": "high",
+  "buyer_research": "Buyers research online and compare vendors. Identity verification is a large, contested software category with a Gartner Magic Quadrant (Persona is a 2026 MQ Leader), a Forrester Wave, a G2 grid ('Best Identity Verification Software', updated 14 Nov 2026), Capterra, Slashdot and RFP.wiki comparisons, and dozens of vendor 'best IDV / best KYC software 2026' listicles. Vouched has a self-serve tier ('Start free', pricing pages) next to enterprise sales. The buyer set is large: telehealth, health systems, fintechs, lenders, auto dealers, gig and gaming. Health-system buying is partly channel-led (Epic Toolbox / Showroom), where ID.me, CLEAR, 1Kosmos, Ping and LexisNexis also list.",
+  "competitors": [
+   {"name": "Persona", "seo_investment": "Heavy. About 968 sitemap URLs: 495 blog posts, 98 glossary entries, 65 guides, about 20 'persona-vs-X' landing pages. A full KYA cluster (solution page, LP, glossary entry, 'what is KYA' and about 9 other agent posts). Buys ads on 'Persona vs Vouched'. Ranks for 'identity verification for telehealth' with /industry/digital-health", "evidence_url": "https://withpersona.com/sitemap-0.xml"},
+   {"name": "Socure", "seo_investment": "Strong. 850 sitemap URLs: 332 blog posts, 47 glossary entries, 96 resources. No vs-Vouched page, but its help docs list Vouched as a RiskOS integration", "evidence_url": "https://www.socure.com/sitemap.xml"},
+   {"name": "Jumio", "seo_investment": "Strong. WordPress/Yoast, 323 posts (latest 2026-11-12), Google Ads on 'best identity verification software' with an 'Online IDV Buyer's Guide'", "evidence_url": "https://www.jumio.com/post-sitemap.xml"},
+   {"name": "Incode", "seo_investment": "Strong. 1,203 sitemap URLs: 297 blog posts, 197 glossary entries, Spanish mirror, an 'incode-vs-persona' LP", "evidence_url": "https://incode.com/sitemap.xml"},
+   {"name": "Entrust (Onfido) / Trulioo / Experian (KYA entrants)", "seo_investment": "Each has a 'Know Your Agent' explainer or white paper ranking for KYA queries. Entrust ranks #1 for 'know your agent AI agent identity verification', above Vouched (#3)", "evidence_url": "https://www.entrust.com (SERP result 'Know Your Agent (KYA): AI Agent Verification Explained')"}
+  ],
+  "serp_checks": [
+   {"query": "best identity verification software", "top_results": ["Gartner Peer Insights IDV reviews", "azakaw blog (lists Veriff, Jumio, Onfido, Sumsub, Persona...)", "Regula blog (Regula, Entrust/Onfido, Sumsub, Jumio, Veriff)", "1Kosmos blog", "startwithidentity.com (Jumio, Onfido, Veriff, Trulioo, Socure, Persona, Au10tix, Sumsub)", "G2 grid", "PrivateID", "Ads: JumpCloud, Jumio, Didit, Shufti Pro"], "date": "2026-11-22", "note": "0 mentions of Vouched on page 1"},
+   {"query": "identity verification for telehealth", "top_results": ["IDEMIA campaign page", "authenticate.com", "BMJ Open", "patientverifi.com", "Persona /industry/digital-health", "Regula blog", "SecureVideo", "Melissa", "ATA"], "date": "2026-11-22", "note": "0 mentions of Vouched on page 1, despite 'recognized leader in healthcare' positioning"},
+   {"query": "know your agent AI agent identity verification", "top_results": ["Entrust KYA explainer", "Baselayer /know-your-agent", "Vouched /know-your-agent", "Persona /solutions/know-your-agent", "Experian blog (Aug 2026)", "knowyouragent.network", "Shufti KYA launch (Yahoo Finance, Oct 2026)", "Trulioo KYA white paper"], "date": "2026-11-22"},
+   {"query": "AI agent identity verification vendors", "top_results": ["We The Flywheel guide", "Okta", "VentureRadar", "Slashdot (Auth0, Okta, SailPoint)", "Biometric Update", "Elatre listicle (Entra, Okta, CyberArk, Descope, Oasis, Entro)", "AU10TIX blog"], "date": "2026-11-22", "note": "0 mentions of Vouched"},
+   {"query": "best KYC software 2026", "top_results": ["AgentKYZ", "GBG/IDology", "sphinxhq", "Quantexa", "AnankAI", "easysend", "MVSI", "Guideflow", "Ad: Shufti Pro"], "date": "2026-11-22", "note": "0 mentions of Vouched"},
+   {"query": "Vouched alternatives", "top_results": ["G2 (Lightico, JumpCloud, Okta)", "RFP.wiki (iDenfy, IDVerse, Shufti, Ondato)", "WebCatalog", "getrentalwise", "GetLatka", "Slashdot", "Capterra"], "date": "2026-11-22"},
+   {"query": "Persona vs Vouched", "top_results": ["Ad: Persona (Gartner MQ Leader, Forrester Wave Leader)", "G2 Persona vs Vouched", "propertymanagementbiz.com", "LinkedIn post (Vouched vs Persona telehealth)", "SourceForge"], "date": "2026-11-22"}
+  ],
+  "cost_of_absence": "Three concrete risks. (1) Category definition: Vouched calls itself the first KYA solution, but Entrust, Persona, Trulioo, Experian, Shufti and Baselayer now rank for 'Know Your Agent'. AI answers about KYA may name them rather than Vouched. (2) Home-turf invisibility: no page-1 presence for 'identity verification for telehealth' or 'best identity verification software', where buyers shortlist, while Persona ranks with a digital-health page and buys ads on 'Persona vs Vouched'. (3) The repositioning to 'identity assurance' dropped 'identity verification' from the homepage title, so the head term rests on blog posts. And 'Vouched vs / alternatives' is owned by aggregators (G2, RFP.wiki), which steer buyers to other vendors.",
+  "why_not_yet": "unclear: not under-investment. They invested heavily in volume (about 400 long posts since Dec 2025, an AEO-aware robots.txt, tuned internal linking), likely agency- or AI-assisted (agency_run-like; 'Vouched Editorial Team' byline, no SEO hire found). The gap is results and category presence, not effort. Marketing leadership turnover (CMO Dec 2025 - Jul 2026, new VP Aug 2026) means the program may lack an owner who measures AI visibility.",
+  "evidence": [
+   "https://www.vouched.id/sitemap.xml",
+   "https://www.vouched.id/robots.txt",
+   "https://withpersona.com/solutions/know-your-agent",
+   "https://withpersona.com/sitemap-0.xml",
+   "Google SERPs via Bright Data, accessed 2026-11-22 (queries listed in serp_checks)"
+  ]
+ },
+ "features": {
+  "industry": "identity_verification",
+  "stage": "series_a",
+  "situation": "scaling",
+  "size_band": "51_200",
+  "geo": "us",
+  "marketing_gating": "sweet_spot",
+  "trigger": "marketing_hire",
+  "finding_pattern": "losing_to_named_competitors",
+  "recipient_role": "cmo_vp_marketing",
+  "ask_track": "engagement",
+  "opener_type": "their_words",
+  "email_variant": "v4_two_images",
+  "subject_style": "how_ai_sees_x",
+  "send_slot": "sun_thu_morning_local",
+  "contact_verified": "no",
+  "buying_journey": "committee",
+  "seo_need": "high"
+ },
+ "sources": [
+  {"url": "https://www.vouched.id/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Homepage, HubSpot CMS, GTM, title 'Know who's on the other end.'"},
+  {"url": "https://www.vouched.id/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "743 URLs, 421 blog posts, lastmod distribution"},
+  {"url": "https://www.vouched.id/robots.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "AEO AI-crawler section"},
+  {"url": "https://dns.google/resolve?name=vouched.id&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "HubSpot, Salesforce, Zendesk, SendGrid, GSC, OpenAI/Anthropic verification"},
+  {"url": "https://www.vouched.id/learn/blog/ (26 posts sampled across 2021-2026, raw HTML)", "date": "accessed 2026-11-22", "kind": "direct", "result": "Published dates, authors, word counts, internal links"},
+  {"url": "https://www.vouched.id/learn/blog/vouched-vs.-persona-the-telehealth-idv-built-to-convert", "date": "2026-08-04", "kind": "direct", "result": "569-word own vs page"},
+  {"url": "https://www.vouched.id/learn/vouched-bolsters-leadership-team-to-define-the-future-of-identity-assurance-for-humans-and-ai-agents", "date": "2026-08-27", "kind": "direct", "result": "VP Marketing hire, Inc. 5000, Epic, KYA facts"},
+  {"url": "https://www.vouched.id/learn/vouched-raises-17m-series-a-to-scale-know-your-agent-and-bring-real-identity-to-ai-agents", "date": "2025-09-04", "kind": "direct", "result": "Series A $17M, Spring Rock Ventures"},
+  {"url": "https://www.google.com/search?q=Vouched raises $17M Series A", "date": "accessed 2026-11-22", "kind": "direct", "result": "GeekWire, SiliconANGLE, FinTech Global, citybiz all 4-5 Sep 2025"},
+  {"url": "https://app.dealroom.co (search snippet)", "date": "accessed 2026-11-22", "kind": "unverified", "result": "$22M raised to date, >$10M ARR"},
+  {"url": "https://www.linkedin.com/company/vouched", "date": "accessed 2026-11-22", "kind": "direct", "result": "Seattle, 2018, 61 employees, 16,495 followers, recent posts"},
+  {"url": "https://www.google.com/search?q=site:linkedin.com/in \"Vouched\" marketing | VP Marketing/CMO | SEO | content | growth | product marketing", "date": "accessed 2026-11-22", "kind": "direct", "result": "Titles only: Gallardo VP Marketing, Williams Head of Marketing, Martin ex-CMO, no SEO title"},
+  {"url": "https://apply.workable.com/api/v1/widget/accounts/vouched", "date": "accessed 2026-11-22", "kind": "direct", "result": "2 open roles, none in marketing (direct fetch 429, Bright Data OK)"},
+  {"url": "https://web.archive.org/web/20250303012541/https://www.vouched.id/", "date": "2025-03-03", "kind": "direct", "result": "Old title 'Digital Identity Verification' (direct 403, Bright Data OK)"},
+  {"url": "https://withpersona.com/sitemap-0.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "968 URLs, ~20 persona-vs-X LPs, none vs Vouched, KYA cluster"},
+  {"url": "https://withpersona.com/solutions/know-your-agent", "date": "accessed 2026-11-22", "kind": "direct", "result": "Persona KYA solution page"},
+  {"url": "https://www.socure.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "850 URLs, 332 blog"},
+  {"url": "https://incode.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "1,203 URLs, incode-vs-persona LP"},
+  {"url": "https://www.jumio.com/post-sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "323 posts, latest 2026-11-12"},
+  {"url": "https://www.google.com/search (category queries: best identity verification software; identity verification for telehealth; know your agent AI agent identity verification; AI agent identity verification vendors; best KYC software 2026; Vouched alternatives; Vouched vs; Persona vs Vouched; Socure vs Vouched; patient identity verification Epic MyChart vendors)", "date": "accessed 2026-11-22", "kind": "direct", "result": "See seo_need.serp_checks"}
+ ],
+ "sources_tried_failed": [
+  "https://www.vouched.id/learn/news/vouched-raises-17m-series-a-to-expand-ai-agent-identity-verification-platform: 404 (the sitemap URL is /learn/<slug>, not /learn/news/; the correct release was read instead)",
+  "Ashby/Greenhouse/Lever boards for vouched, vouchedid, vouched-id: no board",
+  "apply.workable.com API direct: HTTP 429 (succeeded via Bright Data)",
+  "web.archive.org direct: 403 (succeeded via Bright Data)",
+  "withpersona.com/sitemap.xml: 404; sitemap-index.xml direct 403 (succeeded via Bright Data)",
+  "clear.me/sitemap.xml: 404 (CLEAR content not assessed)",
+  "linkedin.com/company/vouched/jobs via Bright Data: near-empty response",
+  "Google 'site:linkedin.com/in \"Vouched\" \"content marketing\"': empty response twice",
+  "Next Play email itself not re-read (lead taken from the manager's brief)",
+  "AI-visibility probe (ChatGPT/Gemini): not run"
+ ],
+ "linkedin_checks_for_sponsor": [
+  "Vouched company page → People tab, search 'SEO', 'content', 'marketing': is there an SEO or content marketer, or is the 'Vouched Editorial Team' an agency?",
+  "Is Patrick Williams still Head of Marketing, and does he report to Claudia Gallardo? This decides recipient 1 vs 3."
+ ],
+ "open_questions": [
+  "Who produces the ~30 posts a month (agency, AI tool, freelancers)? If an SEO agency owns it, the pitch must complement it (AI-answer visibility, category presence), not compete with it.",
+  "Does Gallardo (healthcare-focused) own KYA marketing too, or does Rosalyn Curato (Chief Innovation Officer & GM Agentic Security) or Matt Nuguid (KYA GTM)?",
+  "Page-1 checks were single logged-out Google SERPs (US-English via Bright Data). They're not rank tracking."
+ ]
+}
