@@ -10,11 +10,33 @@
   "gating_note": "Head of Marketing Brooks Crichlow found (LinkedIn post snippet 'joined PermitFlow as Head of Marketing', ~6 months ago). No SEO/content person found in Google site:linkedin.com/in snippets or job posts; the JDs name demand gen and product marketing as partner functions, and none mention SEO. The SEO-team absence is 'couldn't verify' (logged-out view only). The 281-post content library must have been made by someone (in-house earlier, or an agency/contractors). Unknown.",
   "marketing_leadership": {
     "status": "found",
-    "who": [{"name": "Brooks Crichlow", "role": "Head of Marketing", "since": "~May 2026 (LinkedIn post '6 months ago' as of 2026-11-22)", "kind": "direct (search snippet)"}],
+    "who": [
+      {
+        "name": "Brooks Crichlow",
+        "role": "Head of Marketing",
+        "since": "~May 2026 (LinkedIn post '6 months ago' as of 2026-11-22)",
+        "kind": "direct (search snippet)"
+      }
+    ],
     "evidence": [
-      {"claim": "LinkedIn post by Brooks Crichlow: 'I'm delighted to share that I've joined PermitFlow as Head of Marketing' (230+ reactions, ~6 months ago)", "kind": "direct", "url": "https://www.google.com/search?q=PermitFlow+%22head+of+marketing%22", "date": "~2026-05 (snippet, accessed 2026-11-22)"},
-      {"claim": "Head of Marketing role at PermitFlow, NYC, was listed 30 Apr 2026 (Mediabistro, Built In NYC), consistent with the hire", "kind": "direct", "url": "https://www.mediabistro.com/jobs/ (via Google snippet)", "date": "2026-04-30"},
-      {"claim": "Marketing JDs reference demand gen and product marketing as partner functions (a marketing team exists)", "kind": "direct", "url": "https://jobs.ashbyhq.com/permitflow/aee2e058-cac9-4594-a9f8-8276b32dc6c6", "date": "2026-10-19"}
+      {
+        "claim": "LinkedIn post by Brooks Crichlow: 'I'm delighted to share that I've joined PermitFlow as Head of Marketing' (230+ reactions, ~6 months ago)",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=PermitFlow+%22head+of+marketing%22",
+        "date": "~2026-05 (snippet, accessed 2026-11-22)"
+      },
+      {
+        "claim": "Head of Marketing role at PermitFlow, NYC, was listed 30 Apr 2026 (Mediabistro, Built In NYC), consistent with the hire",
+        "kind": "direct",
+        "url": "https://www.mediabistro.com/jobs/ (via Google snippet)",
+        "date": "2026-04-30"
+      },
+      {
+        "claim": "Marketing JDs reference demand gen and product marketing as partner functions (a marketing team exists)",
+        "kind": "direct",
+        "url": "https://jobs.ashbyhq.com/permitflow/aee2e058-cac9-4594-a9f8-8276b32dc6c6",
+        "date": "2026-10-19"
+      }
     ]
   },
   "seo_team": {
@@ -29,13 +51,43 @@
     "estimate": "PermitFlow (YC W22, NYC, ~186 employees on LinkedIn) raised a $54M Series B led by Accel on 2 Dec 2025 (about $91M total) and now pitches itself as 'construction's AI workforce' (permits, inspections, licensing agents) to homebuilders, contractors, home services and developers. It is moving up-market (enterprise AE, AECO and national accounts, partnerships, enterprise CS hires) and building a field/event-led marketing org under a Head of Marketing who joined around May 2026, with HubSpot plus Salesforce ops. Organic content was a big earlier bet (210 municipal permit guides, state hubs, 57 'permit basics' posts), but publishing stopped after an April 2026 burst while the new marketing team focuses on events. Meanwhile smaller rivals and expediters publish 'PermitFlow alternatives' pages that reframe it as 'just software'.",
     "confidence": "medium"
   },
-  "trigger": {"type": "job_post", "detail": "Next Play: hiring chief of staff + events marketing manager (NYC). Ashby shows Growth Marketing Manager, Events (2026-09-02), Field Marketing & Campaigns Manager (2026-10-19), Sr RevOps Analyst, Marketing Ops (2026-11-18). Latest funding is a $54M Series B led by Accel (Kleiner Perkins, Felicis, Initialized, Altos, YC), announced 2 Dec 2025.", "date": "2026-11 (Next Play); round 2025-12-02", "source": "https://www.businesswire.com (PermitFlow Raises $54 Million..., 2025-12-02, via Google); https://www.permitflow.com/blog/permitflow-series-b; https://jobs.ashbyhq.com/permitflow"},
+  "trigger": {
+    "type": "job_post",
+    "detail": "Next Play: hiring chief of staff + events marketing manager (NYC). Ashby shows Growth Marketing Manager, Events (2026-09-02), Field Marketing & Campaigns Manager (2026-10-19), Sr RevOps Analyst, Marketing Ops (2026-11-18). Latest funding is a $54M Series B led by Accel (Kleiner Perkins, Felicis, Initialized, Altos, YC), announced 2 Dec 2025.",
+    "date": "2026-11 (Next Play); round 2025-12-02",
+    "source": "https://www.businesswire.com (PermitFlow Raises $54 Million..., 2025-12-02, via Google); https://www.permitflow.com/blog/permitflow-series-b; https://jobs.ashbyhq.com/permitflow"
+  },
   "fit_evidence": [
-    {"claim": "buying_journey=committee: enterprise sales to homebuilders (Lennar, Toll Brothers), Amazon, IKEA. Ops, project, finance and IT weigh in; enterprise AE, solutions consultant and implementation roles show a long sales cycle.", "kind": "inferred", "url": "https://www.permitflow.com/blog/permitflow-series-b", "date": "2025-12-02"},
-    {"claim": "$54M Series B led by Accel, with Kleiner Perkins, Felicis, Initialized, Altos, YC; 10x revenue growth since Series A; over $20B in construction value", "kind": "direct", "url": "https://www.permitflow.com/blog/permitflow-series-b", "date": "2025-12-02 (page shows 'Mar 13, 2026', likely an update date)"},
-    {"claim": "Valuation about $500M", "kind": "unverified", "url": "https://settervc.com/company/permitflow", "date": "accessed 2026-11-22"},
-    {"claim": "LinkedIn: 51-200 employees, 186 on LinkedIn, HQ New York, founded 2021, 32,566 followers", "kind": "direct", "url": "https://www.linkedin.com/company/permitflow", "date": "accessed 2026-11-22"},
-    {"claim": "Competitor alternatives pages target PermitFlow: Permit Place '5 Best PermitFlow Alternatives for Permit Expediting (2026)' (published 2026-02-21); Permitors '7 Best Permit Flow Alternatives for 2026' (2026-11-12, ranks #3 for 'permit expediting software'); Permitech '7 Best Permit Software & Services for Contractors' naming PermitFlow (2026-07-28)", "kind": "direct", "url": "https://permitplace.com/alternatives/permitflow-alternatives", "date": "2026-02-21 / 2026-11-12 / 2026-07-28"}
+    {
+      "claim": "buying_journey=committee: enterprise sales to homebuilders (Lennar, Toll Brothers), Amazon, IKEA. Ops, project, finance and IT weigh in; enterprise AE, solutions consultant and implementation roles show a long sales cycle.",
+      "kind": "inferred",
+      "url": "https://www.permitflow.com/blog/permitflow-series-b",
+      "date": "2025-12-02"
+    },
+    {
+      "claim": "$54M Series B led by Accel, with Kleiner Perkins, Felicis, Initialized, Altos, YC; 10x revenue growth since Series A; over $20B in construction value",
+      "kind": "direct",
+      "url": "https://www.permitflow.com/blog/permitflow-series-b",
+      "date": "2025-12-02 (page shows 'Mar 13, 2026', likely an update date)"
+    },
+    {
+      "claim": "Valuation about $500M",
+      "kind": "unverified",
+      "url": "https://settervc.com/company/permitflow",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "LinkedIn: 51-200 employees, 186 on LinkedIn, HQ New York, founded 2021, 32,566 followers",
+      "kind": "direct",
+      "url": "https://www.linkedin.com/company/permitflow",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "Competitor alternatives pages target PermitFlow: Permit Place '5 Best PermitFlow Alternatives for Permit Expediting (2026)' (published 2026-02-21); Permitors '7 Best Permit Flow Alternatives for 2026' (2026-11-12, ranks #3 for 'permit expediting software'); Permitech '7 Best Permit Software & Services for Contractors' naming PermitFlow (2026-07-28)",
+      "kind": "direct",
+      "url": "https://permitplace.com/alternatives/permitflow-alternatives",
+      "date": "2026-02-21 / 2026-11-12 / 2026-07-28"
+    }
   ],
   "site_and_content": {
     "cms_tools": "Webflow (site created ~Aug 2025, last published 2026-10-30); HubSpot (hs-scripts 20898857, SPF include); Microsoft Clarity; Warmly (visitor de-anonymization); 7 google-site-verification tokens; anthropic-domain-verification TXT. sitemap.xml returns 404 and robots.txt is empty (a craft gap for a 280-page content site).",
@@ -47,13 +99,31 @@
   "jobs": {
     "board": "ashby (jobs.ashbyhq.com/permitflow)",
     "open_roles": 25,
-    "marketing_roles": ["Growth Marketing Manager, Events (NYC, 2026-09-02)", "Field Marketing & Campaigns Manager (NYC, $120-150K, 2026-10-19)", "Senior Revenue Operations Analyst, Marketing Ops (NYC, 2026-11-18; owns HubSpot + Salesforce, attribution)"],
+    "marketing_roles": [
+      "Growth Marketing Manager, Events (NYC, 2026-09-02)",
+      "Field Marketing & Campaigns Manager (NYC, $120-150K, 2026-10-19)",
+      "Senior Revenue Operations Analyst, Marketing Ops (NYC, 2026-11-18; owns HubSpot + Salesforce, attribution)"
+    ],
     "seo_roles": [],
     "notes": "The chief of staff role from Next Play is not on Ashby or the YC jobs page (couldn't verify). The rest is GTM build-out: enterprise AEs, AECO & national accounts, strategic partnerships, revenue strategy, enterprise CS."
   },
   "contacts": [
-    {"name": "Brooks Crichlow", "role": "Head of Marketing", "email": null, "email_verified": false, "source": "LinkedIn post snippet via Google (BD), 2026-11-22; no public email found", "recipient_rank": 1},
-    {"name": "Francis Thumpasery", "role": "Co-Founder & CEO", "email": null, "email_verified": false, "source": "https://www.permitflow.com/blog/permitflow-series-b", "recipient_rank": 2}
+    {
+      "name": "Brooks Crichlow",
+      "role": "Head of Marketing",
+      "email": null,
+      "email_verified": false,
+      "source": "LinkedIn post snippet via Google (BD), 2026-11-22; no public email found",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Francis Thumpasery",
+      "role": "Co-Founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.permitflow.com/blog/permitflow-series-b",
+      "recipient_rank": 2
+    }
   ],
   "outreach_angle": {
     "hook": "Three rivals (Permit Place, Feb 2026; Permitech, Jul 2026; Permitors, 12 Nov 2026) publish 'PermitFlow alternatives' pages that recast PermitFlow as 'software that tracks a filing'. Permitors' page ranks #3 for 'permit expediting software', right under PermitFlow. PermitFlow's own 210 local permit guides have been quiet since April and don't reach page 1 for local queries like 'miami building permit process'. The new events/field team builds pipeline offline while competitors write the online and AI-answer narrative.",
@@ -64,24 +134,131 @@
     "rating": "high",
     "buyer_research": "Large, fragmented buyer set: thousands of US homebuilders, GCs, subcontractors, home-services firms, solar/EV installers and developers. Practitioners search constantly for local permit rules (city/county queries) and compare vendors and expediters. G2, Capterra, SoftwareAdvice and GetApp all list 'Permit Software' with PermitFlow alternatives pages; listicles ('best permit software for contractors') rank. Enterprise deals are sales-led, but mid-market and home-services buyers research online first.",
     "competitors": [
-      {"name": "Permit Place", "seo_investment": "Heavy: about 1,484 posts in post sitemaps (lastmod through 2026-11-11), geo and state sitemaps, city permit pages (miami-dade-building-permits, dallas-building-permits), and a 'PermitFlow alternatives' page", "evidence_url": "https://permitplace.com/sitemap.xml"},
-      {"name": "Pulley (withpulley.com)", "seo_investment": "Moderate: 72 /resources pages (code-cycle guides, EV permitting, case studies); ranks #2 for 'permit expediting software'", "evidence_url": "https://www.withpulley.com/sitemap.xml"},
-      {"name": "Shovels.ai", "seo_investment": "Strong: 216 blog posts plus 8 /compare pages (vs ATTOM, BuildFax, BuildZoom, Dodge...)", "evidence_url": "https://www.shovels.ai/sitemap.xml"},
-      {"name": "Permitors", "seo_investment": "Small but targeted: 49 posts (lastmod 2026-11-21), including 'best permit flow alternatives 2026', ranking #3 for 'permit expediting software'", "evidence_url": "https://permitors.org/best-permit-flow-alternatives-2026/"},
-      {"name": "GreenLite", "seo_investment": "Moderate: 40 blog posts, 11 case studies, 14 events pages", "evidence_url": "https://greenlite.ai/sitemap.xml"}
+      {
+        "name": "Permit Place",
+        "seo_investment": "Heavy: about 1,484 posts in post sitemaps (lastmod through 2026-11-11), geo and state sitemaps, city permit pages (miami-dade-building-permits, dallas-building-permits), and a 'PermitFlow alternatives' page",
+        "evidence_url": "https://permitplace.com/sitemap.xml"
+      },
+      {
+        "name": "Pulley (withpulley.com)",
+        "seo_investment": "Moderate: 72 /resources pages (code-cycle guides, EV permitting, case studies); ranks #2 for 'permit expediting software'",
+        "evidence_url": "https://www.withpulley.com/sitemap.xml"
+      },
+      {
+        "name": "Shovels.ai",
+        "seo_investment": "Strong: 216 blog posts plus 8 /compare pages (vs ATTOM, BuildFax, BuildZoom, Dodge...)",
+        "evidence_url": "https://www.shovels.ai/sitemap.xml"
+      },
+      {
+        "name": "Permitors",
+        "seo_investment": "Small but targeted: 49 posts (lastmod 2026-11-21), including 'best permit flow alternatives 2026', ranking #3 for 'permit expediting software'",
+        "evidence_url": "https://permitors.org/best-permit-flow-alternatives-2026/"
+      },
+      {
+        "name": "GreenLite",
+        "seo_investment": "Moderate: 40 blog posts, 11 case studies, 14 events pages",
+        "evidence_url": "https://greenlite.ai/sitemap.xml"
+      }
     ],
     "serp_checks": [
-      {"query": "best building permit software for contractors", "top_results": ["permitflow.com (home)", "thebuildingcodeforum.com", "iworq.com", "govcodex.com blog", "softwareadvice.com/permit", "shovels.ai/software", "permitflow.com/blog/best-building-permit-software"], "date": "2026-11-22"},
-      {"query": "construction permit management software", "top_results": ["permitflow.com", "iworq.com", "capterra.com/permit-software", "blr.com", "oracle.com permitting", "softwareadvice.com/permit", "geocivix.com"], "date": "2026-11-22"},
-      {"query": "permit expediting software", "top_results": ["permitflow.com", "withpulley.com", "permitors.org '7 Best Permit Flow Alternatives for 2026'", "permitful.com", "marketplace.procore.com/apps/permitflow", "govbuilt.com", "iworq.com", "granicus.com"], "date": "2026-11-22"},
-      {"query": "miami building permit process", "top_results": ["miami.gov", "miamidade.gov", "miamibeachfl.gov", "facebook answers", "endlesslifedesign.com"], "date": "2026-11-22"},
-      {"query": "how to get a building permit in san antonio", "top_results": ["sa.gov", "bexar.org", "docsonline.sanantonio.gov", "permitcalculator.com", "aca-prod.accela.com"], "date": "2026-11-22"},
-      {"query": "AI permitting software construction", "top_results": ["permitflow.com", "CivCheck", "reddit", "withpulley.com", "shovels.ai", "statescoop.com"], "date": "2026-11-22"},
-      {"query": "PermitFlow alternatives", "top_results": ["permitplace.com alternatives page", "capterra", "g2", "permitors.org", "softwareadvice.com.au", "softwarefinder.com", "permitech.io guide", "getapp", "getlatka"], "date": "2026-11-22"}
+      {
+        "query": "best building permit software for contractors",
+        "top_results": [
+          "permitflow.com (home)",
+          "thebuildingcodeforum.com",
+          "iworq.com",
+          "govcodex.com blog",
+          "softwareadvice.com/permit",
+          "shovels.ai/software",
+          "permitflow.com/blog/best-building-permit-software"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "construction permit management software",
+        "top_results": [
+          "permitflow.com",
+          "iworq.com",
+          "capterra.com/permit-software",
+          "blr.com",
+          "oracle.com permitting",
+          "softwareadvice.com/permit",
+          "geocivix.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "permit expediting software",
+        "top_results": [
+          "permitflow.com",
+          "withpulley.com",
+          "permitors.org '7 Best Permit Flow Alternatives for 2026'",
+          "permitful.com",
+          "marketplace.procore.com/apps/permitflow",
+          "govbuilt.com",
+          "iworq.com",
+          "granicus.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "miami building permit process",
+        "top_results": [
+          "miami.gov",
+          "miamidade.gov",
+          "miamibeachfl.gov",
+          "facebook answers",
+          "endlesslifedesign.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "how to get a building permit in san antonio",
+        "top_results": [
+          "sa.gov",
+          "bexar.org",
+          "docsonline.sanantonio.gov",
+          "permitcalculator.com",
+          "aca-prod.accela.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "AI permitting software construction",
+        "top_results": [
+          "permitflow.com",
+          "CivCheck",
+          "reddit",
+          "withpulley.com",
+          "shovels.ai",
+          "statescoop.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "PermitFlow alternatives",
+        "top_results": [
+          "permitplace.com alternatives page",
+          "capterra",
+          "g2",
+          "permitors.org",
+          "softwareadvice.com.au",
+          "softwarefinder.com",
+          "permitech.io guide",
+          "getapp",
+          "getlatka"
+        ],
+        "date": "2026-11-22"
+      }
     ],
     "cost_of_absence": "Competitors and expediters own the 'PermitFlow alternatives' narrative (Permitors ranks #3 for 'permit expediting software' with 'PermitFlow is permitting software. Software tracks a filing; it does not walk...'). AI answers to 'best permit software' draw on such listicles. PermitFlow's 210 local guides, its biggest content asset, are stale since April 2026 and lose local queries to city sites and small calculators. The new products (inspections, licensing agents) and the 'AI workforce' category language need pages and answers that don't exist yet.",
     "why_not_yet": "unclear: they did invest (281 posts, state hubs) but output stopped after April 2026, around when the new Head of Marketing arrived and the hiring tilted to events/field and marketing ops. Best hypothesis: never_prioritized under the new events-led plan, or a contractor/agency program that ended. No SEO owner found.",
-    "evidence": ["https://www.permitflow.com/resources (crawl of 32 pages, 281 posts)", "https://www.permitflow.com/state/florida", "https://jobs.ashbyhq.com/permitflow", "https://permitplace.com/alternatives/permitflow-alternatives"]
+    "evidence": [
+      "https://www.permitflow.com/resources (crawl of 32 pages, 281 posts)",
+      "https://www.permitflow.com/state/florida",
+      "https://jobs.ashbyhq.com/permitflow",
+      "https://permitplace.com/alternatives/permitflow-alternatives"
+    ]
   },
   "features": {
     "industry": "vertical_saas",
@@ -103,26 +280,126 @@
     "seo_need": "high"
   },
   "sources": [
-    {"url": "https://www.permitflow.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Webflow homepage, raw HTML: HubSpot, Clarity, Warmly; nav links"},
-    {"url": "https://www.permitflow.com/blog/permitflow-series-b", "date": "2025-12-02", "kind": "direct", "result": "$54M Series B led by Accel; investors; 10x revenue growth; customers"},
-    {"url": "https://www.google.com/search?q=PermitFlow+raises+Series", "date": "accessed 2026-11-22", "kind": "direct", "result": "Business Wire, Accel, Initialized all dated 2 Dec 2025; no later round found"},
-    {"url": "https://settervc.com/company/permitflow", "date": "accessed 2026-11-22", "kind": "unverified", "result": "~$500M valuation (snippet)"},
-    {"url": "https://www.linkedin.com/company/permitflow", "date": "accessed 2026-11-22", "kind": "direct", "result": "51-200, 186 employees, NYC, 32,566 followers (via Bright Data)"},
-    {"url": "https://www.google.com/search?q=PermitFlow+%22head+of+marketing%22+OR+%22VP+marketing%22+OR+CMO", "date": "accessed 2026-11-22", "kind": "direct", "result": "Brooks Crichlow 'joined PermitFlow as Head of Marketing' post snippet; Head of Marketing job listings Apr 2026"},
-    {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+PermitFlow+SEO", "date": "accessed 2026-11-22", "kind": "direct", "result": "titles only: sales, BDR, SWE, ops people; no SEO role at PermitFlow"},
-    {"url": "https://api.ashbyhq.com/posting-api/job-board/permitflow", "date": "accessed 2026-11-22", "kind": "direct", "result": "25 roles, 3 marketing (events, field, marketing ops), 0 SEO; full JDs read"},
-    {"url": "https://www.permitflow.com/resources", "date": "accessed 2026-11-22", "kind": "direct", "result": "281 posts across 32 pages; categories municipal-guides (210), permit-basics (57)"},
-    {"url": "https://www.permitflow.com/state/florida", "date": "accessed 2026-11-22", "kind": "direct", "result": "state hub linking county guides"},
-    {"url": "https://dns.google/resolve?name=permitflow.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "HubSpot SPF, Webflow, Google site verification x7, MS, 1Password, Anthropic"},
-    {"url": "http://archive.org/wayback/available?url=permitflow.com/blog&timestamp=20250101", "date": "accessed 2026-11-22", "kind": "direct", "result": "blog snapshot 2022-12-05: the blog predates the 2025 Webflow rebuild"},
-    {"url": "https://permitplace.com/alternatives/permitflow-alternatives", "date": "2026-02-21", "kind": "direct", "result": "competitor alternatives page aimed at PermitFlow"},
-    {"url": "https://permitplace.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "about 1,484 posts plus geo/state sitemaps"},
-    {"url": "https://permitors.org/post-sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "49 posts incl. best-permit-flow-alternatives-2026"},
-    {"url": "https://www.withpulley.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "86 URLs, 72 resources"},
-    {"url": "https://www.shovels.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "275 URLs, 216 blog, 8 compare"},
-    {"url": "https://greenlite.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "78 URLs, 40 blog"},
-    {"url": "https://www.google.com/search?q=PermitFlow+alternatives", "date": "accessed 2026-11-22", "kind": "direct", "result": "Permit Place, Capterra, G2, Permitors, Permitech, GetApp alternatives pages"},
-    {"url": "https://www.google.com/search?q=permit+expediting+software", "date": "accessed 2026-11-22", "kind": "direct", "result": "PermitFlow #1, Pulley #2, Permitors alternatives page #3"}
+    {
+      "url": "https://www.permitflow.com/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Webflow homepage, raw HTML: HubSpot, Clarity, Warmly; nav links"
+    },
+    {
+      "url": "https://www.permitflow.com/blog/permitflow-series-b",
+      "date": "2025-12-02",
+      "kind": "direct",
+      "result": "$54M Series B led by Accel; investors; 10x revenue growth; customers"
+    },
+    {
+      "url": "https://www.google.com/search?q=PermitFlow+raises+Series",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Business Wire, Accel, Initialized all dated 2 Dec 2025; no later round found"
+    },
+    {
+      "url": "https://settervc.com/company/permitflow",
+      "date": "accessed 2026-11-22",
+      "kind": "unverified",
+      "result": "~$500M valuation (snippet)"
+    },
+    {
+      "url": "https://www.linkedin.com/company/permitflow",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "51-200, 186 employees, NYC, 32,566 followers (via Bright Data)"
+    },
+    {
+      "url": "https://www.google.com/search?q=PermitFlow+%22head+of+marketing%22+OR+%22VP+marketing%22+OR+CMO",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Brooks Crichlow 'joined PermitFlow as Head of Marketing' post snippet; Head of Marketing job listings Apr 2026"
+    },
+    {
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+PermitFlow+SEO",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "titles only: sales, BDR, SWE, ops people; no SEO role at PermitFlow"
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/permitflow",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "25 roles, 3 marketing (events, field, marketing ops), 0 SEO; full JDs read"
+    },
+    {
+      "url": "https://www.permitflow.com/resources",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "281 posts across 32 pages; categories municipal-guides (210), permit-basics (57)"
+    },
+    {
+      "url": "https://www.permitflow.com/state/florida",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "state hub linking county guides"
+    },
+    {
+      "url": "https://dns.google/resolve?name=permitflow.com&type=TXT",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "HubSpot SPF, Webflow, Google site verification x7, MS, 1Password, Anthropic"
+    },
+    {
+      "url": "http://archive.org/wayback/available?url=permitflow.com/blog&timestamp=20250101",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "blog snapshot 2022-12-05: the blog predates the 2025 Webflow rebuild"
+    },
+    {
+      "url": "https://permitplace.com/alternatives/permitflow-alternatives",
+      "date": "2026-02-21",
+      "kind": "direct",
+      "result": "competitor alternatives page aimed at PermitFlow"
+    },
+    {
+      "url": "https://permitplace.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "about 1,484 posts plus geo/state sitemaps"
+    },
+    {
+      "url": "https://permitors.org/post-sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "49 posts incl. best-permit-flow-alternatives-2026"
+    },
+    {
+      "url": "https://www.withpulley.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "86 URLs, 72 resources"
+    },
+    {
+      "url": "https://www.shovels.ai/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "275 URLs, 216 blog, 8 compare"
+    },
+    {
+      "url": "https://greenlite.ai/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "78 URLs, 40 blog"
+    },
+    {
+      "url": "https://www.google.com/search?q=PermitFlow+alternatives",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Permit Place, Capterra, G2, Permitors, Permitech, GetApp alternatives pages"
+    },
+    {
+      "url": "https://www.google.com/search?q=permit+expediting+software",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "PermitFlow #1, Pulley #2, Permitors alternatives page #3"
+    }
   ],
   "sources_tried_failed": [
     "https://www.permitflow.com/sitemap.xml and https://permitflow.com/sitemap.xml: 404",
@@ -142,5 +419,6 @@
     "Who produced the 281-post library (in-house earlier, an agency, AI-assisted contractors)? Is anyone still on it?",
     "Is the stall since Apr 2026 deliberate (an events/field-first plan) or a gap?",
     "Displayed post dates may be update dates, not publish dates, so the cadence estimate carries that caveat"
-  ]
+  ],
+  "b2b": true
 }

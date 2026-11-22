@@ -392,5 +392,6 @@
     "Is SEO outsourced to an agency? Not visible publicly.",
     "Is there a VP Marketing between the CMO and the team (third-party snippet mentions one)?",
     "Round series name (Series E per aggregator headline, not in press release)."
-  ]
+  ],
+  "b2b": true
 }

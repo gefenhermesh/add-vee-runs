@@ -105,7 +105,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "buildots",
@@ -133,7 +134,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "darrow",
@@ -161,7 +163,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "scaleops",
@@ -189,7 +192,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "zenzap",
@@ -217,7 +221,8 @@
         "seo_need": "unassessed",
         "buying_journey": "considered"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "capitolis",
@@ -246,7 +251,8 @@
         "buying_journey": "committee"
       },
       "source": "scout",
-      "status_note": "Withdrawn by the scout 2026-11-21: low SEO need (relationship/RFP-led buyers, already ranks #1-2 for niche terms, no contested SERPs). See companies/capitolis/scout.json seo_need."
+      "status_note": "Withdrawn by the scout 2026-11-21: low SEO need (relationship/RFP-led buyers, already ranks #1-2 for niche terms, no contested SERPs). See companies/capitolis/scout.json seo_need.",
+      "b2b": true
     },
     {
       "slug": "bites",
@@ -274,7 +280,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "daylight-security",
@@ -302,7 +309,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "edelbyte",
@@ -330,7 +338,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "dreeze",
@@ -358,7 +367,8 @@
         "seo_need": "unassessed",
         "buying_journey": "committee"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "traversal",
@@ -386,7 +396,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "antimetal",
@@ -414,7 +425,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "vouched",
@@ -442,7 +454,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "hanover-park",
@@ -470,7 +483,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "ocient",
@@ -498,7 +512,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "permitflow",
@@ -526,7 +541,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "kalepa",
@@ -554,7 +570,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     },
     {
       "slug": "craftwork",
@@ -582,7 +599,8 @@
         "buying_journey": "considered",
         "seo_need": "medium"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": false
     },
     {
       "slug": "pliant",
@@ -610,7 +628,8 @@
         "buying_journey": "committee",
         "seo_need": "high"
       },
-      "source": "scout"
+      "source": "scout",
+      "b2b": true
     }
   ],
   "rules": {

@@ -1,525 +1,526 @@
 {
- "scout_version": 3,
- "company": "Genesis Computing",
- "domain": "genesiscomputing.com",
- "slug": "genesis-computing",
- "scouted": "2026-11-22",
- "source_of_lead": "Next Play 'Should you join: Genesis Computing' (Substack, 19 Nov 2026), forwarded to gefen@etico.cr",
- "reason": "Fresh ~$22M raise (SEC Form D, first sale 2026-06-17) + Gartner 'Coolest Vendor' recognition, hiring a Head of Marketing after the previous one left; category 'agentic data engineering' is contested in search by Maia/Matillion, Altimate, Datus, Snowflake AIM, Datafold.\nGenesis is absent from the top results for its own category and its migration wedge, missing from a ranking 'best data engineering agents 2026' comparison, and its blog canonicals still point at the old .ai domain. Exception: no marketing leader in seat (role open).",
- "gating_rating": "no_leader_exception",
- "gating_note": "No marketing leader in seat as of 2026-11-22: the careers page lists an open 'Head of Marketing' (remote; URL slug 'vp-of-marketing', reports to leadership, must 'build and lead the marketing function', 'lean marketing function', 'using external partners'). Previous Head of Marketing Esther Katz describes the role in past tense on her own site (now a fractional CMO / coach); she was still the PR Newswire media contact on 2026-08-25. A founding GTM employee (Kevin Jong, 'two-person marketing team') now shows at Horizon3 in a Google snippet. No SEO person/team found anywhere. Exception justified by: fresh round, Gartner recognition, heavy GTM hiring (3 AEs, 4 SEs), and sharp audit findings (absent from category SERPs; canonical tags on the old domain). Role track is plausible: the open Head of Marketing role is the next hire.",
- "marketing_leadership": {
-  "status": "not found",
-  "who": [
-   {
-    "name": "Esther Katz",
-    "role": "former Head of Marketing (left, inferred after Aug 2026)",
-    "evidence": "estherkatz.co / estherkatz.com past tense; PR Newswire media contact through 2026-08-25"
-   },
-   {
-    "name": "(open) Head of Marketing",
-    "role": "open role, remote",
-    "evidence": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25"
-   }
+  "scout_version": 3,
+  "company": "Genesis Computing",
+  "domain": "genesiscomputing.com",
+  "slug": "genesis-computing",
+  "scouted": "2026-11-22",
+  "source_of_lead": "Next Play 'Should you join: Genesis Computing' (Substack, 19 Nov 2026), forwarded to gefen@etico.cr",
+  "reason": "Fresh ~$22M raise (SEC Form D, first sale 2026-06-17) + Gartner 'Coolest Vendor' recognition, hiring a Head of Marketing after the previous one left; category 'agentic data engineering' is contested in search by Maia/Matillion, Altimate, Datus, Snowflake AIM, Datafold.\nGenesis is absent from the top results for its own category and its migration wedge, missing from a ranking 'best data engineering agents 2026' comparison, and its blog canonicals still point at the old .ai domain. Exception: no marketing leader in seat (role open).",
+  "gating_rating": "no_leader_exception",
+  "gating_note": "No marketing leader in seat as of 2026-11-22: the careers page lists an open 'Head of Marketing' (remote; URL slug 'vp-of-marketing', reports to leadership, must 'build and lead the marketing function', 'lean marketing function', 'using external partners'). Previous Head of Marketing Esther Katz describes the role in past tense on her own site (now a fractional CMO / coach); she was still the PR Newswire media contact on 2026-08-25. A founding GTM employee (Kevin Jong, 'two-person marketing team') now shows at Horizon3 in a Google snippet. No SEO person/team found anywhere. Exception justified by: fresh round, Gartner recognition, heavy GTM hiring (3 AEs, 4 SEs), and sharp audit findings (absent from category SERPs; canonical tags on the old domain). Role track is plausible: the open Head of Marketing role is the next hire.",
+  "marketing_leadership": {
+    "status": "not found",
+    "who": [
+      {
+        "name": "Esther Katz",
+        "role": "former Head of Marketing (left, inferred after Aug 2026)",
+        "evidence": "estherkatz.co / estherkatz.com past tense; PR Newswire media contact through 2026-08-25"
+      },
+      {
+        "name": "(open) Head of Marketing",
+        "role": "open role, remote",
+        "evidence": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Careers page lists 'Head of Marketing, Full-Time, Remote' among 11 open roles; JD: hands-on leader to 'build and lead the marketing function', own positioning, product marketing, content, website messaging, demand gen, 'using external partners where they can extend the capabilities of a lean marketing function'; no SEO mention",
+        "kind": "direct",
+        "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "About-us team list (CEO, CTO, COO, CFO, VP Eng, VP Sales, 3 engineers/SEs) has no marketing person",
+        "kind": "direct",
+        "url": "https://genesiscomputing.com/about-us",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Esther Katz's own site: 'As Head of Marketing at Genesis Computing ... I built a GTM motion run by AI agents ... $15M in marketing-owned pipeline ... Now I build that system for you' (past tense); estherkatz.com/about lists Genesis among past roles",
+        "kind": "direct",
+        "url": "https://estherkatz.co",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "PR Newswire releases of 2026-06-11 (Databricks partner) and 2026-08-25 (Gartner Coolest Vendor) name Esther Katz as media contact",
+        "kind": "direct",
+        "url": "https://www.prnewswire.com/news-releases/genesis-computing-recognised-in-gartners-coolest-vendor-innovations-in-data-management-302857986.html",
+        "date": "2026-08-25"
+      },
+      {
+        "claim": "Next Play: 'New York is where Genesis most wants to hire next, especially for marketing'",
+        "kind": "direct",
+        "url": "Next Play email 'Should you join: Genesis Computing'",
+        "date": "2026-11-19"
+      },
+      {
+        "claim": "theorg and RocketReach still list Esther Katz as Head of Marketing (stale aggregators)",
+        "kind": "unverified",
+        "url": "https://www.google.com/search?q=%22Esther+Katz%22+%22Genesis+Computing%22",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Google snippet: Kevin Jong, now 'Systems GTM Engineer at Horizon3', was founding employee #3 at Genesis and built GTM 'with a two-person marketing team'",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Genesis+Computing%22+SEO+OR+content+OR+growth",
+        "date": "accessed 2026-11-22"
+      }
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      {
+        "claim": "No SEO/content/growth title in team page, careers list, or Google site:linkedin.com/in snippets for 'Genesis Computing' marketing / SEO OR content OR growth / Head of Marketing OR VP Marketing OR CMO (the marketing and leader queries returned no results)",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Genesis+Computing%22+marketing",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Head of Marketing JD does not mention SEO or organic search at all",
+        "kind": "direct",
+        "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Blog authored by founders, VP Eng and an anonymous 'Genesis Computing' byline; no content/SEO author",
+        "kind": "direct",
+        "url": "https://genesiscomputing.com/blog",
+        "date": "accessed 2026-11-22"
+      }
+    ]
+  },
+  "situation": {
+    "estimate": "Two-and-a-half-year-old, NYC-headquartered agentic data engineering company (founded April 2024 by ex-Snowflake/Goldman Matt Glickman and serial founder Justin Langseth), small team (5 engineers per Next Play), selling into regulated enterprises (Globe Telecom, Tower Peak, a Fortune 100 pharma, a NY hedge fund, Fortune 500 banks). It raised a Series A in summer 2026 (Next Play: $17.5M; SEC Form D: $22.0M sold of a $25.0M offering, first sale 2026-06-17) and picked up Gartner recognition (Data Engineering 2.0, Apr 2026; Coolest Vendor Innovations, Jul 2026) and Databricks partner validation (Jun 2026). Positioning narrowed in 2026 from 'AI data agents / Genbots' to 'AI data engineers that complete the work', with legacy migrations verified by 'Prover' as the wedge. GTM is scaling (3 AE + 4 SE roles in NYC/LA/SF/Boston) while marketing is between leaders: the Head of Marketing left around late summer, the blog went quiet (1 post since 12 Aug), and the role is open. Heading: enterprise sales build-out on the Snowflake/Databricks ecosystem, with a new marketing leader to rebuild positioning and content.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "Series A in summer 2026: Next Play says $17.5M; SEC Form D (filed 2026-07-07) shows $22,005,000 sold of a $25,005,000 equity offering, first sale 2026-06-17, 19 investors; no company press release of the round found. Secondary trigger: open Head of Marketing role.",
+    "date": "2026-06-17",
+    "source": "https://www.sec.gov/Archives/edgar/data/2143657/000214365726000001/primary_doc.xml"
+  },
+  "fit_evidence": [
+    {
+      "claim": "SEC Form D: Genesis Computing Inc., inc. 2024 (DE), equity offering $25.005M, $22.005M sold, first sale 2026-06-17; related persons Matthew Glickman, Justin Langseth, Robert Muglia, Ben Holzman, Graham Brooks",
+      "kind": "direct",
+      "url": "https://www.sec.gov/Archives/edgar/data/2143657/000214365726000001/primary_doc.xml",
+      "date": "2026-07-07"
+    },
+    {
+      "claim": "Next Play profile: founded 2024, $17.5M Series A this past summer, customers Globe Telecom, Tower Peak, NY hedge fund, Fortune 500 banks, Fortune 100 pharma; Prover verifies agent work; not SaaS, runs inside customer environment; Vince Trotta WW VP Sales & GTM, Snowflake employee #33",
+      "kind": "direct",
+      "url": "Next Play email 'Should you join: Genesis Computing'",
+      "date": "2026-11-19"
+    },
+    {
+      "claim": "Seed: $5M (SiliconANGLE exclusive, Snowflake execs raise $5M)",
+      "kind": "inferred",
+      "url": "https://siliconangle.com",
+      "date": "2025-02-27"
+    },
+    {
+      "claim": "Gartner 'Coolest Vendor Innovations in Data Management' (Jul 2026) recognition, PR Newswire",
+      "kind": "direct",
+      "url": "https://www.prnewswire.com/news-releases/genesis-computing-recognised-in-gartners-coolest-vendor-innovations-in-data-management-302857986.html",
+      "date": "2026-08-25"
+    },
+    {
+      "claim": "Databricks Validated Technology Partner, PR Newswire",
+      "kind": "direct",
+      "url": "https://www.prnewswire.com/news-releases/genesis-computing-announced-as-validated-technology-partner-of-databricks-302797353.html",
+      "date": "2026-06-11"
+    },
+    {
+      "claim": "buying_journey=committee: enterprise data platform software in regulated industries; JD says messaging must reach 'technical evaluators, data leaders, and executive buyers'; Next Play notes every difference must be explained to risk/compliance; security/deployment inside customer perimeter",
+      "kind": "inferred",
+      "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "Aggregators conflict on totals: Fundup '$22M Series A', Tracxn '$22M raised', intelligence360 '$25M' (Form D notice)",
+      "kind": "unverified",
+      "url": "https://www.google.com/search?q=%22Genesis+Computing%22+Series+A",
+      "date": "accessed 2026-11-22"
+    }
   ],
-  "evidence": [
-   {
-    "claim": "Careers page lists 'Head of Marketing, Full-Time, Remote' among 11 open roles; JD: hands-on leader to 'build and lead the marketing function', own positioning, product marketing, content, website messaging, demand gen, 'using external partners where they can extend the capabilities of a lean marketing function'; no SEO mention",
-    "kind": "direct",
-    "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
-    "date": "accessed 2026-11-22"
-   },
-   {
-    "claim": "About-us team list (CEO, CTO, COO, CFO, VP Eng, VP Sales, 3 engineers/SEs) has no marketing person",
-    "kind": "direct",
-    "url": "https://genesiscomputing.com/about-us",
-    "date": "accessed 2026-11-22"
-   },
-   {
-    "claim": "Esther Katz's own site: 'As Head of Marketing at Genesis Computing ... I built a GTM motion run by AI agents ... $15M in marketing-owned pipeline ... Now I build that system for you' (past tense); estherkatz.com/about lists Genesis among past roles",
-    "kind": "direct",
-    "url": "https://estherkatz.co",
-    "date": "accessed 2026-11-22"
-   },
-   {
-    "claim": "PR Newswire releases of 2026-06-11 (Databricks partner) and 2026-08-25 (Gartner Coolest Vendor) name Esther Katz as media contact",
-    "kind": "direct",
-    "url": "https://www.prnewswire.com/news-releases/genesis-computing-recognised-in-gartners-coolest-vendor-innovations-in-data-management-302857986.html",
-    "date": "2026-08-25"
-   },
-   {
-    "claim": "Next Play: 'New York is where Genesis most wants to hire next, especially for marketing'",
-    "kind": "direct",
-    "url": "Next Play email 'Should you join: Genesis Computing'",
-    "date": "2026-11-19"
-   },
-   {
-    "claim": "theorg and RocketReach still list Esther Katz as Head of Marketing (stale aggregators)",
-    "kind": "unverified",
-    "url": "https://www.google.com/search?q=%22Esther+Katz%22+%22Genesis+Computing%22",
-    "date": "accessed 2026-11-22"
-   },
-   {
-    "claim": "Google snippet: Kevin Jong, now 'Systems GTM Engineer at Horizon3', was founding employee #3 at Genesis and built GTM 'with a two-person marketing team'",
-    "kind": "inferred",
-    "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Genesis+Computing%22+SEO+OR+content+OR+growth",
-    "date": "accessed 2026-11-22"
-   }
-  ]
- },
- "seo_team": {
-  "status": "not found",
-  "evidence": [
-   {
-    "claim": "No SEO/content/growth title in team page, careers list, or Google site:linkedin.com/in snippets for 'Genesis Computing' marketing / SEO OR content OR growth / Head of Marketing OR VP Marketing OR CMO (the marketing and leader queries returned no results)",
-    "kind": "inferred",
-    "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Genesis+Computing%22+marketing",
-    "date": "accessed 2026-11-22"
-   },
-   {
-    "claim": "Head of Marketing JD does not mention SEO or organic search at all",
-    "kind": "direct",
-    "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
-    "date": "accessed 2026-11-22"
-   },
-   {
-    "claim": "Blog authored by founders, VP Eng and an anonymous 'Genesis Computing' byline; no content/SEO author",
-    "kind": "direct",
-    "url": "https://genesiscomputing.com/blog",
-    "date": "accessed 2026-11-22"
-   }
-  ]
- },
- "situation": {
-  "estimate": "Two-and-a-half-year-old, NYC-headquartered agentic data engineering company (founded April 2024 by ex-Snowflake/Goldman Matt Glickman and serial founder Justin Langseth), small team (5 engineers per Next Play), selling into regulated enterprises (Globe Telecom, Tower Peak, a Fortune 100 pharma, a NY hedge fund, Fortune 500 banks). It raised a Series A in summer 2026 (Next Play: $17.5M; SEC Form D: $22.0M sold of a $25.0M offering, first sale 2026-06-17) and picked up Gartner recognition (Data Engineering 2.0, Apr 2026; Coolest Vendor Innovations, Jul 2026) and Databricks partner validation (Jun 2026). Positioning narrowed in 2026 from 'AI data agents / Genbots' to 'AI data engineers that complete the work', with legacy migrations verified by 'Prover' as the wedge. GTM is scaling (3 AE + 4 SE roles in NYC/LA/SF/Boston) while marketing is between leaders: the Head of Marketing left around late summer, the blog went quiet (1 post since 12 Aug), and the role is open. Heading: enterprise sales build-out on the Snowflake/Databricks ecosystem, with a new marketing leader to rebuild positioning and content.",
-  "confidence": "medium"
- },
- "trigger": {
-  "type": "funding",
-  "detail": "Series A in summer 2026: Next Play says $17.5M; SEC Form D (filed 2026-07-07) shows $22,005,000 sold of a $25,005,000 equity offering, first sale 2026-06-17, 19 investors; no company press release of the round found. Secondary trigger: open Head of Marketing role.",
-  "date": "2026-06-17",
-  "source": "https://www.sec.gov/Archives/edgar/data/2143657/000214365726000001/primary_doc.xml"
- },
- "fit_evidence": [
-  {
-   "claim": "SEC Form D: Genesis Computing Inc., inc. 2024 (DE), equity offering $25.005M, $22.005M sold, first sale 2026-06-17; related persons Matthew Glickman, Justin Langseth, Robert Muglia, Ben Holzman, Graham Brooks",
-   "kind": "direct",
-   "url": "https://www.sec.gov/Archives/edgar/data/2143657/000214365726000001/primary_doc.xml",
-   "date": "2026-07-07"
+  "site_and_content": {
+    "cms_and_tools": "Webflow (data-wf-site 67ba1fc336b021e4a72670cd), Google Tag Manager GTM-KF3DDJBN, gtag, LinkedIn Insight (snap.licdn), Microsoft Clarity, RB2B visitor identification, Vector (intent/visitor tool). DNS TXT: two google-site-verification tokens, an unidentified 'sending_domain1103392' token, SPF Google + managed SPF include; Google Workspace MX. No HubSpot/Marketo tokens.",
+    "domain_history": "Moved from genesiscomputing.ai to genesiscomputing.com around March 2026 (Wayback: last .ai homepage capture 2026-03-07, first .com 2026-03-19; .ai now 301s to .com). Inferred from Wayback availability API; snapshot pages themselves returned 403/empty.",
+    "canonical_issue": "Blog posts carry rel=canonical to https://www.genesiscomputing.ai/blog/<slug>, a URL that 301-redirects back to genesiscomputing.com (checked on 3 posts: agentic-data-engineering, agentic-control-plane-data-engineering, why-ai-agents-are-replacing-traditional-data-engineering). Homepage, about, prover and careers have no canonical. Some in-body links also still point to genesiscomputing.ai. Direct, raw HTML.",
+    "blog": "58 dated posts on /blog index, 2025-06-04 to 2026-10-30. Cadence roughly weekly Jan-Aug 2026 (about 30 posts), a burst of 9 on 2025-12-02 (walkthrough series), then only 1 post after 2026-08-12 (2026-10-30, re-titled intro to agentic data engineering). Authors: Matt Glickman, Justin Langseth, Anton Gorshkov, Todd Beauchene and a generic 'Genesis Computing' byline; 2 PR reposts (Yahoo Finance). Sitemap lists 59 blog URLs.",
+    "internal_linking": "Link-aware read of 3 posts: 6, 7 and 30 in-body links; contextual descriptive anchors to other posts and customer stories exist (e.g. 'agentic data engineering overview', 'Tower Peak Partners'), but several point to the old .ai domain. No pillar/cluster hub structure seen; topical pages are use-case pages (migrations, onboarding, RCA, analytics) plus Prover and Context Graph.",
+    "comparison_pages": "None. Sitemap (107 URLs) has no vs/alternatives/compare pages. Third parties own 'Genesis Computing alternatives' results (AgentLed, G2, RFP.wiki, Capterra, SourceForge, CB Insights, Gartner Peer Insights, Slashdot).",
+    "llms_txt": "Present, describes the older 'autonomous AI data agents' positioning and links every capability to the homepage (weak signal).",
+    "robots": "Allows all; disallows /get-started, /test, /authors, /changelog and one Gartner blog URL.",
+    "docs": "docs.genesiscomputing.com (MCP / coding agents docs) linked from homepage."
   },
-  {
-   "claim": "Next Play profile: founded 2024, $17.5M Series A this past summer, customers Globe Telecom, Tower Peak, NY hedge fund, Fortune 500 banks, Fortune 100 pharma; Prover verifies agent work; not SaaS, runs inside customer environment; Vince Trotta WW VP Sales & GTM, Snowflake employee #33",
-   "kind": "direct",
-   "url": "Next Play email 'Should you join: Genesis Computing'",
-   "date": "2026-11-19"
+  "jobs": {
+    "careers_page": "https://genesiscomputing.com/careers (Webflow), 11 open roles on 2026-11-22: Head of Marketing (remote), Forward Deployed Engineer, Founding AI Quality & Release Engineer, Senior Full-Stack Engineer, Enterprise AE x3 (NYC, LA, SF), Solutions Engineer x4 (NYC, LA, SF, Boston).",
+    "job_boards": "Ashby/Greenhouse/Lever APIs via readers.read_job_board('genesiscomputing'/'genesis-computing'): none; Comeet, jobs.ashbyhq.com, job-boards.greenhouse.io, jobs.lever.co: 404.",
+    "marketing_roles": [
+      {
+        "title": "Head of Marketing",
+        "location": "Remote",
+        "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
+        "notes": "6+ yrs B2B tech marketing, deep PMM; owns content strategy and website messaging; AI-in-marketing workflows (Claude named); budget, tools and external partners; no SEO mention; apply via careers@genesiscomputing.com"
+      }
+    ],
+    "seo_roles": []
   },
-  {
-   "claim": "Seed: $5M (SiliconANGLE exclusive, Snowflake execs raise $5M)",
-   "kind": "inferred",
-   "url": "https://siliconangle.com",
-   "date": "2025-02-27"
-  },
-  {
-   "claim": "Gartner 'Coolest Vendor Innovations in Data Management' (Jul 2026) recognition, PR Newswire",
-   "kind": "direct",
-   "url": "https://www.prnewswire.com/news-releases/genesis-computing-recognised-in-gartners-coolest-vendor-innovations-in-data-management-302857986.html",
-   "date": "2026-08-25"
-  },
-  {
-   "claim": "Databricks Validated Technology Partner, PR Newswire",
-   "kind": "direct",
-   "url": "https://www.prnewswire.com/news-releases/genesis-computing-announced-as-validated-technology-partner-of-databricks-302797353.html",
-   "date": "2026-06-11"
-  },
-  {
-   "claim": "buying_journey=committee: enterprise data platform software in regulated industries; JD says messaging must reach 'technical evaluators, data leaders, and executive buyers'; Next Play notes every difference must be explained to risk/compliance; security/deployment inside customer perimeter",
-   "kind": "inferred",
-   "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
-   "date": "accessed 2026-11-22"
-  },
-  {
-   "claim": "Aggregators conflict on totals: Fundup '$22M Series A', Tracxn '$22M raised', intelligence360 '$25M' (Form D notice)",
-   "kind": "unverified",
-   "url": "https://www.google.com/search?q=%22Genesis+Computing%22+Series+A",
-   "date": "accessed 2026-11-22"
-  }
- ],
- "site_and_content": {
-  "cms_and_tools": "Webflow (data-wf-site 67ba1fc336b021e4a72670cd), Google Tag Manager GTM-KF3DDJBN, gtag, LinkedIn Insight (snap.licdn), Microsoft Clarity, RB2B visitor identification, Vector (intent/visitor tool). DNS TXT: two google-site-verification tokens, an unidentified 'sending_domain1103392' token, SPF Google + managed SPF include; Google Workspace MX. No HubSpot/Marketo tokens.",
-  "domain_history": "Moved from genesiscomputing.ai to genesiscomputing.com around March 2026 (Wayback: last .ai homepage capture 2026-03-07, first .com 2026-03-19; .ai now 301s to .com). Inferred from Wayback availability API; snapshot pages themselves returned 403/empty.",
-  "canonical_issue": "Blog posts carry rel=canonical to https://www.genesiscomputing.ai/blog/<slug>, a URL that 301-redirects back to genesiscomputing.com (checked on 3 posts: agentic-data-engineering, agentic-control-plane-data-engineering, why-ai-agents-are-replacing-traditional-data-engineering). Homepage, about, prover and careers have no canonical. Some in-body links also still point to genesiscomputing.ai. Direct, raw HTML.",
-  "blog": "58 dated posts on /blog index, 2025-06-04 to 2026-10-30. Cadence roughly weekly Jan-Aug 2026 (about 30 posts), a burst of 9 on 2025-12-02 (walkthrough series), then only 1 post after 2026-08-12 (2026-10-30, re-titled intro to agentic data engineering). Authors: Matt Glickman, Justin Langseth, Anton Gorshkov, Todd Beauchene and a generic 'Genesis Computing' byline; 2 PR reposts (Yahoo Finance). Sitemap lists 59 blog URLs.",
-  "internal_linking": "Link-aware read of 3 posts: 6, 7 and 30 in-body links; contextual descriptive anchors to other posts and customer stories exist (e.g. 'agentic data engineering overview', 'Tower Peak Partners'), but several point to the old .ai domain. No pillar/cluster hub structure seen; topical pages are use-case pages (migrations, onboarding, RCA, analytics) plus Prover and Context Graph.",
-  "comparison_pages": "None. Sitemap (107 URLs) has no vs/alternatives/compare pages. Third parties own 'Genesis Computing alternatives' results (AgentLed, G2, RFP.wiki, Capterra, SourceForge, CB Insights, Gartner Peer Insights, Slashdot).",
-  "llms_txt": "Present, describes the older 'autonomous AI data agents' positioning and links every capability to the homepage (weak signal).",
-  "robots": "Allows all; disallows /get-started, /test, /authors, /changelog and one Gartner blog URL.",
-  "docs": "docs.genesiscomputing.com (MCP / coding agents docs) linked from homepage."
- },
- "jobs": {
-  "careers_page": "https://genesiscomputing.com/careers (Webflow), 11 open roles on 2026-11-22: Head of Marketing (remote), Forward Deployed Engineer, Founding AI Quality & Release Engineer, Senior Full-Stack Engineer, Enterprise AE x3 (NYC, LA, SF), Solutions Engineer x4 (NYC, LA, SF, Boston).",
-  "job_boards": "Ashby/Greenhouse/Lever APIs via readers.read_job_board('genesiscomputing'/'genesis-computing'): none; Comeet, jobs.ashbyhq.com, job-boards.greenhouse.io, jobs.lever.co: 404.",
-  "marketing_roles": [
-   {
-    "title": "Head of Marketing",
-    "location": "Remote",
-    "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
-    "notes": "6+ yrs B2B tech marketing, deep PMM; owns content strategy and website messaging; AI-in-marketing workflows (Claude named); budget, tools and external partners; no SEO mention; apply via careers@genesiscomputing.com"
-   }
+  "contacts": [
+    {
+      "name": "Matt Glickman",
+      "role": "Co-founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://genesiscomputing.com/about-us",
+      "recipient_rank": 1,
+      "note": "No marketing leader in seat; the Head of Marketing role is the CEO's hire. Blog author and podcast guest (quotable)."
+    },
+    {
+      "name": "Vince Trotta",
+      "role": "WW VP of Sales & GTM",
+      "email": null,
+      "email_verified": false,
+      "source": "https://genesiscomputing.com/about-us",
+      "recipient_rank": 2,
+      "note": "Owns GTM and partnerships per Next Play; possible interim owner of marketing."
+    },
+    {
+      "name": "Margarita Barrera",
+      "role": "COO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://genesiscomputing.com/about-us",
+      "recipient_rank": 3
+    }
   ],
-  "seo_roles": []
- },
- "contacts": [
-  {
-   "name": "Matt Glickman",
-   "role": "Co-founder & CEO",
-   "email": null,
-   "email_verified": false,
-   "source": "https://genesiscomputing.com/about-us",
-   "recipient_rank": 1,
-   "note": "No marketing leader in seat; the Head of Marketing role is the CEO's hire. Blog author and podcast guest (quotable)."
+  "outreach_angle": {
+    "hook": "Congrats on the summer Series A and the Gartner 'Coolest Vendor' nod; Genesis is now hiring the Head of Marketing to own its story, yet for 'agentic data engineering' and AI data-warehouse migration verification (its Prover wedge) the answers buyers get name IBM, Maia/Matillion, Atlan, Snowflake AIM and Datafold, and a 2026 'best data engineering agents' comparison lists eight agents without Genesis. Concrete risk: competitors and the platforms themselves define the category the new hire inherits.",
+    "source": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25; https://datus.ai/blog/best-data-engineering-agents-2026/; Google SERPs via Bright Data",
+    "date": "2026-11-22"
   },
-  {
-   "name": "Vince Trotta",
-   "role": "WW VP of Sales & GTM",
-   "email": null,
-   "email_verified": false,
-   "source": "https://genesiscomputing.com/about-us",
-   "recipient_rank": 2,
-   "note": "Owns GTM and partnerships per Next Play; possible interim owner of marketing."
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Buyers are enterprise data leaders plus technical evaluators, security and risk/compliance (committee). Sales is enterprise, partner- and FDE-led (Snowflake/Databricks marketplaces, ABM), but the buyer set is large (thousands of Snowflake/Databricks enterprise accounts) and the category is actively researched online: G2, Capterra, Gartner Peer Insights, SourceForge and RFP.wiki all carry Genesis listings and 'alternatives' pages; 'best data engineering agents 2026' listicles and r/dataengineering threads ('AI can migrate a data warehouse now, but how do you...', 1 day old) rank for category queries.",
+    "competitors": [
+      {
+        "name": "Maia (Matillion)",
+        "seo_investment": "Heavy: ~124 blog URLs on its index, posts every few days in Nov 2026, comparison pages (informatica-vs-maia, dbt-alternatives, alteryx-alternatives); ranks #1-2 for 'agentic data engineering' and 'AI data engineering agents enterprise'",
+        "evidence_url": "https://www.maia.ai/resources/blog"
+      },
+      {
+        "name": "Altimate AI",
+        "seo_investment": "Active: ~59 posts Jan 2024-Nov 2026, vs pages (altimate-code-vs-claude-code-vs-cursor, Databricks compute comparisons); listed in Datus's 'best data engineering agents 2026'",
+        "evidence_url": "https://www.altimate.ai/blog"
+      },
+      {
+        "name": "Datus",
+        "seo_investment": "Heavy: ~96 posts 2025-2026, many vs/alternatives pages (data-engineering-agent-vs-claude-code); its 'Best Data Engineering Agents in 2026' ranks for 'best AI agents for data engineering' and omits Genesis",
+        "evidence_url": "https://datus.ai/blog/best-data-engineering-agents-2026/"
+      },
+      {
+        "name": "Datafold (migration agent)",
+        "seo_investment": "Heavy: ~191 blog URLs, migration-risk content and 'lakebridge-alternatives'; ranks for AI migration validation queries",
+        "evidence_url": "https://www.datafold.com/blog"
+      },
+      {
+        "name": "Snowflake AIM / SnowConvert AI (platform)",
+        "seo_investment": "Platform docs, blog and webinars rank top for Snowflake migration-agent queries",
+        "evidence_url": "https://docs.snowflake.com"
+      },
+      {
+        "name": "Ascend.io",
+        "seo_investment": "couldn't verify (blog fetch returned a 2 KB shell directly and via Bright Data)",
+        "evidence_url": "https://www.ascend.io/blog"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "agentic data engineering",
+        "top_results": [
+          "ibm.com/think (What Is Agentic AI Data Engineering?)",
+          "Medium (Adnan Masood)",
+          "holistics.io blog",
+          "maia.ai blog",
+          "qlik.com Talend",
+          "databricks.com (Genie Code + Lakeflow)",
+          "agenticdataengineering.ai",
+          "revos.ai"
+        ],
+        "genesis_present": false,
+        "date": "2026-11-22"
+      },
+      {
+        "query": "AI data engineering agents enterprise",
+        "top_results": [
+          "maia.ai blog",
+          "genesiscomputing.com/use-cases/data-engineering (#2)",
+          "ibm.com",
+          "atlan.com",
+          "assistents.ai",
+          "matillion.com",
+          "Medium"
+        ],
+        "genesis_present": true,
+        "date": "2026-11-22"
+      },
+      {
+        "query": "best AI agents for data engineering",
+        "top_results": [
+          "reddit r/dataengineering",
+          "maia.ai",
+          "upriverdata.com",
+          "databricks.com",
+          "holistics.io",
+          "atlan.com",
+          "Medium",
+          "datus.ai (Best Data Engineering Agents in 2026)"
+        ],
+        "genesis_present": false,
+        "date": "2026-11-22"
+      },
+      {
+        "query": "legacy data warehouse migration to Snowflake AI agent",
+        "top_results": [
+          "snowflake.com webinar",
+          "docs.snowflake.com AIM agent",
+          "Medium SnowConvert AI",
+          "acceleraid.ai",
+          "stridelysolutions.com",
+          "ness.com",
+          "snowflake.com",
+          "persistent.com"
+        ],
+        "genesis_present": false,
+        "date": "2026-11-22"
+      },
+      {
+        "query": "AI data warehouse migration verification tool",
+        "top_results": [
+          "reddit r/dataengineering (1 day ago)",
+          "superglue.ai compare",
+          "alation.com",
+          "snaplogic.com",
+          "docs.snowflake.com AIM",
+          "syncmatters.com",
+          "rocketlane.com",
+          "datagaps.com"
+        ],
+        "genesis_present": false,
+        "date": "2026-11-22"
+      },
+      {
+        "query": "Genesis Computing alternatives",
+        "top_results": [
+          "agentled.com",
+          "g2.com",
+          "rfp.wiki",
+          "capterra.com",
+          "sourceforge.net",
+          "cbinsights.com",
+          "gartner.com",
+          "slashdot.org"
+        ],
+        "genesis_present": false,
+        "date": "2026-11-22"
+      }
+    ],
+    "cost_of_absence": "Genesis's 2026 wedge is legacy migrations 'verified by Prover', yet for migration-verification and Snowflake migration-agent queries the answers belong to Snowflake AIM/SnowConvert (a partner that is also a substitute), Datafold and listicles; for its own category term 'agentic data engineering' IBM, Maia/Matillion, Holistics and Databricks define it. Third parties own its 'alternatives' results. A new Head of Marketing will be rebuilding positioning with the blog paused since August and canonicals pointing at the retired .ai domain, so AI answers likely lag the new positioning.",
+    "why_not_yet": "never_prioritized / between leaders: marketing was a lean two-person, ABM- and partner-led motion ('near-zero paid spend', per the former Head of Marketing's site); the leader left around late summer 2026 and the role is open; blog is founder/engineer-written.",
+    "evidence": [
+      "https://genesiscomputing.com/sitemap.xml",
+      "https://genesiscomputing.com/blog",
+      "https://estherkatz.co",
+      "https://datus.ai/blog/best-data-engineering-agents-2026/"
+    ]
   },
-  {
-   "name": "Margarita Barrera",
-   "role": "COO",
-   "email": null,
-   "email_verified": false,
-   "source": "https://genesiscomputing.com/about-us",
-   "recipient_rank": 3
-  }
- ],
- "outreach_angle": {
-  "hook": "Congrats on the summer Series A and the Gartner 'Coolest Vendor' nod; Genesis is now hiring the Head of Marketing to own its story, yet for 'agentic data engineering' and AI data-warehouse migration verification (its Prover wedge) the answers buyers get name IBM, Maia/Matillion, Atlan, Snowflake AIM and Datafold, and a 2026 'best data engineering agents' comparison lists eight agents without Genesis. Concrete risk: competitors and the platforms themselves define the category the new hire inherits.",
-  "source": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25; https://datus.ai/blog/best-data-engineering-agents-2026/; Google SERPs via Bright Data",
-  "date": "2026-11-22"
- },
- "seo_need": {
-  "rating": "high",
-  "buyer_research": "Buyers are enterprise data leaders plus technical evaluators, security and risk/compliance (committee). Sales is enterprise, partner- and FDE-led (Snowflake/Databricks marketplaces, ABM), but the buyer set is large (thousands of Snowflake/Databricks enterprise accounts) and the category is actively researched online: G2, Capterra, Gartner Peer Insights, SourceForge and RFP.wiki all carry Genesis listings and 'alternatives' pages; 'best data engineering agents 2026' listicles and r/dataengineering threads ('AI can migrate a data warehouse now, but how do you...', 1 day old) rank for category queries.",
-  "competitors": [
-   {
-    "name": "Maia (Matillion)",
-    "seo_investment": "Heavy: ~124 blog URLs on its index, posts every few days in Nov 2026, comparison pages (informatica-vs-maia, dbt-alternatives, alteryx-alternatives); ranks #1-2 for 'agentic data engineering' and 'AI data engineering agents enterprise'",
-    "evidence_url": "https://www.maia.ai/resources/blog"
-   },
-   {
-    "name": "Altimate AI",
-    "seo_investment": "Active: ~59 posts Jan 2024-Nov 2026, vs pages (altimate-code-vs-claude-code-vs-cursor, Databricks compute comparisons); listed in Datus's 'best data engineering agents 2026'",
-    "evidence_url": "https://www.altimate.ai/blog"
-   },
-   {
-    "name": "Datus",
-    "seo_investment": "Heavy: ~96 posts 2025-2026, many vs/alternatives pages (data-engineering-agent-vs-claude-code); its 'Best Data Engineering Agents in 2026' ranks for 'best AI agents for data engineering' and omits Genesis",
-    "evidence_url": "https://datus.ai/blog/best-data-engineering-agents-2026/"
-   },
-   {
-    "name": "Datafold (migration agent)",
-    "seo_investment": "Heavy: ~191 blog URLs, migration-risk content and 'lakebridge-alternatives'; ranks for AI migration validation queries",
-    "evidence_url": "https://www.datafold.com/blog"
-   },
-   {
-    "name": "Snowflake AIM / SnowConvert AI (platform)",
-    "seo_investment": "Platform docs, blog and webinars rank top for Snowflake migration-agent queries",
-    "evidence_url": "https://docs.snowflake.com"
-   },
-   {
-    "name": "Ascend.io",
-    "seo_investment": "couldn't verify (blog fetch returned a 2 KB shell directly and via Bright Data)",
-    "evidence_url": "https://www.ascend.io/blog"
-   }
+  "features": {
+    "industry": "data_ai_infra",
+    "stage": "series_a",
+    "situation": "scaling",
+    "size_band": "1_50",
+    "geo": "us",
+    "marketing_gating": "no_leader_exception",
+    "trigger": "funding",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "ceo",
+    "ask_track": "role",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "Next Play email 'Should you join: Genesis Computing' (gmail thread 1a1f4dab9073dff8)",
+      "date": "2026-11-19",
+      "kind": "direct",
+      "result": "full profile read: founders, customers, $17.5M Series A, Prover, Vince Trotta, NYC marketing hiring"
+    },
+    {
+      "url": "https://genesiscomputing.com/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "homepage raw HTML: Webflow, GTM, Clarity, RB2B, Vector, LinkedIn Insight"
+    },
+    {
+      "url": "https://genesiscomputing.com/about-us",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "team list (no marketing), founding story"
+    },
+    {
+      "url": "https://genesiscomputing.com/careers",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "11 open roles incl. Head of Marketing"
+    },
+    {
+      "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Head of Marketing JD"
+    },
+    {
+      "url": "https://genesiscomputing.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "107 URLs, 59 blog, no vs pages"
+    },
+    {
+      "url": "https://genesiscomputing.com/blog",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "58 dated posts 2025-06-04..2026-10-30"
+    },
+    {
+      "url": "https://genesiscomputing.com/blog/agentic-data-engineering",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "link-aware read; canonical to www.genesiscomputing.ai"
+    },
+    {
+      "url": "https://genesiscomputing.com/robots.txt",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "read"
+    },
+    {
+      "url": "https://genesiscomputing.com/llms.txt",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "read"
+    },
+    {
+      "url": "https://dns.google/resolve?name=genesiscomputing.com&type=TXT",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "google-site-verification x2, sending_domain token, SPF"
+    },
+    {
+      "url": "http://archive.org/wayback/available?url=genesiscomputing.ai",
+      "date": "accessed 2026-11-22",
+      "kind": "inferred",
+      "result": ".ai captures until 2026-03-07, .com from 2026-03-19"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2143657/000214365726000001/primary_doc.xml",
+      "date": "2026-07-07",
+      "kind": "direct",
+      "result": "Form D: $22.005M sold of $25.005M"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/genesis-computing-announced-as-validated-technology-partner-of-databricks-302797353.html",
+      "date": "2026-06-11",
+      "kind": "direct",
+      "result": "read via Bright Data; media contact Esther Katz"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/genesis-computing-recognised-in-gartners-coolest-vendor-innovations-in-data-management-302857986.html",
+      "date": "2026-08-25",
+      "kind": "direct",
+      "result": "read; media contact Esther Katz"
+    },
+    {
+      "url": "https://estherkatz.co",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "former Head of Marketing describes role in past tense"
+    },
+    {
+      "url": "https://estherkatz.com/about",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Genesis listed among past roles"
+    },
+    {
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Genesis+Computing%22+SEO+OR+content+OR+growth",
+      "date": "accessed 2026-11-22",
+      "kind": "inferred",
+      "result": "titles only: founders, engineers, AE, Esther Katz '5xCMO', Kevin Jong now at Horizon3"
+    },
+    {
+      "url": "https://www.google.com/search?q=%22Genesis+Computing%22+Series+A",
+      "date": "accessed 2026-11-22",
+      "kind": "unverified",
+      "result": "aggregators Fundup/Tracxn/CB Insights/PitchBook; also Genesis AI robotics collision"
+    },
+    {
+      "url": "https://datus.ai/blog/best-data-engineering-agents-2026/",
+      "date": "2026-06-02",
+      "kind": "direct",
+      "result": "8 agents compared; Genesis absent"
+    },
+    {
+      "url": "https://www.maia.ai/resources/blog",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "~124 posts, vs pages"
+    },
+    {
+      "url": "https://www.altimate.ai/blog",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "~59 posts, vs pages"
+    },
+    {
+      "url": "https://www.datafold.com/blog",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "~191 posts, migration content"
+    },
+    {
+      "url": "https://www.google.com/search?q=agentic+data+engineering",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "SERP recorded in seo_need.serp_checks (5 more queries likewise)"
+    }
   ],
-  "serp_checks": [
-   {
-    "query": "agentic data engineering",
-    "top_results": [
-     "ibm.com/think (What Is Agentic AI Data Engineering?)",
-     "Medium (Adnan Masood)",
-     "holistics.io blog",
-     "maia.ai blog",
-     "qlik.com Talend",
-     "databricks.com (Genie Code + Lakeflow)",
-     "agenticdataengineering.ai",
-     "revos.ai"
-    ],
-    "genesis_present": false,
-    "date": "2026-11-22"
-   },
-   {
-    "query": "AI data engineering agents enterprise",
-    "top_results": [
-     "maia.ai blog",
-     "genesiscomputing.com/use-cases/data-engineering (#2)",
-     "ibm.com",
-     "atlan.com",
-     "assistents.ai",
-     "matillion.com",
-     "Medium"
-    ],
-    "genesis_present": true,
-    "date": "2026-11-22"
-   },
-   {
-    "query": "best AI agents for data engineering",
-    "top_results": [
-     "reddit r/dataengineering",
-     "maia.ai",
-     "upriverdata.com",
-     "databricks.com",
-     "holistics.io",
-     "atlan.com",
-     "Medium",
-     "datus.ai (Best Data Engineering Agents in 2026)"
-    ],
-    "genesis_present": false,
-    "date": "2026-11-22"
-   },
-   {
-    "query": "legacy data warehouse migration to Snowflake AI agent",
-    "top_results": [
-     "snowflake.com webinar",
-     "docs.snowflake.com AIM agent",
-     "Medium SnowConvert AI",
-     "acceleraid.ai",
-     "stridelysolutions.com",
-     "ness.com",
-     "snowflake.com",
-     "persistent.com"
-    ],
-    "genesis_present": false,
-    "date": "2026-11-22"
-   },
-   {
-    "query": "AI data warehouse migration verification tool",
-    "top_results": [
-     "reddit r/dataengineering (1 day ago)",
-     "superglue.ai compare",
-     "alation.com",
-     "snaplogic.com",
-     "docs.snowflake.com AIM",
-     "syncmatters.com",
-     "rocketlane.com",
-     "datagaps.com"
-    ],
-    "genesis_present": false,
-    "date": "2026-11-22"
-   },
-   {
-    "query": "Genesis Computing alternatives",
-    "top_results": [
-     "agentled.com",
-     "g2.com",
-     "rfp.wiki",
-     "capterra.com",
-     "sourceforge.net",
-     "cbinsights.com",
-     "gartner.com",
-     "slashdot.org"
-    ],
-    "genesis_present": false,
-    "date": "2026-11-22"
-   }
+  "sources_tried_failed": [
+    "LinkedIn company page linkedin.com/company/genesiscomputing via Bright Data: returned the app shell with no company data (failure)",
+    "Google site:linkedin.com/in 'Genesis Computing' marketing and 'head of marketing' OR 'VP Marketing' OR CMO: zero results parsed",
+    "Wayback snapshot pages (web.archive.org/web/2024.../genesiscomputing.ai): 403 direct, empty via curl; only the availability API worked",
+    "G2 alternatives page: 403 direct, empty via Bright Data",
+    "Ascend.io blog: 2 KB shell direct and via Bright Data",
+    "agentled.com alternatives URL guess: 404",
+    "Ashby/Greenhouse/Lever APIs and Comeet for 'genesiscomputing'/'genesis-computing': none / 404",
+    "No company press release of the Series A found (searched Google and PR Newswire)"
   ],
-  "cost_of_absence": "Genesis's 2026 wedge is legacy migrations 'verified by Prover', yet for migration-verification and Snowflake migration-agent queries the answers belong to Snowflake AIM/SnowConvert (a partner that is also a substitute), Datafold and listicles; for its own category term 'agentic data engineering' IBM, Maia/Matillion, Holistics and Databricks define it. Third parties own its 'alternatives' results. A new Head of Marketing will be rebuilding positioning with the blog paused since August and canonicals pointing at the retired .ai domain, so AI answers likely lag the new positioning.",
-  "why_not_yet": "never_prioritized / between leaders: marketing was a lean two-person, ABM- and partner-led motion ('near-zero paid spend', per the former Head of Marketing's site); the leader left around late summer 2026 and the role is open; blog is founder/engineer-written.",
-  "evidence": [
-   "https://genesiscomputing.com/sitemap.xml",
-   "https://genesiscomputing.com/blog",
-   "https://estherkatz.co",
-   "https://datus.ai/blog/best-data-engineering-agents-2026/"
-  ]
- },
- "features": {
-  "industry": "data_ai_infra",
-  "stage": "series_a",
-  "situation": "scaling",
-  "size_band": "1_50",
-  "geo": "us",
-  "marketing_gating": "no_leader_exception",
-  "trigger": "funding",
-  "finding_pattern": "losing_to_named_competitors",
-  "recipient_role": "ceo",
-  "ask_track": "role",
-  "opener_type": "milestone_congrats",
-  "email_variant": "v4_two_images",
-  "subject_style": "how_ai_sees_x",
-  "send_slot": "sun_thu_morning_local",
-  "contact_verified": "no",
-  "buying_journey": "committee",
-  "seo_need": "high"
- },
- "sources": [
-  {
-   "url": "Next Play email 'Should you join: Genesis Computing' (gmail thread 1a1f4dab9073dff8)",
-   "date": "2026-11-19",
-   "kind": "direct",
-   "result": "full profile read: founders, customers, $17.5M Series A, Prover, Vince Trotta, NYC marketing hiring"
-  },
-  {
-   "url": "https://genesiscomputing.com/",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "homepage raw HTML: Webflow, GTM, Clarity, RB2B, Vector, LinkedIn Insight"
-  },
-  {
-   "url": "https://genesiscomputing.com/about-us",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "team list (no marketing), founding story"
-  },
-  {
-   "url": "https://genesiscomputing.com/careers",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "11 open roles incl. Head of Marketing"
-  },
-  {
-   "url": "https://genesiscomputing.com/vacancies/vp-of-marketing-29c25",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "Head of Marketing JD"
-  },
-  {
-   "url": "https://genesiscomputing.com/sitemap.xml",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "107 URLs, 59 blog, no vs pages"
-  },
-  {
-   "url": "https://genesiscomputing.com/blog",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "58 dated posts 2025-06-04..2026-10-30"
-  },
-  {
-   "url": "https://genesiscomputing.com/blog/agentic-data-engineering",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "link-aware read; canonical to www.genesiscomputing.ai"
-  },
-  {
-   "url": "https://genesiscomputing.com/robots.txt",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "read"
-  },
-  {
-   "url": "https://genesiscomputing.com/llms.txt",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "read"
-  },
-  {
-   "url": "https://dns.google/resolve?name=genesiscomputing.com&type=TXT",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "google-site-verification x2, sending_domain token, SPF"
-  },
-  {
-   "url": "http://archive.org/wayback/available?url=genesiscomputing.ai",
-   "date": "accessed 2026-11-22",
-   "kind": "inferred",
-   "result": ".ai captures until 2026-03-07, .com from 2026-03-19"
-  },
-  {
-   "url": "https://www.sec.gov/Archives/edgar/data/2143657/000214365726000001/primary_doc.xml",
-   "date": "2026-07-07",
-   "kind": "direct",
-   "result": "Form D: $22.005M sold of $25.005M"
-  },
-  {
-   "url": "https://www.prnewswire.com/news-releases/genesis-computing-announced-as-validated-technology-partner-of-databricks-302797353.html",
-   "date": "2026-06-11",
-   "kind": "direct",
-   "result": "read via Bright Data; media contact Esther Katz"
-  },
-  {
-   "url": "https://www.prnewswire.com/news-releases/genesis-computing-recognised-in-gartners-coolest-vendor-innovations-in-data-management-302857986.html",
-   "date": "2026-08-25",
-   "kind": "direct",
-   "result": "read; media contact Esther Katz"
-  },
-  {
-   "url": "https://estherkatz.co",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "former Head of Marketing describes role in past tense"
-  },
-  {
-   "url": "https://estherkatz.com/about",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "Genesis listed among past roles"
-  },
-  {
-   "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Genesis+Computing%22+SEO+OR+content+OR+growth",
-   "date": "accessed 2026-11-22",
-   "kind": "inferred",
-   "result": "titles only: founders, engineers, AE, Esther Katz '5xCMO', Kevin Jong now at Horizon3"
-  },
-  {
-   "url": "https://www.google.com/search?q=%22Genesis+Computing%22+Series+A",
-   "date": "accessed 2026-11-22",
-   "kind": "unverified",
-   "result": "aggregators Fundup/Tracxn/CB Insights/PitchBook; also Genesis AI robotics collision"
-  },
-  {
-   "url": "https://datus.ai/blog/best-data-engineering-agents-2026/",
-   "date": "2026-06-02",
-   "kind": "direct",
-   "result": "8 agents compared; Genesis absent"
-  },
-  {
-   "url": "https://www.maia.ai/resources/blog",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "~124 posts, vs pages"
-  },
-  {
-   "url": "https://www.altimate.ai/blog",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "~59 posts, vs pages"
-  },
-  {
-   "url": "https://www.datafold.com/blog",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "~191 posts, migration content"
-  },
-  {
-   "url": "https://www.google.com/search?q=agentic+data+engineering",
-   "date": "accessed 2026-11-22",
-   "kind": "direct",
-   "result": "SERP recorded in seo_need.serp_checks (5 more queries likewise)"
-  }
- ],
- "sources_tried_failed": [
-  "LinkedIn company page linkedin.com/company/genesiscomputing via Bright Data: returned the app shell with no company data (failure)",
-  "Google site:linkedin.com/in 'Genesis Computing' marketing and 'head of marketing' OR 'VP Marketing' OR CMO: zero results parsed",
-  "Wayback snapshot pages (web.archive.org/web/2024.../genesiscomputing.ai): 403 direct, empty via curl; only the availability API worked",
-  "G2 alternatives page: 403 direct, empty via Bright Data",
-  "Ascend.io blog: 2 KB shell direct and via Bright Data",
-  "agentled.com alternatives URL guess: 404",
-  "Ashby/Greenhouse/Lever APIs and Comeet for 'genesiscomputing'/'genesis-computing': none / 404",
-  "No company press release of the Series A found (searched Google and PR Newswire)"
- ],
- "name_collisions": "Genesis AI (French robotics, $500M Series A, Nov 2026) dominates 'Genesis Series A' news; a different 'Genesis Computing' LinkedIn page (linkedin.com/company/genesis-computing, crypto/Fort Lauderdale cluster with Q Development, Neu.ro) appears in Similar pages; an SEC entity 'Genesis Computing Oct 2024 a Series of CGF2021 LLC' is an SPV, not the company.",
- "linkedin_checks_for_sponsor": [
-  "Genesis Computing company page (linkedin.com/company/genesiscomputing) -> People tab: anyone in marketing/content now? Has a new Head of Marketing been hired since the posting?",
-  "Is the Head of Marketing job still open on LinkedIn Jobs, and its posting date?",
-  "Confirm Esther Katz's Genesis end date (her headline still shows Genesis in Google's snippet)"
- ],
- "open_questions": [
-  "Round size: Next Play $17.5M vs Form D $22.0M sold (may include converted notes/SAFEs); no lead investor found",
-  "Whether the Head of Marketing has been filled (posting undated) and whether an agency runs the website/content in the interim",
-  "Exact date the canonical-to-.ai issue began (likely since the March 2026 domain move); worth confirming in the audit with a crawl"
- ]
+  "name_collisions": "Genesis AI (French robotics, $500M Series A, Nov 2026) dominates 'Genesis Series A' news; a different 'Genesis Computing' LinkedIn page (linkedin.com/company/genesis-computing, crypto/Fort Lauderdale cluster with Q Development, Neu.ro) appears in Similar pages; an SEC entity 'Genesis Computing Oct 2024 a Series of CGF2021 LLC' is an SPV, not the company.",
+  "linkedin_checks_for_sponsor": [
+    "Genesis Computing company page (linkedin.com/company/genesiscomputing) -> People tab: anyone in marketing/content now? Has a new Head of Marketing been hired since the posting?",
+    "Is the Head of Marketing job still open on LinkedIn Jobs, and its posting date?",
+    "Confirm Esther Katz's Genesis end date (her headline still shows Genesis in Google's snippet)"
+  ],
+  "open_questions": [
+    "Round size: Next Play $17.5M vs Form D $22.0M sold (may include converted notes/SAFEs); no lead investor found",
+    "Whether the Head of Marketing has been filled (posting undated) and whether an agency runs the website/content in the interim",
+    "Exact date the canonical-to-.ai issue began (likely since the March 2026 domain move); worth confirming in the audit with a crawl"
+  ],
+  "b2b": true
 }

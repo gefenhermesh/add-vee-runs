@@ -325,5 +325,6 @@
     "Is there an outside SEO/web agency (theme name 'axe-web' may be an agency)?",
     "Is the marketing team planning comparison/category content around re:Invent, which would make the timing either ideal or crowded?",
     "Gartner CAIRS coverage: is Dreeze named in a Gartner note yet?"
-  ]
+  ],
+  "b2b": true
 }

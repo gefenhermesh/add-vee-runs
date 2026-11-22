@@ -82,17 +82,38 @@ def cmd_add(slugs):
             print(f"{slug}: already in state.json")
             continue
         state["prospects"].append({"slug": slug, "company": rec["company"], "domain": rec["domain"], "status": "proposed",
+                                   "b2b": rec.get("b2b", True),
                                    "reason": rec["reason"], "gating_rating": rec["gating_rating"],
                                    "features": rec["features"], "source": "scout"})
         print(f"{slug}: proposed")
     state_p.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
 
 
+NON_B2B_SHARE = 0.2  # SCOUT.md "Who fits": non-B2B startups are explore picks, at most 1 in 5 of a batch
+
+
+def capped_pick(rows, cands, n, at):
+    """learn.pick, then keep at most max(1, round(n * NON_B2B_SHARE)) non-B2B companies; refill from B2B ones."""
+    cap = max(1, round(n * NON_B2B_SHARE))
+    picks = learn.pick(rows, cands, n, at)
+    keep, non = [], 0
+    for c in picks:
+        if c.get("b2b", True) or non < cap:
+            non += not c.get("b2b", True)
+            keep.append(c)
+    if len(keep) < n:
+        chosen = {c["slug"] for c in keep}
+        pool = [c for c in cands if c.get("b2b", True) and c["slug"] not in chosen]
+        keep += learn.pick(rows, pool, n - len(keep), at)
+    return keep
+
+
 def cmd_pick(n):
     state = json.loads((ROOT / "campaign" / "state.json").read_text())
-    cands = [{"slug": p["slug"], "features": p.get("features", {})} for p in state["prospects"] if p.get("status") == "proposed"]
+    cands = [{"slug": p["slug"], "b2b": p.get("b2b", True), "features": p.get("features", {})}
+             for p in state["prospects"] if p.get("status") == "proposed"]
     (HERE / "candidates.json").write_text(json.dumps(cands, indent=1) + "\n")
-    picks = learn.pick(learn.load(), cands, n, learn.now())
+    picks = capped_pick(learn.load(), cands, n, learn.now())
     for c in picks:
         print(f"{c['why_picked']:8s} {c['slug']}")
     return picks

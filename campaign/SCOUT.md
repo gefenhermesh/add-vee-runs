@@ -12,12 +12,25 @@ Built on the sponsor's earlier scouting system (Sept 2026, about 21 Israeli cybe
 3. **Recon (broad, not a checklist).** For each survivor, read the signals, connect them, and estimate **what stage the company is in, what is changing, and where it's heading**. A thin company gets three sentences and a low-confidence note. Don't pad it.
 4. **Score and propose.** Only the companies that earned it, each with the reason, and the reason for every exclusion.
 
-## Who fits: a considered purchase, not only B2B (sponsor, 2026-11-22)
-add-vee studies **buying committees and buying journeys**: who researches, who weighs in, what they ask along the way. So the test is not "is it B2B?" but **"is the purchase considered?"**:
-- **Buying committee:** several people decide or weigh in (e.g. a CFO, users, IT/security, legal, auditors). Classic B2B, but also fund administration, healthcare providers and payers, schools and universities, law firms, insurers, construction, nonprofits buying software.
-- **Long or high-stakes journey:** a research phase, comparisons, high price, high switching cost or regulatory risk, even with one or two buyers (e.g. a high-value home service, specialist healthcare, wealth and financial products, education programs).
-- **Not a fit:** impulse or low-consideration purchases (casual apps, games, cheap consumer goods), where no one researches or compares.
-Record it as the `buying_journey` feature: `committee`, `considered` (long or high-stakes, few decision makers) or `transactional` (don't propose). Keep the mix varied here too: B2B committee purchases stay the core, with considered non-B2B companies as deliberate explore picks.
+## Who fits (sponsor, 2026-11-22)
+**The universe is startups:** venture-backed, tech-enabled companies of the kind found in Next Play, VC Cafe Firgun, Avi Lewis' lists and funding news, in Israel, the US or the EU. Not traditional businesses, agencies or local services, whatever their category.
+
+**The test:** can AI answers change who gets shortlisted in a researched purchase? add-vee reads whole buyer conversations, so it pays off when (1) there is a real research journey (options, "X vs Y", "is X legit", cost, risks), (2) several people weigh in with their own questions, (3) each customer is worth a lot, and (4) there is a contest for the answer (competitors, review and comparison sites) plus a marketing function that can act on it.
+
+**Priority: B2B first.** B2B startups with a buying committee are the core of every batch: they meet all four most often, there is a marketing leader to write to, and the outreach and report were built for them. **B2B alone isn't a match:** a small, known, relationship/RFP-led buyer set fails (Capitolis, 2026-11-21: low SEO need).
+
+**Non-B2B startups: explore picks, at most 1 in 5 of a batch** (enforced by `propose.py pick`). They fit when the purchase is considered and, best of all, a household acts as the committee:
+- care decided by a family (senior care, autism and mental-health care, fertility, specialist clinics: e.g. Prosper Health);
+- education programs (student, parents, payer);
+- money decisions (wealth, insurance, mortgages: affiliate sites shape the answers);
+- high-ticket home projects (solar, remodelling, painting: weaker, local map results decide a lot; Craftwork = medium need);
+- consumer legal services;
+- B2B2C and two-sided marketplaces: judge the business side first.
+
+**Not a match, B2B or not:** impulse or cheap purchases (casual apps, games, low-ticket shopping); urgent local services with no research phase; relationship/RFP-only markets; dominant brands everyone knows (usually with SEO teams); nothing to audit yet (stealth, no product pages); categories where claims are heavily restricted (e.g. prescription drugs).
+
+Record `"b2b": true|false` in scout.json, and the `buying_journey` feature: `committee` (business buying committee), `household` (a family or couple decides), `considered` (long or high-stakes journey, one or two deciders) or `transactional` (don't propose).
+**Open check:** confirm in the add-vee repo that the report and personas handle a household committee as well as a business one before a non-B2B company's audit runs.
 
 ## The signals that mattered most in practice
 - **New or renamed category language** (e.g. "Agentic Exposure Management"). It usually comes with an education/content push.

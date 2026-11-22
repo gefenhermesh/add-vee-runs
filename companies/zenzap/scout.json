@@ -349,5 +349,6 @@
     "The VP Marketing has SEO background (Spot), so he may see the audit as his own territory. The angle should be the category shift (chat app -> AI agents), not basic SEO hygiene.",
     "Size: Calcalist says 45 employees (Oct 2026), LinkedIn says 51-200; size_band set to 1_50.",
     "Mainly PLG/SMB (frontline teams, restaurants, clinics) plus enterprise/sales-led. Less classic B2B enterprise than the usual target."
-  ]
+  ],
+  "b2b": true
 }

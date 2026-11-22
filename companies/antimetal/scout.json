@@ -11,9 +11,21 @@
   "marketing_leadership": {
     "status": "found",
     "who": [
-      {"name": "Yohan Sudheer", "role": "Head of Growth", "kind": "direct (Google site:linkedin.com/in result title; author meta on antimetal.com/guides/mttr-mean-time-to-repair)"},
-      {"name": "Charlie O'Neil", "role": "Growth and GTM", "kind": "direct (search title; author meta on antimetal.com/guides/observability-platforms-incident-response-automation)"},
-      {"name": "Johnathan Bridges", "role": "Marketing at Antimetal", "kind": "unverified (search result title only)"}
+      {
+        "name": "Yohan Sudheer",
+        "role": "Head of Growth",
+        "kind": "direct (Google site:linkedin.com/in result title; author meta on antimetal.com/guides/mttr-mean-time-to-repair)"
+      },
+      {
+        "name": "Charlie O'Neil",
+        "role": "Growth and GTM",
+        "kind": "direct (search title; author meta on antimetal.com/guides/observability-platforms-incident-response-automation)"
+      },
+      {
+        "name": "Johnathan Bridges",
+        "role": "Marketing at Antimetal",
+        "kind": "unverified (search result title only)"
+      }
     ],
     "evidence": [
       "Google via BD 'site:linkedin.com/in \"Antimetal\" marketing' 2026-11-22: titles 'Yohan Sudheer - Head of Growth at Antimetal', 'Johnathan Bridges - Marketing at Antimetal', 'Charlie O'Neil - Growth at Antimetal', 'Owen Zoubek - GTM at Antimetal'",
@@ -40,14 +52,54 @@
     "source": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28"
   },
   "fit_evidence": [
-    {"claim": "buying_journey=committee: an enterprise/infra purchase that touches production access (SOC 2/GDPR/HIPAA claims, trust center, 'Book a demo' sales motion), weighed in on by eng leadership, SRE/platform teams and security", "kind": "inferred", "url": "https://antimetal.com/", "date": "accessed 2026-11-22"},
-    {"claim": "$20M Series A led by Sound Ventures, announced 12 Jun 2025 (PR Newswire, also BuiltIn NYC); aggregators say $24.3M total over 2 rounds", "kind": "direct", "url": "https://www.prnewswire.com/news/antimetal", "date": "2025-06-12"},
-    {"claim": "Pivot: in Jun 2024 the homepage read 'Save time & money on AWS'; by Jun 2025 it read 'It's time to rethink infrastructure'; now it reads 'The Autonomous System for Production'", "kind": "direct", "url": "http://web.archive.org/web/20240602150824/https://antimetal.com/", "date": "2024-06-02"},
-    {"claim": "Marketing JD: 'help define Antimetal's narrative and positioning ... play a significant role in our upcoming company launch ... help Antimetal cut through the noise'. 1-4 yrs experience, in-person NYC, no SEO mention", "kind": "direct", "url": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28", "date": "2026-07-21"},
-    {"claim": "In-house GEO-style content: 15 guides from 2026-08-04 to 2026-10-26 (none since), e.g. 'Best RCA Tools for SRE Teams (October 2026)', which ranks Antimetal 'Best Overall'", "kind": "direct", "url": "https://antimetal.com/guides/rca-tools-comparison", "date": "2026-10-26"},
-    {"claim": "Antimetal does not appear in Google's top results for 'best AI SRE tools', 'AI SRE platform' or 'best RCA tools for SRE teams' (0 mentions on the result pages); Resolve, Traversal, Cleric, incident.io and Datadog Bits do", "kind": "direct", "url": "https://www.google.com/search?q=best+AI+SRE+tools", "date": "2026-11-22"},
-    {"claim": "Google 'Antimetal vs' / 'Antimetal alternatives': every organic result (Product Hunt, CB Insights, StackShare, SourceForge, AlternativeTo, PeerSpot, Spotsaas, the last dated 2026-11-08) frames Antimetal as an AWS/cloud-cost tool (Zesty, CloudZero, nOps, Kubecost, Usage.ai). Komodor ('Autonomous AI SRE Platform') and Port.io ('AI SRE') run sponsored ads on 'Antimetal vs'", "kind": "direct", "url": "https://www.google.com/search?q=Antimetal+vs", "date": "2026-11-22"},
-    {"claim": "Antimetal has no comparison/vs/alternatives pages of its own (178-URL sitemap: home, 7 blog posts, 15 guides, 70 glossary, about 80 integrations)", "kind": "direct", "url": "https://antimetal.com/sitemap.xml", "date": "2026-11-16"}
+    {
+      "claim": "buying_journey=committee: an enterprise/infra purchase that touches production access (SOC 2/GDPR/HIPAA claims, trust center, 'Book a demo' sales motion), weighed in on by eng leadership, SRE/platform teams and security",
+      "kind": "inferred",
+      "url": "https://antimetal.com/",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "$20M Series A led by Sound Ventures, announced 12 Jun 2025 (PR Newswire, also BuiltIn NYC); aggregators say $24.3M total over 2 rounds",
+      "kind": "direct",
+      "url": "https://www.prnewswire.com/news/antimetal",
+      "date": "2025-06-12"
+    },
+    {
+      "claim": "Pivot: in Jun 2024 the homepage read 'Save time & money on AWS'; by Jun 2025 it read 'It's time to rethink infrastructure'; now it reads 'The Autonomous System for Production'",
+      "kind": "direct",
+      "url": "http://web.archive.org/web/20240602150824/https://antimetal.com/",
+      "date": "2024-06-02"
+    },
+    {
+      "claim": "Marketing JD: 'help define Antimetal's narrative and positioning ... play a significant role in our upcoming company launch ... help Antimetal cut through the noise'. 1-4 yrs experience, in-person NYC, no SEO mention",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28",
+      "date": "2026-07-21"
+    },
+    {
+      "claim": "In-house GEO-style content: 15 guides from 2026-08-04 to 2026-10-26 (none since), e.g. 'Best RCA Tools for SRE Teams (October 2026)', which ranks Antimetal 'Best Overall'",
+      "kind": "direct",
+      "url": "https://antimetal.com/guides/rca-tools-comparison",
+      "date": "2026-10-26"
+    },
+    {
+      "claim": "Antimetal does not appear in Google's top results for 'best AI SRE tools', 'AI SRE platform' or 'best RCA tools for SRE teams' (0 mentions on the result pages); Resolve, Traversal, Cleric, incident.io and Datadog Bits do",
+      "kind": "direct",
+      "url": "https://www.google.com/search?q=best+AI+SRE+tools",
+      "date": "2026-11-22"
+    },
+    {
+      "claim": "Google 'Antimetal vs' / 'Antimetal alternatives': every organic result (Product Hunt, CB Insights, StackShare, SourceForge, AlternativeTo, PeerSpot, Spotsaas, the last dated 2026-11-08) frames Antimetal as an AWS/cloud-cost tool (Zesty, CloudZero, nOps, Kubecost, Usage.ai). Komodor ('Autonomous AI SRE Platform') and Port.io ('AI SRE') run sponsored ads on 'Antimetal vs'",
+      "kind": "direct",
+      "url": "https://www.google.com/search?q=Antimetal+vs",
+      "date": "2026-11-22"
+    },
+    {
+      "claim": "Antimetal has no comparison/vs/alternatives pages of its own (178-URL sitemap: home, 7 blog posts, 15 guides, 70 glossary, about 80 integrations)",
+      "kind": "direct",
+      "url": "https://antimetal.com/sitemap.xml",
+      "date": "2026-11-16"
+    }
   ],
   "site_and_content": {
     "cms_stack": "Next.js site (/_next/ assets), Google Tag Manager; llms.txt and llms-full.txt plus a .md version of every page; robots allows all. DNS TXT: Google Workspace SPF, 4 google-site-verification tokens, anthropic-domain-verification. No HubSpot/Marketo token",
@@ -63,16 +115,51 @@
   "jobs": {
     "board": "ashby (api.ashbyhq.com/posting-api/job-board/antimetal), 9 open roles, all HQ NYC",
     "marketing_roles": [
-      {"title": "Marketing", "department": "Growth", "published": "2026-07-21", "comp": "$150K-$250K + equity", "url": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28", "notes": "Read in full. Early, hands-on generalist (1-4 yrs): narrative/positioning/messaging, 'upcoming company launch' across content, social, events, partnerships, OOH; experiments across channels. Bonus: devtools/observability/AI experience, uses Claude Code. In-person NYC. No SEO/organic/AI-search mention; no reporting line stated (founder interview in the loop)"},
-      {"title": "Sales Development Representative", "department": "Growth", "published": "2026-05-11", "comp": "$100K-$200K + equity + commission", "url": "https://jobs.ashbyhq.com/antimetal/b1ea5a85-85e1-499e-9f9c-1275bddf2efe", "notes": "High-volume automated outbound, book of about 50 target accounts, SMB deals"}
+      {
+        "title": "Marketing",
+        "department": "Growth",
+        "published": "2026-07-21",
+        "comp": "$150K-$250K + equity",
+        "url": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28",
+        "notes": "Read in full. Early, hands-on generalist (1-4 yrs): narrative/positioning/messaging, 'upcoming company launch' across content, social, events, partnerships, OOH; experiments across channels. Bonus: devtools/observability/AI experience, uses Claude Code. In-person NYC. No SEO/organic/AI-search mention; no reporting line stated (founder interview in the loop)"
+      },
+      {
+        "title": "Sales Development Representative",
+        "department": "Growth",
+        "published": "2026-05-11",
+        "comp": "$100K-$200K + equity + commission",
+        "url": "https://jobs.ashbyhq.com/antimetal/b1ea5a85-85e1-499e-9f9c-1275bddf2efe",
+        "notes": "High-volume automated outbound, book of about 50 target accounts, SMB deals"
+      }
     ],
     "seo_roles": [],
     "other": "Design Engineer, Product Designer, Visual Designer, Platform Engineer, Product Engineer, Product Engineer - Agents, Research Engineer (all 2026-07-28). The design hiring fits a launch/brand push"
   },
   "contacts": [
-    {"name": "Yohan Sudheer", "role": "Head of Growth", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title (2026-11-22); author meta on antimetal.com/guides/mttr-mean-time-to-repair", "recipient_rank": 1},
-    {"name": "Matthew Parkhurst", "role": "Co-Founder, CEO", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title; Next Play 2026-11-19 ('Matthew from Antimetal')", "recipient_rank": 2},
-    {"name": "Charlie O'Neil", "role": "Growth and GTM", "email": null, "email_verified": false, "source": "Google site:linkedin.com/in result title; author meta on antimetal.com guides", "recipient_rank": 3}
+    {
+      "name": "Yohan Sudheer",
+      "role": "Head of Growth",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result title (2026-11-22); author meta on antimetal.com/guides/mttr-mean-time-to-repair",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Matthew Parkhurst",
+      "role": "Co-Founder, CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result title; Next Play 2026-11-19 ('Matthew from Antimetal')",
+      "recipient_rank": 2
+    },
+    {
+      "name": "Charlie O'Neil",
+      "role": "Growth and GTM",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in result title; author meta on antimetal.com guides",
+      "recipient_rank": 3
+    }
   ],
   "outreach_angle": {
     "hook": "Ahead of the 'upcoming company launch' (their JD), search still tells the old story. On Google, 'Antimetal vs' and 'Antimetal alternatives' return only pages that file Antimetal as an AWS cost tool (Zesty, CloudZero, nOps, Spotsaas dated Nov 2026), Komodor and Port.io buy ads on 'Antimetal vs', and Antimetal is missing from 'best AI SRE tools' results where Resolve, Traversal and Cleric appear. The audit shows how ChatGPT/Gemini describe Antimetal now (AWS cost or AI SRE?) and which pages to fix before launch.",
@@ -83,18 +170,106 @@
     "rating": "high",
     "buyer_research": "Self-researched and heavily compared. SRE/platform leads shortlist 'AI SRE' tools from listicles, Reddit threads ('AI SRE tools in 2026 - updated list', 70+ comments) and GitHub awesome-lists, then run a POC. A large buyer set (any software company with on-call). Vendors and listicles dominate the SERPs. PeerSpot still lists Antimetal under AWS Management, an outdated category",
     "competitors": [
-      {"name": "Rootly", "seo_investment": "Heavy: 1,045-URL sitemap, 272 blog URLs, 37 vs/alternatives pages (rootly-vs-incident-io, ...), 34 'best-' listicles, an AI SRE guide", "evidence_url": "https://rootly.com/sitemap.xml"},
-      {"name": "Traversal", "seo_investment": "Strong: 85 blog URLs, 40 glossary terms, 5 comparison pages (traversal-vs-resolve-ai, -vs-rootly, -vs-neubird, -vs-incident-io, -vs-datadog), 'best-' listicles; updated 2026-11-20", "evidence_url": "https://www.traversal.com/sitemap.xml"},
-      {"name": "Resolve AI", "seo_investment": "Strong: 60 blog URLs, 46 glossary pages including 'pagerduty-sre-agent-vs-resolve-ai' and 'aws-devops-agent-alternative', an AI SRE buyer's guide ebook, a build-vs-buy calculator", "evidence_url": "https://resolve.ai/sitemap.xml"},
-      {"name": "Komodor", "seo_investment": "Paid search on Antimetal's brand term ('Komodor: AI SRE Platform' ad on 'Antimetal vs'); sitemap returned 403", "evidence_url": "https://www.google.com/search?q=Antimetal+vs"},
-      {"name": "Cleric", "seo_investment": "Lighter: a blog with author pages; no vs pages seen in sitemap-0", "evidence_url": "https://cleric.ai/sitemap-0.xml"}
+      {
+        "name": "Rootly",
+        "seo_investment": "Heavy: 1,045-URL sitemap, 272 blog URLs, 37 vs/alternatives pages (rootly-vs-incident-io, ...), 34 'best-' listicles, an AI SRE guide",
+        "evidence_url": "https://rootly.com/sitemap.xml"
+      },
+      {
+        "name": "Traversal",
+        "seo_investment": "Strong: 85 blog URLs, 40 glossary terms, 5 comparison pages (traversal-vs-resolve-ai, -vs-rootly, -vs-neubird, -vs-incident-io, -vs-datadog), 'best-' listicles; updated 2026-11-20",
+        "evidence_url": "https://www.traversal.com/sitemap.xml"
+      },
+      {
+        "name": "Resolve AI",
+        "seo_investment": "Strong: 60 blog URLs, 46 glossary pages including 'pagerduty-sre-agent-vs-resolve-ai' and 'aws-devops-agent-alternative', an AI SRE buyer's guide ebook, a build-vs-buy calculator",
+        "evidence_url": "https://resolve.ai/sitemap.xml"
+      },
+      {
+        "name": "Komodor",
+        "seo_investment": "Paid search on Antimetal's brand term ('Komodor: AI SRE Platform' ad on 'Antimetal vs'); sitemap returned 403",
+        "evidence_url": "https://www.google.com/search?q=Antimetal+vs"
+      },
+      {
+        "name": "Cleric",
+        "seo_investment": "Lighter: a blog with author pages; no vs pages seen in sitemap-0",
+        "evidence_url": "https://cleric.ai/sitemap-0.xml"
+      }
     ],
     "serp_checks": [
-      {"query": "best AI SRE tools", "top_results": ["xurrent.com/blog/best-ai-sre-tools", "Reddit: AI SRE tools in 2026 - updated list", "github.com/agamm/awesome-ai-sre", "sherlocks.ai Top 13 AI SRE Tools", "community.ibm.com best SRE automation tools", "nudgebee.com 7 best autonomous AI SRE platforms", "edgedelta.com ai-sre-tools", "answers.databricks.com", "stackgen.com buyer's guide"], "date": "2026-11-22"},
-      {"query": "AI SRE platform", "top_results": ["pagerduty.com blog", "lyzr.ai AI SRE agent", "fluidify.ai comparison", "hackernoon 4 AI-powered SRE tools", "economicmind.com", "replicas.dev best AI SRE tools", "polaris7.io"], "date": "2026-11-22"},
-      {"query": "best RCA tools for SRE teams", "top_results": ["sherlocks.ai top 11 RCA tools", "nofire.ai glossary", "sre.google workbook", "aurorasre.ai", "rootly.com 10 SRE tools", "dev.to", "solarwinds.com", "zentor.ai 8 best AI SRE tools"], "date": "2026-11-22"},
-      {"query": "Antimetal vs", "top_results": ["[ad] komodor.com AI SRE Platform", "[ad] port.io AI SRE", "producthunt Antimetal alternatives (AWS costs)", "cbinsights (CloudGenera, Zesty)", "stackshare", "sourceforge Antimetal vs Usage.ai", "alternativeto (LevelFour, Costimize, AWS CloudCost)", "peerspot (AWSM category)", "taloflow vs Nutanix Cloud Manager", "spotsaas vs CloudOptics (2026-09-30)"], "date": "2026-11-22"},
-      {"query": "Antimetal alternatives", "top_results": ["producthunt", "cbinsights", "stackshare", "peerspot (Virtasant Cloud Optimization)", "alternativeto", "getaob.com", "sourceforge (CloudZero)", "spotsaas (Densify, nOps, Kubecost; 2026-11-08)", "antimetal.com/guides/incident-management-software-devops"], "date": "2026-11-22"}
+      {
+        "query": "best AI SRE tools",
+        "top_results": [
+          "xurrent.com/blog/best-ai-sre-tools",
+          "Reddit: AI SRE tools in 2026 - updated list",
+          "github.com/agamm/awesome-ai-sre",
+          "sherlocks.ai Top 13 AI SRE Tools",
+          "community.ibm.com best SRE automation tools",
+          "nudgebee.com 7 best autonomous AI SRE platforms",
+          "edgedelta.com ai-sre-tools",
+          "answers.databricks.com",
+          "stackgen.com buyer's guide"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "AI SRE platform",
+        "top_results": [
+          "pagerduty.com blog",
+          "lyzr.ai AI SRE agent",
+          "fluidify.ai comparison",
+          "hackernoon 4 AI-powered SRE tools",
+          "economicmind.com",
+          "replicas.dev best AI SRE tools",
+          "polaris7.io"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "best RCA tools for SRE teams",
+        "top_results": [
+          "sherlocks.ai top 11 RCA tools",
+          "nofire.ai glossary",
+          "sre.google workbook",
+          "aurorasre.ai",
+          "rootly.com 10 SRE tools",
+          "dev.to",
+          "solarwinds.com",
+          "zentor.ai 8 best AI SRE tools"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "Antimetal vs",
+        "top_results": [
+          "[ad] komodor.com AI SRE Platform",
+          "[ad] port.io AI SRE",
+          "producthunt Antimetal alternatives (AWS costs)",
+          "cbinsights (CloudGenera, Zesty)",
+          "stackshare",
+          "sourceforge Antimetal vs Usage.ai",
+          "alternativeto (LevelFour, Costimize, AWS CloudCost)",
+          "peerspot (AWSM category)",
+          "taloflow vs Nutanix Cloud Manager",
+          "spotsaas vs CloudOptics (2026-09-30)"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "Antimetal alternatives",
+        "top_results": [
+          "producthunt",
+          "cbinsights",
+          "stackshare",
+          "peerspot (Virtasant Cloud Optimization)",
+          "alternativeto",
+          "getaob.com",
+          "sourceforge (CloudZero)",
+          "spotsaas (Densify, nOps, Kubecost; 2026-11-08)",
+          "antimetal.com/guides/incident-management-software-devops"
+        ],
+        "date": "2026-11-22"
+      }
     ],
     "cost_of_absence": "A category pivot that search hasn't caught up with, right before a launch. Anyone checking 'Antimetal vs/alternatives' lands on pages describing an AWS cost tool and compared to Zesty or CloudZero, while competitors (Komodor, Port) buy ads on the brand term. In the generic category queries Antimetal is missing, while Rootly, Traversal and Resolve compete with vs pages and listicles. Antimetal has none. AI answers built on that third-party corpus probably repeat the old FinOps framing (unconfirmed; that's for the audit).",
     "why_not_yet": "never_prioritized for depth, not absent: a small growth team started a templated GEO listicle/glossary program in Aug 2026 but has published no comparison pages, left the legacy third-party footprint untouched and slowed after Oct 26. Hypothesis: launch, outbound and events take priority (the SDR JD describes tens of thousands of sends a day).",
@@ -124,32 +299,162 @@
     "seo_need": "high"
   },
   "sources": [
-    {"url": "gmail thread 1a1f4da53a13d5c0 (Next Play, fwd to gefen@etico.cr)", "date": "2026-11-19", "kind": "direct", "result": "Antimetal entry: early marketer + SDR, NYC, 'Matthew from Antimetal'"},
-    {"url": "https://api.ashbyhq.com/posting-api/job-board/antimetal", "date": "accessed 2026-11-22", "kind": "direct", "result": "9 roles; Marketing and SDR JDs read in full"},
-    {"url": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28", "date": "2026-07-21", "kind": "direct", "result": "Marketing JD (via the API descriptionPlain)"},
-    {"url": "https://antimetal.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "'The Autonomous System for Production'; Next.js + GTM"},
-    {"url": "https://antimetal.com/sitemap.xml", "date": "2026-11-16", "kind": "direct", "result": "178 URLs; no comparison pages"},
-    {"url": "https://antimetal.com/llms.txt", "date": "accessed 2026-11-22", "kind": "direct", "result": "Guide/glossary/integration index"},
-    {"url": "https://antimetal.com/guides/rca-tools-comparison", "date": "2026-10-26", "kind": "direct", "result": "Listicle template, Antimetal #1; link-aware read: 11 internal links"},
-    {"url": "https://antimetal.com/guides/mttr-mean-time-to-repair", "date": "2026-08-05", "kind": "direct", "result": "Author meta Yohan Sudheer"},
-    {"url": "https://antimetal.com/guides/observability-platforms-incident-response-automation", "date": "2026-08-04", "kind": "direct", "result": "Author meta Charlie O'Neil"},
-    {"url": "https://antimetal.com/blog/the-future-of-infrastructure-is-invisible", "date": "2025-06-12", "kind": "direct", "result": "Series A-day essay by Shreyas Iyer (pivot narrative: 'worked with hundreds of companies ... to optimize their infrastructure')"},
-    {"url": "https://antimetal.com/careers", "date": "accessed 2026-11-22", "kind": "direct", "result": "Backers listed: Sound Ventures, Buckley Ventures, Nat Friedman, Daniel Gross, Aravind Srinivas, Naval Ravikant; static HTML says 'No open roles'"},
-    {"url": "https://dns.google/resolve?name=antimetal.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "Google SPF, google-site-verification x4, anthropic-domain-verification"},
-    {"url": "http://web.archive.org/web/20240602150824/https://antimetal.com/", "date": "2024-06-02", "kind": "direct", "result": "'Save time & money on AWS' (fetched via Bright Data; a direct fetch was blocked by egress)"},
-    {"url": "http://web.archive.org/web/20250616105433/https://antimetal.com/", "date": "2025-06-16", "kind": "direct", "result": "'It's time to rethink infrastructure', early access"},
-    {"url": "https://www.linkedin.com/company/antimetal", "date": "accessed 2026-11-22", "kind": "direct", "result": "Via BD: NYC, 11-50, 32 employees, 6,744 followers; LangChain spotlight says 'private beta'"},
-    {"url": "https://www.prnewswire.com/news/antimetal", "date": "2025-06-12", "kind": "direct", "result": "Google snippet of the PR Newswire release: '$20 million Series A led by Sound Ventures' (my guessed release URL 404'd)"},
-    {"url": "https://www.builtinnyc.com/articles/antimetal-raises-20m-series-a", "date": "2025-06-17", "kind": "inferred", "result": "Google snippet only: $20M Series A, beta launch"},
-    {"url": "https://tracxn.com/d/companies/antimetal", "date": "2026-09-19", "kind": "unverified", "result": "Snippet: $24.3M over 2 rounds"},
-    {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Antimetal%22+marketing", "date": "2026-11-22", "kind": "direct", "result": "Titles only: Head of Growth, Marketing, Growth, GTM; no SEO"},
-    {"url": "https://www.google.com/search?q=best+AI+SRE+tools", "date": "2026-11-22", "kind": "direct", "result": "Antimetal absent"},
-    {"url": "https://www.google.com/search?q=Antimetal+vs", "date": "2026-11-22", "kind": "direct", "result": "FinOps-framed third-party pages; Komodor and Port ads"},
-    {"url": "https://www.google.com/search?q=Antimetal+alternatives", "date": "2026-11-22", "kind": "direct", "result": "Same FinOps framing"},
-    {"url": "https://rootly.com/sitemap.xml", "date": "2026-11-21", "kind": "direct", "result": "1,045 URLs, 37 vs pages"},
-    {"url": "https://www.traversal.com/sitemap.xml", "date": "2026-11-20", "kind": "direct", "result": "180 URLs, 5 comparison pages"},
-    {"url": "https://resolve.ai/sitemap.xml", "date": "2026-11-22", "kind": "direct", "result": "252 URLs, vs/alternative glossary pages"},
-    {"url": "https://cleric.ai/sitemap-0.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "Blog + author pages"}
+    {
+      "url": "gmail thread 1a1f4da53a13d5c0 (Next Play, fwd to gefen@etico.cr)",
+      "date": "2026-11-19",
+      "kind": "direct",
+      "result": "Antimetal entry: early marketer + SDR, NYC, 'Matthew from Antimetal'"
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/antimetal",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "9 roles; Marketing and SDR JDs read in full"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/antimetal/c7fd44d8-514f-47b8-86af-3906954d9f28",
+      "date": "2026-07-21",
+      "kind": "direct",
+      "result": "Marketing JD (via the API descriptionPlain)"
+    },
+    {
+      "url": "https://antimetal.com/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "'The Autonomous System for Production'; Next.js + GTM"
+    },
+    {
+      "url": "https://antimetal.com/sitemap.xml",
+      "date": "2026-11-16",
+      "kind": "direct",
+      "result": "178 URLs; no comparison pages"
+    },
+    {
+      "url": "https://antimetal.com/llms.txt",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Guide/glossary/integration index"
+    },
+    {
+      "url": "https://antimetal.com/guides/rca-tools-comparison",
+      "date": "2026-10-26",
+      "kind": "direct",
+      "result": "Listicle template, Antimetal #1; link-aware read: 11 internal links"
+    },
+    {
+      "url": "https://antimetal.com/guides/mttr-mean-time-to-repair",
+      "date": "2026-08-05",
+      "kind": "direct",
+      "result": "Author meta Yohan Sudheer"
+    },
+    {
+      "url": "https://antimetal.com/guides/observability-platforms-incident-response-automation",
+      "date": "2026-08-04",
+      "kind": "direct",
+      "result": "Author meta Charlie O'Neil"
+    },
+    {
+      "url": "https://antimetal.com/blog/the-future-of-infrastructure-is-invisible",
+      "date": "2025-06-12",
+      "kind": "direct",
+      "result": "Series A-day essay by Shreyas Iyer (pivot narrative: 'worked with hundreds of companies ... to optimize their infrastructure')"
+    },
+    {
+      "url": "https://antimetal.com/careers",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Backers listed: Sound Ventures, Buckley Ventures, Nat Friedman, Daniel Gross, Aravind Srinivas, Naval Ravikant; static HTML says 'No open roles'"
+    },
+    {
+      "url": "https://dns.google/resolve?name=antimetal.com&type=TXT",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Google SPF, google-site-verification x4, anthropic-domain-verification"
+    },
+    {
+      "url": "http://web.archive.org/web/20240602150824/https://antimetal.com/",
+      "date": "2024-06-02",
+      "kind": "direct",
+      "result": "'Save time & money on AWS' (fetched via Bright Data; a direct fetch was blocked by egress)"
+    },
+    {
+      "url": "http://web.archive.org/web/20250616105433/https://antimetal.com/",
+      "date": "2025-06-16",
+      "kind": "direct",
+      "result": "'It's time to rethink infrastructure', early access"
+    },
+    {
+      "url": "https://www.linkedin.com/company/antimetal",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Via BD: NYC, 11-50, 32 employees, 6,744 followers; LangChain spotlight says 'private beta'"
+    },
+    {
+      "url": "https://www.prnewswire.com/news/antimetal",
+      "date": "2025-06-12",
+      "kind": "direct",
+      "result": "Google snippet of the PR Newswire release: '$20 million Series A led by Sound Ventures' (my guessed release URL 404'd)"
+    },
+    {
+      "url": "https://www.builtinnyc.com/articles/antimetal-raises-20m-series-a",
+      "date": "2025-06-17",
+      "kind": "inferred",
+      "result": "Google snippet only: $20M Series A, beta launch"
+    },
+    {
+      "url": "https://tracxn.com/d/companies/antimetal",
+      "date": "2026-09-19",
+      "kind": "unverified",
+      "result": "Snippet: $24.3M over 2 rounds"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Antimetal%22+marketing",
+      "date": "2026-11-22",
+      "kind": "direct",
+      "result": "Titles only: Head of Growth, Marketing, Growth, GTM; no SEO"
+    },
+    {
+      "url": "https://www.google.com/search?q=best+AI+SRE+tools",
+      "date": "2026-11-22",
+      "kind": "direct",
+      "result": "Antimetal absent"
+    },
+    {
+      "url": "https://www.google.com/search?q=Antimetal+vs",
+      "date": "2026-11-22",
+      "kind": "direct",
+      "result": "FinOps-framed third-party pages; Komodor and Port ads"
+    },
+    {
+      "url": "https://www.google.com/search?q=Antimetal+alternatives",
+      "date": "2026-11-22",
+      "kind": "direct",
+      "result": "Same FinOps framing"
+    },
+    {
+      "url": "https://rootly.com/sitemap.xml",
+      "date": "2026-11-21",
+      "kind": "direct",
+      "result": "1,045 URLs, 37 vs pages"
+    },
+    {
+      "url": "https://www.traversal.com/sitemap.xml",
+      "date": "2026-11-20",
+      "kind": "direct",
+      "result": "180 URLs, 5 comparison pages"
+    },
+    {
+      "url": "https://resolve.ai/sitemap.xml",
+      "date": "2026-11-22",
+      "kind": "direct",
+      "result": "252 URLs, vs/alternative glossary pages"
+    },
+    {
+      "url": "https://cleric.ai/sitemap-0.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Blog + author pages"
+    }
   ],
   "sources_tried_failed": [
     "https://komodor.com/sitemap.xml: 403",
@@ -168,5 +473,6 @@
     "Do AI answers (ChatGPT/Gemini) still describe Antimetal as an AWS cost tool? Not probed; for the audit to confirm",
     "Is the guide program run with a GEO tool or agency (the template and dated titles suggest tooling)? That bears on how they'd receive an audit",
     "Funding: the $20M Series A is from Jun 2025 (17 months ago); a newer round was not found"
-  ]
+  ],
+  "b2b": true
 }

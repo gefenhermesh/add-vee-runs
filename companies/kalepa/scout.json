@@ -1,180 +1,562 @@
 {
- "scout_version": 3,
- "company": "Kalepa",
- "domain": "kalepa.com",
- "slug": "kalepa",
- "scouted": "2026-11-22",
- "source_of_lead": "Next Play issue, 10 Nov 2026 (gefen@etico.cr): hiring a Strategic Partnerships Manager (NYC/remote); just raised $75M; AI for commercial insurance underwriters; cash-flow positive 2+ years while tripling revenue",
- "reason": "Fresh $75M Series B (5 Nov 2026) for a committee-bought AI underwriting platform; Director of Marketing in place, no SEO person found (sweet spot).\nThe category search space is crowded with vendor buyer's guides and third-party 'Kalepa vs' pages (FurtherAI calls Kalepa a 'risk enrichment' tool), and kalepa.com didn't show up in the top results of 5 category queries: SEO need is high.",
- "gating_rating": "sweet_spot",
- "gating_note": "Marketing leader: Christa Bicego, Director of Marketing. Kalepa's own blog names her (direct). The marketing team seen is small: the Director, a Senior Content Marketing Manager (Mic Johnson, since Sep 2026, LinkedIn snippet) and a new Field Marketing Manager role (posted Aug 2026). No SEO, growth or demand-gen person turned up in 4 site:linkedin.com/in searches, but the logged-out view is limited, so the SEO-team check stays 'couldn't verify, none seen'. Christa is Director-level, not VP. The CRO (David Meister, since Dec 2025) owns 'all global revenue functions', so marketing may report to him (inferred).",
- "marketing_leadership": {
-  "status": "found",
-  "who": [
-   {"name": "Christa Bicego", "role": "Director of Marketing", "location": "Vancouver, BC (LinkedIn snippet)", "since": "about late 2025 (her LinkedIn post from about 11 months ago says she was 'a couple of months into joining Kalepa'; inferred)"}
+  "scout_version": 3,
+  "company": "Kalepa",
+  "domain": "kalepa.com",
+  "slug": "kalepa",
+  "scouted": "2026-11-22",
+  "source_of_lead": "Next Play issue, 10 Nov 2026 (gefen@etico.cr): hiring a Strategic Partnerships Manager (NYC/remote); just raised $75M; AI for commercial insurance underwriters; cash-flow positive 2+ years while tripling revenue",
+  "reason": "Fresh $75M Series B (5 Nov 2026) for a committee-bought AI underwriting platform; Director of Marketing in place, no SEO person found (sweet spot).\nThe category search space is crowded with vendor buyer's guides and third-party 'Kalepa vs' pages (FurtherAI calls Kalepa a 'risk enrichment' tool), and kalepa.com didn't show up in the top results of 5 category queries: SEO need is high.",
+  "gating_rating": "sweet_spot",
+  "gating_note": "Marketing leader: Christa Bicego, Director of Marketing. Kalepa's own blog names her (direct). The marketing team seen is small: the Director, a Senior Content Marketing Manager (Mic Johnson, since Sep 2026, LinkedIn snippet) and a new Field Marketing Manager role (posted Aug 2026). No SEO, growth or demand-gen person turned up in 4 site:linkedin.com/in searches, but the logged-out view is limited, so the SEO-team check stays 'couldn't verify, none seen'. Christa is Director-level, not VP. The CRO (David Meister, since Dec 2025) owns 'all global revenue functions', so marketing may report to him (inferred).",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {
+        "name": "Christa Bicego",
+        "role": "Director of Marketing",
+        "location": "Vancouver, BC (LinkedIn snippet)",
+        "since": "about late 2025 (her LinkedIn post from about 11 months ago says she was 'a couple of months into joining Kalepa'; inferred)"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Christa Bicego, Director of Marketing, is quoted in Kalepa's '2026 Predictions for AI in Underwriting' post",
+        "kind": "direct",
+        "url": "https://kalepa.com/post/2026-predictions-for-ai-in-underwriting",
+        "date": "2026-01-01"
+      },
+      {
+        "claim": "LinkedIn title 'Director of Marketing at Kalepa', Vancouver. Earlier roles include Interim Marketing Director, Marketing Consultant and Head of Marketing (Goodlord, per RocketReach)",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=%22Christa+Bicego%22+Kalepa",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "theorg, RocketReach, TheOfficialBoard and LeadIQ (Aug 2026) list her as Marketing Director",
+        "kind": "unverified",
+        "url": "https://theorg.com/org/kalepa",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Kalepa ran a 'Marketing Director (US & Canada, ET/CT time zones)' job post, probably the search that hired her: 'member of the leadership team' (startup.jobs / Welcome to the Jungle snippets; date not shown)",
+        "kind": "inferred",
+        "url": "https://startup.jobs",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Series B release names the new senior leaders (CTO, CRO, Head of Product, Head of Talent). No marketing leader is among them",
+        "kind": "direct",
+        "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+        "date": "2026-11-05"
+      }
+    ]
+  },
+  "seo_team": {
+    "status": "couldn't verify",
+    "evidence": [
+      "No SEO, growth or demand-gen titles in Google site:linkedin.com/in snippets for Kalepa (4 queries, 2026-11-22). Marketing people seen: the Director of Marketing and a Senior Content Marketing Manager (Mic Johnson, Brooklyn, since Sep 2026).",
+      "Greenhouse board (14 open roles, 2026-11-22): the only marketing roles are Field Marketing Manager (events/ABM; NY and US remote; first published 2026-08-18). No SEO or content role.",
+      "Site craft looks marketer-built, not SEO-team-built: the homepage <title> is 'About Kalepa | Professional Grade AI for Insurance'; blog posts carry 0-4 in-body internal links (link-aware read of the rich-text HTML on 43 posts); 2026 cadence is about 1.5 posts/month of thought leadership; one category-comparison post (Jul 2026). Inferred."
+    ]
+  },
+  "situation": {
+    "estimate": "Kalepa (founded 2018, NYC, about 68 employees on LinkedIn, 51-200 band) is an established AI underwriting vendor for commercial and specialty P&C. Its customers include W.R. Berkley, Bowhead, AmRisc, Munich Re Specialty and a run of mutuals and MGAs. After five years on a $14M Series A and two years cash-flow positive, it raised a $75M Series B at a $470M valuation (5 Nov 2026), with revenue and customer count tripled in a year. It is professionalizing GTM: a CRO from Addepar (Dec 2025), a CTO from Affirm (Oct 2026), a first RevOps hire, a field marketing manager, and now a partnerships manager for GSIs and consultants. The category story is widening from 'AI underwriting' to 'Professional Grade AI across the insurance value chain' (operations, pricing, portfolio), into new markets, with headcount to double in 2027. Marketing is small and events-first.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "$75M Series B at a $470M valuation, led by Updata Partners with IA Ventures and Inspired Capital. $91M raised in total. Revenue and customers tripled in the past year, cash-flow positive for 2+ years. Uses: expand the AI product suite, move into new markets, double headcount in 2027.",
+    "date": "2026-11-05",
+    "source": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b"
+  },
+  "fit_evidence": [
+    {
+      "claim": "Series B, $75M at $470M, 5 Nov 2026, led by Updata Partners (company release; also Business Wire, Finextra, FinTech Global, Reinsurance News per Google SERP)",
+      "kind": "direct",
+      "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+      "date": "2026-11-05"
+    },
+    {
+      "claim": "buying_journey = committee: Kalepa sells to carriers, MGAs, mutuals and brokers with role pages for CUOs, COOs and IT/AI leaders. Its RevOps JD cites 'enterprise sales motions with long, multi-stakeholder cycles'",
+      "kind": "direct",
+      "url": "https://job-boards.greenhouse.io/kalepa/jobs/6207812004",
+      "date": "2026-11-04"
+    },
+    {
+      "claim": "Category language is widening: 'Professional Grade AI for Insurance' (homepage H1); the release says 'every task in the insurance value chain', operations, underwriting, pricing, portfolio management; new markets planned",
+      "kind": "direct",
+      "url": "https://kalepa.com/",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "Competitor FurtherAI's buyer's guide 'Top AI Tools for Commercial & Specialty Underwriting' (published 2026-06-19, updated 2026-10-16) lists Kalepa #2 after itself and frames it as 'Kalepa for risk enrichment'",
+      "kind": "direct",
+      "url": "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting",
+      "date": "2026-10-16"
+    },
+    {
+      "claim": "Third-party directories publish Kalepa comparison pages: insuranceaitools.com 'Kalepa vs Sixfold' (updated 2026-10-25; flags 'SOC 2 not confirmed by us' for Kalepa vs 'SOC 2 Type II' for Sixfold), 'Federato vs Kalepa', aifintechindex 'Kalepa vs Sixfold', airframe.ai 'Kalepa Review: Complaints, Limitations and Best Fit'",
+      "kind": "direct",
+      "url": "https://insuranceaitools.com/compare/kalepa-vs-sixfold",
+      "date": "2026-10-25"
+    },
+    {
+      "claim": "kalepa.com/security is a responsible-disclosure policy only, with no SOC 2/ISO statement on the page (raw HTML checked). A gap a buyer's IT/security reviewer may hit. Don't claim Kalepa lacks SOC 2",
+      "kind": "direct",
+      "url": "https://kalepa.com/security",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "G2 has a Kalepa listing in 'Underwriting & Rating Software' and calls it 'one of the most-searched tools' in that category. Its alternatives list is generic (Applied Epic first)",
+      "kind": "direct",
+      "url": "https://www.g2.com/products/kalepa/competitors/alternatives",
+      "date": "accessed 2026-11-22"
+    },
+    {
+      "claim": "Analyst coverage exists: Kalepa was a Gartner Cool Vendor in Insurance (May 2020); Send cites Celent underwriting-workbench quadrant reports",
+      "kind": "direct",
+      "url": "https://kalepa.com/news-posts/kalepa-named-a-cool-vendor-in-the-may-2020-gartner-cool-vendors-in-insurance-report",
+      "date": "2020-05"
+    }
   ],
-  "evidence": [
-   {"claim": "Christa Bicego, Director of Marketing, is quoted in Kalepa's '2026 Predictions for AI in Underwriting' post", "kind": "direct", "url": "https://kalepa.com/post/2026-predictions-for-ai-in-underwriting", "date": "2026-01-01"},
-   {"claim": "LinkedIn title 'Director of Marketing at Kalepa', Vancouver. Earlier roles include Interim Marketing Director, Marketing Consultant and Head of Marketing (Goodlord, per RocketReach)", "kind": "inferred", "url": "https://www.google.com/search?q=%22Christa+Bicego%22+Kalepa", "date": "accessed 2026-11-22"},
-   {"claim": "theorg, RocketReach, TheOfficialBoard and LeadIQ (Aug 2026) list her as Marketing Director", "kind": "unverified", "url": "https://theorg.com/org/kalepa", "date": "accessed 2026-11-22"},
-   {"claim": "Kalepa ran a 'Marketing Director (US & Canada, ET/CT time zones)' job post, probably the search that hired her: 'member of the leadership team' (startup.jobs / Welcome to the Jungle snippets; date not shown)", "kind": "inferred", "url": "https://startup.jobs", "date": "accessed 2026-11-22"},
-   {"claim": "Series B release names the new senior leaders (CTO, CRO, Head of Product, Head of Talent). No marketing leader is among them", "kind": "direct", "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b", "date": "2026-11-05"}
-  ]
- },
- "seo_team": {
-  "status": "couldn't verify",
-  "evidence": [
-   "No SEO, growth or demand-gen titles in Google site:linkedin.com/in snippets for Kalepa (4 queries, 2026-11-22). Marketing people seen: the Director of Marketing and a Senior Content Marketing Manager (Mic Johnson, Brooklyn, since Sep 2026).",
-   "Greenhouse board (14 open roles, 2026-11-22): the only marketing roles are Field Marketing Manager (events/ABM; NY and US remote; first published 2026-08-18). No SEO or content role.",
-   "Site craft looks marketer-built, not SEO-team-built: the homepage <title> is 'About Kalepa | Professional Grade AI for Insurance'; blog posts carry 0-4 in-body internal links (link-aware read of the rich-text HTML on 43 posts); 2026 cadence is about 1.5 posts/month of thought leadership; one category-comparison post (Jul 2026). Inferred."
-  ]
- },
- "situation": {
-  "estimate": "Kalepa (founded 2018, NYC, about 68 employees on LinkedIn, 51-200 band) is an established AI underwriting vendor for commercial and specialty P&C. Its customers include W.R. Berkley, Bowhead, AmRisc, Munich Re Specialty and a run of mutuals and MGAs. After five years on a $14M Series A and two years cash-flow positive, it raised a $75M Series B at a $470M valuation (5 Nov 2026), with revenue and customer count tripled in a year. It is professionalizing GTM: a CRO from Addepar (Dec 2025), a CTO from Affirm (Oct 2026), a first RevOps hire, a field marketing manager, and now a partnerships manager for GSIs and consultants. The category story is widening from 'AI underwriting' to 'Professional Grade AI across the insurance value chain' (operations, pricing, portfolio), into new markets, with headcount to double in 2027. Marketing is small and events-first.",
-  "confidence": "medium"
- },
- "trigger": {
-  "type": "funding",
-  "detail": "$75M Series B at a $470M valuation, led by Updata Partners with IA Ventures and Inspired Capital. $91M raised in total. Revenue and customers tripled in the past year, cash-flow positive for 2+ years. Uses: expand the AI product suite, move into new markets, double headcount in 2027.",
-  "date": "2026-11-05",
-  "source": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b"
- },
- "fit_evidence": [
-  {"claim": "Series B, $75M at $470M, 5 Nov 2026, led by Updata Partners (company release; also Business Wire, Finextra, FinTech Global, Reinsurance News per Google SERP)", "kind": "direct", "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b", "date": "2026-11-05"},
-  {"claim": "buying_journey = committee: Kalepa sells to carriers, MGAs, mutuals and brokers with role pages for CUOs, COOs and IT/AI leaders. Its RevOps JD cites 'enterprise sales motions with long, multi-stakeholder cycles'", "kind": "direct", "url": "https://job-boards.greenhouse.io/kalepa/jobs/6207812004", "date": "2026-11-04"},
-  {"claim": "Category language is widening: 'Professional Grade AI for Insurance' (homepage H1); the release says 'every task in the insurance value chain', operations, underwriting, pricing, portfolio management; new markets planned", "kind": "direct", "url": "https://kalepa.com/", "date": "accessed 2026-11-22"},
-  {"claim": "Competitor FurtherAI's buyer's guide 'Top AI Tools for Commercial & Specialty Underwriting' (published 2026-06-19, updated 2026-10-16) lists Kalepa #2 after itself and frames it as 'Kalepa for risk enrichment'", "kind": "direct", "url": "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting", "date": "2026-10-16"},
-  {"claim": "Third-party directories publish Kalepa comparison pages: insuranceaitools.com 'Kalepa vs Sixfold' (updated 2026-10-25; flags 'SOC 2 not confirmed by us' for Kalepa vs 'SOC 2 Type II' for Sixfold), 'Federato vs Kalepa', aifintechindex 'Kalepa vs Sixfold', airframe.ai 'Kalepa Review: Complaints, Limitations and Best Fit'", "kind": "direct", "url": "https://insuranceaitools.com/compare/kalepa-vs-sixfold", "date": "2026-10-25"},
-  {"claim": "kalepa.com/security is a responsible-disclosure policy only, with no SOC 2/ISO statement on the page (raw HTML checked). A gap a buyer's IT/security reviewer may hit. Don't claim Kalepa lacks SOC 2", "kind": "direct", "url": "https://kalepa.com/security", "date": "accessed 2026-11-22"},
-  {"claim": "G2 has a Kalepa listing in 'Underwriting & Rating Software' and calls it 'one of the most-searched tools' in that category. Its alternatives list is generic (Applied Epic first)", "kind": "direct", "url": "https://www.g2.com/products/kalepa/competitors/alternatives", "date": "accessed 2026-11-22"},
-  {"claim": "Analyst coverage exists: Kalepa was a Gartner Cool Vendor in Insurance (May 2020); Send cites Celent underwriting-workbench quadrant reports", "kind": "direct", "url": "https://kalepa.com/news-posts/kalepa-named-a-cool-vendor-in-the-may-2020-gartner-cool-vendors-in-insurance-report", "date": "2020-05"}
- ],
- "site_and_content": {
-  "cms_and_tools": "Webflow (data-wf-domain; 'Design by Altalogy' footer; last published 2026-11-05). GTM-5V5K4QH, GA4 G-P2ZZ9XYSZM, HubSpot scripts (and HubSpot CRM per RevOps JD), Segment, Hotjar, LinkedIn Insight, Vector (intent), Finsweet, JSON-LD schema. DNS TXT: google-site-verification, SPF includes MailerLite (mlsend) and Google, anthropic-domain-verification.",
-  "sitemap": "103 URLs: 43 /post/, 31 /news-posts/, 7 /platforms/ (submission ingestion, clearance, triage, risk analysis, rating, quote-bind, portfolio management), 7 /solutions/ (by role: CUOs, COOs, IT/AI leaders; by segment: carriers, MGAs, mutuals, brokers), 2 case studies, 1 ebook. The Nov 10 2026 post (/post/ai-changing-insurance-economics) isn't in the sitemap yet.",
-  "blog": "About 44 posts. Legacy posts (2020-2025, year-in-review letters, podcast notes, team Q&As, a few technical pieces) were migrated with datePublished reset to Dec 2025, so their original dates can't be read from the site. A medium.com/kalepa blog also exists. New 2026 posts: about 17, from 2026-01-01 to 2026-11-10, about 1.5/month, usually 900-2,000 words of AI-in-underwriting thought leadership plus quarterly 'AI briefings'. All 43 sitemap posts read (date, words, links).",
-  "comparison_pages": "One category post: 'Underwriting Workbench vs. AI Underwriting Platform: Which Do You Need?' (2026-07-27), built in question-heading and side-by-side-table form, with zero in-body internal links. No vendor 'vs' or alternatives pages.",
-  "internal_linking": "Link-aware read of each post's rich-text HTML: 0-8 in-body internal links per post, most 0-2. 2026 posts have 0-4. No pillar/cluster structure seen: platform pages and posts aren't cross-linked in body copy.",
-  "homepage": "<title> 'About Kalepa | Professional Grade AI for Insurance'; H1 'Professional Grade AI for Insurance'; meta description about risk insights and decision-ready quotes.",
-  "llms_txt": "404 (weak signal)",
-  "robots": "Sitemap line only"
- },
- "jobs": {
-  "board": "Greenhouse (boards-api.greenhouse.io/v1/boards/kalepa), 14 open roles on 2026-11-22",
-  "marketing_roles": [
-   {"title": "Field Marketing Manager", "location": "USA remote / New York", "url": "https://job-boards.greenhouse.io/kalepa/jobs/6146793004", "first_published": "2026-08-18", "notes": "A newly created role to own events, executive dinners, roundtables, CABs, ABM with Sales, and launch a webinar program. $115-180K. Reporting line not stated. No SEO or content scope."}
+  "site_and_content": {
+    "cms_and_tools": "Webflow (data-wf-domain; 'Design by Altalogy' footer; last published 2026-11-05). GTM-5V5K4QH, GA4 G-P2ZZ9XYSZM, HubSpot scripts (and HubSpot CRM per RevOps JD), Segment, Hotjar, LinkedIn Insight, Vector (intent), Finsweet, JSON-LD schema. DNS TXT: google-site-verification, SPF includes MailerLite (mlsend) and Google, anthropic-domain-verification.",
+    "sitemap": "103 URLs: 43 /post/, 31 /news-posts/, 7 /platforms/ (submission ingestion, clearance, triage, risk analysis, rating, quote-bind, portfolio management), 7 /solutions/ (by role: CUOs, COOs, IT/AI leaders; by segment: carriers, MGAs, mutuals, brokers), 2 case studies, 1 ebook. The Nov 10 2026 post (/post/ai-changing-insurance-economics) isn't in the sitemap yet.",
+    "blog": "About 44 posts. Legacy posts (2020-2025, year-in-review letters, podcast notes, team Q&As, a few technical pieces) were migrated with datePublished reset to Dec 2025, so their original dates can't be read from the site. A medium.com/kalepa blog also exists. New 2026 posts: about 17, from 2026-01-01 to 2026-11-10, about 1.5/month, usually 900-2,000 words of AI-in-underwriting thought leadership plus quarterly 'AI briefings'. All 43 sitemap posts read (date, words, links).",
+    "comparison_pages": "One category post: 'Underwriting Workbench vs. AI Underwriting Platform: Which Do You Need?' (2026-07-27), built in question-heading and side-by-side-table form, with zero in-body internal links. No vendor 'vs' or alternatives pages.",
+    "internal_linking": "Link-aware read of each post's rich-text HTML: 0-8 in-body internal links per post, most 0-2. 2026 posts have 0-4. No pillar/cluster structure seen: platform pages and posts aren't cross-linked in body copy.",
+    "homepage": "<title> 'About Kalepa | Professional Grade AI for Insurance'; H1 'Professional Grade AI for Insurance'; meta description about risk insights and decision-ready quotes.",
+    "llms_txt": "404 (weak signal)",
+    "robots": "Sitemap line only"
+  },
+  "jobs": {
+    "board": "Greenhouse (boards-api.greenhouse.io/v1/boards/kalepa), 14 open roles on 2026-11-22",
+    "marketing_roles": [
+      {
+        "title": "Field Marketing Manager",
+        "location": "USA remote / New York",
+        "url": "https://job-boards.greenhouse.io/kalepa/jobs/6146793004",
+        "first_published": "2026-08-18",
+        "notes": "A newly created role to own events, executive dinners, roundtables, CABs, ABM with Sales, and launch a webinar program. $115-180K. Reporting line not stated. No SEO or content scope."
+      }
+    ],
+    "gtm_roles": [
+      {
+        "title": "Strategic Partnerships Manager",
+        "location": "USA remote",
+        "url": "https://job-boards.greenhouse.io/kalepa/jobs/5983587004",
+        "first_published": "2026-04-28",
+        "notes": "The Next Play role: GSIs, boutique insurance consultants, data/PAS/pricing partners; partner-sourced revenue target"
+      },
+      {
+        "title": "Senior Manager, Revenue Operations (first RevOps hire)",
+        "location": "NY hybrid / US remote",
+        "url": "https://job-boards.greenhouse.io/kalepa/jobs/6207812004",
+        "notes": "Reports to the VP of Operations and works with the CRO. CRM is HubSpot. 'Long, multi-stakeholder cycles'"
+      },
+      {
+        "title": "Strategic Accounts Director (ET/CT US)",
+        "url": "https://job-boards.greenhouse.io/kalepa/jobs/5322230004"
+      }
+    ],
+    "seo_roles": "none",
+    "other": "8 engineering roles across 'Kalepa for Underwriting', 'Kalepa for IT' and 'Kalepa for Operations' (new product lines named in job titles), plus a Technical Support Engineer"
+  },
+  "contacts": [
+    {
+      "name": "Christa Bicego",
+      "role": "Director of Marketing",
+      "email": null,
+      "email_verified": false,
+      "source": "https://kalepa.com/post/2026-predictions-for-ai-in-underwriting",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Paul Monasterio",
+      "role": "Co-founder and CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+      "recipient_rank": 2
+    },
+    {
+      "name": "David Meister",
+      "role": "Chief Revenue Officer (oversees all global revenue functions, since Dec 2025)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://kalepa.com/news-posts/kalepa-appoints-david-meister-as-chief-revenue-officer-to-drive-next-phase-of-growth",
+      "recipient_rank": 3
+    }
   ],
-  "gtm_roles": [
-   {"title": "Strategic Partnerships Manager", "location": "USA remote", "url": "https://job-boards.greenhouse.io/kalepa/jobs/5983587004", "first_published": "2026-04-28", "notes": "The Next Play role: GSIs, boutique insurance consultants, data/PAS/pricing partners; partner-sourced revenue target"},
-   {"title": "Senior Manager, Revenue Operations (first RevOps hire)", "location": "NY hybrid / US remote", "url": "https://job-boards.greenhouse.io/kalepa/jobs/6207812004", "notes": "Reports to the VP of Operations and works with the CRO. CRM is HubSpot. 'Long, multi-stakeholder cycles'"},
-   {"title": "Strategic Accounts Director (ET/CT US)", "url": "https://job-boards.greenhouse.io/kalepa/jobs/5322230004"}
+  "outreach_angle": {
+    "hook": "The 5 Nov Series B moves Kalepa beyond underwriting to 'every task in the insurance value chain' and into new markets. But a competitor's buyer's guide that names Kalepa (FurtherAI, updated 16 Oct 2026) still sums it up as 'Kalepa for risk enrichment', and directories run 'Kalepa vs Sixfold/Federato' pages. Competitors and third parties are writing Kalepa's category story for buyers and the AI answers they read. Kalepa's own 'Workbench vs AI Underwriting Platform' post shows marketing is already trying to set the frame.",
+    "source": "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting ; https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+    "date": "2026-11-05 / 2026-10-16"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Hybrid, but research matters more than for Capitolis. Buyers are commercial/specialty P&C carriers, MGAs, mutuals and brokers. The US alone has on the order of a thousand-plus such organizations (inferred; Kalepa's 2026 customer releases are mostly mid-size mutuals and MGAs: Church Mutual, North Star Mutual, Merchants, Paragon, Beyond Risk, Columbia). That is a far larger and less concentrated set than Capitolis' few hundred banks. The deal itself is committee-run and relationship/event-heavy: role pages for CUO/COO/IT-AI; the RevOps JD says 'long, multi-stakeholder cycles'; marketing's open hire is events/ABM. But the shortlist stage is clearly researched online. There is a G2 'Underwriting & Rating Software' category (Kalepa called 'one of the most-searched'), analyst coverage (Gartner Cool Vendor 2020; Celent workbench quadrants), AI-tool directories with head-to-head pages (insuranceaitools.com, aifintechindex.com, airframe.ai), and 'best AI underwriting tools 2026' listicles (v7labs, FurtherAI, wirinnovation).",
+    "competitors": [
+      {
+        "name": "FurtherAI",
+        "seo_investment": "Heavy, SEO-led: 208 /blog/ URLs in its sitemap (lastmods May-Nov 2026), 27 'best X' / buyer's-guide / build-vs-buy pages. Ranks for submission-intake and MGA queries. Its guides name and frame Kalepa.",
+        "evidence_url": "https://www.furtherai.com/sitemap.xml"
+      },
+      {
+        "name": "Federato",
+        "seo_investment": "Heavy: 172 /articles/ + 63 /library/ URLs (lastmods Sep 2025-Nov 2026), incl. 'Federato vs underwriting workbench' and 'Duck Creek vs Guidewire' comparison pieces.",
+        "evidence_url": "https://www.federato.ai/articles/federato-vs-underwriting-workbench-how-are-they-different"
+      },
+      {
+        "name": "Sixfold",
+        "seo_investment": "Moderate-heavy: 78 /content/ + 11 interviews + 7 reports + FAQ categories in its sitemap (lastmods to 2026-11-20). Ranks top 8 for 'AI underwriting platform commercial insurance'.",
+        "evidence_url": "https://sixfold.ai/sitemap.xml"
+      },
+      {
+        "name": "Send Technology",
+        "seo_investment": "Heavy: 225 /resources/ posts in post-sitemap (lastmods Jan-Nov 2026), plus guide, ebook, webinar and survey sitemaps. Ranks for 'underwriting workbench', 'submission triage' and 'AI underwriting platform commercial insurance'.",
+        "evidence_url": "https://send.technology/post-sitemap.xml"
+      },
+      {
+        "name": "Cytora (Applied)",
+        "seo_investment": "Heavy: 592 sitemap URLs incl. 267 Risk Flow Center blog/resource pages, 58 academy pages, 123 podcasts.",
+        "evidence_url": "https://cytora.com/sitemap.xml"
+      },
+      {
+        "name": "hyperexponential",
+        "seo_investment": "Heavy: 107 /blog/ URLs and 35 'LOB pricing factors' pages. Ranks for 'underwriting workbench' and 'AI submission ingestion' with explainer guides.",
+        "evidence_url": "https://www.hyperexponential.com/sitemap.xml"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "AI underwriting platform commercial insurance",
+        "top_results": [
+          "salesforce.com guide",
+          "convr.com (vendor)",
+          "deloitte.com",
+          "sureapp.com (vendor)",
+          "send.technology (vendor)",
+          "mgtinsurance.com blog",
+          "v7labs.com listicle 'AI Insurance Underwriting Software'",
+          "sixfold.ai (vendor)"
+        ],
+        "date": "2026-11-22",
+        "kalepa_present": false
+      },
+      {
+        "query": "best AI underwriting software",
+        "top_results": [
+          "wirinnovation.ai 'Best AI underwriting platforms for insurers (2026)'",
+          "v7labs.com 'Best AI Tools for Commercial Lines Underwriting in 2026' (no Kalepa mention in page)",
+          "Reddit thread",
+          "crediarc.com (credit)",
+          "revenuebase.ai",
+          "f2.ai",
+          "jinba.io",
+          "fintechspecs.com"
+        ],
+        "date": "2026-11-22",
+        "kalepa_present": false
+      },
+      {
+        "query": "underwriting workbench",
+        "top_results": [
+          "underwritingworkbench.com",
+          "artificial.io guide",
+          "send.technology guide",
+          "capgemini.com",
+          "weecover.com",
+          "hyperexponential.com guide",
+          "sapiens.com"
+        ],
+        "date": "2026-11-22",
+        "kalepa_present": false
+      },
+      {
+        "query": "insurance submission ingestion AI",
+        "top_results": [
+          "indicodata.ai",
+          "insurancequantified.com",
+          "send.technology",
+          "hyperexponential.com",
+          "v7labs.com",
+          "bertie.com",
+          "furtherai.com 2026 guide",
+          "intellectai.com",
+          "docugami.com"
+        ],
+        "date": "2026-11-22",
+        "kalepa_present": false
+      },
+      {
+        "query": "AI underwriting vendors for MGAs",
+        "top_results": [
+          "intellectai.com",
+          "furtherai.com",
+          "attri.ai",
+          "notch.cx",
+          "aigovadvisors.ai",
+          "mgainsurancesoftware.com",
+          "parsewise.ai",
+          "gomodular.ca",
+          "riskyfuture.com"
+        ],
+        "date": "2026-11-22",
+        "kalepa_present": false
+      },
+      {
+        "query": "Kalepa alternatives",
+        "top_results": [
+          "kalepa.com",
+          "g2.com 'Top 10 Kalepa Alternatives'",
+          "cbinsights.com",
+          "insuranceaitools.com review",
+          "getlatka.com",
+          "craft.co",
+          "medium.com/kalepa",
+          "vederca.com",
+          "tracxn.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "\"Kalepa\" vs Federato OR Sixfold OR Cytora",
+        "top_results": [
+          "aifintechindex.com 'Kalepa vs Sixfold'",
+          "insuranceaitools.com 'Kalepa vs Sixfold'",
+          "insuranceaitools.com 'Federato vs Kalepa'",
+          "aifintechindex.com Cytora alternatives",
+          "sacra.com",
+          "insuranceaitools.com best underwriting workbench",
+          "dealroom.co",
+          "aipressroom.com",
+          "airframe.ai 'Kalepa Review: Complaints, Limitations and Best Fit'"
+        ],
+        "date": "2026-11-22"
+      }
+    ],
+    "cost_of_absence": "Kalepa is widening its category (from 'AI underwriting' to 'Professional Grade AI across the insurance value chain', plus new products: Kalepa for IT, Kalepa for Operations) and entering new markets. Meanwhile the shortlist-stage sources buyers and AI assistants draw on are written by others. A competitor's buyer's guide boxes Kalepa in as 'risk enrichment'. Directories run 'Kalepa vs' pages that flag 'SOC 2 not confirmed', which an insurer's IT/security reviewer will notice, and kalepa.com/security doesn't answer it. Vendors like Send, Sixfold, hyperexponential and FurtherAI own the generic category queries, including 'underwriting workbench', the exact frame Kalepa's July post tries to reset. New-market buyers who don't know Kalepa through relationships will meet it through these sources first.",
+    "why_not_yet": "never_prioritized: a small, events/ABM-first marketing team (Director since about late 2025, a content manager since Sep 2026, and the open hire is field marketing). Five lean years on a Series A, growth driven by founder- and sales-led relationships with named carriers. Content is thought leadership (CEO letters, AI briefings) rather than search-shaped pages. The July 2026 'Workbench vs AI Platform' post suggests that is starting to change.",
+    "evidence": [
+      "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting",
+      "https://insuranceaitools.com/compare/kalepa-vs-sixfold",
+      "https://www.g2.com/products/kalepa/competitors/alternatives",
+      "https://kalepa.com/post/underwriting-workbench-vs-ai-underwriting-platform-which-do-you-need",
+      "https://job-boards.greenhouse.io/kalepa/jobs/6146793004"
+    ],
+    "comparison_to_capitolis": "Capitolis was rated low: a few hundred bank and asset-owner buyers, RFP/consultant-led, SERPs held by regulators and trade press, no review category, no listicles. Kalepa's SERPs are held by vendors and listicles, it has a G2 category and AI-tool directories with head-to-head pages, and a competitor's guide names it. The buyer set is larger and includes mid-size mutuals and MGAs. Different answer, on evidence."
+  },
+  "features": {
+    "industry": "insurtech",
+    "stage": "series_b",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "funding",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
+      "date": "2026-11-05",
+      "kind": "direct",
+      "result": "Series B release: $75M at $470M, Updata lead, $91M total, tripled revenue, cash-flow positive 2+ years, senior hires"
+    },
+    {
+      "url": "https://www.google.com/search?q=Kalepa+raises+%2475+million",
+      "date": "accessed 2026-11-22",
+      "kind": "inferred",
+      "result": "SERP via Bright Data: Business Wire, Yahoo Finance, Finextra (Nov 5), FinTech Global (Nov 6), Reinsurance News, FinTech Futures (Nov 9) confirm the round"
+    },
+    {
+      "url": "https://kalepa.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "103 URLs, structure as noted"
+    },
+    {
+      "url": "https://kalepa.com/blog",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Blog index; latest post Nov 10, 2026"
+    },
+    {
+      "url": "https://kalepa.com/post/ (43 posts fetched)",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "datePublished, word counts, in-body link counts from rich-text HTML"
+    },
+    {
+      "url": "https://kalepa.com/post/2026-predictions-for-ai-in-underwriting",
+      "date": "2026-01-01",
+      "kind": "direct",
+      "result": "Names Christa Bicego, Director of Marketing, and David Meister, CRO"
+    },
+    {
+      "url": "https://kalepa.com/post/underwriting-workbench-vs-ai-underwriting-platform-which-do-you-need",
+      "date": "2026-07-27",
+      "kind": "direct",
+      "result": "Category comparison post"
+    },
+    {
+      "url": "https://kalepa.com/news-posts/kalepa-appoints-david-meister-as-chief-revenue-officer-to-drive-next-phase-of-growth",
+      "date": "2025-12-31",
+      "kind": "direct",
+      "result": "CRO appointment; oversees all global revenue functions"
+    },
+    {
+      "url": "https://kalepa.com/company",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Founded 2018, team in 10+ countries, advisors; no team or leadership list"
+    },
+    {
+      "url": "https://kalepa.com/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Raw HTML: Webflow, GTM, GA4, HubSpot, Segment, Hotjar, LinkedIn Insight, Vector; title 'About Kalepa | ...'"
+    },
+    {
+      "url": "https://kalepa.com/security",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Responsible disclosure policy; no SOC 2/ISO mention"
+    },
+    {
+      "url": "https://dns.google/resolve?name=kalepa.com&type=TXT",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "google-site-verification, SPF MailerLite + Google, anthropic-domain-verification"
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/kalepa/jobs",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "14 roles; Field Marketing Manager, Strategic Partnerships Manager, RevOps JDs read in full"
+    },
+    {
+      "url": "https://www.linkedin.com/company/kalepa/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Via Bright Data: Insurance, NYC, 11,779 followers, 51-200 employees, 'View all 68 employees', founded 2018"
+    },
+    {
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Kalepa%22+marketing",
+      "date": "accessed 2026-11-22",
+      "kind": "inferred",
+      "result": "4 site:linkedin.com/in queries, titles/snippets only: Christa Bicego (Director of Marketing), Mic Johnson (Senior Content Marketing Manager, since Sep 2026), CRO, CEO, co-founder, product, CS. No SEO/growth titles. Name collisions ignored (Arnold/Martin Kalepa, 'The KALEPA Group')"
+    },
+    {
+      "url": "https://theorg.com/org/kalepa",
+      "date": "accessed 2026-11-22",
+      "kind": "unverified",
+      "result": "Snippet: Christa Bicego, Marketing Director (aggregator)"
+    },
+    {
+      "url": "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting",
+      "date": "2026-10-16",
+      "kind": "direct",
+      "result": "Competitor buyer's guide; Kalepa #2, 'Kalepa for risk enrichment'"
+    },
+    {
+      "url": "https://insuranceaitools.com/compare/kalepa-vs-sixfold",
+      "date": "2026-10-25",
+      "kind": "direct",
+      "result": "Third-party head-to-head; 'SOC 2 not confirmed by us' for Kalepa"
+    },
+    {
+      "url": "https://www.g2.com/products/kalepa/competitors/alternatives",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Via Bright Data: Underwriting & Rating Software category; generic alternatives"
+    },
+    {
+      "url": "https://www.furtherai.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "208 blog URLs, 27 best/vs/buyer pages"
+    },
+    {
+      "url": "https://www.federato.ai/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "172 articles, 63 library, vs pieces (fetched as federato.com/sitemap.xml)"
+    },
+    {
+      "url": "https://sixfold.ai/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "182 URLs, 78 content"
+    },
+    {
+      "url": "https://send.technology/post-sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "225 resources posts"
+    },
+    {
+      "url": "https://cytora.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "592 URLs, 267 Risk Flow Center"
+    },
+    {
+      "url": "https://www.hyperexponential.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "254 URLs, 107 blog"
+    },
+    {
+      "url": "https://www.v7labs.com/blog/best-ai-tools-commercial-lines-underwriting",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Listicle page fetched; no 'Kalepa' string in HTML"
+    },
+    {
+      "url": "https://www.google.com/search?q=AI+underwriting+platform+commercial+insurance",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "5 category SERPs via Bright Data; no kalepa string in any of them"
+    }
   ],
-  "seo_roles": "none",
-  "other": "8 engineering roles across 'Kalepa for Underwriting', 'Kalepa for IT' and 'Kalepa for Operations' (new product lines named in job titles), plus a Technical Support Engineer"
- },
- "contacts": [
-  {"name": "Christa Bicego", "role": "Director of Marketing", "email": null, "email_verified": false, "source": "https://kalepa.com/post/2026-predictions-for-ai-in-underwriting", "recipient_rank": 1},
-  {"name": "Paul Monasterio", "role": "Co-founder and CEO", "email": null, "email_verified": false, "source": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b", "recipient_rank": 2},
-  {"name": "David Meister", "role": "Chief Revenue Officer (oversees all global revenue functions, since Dec 2025)", "email": null, "email_verified": false, "source": "https://kalepa.com/news-posts/kalepa-appoints-david-meister-as-chief-revenue-officer-to-drive-next-phase-of-growth", "recipient_rank": 3}
- ],
- "outreach_angle": {
-  "hook": "The 5 Nov Series B moves Kalepa beyond underwriting to 'every task in the insurance value chain' and into new markets. But a competitor's buyer's guide that names Kalepa (FurtherAI, updated 16 Oct 2026) still sums it up as 'Kalepa for risk enrichment', and directories run 'Kalepa vs Sixfold/Federato' pages. Competitors and third parties are writing Kalepa's category story for buyers and the AI answers they read. Kalepa's own 'Workbench vs AI Underwriting Platform' post shows marketing is already trying to set the frame.",
-  "source": "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting ; https://kalepa.com/news-posts/kalepa-raises-75-million-series-b",
-  "date": "2026-11-05 / 2026-10-16"
- },
- "seo_need": {
-  "rating": "high",
-  "buyer_research": "Hybrid, but research matters more than for Capitolis. Buyers are commercial/specialty P&C carriers, MGAs, mutuals and brokers. The US alone has on the order of a thousand-plus such organizations (inferred; Kalepa's 2026 customer releases are mostly mid-size mutuals and MGAs: Church Mutual, North Star Mutual, Merchants, Paragon, Beyond Risk, Columbia). That is a far larger and less concentrated set than Capitolis' few hundred banks. The deal itself is committee-run and relationship/event-heavy: role pages for CUO/COO/IT-AI; the RevOps JD says 'long, multi-stakeholder cycles'; marketing's open hire is events/ABM. But the shortlist stage is clearly researched online. There is a G2 'Underwriting & Rating Software' category (Kalepa called 'one of the most-searched'), analyst coverage (Gartner Cool Vendor 2020; Celent workbench quadrants), AI-tool directories with head-to-head pages (insuranceaitools.com, aifintechindex.com, airframe.ai), and 'best AI underwriting tools 2026' listicles (v7labs, FurtherAI, wirinnovation).",
-  "competitors": [
-   {"name": "FurtherAI", "seo_investment": "Heavy, SEO-led: 208 /blog/ URLs in its sitemap (lastmods May-Nov 2026), 27 'best X' / buyer's-guide / build-vs-buy pages. Ranks for submission-intake and MGA queries. Its guides name and frame Kalepa.", "evidence_url": "https://www.furtherai.com/sitemap.xml"},
-   {"name": "Federato", "seo_investment": "Heavy: 172 /articles/ + 63 /library/ URLs (lastmods Sep 2025-Nov 2026), incl. 'Federato vs underwriting workbench' and 'Duck Creek vs Guidewire' comparison pieces.", "evidence_url": "https://www.federato.ai/articles/federato-vs-underwriting-workbench-how-are-they-different"},
-   {"name": "Sixfold", "seo_investment": "Moderate-heavy: 78 /content/ + 11 interviews + 7 reports + FAQ categories in its sitemap (lastmods to 2026-11-20). Ranks top 8 for 'AI underwriting platform commercial insurance'.", "evidence_url": "https://sixfold.ai/sitemap.xml"},
-   {"name": "Send Technology", "seo_investment": "Heavy: 225 /resources/ posts in post-sitemap (lastmods Jan-Nov 2026), plus guide, ebook, webinar and survey sitemaps. Ranks for 'underwriting workbench', 'submission triage' and 'AI underwriting platform commercial insurance'.", "evidence_url": "https://send.technology/post-sitemap.xml"},
-   {"name": "Cytora (Applied)", "seo_investment": "Heavy: 592 sitemap URLs incl. 267 Risk Flow Center blog/resource pages, 58 academy pages, 123 podcasts.", "evidence_url": "https://cytora.com/sitemap.xml"},
-   {"name": "hyperexponential", "seo_investment": "Heavy: 107 /blog/ URLs and 35 'LOB pricing factors' pages. Ranks for 'underwriting workbench' and 'AI submission ingestion' with explainer guides.", "evidence_url": "https://www.hyperexponential.com/sitemap.xml"}
+  "sources_tried_failed": [
+    {
+      "url": "https://web.archive.org/web/20250615061255/https://www.kalepa.com/",
+      "result": "Wayback snapshot fetch returned a 72-byte error body (2024 and 2025 snapshots exist per the availability API, but content couldn't be read): category-language history not verified"
+    },
+    {
+      "url": "https://wirinnovation.ai/insights/best-ai-underwriting-platforms-for-insurers-2026",
+      "result": "Guessed URL from SERP returned 404; whether that listicle includes Kalepa wasn't checked"
+    },
+    {
+      "url": "https://www.google.com/search?q=Kalepa+vs",
+      "result": "First Bright Data call returned empty; retry returned a 209-byte body (failure). Covered by the 'Kalepa vs Federato OR Sixfold' query instead"
+    },
+    {
+      "url": "https://kalepa.com/llms.txt",
+      "result": "404"
+    }
   ],
-  "serp_checks": [
-   {"query": "AI underwriting platform commercial insurance", "top_results": ["salesforce.com guide", "convr.com (vendor)", "deloitte.com", "sureapp.com (vendor)", "send.technology (vendor)", "mgtinsurance.com blog", "v7labs.com listicle 'AI Insurance Underwriting Software'", "sixfold.ai (vendor)"], "date": "2026-11-22", "kalepa_present": false},
-   {"query": "best AI underwriting software", "top_results": ["wirinnovation.ai 'Best AI underwriting platforms for insurers (2026)'", "v7labs.com 'Best AI Tools for Commercial Lines Underwriting in 2026' (no Kalepa mention in page)", "Reddit thread", "crediarc.com (credit)", "revenuebase.ai", "f2.ai", "jinba.io", "fintechspecs.com"], "date": "2026-11-22", "kalepa_present": false},
-   {"query": "underwriting workbench", "top_results": ["underwritingworkbench.com", "artificial.io guide", "send.technology guide", "capgemini.com", "weecover.com", "hyperexponential.com guide", "sapiens.com"], "date": "2026-11-22", "kalepa_present": false},
-   {"query": "insurance submission ingestion AI", "top_results": ["indicodata.ai", "insurancequantified.com", "send.technology", "hyperexponential.com", "v7labs.com", "bertie.com", "furtherai.com 2026 guide", "intellectai.com", "docugami.com"], "date": "2026-11-22", "kalepa_present": false},
-   {"query": "AI underwriting vendors for MGAs", "top_results": ["intellectai.com", "furtherai.com", "attri.ai", "notch.cx", "aigovadvisors.ai", "mgainsurancesoftware.com", "parsewise.ai", "gomodular.ca", "riskyfuture.com"], "date": "2026-11-22", "kalepa_present": false},
-   {"query": "Kalepa alternatives", "top_results": ["kalepa.com", "g2.com 'Top 10 Kalepa Alternatives'", "cbinsights.com", "insuranceaitools.com review", "getlatka.com", "craft.co", "medium.com/kalepa", "vederca.com", "tracxn.com"], "date": "2026-11-22"},
-   {"query": "\"Kalepa\" vs Federato OR Sixfold OR Cytora", "top_results": ["aifintechindex.com 'Kalepa vs Sixfold'", "insuranceaitools.com 'Kalepa vs Sixfold'", "insuranceaitools.com 'Federato vs Kalepa'", "aifintechindex.com Cytora alternatives", "sacra.com", "insuranceaitools.com best underwriting workbench", "dealroom.co", "aipressroom.com", "airframe.ai 'Kalepa Review: Complaints, Limitations and Best Fit'"], "date": "2026-11-22"}
+  "linkedin_checks_for_sponsor": [
+    "Kalepa company page → People tab, search 'marketing': is anyone above Christa Bicego (VP/CMO)? Any SEO, growth, demand-gen or web person? (Confirms sweet_spot vs single_seo.)",
+    "Christa Bicego's current title and start date (People-tab card only), and whether she is still at Kalepa after the Series B"
   ],
-  "cost_of_absence": "Kalepa is widening its category (from 'AI underwriting' to 'Professional Grade AI across the insurance value chain', plus new products: Kalepa for IT, Kalepa for Operations) and entering new markets. Meanwhile the shortlist-stage sources buyers and AI assistants draw on are written by others. A competitor's buyer's guide boxes Kalepa in as 'risk enrichment'. Directories run 'Kalepa vs' pages that flag 'SOC 2 not confirmed', which an insurer's IT/security reviewer will notice, and kalepa.com/security doesn't answer it. Vendors like Send, Sixfold, hyperexponential and FurtherAI own the generic category queries, including 'underwriting workbench', the exact frame Kalepa's July post tries to reset. New-market buyers who don't know Kalepa through relationships will meet it through these sources first.",
-  "why_not_yet": "never_prioritized: a small, events/ABM-first marketing team (Director since about late 2025, a content manager since Sep 2026, and the open hire is field marketing). Five lean years on a Series A, growth driven by founder- and sales-led relationships with named carriers. Content is thought leadership (CEO letters, AI briefings) rather than search-shaped pages. The July 2026 'Workbench vs AI Platform' post suggests that is starting to change.",
-  "evidence": [
-   "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting",
-   "https://insuranceaitools.com/compare/kalepa-vs-sixfold",
-   "https://www.g2.com/products/kalepa/competitors/alternatives",
-   "https://kalepa.com/post/underwriting-workbench-vs-ai-underwriting-platform-which-do-you-need",
-   "https://job-boards.greenhouse.io/kalepa/jobs/6146793004"
+  "open_questions": [
+    "Does marketing report to the CRO (David Meister) or the CEO? This decides whether the CRO is a co-recipient",
+    "Does Kalepa have SOC 2? Third parties say 'not confirmed', and the site is silent. It matters for the angle, but must not be stated as fact in outreach",
+    "Is an outside agency doing SEO/content? Altalogy built the site; no SEO agency evidence found",
+    "How much of the pipeline comes from inbound/online research versus events and relationships? Only Kalepa can say. The field-marketing priority suggests events dominate today"
   ],
-  "comparison_to_capitolis": "Capitolis was rated low: a few hundred bank and asset-owner buyers, RFP/consultant-led, SERPs held by regulators and trade press, no review category, no listicles. Kalepa's SERPs are held by vendors and listicles, it has a G2 category and AI-tool directories with head-to-head pages, and a competitor's guide names it. The buyer set is larger and includes mid-size mutuals and MGAs. Different answer, on evidence."
- },
- "features": {
-  "industry": "insurtech",
-  "stage": "series_b",
-  "situation": "scaling",
-  "size_band": "51_200",
-  "geo": "us",
-  "marketing_gating": "sweet_spot",
-  "trigger": "funding",
-  "finding_pattern": "losing_to_named_competitors",
-  "recipient_role": "cmo_vp_marketing",
-  "ask_track": "engagement",
-  "opener_type": "milestone_congrats",
-  "email_variant": "v4_two_images",
-  "subject_style": "how_ai_sees_x",
-  "send_slot": "sun_thu_morning_local",
-  "contact_verified": "no",
-  "buying_journey": "committee",
-  "seo_need": "high"
- },
- "sources": [
-  {"url": "https://kalepa.com/news-posts/kalepa-raises-75-million-series-b", "date": "2026-11-05", "kind": "direct", "result": "Series B release: $75M at $470M, Updata lead, $91M total, tripled revenue, cash-flow positive 2+ years, senior hires"},
-  {"url": "https://www.google.com/search?q=Kalepa+raises+%2475+million", "date": "accessed 2026-11-22", "kind": "inferred", "result": "SERP via Bright Data: Business Wire, Yahoo Finance, Finextra (Nov 5), FinTech Global (Nov 6), Reinsurance News, FinTech Futures (Nov 9) confirm the round"},
-  {"url": "https://kalepa.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "103 URLs, structure as noted"},
-  {"url": "https://kalepa.com/blog", "date": "accessed 2026-11-22", "kind": "direct", "result": "Blog index; latest post Nov 10, 2026"},
-  {"url": "https://kalepa.com/post/ (43 posts fetched)", "date": "accessed 2026-11-22", "kind": "direct", "result": "datePublished, word counts, in-body link counts from rich-text HTML"},
-  {"url": "https://kalepa.com/post/2026-predictions-for-ai-in-underwriting", "date": "2026-01-01", "kind": "direct", "result": "Names Christa Bicego, Director of Marketing, and David Meister, CRO"},
-  {"url": "https://kalepa.com/post/underwriting-workbench-vs-ai-underwriting-platform-which-do-you-need", "date": "2026-07-27", "kind": "direct", "result": "Category comparison post"},
-  {"url": "https://kalepa.com/news-posts/kalepa-appoints-david-meister-as-chief-revenue-officer-to-drive-next-phase-of-growth", "date": "2025-12-31", "kind": "direct", "result": "CRO appointment; oversees all global revenue functions"},
-  {"url": "https://kalepa.com/company", "date": "accessed 2026-11-22", "kind": "direct", "result": "Founded 2018, team in 10+ countries, advisors; no team or leadership list"},
-  {"url": "https://kalepa.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Raw HTML: Webflow, GTM, GA4, HubSpot, Segment, Hotjar, LinkedIn Insight, Vector; title 'About Kalepa | ...'"},
-  {"url": "https://kalepa.com/security", "date": "accessed 2026-11-22", "kind": "direct", "result": "Responsible disclosure policy; no SOC 2/ISO mention"},
-  {"url": "https://dns.google/resolve?name=kalepa.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "google-site-verification, SPF MailerLite + Google, anthropic-domain-verification"},
-  {"url": "https://boards-api.greenhouse.io/v1/boards/kalepa/jobs", "date": "accessed 2026-11-22", "kind": "direct", "result": "14 roles; Field Marketing Manager, Strategic Partnerships Manager, RevOps JDs read in full"},
-  {"url": "https://www.linkedin.com/company/kalepa/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Via Bright Data: Insurance, NYC, 11,779 followers, 51-200 employees, 'View all 68 employees', founded 2018"},
-  {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Kalepa%22+marketing", "date": "accessed 2026-11-22", "kind": "inferred", "result": "4 site:linkedin.com/in queries, titles/snippets only: Christa Bicego (Director of Marketing), Mic Johnson (Senior Content Marketing Manager, since Sep 2026), CRO, CEO, co-founder, product, CS. No SEO/growth titles. Name collisions ignored (Arnold/Martin Kalepa, 'The KALEPA Group')"},
-  {"url": "https://theorg.com/org/kalepa", "date": "accessed 2026-11-22", "kind": "unverified", "result": "Snippet: Christa Bicego, Marketing Director (aggregator)"},
-  {"url": "https://www.furtherai.com/blog/ai-tools-for-commercial-insurance-underwriting", "date": "2026-10-16", "kind": "direct", "result": "Competitor buyer's guide; Kalepa #2, 'Kalepa for risk enrichment'"},
-  {"url": "https://insuranceaitools.com/compare/kalepa-vs-sixfold", "date": "2026-10-25", "kind": "direct", "result": "Third-party head-to-head; 'SOC 2 not confirmed by us' for Kalepa"},
-  {"url": "https://www.g2.com/products/kalepa/competitors/alternatives", "date": "accessed 2026-11-22", "kind": "direct", "result": "Via Bright Data: Underwriting & Rating Software category; generic alternatives"},
-  {"url": "https://www.furtherai.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "208 blog URLs, 27 best/vs/buyer pages"},
-  {"url": "https://www.federato.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "172 articles, 63 library, vs pieces (fetched as federato.com/sitemap.xml)"},
-  {"url": "https://sixfold.ai/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "182 URLs, 78 content"},
-  {"url": "https://send.technology/post-sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "225 resources posts"},
-  {"url": "https://cytora.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "592 URLs, 267 Risk Flow Center"},
-  {"url": "https://www.hyperexponential.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "254 URLs, 107 blog"},
-  {"url": "https://www.v7labs.com/blog/best-ai-tools-commercial-lines-underwriting", "date": "accessed 2026-11-22", "kind": "direct", "result": "Listicle page fetched; no 'Kalepa' string in HTML"},
-  {"url": "https://www.google.com/search?q=AI+underwriting+platform+commercial+insurance", "date": "accessed 2026-11-22", "kind": "direct", "result": "5 category SERPs via Bright Data; no kalepa string in any of them"}
- ],
- "sources_tried_failed": [
-  {"url": "https://web.archive.org/web/20250615061255/https://www.kalepa.com/", "result": "Wayback snapshot fetch returned a 72-byte error body (2024 and 2025 snapshots exist per the availability API, but content couldn't be read): category-language history not verified"},
-  {"url": "https://wirinnovation.ai/insights/best-ai-underwriting-platforms-for-insurers-2026", "result": "Guessed URL from SERP returned 404; whether that listicle includes Kalepa wasn't checked"},
-  {"url": "https://www.google.com/search?q=Kalepa+vs", "result": "First Bright Data call returned empty; retry returned a 209-byte body (failure). Covered by the 'Kalepa vs Federato OR Sixfold' query instead"},
-  {"url": "https://kalepa.com/llms.txt", "result": "404"}
- ],
- "linkedin_checks_for_sponsor": [
-  "Kalepa company page → People tab, search 'marketing': is anyone above Christa Bicego (VP/CMO)? Any SEO, growth, demand-gen or web person? (Confirms sweet_spot vs single_seo.)",
-  "Christa Bicego's current title and start date (People-tab card only), and whether she is still at Kalepa after the Series B"
- ],
- "open_questions": [
-  "Does marketing report to the CRO (David Meister) or the CEO? This decides whether the CRO is a co-recipient",
-  "Does Kalepa have SOC 2? Third parties say 'not confirmed', and the site is silent. It matters for the angle, but must not be stated as fact in outreach",
-  "Is an outside agency doing SEO/content? Altalogy built the site; no SEO agency evidence found",
-  "How much of the pipeline comes from inbound/online research versus events and relationships? Only Kalepa can say. The field-marketing priority suggests events dominate today"
- ]
+  "b2b": true
 }

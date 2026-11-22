@@ -1,162 +1,504 @@
 {
- "scout_version": 3,
- "company": "Ocient",
- "domain": "ocient.com",
- "slug": "ocient",
- "scouted": "2026-11-22",
- "source_of_lead": "Next Play newsletter forwarded to gefen@etico.cr 2026-11-19 (thread 1a1f4da53a13d5c0): 'John from Ocient is hiring a demand generation manager. They are building analytics software for huge enterprise datasets. (Remote)'",
- "reason": "Fresh $100M Series C (2026-11-05) plus a rebrand from 'Hyperscale Data Warehouse' to 'OcientAIQ agentic AI', with a VP Marketing, no SEO team (SEO/AEO is folded into an open demand gen role plus an agency), and Ocient absent from every category query checked while ClickHouse, MotherDuck, Firebolt and Yellowbrick rank. Propose on the engagement track, to the VP Marketing.",
- "gating_rating": "sweet_spot",
- "gating_note": "VP Marketing (Jenna Boller) on the leadership page. No SEO person or team found: the open Demand Generation Manager JD says the hire will 'Own SEO and AEO (answer engine optimization) strategy and execution in partnership with our Content team and agency', so SEO is currently agency-run and is being handed to a generalist demand gen role, not a specialist team. The marketing org is small but real: Senior Content Strategist, Sr. Manager Marketing Ops (snippet; company not shown), Content, Communications, ABM, Field & Events teams named in the JD. Watch item: once the DG manager is hired, it becomes closer to 'single_seo', since one person owns SEO/AEO among many channels. Right now the seat is empty, so the audit could be the starting brief for that hire.",
- "marketing_leadership": {
-  "status": "found",
-  "who": [
-   {"name": "Jenna Boller", "role": "Vice President of Marketing", "kind": "direct", "source": "https://ocient.com/leadership/ (page lastmod 2026-05-11, accessed 2026-11-22). Bio: Page One PR, Ogilvy digital/social for Adobe/Intel/Lenovo/VMware, campaign management at Google/YouTube. Google site:linkedin.com/in title 'Jenna Boller Chorn - Ocient' (accessed 2026-11-22) suggests she is still there; profile not opened"}
+  "scout_version": 3,
+  "company": "Ocient",
+  "domain": "ocient.com",
+  "slug": "ocient",
+  "scouted": "2026-11-22",
+  "source_of_lead": "Next Play newsletter forwarded to gefen@etico.cr 2026-11-19 (thread 1a1f4da53a13d5c0): 'John from Ocient is hiring a demand generation manager. They are building analytics software for huge enterprise datasets. (Remote)'",
+  "reason": "Fresh $100M Series C (2026-11-05) plus a rebrand from 'Hyperscale Data Warehouse' to 'OcientAIQ agentic AI', with a VP Marketing, no SEO team (SEO/AEO is folded into an open demand gen role plus an agency), and Ocient absent from every category query checked while ClickHouse, MotherDuck, Firebolt and Yellowbrick rank. Propose on the engagement track, to the VP Marketing.",
+  "gating_rating": "sweet_spot",
+  "gating_note": "VP Marketing (Jenna Boller) on the leadership page. No SEO person or team found: the open Demand Generation Manager JD says the hire will 'Own SEO and AEO (answer engine optimization) strategy and execution in partnership with our Content team and agency', so SEO is currently agency-run and is being handed to a generalist demand gen role, not a specialist team. The marketing org is small but real: Senior Content Strategist, Sr. Manager Marketing Ops (snippet; company not shown), Content, Communications, ABM, Field & Events teams named in the JD. Watch item: once the DG manager is hired, it becomes closer to 'single_seo', since one person owns SEO/AEO among many channels. Right now the seat is empty, so the audit could be the starting brief for that hire.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {
+        "name": "Jenna Boller",
+        "role": "Vice President of Marketing",
+        "kind": "direct",
+        "source": "https://ocient.com/leadership/ (page lastmod 2026-05-11, accessed 2026-11-22). Bio: Page One PR, Ogilvy digital/social for Adobe/Intel/Lenovo/VMware, campaign management at Google/YouTube. Google site:linkedin.com/in title 'Jenna Boller Chorn - Ocient' (accessed 2026-11-22) suggests she is still there; profile not opened"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Leadership page lists Jenna Boller, Vice President of Marketing; no CMO listed; CEO John Morris, CRO Brian Brown",
+        "kind": "direct",
+        "url": "https://ocient.com/leadership/",
+        "date": "lastmod 2026-05-11, accessed 2026-11-22"
+      },
+      {
+        "claim": "The JD names Content, Communications, Marketing Operations, account-based, field & events teams and 'the broader Growth Marketing team'",
+        "kind": "direct",
+        "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+        "date": "first published 2026-09-30, updated 2026-11-04, accessed 2026-11-22"
+      },
+      {
+        "claim": "Search titles: 'Leah Valentine - Senior Content Strategist at Ocient'; 'Brandon Trautman - Sr. Manager, Marketing Operations' and 'Shannon Lahey-Petzold - ABM and Demand Generation' came up for Ocient queries, but their titles don't name the company",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22at+Ocient%22+%22marketing%22",
+        "date": "accessed 2026-11-22"
+      }
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      {
+        "claim": "The Demand Generation Manager role will 'Own SEO and AEO strategy and execution in partnership with our Content team and agency', including keyword/topic strategy across telecom, AdTech, financial services and public sector, technical SEO, and 'how search is shifting toward AI-driven answer engines'. SEO is one of about six channels in the role (also paid search/social, HubSpot nurture, conversion, webinars)",
+        "kind": "direct",
+        "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+        "date": "2026-09-30 (updated 2026-11-04)"
+      },
+      {
+        "claim": "Google site:linkedin.com/in searches for Ocient + SEO / 'search engine optimization' / 'SEO manager' returned no Ocient SEO titles. One title reads 'saad azhar - Internet Marketing Manager at Ocient' (pk.linkedin.com), which could be a name collision or a freelancer; not verified",
+        "kind": "inferred",
+        "url": "https://www.google.com/search?q=site:linkedin.com/in+%22at+Ocient%22+%22marketing%22",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "The logged-out view is limited, so 'no SEO team' stays a strong inference, not a certainty. The JD wording (SEO shared with Content plus an agency) is the strongest evidence",
+        "kind": "inferred",
+        "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+        "date": "accessed 2026-11-22"
+      }
+    ]
+  },
+  "situation": {
+    "estimate": "Ocient is an established, Chicago-based (remote-first, about 250 employees on LinkedIn) analytics-engine company, founded in 2016 by the Cleversafe team. It is moving fast from 'Ocient Hyperscale Data Warehouse' (homepage May 2025) to 'OcientAIQ: trusted agentic AI solutions at petabyte scale' (site rebuilt around May 2026; a pricing-tracker article dated Jul 20, 2026 reports the license-tier rebrand). It closed a $100M Series C on 2026-11-05 ($260M total), says it expects to more than triple revenue this year, and spun out India and National Security (ONSS) subsidiaries. On 2026-11-20 it posted four new Sales Director roles (Commercial Enterprise, Healthcare, FSI, Government). Direction: a vertical-solutions GTM (CSPs, AdTech, cybersecurity, FSI, national security), with marketing now building a digital demand engine. The SEO/AEO owner seat is still empty.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "funding",
+    "detail": "$100M Series C co-led by BOKA Capital and OCA Ventures (total $260M), announced 2026-11-05; plus an open Demand Generation Manager role (remote US, posted 2026-09-30) that will own SEO and AEO",
+    "date": "2026-11-05",
+    "source": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/"
+  },
+  "fit_evidence": [
+    {
+      "claim": "Buying journey = committee: enterprise and government buyers of a petabyte-scale data/AI platform (CTO/data engineering, security/governance, procurement; the JD cites 'complex, high-value enterprise sales cycles and technical buyers'; government buying goes through Carahsoft, the CDAO Tradewinds marketplace and AWS ICMP)",
+      "kind": "direct",
+      "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+      "date": "2026-09-30"
+    },
+    {
+      "claim": "Series C $100M closed 2026-11-05, total raised $260M; the company 'expects to more than triple revenue this year'",
+      "kind": "direct",
+      "url": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/",
+      "date": "2026-11-05"
+    },
+    {
+      "claim": "Category language change: the homepage in May 2025 sold 'The Ocient Hyperscale Data Warehouse' (title 'The Data Analytics Solution Provider'); in Nov 2026 it sells 'OcientAIQ | Production AI at Enterprise Scale', 'trusted agentic AI solutions'",
+      "kind": "direct",
+      "url": "https://web.archive.org/web/20250530002653/https://ocient.com/",
+      "date": "2025-05-30 vs accessed 2026-11-22"
+    },
+    {
+      "claim": "Rebrand to OcientAIQ with renamed license tiers, reported Jul 20, 2026",
+      "kind": "unverified",
+      "url": "https://pricingsaas.com",
+      "date": "2026-07-20 (Google snippet)"
+    },
+    {
+      "claim": "HQ Chicago (100 N Riverside Plaza), 201-500 employees, 'View all 250 employees', 9,260 followers",
+      "kind": "direct",
+      "url": "https://www.linkedin.com/company/ocient",
+      "date": "accessed 2026-11-22 via Bright Data"
+    },
+    {
+      "claim": "20 open roles on Gem, all remote (US/UK/India); 4 Sales Director roles posted 2026-11-20; 1 marketing role (Demand Generation Manager)",
+      "kind": "direct",
+      "url": "https://api.gem.com/job_board/v0/ocient-inc-/job_posts/",
+      "date": "accessed 2026-11-22"
+    }
   ],
-  "evidence": [
-   {"claim": "Leadership page lists Jenna Boller, Vice President of Marketing; no CMO listed; CEO John Morris, CRO Brian Brown", "kind": "direct", "url": "https://ocient.com/leadership/", "date": "lastmod 2026-05-11, accessed 2026-11-22"},
-   {"claim": "The JD names Content, Communications, Marketing Operations, account-based, field & events teams and 'the broader Growth Marketing team'", "kind": "direct", "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9", "date": "first published 2026-09-30, updated 2026-11-04, accessed 2026-11-22"},
-   {"claim": "Search titles: 'Leah Valentine - Senior Content Strategist at Ocient'; 'Brandon Trautman - Sr. Manager, Marketing Operations' and 'Shannon Lahey-Petzold - ABM and Demand Generation' came up for Ocient queries, but their titles don't name the company", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22at+Ocient%22+%22marketing%22", "date": "accessed 2026-11-22"}
-  ]
- },
- "seo_team": {
-  "status": "not found",
-  "evidence": [
-   {"claim": "The Demand Generation Manager role will 'Own SEO and AEO strategy and execution in partnership with our Content team and agency', including keyword/topic strategy across telecom, AdTech, financial services and public sector, technical SEO, and 'how search is shifting toward AI-driven answer engines'. SEO is one of about six channels in the role (also paid search/social, HubSpot nurture, conversion, webinars)", "kind": "direct", "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9", "date": "2026-09-30 (updated 2026-11-04)"},
-   {"claim": "Google site:linkedin.com/in searches for Ocient + SEO / 'search engine optimization' / 'SEO manager' returned no Ocient SEO titles. One title reads 'saad azhar - Internet Marketing Manager at Ocient' (pk.linkedin.com), which could be a name collision or a freelancer; not verified", "kind": "inferred", "url": "https://www.google.com/search?q=site:linkedin.com/in+%22at+Ocient%22+%22marketing%22", "date": "accessed 2026-11-22"},
-   {"claim": "The logged-out view is limited, so 'no SEO team' stays a strong inference, not a certainty. The JD wording (SEO shared with Content plus an agency) is the strongest evidence", "kind": "inferred", "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9", "date": "accessed 2026-11-22"}
-  ]
- },
- "situation": {
-  "estimate": "Ocient is an established, Chicago-based (remote-first, about 250 employees on LinkedIn) analytics-engine company, founded in 2016 by the Cleversafe team. It is moving fast from 'Ocient Hyperscale Data Warehouse' (homepage May 2025) to 'OcientAIQ: trusted agentic AI solutions at petabyte scale' (site rebuilt around May 2026; a pricing-tracker article dated Jul 20, 2026 reports the license-tier rebrand). It closed a $100M Series C on 2026-11-05 ($260M total), says it expects to more than triple revenue this year, and spun out India and National Security (ONSS) subsidiaries. On 2026-11-20 it posted four new Sales Director roles (Commercial Enterprise, Healthcare, FSI, Government). Direction: a vertical-solutions GTM (CSPs, AdTech, cybersecurity, FSI, national security), with marketing now building a digital demand engine. The SEO/AEO owner seat is still empty.",
-  "confidence": "medium"
- },
- "trigger": {
-  "type": "funding",
-  "detail": "$100M Series C co-led by BOKA Capital and OCA Ventures (total $260M), announced 2026-11-05; plus an open Demand Generation Manager role (remote US, posted 2026-09-30) that will own SEO and AEO",
-  "date": "2026-11-05",
-  "source": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/"
- },
- "fit_evidence": [
-  {"claim": "Buying journey = committee: enterprise and government buyers of a petabyte-scale data/AI platform (CTO/data engineering, security/governance, procurement; the JD cites 'complex, high-value enterprise sales cycles and technical buyers'; government buying goes through Carahsoft, the CDAO Tradewinds marketplace and AWS ICMP)", "kind": "direct", "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9", "date": "2026-09-30"},
-  {"claim": "Series C $100M closed 2026-11-05, total raised $260M; the company 'expects to more than triple revenue this year'", "kind": "direct", "url": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/", "date": "2026-11-05"},
-  {"claim": "Category language change: the homepage in May 2025 sold 'The Ocient Hyperscale Data Warehouse' (title 'The Data Analytics Solution Provider'); in Nov 2026 it sells 'OcientAIQ | Production AI at Enterprise Scale', 'trusted agentic AI solutions'", "kind": "direct", "url": "https://web.archive.org/web/20250530002653/https://ocient.com/", "date": "2025-05-30 vs accessed 2026-11-22"},
-  {"claim": "Rebrand to OcientAIQ with renamed license tiers, reported Jul 20, 2026", "kind": "unverified", "url": "https://pricingsaas.com", "date": "2026-07-20 (Google snippet)"},
-  {"claim": "HQ Chicago (100 N Riverside Plaza), 201-500 employees, 'View all 250 employees', 9,260 followers", "kind": "direct", "url": "https://www.linkedin.com/company/ocient", "date": "accessed 2026-11-22 via Bright Data"},
-  {"claim": "20 open roles on Gem, all remote (US/UK/India); 4 Sales Director roles posted 2026-11-20; 1 marketing role (Demand Generation Manager)", "kind": "direct", "url": "https://api.gem.com/job_board/v0/ocient-inc-/job_posts/", "date": "accessed 2026-11-22"}
- ],
- "site_and_content": {
-  "cms_tools": "WordPress (custom 'ocient' theme) + Yoast SEO + Google Site Kit; 3 GTM containers + Google Ads tag (AW-10937123438); HubSpot forms/tracking (share.hsforms.com, hubspotusercontent); Gem job board. DNS TXT: Salesforce, Outlook 365, NetSuite, Atlassian, OpenAI/Anthropic/Lovable/Apple domain verifications; no Marketo/Pardot",
-  "blog": "199 blog posts via WP REST API (x-wp-total 199), 2022-04-15 to 2026-11-18. Cadence: about 4-7/month in 2022, 2-5/month 2023-2024, thin in 2025 (zero in Jun 2025 and Dec 2025-Jan 2026), then back up to 3-8/month Mar-Nov 2026 (8 in Sep 2026). Recent posts are long-form vertical/technical pieces (IOC sweeps, beaconing detection in SQL, AdTech agentic infra) plus employee spotlights",
-  "internal_linking": "Link-aware read of the article body (wysiwyg-container, raw HTML anchors) on 6 posts sampled across 2022-2026: 0-4 contextual internal links each, mostly CTAs (contact-us, job-postings). The Sep 2026 cybersecurity post links internally only to /contact-us/; the 2025 telco post has 0 internal links. No pillar/cluster structure seen; posts don't link to the new /solutions/<vertical>/ pages",
-  "comparison_pages": "Tech papers 'Ocient vs Snowflake', 'Ocient versus ClickHouse', 'versus Druid', 'versus StarTree', 'vs Redshift AQUA' exist (lastmod 2026-05 to 2026-07), but they are gated HubSpot forms with almost no indexable body text (the vs-Snowflake page is a meta description plus a form). An ungated older blog post 'snowflake-vs-ocient' exists. They rank only for branded 'Ocient vs X' queries",
-  "other_content": "21 tech papers (several new 2026-11-17/18), 11 case studies (all lastmod Oct-Nov 2026), 57 videos, 4 analyst reports, 5 vertical solution pages (adtech, national-security, financial-services, cybersecurity, CSPs), /pricing, docs at docs.ocient.com. llms.txt is a near-empty stub (108 bytes, headings only), a weak signal",
-  "structure_note": "Heavy recent investment in gated assets and vertical pages, light on open, searchable category content (guides, 'what is', 'best X' or 'alternatives' pages)"
- },
- "jobs": {
-  "board": "Gem (jobs.gem.com/ocient-inc-; public API api.gem.com/job_board/v0/ocient-inc-/job_posts/). Ashby/Greenhouse/Lever empty for 'ocient', 'ocientinc', 'ocient-inc'",
-  "open_roles": 20,
-  "marketing_roles": [
-   {"title": "Demand Generation Manager", "location": "Remote (US Based Only); no visa sponsorship", "published": "2026-09-30 (updated 2026-11-04)", "salary": "$95k-$110k base", "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9", "jd_notes": "Owns SEO + AEO with Content and an agency; paid search/social with agency partners; HubSpot (required) + Salesforce; website conversion; nurture; webinars; reports weekly on pipeline; evaluate G2 and intent platforms. Four to seven years of B2B demand gen, with two or more years owning paid or SEO 'not just briefing an agency'. Reporting line not stated. Verticals: telecom, AdTech, financial services, public sector"}
+  "site_and_content": {
+    "cms_tools": "WordPress (custom 'ocient' theme) + Yoast SEO + Google Site Kit; 3 GTM containers + Google Ads tag (AW-10937123438); HubSpot forms/tracking (share.hsforms.com, hubspotusercontent); Gem job board. DNS TXT: Salesforce, Outlook 365, NetSuite, Atlassian, OpenAI/Anthropic/Lovable/Apple domain verifications; no Marketo/Pardot",
+    "blog": "199 blog posts via WP REST API (x-wp-total 199), 2022-04-15 to 2026-11-18. Cadence: about 4-7/month in 2022, 2-5/month 2023-2024, thin in 2025 (zero in Jun 2025 and Dec 2025-Jan 2026), then back up to 3-8/month Mar-Nov 2026 (8 in Sep 2026). Recent posts are long-form vertical/technical pieces (IOC sweeps, beaconing detection in SQL, AdTech agentic infra) plus employee spotlights",
+    "internal_linking": "Link-aware read of the article body (wysiwyg-container, raw HTML anchors) on 6 posts sampled across 2022-2026: 0-4 contextual internal links each, mostly CTAs (contact-us, job-postings). The Sep 2026 cybersecurity post links internally only to /contact-us/; the 2025 telco post has 0 internal links. No pillar/cluster structure seen; posts don't link to the new /solutions/<vertical>/ pages",
+    "comparison_pages": "Tech papers 'Ocient vs Snowflake', 'Ocient versus ClickHouse', 'versus Druid', 'versus StarTree', 'vs Redshift AQUA' exist (lastmod 2026-05 to 2026-07), but they are gated HubSpot forms with almost no indexable body text (the vs-Snowflake page is a meta description plus a form). An ungated older blog post 'snowflake-vs-ocient' exists. They rank only for branded 'Ocient vs X' queries",
+    "other_content": "21 tech papers (several new 2026-11-17/18), 11 case studies (all lastmod Oct-Nov 2026), 57 videos, 4 analyst reports, 5 vertical solution pages (adtech, national-security, financial-services, cybersecurity, CSPs), /pricing, docs at docs.ocient.com. llms.txt is a near-empty stub (108 bytes, headings only), a weak signal",
+    "structure_note": "Heavy recent investment in gated assets and vertical pages, light on open, searchable category content (guides, 'what is', 'best X' or 'alternatives' pages)"
+  },
+  "jobs": {
+    "board": "Gem (jobs.gem.com/ocient-inc-; public API api.gem.com/job_board/v0/ocient-inc-/job_posts/). Ashby/Greenhouse/Lever empty for 'ocient', 'ocientinc', 'ocient-inc'",
+    "open_roles": 20,
+    "marketing_roles": [
+      {
+        "title": "Demand Generation Manager",
+        "location": "Remote (US Based Only); no visa sponsorship",
+        "published": "2026-09-30 (updated 2026-11-04)",
+        "salary": "$95k-$110k base",
+        "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+        "jd_notes": "Owns SEO + AEO with Content and an agency; paid search/social with agency partners; HubSpot (required) + Salesforce; website conversion; nurture; webinars; reports weekly on pipeline; evaluate G2 and intent platforms. Four to seven years of B2B demand gen, with two or more years owning paid or SEO 'not just briefing an agency'. Reporting line not stated. Verticals: telecom, AdTech, financial services, public sector"
+      }
+    ],
+    "seo_roles": [],
+    "role_track_note": "Role is US-based only with no visa sponsorship, and it's a mid-level IC demand gen role, not an SEO/GEO specialist role. Role track likely not a fit; engagement track instead"
+  },
+  "contacts": [
+    {
+      "name": "Jenna Boller",
+      "role": "Vice President of Marketing",
+      "email": null,
+      "email_verified": false,
+      "source": "https://ocient.com/leadership/ (accessed 2026-11-22); no public email found",
+      "recipient_rank": 1
+    },
+    {
+      "name": "John Morris",
+      "role": "President & CEO (named as 'John from Ocient' in Next Play)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://ocient.com/leadership/ and the Series C press release 2026-11-05",
+      "recipient_rank": 2
+    }
   ],
-  "seo_roles": [],
-  "role_track_note": "Role is US-based only with no visa sponsorship, and it's a mid-level IC demand gen role, not an SEO/GEO specialist role. Role track likely not a fit; engagement track instead"
- },
- "contacts": [
-  {"name": "Jenna Boller", "role": "Vice President of Marketing", "email": null, "email_verified": false, "source": "https://ocient.com/leadership/ (accessed 2026-11-22); no public email found", "recipient_rank": 1},
-  {"name": "John Morris", "role": "President & CEO (named as 'John from Ocient' in Next Play)", "email": null, "email_verified": false, "source": "https://ocient.com/leadership/ and the Series C press release 2026-11-05", "recipient_rank": 2}
- ],
- "outreach_angle": {
-  "hook": "Congrats on the $100M Series C (Nov 5). Ocient just moved from 'Hyperscale Data Warehouse' to 'OcientAIQ agentic AI'. The Demand Gen JD asks for an owner of SEO and AEO and of 'how search is shifting toward AI-driven answer engines'. Today, category searches like 'best data warehouse for petabyte scale analytics', 'hyperscale data warehouse' and 'real-time analytics database for adtech' return ClickHouse, MotherDuck, Yellowbrick, SingleStore and Databricks, and not Ocient. The 'Ocient vs Snowflake/ClickHouse' papers are gated forms that answer engines can't read. Offer: an audit of how ChatGPT/Gemini describe OcientAIQ against those competitors, as a ready brief for the incoming DG/AEO owner.",
-  "source": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/ ; https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
-  "date": "2026-11-05 / 2026-09-30"
- },
- "seo_need": {
-  "rating": "high",
-  "buyer_research": "Mixed, with a search-led evaluation layer. The final sale is enterprise/government and partner/RFP-heavy (Carahsoft, Tradewinds, AWS ICMP, national security). But the technical evaluators (data engineers, architects, CTOs in telecom/adtech/FSI) research and compare engines online: G2 has a Data Warehouse Solutions category with an Ocient 'alternatives' page; PeerSpot and SourceForge host Snowflake/Netezza vs Ocient comparisons; Reddit r/dataengineering threads rank; vendors publish 'top 10 data warehouses' listicles. Ocient's own JD treats SEO/AEO plus G2 as channels to own. The buyer set is large enterprises only (hundreds to low thousands of accounts), so it's not a mass market, but it's not a tiny known list either",
-  "competitors": [
-   {"name": "ClickHouse", "seo_investment": "Very heavy: 945 blog URLs, 220 /resources/engineering guides, a /comparison/snowflake page, 'Snowflake alternatives in 2026' and 'Top 5 cloud data warehouses' guides that rank for category queries", "evidence_url": "https://clickhouse.com/sitemap.xml"},
-   {"name": "MotherDuck", "seo_investment": "Heavy: 283 blog posts + 69 /learn guides; ranks #1 for 'best data warehouse for petabyte scale analytics' and 'Snowflake alternatives', and in the agentic analytics DB query", "evidence_url": "https://motherduck.com/sitemap.xml"},
-   {"name": "Firebolt", "seo_investment": "Programmatic comparison hub: 84 blog posts, 31 /comparison pages (e.g. bigquery-vs-clickhouse, athena-vs-redshift)", "evidence_url": "https://www.firebolt.io/sitemap.xml"},
-   {"name": "Yellowbrick", "seo_investment": "184 blog URLs, including 'Databricks vs Yellowbrick', 'comparing to big dog Snowflake' and a Yellowbrick vs Snowflake/Databricks/Redshift demo; ranks for 'petabyte scale analytics platform for telecom'", "evidence_url": "https://www.yellowbrick.com/sitemap-0.xml"},
-   {"name": "Snowflake / Databricks", "seo_investment": "Category giants with large content hubs; Databricks ranks for 'telco network analytics' and 'real-time analytics' queries", "evidence_url": "https://www.databricks.com/solutions/accelerators"}
+  "outreach_angle": {
+    "hook": "Congrats on the $100M Series C (Nov 5). Ocient just moved from 'Hyperscale Data Warehouse' to 'OcientAIQ agentic AI'. The Demand Gen JD asks for an owner of SEO and AEO and of 'how search is shifting toward AI-driven answer engines'. Today, category searches like 'best data warehouse for petabyte scale analytics', 'hyperscale data warehouse' and 'real-time analytics database for adtech' return ClickHouse, MotherDuck, Yellowbrick, SingleStore and Databricks, and not Ocient. The 'Ocient vs Snowflake/ClickHouse' papers are gated forms that answer engines can't read. Offer: an audit of how ChatGPT/Gemini describe OcientAIQ against those competitors, as a ready brief for the incoming DG/AEO owner.",
+    "source": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/ ; https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+    "date": "2026-11-05 / 2026-09-30"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Mixed, with a search-led evaluation layer. The final sale is enterprise/government and partner/RFP-heavy (Carahsoft, Tradewinds, AWS ICMP, national security). But the technical evaluators (data engineers, architects, CTOs in telecom/adtech/FSI) research and compare engines online: G2 has a Data Warehouse Solutions category with an Ocient 'alternatives' page; PeerSpot and SourceForge host Snowflake/Netezza vs Ocient comparisons; Reddit r/dataengineering threads rank; vendors publish 'top 10 data warehouses' listicles. Ocient's own JD treats SEO/AEO plus G2 as channels to own. The buyer set is large enterprises only (hundreds to low thousands of accounts), so it's not a mass market, but it's not a tiny known list either",
+    "competitors": [
+      {
+        "name": "ClickHouse",
+        "seo_investment": "Very heavy: 945 blog URLs, 220 /resources/engineering guides, a /comparison/snowflake page, 'Snowflake alternatives in 2026' and 'Top 5 cloud data warehouses' guides that rank for category queries",
+        "evidence_url": "https://clickhouse.com/sitemap.xml"
+      },
+      {
+        "name": "MotherDuck",
+        "seo_investment": "Heavy: 283 blog posts + 69 /learn guides; ranks #1 for 'best data warehouse for petabyte scale analytics' and 'Snowflake alternatives', and in the agentic analytics DB query",
+        "evidence_url": "https://motherduck.com/sitemap.xml"
+      },
+      {
+        "name": "Firebolt",
+        "seo_investment": "Programmatic comparison hub: 84 blog posts, 31 /comparison pages (e.g. bigquery-vs-clickhouse, athena-vs-redshift)",
+        "evidence_url": "https://www.firebolt.io/sitemap.xml"
+      },
+      {
+        "name": "Yellowbrick",
+        "seo_investment": "184 blog URLs, including 'Databricks vs Yellowbrick', 'comparing to big dog Snowflake' and a Yellowbrick vs Snowflake/Databricks/Redshift demo; ranks for 'petabyte scale analytics platform for telecom'",
+        "evidence_url": "https://www.yellowbrick.com/sitemap-0.xml"
+      },
+      {
+        "name": "Snowflake / Databricks",
+        "seo_investment": "Category giants with large content hubs; Databricks ranks for 'telco network analytics' and 'real-time analytics' queries",
+        "evidence_url": "https://www.databricks.com/solutions/accelerators"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best data warehouse for petabyte scale analytics",
+        "top_results": [
+          "motherduck.com top-10 data warehouse platforms 2026",
+          "clickhouse.com top 5 cloud data warehouses 2026",
+          "reddit r/dataengineering",
+          "c-metric.com",
+          "posthog.com compare",
+          "skyvia.com",
+          "blog.anyroad.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "hyperscale data warehouse",
+        "top_results": [
+          "tdwi.org (2022 sponsored-style article)",
+          "atscale.com",
+          "techcommunity.microsoft.com Azure SQL Hyperscale",
+          "dgtlinfra.com",
+          "comarch.com",
+          "fivetran.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "real-time analytics database for adtech",
+        "top_results": [
+          "clickhouse.com",
+          "singlestore.com",
+          "velodb.io",
+          "rocketsoftware.com",
+          "imply.io",
+          "databricks.com",
+          "tinybird.co",
+          "cloud.google.com",
+          "exasol.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "petabyte scale analytics platform for telecom",
+        "top_results": [
+          "solved.scality.com",
+          "trmlabs.com",
+          "cloudera.com",
+          "deloitte.com",
+          "otsi-global.com",
+          "yellowbrick.com",
+          "dell.com",
+          "krontech.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "data warehouse for network telemetry CDR analytics",
+        "top_results": [
+          "learn.microsoft.com",
+          "databricks.com",
+          "StarRocks post",
+          "tigerdata.com",
+          "adaptit.tech",
+          "sparklogs.com",
+          "dbta.com",
+          "clickhouse.com",
+          "atso.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "agentic AI analytics on petabyte data",
+        "top_results": [
+          "enterprisedb.com",
+          "motherduck.com",
+          "reddit r/AI_Agents",
+          "aws.amazon.com",
+          "nextplatform.com (Oracle)",
+          "vastdata.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "Snowflake alternatives for petabyte scale",
+        "top_results": [
+          "motherduck.com",
+          "reddit",
+          "dremio.com",
+          "clickhouse.com",
+          "tacnode.io",
+          "flexera.com",
+          "dev.to",
+          "fivetran.com"
+        ],
+        "date": "2026-11-22"
+      },
+      {
+        "query": "Ocient alternatives",
+        "top_results": [
+          "ocient.com",
+          "LinkedIn company",
+          "g2.com Ocient alternatives (Data Warehouse Solutions)",
+          "docs.datadoghq.com",
+          "cbinsights.com",
+          "6sense technographics",
+          "theirstack.com",
+          "docs.ocient.com",
+          "Substack '7 Ocient Alternatives for Hyperscale Analytics in 2026'"
+        ],
+        "date": "2026-11-22"
+      }
+    ],
+    "cost_of_absence": "Ocient isn't in the top results for any of the 7 non-branded category queries checked, including 'hyperscale data warehouse', its own former product name, and 'real-time analytics database for adtech' and telecom/CDR queries, both core verticals with dedicated solution pages. Competitors (ClickHouse, MotherDuck, Yellowbrick, Firebolt, Databricks) write the listicles that define the category, and AI answers mostly draw on those listicles. Ocient's head-to-head content is gated, so it isn't readable as evidence. A third-party '7 Ocient Alternatives' post and G2's alternatives page frame Ocient's own branded query. And with the rebrand to 'agentic AI at petabyte scale' just after a $100M raise and four new vertical sales directors, answer engines likely still describe the old 'hyperscale data warehouse', or don't mention Ocient at all, for the new category.",
+    "why_not_yet": "never_prioritized, now changing (plus agency_run): marketing has been PR/analyst/event- and gated-asset-led (Spark PR case study; many tech papers, webinars, survey press releases), with SEO handled by an agency and no in-house owner. The Sep 2026 JD creates the first in-house owner for SEO/AEO, which shows they now see the need",
+    "evidence": [
+      {
+        "claim": "JD: 'Own SEO and AEO strategy and execution in partnership with our Content team and agency... staying ahead of how search is shifting toward AI-driven answer engines'",
+        "kind": "direct",
+        "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9",
+        "date": "2026-09-30"
+      },
+      {
+        "claim": "Ocient absent from the top results of 7 non-branded category SERPs (Google via Bright Data, hl=en gl=us)",
+        "kind": "direct",
+        "url": "https://www.google.com/search?q=hyperscale+data+warehouse",
+        "date": "2026-11-22"
+      },
+      {
+        "claim": "The vs-Snowflake tech paper page is a gated HubSpot form with only a meta description as content",
+        "kind": "direct",
+        "url": "https://ocient.com/tech-papers/ocient-vs-snowflake-performance-comparison/",
+        "date": "accessed 2026-11-22"
+      },
+      {
+        "claim": "Spark PR lists Ocient as a PR case study (suggests a PR-led marketing history)",
+        "kind": "inferred",
+        "url": "https://sparkpr.com/case-studies/ocient",
+        "date": "Google result, accessed 2026-11-22"
+      }
+    ]
+  },
+  "features": {
+    "industry": "data_ai_infra",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "funding",
+    "finding_pattern": "absent",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "engagement",
+    "opener_type": "milestone_congrats",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://mail.google.com (thread 1a1f4da53a13d5c0, Next Play forward)",
+      "date": "2026-11-19",
+      "kind": "direct",
+      "result": "Lead: John from Ocient hiring a demand generation manager (Remote)"
+    },
+    {
+      "url": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/",
+      "date": "2026-11-05",
+      "kind": "direct",
+      "result": "$100M Series C, BOKA Capital + OCA Ventures, total $260M; CEO John Morris; revenue to more than triple"
+    },
+    {
+      "url": "https://api.gem.com/job_board/v0/ocient-inc-/job_posts/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "20 open roles; Demand Generation Manager full JD read"
+    },
+    {
+      "url": "https://ocient.com/leadership/",
+      "date": "lastmod 2026-05-11, accessed 2026-11-22",
+      "kind": "direct",
+      "result": "VP Marketing Jenna Boller; no CMO"
+    },
+    {
+      "url": "https://ocient.com/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "OcientAIQ positioning; WordPress, Yoast, HubSpot, GTM"
+    },
+    {
+      "url": "https://ocient.com/sitemap_index.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "17 sub-sitemaps; counts of blog, tech paper, case study, solution and news pages"
+    },
+    {
+      "url": "https://ocient.com/wp-json/wp/v2/blog_post",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "199 posts, publish dates 2022-04-15 to 2026-11-18"
+    },
+    {
+      "url": "https://ocient.com/blog/retrospective-ioc-sweeps-establishing-whether-you-were-ever-exposed/",
+      "date": "2026-09-14",
+      "kind": "direct",
+      "result": "One of 6 sampled posts (2022-2026) read link-aware; 0-4 contextual internal links each"
+    },
+    {
+      "url": "https://ocient.com/tech-papers/ocient-vs-snowflake-performance-comparison/",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Gated form, no body text"
+    },
+    {
+      "url": "https://dns.google/resolve?name=ocient.com&type=TXT",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Salesforce, O365, NetSuite, Atlassian, OpenAI, Anthropic, Lovable verifications"
+    },
+    {
+      "url": "https://www.linkedin.com/company/ocient",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "Via Bright Data: Chicago HQ, 201-500, 250 employees, 9,260 followers"
+    },
+    {
+      "url": "https://web.archive.org/web/20250530002653/https://ocient.com/",
+      "date": "2025-05-30",
+      "kind": "direct",
+      "result": "Old positioning 'Ocient Hyperscale Data Warehouse' (fetched via Bright Data; direct fetch was 403)"
+    },
+    {
+      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Ocient%22+SEO",
+      "date": "accessed 2026-11-22",
+      "kind": "inferred",
+      "result": "No Ocient SEO titles; marketing titles listed in marketing_leadership"
+    },
+    {
+      "url": "https://www.google.com/search?q=best+data+warehouse+for+petabyte+scale+analytics",
+      "date": "2026-11-22",
+      "kind": "direct",
+      "result": "Plus 7 more category and branded SERPs, see seo_need.serp_checks"
+    },
+    {
+      "url": "https://clickhouse.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "945 blog, 220 engineering guides, comparison pages"
+    },
+    {
+      "url": "https://motherduck.com/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "283 blog + 69 learn"
+    },
+    {
+      "url": "https://www.firebolt.io/sitemap.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "84 blog, 31 comparison pages"
+    },
+    {
+      "url": "https://www.yellowbrick.com/sitemap-0.xml",
+      "date": "accessed 2026-11-22",
+      "kind": "direct",
+      "result": "184 blog URLs incl. vs Snowflake/Databricks"
+    },
+    {
+      "url": "https://pricingsaas.com (Ocient rebrand article, Google snippet)",
+      "date": "2026-07-20",
+      "kind": "unverified",
+      "result": "Rebrand to OcientAIQ; license tiers renamed"
+    }
   ],
-  "serp_checks": [
-   {"query": "best data warehouse for petabyte scale analytics", "top_results": ["motherduck.com top-10 data warehouse platforms 2026", "clickhouse.com top 5 cloud data warehouses 2026", "reddit r/dataengineering", "c-metric.com", "posthog.com compare", "skyvia.com", "blog.anyroad.com"], "date": "2026-11-22"},
-   {"query": "hyperscale data warehouse", "top_results": ["tdwi.org (2022 sponsored-style article)", "atscale.com", "techcommunity.microsoft.com Azure SQL Hyperscale", "dgtlinfra.com", "comarch.com", "fivetran.com"], "date": "2026-11-22"},
-   {"query": "real-time analytics database for adtech", "top_results": ["clickhouse.com", "singlestore.com", "velodb.io", "rocketsoftware.com", "imply.io", "databricks.com", "tinybird.co", "cloud.google.com", "exasol.com"], "date": "2026-11-22"},
-   {"query": "petabyte scale analytics platform for telecom", "top_results": ["solved.scality.com", "trmlabs.com", "cloudera.com", "deloitte.com", "otsi-global.com", "yellowbrick.com", "dell.com", "krontech.com"], "date": "2026-11-22"},
-   {"query": "data warehouse for network telemetry CDR analytics", "top_results": ["learn.microsoft.com", "databricks.com", "StarRocks post", "tigerdata.com", "adaptit.tech", "sparklogs.com", "dbta.com", "clickhouse.com", "atso.com"], "date": "2026-11-22"},
-   {"query": "agentic AI analytics on petabyte data", "top_results": ["enterprisedb.com", "motherduck.com", "reddit r/AI_Agents", "aws.amazon.com", "nextplatform.com (Oracle)", "vastdata.com"], "date": "2026-11-22"},
-   {"query": "Snowflake alternatives for petabyte scale", "top_results": ["motherduck.com", "reddit", "dremio.com", "clickhouse.com", "tacnode.io", "flexera.com", "dev.to", "fivetran.com"], "date": "2026-11-22"},
-   {"query": "Ocient alternatives", "top_results": ["ocient.com", "LinkedIn company", "g2.com Ocient alternatives (Data Warehouse Solutions)", "docs.datadoghq.com", "cbinsights.com", "6sense technographics", "theirstack.com", "docs.ocient.com", "Substack '7 Ocient Alternatives for Hyperscale Analytics in 2026'"], "date": "2026-11-22"}
+  "sources_tried_failed": [
+    {
+      "url": "https://api.ashbyhq.com / boards-api.greenhouse.io / api.lever.co for ocient, ocientinc, ocient-inc",
+      "result": "no board found"
+    },
+    {
+      "url": "https://ocient.com/job-postings/",
+      "result": "roles load in a Gem iframe (JS); used the Gem public API instead"
+    },
+    {
+      "url": "http://web.archive.org/web/20250530002653/https://ocient.com/ (direct)",
+      "result": "403; worked via Bright Data"
+    },
+    {
+      "url": "Google 'ClickHouse vs Ocient' (first try)",
+      "result": "empty response; the retry worked"
+    },
+    {
+      "url": "Next Play apply/redirect links",
+      "result": "not followed (substack click-tracking under the sponsor's newsletter identity); found the job on Gem directly"
+    },
+    {
+      "url": "AI-visibility probe (ChatGPT/Gemini)",
+      "result": "not run; no easy Bright Data route"
+    }
   ],
-  "cost_of_absence": "Ocient isn't in the top results for any of the 7 non-branded category queries checked, including 'hyperscale data warehouse', its own former product name, and 'real-time analytics database for adtech' and telecom/CDR queries, both core verticals with dedicated solution pages. Competitors (ClickHouse, MotherDuck, Yellowbrick, Firebolt, Databricks) write the listicles that define the category, and AI answers mostly draw on those listicles. Ocient's head-to-head content is gated, so it isn't readable as evidence. A third-party '7 Ocient Alternatives' post and G2's alternatives page frame Ocient's own branded query. And with the rebrand to 'agentic AI at petabyte scale' just after a $100M raise and four new vertical sales directors, answer engines likely still describe the old 'hyperscale data warehouse', or don't mention Ocient at all, for the new category.",
-  "why_not_yet": "never_prioritized, now changing (plus agency_run): marketing has been PR/analyst/event- and gated-asset-led (Spark PR case study; many tech papers, webinars, survey press releases), with SEO handled by an agency and no in-house owner. The Sep 2026 JD creates the first in-house owner for SEO/AEO, which shows they now see the need",
-  "evidence": [
-   {"claim": "JD: 'Own SEO and AEO strategy and execution in partnership with our Content team and agency... staying ahead of how search is shifting toward AI-driven answer engines'", "kind": "direct", "url": "https://jobs.gem.com/ocient-inc-/am9icG9zdDofYHqc8zr7rfB1gqt1KQj9", "date": "2026-09-30"},
-   {"claim": "Ocient absent from the top results of 7 non-branded category SERPs (Google via Bright Data, hl=en gl=us)", "kind": "direct", "url": "https://www.google.com/search?q=hyperscale+data+warehouse", "date": "2026-11-22"},
-   {"claim": "The vs-Snowflake tech paper page is a gated HubSpot form with only a meta description as content", "kind": "direct", "url": "https://ocient.com/tech-papers/ocient-vs-snowflake-performance-comparison/", "date": "accessed 2026-11-22"},
-   {"claim": "Spark PR lists Ocient as a PR case study (suggests a PR-led marketing history)", "kind": "inferred", "url": "https://sparkpr.com/case-studies/ocient", "date": "Google result, accessed 2026-11-22"}
-  ]
- },
- "features": {
-  "industry": "data_ai_infra",
-  "stage": "series_c_plus",
-  "situation": "scaling",
-  "size_band": "201_1000",
-  "geo": "us",
-  "marketing_gating": "sweet_spot",
-  "trigger": "funding",
-  "finding_pattern": "absent",
-  "recipient_role": "cmo_vp_marketing",
-  "ask_track": "engagement",
-  "opener_type": "milestone_congrats",
-  "email_variant": "v4_two_images",
-  "subject_style": "how_ai_sees_x",
-  "send_slot": "sun_thu_morning_local",
-  "contact_verified": "no",
-  "buying_journey": "committee",
-  "seo_need": "high"
- },
- "sources": [
-  {"url": "https://mail.google.com (thread 1a1f4da53a13d5c0, Next Play forward)", "date": "2026-11-19", "kind": "direct", "result": "Lead: John from Ocient hiring a demand generation manager (Remote)"},
-  {"url": "https://ocient.com/newsroom/press-releases/ocient-raises-100m-in-series-c-funding/", "date": "2026-11-05", "kind": "direct", "result": "$100M Series C, BOKA Capital + OCA Ventures, total $260M; CEO John Morris; revenue to more than triple"},
-  {"url": "https://api.gem.com/job_board/v0/ocient-inc-/job_posts/", "date": "accessed 2026-11-22", "kind": "direct", "result": "20 open roles; Demand Generation Manager full JD read"},
-  {"url": "https://ocient.com/leadership/", "date": "lastmod 2026-05-11, accessed 2026-11-22", "kind": "direct", "result": "VP Marketing Jenna Boller; no CMO"},
-  {"url": "https://ocient.com/", "date": "accessed 2026-11-22", "kind": "direct", "result": "OcientAIQ positioning; WordPress, Yoast, HubSpot, GTM"},
-  {"url": "https://ocient.com/sitemap_index.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "17 sub-sitemaps; counts of blog, tech paper, case study, solution and news pages"},
-  {"url": "https://ocient.com/wp-json/wp/v2/blog_post", "date": "accessed 2026-11-22", "kind": "direct", "result": "199 posts, publish dates 2022-04-15 to 2026-11-18"},
-  {"url": "https://ocient.com/blog/retrospective-ioc-sweeps-establishing-whether-you-were-ever-exposed/", "date": "2026-09-14", "kind": "direct", "result": "One of 6 sampled posts (2022-2026) read link-aware; 0-4 contextual internal links each"},
-  {"url": "https://ocient.com/tech-papers/ocient-vs-snowflake-performance-comparison/", "date": "accessed 2026-11-22", "kind": "direct", "result": "Gated form, no body text"},
-  {"url": "https://dns.google/resolve?name=ocient.com&type=TXT", "date": "accessed 2026-11-22", "kind": "direct", "result": "Salesforce, O365, NetSuite, Atlassian, OpenAI, Anthropic, Lovable verifications"},
-  {"url": "https://www.linkedin.com/company/ocient", "date": "accessed 2026-11-22", "kind": "direct", "result": "Via Bright Data: Chicago HQ, 201-500, 250 employees, 9,260 followers"},
-  {"url": "https://web.archive.org/web/20250530002653/https://ocient.com/", "date": "2025-05-30", "kind": "direct", "result": "Old positioning 'Ocient Hyperscale Data Warehouse' (fetched via Bright Data; direct fetch was 403)"},
-  {"url": "https://www.google.com/search?q=site:linkedin.com/in+%22Ocient%22+SEO", "date": "accessed 2026-11-22", "kind": "inferred", "result": "No Ocient SEO titles; marketing titles listed in marketing_leadership"},
-  {"url": "https://www.google.com/search?q=best+data+warehouse+for+petabyte+scale+analytics", "date": "2026-11-22", "kind": "direct", "result": "Plus 7 more category and branded SERPs, see seo_need.serp_checks"},
-  {"url": "https://clickhouse.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "945 blog, 220 engineering guides, comparison pages"},
-  {"url": "https://motherduck.com/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "283 blog + 69 learn"},
-  {"url": "https://www.firebolt.io/sitemap.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "84 blog, 31 comparison pages"},
-  {"url": "https://www.yellowbrick.com/sitemap-0.xml", "date": "accessed 2026-11-22", "kind": "direct", "result": "184 blog URLs incl. vs Snowflake/Databricks"},
-  {"url": "https://pricingsaas.com (Ocient rebrand article, Google snippet)", "date": "2026-07-20", "kind": "unverified", "result": "Rebrand to OcientAIQ; license tiers renamed"}
- ],
- "sources_tried_failed": [
-  {"url": "https://api.ashbyhq.com / boards-api.greenhouse.io / api.lever.co for ocient, ocientinc, ocient-inc", "result": "no board found"},
-  {"url": "https://ocient.com/job-postings/", "result": "roles load in a Gem iframe (JS); used the Gem public API instead"},
-  {"url": "http://web.archive.org/web/20250530002653/https://ocient.com/ (direct)", "result": "403; worked via Bright Data"},
-  {"url": "Google 'ClickHouse vs Ocient' (first try)", "result": "empty response; the retry worked"},
-  {"url": "Next Play apply/redirect links", "result": "not followed (substack click-tracking under the sponsor's newsletter identity); found the job on Gem directly"},
-  {"url": "AI-visibility probe (ChatGPT/Gemini)", "result": "not run; no easy Bright Data route"}
- ],
- "linkedin_checks_for_sponsor": [
-  "Ocient company page → People tab, search 'SEO' / 'organic' / 'search': confirm no in-house SEO specialist (and check the 'saad azhar - Internet Marketing Manager at Ocient' title)",
-  "Confirm Jenna Boller (Chorn) is still VP Marketing at Ocient (leadership page lastmod May 2026)",
-  "People tab, search 'demand generation': has the Demand Generation Manager been hired yet? If so, that person becomes recipient #1 or #2"
- ],
- "open_questions": [
-  "Which SEO agency they use, and whether it already sells AEO/GEO audits (the JD says 'our Content team and agency')",
-  "Whether Jenna Boller is still VP Marketing and who the DG role reports to (not stated in the JD)",
-  "How much of the pipeline comes from national-security and RFP channels, where search matters less, versus commercial verticals (adtech, telecom, FSI)",
-  "No public work email found; contact_verified = no"
- ]
+  "linkedin_checks_for_sponsor": [
+    "Ocient company page → People tab, search 'SEO' / 'organic' / 'search': confirm no in-house SEO specialist (and check the 'saad azhar - Internet Marketing Manager at Ocient' title)",
+    "Confirm Jenna Boller (Chorn) is still VP Marketing at Ocient (leadership page lastmod May 2026)",
+    "People tab, search 'demand generation': has the Demand Generation Manager been hired yet? If so, that person becomes recipient #1 or #2"
+  ],
+  "open_questions": [
+    "Which SEO agency they use, and whether it already sells AEO/GEO audits (the JD says 'our Content team and agency')",
+    "Whether Jenna Boller is still VP Marketing and who the DG role reports to (not stated in the JD)",
+    "How much of the pipeline comes from national-security and RFP channels, where search matters less, versus commercial verticals (adtech, telecom, FSI)",
+    "No public work email found; contact_verified = no"
+  ],
+  "b2b": true
 }

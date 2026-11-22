@@ -449,5 +449,6 @@
     "Pre-seed amount and date: only SNC (frozen aggregator) states Jan 2026",
     "Is the team Israel-based with a US shell (Tel Aviv dateline, Delaware office) or US-based (LinkedIn says NYC)?"
   ],
-  "feature_notes": "marketing_gating uses the nearest FEATURES label (no_leader_exception = no marketing leader); the actual gating_rating is too_early and no exception is claimed."
+  "feature_notes": "marketing_gating uses the nearest FEATURES label (no_leader_exception = no marketing leader); the actual gating_rating is too_early and no exception is claimed.",
+  "b2b": true
 }

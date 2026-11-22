@@ -51,7 +51,7 @@ FEATURES = {
     "subject_style": "how_ai_sees_x, finding_hook, question, other",
     "send_slot": "sun_thu_morning_local, other",
     "contact_verified": "yes, no",
-    "buying_journey": "committee, considered, transactional (SCOUT.md: who fits)",
+    "buying_journey": "committee, household, considered, transactional (SCOUT.md: who fits)",
     "seo_need": "high, medium, low, unassessed (SCOUT.md: buyer research, competition in search, cost of absence)",
 }
 

@@ -334,5 +334,6 @@
     "HQ: LinkedIn says San Francisco primary; press says Tel Aviv + SF; Avi's list says Herzliya. Which time zone for send slot (CEO located in Israel per search snippet)?",
     "Does the site's empty server HTML actually hurt AI crawlers here (GPTBot/ClaudeBot do not run JS)? Worth confirming in the audit, not claimed in outreach yet.",
     "Public docs: are app.edelbyte.io/docs pages crawlable at all?"
-  ]
+  ],
+  "b2b": true
 }

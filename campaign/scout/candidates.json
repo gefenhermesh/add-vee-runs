@@ -1,6 +1,7 @@
 [
  {
   "slug": "plurai",
+  "b2b": true,
   "features": {
    "industry": "data_ai_infra",
    "stage": "seed",
@@ -23,6 +24,7 @@
  },
  {
   "slug": "buildots",
+  "b2b": true,
   "features": {
    "industry": "vertical_saas",
    "stage": "series_c_plus",
@@ -45,6 +47,7 @@
  },
  {
   "slug": "darrow",
+  "b2b": true,
   "features": {
    "industry": "vertical_saas",
    "stage": "series_b",
@@ -67,6 +70,7 @@
  },
  {
   "slug": "scaleops",
+  "b2b": true,
   "features": {
    "industry": "devtools",
    "stage": "series_c_plus",
@@ -89,6 +93,7 @@
  },
  {
   "slug": "zenzap",
+  "b2b": true,
   "features": {
    "industry": "collaboration_saas",
    "stage": "series_a",
@@ -111,6 +116,7 @@
  },
  {
   "slug": "bites",
+  "b2b": true,
   "features": {
    "industry": "hr_tech",
    "stage": "series_a",
@@ -133,6 +139,7 @@
  },
  {
   "slug": "daylight-security",
+  "b2b": true,
   "features": {
    "industry": "security",
    "stage": "series_b",
@@ -155,6 +162,7 @@
  },
  {
   "slug": "edelbyte",
+  "b2b": true,
   "features": {
    "industry": "data_ai_infra",
    "stage": "series_a",
@@ -177,6 +185,7 @@
  },
  {
   "slug": "dreeze",
+  "b2b": true,
   "features": {
    "industry": "cloud_infra",
    "stage": "seed",
@@ -199,6 +208,7 @@
  },
  {
   "slug": "traversal",
+  "b2b": true,
   "features": {
    "industry": "devtools",
    "stage": "series_b",
@@ -221,6 +231,7 @@
  },
  {
   "slug": "antimetal",
+  "b2b": true,
   "features": {
    "industry": "devtools",
    "stage": "series_a",
@@ -243,6 +254,7 @@
  },
  {
   "slug": "vouched",
+  "b2b": true,
   "features": {
    "industry": "identity_verification",
    "stage": "series_a",
@@ -265,6 +277,7 @@
  },
  {
   "slug": "hanover-park",
+  "b2b": true,
   "features": {
    "industry": "fintech",
    "stage": "series_a",
@@ -287,6 +300,7 @@
  },
  {
   "slug": "ocient",
+  "b2b": true,
   "features": {
    "industry": "data_ai_infra",
    "stage": "series_c_plus",
@@ -309,6 +323,7 @@
  },
  {
   "slug": "permitflow",
+  "b2b": true,
   "features": {
    "industry": "vertical_saas",
    "stage": "series_b",
@@ -331,6 +346,7 @@
  },
  {
   "slug": "kalepa",
+  "b2b": true,
   "features": {
    "industry": "insurtech",
    "stage": "series_b",
@@ -353,6 +369,7 @@
  },
  {
   "slug": "craftwork",
+  "b2b": false,
   "features": {
    "industry": "home_services",
    "stage": "series_a",
@@ -375,6 +392,7 @@
  },
  {
   "slug": "pliant",
+  "b2b": true,
   "features": {
    "industry": "fintech",
    "stage": "series_c_plus",

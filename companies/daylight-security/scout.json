@@ -427,5 +427,6 @@
     "Does the new Webflow build ('daylightai-staging') mean a site relaunch around the round? Category name changed again ('MASS' -> 'AI-native/Managed Security Services').",
     "Avi Lewis' list said 9 roles vs 34 on Greenhouse; the list is likely older than the post-round hiring burst.",
     "Prior funding inferred as ~$40M (Series A) from $120M total minus $80M; not confirmed at a primary source."
-  ]
+  ],
+  "b2b": true
 }

@@ -329,5 +329,6 @@
     "Who does the in-house SEO work mentioned in robots.txt (VP Marketing herself, an agency, or an unlisted hire)?",
     "HQ framing: LinkedIn says New York, FinSMEs says Tel Aviv; VP Marketing appears to be US-based. Which timezone for sending?",
     "No AI-visibility probe run; finding_pattern 'misrepresented' is a guess based on the stale llms.txt and the fresh repositioning."
-  ]
+  ],
+  "b2b": true
 }

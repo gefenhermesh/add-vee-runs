@@ -44,6 +44,13 @@ class ProposeTest(unittest.TestCase):
         r["seo_need"]["rating"] = r["features"]["seo_need"] = "low"
         self.assertTrue(any("low SEO need" in x for x in propose.problems(r)))
 
+    def test_pick_caps_non_b2b(self):
+        cands = [{"slug": f"c{i}", "b2b": i >= 4, "features": {"industry": f"x{i}"}} for i in range(8)]
+        for _ in range(20):
+            picks = propose.capped_pick([], cands, 5, learn.now())
+            self.assertEqual(len(picks), 5)
+            self.assertLessEqual(sum(not c["b2b"] for c in picks), 1)
+
 
 if __name__ == "__main__":
     unittest.main()
