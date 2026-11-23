@@ -113,7 +113,7 @@
       "slug": "upwind",
       "company": "Upwind",
       "domain": "upwind.io",
-      "status": "done",
+      "status": "sent",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
@@ -124,10 +124,11 @@
         "gate": "2026-11-20T05:54:24+00:00",
         "done": "2026-11-20T23:51:43+00:00"
       },
-      "gmail_draft_id": "r1717613204112061066",
       "draft_to": "joel.minnick@upwind.io",
       "draft_to_verified": true,
-      "draft_to_verified_by": "sponsor, 2026-11-23"
+      "draft_to_verified_by": "sponsor, 2026-11-23",
+      "email_1_sent_at": "2026-11-23T20:15:27+00:00",
+      "gmail_thread_id": "1a20a09c489c4a12"
     },
     {
       "slug": "glow-io",

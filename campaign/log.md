@@ -3,6 +3,7 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-23T20:15:27+00:00 sent upwind email 1 (v6: bullets, collage, partnership) to joel.minnick@upwind.io; tracking started
 - 2026-11-20T23:51:43+00:00 mark upwind done
 - 2026-11-20T23:51:43+00:00 draft upwind
 - 2026-11-20T23:51:43+00:00 notify upwind done
