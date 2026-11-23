@@ -105,7 +105,9 @@
         "gate": "2026-11-19T21:54:21+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r7141921116500007982"
+      "gmail_draft_id": "r-8016629324461436343",
+      "draft_to": "morgan@gambit.security",
+      "draft_to_verified": false
     },
     {
       "slug": "upwind",
@@ -122,7 +124,10 @@
         "gate": "2026-11-20T05:54:24+00:00",
         "done": "2026-11-20T23:51:43+00:00"
       },
-      "gmail_draft_id": "r1786928205872437166"
+      "gmail_draft_id": "r1717613204112061066",
+      "draft_to": "joel.minnick@upwind.io",
+      "draft_to_verified": true,
+      "draft_to_verified_by": "sponsor, 2026-11-23"
     },
     {
       "slug": "glow-io",
@@ -139,7 +144,9 @@
         "gate": "2026-11-20T06:54:09+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r8288971031120318542"
+      "gmail_draft_id": "r4242847758648922192",
+      "draft_to": "roi@glow.io",
+      "draft_to_verified": false
     },
     {
       "slug": "plurai",
