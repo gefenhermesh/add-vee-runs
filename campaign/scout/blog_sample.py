@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
-"""A cheap first read of a company's blog for scouting: how developed it is and how well its SEO structure is done.
+"""A cheap first impression of a company's blog for scouting: does it look planned and optimized?
 
-  python campaign/scout/blog_sample.py <domain> [--prefix /blog/] [--sample 12] [--out file.json]
+  python campaign/scout/blog_sample.py <domain> [--prefix /blog/] [--sample 20] [--out file.json]
 
-Free: plain HTTPS only, never Bright Data (SCOUT.md, Bright Data budget). It reads the sitemap (all post URLs and
-lastmod dates) and fetches a small, evenly spread sample of posts. It mirrors, in miniature, what add-vee's blog IA
-auditor measures on a full run (add-vee docs/pipeline/blog-ia-audit.md):
-  - size and life: post count, first/last date, posts in the last 12 months (is the blog developed? add-vee runs its
-    blog audit only above 20 posts);
-  - topic structure: the main topics, from the words in all post slugs, and how concentrated the blog is;
-  - waste / overlap: pairs of posts whose slugs share most of their words (candidate competing intent);
-  - internal linking: editorial in-body links from each sampled post to other blog posts (template, nav and
-    "related posts" widgets excluded, with add-vee's own rule in html_body.py). add-vee calls a post orphaned in its
-    cluster with zero peer links; here "0 links to other posts" is the cheap proxy.
-Everything here is a SAMPLE and an INDICATION for choosing companies, never a finding for outreach: only the full
-audit's confirmed numbers are quoted to a company. Pages the site refuses are reported as failures, not as empty.
+Free: plain HTTPS only, never Bright Data (sponsor, 2026-11-23). It reads the sitemap (all post URLs and lastmod
+dates) and fetches an evenly spread sample of ~20 posts. The question it answers is an IMPRESSION, not an audit:
+does this blog look like it follows a topic-cluster strategy, strategic and optimized, or like posts published one
+by one? It does NOT judge waste, overlap or gaps: that needs the full blog IA audit in add-vee, which reads every
+post. Signals it reports:
+  - size and life: post count, first/last date, posts updated in the last 12 months (add-vee's blog audit runs
+    above 20 posts);
+  - topic focus: the main topics from the words in all post slugs, and the share of posts inside them;
+  - taxonomy: whether the site publishes category/topic pages for its blog;
+  - internal linking (the strongest indicator): editorial in-body links from each sampled post to other posts,
+    with add-vee's editorial-body rule (html_body.py) and template widgets removed; and hubs: posts that several
+    sampled posts link to, a sign of pillar pages.
+Everything here is an indication for choosing companies, never a finding for outreach. Pages the site refuses are
+reported as failures, not as empty.
 """
 import argparse
 import datetime as dt
@@ -116,36 +118,27 @@ def sample_evenly(items, n):
     return [items[int(i * step)] for i in range(n)]
 
 
-def run(domain, prefix=None, n=12, today=None):
+def run(domain, prefix=None, n=20, today=None):
     today = today or dt.date.today()
     domain = domain.lower().removeprefix("https://").removeprefix("http://").strip("/")
     brand = domain.split(".")[0].removeprefix("www")
     urls, errors, n_sitemaps = sitemap_urls(domain)
     prefix, posts = articles(urls, domain, prefix)
+    taxonomy = sorted({urlparse(u).path.split(prefix, 1)[-1].split("/")[0] for u in urls
+                       if urlparse(u).path.startswith(prefix) and NOT_ARTICLES.match(urlparse(u).path[len(prefix):])} - {""})
     res = {"domain": domain, "date": today.isoformat(), "method": "plain HTTPS, no Bright Data", "sitemaps_read": n_sitemaps,
            "blog_prefix": prefix, "posts_in_sitemap": len(posts), "errors": errors}
     if not posts:
         res["verdict"] = "no blog found in the sitemap (couldn't verify: the blog may live elsewhere or the sitemap was refused)"
         return res
 
-    # topics and overlap from every post slug (free: no page fetches)
+    # topic focus from every post slug (free: no page fetches)
     toks = {u: slug_tokens(u, brand) for u in posts}
     df = Counter(t for ts in toks.values() for t in set(ts))
     topics = [(t, c) for t, c in df.most_common(12) if c >= 3]
     covered = sum(1 for ts in toks.values() if any(t in dict(topics[:6]) for t in ts))
     res["top_topics"] = [{"term": t, "posts": c} for t, c in topics]
     res["share_in_top6_topics_pct"] = round(100 * covered / len(posts))
-    pairs, items = [], [(u, set(ts)) for u, ts in toks.items() if len(ts) >= 3][:3000]
-    for i in range(len(items)):
-        for j in range(i + 1, len(items)):
-            a, b = items[i][1], items[j][1]
-            jac = len(a & b) / len(a | b)
-            if jac >= 0.6:
-                pairs.append((round(jac, 2), items[i][0], items[j][0]))
-    pairs.sort(reverse=True)
-    res["overlap_candidates"] = len(pairs)
-    res["overlap_examples"] = [{"similarity": s, "a": a, "b": b} for s, a, b in pairs[:5]]
-
     # sample posts: newest first by lastmod when present, spread evenly across the whole list
     order = sorted(posts, key=lambda u: posts[u] or "", reverse=True)
     sample, rows = sample_evenly(order, n), []
@@ -173,8 +166,13 @@ def run(domain, prefix=None, n=12, today=None):
     seen = Counter(x for r in ok for x in r["_targets"])
     template = {x for x, c in seen.items() if len(ok) >= 4 and c >= 0.5 * len(ok)}
     res["template_links_removed"] = len(template)
+    hub = Counter()
     for r in ok:
-        r["links_to_other_posts"] = len([x for x in r.pop("_targets") if x not in template])
+        kept = [x for x in r.pop("_targets") if x not in template]
+        r["links_to_other_posts"] = len(kept)
+        hub.update(kept)
+    res["hubs"] = [{"path": p, "linked_from_sampled_posts": c} for p, c in hub.most_common(5) if c >= 2]
+    res["taxonomy_pages"] = taxonomy
     res["sample"] = rows
     res["sample_fetched"] = len(ok)
 
@@ -198,11 +196,16 @@ def run(domain, prefix=None, n=12, today=None):
         z, avg = res["share_with_0_links_pct"], res["avg_links_to_other_posts"]
         notes.append("internal linking looks " + ("weak" if z >= 50 or avg < 1.5 else "partial" if avg < 3 else "decent")
                      + f": {avg} in-body links to other posts on average, {z}% of sampled posts link to none")
-    if pairs:
-        notes.append(f"{len(pairs)} slug pairs look like overlapping topics (candidate waste)")
     if topics:
         notes.append(f"{res['share_in_top6_topics_pct']}% of posts sit in the 6 main topics "
-                     + ("(focused)" if res["share_in_top6_topics_pct"] >= 50 else "(scattered: clusters may be thin)"))
+                     + ("(focused)" if res["share_in_top6_topics_pct"] >= 50 else "(scattered)"))
+    notes.append("blog taxonomy pages: " + (", ".join(taxonomy) if taxonomy else "none in the sitemap"))
+    if ok:
+        notes.append(f"{len(res['hubs'])} hub-like posts (linked from 2+ sampled posts)" if res["hubs"] else "no hub-like posts in the sample")
+        score = sum([res["share_in_top6_topics_pct"] >= 50 if topics else False, res["avg_links_to_other_posts"] >= 3,
+                     res["share_with_0_links_pct"] <= 25, bool(res["hubs"])])
+        res["impression"] = {4: "looks planned", 3: "looks planned", 2: "partly planned"}.get(score, "looks unplanned")
+        notes.append(f"impression: {res['impression']} (topic focus, links per post, posts with no links, hubs: {score} of 4)")
     if len(ok) < len(sample):
         notes.append(f"{len(sample) - len(ok)} of {len(sample)} sampled posts couldn't be read directly (see errors)")
     res["reading"] = notes
@@ -213,7 +216,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("domain")
     ap.add_argument("--prefix")
-    ap.add_argument("--sample", type=int, default=12)
+    ap.add_argument("--sample", type=int, default=20)
     ap.add_argument("--out")
     a = ap.parse_args()
     res = run(a.domain, a.prefix, a.sample)
