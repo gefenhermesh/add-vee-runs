@@ -63,3 +63,6 @@ Sponsor: Israel/US/EU in scope by design; fit = considered purchase (buying comm
 
 ## 2026-11-22 · Scout: slow and deep
 Sponsor: the bottom line is SEO cooperation (work where add-vee is used); B2B priority, not a limit; work lists gradually. SCOUT.md: goal rewritten; leads go to `campaign/scout/queue.json` (scout_queue.py); each run takes one batch of ~15, light-checks all, recons the best 3-5, proposes only what passes the new game-changer test (scout_version 4). Queue seeded with 54 held/rescued companies; held.json retired.
+
+## 2026-11-23 · Scout: re-screen queued
+Sponsor: the next main scout run goes back to the filtered companies. Every company the 2026-11-19 and 2026-11-22 filters dropped or held went into `campaign/scout/queue.json` (181), except types that are not a match by definition (enterprises and incumbents such as Wix, monday.com, Check Point; non-startups; agencies; investors; acquired; games and cheap consumer apps). Companies already recon'd are not re-queued. The next runs take it in batches with the free light check (blog sample included).

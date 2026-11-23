@@ -4,7 +4,8 @@
    "name": "Mavria",
    "key": "mavria",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -12,7 +13,9 @@
    "trigger_date": "2026-11-19",
    "notes": [
     "2026-11-22: rescued: recon next",
-    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a marketing director and a talent director. They just raised $130m",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -20,7 +23,8 @@
    "name": "Nominal",
    "key": "nominal",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -28,7 +32,9 @@
    "trigger_date": "2026-11-19",
    "notes": [
     "2026-11-22: rescued: recon next",
-    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a social media strategist and a bizops generalist. They just raised $240m",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -36,7 +42,8 @@
    "name": "Hello Heart",
    "key": "hello heart",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -44,7 +51,8 @@
    "trigger_date": null,
    "notes": [
     "2026-11-22: rescued: recon next",
-    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Director, Product Growth"
    ],
    "slug": null
   },
@@ -52,7 +60,8 @@
    "name": "Spines",
    "key": "spines",
    "sources": [
-    "firgun/avi"
+    "firgun/avi",
+    "avi_lewis_list+vccafe_firgun"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -60,7 +69,8 @@
    "trigger_date": "2026-11-13",
    "notes": [
     "2026-11-22: rescued: recon next (non-B2B explore)",
-    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -68,7 +78,8 @@
    "name": "Pure",
    "key": "pure",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -76,7 +87,9 @@
    "trigger_date": null,
    "notes": [
     "2026-11-22: rescued: recon next (non-B2B explore)",
-    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)"
+    "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding GTM leader and a social media and content lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -84,14 +97,17 @@
    "name": "Northwood",
    "key": "northwood",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-11-10",
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth director. They just raised a $375m",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -99,14 +115,16 @@
    "name": "High Lander",
    "key": "high lander",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -114,14 +132,16 @@
    "name": "BloomX",
    "key": "bloomx",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -129,14 +149,16 @@
    "name": "Remepy",
    "key": "remepy",
    "sources": [
-    "telegram"
+    "telegram",
+    "ctech_appointments+telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Content Writer, Chief Medical Officer"
    ],
    "slug": null
   },
@@ -144,14 +166,16 @@
    "name": "April",
    "key": "april",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Manager, Growth (DIY Tax Filing)"
    ],
    "slug": null
   },
@@ -159,14 +183,17 @@
    "name": "Open Human",
    "key": "open human",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a full stack engineer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -174,14 +201,17 @@
    "name": "Chariot",
    "key": "chariot",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a product marketer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -189,14 +219,17 @@
    "name": "Posh",
    "key": "posh",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: campus growth ambassadors and a brand designer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -204,14 +237,17 @@
    "name": "Flick",
    "key": "flick",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an YouTuber/educator and a GTM Intern",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -219,14 +255,16 @@
    "name": "Artlist",
    "key": "artlist",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Influencer Marketing Team Lead"
    ],
    "slug": null
   },
@@ -234,14 +272,17 @@
    "name": "Kickoff",
    "key": "kickoff",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": false,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: light check"
+    "2026-11-22: light check",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a product lead and a head of care",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -264,14 +305,16 @@
    "name": "Logz.io",
    "key": "logz",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: check SEO team"
+    "2026-11-22: check SEO team",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: GTM Engineer – Marketing, GTM Engineer – Marketing"
    ],
    "slug": null
   },
@@ -279,14 +322,16 @@
    "name": "Cymulate",
    "key": "cymulate",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: check SEO team"
+    "2026-11-22: check SEO team",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer- Maternity leave replacement"
    ],
    "slug": null
   },
@@ -294,14 +339,16 @@
    "name": "Kela",
    "key": "kela",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: check SEO team"
+    "2026-11-22: check SEO team",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Marketing Designer"
    ],
    "slug": null
   },
@@ -309,14 +356,17 @@
    "name": "LangChain",
    "key": "langchain",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: check SEO team"
+    "2026-11-22: check SEO team",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of narratives and a founding emerging talent recruiter. They just raised $300m",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -324,14 +374,17 @@
    "name": "Gamma",
    "key": "gamma",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: check SEO team"
+    "2026-11-22: check SEO team",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an AI creative strategist and a growth marketing manager",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -339,14 +392,16 @@
    "name": "Sentra",
    "key": "sentra",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-11-15",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -354,14 +409,16 @@
    "name": "Corma",
    "key": "corma",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-11-16",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -369,14 +426,16 @@
    "name": "Mave",
    "key": "mave",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-10-22",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -384,14 +443,16 @@
    "name": "Rein Security",
    "key": "rein",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -399,14 +460,16 @@
    "name": "Brava Security",
    "key": "brava",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-11-04",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -414,14 +477,16 @@
    "name": "Pluto Security",
    "key": "pluto",
    "sources": [
-    "avi/telegram"
+    "avi/telegram",
+    "avi_lewis_list+telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer"
    ],
    "slug": null
   },
@@ -429,14 +494,16 @@
    "name": "Modelyo",
    "key": "modelyo",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-10-22",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -444,14 +511,16 @@
    "name": "Incredibuild",
    "key": "incredibuild",
    "sources": [
-    "avi"
+    "avi",
+    "avi_lewis_list"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": "2026-11-15",
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
    "slug": null
   },
@@ -459,14 +528,16 @@
    "name": "Gloat",
    "key": "gloat",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Demand Generation lead- AI Native"
    ],
    "slug": null
   },
@@ -474,14 +545,16 @@
    "name": "PointFive",
    "key": "pointfive",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Social & Content Lead"
    ],
    "slug": null
   },
@@ -489,14 +562,16 @@
    "name": "IO River",
    "key": "river",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Head of Marketing"
    ],
    "slug": null
   },
@@ -504,14 +579,16 @@
    "name": "Spikerz Security",
    "key": "spikerz",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: VP Marketing, Marketing Manager"
    ],
    "slug": null
   },
@@ -519,14 +596,16 @@
    "name": "Okoora",
    "key": "okoora",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Head of Growth"
    ],
    "slug": null
   },
@@ -549,14 +628,16 @@
    "name": "Fullpath",
    "key": "fullpath",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Content Specialist -Temporary (Mat Leave Replacement)"
    ],
    "slug": null
   },
@@ -564,14 +645,16 @@
    "name": "LSports",
    "key": "lsports",
    "sources": [
-    "telegram"
+    "telegram",
+    "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Chief Marketing Officer (CMO), Chief Marketing Officer"
    ],
    "slug": null
   },
@@ -579,14 +662,17 @@
    "name": "Nooks",
    "key": "nooks",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an AI Deployment Strategist. They just secured a $500M commitment from General Catalyst’s Customer Value Fund",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -594,14 +680,17 @@
    "name": "Gigs",
    "key": "gigs",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a Forward Deployed Product Manager and a Founding Enterprise AE. They raised $73m",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -609,14 +698,17 @@
    "name": "Fleetworks",
    "key": "fleetworks",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of customer deployments",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -624,14 +716,17 @@
    "name": "Mews",
    "key": "mews",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a senior account executive. They raised $300m",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -639,14 +734,17 @@
    "name": "Coframe",
    "key": "coframe",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth marketing lead and a finance and operations lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -654,14 +752,17 @@
    "name": "Verra",
    "key": "verra",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -669,14 +770,17 @@
    "name": "Prism Data",
    "key": "prism data",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a people director and an enterprise account executive",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -684,14 +788,17 @@
    "name": "Griffin",
    "key": "griffin",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a commercial lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -699,14 +806,17 @@
    "name": "Cara",
    "key": "cara",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a forward deployed broker and an account executive",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -714,14 +824,17 @@
    "name": "Luca IQ",
    "key": "luca iq",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding tax lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -729,14 +842,17 @@
    "name": "Sixtyfour",
    "key": "sixtyfour",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding social growth lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -744,14 +860,17 @@
    "name": "Corgi",
    "key": "corgi",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a country launcher and a founding BDR to focus on new product lines",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -759,14 +878,17 @@
    "name": "Sift",
    "key": "sift",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an account executive",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -774,14 +896,17 @@
    "name": "Coral",
    "key": "coral",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a finance lead, an account executive, and a senior forward deployed engineer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -789,14 +914,17 @@
    "name": "Prosper Health",
    "key": "prosper health",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": false,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held (non-B2B/B2B2C explore)"
+    "2026-11-22: held (non-B2B/B2B2C explore)",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a director of strategic initiatives",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
    "slug": null
   },
@@ -804,14 +932,1960 @@
    "name": "Imprint",
    "key": "imprint",
    "sources": [
-    "next_play"
+    "next_play",
+    "nextplay"
    ],
    "added": "2026-11-22",
    "status": "queued",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held"
+    "2026-11-22: held",
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a data journalist and a general manager",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "MIND Security",
+   "key": "mind",
+   "sources": [
+    "nextplay+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Technical Product Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Two Delta",
+   "key": "two delta",
+   "sources": [
+    "avi_lewis_list"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Savvy Wealth",
+   "key": "savvy wealth",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Penelope Health",
+   "key": "penelope health",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Delos Data",
+   "key": "delos data",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Tandem Health",
+   "key": "tandem health",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Watney Robotics Inc",
+   "key": "watney robotics",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Archy",
+   "key": "archy",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Ramona Optics",
+   "key": "ramona optics",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Spott",
+   "key": "spott",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Corridor",
+   "key": "corridor",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Altis Labs",
+   "key": "altis",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Raindrop",
+   "key": "raindrop",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Noetive",
+   "key": "noetive",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Boarding Pass",
+   "key": "boarding pass",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Israeli startup raises $11 million Seed to automate the growing burden",
+   "key": "israeli startup raises 11 million seed to automate the growing burden",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Insight Partners invests $15 million in Incredibuild's push into AI so",
+   "key": "insight partners invests 15 million in incredibuild s push into so",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Israeli startup Newsbound raises $3 million to take on the PR agency m",
+   "key": "israeli startup newsbound raises 3 million to take on the pr agency m",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Cyber startup Corma goes from stealth to unicorn in just three months ",
+   "key": "cyber startup corma goes from stealth to unicorn in just three months",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Former Nexar AI researchers raise $13 million Seed to bring autonomous",
+   "key": "former nexar researchers raise 13 million seed to bring autonomous",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) From stealth to a $500 million valuation: Former Microsoft engineers r",
+   "key": "from stealth to a 500 million valuation former microsoft engineers r",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Former Unit 8200 officers raise $50 million in just nine months for AI",
+   "key": "former unit 8200 officers raise 50 million in just nine months for",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Israeli cyber startup Daylight raises $80 million Series B at estimate",
+   "key": "israeli cyber startup daylight raises 80 million series b at estimate",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Echo",
+   "key": "echo",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Campaign Manager, Product Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Orchid Security",
+   "key": "orchid",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Operations Manager, Marketing Operations Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Dream",
+   "key": "dream",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: CTI Outbound Reasercher, CTI Outbound Researcher"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Wonderful",
+   "key": "wonderful",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Global Partner Marketing Lead, Hyperscalers, Social Media Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Sauce",
+   "key": "sauce",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Head of Go-To-Market Engineering, Head of Go-To-Market Engineering"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Zero Networks",
+   "key": "zero networks",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Marketing Manager, Product Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Helfy",
+   "key": "helfy",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Brand Designer, Technical Marketing Operations Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "harmony",
+   "key": "harmony",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Creative Lead, Brand and Video, Creative Lead, Brand and Video (Tel Aviv)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Agora RE",
+   "key": "agora re",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Communications & Content Lead, Head Of Communications & Content"
+   ],
+   "slug": null
+  },
+  {
+   "name": "WSC Sports",
+   "key": "wsc sports",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Vertical Growth, Team Lead"
+   ],
+   "slug": null
+  },
+  {
+   "name": "AI21 Labs",
+   "key": "ai21",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Marketing Designer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Astelia",
+   "key": "astelia",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Product Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Lusha",
+   "key": "lusha",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Content Writer, GTM & AI"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Way Security",
+   "key": "way",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Operations & Data Analytics Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "3Dsellers",
+   "key": "3dsellers",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Limy AI",
+   "key": "limy",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Adesco",
+   "key": "adesco",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Founding Marketer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "HyperGuest",
+   "key": "hyperguest",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Internship Role"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Blockaid",
+   "key": "blockaid",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Director, Product Marketing"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Aidoc",
+   "key": "aidoc",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Event and Field Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Ionix",
+   "key": "ionix",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Product Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "SeeTrue",
+   "key": "seetrue",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Technical Product Marketing"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Anzu",
+   "key": "anzu",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: TECHNICAL SPECIALIST"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Jazz",
+   "key": "jazz",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: AI GTM Engineer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "accessiBe",
+   "key": "accessibe",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Brand & Marketing Designer - Maternity Leave Replacement"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Appcharge",
+   "key": "appcharge",
+   "sources": [
+    "ctech_appointments+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Marketing Designer, Chief Operating Officer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "QIZ Security",
+   "key": "qiz",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Field Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Alta | AI Revenue Workforce",
+   "key": "alta revenue workforce",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Marketing Manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Lumbra",
+   "key": "lumbra",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a deployment strategist",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "SE3",
+   "key": "se3",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of government affairs and communications and a head of finance"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Surface Labs",
+   "key": "surface",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a chief of staff",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Closure",
+   "key": "closure",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding account executive",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Gauge",
+   "key": "gauge",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding customer strategist and a founding salesperson"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Arketa",
+   "key": "arketa",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a GTM strategy and operations lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Verse Medical",
+   "key": "verse medical",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a chief of staff and a strategy and operations lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Mirendil",
+   "key": "mirendil",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding finance lead. They just raised $1b"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Quo",
+   "key": "quo",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a partner development manager",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Lumin Digital",
+   "key": "lumin digital",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Ominimo",
+   "key": "ominimo",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Flex",
+   "key": "flex",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Moneybox",
+   "key": "moneybox",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Vera Health",
+   "key": "vera health",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a former founder and a founding designer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Cogent Security",
+   "key": "cogent",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a former founder",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Protege",
+   "key": "protege",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a strategic account manager",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Parakeet Health",
+   "key": "parakeet health",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding technical recruiter and a senior customer success manager",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Trajectory",
+   "key": "trajectory",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding recruiter and a member of business staff",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Corridian",
+   "key": "corridian",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a federal affairs director"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Freebuff",
+   "key": "freebuff",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding growth marketer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "LATO",
+   "key": "lato",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding commercial lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "AnswerThis",
+   "key": "answerthis",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a Founding BDR and a Growth Lead",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Bloomy",
+   "key": "bloomy",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a partnerships account executive. They’re in YC’s Summer 2026 batch",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Aside",
+   "key": "aside",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a GTM person",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Sauna",
+   "key": "sauna",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of growth, a senior product engineer, and a senior platform engineer",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Monarch Money",
+   "key": "monarch money",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a Product Manager",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Crosby",
+   "key": "crosby",
+   "sources": [
+    "nextplay",
+    "next_play"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an events lead and a founding account executive",
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Epsilon Health",
+   "key": "epsilon health",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Aslan",
+   "key": "aslan",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Deep Cogito",
+   "key": "deep cogito",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Multiplier",
+   "key": "multiplier",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Circuit Mind",
+   "key": "circuit mind",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Clipbook",
+   "key": "clipbook",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding full stack engineer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Hyperbolic",
+   "key": "hyperbolic",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a capital markets lead and a head of marketing"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Ravical",
+   "key": "ravical",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an AI solutions lead and an account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Joey AI",
+   "key": "joey",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding engineer and a marketing/community lead"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Hyphenate",
+   "key": "hyphenate",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding field and events marketing manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "ClarityCare",
+   "key": "claritycare",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a GTM lead"
+   ],
+   "slug": null
+  },
+  {
+   "name": "CapitalOS",
+   "key": "capitalos",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a GTM lead and a customer operations and experience associate"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Mach9",
+   "key": "mach9",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding recruiting lead"
+   ],
+   "slug": null
+  },
+  {
+   "name": "CatchBack Cards",
+   "key": "catchback cards",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a lead creator and social media manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Lance",
+   "key": "lance",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a deployment specialist and an account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Stoa",
+   "key": "stoa",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a chief of staff"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Klaimee",
+   "key": "klaimee",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of insurance and a founding broker partnerships lead"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Prescience",
+   "key": "prescience",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding GTM and a founding head of operations"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Pocket",
+   "key": "pocket",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founding content creator and a founding account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Cambio",
+   "key": "cambio",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an enterprise account executive and a customer success lead"
+   ],
+   "slug": null
+  },
+  {
+   "name": "General Compute",
+   "key": "general compute",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a social and community lead and a head of capital markets. They just raised a $100m Series A"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Solink",
+   "key": "solink",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a chief of staff for GTM and an enterprise account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Glimpse",
+   "key": "glimpse",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a senior software engineer, a partnership manager, and an FDE"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Collective",
+   "key": "collective",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a member success manager and an account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Nevis",
+   "key": "nevis",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a founder’s associate and an enterprise account executive. They just raised $70m"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Foundry",
+   "key": "foundry",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a business development manager"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Hex",
+   "key": "hex",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a brand designer and an enterprise account executive. They just raised $100m"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Bedrock Robotics",
+   "key": "bedrock robotics",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a creative and editorial lead and a regional fleet operations manager. They just raised $600m"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Legora",
+   "key": "legora",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an editorial specialist and an account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Greptile",
+   "key": "greptile",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a chief of staff for GTM and an enterprise account executive"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Emergent",
+   "key": "emergent",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Genspark",
+   "key": "genspark",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Lovable",
+   "key": "lovable",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Wispr Flow",
+   "key": "wispr flow",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Factory",
+   "key": "factory",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Unconventional AI",
+   "key": "unconventional",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Hark",
+   "key": "hark",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Armadin",
+   "key": "armadin",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Inertia Enterprises",
+   "key": "inertia enterprises",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Gimlet Labs",
+   "key": "gimlet",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Mercury",
+   "key": "mercury",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Huskeys",
+   "key": "huskeys",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Chief Customer Officer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Terra Security",
+   "key": "terra",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: CMO"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Gong",
+   "key": "gong",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Chief R&D Officer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Ground Up Ventures",
+   "key": "ground up ventures",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: General Partner"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Manifold",
+   "key": "manifold",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: CPO"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Kaltura",
+   "key": "kaltura",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: SVP Agentic AI Platform"
+   ],
+   "slug": null
+  },
+  {
+   "name": "ReachPlayers",
+   "key": "reachplayers",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: General Manager for Israel"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Unframe",
+   "key": "unframe",
+   "sources": [
+    "ctech_appointments"
+   ],
+   "added": "2026-11-23",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: VP Finance"
    ],
    "slug": null
   }

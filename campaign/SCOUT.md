@@ -9,11 +9,12 @@ Built on the sponsor's earlier scouting system (Sept 2026, about 21 Israeli cybe
 ## How it runs: slowly, a batch at a time (sponsor, 2026-11-22/23)
 "Take a batch of a list and work gradually, find a few good opportunities checked deep, and keep the next batch for the next run. Don't be in a hurry." The add-vee operation already has a backlog, so the scout never needs to run fast.
 1. **Sources feed a queue, not a one-shot filter.** Every lead from every source (Next Play, VC Cafe Firgun, Avi's lists, the marketing-jobs channel, funding news, the sponsor's own picks) goes into `campaign/scout/queue.json` with its source and date. Nothing is dropped at intake except investors, acquired companies and people.
-2. **Backlog first.** If **10 or more companies are already `proposed`** and not released, the run only refreshes the queue (step 1) and light-checks a small batch of about 5. No deep recon. The sponsor can ask for more at any time.
-3. **Otherwise one batch of about 10** from the top of the queue: B2B first, then fresh triggers (a round or a marketing hire in the last ~60 days), then the oldest leads. The rest wait for the next run, untouched.
-4. **Light check every company in the batch, without Bright Data** (plain fetches of the company site, careers page and job-board APIs, plus WebSearch; about 5 minutes each): what they sell and to whom, how buyers research, latest round and date, a marketing leader or a marketing hire, a first read of SEO need, and **the blog sample** (`blog_sample.py`, see "Reply odds"). Mark each `recon`, `hold` (back to the queue, with the note) or `drop` (with the reason from "Who fits" → "Not a match").
-5. **Recon deeply only the best 2-4** of the batch (gating, SEO need, reply odds). That's where Bright Data is used, within the budget below.
-6. **Propose only what passes.** Zero proposals in a run is an acceptable result; padding is not.
+2. **The queue holds the re-screen (2026-11-23).** The first runs' filters were too drastic, so every company they dropped went back into `queue.json` (181 companies), except the "not a match by definition" types in "Who fits". The next runs work through it in batches: they don't start the sources from scratch, they add the week's new leads to it and take the next batch.
+3. **Backlog first.** If **10 or more companies are already `proposed`** and not released, the run only refreshes the queue (step 1) and light-checks a small batch of about 5. No deep recon. The sponsor can ask for more at any time.
+4. **Otherwise one batch of about 10** from the top of the queue: B2B first, then fresh triggers (a round or a marketing hire in the last ~60 days), then the oldest leads. The rest wait for the next run, untouched.
+5. **Light check every company in the batch, without Bright Data** (plain fetches of the company site, careers page and job-board APIs, plus WebSearch; about 5 minutes each): what they sell and to whom, how buyers research, latest round and date, a marketing leader or a marketing hire, a first read of SEO need, and **the blog sample** (`blog_sample.py`, see "Reply odds"). Mark each `recon`, `hold` (back to the queue, with the note) or `drop` (with the reason from "Who fits" → "Not a match").
+6. **Recon deeply only the best 2-4** of the batch (gating, SEO need, reply odds). That's where Bright Data is used, within the budget below.
+7. **Propose only what passes.** Zero proposals in a run is an acceptable result; padding is not.
 
 **Reply odds: how likely are they to reply to the email and want SEO?** (sponsor, 2026-11-23) Record it as `reply_odds` in scout.json: `{"rating": "high|medium|low", "why": "..."}`. Keep it simple:
 - **SEO need** (required): high or medium; low is never proposed. A competitor's page aimed at them that ranks is one sign of need among others, not a test of its own.
@@ -40,6 +41,8 @@ High = high need with someone to write to and growth. Medium = medium need, or o
 - high-ticket home projects (solar, remodelling, painting: weaker, local map results decide a lot; Craftwork = medium need);
 - consumer legal services;
 - B2B2C and two-sided marketplaces: judge the business side first.
+
+**Not a match by definition (never queued, sponsor 2026-11-23):** enterprises and established incumbents (Wix, monday.com, Check Point, Cato, HiBob, Payoneer, Figma, Navan and the like), companies that aren't startups (defence primes, pharma, banks, big services firms), agencies and service shops, investors, acquired companies, and games or cheap consumer apps. Everything else gets a light check before it's dropped.
 
 **Not a match, B2B or not:** impulse or cheap purchases (casual apps, games, low-ticket shopping); urgent local services with no research phase; relationship/RFP-only markets; dominant brands everyone knows (usually with SEO teams); nothing to audit yet (stealth, no product pages); categories where claims are heavily restricted (e.g. prescription drugs).
 
