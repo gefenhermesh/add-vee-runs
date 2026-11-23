@@ -6,7 +6,9 @@
   python campaign/scout/scout_queue.py batch [n]                          take the next n (default 15) for this run
   python campaign/scout/scout_queue.py hold "<name>" "<note>"             back to the queue after a light check
   python campaign/scout/scout_queue.py drop "<name>" "<reason>"           a clear non-match (SCOUT.md "Who fits")
+  python campaign/scout/scout_queue.py recon "<name>" "<why>"             light check says recon; waits, ranked, for room
   python campaign/scout/scout_queue.py done "<name>" <slug>               recon'd: companies/<slug>/scout.json exists
+  python campaign/scout/scout_queue.py status                            how clean the table is: counts per status
   python campaign/scout/scout_queue.py list [status]                      show the queue
 
 Order of a batch: B2B (or unknown) before non-B2B, then a fresh trigger (within 60 days), then the oldest lead.
@@ -111,13 +113,18 @@ def main(a):
     elif cmd == "batch":
         for it in batch(q, int(a[2]) if len(a) > 2 else 15):
             print(f"{it['name']:28s} {','.join(it['sources']):30s} {it.get('trigger_date') or '':10s} {'; '.join(it['notes'])[:80]}")
-    elif cmd in ("hold", "drop"):
+    elif cmd in ("hold", "drop", "recon"):
         it = find(q, a[2])
-        it["status"] = "held" if cmd == "hold" else "dropped"
+        it["status"] = {"hold": "held", "drop": "dropped", "recon": "recon_ready"}[cmd]
         it["notes"].append(f"{dt.date.today().isoformat()}: {cmd}: {a[3]}")
     elif cmd == "done":
         it = find(q, a[2])
         it["status"], it["slug"] = "done", a[3]
+    elif cmd == "status":
+        from collections import Counter
+        c = Counter(i["status"] for i in q["items"])
+        left = c["queued"] + c["held"] + c["in_batch"]
+        print(json.dumps({**c, "left_to_light_check": left, "clean": left == 0}))
     elif cmd == "list":
         for it in order([i for i in q["items"] if len(a) < 3 or i["status"] == a[2]], dt.date.today().isoformat()):
             print(f"{it['status']:9s} {it['name']:28s} {','.join(it['sources'])[:30]:30s} {(it['notes'] or [''])[-1][:70]}")
