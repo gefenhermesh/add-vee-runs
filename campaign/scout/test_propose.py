@@ -51,14 +51,15 @@ class ProposeTest(unittest.TestCase):
             self.assertEqual(len(picks), 5)
             self.assertLessEqual(sum(not c["b2b"] for c in picks), 1)
 
-    def test_v4_needs_game_changer(self):
+    def test_v4_needs_reply_odds(self):
         r = good()
         r["scout_version"] = 4
         r["seo_need"] = {"rating": "high", "buyer_research": "online", "competitors": [{"name": "Y"}],
                          "cost_of_absence": "c", "why_not_yet": "never_prioritized"}
         r["features"]["seo_need"] = "high"
-        self.assertTrue(any("game_changer" in x for x in propose.problems(r)))
-        r["game_changer"] = {"verdict": "yes", "why": "losing shortlists to a named rival right after a round"}
+        self.assertTrue(any("reply_odds" in x for x in propose.problems(r)))
+        r["reply_odds"] = {"rating": "high", "why": "new VP Marketing, fresh round, rival vs page ranking"}
+        r["brightdata_requests"] = 9
         self.assertEqual(propose.problems(r), [])
 
 
