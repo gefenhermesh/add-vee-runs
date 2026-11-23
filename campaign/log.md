@@ -48,6 +48,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-22 sponsor: drafts must carry the Gmail signature. Gambit, glow.io, Upwind drafts recreated with includeSignature (sponsor's edited text kept) and the old ones deleted; rule added to MANAGER_TICK and state.rules. add-vee #20 merged.
 - 2026-11-22 Gambit, glow.io, Upwind images re-shot in the etico palette (approved Action Plan data, cluster colours mapped to etico, no data change); drafts recreated with signature, old ones deleted. Screenshot script kept in campaign/tools/shoot_action_plan.js.
 - 2026-11-22 manager handoff written (campaign/MANAGER_HANDOFF.md); the sponsor opens a new manager session; the old one stops managing.
+- 2026-11-23T20:16:14+00:00 followup: upwind/1 email1 sent to CMO
 
 ## Cohorts
 

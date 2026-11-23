@@ -128,7 +128,25 @@
       "draft_to_verified": true,
       "draft_to_verified_by": "sponsor, 2026-11-23",
       "email_1_sent_at": "2026-11-23T20:15:27+00:00",
-      "gmail_thread_id": "1a20a09c489c4a12"
+      "gmail_thread_id": "1a20a09c489c4a12",
+      "threads": [
+        {
+          "id": "upwind/1",
+          "kind": "email1",
+          "contact": "Joel Minnick",
+          "email": "joel.minnick@upwind.io",
+          "role": "CMO",
+          "gmail_thread_id": "1a20a09c489c4a12",
+          "last_message_id": "1a20a0ca89bf226a",
+          "sent_at": "2026-11-23T20:15:27+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ]
     },
     {
       "slug": "glow-io",
