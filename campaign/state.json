@@ -3,7 +3,10 @@
   "settings": {
     "max_concurrent_running": 1,
     "weekly_target_companies": 5,
-    "plan": "claude max (sponsor, 2026-11-19)"
+    "plan": "claude max (sponsor, 2026-11-19)",
+    "brightdata_paused": true,
+    "jobs_proposals_per_day": 1,
+    "campaign_paused": true
   },
   "prospects": [
     {
@@ -15,9 +18,8 @@
       "situation": "stealth_exit",
       "audit": "done (add-vee master, output/bay)",
       "company_session_id": null,
-      "next": "Sponsor sends Bay himself; Bay report stays as is (sponsor, 2026-11-19: rebuild not needed).",
+      "next": "Email 1 sent to yuval@bay.io by Claude at the sponsor's explicit request (2026-11-22), v5 text with 'a unique research system'. Follow-ups tracked in threads (followup.py).",
       "cohort_id": "pilot-1",
-      "gmail_draft_id": "r-3463966262483924157",
       "contacts": {
         "primary": "yuval@bay.io (verified)",
         "backup": "aner@bay.io (not yet verified)"
@@ -26,58 +28,118 @@
         "v0 deleted",
         "v1 deleted",
         "r2555942432531902109 (v2, in Gmail)",
-        "r-3430667485240077676 (v3, in Gmail)"
+        "r-3430667485240077676 (v3, in Gmail)",
+        "r-3463966262483924157 (v4, in Gmail)"
       ],
       "note": "Bay Action Plan artifact not rebuilt with the new cluster-count subheader: builder refuses (analysis approval predates the reading-file hash rule); needs sponsor decision (override or reviewer re-confirm).",
-      "status": "manual",
-      "status_note": "Bay was audited and drafted by hand before the manager existed; not managed by tick.py"
+      "status": "done",
+      "status_note": "Bay was audited and drafted by hand before the manager existed; not managed by tick.py",
+      "threads": [
+        {
+          "id": "bay/1",
+          "kind": "email1",
+          "contact": "Yuval",
+          "email": "yuval@bay.io",
+          "role": "CEO",
+          "gmail_thread_id": "1a2053f1aa189a7a",
+          "last_message_id": "1a2053f1aa189a7a",
+          "sent_at": "2026-11-22T21:55:07+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ],
+      "email1_sent_at": "2026-11-22T21:55:07+00:00"
     },
     {
       "slug": "vega-security",
       "company": "Vega Security",
       "domain": "vega.io",
-      "status": "waiting_gate",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
-      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
+      "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\"). Email 1 sent by Claude at the sponsor's explicit request after Hunter verification (2026-11-20).",
       "cohort_id": "pilot-1",
       "session_id": "session_01FkmvpLZ6FUjGe75kzwKsJV",
       "started_at": "2026-11-19T19:46:19+00:00",
-      "nudges": 0,
+      "nudges": 1,
       "notified": {
-        "gate": "2026-11-19T20:54:34+00:00"
+        "gate": "2026-11-19T20:54:34+00:00",
+        "done": "2026-11-20T04:55:09+00:00"
       },
-      "branch": "campaign/vega-security"
+      "branch": "campaign/vega-security",
+      "threads": [
+        {
+          "id": "vega-security/1",
+          "kind": "email1",
+          "contact": "Scott Simkin",
+          "email": "scott@vega.io",
+          "role": "CMO",
+          "gmail_thread_id": "1a1f9ec56e0aa798",
+          "last_message_id": "1a1f9ec56e0aa798",
+          "sent_at": "2026-11-20T17:06:38+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ],
+      "email1_sent_at": "2026-11-20T17:06:38+00:00"
     },
     {
       "slug": "gambit-security",
       "company": "Gambit Security",
       "domain": "gambit.security",
-      "status": "starting",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
       "session_id": "session_01FkmvpNiJwuxysfV3X6YW1h",
       "started_at": "2026-11-19T20:54:34+00:00",
       "nudges": 0,
-      "notified": {}
+      "notified": {
+        "gate": "2026-11-19T21:54:21+00:00",
+        "done": "2026-11-20T22:55:22+00:00"
+      },
+      "gmail_draft_id": "r2293549682180412037"
     },
     {
       "slug": "upwind",
       "company": "Upwind",
       "domain": "upwind.io",
-      "status": "queued",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
-      "cohort_id": "pilot-1"
+      "cohort_id": "pilot-1",
+      "session_id": "session_01FkmvpQfLQcLcZQ3PwufxPW",
+      "started_at": "2026-11-20T04:55:09+00:00",
+      "nudges": 0,
+      "notified": {
+        "gate": "2026-11-20T05:54:24+00:00",
+        "done": "2026-11-20T23:51:43+00:00"
+      },
+      "gmail_draft_id": "r7051977173923673345"
     },
     {
       "slug": "glow-io",
       "company": "glow.io",
       "domain": "glow.io",
-      "status": "queued",
+      "status": "done",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
-      "cohort_id": "pilot-1"
+      "cohort_id": "pilot-1",
+      "session_id": "session_01FkmvpMCznvSa4X3ZqsUQUH",
+      "started_at": "2026-11-20T05:54:24+00:00",
+      "nudges": 0,
+      "notified": {
+        "gate": "2026-11-20T06:54:09+00:00",
+        "done": "2026-11-20T22:55:22+00:00"
+      },
+      "gmail_draft_id": "r-6942056893646079280"
     },
     {
       "slug": "plurai",
@@ -640,13 +702,22 @@
     "sender": "Outreach emails are sent from gefen@etico.cr (sponsor, 2026-11-19). Gmail connector confirmed signed in as gefen@etico.cr, display name \"Gefen Hermesh\" (2026-11-19). etico.cr: Google Workspace, SPF + DKIM + DMARC (p=none, live 2026-11-19).",
     "scout": "The scout finds the next companies after the four sponsor picks; it never queues on its own: new finds go in as status \"proposed\" for the sponsor to release.",
     "next_play_intake": "Next Play reaches gefen@etico.cr two ways: auto-forwarded by a filter in the personal Gmail (keeps from:nextplayso@substack.com / team@heynextplay.com), and manually forwarded past issues (from the personal address, subject \"Fwd: ...\"). Scout Gmail query: (from:(nextplayso@substack.com OR team@heynextplay.com) OR (subject:Fwd (\"nextplayso@substack.com\" OR \"team@heynextplay.com\"))). 6 past issues forwarded 2026-11-19 (10-19 Nov).",
-    "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4."
+    "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4.",
+    "gemini": "Gemini paused from 2026-11-20 (add-vee PR #12): new runs collect ChatGPT and Google AI Mode only. Vega Security keeps its Gemini data as collected (sponsor, 2026-11-20).",
+    "brightdata_pause": "Bright Data credits at 0 (sponsor, 2026-11-20 ~20:40 UTC): no Bright Data calls anywhere until the sponsor says payment is resumed. tick.py starts no new company while settings.brightdata_paused is true; running audits continue without Bright Data or stop at stage paused_brightdata; scout budgets are 0 (budget.json _paused).",
+    "campaign_pause": "Whole campaign paused by the sponsor (2026-11-21 ~05:10 UTC) until Bright Data payment resumes: the hourly tick (trig_01TYro24KNGAHSNPwqrdkfJM) is disabled, so no ticks, daily mail/follow-up checks, jobs scout or weekly scout run. To resume: re-enable the trigger, then follow MANAGER_TICK.md -> Bright Data pause -> resume.",
+    "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it."
   },
-  "last_tick": "2026-11-19T20:54:34+00:00",
+  "last_tick": "2026-11-20T23:51:43+00:00",
   "manager": {
-    "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
-    "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM",
-    "note": "Persistent manager session opened by the sponsor from the app on 2026-11-19; hourly tick at :53 bound to it."
+    "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
+    "trigger_id": null,
+    "previous": {
+      "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
+      "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM (disabled, bound to the old session)"
+    },
+    "note": "Set up 2026-11-22 from MANAGER_TICK.md + MANAGER_HANDOFF.md. Tools checked: get_session, create_session, send_message, Gmail (gefen@etico.cr), PushNotification all present. Campaign paused: hourly task not created; create it (bound to this session) when the sponsor resumes Bright Data.",
+    "set_up_at": "2026-11-22T22:30:00+00:00"
   },
   "watch": [
     {

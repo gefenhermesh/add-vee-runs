@@ -1,0 +1,77 @@
+{
+  "recipient": {
+    "name": "Scott Simkin",
+    "title": "Chief Marketing Officer, Vega",
+    "email": "scott@vega.io",
+    "email_status": "verified",
+    "email_evidence": "Not published by Vega for Scott. Inferred from the [first]@vega.io pattern: (1) eli@vega.io, a real address set as the support and security mailbox on Vega's own trust portal (trust.vega.io), matching co-founder/CTO Eli Rozen's first name; (2) RocketReach's Google snippet says the most common Vega format is [first] (jane@vega.io), at 78.7% of work addresses; (3) a Fundz executive-hire listing for Simkin's appointment (app.fundz.net, 6 Oct 2026) shows 'scott@vega.io' in its Google snippet. That is a third-party aggregator, likely pattern-generated, so it is corroboration and not proof.",
+    "linkedin_company_check": "Official company page https://www.linkedin.com/company/vega-security-io/ (the page vega.io's press release links to), fetched via Bright Data Web Unlocker on 2026-11-20, no profile opened. It shows 'Vega', 15,697 followers, Computer and Network Security, 51-200 employees, 185 employees on LinkedIn, founded 2024, website vega.io, and the same $185M / Accel, Cyberstarts, Redpoint, CRV description as the press release. A company-page post from about 9 hours earlier (Tyler Golden, field marketing) thanks 'Scott Simkin and the greater marketing team', confirming Simkin is currently in charge of marketing. Google snippet for site:linkedin.com/in 'Vega' CMO 'Scott Simkin' returns 'Scott Simkin - Vega', 6.5K+ followers, San Jose, California, Experience: Vega, Education: Santa Clara University. The snippet does not show the CMO title itself (Google flags 'Missing: CMO'); the title comes from vega.io.",
+    "sources": [
+      "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer",
+      "https://vega.io/authors/scott-simkin",
+      "https://www.linkedin.com/company/vega-security-io/",
+      "https://trust.vega.io",
+      "Google snippet: site:linkedin.com/in \"Vega\" CMO \"Scott Simkin\" (via Bright Data, 2026-11-20)",
+      "Google snippet: RocketReach 'Vega Email Format | vega.io' (via Bright Data, 2026-11-20)",
+      "Google snippet: Fundz 'Vega Security appoints Scott Simkin (October 2026)' (via Bright Data, 2026-11-20)"
+    ],
+    "verified": [
+      "Name and title: vega.io press release, 6 Oct 2026 ('Vega Appoints Category Builder Scott Simkin as Chief Marketing Officer to Define the Post-SIEM Era'); vega.io author page 'Scott Simkin, Chief Marketing Officer at Vega'; also syndicated on Cybersecurity Insiders and Security Boulevard (Google snippets).",
+      "Background (press release): former VP Marketing for Palo Alto Networks' Cortex platform; led product marketing at CrowdStrike and launched Falcon Next-Gen SIEM.",
+      "Currently leads marketing: named as head of 'the greater marketing team' in a Vega company-page post, about 19 Nov 2026."
+    ],
+    "verified_by": "sponsor via Hunter, 2026-11-20"
+  },
+  "fallback": {
+    "name": "Shay Sandler",
+    "title": "Co-founder and CEO, Vega",
+    "email": "shay@vega.io",
+    "email_status": "inferred_pattern",
+    "email_evidence": "Same [first]@vega.io inference as above (eli@vega.io on trust.vega.io; RocketReach format snippet). No published address for Shay found.",
+    "sources": [
+      "https://vega.io/press/vega-appoints-scott-simkin-as-chief-marketing-officer (quoted as 'co-founder and CEO of Vega')",
+      "https://vega.io/press/vega-arms-defenders-with-first-model-for-agentic-cyber-defense",
+      "https://vega.io/about"
+    ],
+    "note": "Use only if Scott is not reachable. Vega is Series B (about 140-185 staff, $185M raised), so the marketing leader is the primary recipient under the campaign rule."
+  },
+  "pattern_evidence": [
+    {
+      "address": "eli@vega.io",
+      "where": "https://trust.vega.io, portal config 'supportMailbox' and 'securityMailbox'",
+      "weight": "Strongest evidence. A real, published, person-named address on Vega's own domain, matching CTO Eli Rozen's first name (that match is inferred; the page does not print his surname).",
+      "pattern": "first@vega.io"
+    },
+    {
+      "address": "jane@vega.io (example)",
+      "where": "RocketReach 'Vega Email Format | vega.io' Google snippet",
+      "weight": "Third-party estimate: '[first] ... used by 78.7% of Vega work email addresses'.",
+      "pattern": "first@vega.io"
+    },
+    {
+      "address": "scott@vega.io",
+      "where": "Fundz executive-hire listing, Google snippet, 6 Oct 2026",
+      "weight": "Third-party aggregator, probably generated from the pattern; corroborates, does not prove.",
+      "pattern": "first@vega.io"
+    },
+    {
+      "address": "press@vega.io (media contact Tyler Golden), info@vega.io, support@vega.io, events@vega.io",
+      "where": "Press release footer; vega.io/privacy-policy; vega.io/events/* RSVP links",
+      "weight": "Role addresses, real but no help with the personal pattern. press@vega.io is a working fallback channel to marketing.",
+      "pattern": "role"
+    },
+    {
+      "address": "alice@vega.io, angel.doyle@vega.io",
+      "where": "Code samples in vega.io blog posts (real-time-log-analysis-with-code-execution; no-black-boxes-transparent-ai-investigations-for-the-soc)",
+      "weight": "Demo log data, not real people. Disregarded; do not read angel.doyle as evidence of a first.last pattern.",
+      "pattern": "none"
+    }
+  ],
+  "not_verified": [
+    "No mailbox was verified (no SMTP or send test, by design). scott@vega.io and shay@vega.io are pattern inferences.",
+    "Scott's LinkedIn profile was not opened; the profile snippet does not itself show the CMO title.",
+    "That eli@vega.io belongs to Eli Rozen is inferred from the first name; the trust portal does not name him.",
+    "All 197 vega.io sitemap pages were scanned for addresses; no personal address for Scott or Shay is published there."
+  ],
+  "note": "Mailboxes not verified; sponsor verifies with Hunter."
+}

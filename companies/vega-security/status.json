@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-19T20:21:42+00:00",
-  "note": "Loop A approved (round 2, patch applied); waiting for sponsor Gate 1-2 approval",
+  "stage": "done",
+  "ts": "2026-11-20T04:24:52+00:00",
+  "note": "Audit complete; outreach material in output/vega-security/outreach/ (nothing sent)",
   "branch": "campaign/vega-security"
 }

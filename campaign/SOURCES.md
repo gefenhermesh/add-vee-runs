@@ -11,7 +11,10 @@ Access methods: **direct** (plain fetch works), **BD** (needs Bright Data's `con
 | **CTech (Calcalist)**: Startups, VC, and **Appointments** sections | Rounds, monthly tallies, and **new executive hires (marketing-leader trigger)** | direct | daily |
 | **israelrounds.com/rounds** | A log of every Israeli round | BD (403 direct) | irregular (last update seen Oct 20) |
 | **Next Play** (gefen@etico.cr; Next Play MCP if connected) | Hiring roles at breakout startups, "Should you join" deep dives | Gmail | weekly |
-| **Crunchbase News** (news.crunchbase.com/feed/) | Weekly biggest rounds, global | direct (RSS) | daily/weekly |
+| **Crunchbase News** (news.crunchbase.com/feed/) | Weekly biggest rounds, global | direct (RSS), automated | daily/weekly |
+| **TechCrunch fundraising** (techcrunch.com/category/fundraising/feed/) | Global rounds, about 8 funding headlines per 20 items | direct (RSS), automated | daily |
+| **SiliconANGLE** (siliconangle.com/feed/) | Enterprise-tech rounds | direct (RSS), automated | daily |
+| **Startup Nation Central Finder** (finder.startupnationcentral.org) | Israeli company database: stage, sector, funding | render (JS app); for recon and verification | – |
 | **SecurityWeek funding category** | Cybersecurity rounds and M&A | BD (403 direct) | daily |
 | FundUp, LeadMagic, Revli, Tracxn, Peony, fundedstartupsdaily | Funded-startup lists | mostly partial/paywalled; **unverified** | – |
 

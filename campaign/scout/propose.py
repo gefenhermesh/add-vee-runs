@@ -21,7 +21,8 @@ import learn  # noqa: E402
 
 REQUIRED = ["company", "domain", "reason", "gating_rating", "features", "contacts", "sources"]
 SEO_NEED = {"high", "medium", "low"}
-GATING = {"sweet_spot", "single_seo", "blocked_seo_team", "no_leader_exception", "too_early", "unclear"}
+GATING = {"sweet_spot", "single_seo", "blocked_seo_team", "no_leader_exception", "too_early", "unclear",
+          "seo_job_opening"}  # seo_job_opening: the daily SEO-jobs route (they are hiring for the role itself)
 
 
 def problems(rec):
@@ -31,6 +32,11 @@ def problems(rec):
     out += [f"unknown feature {f}" for f in feats if f not in learn.FEATURES]
     if rec.get("gating_rating") and rec["gating_rating"] not in GATING:
         out.append(f"gating_rating must be one of {sorted(GATING)}")
+    if rec.get("track") == "seo_job":
+        job = rec.get("job") or {}
+        out += [f"job.{k} missing" for k in ("title", "url", "posted", "open_checked") if not job.get(k)]
+        if rec.get("gating_rating") != "seo_job_opening":
+            out.append("track seo_job needs gating_rating seo_job_opening")
     if rec.get("gating_rating") == "blocked_seo_team":
         out.append("blocked by an SEO team: record it, but don't propose it")
     if feats.get("buying_journey") == "transactional":
@@ -92,7 +98,8 @@ def cmd_add(slugs):
         state["prospects"].append({"slug": slug, "company": rec["company"], "domain": rec["domain"], "status": "proposed",
                                    "b2b": rec.get("b2b", True),
                                    "reason": rec["reason"], "gating_rating": rec["gating_rating"],
-                                   "features": rec["features"], "source": "scout"})
+                                   "features": rec["features"], "source": "scout",
+                                   **({"track": "seo_job", "job": rec["job"], "priority": 1} if rec.get("track") == "seo_job" else {})})
         print(f"{slug}: proposed")
     state_p.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
 

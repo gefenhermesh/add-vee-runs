@@ -1,0 +1,54 @@
+{
+ "company": "Upwind",
+ "domain": "upwind.io",
+ "size_band_basis": "600+ employees, 400+ customers (upwind.io/newsroom, /about, per approved research.json dossier); not a small company, so the recipient is the marketing leader",
+ "recipient": {
+  "name": "Joel Minnick",
+  "title": "Chief Marketing Officer",
+  "role": "marketing leader",
+  "evidence": [
+   {
+    "source": "https://itdigest.com/cloud-computing-mobility/cloud-security/upwind-appoints-joel-minnick-as-chief-marketing-officer/",
+    "what": "'Upwind appoints Joel Minnick as Chief Marketing Officer', announced by CEO Amiram Shachar; article dated October 8, 2026; remit: global marketing strategy, brand, product positioning and go-to-market",
+    "verified": true
+   }
+  ],
+  "prior_role": {
+   "value": "VP Marketing, Databricks",
+   "source": "https://theorg.com/org/databricks/org-chart/joel-minnick",
+   "verified": false,
+   "note": "third-party org chart, possibly stale; not stated in the appointment article"
+  },
+  "email": {
+   "value": "joel.minnick@upwind.io",
+   "basis": "address pattern first.last@upwind.io reported by third-party pattern sites (https://prospeo.io/c/upwind-security-email-format); no real first.last address seen on a public page",
+   "verified": false,
+   "note": "bounceban reports the domain may be catch-all, so a Hunter check may not settle it; sponsor verifies"
+  },
+  "linkedin": {
+   "checked_via": "Google snippets for site:linkedin.com/in (no profile opened)",
+   "result": "no Upwind-linked profile surfaced in snippets",
+   "company_page_check": "not done: the public LinkedIn company page check goes through Bright Data, which the sponsor paused (credits at 0) on 2026-11-20",
+   "verified": false
+  }
+ },
+ "alternates": [
+  {
+   "name": "Amiram Shachar",
+   "title": "Co-founder and CEO",
+   "source": "https://www.upwind.io/about",
+   "email_pattern_guess": "amiram.shachar@upwind.io",
+   "verified": false
+  }
+ ],
+ "generic_addresses": [
+  {
+   "value": "press@upwind.io",
+   "source": "https://www.upwind.io/newsroom 'Contact Press Team' link (Cloudflare-obfuscated href, decoded locally)",
+   "verified": true,
+   "note": "real address, but a press inbox, not the recipient"
+  }
+ ],
+ "never_contacted": true,
+ "checked_at": "2026-11-20"
+}

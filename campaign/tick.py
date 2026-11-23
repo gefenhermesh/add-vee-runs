@@ -38,6 +38,8 @@ STALL_MIN = 90          # minutes without progress before a nudge
 MAX_NUDGES = 2          # nudges before "stuck"
 ACTIVE = {"starting", "running"}
 WAITING_STAGES = {"waiting_gate_1_2"}
+PAUSED_STAGES = {"paused_brightdata"}
+JOB_EXPIRY_DAYS = 10  # an SEO-job company not started within this many days of the post last being confirmed open drops out  # stopped on purpose (sponsor pause): no nudge, no new starts
 DONE_STAGES = {"done"}
 
 ADD_VEE_REPO = "https://github.com/gefenhermesh/add-vee"
@@ -47,6 +49,10 @@ Read docs/campaign/company-session.md in this repository and follow it exactly: 
 this company (CLAUDE.md, unchanged, including the Gate 1-2 stop), keep output/{slug}/campaign_status.json current,
 and write the outreach material into output/{slug}/outreach/. You need no other repository and no Gmail.
 Never send email or contact anyone."""
+
+JOB_TRACK = """
+Outreach track: seo_job. They're hiring for "{title}" ({url}, posted {posted}). Write the outreach as the sponsor's
+"I'd love to be considered for this role" email: docs/campaign/company-session.md -> "Track seo_job"."""
 
 NUDGE_PROMPT = """Campaign manager check: this session looks idle with the run unfinished (last progress {age} min ago).
 If you stopped on a usage limit or an error, continue now: run `python scripts/run_ledger.py status {slug}` and
@@ -78,16 +84,29 @@ def company_status(slug):
 def plan(state, sessions, now):
     actions = []
     running = 0
+    for p in state["prospects"]:  # SEO-job finds go stale fast: expire the ones never started in time
+        job = p.get("job") or {}
+        # Age counts from the last time the post was confirmed open (jobs.py check-open), else from its post date:
+        # an older post that's still open is a live opening, not a stale one.
+        since = job.get("open_checked") or job.get("posted")
+        if p.get("track") == "seo_job" and p.get("status") in ("proposed", "queued") and since:
+            try:
+                age = (now.date() - dt.date.fromisoformat(since[:10])).days
+            except ValueError:
+                continue
+            if age > JOB_EXPIRY_DAYS:
+                actions.append({"do": "mark", "slug": p["slug"], "status": "expired",
+                                "reason": f"job post not confirmed open for {age} days, never started"})
     for p in state["prospects"]:
         st = p.get("status")
-        if st not in ACTIVE | {"waiting_gate"}:
+        if st not in ACTIVE | {"waiting_gate", "paused"}:
             continue
         cs = company_status(p["slug"])
         stage = cs.get("stage")
         progress = parse(cs.get("ts")) or parse(p.get("started_at"))
         age = int((now - progress).total_seconds() // 60) if progress else None
         sess = sessions.get(p.get("session_id") or "", {})
-        bucket = sess.get("status_bucket")
+        bucket = (sess.get("status_bucket") or "").lower().removeprefix("session_status_bucket_") or None  # get_session returns SESSION_STATUS_BUCKET_X
         notified = p.get("notified", {})
 
         if stage in DONE_STAGES:
@@ -99,14 +118,18 @@ def plan(state, sessions, now):
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "done",
                                 "message": f"{p['company']}: audit done, outreach draft in Gmail (gefen@etico.cr) for your review"})
             continue
+        if stage in PAUSED_STAGES:
+            if st != "paused":
+                actions.append({"do": "mark", "slug": p["slug"], "status": "paused"})
+            continue
         if stage in WAITING_STAGES:
             if st != "waiting_gate":
                 actions.append({"do": "mark", "slug": p["slug"], "status": "waiting_gate"})
             if not notified.get("gate"):
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "gate",
-                                "message": f"{p['company']}: Gate 1-2 ready. Approve or push back in its session"})
+                                "message": f"{p['company']}: Gate 1-2 ready. Reply \"approve {p['slug']}\" or what to change"})
             continue
-        if st == "waiting_gate":
+        if st in ("waiting_gate", "paused"):
             # The company moved past the gate (the sponsor approved): it's working again.
             actions.append({"do": "mark", "slug": p["slug"], "status": "running"})
         running += 1
@@ -125,14 +148,18 @@ def plan(state, sessions, now):
                                     "message": f"{p['company']}: run stuck after {MAX_NUDGES} nudges (stage {stage or '?'}). Needs you"})
                 running -= 1
 
+    if state["settings"].get("brightdata_paused"):
+        return actions  # audits need Bright Data: start nothing new until the sponsor resumes payment
     cap = state["settings"]["max_concurrent_running"]
-    for p in state["prospects"]:
+    order = sorted(state["prospects"], key=lambda p: -int(p.get("priority") or 0))  # SEO-job finds first; stable otherwise
+    for p in order:
         if running >= cap:
             break
         if p.get("status") == "queued":
             actions.append({"do": "start", "slug": p["slug"], "source_url": ADD_VEE_REPO,
                             "title": f"add-vee campaign: {p['company']}",
-                            "prompt": START_PROMPT.format(company=p["company"], domain=p.get("domain", ""), slug=p["slug"])})
+                            "prompt": START_PROMPT.format(company=p["company"], domain=p.get("domain", ""), slug=p["slug"])
+                            + (JOB_TRACK.format(**p["job"]) if p.get("track") == "seo_job" else "")})
             running += 1
     return actions
 

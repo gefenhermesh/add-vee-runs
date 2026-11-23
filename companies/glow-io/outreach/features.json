@@ -1,0 +1,16 @@
+{
+ "industry": "cybersecurity (endpoint security / AI security)",
+ "stage": "$180M round at a $1.2B valuation (round label contested in sources), 4 months out of stealth",
+ "situation": "early",
+ "size_band": "51-200",
+ "geo": "US HQ (Palo Alto) with ~70% of staff in Israel",
+ "marketing_gating": "demo-led, no public pricing; marketing team still being hired",
+ "trigger": "research_disclosure (AWS Security Agent CVEs, Nov 17 2026)",
+ "finding_pattern": "absent",
+ "recipient_role": "CEO",
+ "ask_track": "report_offer",
+ "opener_type": "milestone_research",
+ "email_variant": "v4_two_images",
+ "subject_style": "how_chatgpt_sees_company",
+ "contact_verified": false
+}
