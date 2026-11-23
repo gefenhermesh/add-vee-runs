@@ -27,7 +27,10 @@ dataset scrapers; no company or person page is opened.
   python campaign/scout/jobs.py classify <json>  record the session's cheap classification of new companies
   python campaign/scout/jobs.py startups [--date YYYY-MM-DD]   the companies classified "startup" on that day
   python campaign/scout/jobs.py backlog [--limit N]   older-post companies still to classify (catch-up mode until 0)
-  python campaign/scout/jobs.py check-open <job url>  free check that a job post is still open
+  python campaign/scout/jobs.py check-open <job url> [--company N --domain D --title T --key K]
+                                                 is the role still available? the company's own board + the post (free)
+  python campaign/scout/jobs.py check-backlog [--limit N]   run that check on today's backlog share first; closed
+                                                 and likely-filled roles drop out of the backlog before classification
 
 Files:
   campaign/scout/jobs_seen.jsonl     every post ever seen: {job_id, title, company, company_url, location, posted, url, region, seen_at}
@@ -420,7 +423,8 @@ def cmd_classify(a):
 def backlog_rows(companies):
     """Unclassified companies recorded from older posts, newest post first (likeliest to still be open)."""
     rows = [(k, v) for k, v in companies.items()
-            if v.get("backlog") and v.get("class") is None and not v.get("offered")]  # offered = triaged as fresh
+            if v.get("backlog") and v.get("class") is None and not v.get("offered")  # offered = triaged as fresh
+            and (v.get("open_check") or {}).get("state") not in ("closed", "likely_filled")]  # filled roles drop out
     newest = lambda v: max((x.get("posted") or "") for x in v["posts"]) if v["posts"] else ""
     return sorted(rows, key=lambda kv: newest(kv[1]), reverse=True)
 
@@ -440,19 +444,133 @@ def cmd_backlog(a):
 
 CLOSED_MARKERS = ("no longer accepting applications", "this job is no longer available", "job has expired",
                   "position has been filled", "this job has been closed", "job not found")
+LOGIN_WALL = ("authwall", "join linkedin", "sign in to view", "join to view")
+ATS_LINK = re.compile(r"(?:jobs|boards)\.ashbyhq\.com/([A-Za-z0-9_.-]+)|(?:job-boards(?:\.eu)?|boards)\.greenhouse\.io/([A-Za-z0-9_-]+)"
+                      r"|jobs\.lever\.co/([A-Za-z0-9_.-]+)|apply\.workable\.com/([A-Za-z0-9_-]+)|comeet\.com/jobs/([A-Za-z0-9_-]+)")
+ATS_API = {"ashby": "https://api.ashbyhq.com/posting-api/job-board/{}",
+           "greenhouse": "https://boards-api.greenhouse.io/v1/boards/{}/jobs",
+           "lever": "https://api.lever.co/v0/postings/{}?mode=json",
+           "workable": "https://apply.workable.com/api/v1/widget/accounts/{}"}
+
+
+def _titles(kind, payload):
+    d = json.loads(payload)
+    if kind == "lever":
+        return [j.get("text") or "" for j in d]
+    return [j.get("title") or "" for j in d.get("jobs", [])]
+
+
+def post_state(url, fetch=None):
+    """The job post itself: open / closed / unknown. A LinkedIn login wall is unknown, never open."""
+    import urllib.error
+    fetch = fetch or direct_fetch
+    try:
+        page = fetch(url).lower()
+    except urllib.error.HTTPError as e:
+        return "closed" if e.code in (404, 410) else f"unknown (HTTP {e.code})"
+    except Exception as e:
+        return f"unknown ({type(e).__name__})"
+    if any(m in page for m in CLOSED_MARKERS):
+        return "closed"
+    if any(m in page for m in LOGIN_WALL) and "linkedin.com" in url:
+        return "unknown (login wall)"
+    return "open"
+
+
+def company_board(name, domain=None, fetch=None):
+    """The company's own careers page / job board (free). Returns {board, titles, careers_page_mentions_seo}."""
+    fetch = fetch or direct_fetch
+    found, mentions, tried = [], None, []
+    if domain:
+        domain = re.sub(r"^https?://", "", domain).strip("/")
+        for path in ("/careers", "/jobs", "/careers/", "/company/careers"):
+            try:
+                page = fetch(f"https://{domain}{path}")
+            except Exception:
+                continue
+            tried.append(path)
+            mentions = bool(re.search(r"\bseo\b|search engine optimi[sz]ation|organic growth", page, re.I))
+            kinds = ("ashby", "greenhouse", "lever", "workable", "comeet")
+            for m in ATS_LINK.finditer(page):
+                for kind, slug in zip(kinds, m.groups()):
+                    if slug and (kind, slug) not in found:
+                        found.append((kind, slug))
+            break
+    base = re.sub(r"[^a-z0-9]+", "", (name or "").lower())
+    guesses = [base, re.sub(r"[^a-z0-9]+", "-", (name or "").lower()).strip("-")]
+    for kind in ("ashby", "greenhouse", "lever", "workable"):
+        for g in guesses:
+            if g and (kind, g) not in found:
+                found.append((kind, g))
+    for kind, slug in found:
+        if kind == "comeet":
+            continue
+        try:
+            titles = _titles(kind, fetch(ATS_API[kind].format(slug)))
+        except Exception:
+            continue
+        if titles:
+            return {"board": f"{kind}:{slug}", "titles": titles, "careers_page_mentions_seo": mentions, "careers_paths_read": tried}
+    return {"board": None, "titles": [], "careers_page_mentions_seo": mentions, "careers_paths_read": tried}
+
+
+def open_check(post_url, name, domain=None, title=None, fetch=None):
+    """Is the role still available? The company's own board first (the most reliable), then the post.
+
+    state: open (listed on the company's own board, or the post is open and the company has no readable board),
+           closed (the post says so or is gone), likely_filled (the company's board is readable and lists no
+           matching role), unknown. Free: plain requests only, never Bright Data.
+    """
+    ps = post_state(post_url, fetch) if post_url else "unknown (no url)"
+    cb = company_board(name, domain, fetch)
+    generic = {"senior", "manager", "lead", "head", "the", "and", "for", "remote", "hybrid"}
+    stems = lambda s: {w[:6] for w in re.findall(r"[a-z]+", (s or "").lower()) if len(w) > 2 and w not in generic}
+    want = stems(title)
+
+    def same_role(x):  # "Marketing" matches "Founding Marketer": compare word stems, as many as the shorter title has
+        have = stems(x)
+        return bool(want and have) and len(want & have) >= min(2, len(have), len(want))
+    match = [x for x in cb["titles"] if SEO_TITLE.search(x) or same_role(x)]
+    if ps == "closed":
+        state = "closed"
+    elif cb["board"] and match:
+        state = "open"
+    elif cb["board"]:
+        state = "likely_filled"
+    elif ps == "open":
+        state = "open"
+    else:
+        state = "unknown"
+    return {"state": state, "post": ps, "company_board": cb["board"], "matching_roles": match[:5],
+            "careers_page_mentions_seo": cb["careers_page_mentions_seo"],
+            "checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
 
 
 def cmd_check_open(a):
-    """Is a job post still open? Free direct read; a 404/410 or a 'no longer accepting' notice means closed."""
-    import urllib.error
-    try:
-        page = direct_fetch(a.url).lower()
-        state = "closed" if any(m in page for m in CLOSED_MARKERS) else "open"
-    except urllib.error.HTTPError as e:
-        state = "closed" if e.code in (404, 410) else f"unknown (HTTP {e.code})"
-    except Exception as e:
-        state = f"unknown ({type(e).__name__})"
-    print(json.dumps({"url": a.url, "state": state, "checked": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}))
+    """Still available? The company's own board and the post (free). With --key, recorded on the company's row."""
+    res = {"url": a.url, **open_check(a.url, a.company, a.domain, a.title)}
+    if a.key:
+        companies = load_companies()
+        if a.key not in companies:
+            sys.exit(f"unknown company key {a.key}")
+        companies[a.key]["open_check"] = res
+        COMPANIES.write_text(json.dumps(companies, indent=1, ensure_ascii=False) + "\n")
+    print(json.dumps(res, ensure_ascii=False))
+
+
+def cmd_check_backlog(a):
+    """Before classifying: check today's backlog share is still hiring, and take the closed ones out (free)."""
+    companies = load_companies()
+    rows = backlog_rows(companies)[: a.limit]
+    counts = {}
+    for k, v in rows:
+        post = max(v["posts"], key=lambda x: x.get("posted") or "")
+        res = {"url": post["url"], **open_check(post["url"], v["name"], v.get("domain"), post.get("title"))}
+        v["open_check"] = res
+        counts[res["state"]] = counts.get(res["state"], 0) + 1
+        print(f"{res['state']:13s} {v['name'][:30]:30s} {post['title'][:40]:40s} board={res['company_board']}")
+    COMPANIES.write_text(json.dumps(companies, indent=1, ensure_ascii=False) + "\n")
+    print(json.dumps({"checked": len(rows), **counts}))
 
 
 def cmd_startups(a):
@@ -469,7 +587,10 @@ def main(argv=None):
     x = sub.add_parser("classify"); x.add_argument("file"); x.set_defaults(fn=cmd_classify)
     x = sub.add_parser("startups"); x.add_argument("--date"); x.set_defaults(fn=cmd_startups)
     x = sub.add_parser("backlog"); x.add_argument("--limit", type=int, default=BACKLOG_PER_DAY); x.set_defaults(fn=cmd_backlog)
-    x = sub.add_parser("check-open"); x.add_argument("url"); x.set_defaults(fn=cmd_check_open)
+    x = sub.add_parser("check-open"); x.add_argument("url"); x.add_argument("--company", default="")
+    x.add_argument("--domain"); x.add_argument("--title"); x.add_argument("--key"); x.set_defaults(fn=cmd_check_open)
+    x = sub.add_parser("check-backlog"); x.add_argument("--limit", type=int, default=BACKLOG_PER_DAY)
+    x.set_defaults(fn=cmd_check_backlog)
     a = ap.parse_args(argv)
     a.fn(a)
 

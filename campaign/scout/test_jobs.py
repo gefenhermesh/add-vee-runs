@@ -187,5 +187,37 @@ class CostTest(unittest.TestCase):
         self.assertNotIn("Co2", [r[1]["name"] for r in jobs.backlog_rows(json.loads(jobs.COMPANIES.read_text()))])
 
 
+class OpenCheckTest(unittest.TestCase):
+    """Is the role still available? The company's own board decides (sponsor, 2026-11-23)."""
+
+    def fake(self, pages):
+        def fetch(url):
+            for k, v in pages.items():
+                if k in url:
+                    if isinstance(v, Exception):
+                        raise v
+                    return v
+            raise OSError("not found")
+        return fetch
+
+    def test_listed_on_company_board_is_open(self):
+        f = self.fake({"linkedin.com/jobs/view/1": "<html>Apply now</html>",
+                       "acme.io/careers": '<a href="https://jobs.ashbyhq.com/acme-inc">Jobs</a>',
+                       "api.ashbyhq.com/posting-api/job-board/acme-inc": '{"jobs":[{"title":"Senior SEO Manager"}]}'})
+        r = jobs.open_check("https://www.linkedin.com/jobs/view/1", "Acme", "acme.io", "Senior SEO Manager", fetch=f)
+        self.assertEqual((r["state"], r["company_board"]), ("open", "ashby:acme-inc"))
+
+    def test_board_without_the_role_is_likely_filled(self):
+        f = self.fake({"linkedin.com/jobs/view/2": "<html>Apply now</html>",
+                       "boards-api.greenhouse.io/v1/boards/acme/jobs": '{"jobs":[{"title":"Account Executive"}]}'})
+        r = jobs.open_check("https://www.linkedin.com/jobs/view/2", "Acme", None, "SEO Lead", fetch=f)
+        self.assertEqual(r["state"], "likely_filled")
+
+    def test_closed_post_and_login_wall(self):
+        f = self.fake({"view/3": "No longer accepting applications", "view/4": "<html>authwall join linkedin</html>"})
+        self.assertEqual(jobs.open_check("https://www.linkedin.com/jobs/view/3", "Zed", fetch=f)["state"], "closed")
+        self.assertEqual(jobs.open_check("https://www.linkedin.com/jobs/view/4", "Zed", fetch=f)["state"], "unknown")
+
+
 if __name__ == "__main__":
     unittest.main()
