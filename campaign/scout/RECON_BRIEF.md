@@ -37,7 +37,7 @@ At most ~15 Bright Data requests for this company. Plain fetches and WebSearch f
 ## Output: write /home/user/add-vee-runs/companies/<slug>/scout.json (create dir). JSON with at least:
 {
  "scout_version": 4,
- "reply_odds": {"rating": "high|medium|low", "why": "..."},
+ "reply_odds": {"rating": "high|medium|low", "why": "..."},   (SCOUT.md "Reply odds": SEO need + someone to write to + growing + can pay; a developed blog or an agency is a plus, not a minus)
  "brightdata_requests": 0,
  "company": "...", "domain": "...", "slug": "...", "scouted": "2026-11-19",
  "source_of_lead": "...",

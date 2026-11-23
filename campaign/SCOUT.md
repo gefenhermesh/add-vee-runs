@@ -15,13 +15,13 @@ Built on the sponsor's earlier scouting system (Sept 2026, about 21 Israeli cybe
 5. **Recon deeply only the best 2-4** of the batch (gating, SEO need, reply odds). That's where Bright Data is used, within the budget below.
 6. **Propose only what passes.** Zero proposals in a run is an acceptable result; padding is not.
 
-**Reply odds: how likely are they to reply to the email and want SEO?** Record it as `reply_odds` in scout.json: `{"rating": "high|medium|low", "why": "..."}`. It rests on SEO need (below) plus the signals that someone will read the email and care now:
-- **Need:** SEO need is high or medium (required; low is never proposed).
-- **Owner and reachability:** a named marketing leader or founder who owns growth, and a plausible way to reach them. A dedicated SEO team lowers the odds (gating).
-- **Timing:** a fresh round, a new marketing leader, a launch, a pivot or rebrand, a new market: a moment when priorities are being set.
-- **Visible intent:** they're hiring SEO/content/growth, their job posts name SEO/AEO/GEO, their content effort is stalled or misdirected, or a competitor's page aimed at them is ranking.
-- **Capacity to buy:** funded or revenue-generating enough to pay for an engagement or a role.
-High = need plus at least three of the other four. Medium = need plus two. Low = record, don't propose.
+**Reply odds: how likely are they to reply to the email and want SEO?** (sponsor, 2026-11-23) Record it as `reply_odds` in scout.json: `{"rating": "high|medium|low", "why": "..."}`. Keep it simple:
+- **SEO need** (required): high or medium; low is never proposed. A competitor's page aimed at them that ranks is one sign of need among others, not a test of its own.
+- **Someone to write to:** a named marketing leader, or a founder who owns growth. Only a real in-house SEO team lowers the odds (gating).
+- **Growing:** a simple check that the company is on a growth trend (a round in the last year or so, headcount growing, many open roles, revenue claims). A growing company is setting priorities anyway: no dramatic trigger needed. SEO-specific job posts are watched by the daily jobs scout, not here.
+- **Can pay:** funded or earning enough for an engagement or a role.
+- **A plus, not a minus: an existing content effort.** A developed blog (and an agency behind it) gives add-vee's blog auditor real material to work with and shows they already invest in organic. Island.io was exactly this: agency help plus a developed blog, and a good conversation. Weak or stalled content is a different opening: the need is plain.
+High = high need with someone to write to and growth. Medium = medium need, or one of the three missing. Low = record, don't propose.
 
 **Bright Data budget (sponsor, 2026-11-23: "be aware of unwanted Bright Data expenses").** Every Bright Data request costs money. Use it only in deep recon, about **15 requests per company at most** (the LinkedIn company page, a few `site:linkedin.com/in` searches, 3-5 category searches, a blocked page that really matters). Plain fetches and WebSearch first; never use Bright Data for pages that load directly. Record the count in scout.json as `brightdata_requests`. If a company needs more, stop and note what's missing instead.
 
@@ -56,7 +56,7 @@ Record `"b2b": true|false` in scout.json, and the `buying_journey` feature: `com
 ## Scoring: marketing leadership and the SEO team (sponsor's rule, refined 2026-11-19)
 | Marketing leadership | SEO/organic | Rating |
 |---|---|---|
-| Leader exists | No SEO person/team, whatever the craft level | **Sweet spot.** Good craft built by marketers or an agency is still a fit (Island was one) |
+| Leader exists | No SEO person/team, whatever the craft level | **Sweet spot.** Good craft built by marketers or an agency is still a fit, and a developed blog is a plus: it feeds add-vee's blog auditor (Island: agency help + a developed blog, and it was a good conversation) |
 | Leader exists | **A real SEO team in place** | **Blocked.** The work is owned, and they may take the ideas. Skip, with the reason |
 | Leader exists | One SEO person, no team | Case by case. Note it, weigh the other parameters |
 | No marketing leader | – | **Usually too early.** The next hire is the leader. Allowed **as an occasional exception, about one in a few companies**, when the company is strong on the other parameters (fresh round, clear growth, a sharp audit finding). Mark it `exception` with the reason |
@@ -72,7 +72,7 @@ Gating says whether the work is **open** (a leader, no SEO team). It doesn't say
 1. **How buyers research.** Do buyers find and compare vendors by searching, or asking ChatGPT/Gemini? Or is it relationship/RFP-led with a small known buyer set? Proxies: how many possible buyers there are; whether G2/PeerSpot/Capterra categories exist; whether analysts and "best X tools" lists cover the category; self-serve versus enterprise sales.
 2. **Competition in search.** Name the 3-5 real competitors. For each: does it invest in content/SEO (blog cadence, guides, comparison pages)? Run 3-5 category queries through Google via Bright Data (e.g. "best <category> software", "<category> vendors", "<company> alternatives") and record who ranks. Vendors and listicles ranking = a contested space. Only trade press and regulators = low demand. A competitor's "vs <company>" page aimed at them is the strongest sign.
 3. **Cost of staying invisible.** What goes wrong for them, concretely? Examples: a new product line with no page; a category shift that AI answers haven't caught up with; competitors defining the category. If you can't name a concrete risk, the need is low.
-4. **Why not so far** (required for mature companies with little SEO). Best hypothesis with evidence: `no_need` (buyers don't search; the work wouldn't pay back), `never_prioritized` (brand/PR/sales-led culture, while competitors invest), `agency_run` (an agency does it), `founder_led` (too early), or `unclear`.
+4. **Why not so far** (required for mature companies with little SEO). Best hypothesis with evidence: `no_need` (buyers don't search; the work wouldn't pay back), `never_prioritized` (brand/PR/sales-led culture, while competitors invest), `agency_run` (an agency does it: still an opportunity, often a good one, see Island), `founder_led` (too early), or `unclear`.
 
 Record it as `seo_need` in scout.json: `{"rating": "high|medium|low", "buyer_research": "...", "competitors": [{"name", "seo_investment", "evidence_url"}], "serp_checks": [{"query", "top_results", "date"}], "cost_of_absence": "...", "why_not_yet": "...", "evidence": [...]}`. Also set the `seo_need` feature to the rating.
 - **high:** buyers research online, competitors invest or target them, and there's a concrete cost. Strong candidate.
