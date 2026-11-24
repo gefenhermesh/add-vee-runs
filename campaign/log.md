@@ -75,3 +75,4 @@ Sponsor: the next main scout run goes back to the filtered companies. Every comp
 - 2026-11-24 16:33 UTC: daily jobs scout started (session_01FkmvpPGgMcKZBTRu44iFPT), first live run.
 - 2026-11-24 16:37 UTC: jobs scout reported (routine, backlog 0, 4 paid unlocker this week); proposed help-scout (SEO / AEO Lead, posted 2026-11-24, open). Sponsor notified.
 - 2026-11-24 16:44 UTC: sponsor asked to re-verify the 9 proposed on 2026-11-19 under the current scout rules, then run the scout from step 1 (new finds may go first). Scout session session_01FkmvpM8xTxvCfYCgKzpPpy started.
+- 2026-11-24 17:01 UTC: jobs session reported a deep pass (it cites sponsor rules of 2026-11-24: no daily limit, B2B tech only; SCOUT.md updated): 15 seo_job companies proposed, all open 2026-11-24, 0 Bright Data. Scout re-verification so far: 7 of the 9 kept at v4, zenzap and edelbyte held.
