@@ -772,7 +772,7 @@
       "slug": "help-scout",
       "company": "Help Scout",
       "domain": "helpscout.com",
-      "status": "waiting_gate",
+      "status": "running",
       "b2b": true,
       "reason": "Remote B2B help-desk SaaS (~120 people, VC-backed, $35M+ ARR per podcast) posted a senior SEO / AEO Lead today, reporting to the Director of Demand Generation. The JD says they've been 'far more visible in search than a company our size usually is' and are now repositioning upmarket: the risk is that the new story doesn't reach classic search or AI answers, exactly what add-vee's audit and the 315-post blog audit show.",
       "gating_rating": "seo_job_opening",
@@ -1005,7 +1005,7 @@
       "slug": "paddle",
       "company": "Paddle",
       "domain": "paddle.com",
-      "status": "starting",
+      "status": "running",
       "b2b": true,
       "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: literally add-vee's audit. Contested category where Stripe, FastSpring, Lemon Squeezy and new MoRs (Dodo, Fungies, Polar) publish 'Paddle alternatives' pages.",
       "gating_rating": "seo_job_opening",
@@ -1516,7 +1516,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-24T17:23:06+00:00",
+  "last_tick": "2026-11-24T17:32:33+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

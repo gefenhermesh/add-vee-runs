@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-24T17:14:52Z",
-  "note": "Loop A approved (round 2, exact patch). Scope & Prompts: https://claude.ai/artifact/NedhzBtH2kVH7C2dCt9UjL ; Story: https://claude.ai/artifact/JRZVhXrhDG658eeN9eDhJL",
+  "stage": "loop_b",
+  "ts": "2026-11-24T17:23:47Z",
+  "note": "Gate 1-2 approved by sponsor (gate_1_2_approval.json); Stage 3-4 data collection starting",
   "branch": "campaign/help-scout"
 }
