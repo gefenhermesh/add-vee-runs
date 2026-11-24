@@ -1,6 +1,7 @@
 {
   "stage": "loop_b",
   "ts": "2026-11-24T18:35:43+00:00",
-  "note": "Gate 1-2 approved (gate_1_2_approval.json, approve paddle); Stage 3-4 data collection starting",
+  "note": "ChatGPT collected+extracted; Google AI Mode waiting on Oxylabs collector (sponsor decision 2026-11-24, no Gemini fallback). Using the wait for Loop C crawl.",
+  "updated_at": "2026-11-24T20:16:12+00:00",
   "branch": "campaign/paddle"
 }

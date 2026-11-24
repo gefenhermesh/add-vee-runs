@@ -1,6 +1,6 @@
 {
   "stage": "loop_b",
-  "ts": "2026-11-24T19:26:29Z",
-  "note": "ChatGPT collected and extracted; Google AI Mode stuck, collecting Gemini as stand-in (sponsor rule 2026-11-20)",
+  "ts": "2026-11-24T20:16:11Z",
+  "note": "ChatGPT collected and extracted; waiting for Oxylabs Google AI Mode collector (sponsor decision); Bright Data AI Mode stopped; Gemini kept aside",
   "branch": "campaign/help-scout"
 }
