@@ -202,7 +202,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "high",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -231,7 +231,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "medium",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -260,7 +260,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "medium",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -289,7 +289,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "high",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -299,7 +299,7 @@
       "slug": "zenzap",
       "company": "Zenzap",
       "domain": "zenzap.co",
-      "status": "proposed",
+      "status": "withdrawn",
       "reason": "VP Marketing in place with no SEO person found. On Oct 14, 2026 Zenzap came out of stealth and repositioned from 'professional work chat app' to 'AI agents for work', but about 81% of its 403 blog posts (a high-volume, self-ranking listicle program) still describe the old category.",
       "gating_rating": "sweet_spot",
       "features": {
@@ -318,11 +318,12 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "medium",
         "buying_journey": "considered"
       },
       "source": "scout",
-      "b2b": true
+      "b2b": true,
+      "status_note": "re-verify 2026-11-24: reply odds low: SEO/GEO already run in-house by a VP Marketing with SEO background (405-post program, sponsored placements); SMB/low-ticket buyer. Watch for an enterprise move or a marketing-leader change. Back in the scout queue as held."
     },
     {
       "slug": "capitolis",
@@ -377,7 +378,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "high",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -406,7 +407,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "high",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -416,7 +417,7 @@
       "slug": "edelbyte",
       "company": "Edelbyte",
       "domain": "edelbyte.io",
-      "status": "proposed",
+      "status": "withdrawn",
       "reason": "Out of stealth 11 Nov 2026 with $70M (Sequoia, Quiet; $500M valuation per CTech), ~40 people, positioned against Snowflake/Databricks/ClickHouse, but the site is a 12-URL brochure with no blog, no comparison or use-case content. No marketing leader found (couldn't verify): proposed as a no_leader_exception, CEO as recipient.",
       "gating_rating": "no_leader_exception",
       "features": {
@@ -435,11 +436,12 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "medium",
         "buying_journey": "committee"
       },
       "source": "scout",
-      "b2b": true
+      "b2b": true,
+      "status_note": "re-verify 2026-11-24: too early: no marketing leader and no blog to audit (12-URL site). Re-check when a marketing leader is hired or content starts (re:Invent 30 Nov). Back in the scout queue as held."
     },
     {
       "slug": "dreeze",
@@ -464,7 +466,7 @@
         "subject_style": "how_ai_sees_x",
         "send_slot": "sun_thu_morning_local",
         "contact_verified": "no",
-        "seo_need": "unassessed",
+        "seo_need": "high",
         "buying_journey": "committee"
       },
       "source": "scout",
@@ -812,7 +814,7 @@
     {
       "slug": "plurai",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Lital Grossman, VP Marketing",
       "funding": "$13M seed, 2026-11-11",
       "category_language": "recursive self-improvement layer for AI agents"
@@ -820,7 +822,7 @@
     {
       "slug": "buildots",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Shachar Radin Shomrat, CMO",
       "funding": "$130M, 2026-09-14",
       "category_language": "construction intelligence"
@@ -828,7 +830,7 @@
     {
       "slug": "darrow",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Kari Szul, VP Marketing (since Jul 2026)",
       "funding": "$35M Series B, 2023-09-19",
       "category_language": "Legal Exposure Management"
@@ -836,15 +838,15 @@
     {
       "slug": "scaleops",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Igal Zifman, VP Marketing (new, inferred)",
       "funding": "$130M Series C, 2026-03-30",
       "category_language": "Autonomous Orchestration for AI Infrastructure"
     },
     {
       "slug": "zenzap",
-      "status": "proposed",
-      "last_seen": "2026-11-19",
+      "status": "held",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Boris Zlatkin, VP Marketing",
       "funding": "$33M Series A, closed Aug 2025, announced 2026-10-14",
       "category_language": "AI agents for work"
@@ -860,7 +862,7 @@
     {
       "slug": "bites",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Eytan Morgenstern, Director of Marketing",
       "funding": "$40M Series A, 2026-10-29",
       "category_language": "AI-native frontline performance enablement"
@@ -868,15 +870,15 @@
     {
       "slug": "daylight-security",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Maya Rotenberg, VP Marketing",
       "funding": "$80M Series B, 2026-11-10",
       "category_language": "AI-native MDR"
     },
     {
       "slug": "edelbyte",
-      "status": "proposed",
-      "last_seen": "2026-11-19",
+      "status": "held",
+      "last_seen": "2026-11-24",
       "marketing_leader": "none found (no_leader_exception)",
       "funding": "$70M seed+A, out of stealth 2026-11-11",
       "category_language": "AI-native unified data platform"
@@ -884,7 +886,7 @@
     {
       "slug": "dreeze",
       "status": "proposed",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-24",
       "marketing_leader": "Fara Hain, VP Marketing",
       "funding": "$33M seed, 2026-11-10",
       "category_language": "Application Revival / CAIRS"

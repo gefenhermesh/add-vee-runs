@@ -1,330 +1,391 @@
 {
-  "scout_version": 2,
-  "company": "Dreeze",
-  "domain": "dreeze.com",
-  "slug": "dreeze",
-  "scouted": "2026-11-19",
-  "source_of_lead": "VC Cafe Weekly Firgun (13 Nov 2026): $33M seed; Avi Lewis' list: 3 open roles, Tel Aviv",
-  "reason": "Zerto founders' new company, out of stealth 10 Nov 2026 with a $33M seed, new category language (Application Revival, CAIRS) and a 9-day-old site. Has a senior VP Marketing (ex-Zerto) plus a PMM head; no SEO person found. Comparison space is being written by third parties (e.g. 'Dreeze vs Rubrik') while dreeze.com has no comparison pages.",
-  "gating_rating": "sweet_spot",
-  "gating_note": "Marketing leader found directly on dreeze.com/about (Fara Hain, VP Marketing) and a Head of Product Marketing (Kevin Cole) via LinkedIn search snippet. No SEO/content/organic person found in the company page, site, careers or Google site:linkedin.com/in searches; that absence is 'couldn't verify' strength, not proof. Site is WordPress + Elementor + Yoast with deliberate FAQ blocks and a Gartner-category page (CAIRS), so craft exists (likely marketing-led), but no SEO team signal.",
-  "marketing_leadership": {
-    "status": "found",
-    "who": [
-      {
-        "name": "Fara Hain",
-        "role": "VP Marketing",
-        "kind": "direct",
-        "source": "https://www.dreeze.com/about/",
-        "date": "page modified 2026-11-10, accessed 2026-11-19"
-      },
-      {
-        "name": "Kevin Cole",
-        "role": "Head of Product Marketing (since Sep 2026, per search snippet)",
-        "kind": "unverified",
-        "source": "Google site:linkedin.com/in snippet via Bright Data (title only, profile not opened)",
-        "date": "accessed 2026-11-19"
-      }
-    ],
-    "evidence": [
-      "dreeze.com/about lists Fara Hain, VP Marketing, in the leadership team (direct).",
-      "Google snippet: Fara Hain, VP Marketing, Dreeze, Sep 2026 - present; the same snippet also shows 'VP Marketing, Gist Security, Feb 2026 - present' (possibly stale or a concurrent/fractional arrangement: unverified).",
-      "Background (search snippets, inferred): director of corporate marketing at Zerto (CNET profile, 2015), VP Marketing at Run.ai (TLV Partners video), CMO at IONIX from Jul 2023 (ionix.io author page). She has worked with the founders before.",
-      "PR run by Liftoff Communications (media contact on the GlobeNewswire release, 2026-11-10)."
-    ]
-  },
-  "seo_team": {
-    "status": "couldn't verify",
-    "evidence": [
-      "No SEO/content/organic title in Google site:linkedin.com/in \"Dreeze\" SEO / marketing / content searches (titles read only; the SEO query returned unrelated people).",
-      "LinkedIn company page (Bright Data, logged-out) shows only 4 employee names: Dwight Amato, Matt Boris, Ziv Kedem, Aya Naveh-Perlmuter.",
-      "No marketing/SEO role open on careers.dreeze.com (3 jobs, all Engineering and Product).",
-      "DNS TXT shows no marketing-automation verification (no HubSpot/Marketo/Pardot); only Google, Slack, Notion, Cursor, OpenAI, Apple, Zoom, Azure (asuid)."
-    ]
-  },
-  "situation": {
-    "estimate": "Seed-stage but unusually large (about 70 employees across Israel/US, $33M seed co-led by Norwest and Bessemer) from repeat founders (Kashya, Zerto). Came out of stealth on 10 Nov 2026 with AWS GA and Azure early access (GA early 2027), and a heavy launch PR push (30+ outlets). The website and blog were born at launch (all sitemap entries dated 5-18 Nov 2026; 3 blog posts). They are trying to own new category language ('Application Revival') while also riding Gartner's 'CAIRS' label, against big incumbents such as Rubrik, which already has an app-level cloud recovery product. Next: AWS re:Invent booth (30 Nov - 3 Dec 2026) and growing sales and marketing teams with the new money.",
-    "confidence": "medium"
-  },
-  "trigger": {
-    "type": "funding",
-    "detail": "Emerged from stealth with $33M seed co-led by Norwest and Bessemer Venture Partners, participation from Claltech; Application Revival platform GA on AWS. Founders Ziv Kedem (CEO), Oded Kedem (CTO), Avi Raichel (COO). Ziv and Oded Kedem co-founded Zerto (acquired by HPE in 2021) and before that Kashya (acquired by EMC); Avi Raichel joined them at Zerto (confirmed).",
-    "date": "2026-11-10",
-    "source": "https://www.globenewswire.com/news-release/2026/11/10/3399633/0/en/dreeze-emerges-from-stealth-with-33m-to-pioneer-cloud-application-revival.html"
-  },
-  "fit_evidence": [
-    {
-      "claim": "$33M seed co-led by Norwest and Bessemer, with Claltech; out of stealth with AWS GA",
-      "kind": "direct",
-      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399633/0/en/dreeze-emerges-from-stealth-with-33m-to-pioneer-cloud-application-revival.html",
-      "date": "2026-11-10"
-    },
-    {
-      "claim": "Zerto founders return; about 70 employees in Israel and the US; funds go to product and growing sales, marketing and customer teams",
-      "kind": "direct",
-      "url": "https://www.calcalistech.com/ctechnews/article/rkkeose0fe",
-      "date": "2026-11-10"
-    },
-    {
-      "claim": "Ziv and Oded Kedem founded Zerto (CEO/CTO), acquired by HPE in 2021; Avi Raichel joined them at Zerto",
-      "kind": "direct",
-      "url": "https://www.dreeze.com/about/",
-      "date": "2026-11-10"
-    },
-    {
-      "claim": "VP Marketing (Fara Hain) is on the leadership team",
-      "kind": "direct",
-      "url": "https://www.dreeze.com/about/",
-      "date": "2026-11-10"
-    },
-    {
-      "claim": "New category language: 'Application Revival' (their coinage) plus a page targeting Gartner's 'CAIRS' (Cloud Application Infrastructure Recovery Solutions) term",
-      "kind": "direct",
-      "url": "https://www.dreeze.com/cloud-application-infrastructure-recovery-cairs/",
-      "date": "2026-11-09"
-    },
-    {
-      "claim": "Third-party comparison page 'Dreeze vs Rubrik' published two days after launch; Rubrik documents an Autonomous Business Recovery for Cloud Applications product (AWS GA) that maps dependencies and rebuilds in order",
-      "kind": "direct",
-      "url": "https://www.securecoding.com/compare/dreeze-vs-rubrik/",
-      "date": "2026-11-12"
-    },
-    {
-      "claim": "dreeze.com has no comparison / vs / alternatives pages (sitemap: 14 pages, 9 posts/resources, none comparative)",
-      "kind": "direct",
-      "url": "https://www.dreeze.com/page-sitemap.xml",
-      "date": "2026-11-18"
-    },
-    {
-      "claim": "Blog posts carry no contextual in-body links to the solution pages (CAIRS, cyber recovery, AI recovery, cloud backup); internal links come from related-post widgets; the CAIRS page links only to /platform/",
-      "kind": "direct",
-      "url": "https://www.dreeze.com/blog/dreeze-comes-out-of-stealth/",
-      "date": "2026-11-10"
-    },
-    {
-      "claim": "Dreeze already appears in third-party listicles ('Best Cyber Recovery Platforms 2026') and an Airframe review page, so AI answers will be shaped by sources Dreeze does not control",
-      "kind": "inferred",
-      "url": "https://www.google.com/search?q=%22Dreeze%22+vs",
-      "date": "accessed 2026-11-19"
-    }
+ "scout_version": 4,
+ "company": "Dreeze",
+ "domain": "dreeze.com",
+ "slug": "dreeze",
+ "scouted": "2026-11-19",
+ "source_of_lead": "VC Cafe Weekly Firgun (13 Nov 2026): $33M seed; Avi Lewis' list: 3 open roles, Tel Aviv",
+ "reason": "Zerto founders' new company, out of stealth 10 Nov 2026 with a $33M seed, new category language (Application Revival, CAIRS) and a 9-day-old site. Has a senior VP Marketing (ex-Zerto) plus a PMM head; no SEO person found. Comparison space is being written by third parties (e.g. 'Dreeze vs Rubrik') while dreeze.com has no comparison pages.",
+ "gating_rating": "sweet_spot",
+ "gating_note": "Marketing leader found directly on dreeze.com/about (Fara Hain, VP Marketing) and a Head of Product Marketing (Kevin Cole) via LinkedIn search snippet. No SEO/content/organic person found in the company page, site, careers or Google site:linkedin.com/in searches; that absence is 'couldn't verify' strength, not proof. Site is WordPress + Elementor + Yoast with deliberate FAQ blocks and a Gartner-category page (CAIRS), so craft exists (likely marketing-led), but no SEO team signal.",
+ "marketing_leadership": {
+  "status": "found",
+  "who": [
+   {
+    "name": "Fara Hain",
+    "role": "VP Marketing",
+    "kind": "direct",
+    "source": "https://www.dreeze.com/about/",
+    "date": "page modified 2026-11-10, accessed 2026-11-19"
+   },
+   {
+    "name": "Kevin Cole",
+    "role": "Head of Product Marketing (since Sep 2026, per search snippet)",
+    "kind": "unverified",
+    "source": "Google site:linkedin.com/in snippet via Bright Data (title only, profile not opened)",
+    "date": "accessed 2026-11-19"
+   }
   ],
-  "site_and_content": {
-    "cms": "WordPress, Elementor 4.4.1, Yoast SEO v28.9, custom theme 'axe-web' (possibly an agency theme name; unverified); GTM-W7M56CQS; careers on Teamtailor (careers.dreeze.com)",
-    "launch_date_of_site": "all sitemap lastmod dates 2026-11-05 to 2026-11-18; site effectively launched with the stealth exit",
-    "blog": "3 blog posts, 10-16 Nov 2026 (stealth announcement, 'Autonomous mapping, minus the slop' technical post, launch-coverage roundup). Cadence cannot be judged yet (9 days old). Plus 3 whitepapers, 1 datasheet, 2 videos.",
-    "solution_pages": "/cyber-recovery/, /ai-recovery/, /cloud-backup/, /cloud-application-infrastructure-recovery-cairs/, /platform/",
-    "comparison_pages": "none on dreeze.com (sitemap and nav read)",
-    "faq_schema": "FAQ blocks on launch post and CAIRS page (weak signal per SCOUT.md)",
-    "internal_linking": "Link-aware read of raw HTML anchors: blog bodies have no contextual links to solution pages; links are template nav and related-post widgets. CAIRS page body links only to /platform/.",
-    "llms_txt": "404",
-    "robots": "Yoast default, allow all, crawl-delay 10",
-    "dns_txt_marketing_tools": "none found (no HubSpot/Marketo/Pardot); google-site-verification, openai-domain-verification, openai-business-profile, slack, notion, cursor, apple, zoom, asuid",
-    "pr": "Liftoff Communications (media contact on GlobeNewswire); 30+ outlets covered the launch",
-    "events": "AWS re:Invent booth #2126, 30 Nov - 3 Dec 2026; Tech Field Day presentation Sep 2026"
+  "evidence": [
+   "dreeze.com/about lists Fara Hain, VP Marketing, in the leadership team (direct).",
+   "Google snippet: Fara Hain, VP Marketing, Dreeze, Sep 2026 - present; the same snippet also shows 'VP Marketing, Gist Security, Feb 2026 - present' (possibly stale or a concurrent/fractional arrangement: unverified).",
+   "Background (search snippets, inferred): director of corporate marketing at Zerto (CNET profile, 2015), VP Marketing at Run.ai (TLV Partners video), CMO at IONIX from Jul 2023 (ionix.io author page). She has worked with the founders before.",
+   "PR run by Liftoff Communications (media contact on the GlobeNewswire release, 2026-11-10)."
+  ]
+ },
+ "seo_team": {
+  "status": "couldn't verify",
+  "evidence": [
+   "No SEO/content/organic title in Google site:linkedin.com/in \"Dreeze\" SEO / marketing / content searches (titles read only; the SEO query returned unrelated people).",
+   "LinkedIn company page (Bright Data, logged-out) shows only 4 employee names: Dwight Amato, Matt Boris, Ziv Kedem, Aya Naveh-Perlmuter.",
+   "No marketing/SEO role open on careers.dreeze.com (3 jobs, all Engineering and Product).",
+   "DNS TXT shows no marketing-automation verification (no HubSpot/Marketo/Pardot); only Google, Slack, Notion, Cursor, OpenAI, Apple, Zoom, Azure (asuid)."
+  ]
+ },
+ "situation": {
+  "estimate": "Seed-stage but unusually large (about 70 employees across Israel/US, $33M seed co-led by Norwest and Bessemer) from repeat founders (Kashya, Zerto). Came out of stealth on 10 Nov 2026 with AWS GA and Azure early access (GA early 2027), and a heavy launch PR push (30+ outlets). The website and blog were born at launch (all sitemap entries dated 5-18 Nov 2026; 3 blog posts). They are trying to own new category language ('Application Revival') while also riding Gartner's 'CAIRS' label, against big incumbents such as Rubrik, which already has an app-level cloud recovery product. Next: AWS re:Invent booth (30 Nov - 3 Dec 2026) and growing sales and marketing teams with the new money.",
+  "confidence": "medium"
+ },
+ "trigger": {
+  "type": "funding",
+  "detail": "Emerged from stealth with $33M seed co-led by Norwest and Bessemer Venture Partners, participation from Claltech; Application Revival platform GA on AWS. Founders Ziv Kedem (CEO), Oded Kedem (CTO), Avi Raichel (COO). Ziv and Oded Kedem co-founded Zerto (acquired by HPE in 2021) and before that Kashya (acquired by EMC); Avi Raichel joined them at Zerto (confirmed).",
+  "date": "2026-11-10",
+  "source": "https://www.globenewswire.com/news-release/2026/11/10/3399633/0/en/dreeze-emerges-from-stealth-with-33m-to-pioneer-cloud-application-revival.html"
+ },
+ "fit_evidence": [
+  {
+   "claim": "$33M seed co-led by Norwest and Bessemer, with Claltech; out of stealth with AWS GA",
+   "kind": "direct",
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399633/0/en/dreeze-emerges-from-stealth-with-33m-to-pioneer-cloud-application-revival.html",
+   "date": "2026-11-10"
   },
-  "jobs": {
-    "board": "Teamtailor, https://careers.dreeze.com/jobs",
-    "open_roles": 3,
-    "roles": [
-      "Product Manager (Tel Aviv, hybrid)",
-      "DevOps Engineer (Tel Aviv, hybrid)",
-      "Backend Engineer (Tel Aviv, hybrid)"
-    ],
-    "marketing_roles": "none open (a Marketing department filter exists on the board)",
-    "ashby_greenhouse_lever": "no board found for dreeze / dreezeinc / dreeze-inc",
-    "matches_lead": "yes, Avi Lewis' list said 3 open roles in Tel Aviv"
+  {
+   "claim": "Zerto founders return; about 70 employees in Israel and the US; funds go to product and growing sales, marketing and customer teams",
+   "kind": "direct",
+   "url": "https://www.calcalistech.com/ctechnews/article/rkkeose0fe",
+   "date": "2026-11-10"
   },
-  "contacts": [
-    {
-      "name": "Fara Hain",
-      "role": "VP Marketing",
-      "email": null,
-      "email_verified": false,
-      "source": "https://www.dreeze.com/about/",
-      "recipient_rank": 1
-    },
-    {
-      "name": "Kevin Cole",
-      "role": "Head of Product Marketing",
-      "email": null,
-      "email_verified": false,
-      "source": "Google site:linkedin.com/in snippet via Bright Data (unverified)",
-      "recipient_rank": 2
-    },
-    {
-      "name": "Ziv Kedem",
-      "role": "Co-founder and CEO",
-      "email": null,
-      "email_verified": false,
-      "source": "https://www.dreeze.com/about/",
-      "recipient_rank": 3
-    }
-  ],
-  "outreach_angle": {
-    "hook": "Nine days after the $33M launch, a third-party site already publishes 'Dreeze vs Rubrik' (and Rubrik markets its own app-level cloud recovery), while dreeze.com has no comparison or alternatives page: the story AI assistants tell about 'Application Revival' vs Rubrik is being written by others.",
-    "source": "https://www.securecoding.com/compare/dreeze-vs-rubrik/",
-    "date": "2026-11-12"
+  {
+   "claim": "Ziv and Oded Kedem founded Zerto (CEO/CTO), acquired by HPE in 2021; Avi Raichel joined them at Zerto",
+   "kind": "direct",
+   "url": "https://www.dreeze.com/about/",
+   "date": "2026-11-10"
   },
-  "features": {
-    "industry": "cloud_infra",
-    "stage": "seed",
-    "situation": "early",
-    "size_band": "51_200",
-    "geo": "israel_us",
-    "marketing_gating": "sweet_spot",
-    "trigger": "funding",
-    "finding_pattern": "losing_to_named_competitors",
-    "recipient_role": "cmo_vp_marketing",
-    "ask_track": "engagement",
-    "opener_type": "milestone_congrats",
-    "email_variant": "v4_two_images",
-    "subject_style": "how_ai_sees_x",
-    "send_slot": "sun_thu_morning_local",
-    "contact_verified": "no",
-    "seo_need": "unassessed",
-    "buying_journey": "committee"
+  {
+   "claim": "VP Marketing (Fara Hain) is on the leadership team",
+   "kind": "direct",
+   "url": "https://www.dreeze.com/about/",
+   "date": "2026-11-10"
   },
-  "features_note": "finding_pattern is a guess (inferred): a 9-day-old brand in a category where Rubrik and others already rank; not probed.",
-  "sources": [
-    {
-      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399633/0/en/dreeze-emerges-from-stealth-with-33m-to-pioneer-cloud-application-revival.html",
-      "date": "2026-11-10",
-      "kind": "direct",
-      "result": "press release read via Bright Data (direct fetch 403); round, investors, Zerto, media contact Liftoff"
-    },
-    {
-      "url": "https://www.calcalistech.com/ctechnews/article/rkkeose0fe",
-      "date": "2026-11-10",
-      "kind": "direct",
-      "result": "CTech: Zerto founders, ~70 employees, grow sales/marketing"
-    },
-    {
-      "url": "https://www.dreeze.com/about/",
-      "date": "2026-11-10",
-      "kind": "direct",
-      "result": "leadership incl. VP Marketing Fara Hain; history; 3 job links"
-    },
-    {
-      "url": "https://www.dreeze.com/blog/dreeze-comes-out-of-stealth/",
-      "date": "2026-11-10",
-      "kind": "direct",
-      "result": "launch post, FAQs, 70 employees, re:Invent"
-    },
-    {
-      "url": "https://www.dreeze.com/blog/dreeze-in-the-news-our-launch-coverage/",
-      "date": "2026-11-16",
-      "kind": "direct",
-      "result": "30+ outlet coverage list"
-    },
-    {
-      "url": "https://www.dreeze.com/cloud-application-infrastructure-recovery-cairs/",
-      "date": "2026-11-09",
-      "kind": "direct",
-      "result": "CAIRS (Gartner category) page"
-    },
-    {
-      "url": "https://www.dreeze.com/sitemap_index.xml",
-      "date": "2026-11-18",
-      "kind": "direct",
-      "result": "Yoast sitemaps: 14 pages, 9 posts/resources"
-    },
-    {
-      "url": "https://www.dreeze.com/",
-      "date": "accessed 2026-11-19",
-      "kind": "direct",
-      "result": "raw HTML: WordPress/Elementor/Yoast, GTM"
-    },
-    {
-      "url": "https://www.dreeze.com/llms.txt",
-      "date": "accessed 2026-11-19",
-      "kind": "direct",
-      "result": "404"
-    },
-    {
-      "url": "https://careers.dreeze.com/jobs",
-      "date": "accessed 2026-11-19",
-      "kind": "direct",
-      "result": "Teamtailor, 3 jobs, all Engineering and Product, Tel Aviv"
-    },
-    {
-      "url": "https://dns.google/resolve?name=dreeze.com&type=TXT",
-      "date": "accessed 2026-11-19",
-      "kind": "direct",
-      "result": "no marketing-automation tokens"
-    },
-    {
-      "url": "https://www.linkedin.com/company/dreeze/",
-      "date": "accessed 2026-11-19",
-      "kind": "direct",
-      "result": "via Bright Data: 51-200, Tel Aviv HQ, founded 2025, 1,098 followers, 4 employee names"
-    },
-    {
-      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Dreeze%22+marketing",
-      "date": "accessed 2026-11-19",
-      "kind": "unverified",
-      "result": "titles/snippets: Fara Hain VP Marketing Dreeze (Sep 2026), Kevin Cole Head of Product Marketing Dreeze (Sep 2026), founders, AEs"
-    },
-    {
-      "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Dreeze%22+SEO",
-      "date": "accessed 2026-11-19",
-      "kind": "unverified",
-      "result": "no Dreeze SEO person; unrelated results"
-    },
-    {
-      "url": "https://www.google.com/search?q=%22Fara+Hain%22+marketing",
-      "date": "accessed 2026-11-19",
-      "kind": "unverified",
-      "result": "ex-Zerto (CNET 2015), Run.ai VP Marketing, IONIX CMO; RocketReach lists Gist Security (stale?)"
-    },
-    {
-      "url": "https://www.securecoding.com/compare/dreeze-vs-rubrik/",
-      "date": "2026-11-12",
-      "kind": "direct",
-      "result": "third-party Dreeze vs Rubrik comparison"
-    },
-    {
-      "url": "https://www.google.com/search?q=%22Dreeze%22+alternatives+OR+competitors",
-      "date": "accessed 2026-11-19",
-      "kind": "unverified",
-      "result": "Airframe review page, Dealroom notes, listicles"
-    },
-    {
-      "url": "https://www.google.com/search?q=Dreeze+cloud+recovery",
-      "date": "2026-11-11",
-      "kind": "unverified",
-      "result": "SERP: IT Brief US 'Dreeze launches app revival platform with USD $33m' (11 Nov 2026), dreeze.com/platform, Tech Field Day video; found domain dreeze.com"
-    }
+  {
+   "claim": "New category language: 'Application Revival' (their coinage) plus a page targeting Gartner's 'CAIRS' (Cloud Application Infrastructure Recovery Solutions) term",
+   "kind": "direct",
+   "url": "https://www.dreeze.com/cloud-application-infrastructure-recovery-cairs/",
+   "date": "2026-11-09"
+  },
+  {
+   "claim": "Third-party comparison page 'Dreeze vs Rubrik' published two days after launch; Rubrik documents an Autonomous Business Recovery for Cloud Applications product (AWS GA) that maps dependencies and rebuilds in order",
+   "kind": "direct",
+   "url": "https://www.securecoding.com/compare/dreeze-vs-rubrik/",
+   "date": "2026-11-12"
+  },
+  {
+   "claim": "dreeze.com has no comparison / vs / alternatives pages (sitemap: 14 pages, 9 posts/resources, none comparative)",
+   "kind": "direct",
+   "url": "https://www.dreeze.com/page-sitemap.xml",
+   "date": "2026-11-18"
+  },
+  {
+   "claim": "Blog posts carry no contextual in-body links to the solution pages (CAIRS, cyber recovery, AI recovery, cloud backup); internal links come from related-post widgets; the CAIRS page links only to /platform/",
+   "kind": "direct",
+   "url": "https://www.dreeze.com/blog/dreeze-comes-out-of-stealth/",
+   "date": "2026-11-10"
+  },
+  {
+   "claim": "Dreeze already appears in third-party listicles ('Best Cyber Recovery Platforms 2026') and an Airframe review page, so AI answers will be shaped by sources Dreeze does not control",
+   "kind": "inferred",
+   "url": "https://www.google.com/search?q=%22Dreeze%22+vs",
+   "date": "accessed 2026-11-19"
+  }
+ ],
+ "site_and_content": {
+  "cms": "WordPress, Elementor 4.4.1, Yoast SEO v28.9, custom theme 'axe-web' (possibly an agency theme name; unverified); GTM-W7M56CQS; careers on Teamtailor (careers.dreeze.com)",
+  "launch_date_of_site": "all sitemap lastmod dates 2026-11-05 to 2026-11-18; site effectively launched with the stealth exit",
+  "blog": "3 blog posts, 10-16 Nov 2026 (stealth announcement, 'Autonomous mapping, minus the slop' technical post, launch-coverage roundup). Cadence cannot be judged yet (9 days old). Plus 3 whitepapers, 1 datasheet, 2 videos.",
+  "solution_pages": "/cyber-recovery/, /ai-recovery/, /cloud-backup/, /cloud-application-infrastructure-recovery-cairs/, /platform/",
+  "comparison_pages": "none on dreeze.com (sitemap and nav read)",
+  "faq_schema": "FAQ blocks on launch post and CAIRS page (weak signal per SCOUT.md)",
+  "internal_linking": "Link-aware read of raw HTML anchors: blog bodies have no contextual links to solution pages; links are template nav and related-post widgets. CAIRS page body links only to /platform/.",
+  "llms_txt": "404",
+  "robots": "Yoast default, allow all, crawl-delay 10",
+  "dns_txt_marketing_tools": "none found (no HubSpot/Marketo/Pardot); google-site-verification, openai-domain-verification, openai-business-profile, slack, notion, cursor, apple, zoom, asuid",
+  "pr": "Liftoff Communications (media contact on GlobeNewswire); 30+ outlets covered the launch",
+  "events": "AWS re:Invent booth #2126, 30 Nov - 3 Dec 2026; Tech Field Day presentation Sep 2026"
+ },
+ "jobs": {
+  "board": "Teamtailor, https://careers.dreeze.com/jobs",
+  "open_roles": 3,
+  "roles": [
+   "Product Manager (Tel Aviv, hybrid)",
+   "DevOps Engineer (Tel Aviv, hybrid)",
+   "Backend Engineer (Tel Aviv, hybrid)"
   ],
-  "sources_tried_failed": [
-    {
-      "url": "https://www.globenewswire.com/...",
-      "result": "direct fetch 403; succeeded via Bright Data"
-    },
-    {
-      "url": "https://web.archive.org/web/20241120004919/https://www.dreeze.com/",
-      "result": "403 direct, empty via Bright Data; CDX blocked by egress. A 2024-11 snapshot exists (pre-founding; domain may have had another use) - not read"
-    },
-    {
-      "url": "https://www.dreeze.com/careers/",
-      "result": "404 (careers live on careers.dreeze.com)"
-    },
-    {
-      "url": "api.ashbyhq.com / boards-api.greenhouse.io / api.lever.co for dreeze, dreezeinc, dreeze-inc",
-      "result": "no boards"
-    },
-    {
-      "url": "Google SERP via Bright Data",
-      "result": "intermittent 'query recently failed' errors; retried"
-    }
+  "marketing_roles": "none open (a Marketing department filter exists on the board)",
+  "ashby_greenhouse_lever": "no board found for dreeze / dreezeinc / dreeze-inc",
+  "matches_lead": "yes, Avi Lewis' list said 3 open roles in Tel Aviv"
+ },
+ "contacts": [
+  {
+   "name": "Fara Hain",
+   "role": "VP Marketing",
+   "email": null,
+   "email_verified": false,
+   "source": "https://www.dreeze.com/about/",
+   "recipient_rank": 1
+  },
+  {
+   "name": "Kevin Cole",
+   "role": "Head of Product Marketing",
+   "email": null,
+   "email_verified": false,
+   "source": "Google site:linkedin.com/in snippet via Bright Data (unverified)",
+   "recipient_rank": 2
+  },
+  {
+   "name": "Ziv Kedem",
+   "role": "Co-founder and CEO",
+   "email": null,
+   "email_verified": false,
+   "source": "https://www.dreeze.com/about/",
+   "recipient_rank": 3
+  }
+ ],
+ "outreach_angle": {
+  "hook": "Nine days after the $33M launch, a third-party site already publishes 'Dreeze vs Rubrik' (and Rubrik markets its own app-level cloud recovery), while dreeze.com has no comparison or alternatives page: the story AI assistants tell about 'Application Revival' vs Rubrik is being written by others.",
+  "source": "https://www.securecoding.com/compare/dreeze-vs-rubrik/",
+  "date": "2026-11-12"
+ },
+ "features": {
+  "industry": "cloud_infra",
+  "stage": "seed",
+  "situation": "early",
+  "size_band": "51_200",
+  "geo": "israel_us",
+  "marketing_gating": "sweet_spot",
+  "trigger": "funding",
+  "finding_pattern": "losing_to_named_competitors",
+  "recipient_role": "cmo_vp_marketing",
+  "ask_track": "engagement",
+  "opener_type": "milestone_congrats",
+  "email_variant": "v4_two_images",
+  "subject_style": "how_ai_sees_x",
+  "send_slot": "sun_thu_morning_local",
+  "contact_verified": "no",
+  "seo_need": "high",
+  "buying_journey": "committee"
+ },
+ "features_note": "finding_pattern is a guess (inferred): a 9-day-old brand in a category where Rubrik and others already rank; not probed.",
+ "sources": [
+  {
+   "url": "https://www.globenewswire.com/news-release/2026/11/10/3399633/0/en/dreeze-emerges-from-stealth-with-33m-to-pioneer-cloud-application-revival.html",
+   "date": "2026-11-10",
+   "kind": "direct",
+   "result": "press release read via Bright Data (direct fetch 403); round, investors, Zerto, media contact Liftoff"
+  },
+  {
+   "url": "https://www.calcalistech.com/ctechnews/article/rkkeose0fe",
+   "date": "2026-11-10",
+   "kind": "direct",
+   "result": "CTech: Zerto founders, ~70 employees, grow sales/marketing"
+  },
+  {
+   "url": "https://www.dreeze.com/about/",
+   "date": "2026-11-10",
+   "kind": "direct",
+   "result": "leadership incl. VP Marketing Fara Hain; history; 3 job links"
+  },
+  {
+   "url": "https://www.dreeze.com/blog/dreeze-comes-out-of-stealth/",
+   "date": "2026-11-10",
+   "kind": "direct",
+   "result": "launch post, FAQs, 70 employees, re:Invent"
+  },
+  {
+   "url": "https://www.dreeze.com/blog/dreeze-in-the-news-our-launch-coverage/",
+   "date": "2026-11-16",
+   "kind": "direct",
+   "result": "30+ outlet coverage list"
+  },
+  {
+   "url": "https://www.dreeze.com/cloud-application-infrastructure-recovery-cairs/",
+   "date": "2026-11-09",
+   "kind": "direct",
+   "result": "CAIRS (Gartner category) page"
+  },
+  {
+   "url": "https://www.dreeze.com/sitemap_index.xml",
+   "date": "2026-11-18",
+   "kind": "direct",
+   "result": "Yoast sitemaps: 14 pages, 9 posts/resources"
+  },
+  {
+   "url": "https://www.dreeze.com/",
+   "date": "accessed 2026-11-19",
+   "kind": "direct",
+   "result": "raw HTML: WordPress/Elementor/Yoast, GTM"
+  },
+  {
+   "url": "https://www.dreeze.com/llms.txt",
+   "date": "accessed 2026-11-19",
+   "kind": "direct",
+   "result": "404"
+  },
+  {
+   "url": "https://careers.dreeze.com/jobs",
+   "date": "accessed 2026-11-19",
+   "kind": "direct",
+   "result": "Teamtailor, 3 jobs, all Engineering and Product, Tel Aviv"
+  },
+  {
+   "url": "https://dns.google/resolve?name=dreeze.com&type=TXT",
+   "date": "accessed 2026-11-19",
+   "kind": "direct",
+   "result": "no marketing-automation tokens"
+  },
+  {
+   "url": "https://www.linkedin.com/company/dreeze/",
+   "date": "accessed 2026-11-19",
+   "kind": "direct",
+   "result": "via Bright Data: 51-200, Tel Aviv HQ, founded 2025, 1,098 followers, 4 employee names"
+  },
+  {
+   "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Dreeze%22+marketing",
+   "date": "accessed 2026-11-19",
+   "kind": "unverified",
+   "result": "titles/snippets: Fara Hain VP Marketing Dreeze (Sep 2026), Kevin Cole Head of Product Marketing Dreeze (Sep 2026), founders, AEs"
+  },
+  {
+   "url": "https://www.google.com/search?q=site:linkedin.com/in+%22Dreeze%22+SEO",
+   "date": "accessed 2026-11-19",
+   "kind": "unverified",
+   "result": "no Dreeze SEO person; unrelated results"
+  },
+  {
+   "url": "https://www.google.com/search?q=%22Fara+Hain%22+marketing",
+   "date": "accessed 2026-11-19",
+   "kind": "unverified",
+   "result": "ex-Zerto (CNET 2015), Run.ai VP Marketing, IONIX CMO; RocketReach lists Gist Security (stale?)"
+  },
+  {
+   "url": "https://www.securecoding.com/compare/dreeze-vs-rubrik/",
+   "date": "2026-11-12",
+   "kind": "direct",
+   "result": "third-party Dreeze vs Rubrik comparison"
+  },
+  {
+   "url": "https://www.google.com/search?q=%22Dreeze%22+alternatives+OR+competitors",
+   "date": "accessed 2026-11-19",
+   "kind": "unverified",
+   "result": "Airframe review page, Dealroom notes, listicles"
+  },
+  {
+   "url": "https://www.google.com/search?q=Dreeze+cloud+recovery",
+   "date": "2026-11-11",
+   "kind": "unverified",
+   "result": "SERP: IT Brief US 'Dreeze launches app revival platform with USD $33m' (11 Nov 2026), dreeze.com/platform, Tech Field Day video; found domain dreeze.com"
+  },
+  {
+   "url": "https://dreeze.com/",
+   "date": "2026-11-24",
+   "kind": "direct",
+   "note": "blog_sample.py re-verification"
+  }
+ ],
+ "sources_tried_failed": [
+  {
+   "url": "https://www.globenewswire.com/...",
+   "result": "direct fetch 403; succeeded via Bright Data"
+  },
+  {
+   "url": "https://web.archive.org/web/20241120004919/https://www.dreeze.com/",
+   "result": "403 direct, empty via Bright Data; CDX blocked by egress. A 2024-11 snapshot exists (pre-founding; domain may have had another use) - not read"
+  },
+  {
+   "url": "https://www.dreeze.com/careers/",
+   "result": "404 (careers live on careers.dreeze.com)"
+  },
+  {
+   "url": "api.ashbyhq.com / boards-api.greenhouse.io / api.lever.co for dreeze, dreezeinc, dreeze-inc",
+   "result": "no boards"
+  },
+  {
+   "url": "Google SERP via Bright Data",
+   "result": "intermittent 'query recently failed' errors; retried"
+  }
+ ],
+ "linkedin_checks_for_sponsor": [
+  "Dreeze company page -> People tab, filter 'marketing': who sits under Fara Hain and Kevin Cole? Any content/SEO/web person?",
+  "Is Fara Hain full-time at Dreeze or still also at Gist Security (search snippet shows both as current)?"
+ ],
+ "open_questions": [
+  "Is there an outside SEO/web agency (theme name 'axe-web' may be an agency)?",
+  "Is the marketing team planning comparison/category content around re:Invent, which would make the timing either ideal or crowded?",
+  "Gartner CAIRS coverage: is Dreeze named in a Gartner note yet?"
+ ],
+ "b2b": true,
+ "seo_need": {
+  "rating": "high",
+  "buyer_research": "Cloud resilience/backup buyers research vendors via Gartner (CAIRS), G2, 'best cyber recovery platforms' listicles and vendor comparisons; a third-party 'Dreeze vs Rubrik' page appeared two days after launch.",
+  "competitors": [
+   {
+    "name": "Rubrik",
+    "seo_investment": "Heavy content and product pages, incl. app-level cloud recovery",
+    "evidence_url": "https://www.rubrik.com/blog"
+   },
+   {
+    "name": "Commvault / Druva",
+    "seo_investment": "Large content programs in cyber recovery (inferred)",
+    "evidence_url": "https://www.commvault.com/blogs"
+   },
+   {
+    "name": "Third parties",
+    "seo_investment": "securecoding.com 'Dreeze vs Rubrik', 'Best Cyber Recovery Platforms 2026' listicles",
+    "evidence_url": "https://www.securecoding.com/compare/dreeze-vs-rubrik/"
+   }
   ],
-  "linkedin_checks_for_sponsor": [
-    "Dreeze company page -> People tab, filter 'marketing': who sits under Fara Hain and Kevin Cole? Any content/SEO/web person?",
-    "Is Fara Hain full-time at Dreeze or still also at Gist Security (search snippet shows both as current)?"
-  ],
-  "open_questions": [
-    "Is there an outside SEO/web agency (theme name 'axe-web' may be an agency)?",
-    "Is the marketing team planning comparison/category content around re:Invent, which would make the timing either ideal or crowded?",
-    "Gartner CAIRS coverage: is Dreeze named in a Gartner note yet?"
-  ],
-  "b2b": true
+  "cost_of_absence": "A new coined category ('Application Revival') next to Gartner's CAIRS: if others write the comparisons, AI answers describe Dreeze on Rubrik's terms right as it goes to market (re:Invent, Azure GA early 2027).",
+  "why_not_yet": "founder_led/too new: site and blog born at launch (Nov 2026), 3 posts",
+  "serp_checks": [],
+  "evidence": [
+   "Re-verified 2026-11-24 in a light check (no Bright Data); evidence from the 2026-11-19 recon in fit_evidence/site_and_content."
+  ]
+ },
+ "reply_odds": {
+  "rating": "medium",
+  "why": "VP Marketing (Fara Hain, ex-Zerto) and Head of PMM to write to, $33M seed, ~70 people; no SEO person. Lower: the blog is only 3 posts (little for the blog auditor yet) and a snippet shows Fara Hain also VP Marketing at Gist Security (fractional? unverified)."
+ },
+ "brightdata_requests": 0,
+ "brightdata_note": "0 in the 2026-11-24 re-verification; the 2026-11-19 recon's Bright Data use was not counted per company.",
+ "blog_signal": {
+  "date": "2026-11-24",
+  "method": "blog_sample.py (plain HTTPS, no Bright Data)",
+  "posts_in_sitemap": 3,
+  "first_date_seen": "2026-11-10",
+  "last_date_seen": "2026-11-18",
+  "avg_links_to_other_posts": 2.0,
+  "share_with_0_links_pct": 0,
+  "median_words": 1428,
+  "impression": "partly planned",
+  "reading": [
+   "thin blog: 3 posts under /blog/",
+   "internal linking looks partial: 2.0 in-body links to other posts on average, 0% of sampled posts link to none",
+   "blog taxonomy pages: none in the sitemap",
+   "3 hub-like posts (linked from 2+ sampled posts)",
+   "impression: partly planned (topic focus, links per post, posts with no links, hubs: 2 of 4)"
+  ]
+ },
+ "reverified": {
+  "date": "2026-11-24",
+  "verdict": "kept"
+ }
 }

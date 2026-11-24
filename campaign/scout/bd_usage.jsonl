@@ -3,3 +3,6 @@
 {"week": "2026-W48", "ts": "2026-11-24T16:35:36+00:00", "kind": "unlocker", "purpose": "recon help-scout google", "url": "https://www.google.com/search?hl=en&num=20&q=site%3Alinkedin.com/in%20%22Help%20Scout%22%20%22Demand%20Generation%22"}
 {"week": "2026-W48", "ts": "2026-11-24T16:35:37+00:00", "kind": "unlocker", "purpose": "recon help-scout google", "url": "https://www.google.com/search?hl=en&num=20&q=site%3Alinkedin.com/in%20%22Help%20Scout%22%20%22VP%20of%20Marketing%22%20OR%20%22Head%20of%20Marketing%22"}
 {"week": "2026-W48", "ts": "2026-11-24T16:35:38+00:00", "kind": "unlocker", "purpose": "recon help-scout google", "url": "https://www.google.com/search?hl=en&num=20&q=site%3Alinkedin.com/in%20%22Help%20Scout%22%20SEO%20OR%20AEO%20OR%20%22organic%22"}
+{"week": "2026-W48", "ts": "2026-11-24T16:45:53+00:00", "purpose": "list posters (profile): 1", "dataset": "gd_lyy3tktm25m4avu764", "inputs": 1, "records": 10}
+{"week": "2026-W48", "ts": "2026-11-24T16:47:28+00:00", "purpose": "list posters (company): 1", "dataset": "gd_lyy3tktm25m4avu764", "inputs": 1, "records": 37}
+{"week": "2026-W48", "ts": "2026-11-24T16:47:40+00:00", "kind": "unlocker", "purpose": "scout hand-cover israelrounds", "url": "https://israelrounds.com/rounds"}

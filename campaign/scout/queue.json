@@ -8,7 +8,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-19",
    "notes": [
@@ -17,7 +17,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a marketing director and a talent director. They just raised $130m",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Nominal",
@@ -27,7 +28,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-19",
    "notes": [
@@ -36,7 +37,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a social media strategist and a bizops generalist. They just raised $240m",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Hello Heart",
@@ -46,7 +48,7 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -54,14 +56,16 @@
     "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Director, Product Growth"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Spines",
    "key": "spines",
    "sources": [
     "firgun/avi",
-    "avi_lewis_list+vccafe_firgun"
+    "avi_lewis_list+vccafe_firgun",
+    "avi_lewis_list+telegram_hitechjobsmarketing+vccafe_firgun"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -101,7 +105,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-10",
    "notes": [
@@ -109,7 +113,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth director. They just raised a $375m",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "High Lander",
@@ -119,14 +124,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "BloomX",
@@ -136,14 +142,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Remepy",
@@ -170,14 +177,15 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Manager, Growth (DIY Tax Filing)"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Open Human",
@@ -205,7 +213,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -213,7 +221,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a product marketer",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Posh",
@@ -241,7 +250,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -249,7 +258,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an YouTuber/educator and a GTM Intern",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Artlist",
@@ -259,14 +269,15 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Influencer Marketing Team Lead"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Kickoff",
@@ -326,14 +337,15 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
     "2026-11-22: check SEO team",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer- Maternity leave replacement"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Kela",
@@ -378,7 +390,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -386,7 +398,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an AI creative strategist and a growth marketing manager",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Sentra",
@@ -396,31 +409,34 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-15",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Corma",
    "key": "corma",
    "sources": [
     "avi",
-    "avi_lewis_list"
+    "avi_lewis_list",
+    "avi_lewis_list+vccafe_firgun"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-16",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Mave",
@@ -430,14 +446,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-10-22",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Rein Security",
@@ -447,14 +464,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Brava Security",
@@ -464,14 +482,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-04",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Pluto Security",
@@ -481,14 +500,15 @@
     "avi_lewis_list+telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Modelyo",
@@ -498,14 +518,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-10-22",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Incredibuild",
@@ -515,14 +536,15 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": "2026-11-15",
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Gloat",
@@ -532,14 +554,15 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Demand Generation lead- AI Native"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "PointFive",
@@ -616,13 +639,14 @@
     "telegram"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held run 1"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Fullpath",
@@ -632,14 +656,15 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held run 1",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Content Specialist -Temporary (Mat Leave Replacement)"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "LSports",
@@ -684,7 +709,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -692,7 +717,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a Forward Deployed Product Manager and a Founding Enterprise AE. They raised $73m",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Fleetworks",
@@ -702,7 +728,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -710,7 +736,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of customer deployments",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Mews",
@@ -738,7 +765,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -746,14 +773,16 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth marketing lead and a finance and operations lead",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Verra",
    "key": "verra",
    "sources": [
     "next_play",
-    "nextplay"
+    "nextplay",
+    "nextplay+siliconangle"
    ],
    "added": "2026-11-22",
    "status": "queued",
@@ -792,7 +821,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -800,7 +829,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a commercial lead",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Cara",
@@ -810,7 +840,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -818,7 +848,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a forward deployed broker and an account executive",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Luca IQ",
@@ -864,7 +895,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -872,7 +903,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a country launcher and a founding BDR to focus on new product lines",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Sift",
@@ -900,7 +932,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -908,7 +940,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a finance lead, an account executive, and a senior forward deployed engineer",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Prosper Health",
@@ -936,7 +969,7 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
    "trigger_date": null,
    "notes": [
@@ -944,7 +977,8 @@
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a data journalist and a general manager",
     "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "MIND Security",
@@ -1163,13 +1197,14 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-19",
    "notes": [
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Israeli startup raises $11 million Seed to automate the growing burden",
@@ -1178,13 +1213,14 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-18",
    "notes": [
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Insight Partners invests $15 million in Incredibuild's push into AI so",
@@ -1193,13 +1229,15 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "dropped",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-18",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Incredibuild (in this batch)"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Israeli startup Newsbound raises $3 million to take on the PR agency m",
@@ -1208,13 +1246,14 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-17",
    "notes": [
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Cyber startup Corma goes from stealth to unicorn in just three months ",
@@ -1223,13 +1262,15 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "dropped",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-16",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Corma (in this batch)"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Former Nexar AI researchers raise $13 million Seed to bring autonomous",
@@ -1238,13 +1279,14 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-11",
    "notes": [
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) From stealth to a $500 million valuation: Former Microsoft engineers r",
@@ -1253,13 +1295,15 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "dropped",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-11",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Edelbyte (re-verified 2026-11-24, held)"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Former Unit 8200 officers raise $50 million in just nine months for AI",
@@ -1268,13 +1312,14 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "in_batch",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-10",
    "notes": [
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "(unresolved) Israeli cyber startup Daylight raises $80 million Series B at estimate",
@@ -1283,13 +1328,15 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "dropped",
    "b2b": null,
-   "trigger_date": null,
+   "trigger_date": "2026-11-10",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Daylight Security (proposed)"
    ],
-   "slug": null
+   "slug": null,
+   "batch": "2026-11-24"
   },
   {
    "name": "Echo",
@@ -1325,7 +1372,8 @@
    "name": "Dream",
    "key": "dream",
    "sources": [
-    "telegram_hitechjobsmarketing"
+    "telegram_hitechjobsmarketing",
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-23",
    "status": "queued",
@@ -1991,7 +2039,8 @@
    "key": "trajectory",
    "sources": [
     "nextplay",
-    "next_play"
+    "next_play",
+    "nextplay+techcrunch_fundraising"
    ],
    "added": "2026-11-23",
    "status": "queued",
@@ -2683,7 +2732,8 @@
    "name": "Unconventional AI",
    "key": "unconventional",
    "sources": [
-    "nextplay"
+    "nextplay",
+    "list_post:avi-lewis+nextplay"
    ],
    "added": "2026-11-23",
    "status": "queued",
@@ -2886,6 +2936,3401 @@
    "trigger_date": null,
    "notes": [
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: VP Finance"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Zenzap",
+   "key": "zenzap",
+   "sources": [
+    "scout_2026-11-19"
+   ],
+   "added": "2026-11-24",
+   "status": "held",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: hold: re-verify 2026-11-24: reply odds low: SEO/GEO already run in-house by a VP Marketing with SEO background (405-post program, sponsored placements); SMB/low-ticket buyer. Watch for an enterprise move or a marketing-leader change."
+   ],
+   "slug": "zenzap"
+  },
+  {
+   "name": "Edelbyte",
+   "key": "edelbyte",
+   "sources": [
+    "scout_2026-11-19"
+   ],
+   "added": "2026-11-24",
+   "status": "held",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: hold: re-verify 2026-11-24: too early: no marketing leader and no blog to audit (12-URL site). Re-check when a marketing leader is hired or content starts (re:Invent 30 Nov)."
+   ],
+   "slug": "edelbyte"
+  },
+  {
+   "name": "Ramon.Space",
+   "key": "ramon space",
+   "sources": [
+    "avi_lewis_list+ctech_startups+vccafe_firgun",
+    "ctech_full_list"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": null,
+   "trigger_date": "2026-11-17",
+   "notes": [
+    "2026-11-24: In-orbit space computing infrastructure; $124M"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Ribon",
+   "key": "ribon",
+   "sources": [
+    "vccafe_firgun",
+    "israelrounds"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": null,
+   "trigger_date": "2026-11-10",
+   "notes": [
+    "2026-11-24: Cybersecurity/AI; undisclosed round"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Pillar Security",
+   "key": "pillar",
+   "sources": [
+    "vccafe_firgun"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Laguna Health",
+   "key": "laguna health",
+   "sources": [
+    "vccafe_firgun"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Vine Ventures",
+   "key": "vine ventures",
+   "sources": [
+    "vccafe_firgun"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Undecimal Bio",
+   "key": "undecimal bio",
+   "sources": [
+    "avi_lewis_list"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Phantom GI",
+   "key": "phantom gi",
+   "sources": [
+    "avi_lewis_list"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Vero Security",
+   "key": "vero",
+   "sources": [
+    "vccafe_firgun",
+    "ctech_full_list"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": null,
+   "trigger_date": "2026-11-18",
+   "notes": [
+    "2026-11-24: Security policies enforced across AI agents; $11M Seed (TLV Partners)"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Newsbound",
+   "key": "newsbound",
+   "sources": [
+    "vccafe_firgun"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Firebolt",
+   "key": "firebolt",
+   "sources": [
+    "vccafe_firgun"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Isomorphic Labs",
+   "key": "isomorphic",
+   "sources": [
+    "nextplay+techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) 15:00 Former Imperva executives raise $10 million Seed to secure AI ag",
+   "key": "15 00 former imperva executives raise 10 million seed to secure ag",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Israeli startup Zipher raises $45 million Series A to automate corpora",
+   "key": "israeli startup zipher raises 45 million series a to automate corpora",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "(unresolved) Former Coinbase executives raise $11.5 million to tackle the quantum e",
+   "key": "former coinbase executives raise 11 5 million to tackle the quantum e",
+   "sources": [
+    "ctech_startups"
+   ],
+   "added": "2026-11-24",
+   "status": "dropped",
+   "b2b": null,
+   "trigger_date": "2026-11-23",
+   "notes": [
+    "2026-11-24: drop: duplicate of Q.security (in this batch)"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Supertake",
+   "key": "supertake",
+   "sources": [
+    "techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Bedrock Energy",
+   "key": "bedrock energy",
+   "sources": [
+    "techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Physicl",
+   "key": "physicl",
+   "sources": [
+    "techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Harbinger",
+   "key": "harbinger",
+   "sources": [
+    "techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Titan OS",
+   "key": "titan os",
+   "sources": [
+    "techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Northwood Space",
+   "key": "northwood space",
+   "sources": [
+    "techcrunch_fundraising"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Matters.AI",
+   "key": "matters",
+   "sources": [
+    "siliconangle"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Robotics component maker coprod",
+   "key": "robotics component maker coprod",
+   "sources": [
+    "siliconangle"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Wix",
+   "key": "wix",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "G-STAT",
+   "key": "g stat",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Seeking Alpha",
+   "key": "seeking alpha",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "ExpressVPN",
+   "key": "expressvpn",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Viber",
+   "key": "viber",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Medulla",
+   "key": "medulla",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Plus500",
+   "key": "plus500",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Elbit Systems",
+   "key": "elbit systems",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Check Point",
+   "key": "check point",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "IAI",
+   "key": "iai",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Medison Pharma",
+   "key": "medison pharma",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "FrontStory",
+   "key": "frontstory",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cato Networks",
+   "key": "cato networks",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "DealHub",
+   "key": "dealhub",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Alma Lasers",
+   "key": "alma lasers",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Hunt Performance Marketing",
+   "key": "hunt performance marketing",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "monday.com",
+   "key": "monday com",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "GeoEdge",
+   "key": "geoedge",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "HiBob",
+   "key": "hibob",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "BlueBird Aero Systems Ltd.",
+   "key": "bluebird aero systems",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Rafael",
+   "key": "rafael",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Pango",
+   "key": "pango",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Deloitte",
+   "key": "deloitte",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Kendago",
+   "key": "kendago",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Kissterra",
+   "key": "kissterra",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Nebius",
+   "key": "nebius",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Natural Intelligence",
+   "key": "natural intelligence",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Navan",
+   "key": "navan",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "ONE ZERO Digital Bank",
+   "key": "one zero digital bank",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Zota",
+   "key": "zota",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Commtact",
+   "key": "commtact",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "AllCloud",
+   "key": "allcloud",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Oak",
+   "key": "oak",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Plarium",
+   "key": "plarium",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Abra IT",
+   "key": "abra it",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Welo Global",
+   "key": "welo global",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Bet Shemesh Engines",
+   "key": "bet shemesh engines",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "xtra-mile",
+   "key": "xtra mile",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "keshet",
+   "key": "keshet",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "HP",
+   "key": "hp",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SuperPlay",
+   "key": "superplay",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cal Online",
+   "key": "cal online",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Nova",
+   "key": "nova",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Payoneer",
+   "key": "payoneer",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "AppAlgo",
+   "key": "appalgo",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Oobit",
+   "key": "oobit",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SciPlay",
+   "key": "sciplay",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Mayven",
+   "key": "mayven",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Papaya Gaming",
+   "key": "papaya gaming",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "MediaForce",
+   "key": "mediaforce",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Webselenese",
+   "key": "webselenese",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "The5ers.com",
+   "key": "the5ers com",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "10bis",
+   "key": "10bis",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Radware",
+   "key": "radware",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Guardio",
+   "key": "guardio",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Figma",
+   "key": "figma",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Yael Group",
+   "key": "yael group",
+   "sources": [
+    "list_post:avi-lewis+telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Personetics",
+   "key": "personetics",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Kueez",
+   "key": "kueez",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "BUYME",
+   "key": "buyme",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Kamada",
+   "key": "kamada",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Arpeely",
+   "key": "arpeely",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Yotpo",
+   "key": "yotpo",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Nuvei",
+   "key": "nuvei",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cyera",
+   "key": "cyera",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Sett",
+   "key": "sett",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SQLink",
+   "key": "sqlink",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Quantum Art",
+   "key": "quantum art",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cust2Mate",
+   "key": "cust2mate",
+   "sources": [
+    "telegram_hitechjobsmarketing"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Panorays",
+   "key": "panorays",
+   "sources": [
+    "telegram_hitechjobsmarketing",
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Third-party security risk; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Genesis Computing",
+   "key": "genesis",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Axiamatic",
+   "key": "axiamatic",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Instrumentl",
+   "key": "instrumentl",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Sumary",
+   "key": "sumary",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Sequel",
+   "key": "sequel",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Riffle",
+   "key": "riffle",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Magnetic",
+   "key": "magnetic",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "HillStar",
+   "key": "hillstar",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Remanence",
+   "key": "remanence",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Knit Health",
+   "key": "knit health",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Harbor",
+   "key": "harbor",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Infera",
+   "key": "infera",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Nebuly",
+   "key": "nebuly",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "StepSecurity",
+   "key": "stepsecurity",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Selfin",
+   "key": "selfin",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Voyager",
+   "key": "voyager",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "CharacterQuilt",
+   "key": "characterquilt",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Laurence",
+   "key": "laurence",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Santé",
+   "key": "sant",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "LiveFlow",
+   "key": "liveflow",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Maven",
+   "key": "maven",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Salient",
+   "key": "salient",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Dreamteam",
+   "key": "dreamteam",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Charta Health",
+   "key": "charta health",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Databento",
+   "key": "databento",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Model ML",
+   "key": "model ml",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "General Flash",
+   "key": "general flash",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Curri",
+   "key": "curri",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Hilbert",
+   "key": "hilbert",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Linq",
+   "key": "linq",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Boltz",
+   "key": "boltz",
+   "sources": [
+    "list_post:a16z+nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Blue J",
+   "key": "blue j",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SimpleClosure",
+   "key": "simpleclosure",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Numa",
+   "key": "numa",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "LanceDB",
+   "key": "lancedb",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Noeri",
+   "key": "noeri",
+   "sources": [
+    "nextplay"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Decart",
+   "key": "decart",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Amazon",
+   "key": "amazon",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Varonis",
+   "key": "varonis",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Proofpoint",
+   "key": "proofpoint",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Classiq",
+   "key": "classiq",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Intel",
+   "key": "intel",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "RealSense",
+   "key": "realsense",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cognex",
+   "key": "cognex",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Perion",
+   "key": "perion",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Affle",
+   "key": "affle",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Nayax",
+   "key": "nayax",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "IPS Group, Inc.",
+   "key": "ips group",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Bluevine",
+   "key": "bluevine",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Valley Bank",
+   "key": "valley bank",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "TailorMed",
+   "key": "tailormed",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "GrowthCurve Capital",
+   "key": "growthcurve capital",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "eSecLending",
+   "key": "eseclending",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "NeuReality",
+   "key": "neureality",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Inferize",
+   "key": "inferize",
+   "sources": [
+    "list_post:avi-lewis",
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Elastic AI inference; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Prytek",
+   "key": "prytek",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Scanovate",
+   "key": "scanovate",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Loops",
+   "key": "loops",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Salesforce",
+   "key": "salesforce",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "International Submarine Engineering Ltd.",
+   "key": "international submarine engineering",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "NVIDIA",
+   "key": "nvidia",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Applied Materials",
+   "key": "applied materials",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cisco",
+   "key": "cisco",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Infineon Technologies",
+   "key": "infineon",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Ceva, Inc.",
+   "key": "ceva",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Mentee Robotics",
+   "key": "mentee robotics",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SolarEdge Technologies",
+   "key": "solaredge",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "VAST Data",
+   "key": "vast data",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "RAD",
+   "key": "rad",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "ZOLL Medical Corporation",
+   "key": "zoll medical corporation",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "DRS RADA Technologies",
+   "key": "drs rada",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Moon Active",
+   "key": "moon active",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Parallel Wireless",
+   "key": "parallel wireless",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SuperCom (NASDAQ: SPCB)",
+   "key": "supercom",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "commIT",
+   "key": "commit",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Exodigo",
+   "key": "exodigo",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Tata Consultancy Services",
+   "key": "tata consultancy services",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Logica-IT",
+   "key": "logica it",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "inManage",
+   "key": "inmanage",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "WeDev Technologies",
+   "key": "wedev",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "QualityAI",
+   "key": "qualityai",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Ness Technologies | נס טכנולוגיות",
+   "key": "ness נס טכנולוגיות",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "StoreNext",
+   "key": "storenext",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "IAI - Israel Aerospace Industries",
+   "key": "iai israel aerospace industries",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Matrix",
+   "key": "matrix",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Rafael Advanced Defense Systems",
+   "key": "rafael advanced defense systems",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "comblack",
+   "key": "comblack",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Mobileye",
+   "key": "mobileye",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Apple",
+   "key": "apple",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "abra",
+   "key": "abra",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "MalamTeam",
+   "key": "malamteam",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Aman Group",
+   "key": "aman group",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "KLA",
+   "key": "kla",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "allpha",
+   "key": "allpha",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Google",
+   "key": "google",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Palo Alto Networks",
+   "key": "palo alto networks",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Yael Korentec Technologies",
+   "key": "yael korentec",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Check Point Software",
+   "key": "check point software",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "CyberArk",
+   "key": "cyberark",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "DriveNets",
+   "key": "drivenets",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "SQLink Group",
+   "key": "sqlink group",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "CAL",
+   "key": "cal",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Sela",
+   "key": "sela",
+   "sources": [
+    "list_post:avi-lewis"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Darwin Robotics (YC F25)",
+   "key": "darwin robotics",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Tomoji",
+   "key": "tomoji",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Tennr",
+   "key": "tennr",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Black Forest Labs",
+   "key": "black forest",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Pinterest",
+   "key": "pinterest",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Bessemer Venture Partners",
+   "key": "bessemer venture partners",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Andreessen Horowitz",
+   "key": "andreessen horowitz",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Amplify Partners",
+   "key": "amplify partners",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Zetta Venture Partners",
+   "key": "zetta venture partners",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Obvious Ventures",
+   "key": "obvious ventures",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Greycroft",
+   "key": "greycroft",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "F-Prime",
+   "key": "f prime",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Benchling",
+   "key": "benchling",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Exa",
+   "key": "exa",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Lightfield",
+   "key": "lightfield",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "MTS Live",
+   "key": "mts live",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Emanate",
+   "key": "emanate",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Dex",
+   "key": "dex",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Valkryn",
+   "key": "valkryn",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Cantos",
+   "key": "cantos",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Ambition Capital",
+   "key": "ambition capital",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Caffeinated Capital",
+   "key": "caffeinated capital",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "DoorDash",
+   "key": "doordash",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Town",
+   "key": "town",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Tomo",
+   "key": "tomo",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "KERNEL",
+   "key": "kernel",
+   "sources": [
+    "list_post:a16z"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [],
+   "slug": null
+  },
+  {
+   "name": "Zipher",
+   "key": "zipher",
+   "sources": [
+    "ctech_full_list"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": true,
+   "trigger_date": "2026-11-24",
+   "notes": [
+    "2026-11-24: AI agents that decide how enterprise data workloads run; $45M Series A (also TLV portfolio)"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Dante Security",
+   "key": "dante",
+   "sources": [
+    "ctech_full_list"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": true,
+   "trigger_date": "2026-11-24",
+   "notes": [
+    "2026-11-24: Visibility into actions of autonomous AI agents; $10M Seed"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Q.security",
+   "key": "q",
+   "sources": [
+    "ctech_full_list"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": true,
+   "trigger_date": "2026-11-23",
+   "notes": [
+    "2026-11-24: Post-quantum crypto migration platform; $11.5M"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Beacon Security",
+   "key": "beacon",
+   "sources": [
+    "israelrounds"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": true,
+   "trigger_date": "2026-11-16",
+   "notes": [
+    "2026-11-24: Cybersecurity/AI; $13M Seed"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "QEDMA",
+   "key": "qedma",
+   "sources": [
+    "israelrounds"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": true,
+   "trigger_date": "2026-11-15",
+   "notes": [
+    "2026-11-24: Quantum error-mitigation software; $26M Series A"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Beyeonics Surgical",
+   "key": "beyeonics surgical",
+   "sources": [
+    "israelrounds"
+   ],
+   "added": "2026-11-24",
+   "status": "in_batch",
+   "b2b": true,
+   "trigger_date": "2026-11-15",
+   "notes": [
+    "2026-11-24: Surgical visualization medical devices; $11.5M"
+   ],
+   "slug": null,
+   "batch": "2026-11-24"
+  },
+  {
+   "name": "Harmonya",
+   "key": "harmonya",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Retail product-data enrichment; Series A; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Eon",
+   "key": "eon",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Cloud backup; Series D; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Brandlight",
+   "key": "brandlight",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: AI-search visibility; Series A; possible overlap with sponsor's offer"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Finout",
+   "key": "finout",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: FinOps / cloud cost platform; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "ASTERRA",
+   "key": "asterra",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Satellite monitoring of underground infrastructure; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Loox",
+   "key": "loox",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Photo-review app for Shopify merchants; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Yolk",
+   "key": "yolk",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Sales-rep ramp/training, founded 2025; hiring"
+   ],
+   "slug": null
+  },
+  {
+   "name": "ZyG",
+   "key": "zyg",
+   "sources": [
+    "goozali"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Founded 2025, Series A; product unclear"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Attestable",
+   "key": "attestable",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: ZK-proof AI integrity; $20M Seed ~Aug 2026 (aggregator)"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Arato",
+   "key": "arato",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": "2026-06-29",
+   "notes": [
+    "2026-11-24: AI user-simulation testing; $10M Seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Copperhelm",
+   "key": "copperhelm",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Agentic cloud security; $7M Seed Apr/May 2026"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Spacial AI",
+   "key": "spacial",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: AI engineer for building-permit design; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Flexor",
+   "key": "flexor",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Enterprise unstructured data into AI context; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Mars Security",
+   "key": "mars",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Threat hunting/detection engineering; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Dux",
+   "key": "dux",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Agentic exposure management; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Onfire",
+   "key": "onfire",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: AI revenue intelligence for technical-buyer sellers; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Pelanor",
+   "key": "pelanor",
+   "sources": [
+    "portfolio_tlv"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: FinOps platform; seed"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Bloom Security",
+   "key": "bloom",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": "2026-07-30",
+   "notes": [
+    "2026-11-24: Cyber; $20M Seed out of stealth"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Niv-AI",
+   "key": "niv",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: AI-infra power/GPU management; $12M Seed Mar 2026"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Shift Security",
+   "key": "shift",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Cyber startup"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Sola Security",
+   "key": "sola",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Security app platform"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Noma Security",
+   "key": "noma",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: AI/application security"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Kooply",
+   "key": "kooply",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": null,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Product unclear"
+   ],
+   "slug": null
+  },
+  {
+   "name": "CopilotKit",
+   "key": "copilotkit",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: Open-source framework for in-app AI copilots"
+   ],
+   "slug": null
+  },
+  {
+   "name": "Guardz",
+   "key": "guardz",
+   "sources": [
+    "portfolio_glilot"
+   ],
+   "added": "2026-11-24",
+   "status": "queued",
+   "b2b": true,
+   "trigger_date": null,
+   "notes": [
+    "2026-11-24: SMB cybersecurity platform for MSPs"
    ],
    "slug": null
   }
