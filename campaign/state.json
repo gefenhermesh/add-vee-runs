@@ -134,7 +134,7 @@
           "id": "upwind/1",
           "kind": "email1",
           "contact": "Joel Minnick",
-          "email": "joel.minnick@upwind.io",
+          "email": "joelminnick@upwind.io",
           "role": "CMO",
           "gmail_thread_id": "1a20a09c489c4a12",
           "last_message_id": "1a20a0ca89bf226a",
@@ -144,7 +144,8 @@
             6
           ],
           "steps": [],
-          "status": "active"
+          "status": "active",
+          "email_note": "Gmail shows the send went to joelminnick@upwind.io (not joel.minnick@ as drafted); no bounce as of 2026-11-24."
         }
       ]
     },
