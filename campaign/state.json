@@ -212,7 +212,7 @@
       "slug": "buildots",
       "company": "Buildots",
       "domain": "buildots.com",
-      "status": "proposed",
+      "status": "queued",
       "reason": "Fresh $130M round (2026-09-14, $297M total), CMO in place and a content team, but no SEO person found and SEO appears only as 'an advantage' in growth-role JDs. Heavy research/benchmark content push (Intelligence Lab) with no comparison pages of its own: a good AI-visibility audit target.",
       "gating_rating": "sweet_spot",
       "features": {
@@ -235,7 +235,12 @@
         "buying_journey": "committee"
       },
       "source": "scout",
-      "b2b": true
+      "b2b": true,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognism, buildots, daylight-security, pliant",
+        "at": "2026-11-24T17:08:31+00:00"
+      }
     },
     {
       "slug": "darrow",
@@ -388,7 +393,7 @@
       "slug": "daylight-security",
       "company": "Daylight Security",
       "domain": "daylight.ai",
-      "status": "proposed",
+      "status": "queued",
       "reason": "Fresh $80M Series B (10 Nov 2026, Goldman Sachs Alternatives) with a VP Marketing in seat since Dec 2025 and no SEO team found; SEO/AEO sits with one growth role plus an agency. Risk: their content craft is already strong (~220 long posts since Feb 2026, many vs/alternatives pages), so the audit must surface a sharp AI-visibility gap.",
       "gating_rating": "single_seo",
       "features": {
@@ -411,7 +416,12 @@
         "buying_journey": "committee"
       },
       "source": "scout",
-      "b2b": true
+      "b2b": true,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognism, buildots, daylight-security, pliant",
+        "at": "2026-11-24T17:08:31+00:00"
+      }
     },
     {
       "slug": "edelbyte",
@@ -708,7 +718,7 @@
       "slug": "pliant",
       "company": "Pliant",
       "domain": "getpliant.com",
-      "status": "proposed",
+      "status": "queued",
       "reason": "Fresh $80M Series C (4 Nov 2026) + US push, VP Marketing in place, no SEO team found; competitors (Spendesk, Payhawk, Pleo, Moss) invest heavily in comparison content and Spendesk runs a 'vs Pliant' page that misstates Pliant's product. A 2026 third-party study found Pliant missing from AI answers in its home DACH market, where its German blog has been dormant since 2024.",
       "gating_rating": "sweet_spot",
       "features": {
@@ -731,7 +741,12 @@
         "seo_need": "high"
       },
       "source": "scout",
-      "b2b": true
+      "b2b": true,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognism, buildots, daylight-security, pliant",
+        "at": "2026-11-24T17:08:31+00:00"
+      }
     },
     {
       "slug": "help-scout",
@@ -1125,7 +1140,7 @@
       "slug": "cognism",
       "company": "Cognism",
       "domain": "cognism.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "London B2B sales-intelligence company (European contact data, competes head-on with ZoomInfo, Apollo, Lusha) is hiring an SEO / AEO Manager to own organic and AI-search visibility tied to pipeline. Search is the battleground: ZoomInfo publishes 'Cognism alternatives' and 'Cognism vs' pages that rank, and the JD asks for AI-answer visibility the sponsor's audit shows directly.",
       "gating_rating": "seo_job_opening",
@@ -1160,7 +1175,12 @@
         "seniority": "manager (senior IC: owns SEO and AEO strategy and execution; no years stated)",
         "reports_to": "not stated in the JD (couldn't verify); likely marketing leadership (VP Marketing)"
       },
-      "priority": 1
+      "priority": 1,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognism, buildots, daylight-security, pliant",
+        "at": "2026-11-24T17:08:31+00:00"
+      }
     },
     {
       "slug": "cognition",
