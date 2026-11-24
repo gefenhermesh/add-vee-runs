@@ -8,17 +8,34 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-19",
    "notes": [
     "2026-11-22: rescued: recon next",
     "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a marketing director and a talent director. They just raised $130m",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: drop: Hardware infrastructure (factory-built modular AI data centers, Texas) sold to a small, known set of hyperscaler/neocloud buyers through relationships; no customers announced yet. Low SEO need"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Mavria",
+    "resolved_name": "Mavria",
+    "domain": "mavria.com",
+    "verdict": "drop",
+    "reason": "Hardware infrastructure (factory-built modular AI data centers, Texas) sold to a small, known set of hyperscaler/neocloud buyers through relationships; no customers announced yet. Low SEO need",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$130M total pre-seed+seed, latest led by Paradigm at $1B valuation, announced 2026-11-09 (Form D shows $75M sold, 2026-10-21)",
+    "marketing_leader": "couldn't verify (not checked further after drop)",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: tiny relationship/RFP-led buyer set, deep-tech hardware",
+    "reply_odds_guess": "low",
+    "blog": "not sampled (drop)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Nominal",
@@ -28,17 +45,34 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": "2026-11-19",
    "notes": [
     "2026-11-22: rescued: recon next",
     "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a social media strategist and a bizops generalist. They just raised $240m",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: hold: B2B hardware-test data platform ($3B), real but enterprise/defense-led buying; no named marketing leader found (Head of Marketing and Revenue Marketing Lead postings seen); re-check who leads marketing after the Series C | rank 3; leader: couldn't verify (job boards show Head of Marketing posting, closed Lux listing Jun 2025; Revenue Marketing Lead posted 2026-11-11, General Catalyst board; marketing split into Growth / PMM / Comms & Content); seo need: medium: engineering buyers in aerospace/defense/auto research tools, Sift and others publish content, but sales is enterprise/defense-contract led; blog: looks unplanned, 35 posts (2025-06 to 2026-11), 0.7 links/post, 37% in main topics"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Nominal",
+    "resolved_name": "Nominal",
+    "domain": "nominal.io",
+    "verdict": "hold",
+    "reason": "B2B hardware-test data platform ($3B), real but enterprise/defense-led buying; no named marketing leader found (Head of Marketing and Revenue Marketing Lead postings seen); re-check who leads marketing after the Series C",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$240M Series C at $3B, Lightspeed/Insight, 2026-11-09 (also $80M at $1B, Mar 2026)",
+    "marketing_leader": "couldn't verify (job boards show Head of Marketing posting, closed Lux listing Jun 2025; Revenue Marketing Lead posted 2026-11-11, General Catalyst board; marketing split into Growth / PMM / Comms & Content)",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: engineering buyers in aerospace/defense/auto research tools, Sift and others publish content, but sales is enterprise/defense-contract led",
+    "reply_odds_guess": "low",
+    "blog": "looks unplanned, 35 posts (2025-06 to 2026-11), 0.7 links/post, 37% in main topics",
+    "rank_score": 3
+   }
   },
   {
    "name": "Hello Heart",
@@ -48,16 +82,33 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: rescued: recon next",
     "2026-11-22: re-filter: rescued, light check first in the next batch (refilter_2026-11-22.md)",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Director, Product Growth"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Senior Director, Product Growth",
+    "2026-11-24: recon: B2B digital heart-health (employers, health plans); Chief Growth Officer named, VP Enterprise Marketing and Sr Director Product Growth open (posted 2026-11-20); developed but unplanned blog; old round (2022) and partly RFP/consultant-led buying keep it mid-ranked | rank 5; leader: Jesus Bermudez, Chief Growth Officer (helloheart.com/about, direct); CMO Wendy Nguyen per TheOrg (unverified, not on about page); VP Enterprise Marketing role open (Greenhouse, 2026-11-20); seo need: medium: self-insured employers and benefits consultants research digital cardiometabolic vendors (Omada, Teladoc/Livongo, Virta invest in content), but health-plan side is a small known set already 80% covered; blog: looks unplanned, 216 posts (/post/), 0.1 links/post, 90% with no links"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Hello Heart",
+    "resolved_name": "Hello Heart",
+    "domain": "helloheart.com",
+    "verdict": "recon",
+    "reason": "B2B digital heart-health (employers, health plans); Chief Growth Officer named, VP Enterprise Marketing and Sr Director Product Growth open (posted 2026-11-20); developed but unplanned blog; old round (2022) and partly RFP/consultant-led buying keep it mid-ranked",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$70M Series D, May 2022 (no newer round found)",
+    "marketing_leader": "Jesus Bermudez, Chief Growth Officer (helloheart.com/about, direct); CMO Wendy Nguyen per TheOrg (unverified, not on about page); VP Enterprise Marketing role open (Greenhouse, 2026-11-20)",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: self-insured employers and benefits consultants research digital cardiometabolic vendors (Omada, Teladoc/Livongo, Virta invest in content), but health-plan side is a small known set already 80% covered",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, 216 posts (/post/), 0.1 links/post, 90% with no links",
+    "rank_score": 5
+   }
   },
   {
    "name": "Spines",
@@ -105,16 +156,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-10",
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth director. They just raised a $375m",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: drop: Low SEO need: shared satellite ground-station network sold to a small, known set of satellite operators and government (Space Force contract); relationship/contract-led, competitors KSAT and AWS Ground Station"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Northwood",
+    "resolved_name": "Northwood Space",
+    "domain": "northwoodspace.io",
+    "verdict": "drop",
+    "reason": "Low SEO need: shared satellite ground-station network sold to a small, known set of satellite operators and government (Space Force contract); relationship/contract-led, competitors KSAT and AWS Ground Station",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$375M Series C (a16z, DFJ Growth), 2026-11-02",
+    "marketing_leader": "couldn't verify (postings for Head of Brand, Head of Communications, Creative Director, Directors of Commercial/International Growth on Ashby/job boards)",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: a few hundred possible buyers, contract/RFP-led, no search contest",
+    "reply_odds_guess": "low",
+    "blog": "no blog found (no sitemap; 404s)",
+    "rank_score": 0
+   }
   },
   {
    "name": "High Lander",
@@ -124,15 +192,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: light check",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: Low SEO need: drone fleet/UTM software sold to defense, homeland security, ports, police and aviation regulators; relationship/RFP-led, small known buyer set; Series A extension (EDGE/STEP) aimed at US defense"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "High Lander",
+    "resolved_name": "High Lander",
+    "domain": "highlander.io",
+    "verdict": "drop",
+    "reason": "Low SEO need: drone fleet/UTM software sold to defense, homeland security, ports, police and aviation regulators; relationship/RFP-led, small known buyer set; Series A extension (EDGE/STEP) aimed at US defense",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$16M Series A extension (total ~$30M), Oct 2026 (company PR 2026-10-19)",
+    "marketing_leader": "couldn't verify (none found in WebSearch; founders Alon Abelson CEO, Ido Yahalomi CTO per Crunchbase)",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: government/defense/regulator buyers, RFP-led, few vendors",
+    "reply_odds_guess": "low",
+    "blog": "112 posts under /post/ since 2020 (12 updated in last 12m), 74% in top topics; sample pages couldn't be read (JS/bot check), no links/post figure",
+    "rank_score": 0
+   }
   },
   {
    "name": "BloomX",
@@ -142,15 +227,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: light check",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: Agtech robotics (AI pollination) sold to large growers in Peru, Mexico, South Africa, Israel; field-sales/relationship-led, small known buyer set. Low SEO need"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "BloomX",
+    "resolved_name": "BloomX",
+    "domain": "bloomx.ag",
+    "verdict": "drop",
+    "reason": "Agtech robotics (AI pollination) sold to large growers in Peru, Mexico, South Africa, Israel; field-sales/relationship-led, small known buyer set. Low SEO need",
+    "b2b": true,
+    "buying_journey": "considered",
+    "round": "$13M Series A led by Elah Fund, Oct 2026 (Calcalist); $20M total",
+    "marketing_leader": "couldn't verify (not checked further after drop)",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: hardware/ag service bought through direct grower relationships",
+    "reply_odds_guess": "low",
+    "blog": "not sampled (drop)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Remepy",
@@ -177,15 +279,32 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: light check",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Manager, Growth (DIY Tax Filing)"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Manager, Growth (DIY Tax Filing)",
+    "2026-11-24: recon: Embedded AI tax platform sold to banks/fintechs/wealth platforms (B2B2C), named VP Marketing, partly planned stale blog; SEO need medium, so needs a sharp angle (embedded tax for wealth/banks vs Column Tax etc.) | rank 5; leader: Nicole Murphy, VP Marketing (FF News announcement 2026-03-24; theorg still lists Fay Scott, likely stale); seo need: medium: B2B buyer set (banks, fintechs, wealth managers) is partnership-led, but category 'embedded tax' is contested (Column Tax, TaxAct/Intuit partner programs) and consumer DIY filing has heavy search demand; blog: partly planned, 43 posts under /resources/blog, 2.1 links/post, 68% with no links, 0 updated in last 12m"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "April",
+    "resolved_name": "April (april tax)",
+    "domain": "getapril.com",
+    "verdict": "recon",
+    "reason": "Embedded AI tax platform sold to banks/fintechs/wealth platforms (B2B2C), named VP Marketing, partly planned stale blog; SEO need medium, so needs a sharp angle (embedded tax for wealth/banks vs Column Tax etc.)",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$38M Series B led by QED, 2025-07-23 ($78M total); wealth platform launch Feb 2026",
+    "marketing_leader": "Nicole Murphy, VP Marketing (FF News announcement 2026-03-24; theorg still lists Fay Scott, likely stale)",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: B2B buyer set (banks, fintechs, wealth managers) is partnership-led, but category 'embedded tax' is contested (Column Tax, TaxAct/Intuit partner programs) and consumer DIY filing has heavy search demand",
+    "reply_odds_guess": "medium",
+    "blog": "partly planned, 43 posts under /resources/blog, 2.1 links/post, 68% with no links, 0 updated in last 12m",
+    "rank_score": 5
+   }
   },
   {
    "name": "Open Human",
@@ -213,16 +332,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a product marketer",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: recon: B2B fintech for nonprofits (DAFpay); hiring Content Marketing (to build the content engine) and Product Marketing (Ashby, 2026-10-16); 19 open roles; big /resources/ library that looks unplanned; nonprofits research DAF tooling online | rank 6; leader: couldn't verify a named marketing leader; JD names an in-house 'growth lead' and 'PR/events lead' (Ashby Content Marketing post); Briel Steinberg, Go-To-Market, and co-founders on givechariot.com/about (direct); seo need: high-medium: thousands of nonprofits and fundraising platforms search DAF-giving how-tos; competitors (FreeWill, Daffy, Givebutter) publish heavily; blog: looks unplanned, 228 posts (/resources/), 0.1 links/post, 89% with no links"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Chariot",
+    "resolved_name": "Chariot (DAF payments, givechariot.com)",
+    "domain": "givechariot.com",
+    "verdict": "recon",
+    "reason": "B2B fintech for nonprofits (DAFpay); hiring Content Marketing (to build the content engine) and Product Marketing (Ashby, 2026-10-16); 19 open roles; big /resources/ library that looks unplanned; nonprofits research DAF tooling online",
+    "b2b": true,
+    "buying_journey": "considered",
+    "round": "$11M Series A (Maveron), Aug 2024",
+    "marketing_leader": "couldn't verify a named marketing leader; JD names an in-house 'growth lead' and 'PR/events lead' (Ashby Content Marketing post); Briel Steinberg, Go-To-Market, and co-founders on givechariot.com/about (direct)",
+    "seo_team": "none found (Content Marketing JD: SEO expertise 'not needed... you'll have support', so some SEO help exists, couldn't verify who)",
+    "seo_need_first_read": "high-medium: thousands of nonprofits and fundraising platforms search DAF-giving how-tos; competitors (FreeWill, Daffy, Givebutter) publish heavily",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, 228 posts (/resources/), 0.1 links/post, 89% with no links",
+    "rank_score": 6
+   }
   },
   {
    "name": "Posh",
@@ -250,16 +386,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": false,
    "trigger_date": null,
    "notes": [
     "2026-11-22: light check",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an YouTuber/educator and a GTM Intern",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: drop: Cheap/transactional creator subscription (AI filmmaking for individual creators): not a considered or committee purchase; marketing hires are a YouTuber/educator and a GTM intern"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Flick",
+    "resolved_name": "Flick",
+    "domain": "flick.art",
+    "verdict": "drop",
+    "reason": "Cheap/transactional creator subscription (AI filmmaking for individual creators): not a considered or committee purchase; marketing hires are a YouTuber/educator and a GTM intern",
+    "b2b": false,
+    "buying_journey": "transactional",
+    "round": "$6M seed (True Ventures, GV, YC, Lightspeed), May 2026",
+    "marketing_leader": "couldn't verify (founders Zoey Zhang, Ray Wang)",
+    "seo_team": "none found",
+    "seo_need_first_read": "low for our offer: impulse/self-serve creator tool, though they already run a large SEO-style blog",
+    "reply_odds_guess": "low",
+    "blog": "partly planned, 208 posts, 1.6 links/post (35% with none)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Artlist",
@@ -269,15 +422,32 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": false,
    "trigger_date": null,
    "notes": [
     "2026-11-22: light check",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Influencer Marketing Team Lead"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Influencer Marketing Team Lead",
+    "2026-11-24: drop: Established, dominant brand (~$300M ARR early 2026, ~500 staff, cutting ~200 jobs to go AI-first); creator stock-media subscription, cheap/transactional purchase; not a startup fit"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Artlist",
+    "resolved_name": "Artlist",
+    "domain": "artlist.io",
+    "verdict": "drop",
+    "reason": "Established, dominant brand (~$300M ARR early 2026, ~500 staff, cutting ~200 jobs to go AI-first); creator stock-media subscription, cheap/transactional purchase; not a startup fit",
+    "b2b": false,
+    "buying_journey": "transactional",
+    "round": "$48M led by KKR (2021); no recent round",
+    "marketing_leader": "not checked (dropped on fit)",
+    "seo_team": "not checked (large brand; likely in-house)",
+    "seo_need_first_read": "low for add-vee: low-ticket creator subscription, dominant brand",
+    "reply_odds_guess": "low",
+    "blog": "not sampled (dropped on fit)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Kickoff",
@@ -337,15 +507,32 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: check SEO team",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer- Maternity leave replacement"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer- Maternity leave replacement",
+    "2026-11-24: recon: B2B exposure-validation/BAS security in a content-heavy contest (Pentera, Picus, AttackIQ, SafeBreach); developed blog only partly planned; CMO in place since 2024. Gating unclear: an SEO Specialist was hired at some point (undated posting) and a Content Marketing Manager role owned SEO content. Deep recon must confirm whether this is one SEO person or a team, and that the CMO is still there. Growth signal is weak: last round 2022, current openings are mostly sales | rank 5; leader: Margo Kahnrose, CMO (Business Wire, 2024-01-30; still in role couldn't verify); seo need: high: buyers research CTEM/BAS online, with G2/Gartner Peer Insights coverage; competitors invest heavily in content; blog: partly planned, 346 posts (196 updated in the last 12 months), 2.1 links/post, 5 hubs"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Cymulate",
+    "resolved_name": "Cymulate",
+    "domain": "cymulate.com",
+    "verdict": "recon",
+    "reason": "B2B exposure-validation/BAS security in a content-heavy contest (Pentera, Picus, AttackIQ, SafeBreach); developed blog only partly planned; CMO in place since 2024. Gating unclear: an SEO Specialist was hired at some point (undated posting) and a Content Marketing Manager role owned SEO content. Deep recon must confirm whether this is one SEO person or a team, and that the CMO is still there. Growth signal is weak: last round 2022, current openings are mostly sales",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$70M Series D, 2022 (about $140M total); no round since found",
+    "marketing_leader": "Margo Kahnrose, CMO (Business Wire, 2024-01-30; still in role couldn't verify)",
+    "seo_team": "one person (inferred: SEO Specialist posting in Holon, undated, via Jobify; no current SEO employee confirmed)",
+    "seo_need_first_read": "high: buyers research CTEM/BAS online, with G2/Gartner Peer Insights coverage; competitors invest heavily in content",
+    "reply_odds_guess": "medium",
+    "blog": "partly planned, 346 posts (196 updated in the last 12 months), 2.1 links/post, 5 hubs",
+    "rank_score": 5
+   }
   },
   {
    "name": "Kela",
@@ -390,16 +577,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": false,
    "trigger_date": null,
    "notes": [
     "2026-11-22: check SEO team",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: an AI creative strategist and a growth marketing manager",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: drop: Dominant self-serve brand (>$100M ARR, profitable, 50M+ users), cheap prosumer subscription; SEO already owned in-house (SEO Lead role for AI search/programmatic was posted, page now 404 = likely filled)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Gamma",
+    "resolved_name": "Gamma",
+    "domain": "gamma.app",
+    "verdict": "drop",
+    "reason": "Dominant self-serve brand (>$100M ARR, profitable, 50M+ users), cheap prosumer subscription; SEO already owned in-house (SEO Lead role for AI search/programmatic was posted, page now 404 = likely filled)",
+    "b2b": false,
+    "buying_journey": "transactional",
+    "round": "Series B ~$68M at $2.1B (2025); no 2026 round verified",
+    "marketing_leader": "couldn't verify",
+    "seo_team": "one person (SEO Lead posting careers.gamma.app/seo-lead, now 404, likely filled)",
+    "seo_need_first_read": "low for add-vee: impulse self-serve purchase, strong brand",
+    "reply_odds_guess": "low",
+    "blog": "couldn't verify (sitemap 403)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Sentra",
@@ -409,15 +613,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": "2026-11-15",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: recon: Data security/DSPM vendor in a hotly contested search category (Cyera hiring an SEO Manager); $150M Series C 2026-11-04; developed, partly planned blog plus comparison pages (vs Cyera, Varonis, BigID...); no SEO person found; marketing leader to confirm | rank 7; leader: couldn't verify a current CMO (search snippet showed 'Doug Laird CMO' on sentra.io/about but the live page no longer lists him); David Stuart, Sr Director Product Marketing (sentra.io experts page, direct, undated); seo need: high: DSPM buyers compare vendors via G2/analyst lists and 'X vs Y'; Cyera, Varonis, BigID invest in content; blog: partly planned, 225 posts, 1.1 links/post, 55% with no links, 1 hub"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Sentra",
+    "resolved_name": "Sentra",
+    "domain": "sentra.io",
+    "verdict": "recon",
+    "reason": "Data security/DSPM vendor in a hotly contested search category (Cyera hiring an SEO Manager); $150M Series C 2026-11-04; developed, partly planned blog plus comparison pages (vs Cyera, Varonis, BigID...); no SEO person found; marketing leader to confirm",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$150M Series C (Capital One Ventures), 2026-11-04",
+    "marketing_leader": "couldn't verify a current CMO (search snippet showed 'Doug Laird CMO' on sentra.io/about but the live page no longer lists him); David Stuart, Sr Director Product Marketing (sentra.io experts page, direct, undated)",
+    "seo_team": "none found (a Head of Growth Marketing listing focused on paid, arc.dev, unverified)",
+    "seo_need_first_read": "high: DSPM buyers compare vendors via G2/analyst lists and 'X vs Y'; Cyera, Varonis, BigID invest in content",
+    "reply_odds_guess": "medium",
+    "blog": "partly planned, 225 posts, 1.1 links/post, 55% with no links, 1 hub",
+    "rank_score": 7
+   }
   },
   {
    "name": "Corma",
@@ -428,15 +649,32 @@
     "avi_lewis_list+vccafe_firgun"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": "2026-11-16",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: hold: Strong trigger (unicorn round 2026-11-16) and a contested B2B security category, but ~25 people, product is 'request access' only, 5 blog posts and no marketing leader found: nothing to audit yet; re-check in ~3 months for GA product pages and a marketing hire | rank 0; leader: couldn't verify (CEO Alon Pluda); seo need: medium: AI SOC/agentic defense is a crowded, content-heavy category (Dropzone, 7AI, Torq), but they sell as a frontier lab to large security teams for now; blog: looks unplanned, 5 posts, 0 links/post (too thin to judge)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Corma",
+    "resolved_name": "Corma (corma.ai, Tel Aviv/SF defensive-cyber AI lab; not the Paris SaaS Corma)",
+    "domain": "corma.ai",
+    "verdict": "hold",
+    "reason": "Strong trigger (unicorn round 2026-11-16) and a contested B2B security category, but ~25 people, product is 'request access' only, 5 blog posts and no marketing leader found: nothing to audit yet; re-check in ~3 months for GA product pages and a marketing hire",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$125M Series A at $1B (NEA, with Sequoia, Khosla, Coatue), 2026-11-16; $60M seed (Sequoia) 2026-08-10",
+    "marketing_leader": "couldn't verify (CEO Alon Pluda)",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: AI SOC/agentic defense is a crowded, content-heavy category (Dropzone, 7AI, Torq), but they sell as a frontier lab to large security teams for now",
+    "reply_odds_guess": "low",
+    "blog": "looks unplanned, 5 posts, 0 links/post (too thin to judge)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Mave",
@@ -446,15 +684,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": "2026-10-22",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: hold: Strong fit on paper (agentic SecOps/AI SOC, $34M seed+A Oct 2026, ARR +400%, team ~20-30 set to double) but no marketing leader found and only 2 blog posts; re-check for a first marketing hire in ~1-2 months | rank 6; leader: couldn't verify (none named in press or site; careers page lists no roles; CEO Raziel Oren); seo need: high: crowded AI SOC category (Dropzone, Prophet, 7AI, Torq, Exaforce) where competitors publish heavily; site has many solution pages (replace MDR, SIEM cost offload) but almost no content; blog: thin: 2 posts under /resources/ (Oct-Nov 2026), 0 links/post, looks unplanned"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Mave",
+    "resolved_name": "Mave (Mave Security)",
+    "domain": "mave.com",
+    "verdict": "hold",
+    "reason": "Strong fit on paper (agentic SecOps/AI SOC, $34M seed+A Oct 2026, ARR +400%, team ~20-30 set to double) but no marketing leader found and only 2 blog posts; re-check for a first marketing hire in ~1-2 months",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$34M total ($28M Series A led by Red Dot + $6M seed led by Dell Tech Capital/Emerge), announced 2026-10-22",
+    "marketing_leader": "couldn't verify (none named in press or site; careers page lists no roles; CEO Raziel Oren)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: crowded AI SOC category (Dropzone, Prophet, 7AI, Torq, Exaforce) where competitors publish heavily; site has many solution pages (replace MDR, SIEM cost offload) but almost no content",
+    "reply_odds_guess": "medium",
+    "blog": "thin: 2 posts under /resources/ (Oct-Nov 2026), 0 links/post, looks unplanned",
+    "rank_score": 6
+   }
   },
   {
    "name": "Rein Security",
@@ -464,15 +719,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: recon: B2B runtime security for enterprise AI agents (TLV/NYC). Fresh $25M Series A, new category language, and Arcjet runs a live 'Arcjet vs Rein Security' comparison page aimed at them (published 2026-08-11, updated 2026-11-16). Developed blog is only partly planned. No marketing leader found yet, so deep recon should look for one; the CEO-founder is the fallback contact | rank 7; leader: couldn't verify (Robert Dim LinkedIn snippet mentions Rein hiring and a Rein speaker at Cyber Marketing Con, title not shown; CEO Matan Bar Efrat); seo need: high: crowded, fast-forming AI-agent security category being defined in search and AI answers; a competitor's vs page targets them; blog: partly planned, 38 posts, 2.6 links/post, 5 hubs (3/20 sampled posts unreadable)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Rein Security",
+    "resolved_name": "Rein Security",
+    "domain": "reinsec.io",
+    "verdict": "recon",
+    "reason": "B2B runtime security for enterprise AI agents (TLV/NYC). Fresh $25M Series A, new category language, and Arcjet runs a live 'Arcjet vs Rein Security' comparison page aimed at them (published 2026-08-11, updated 2026-11-16). Developed blog is only partly planned. No marketing leader found yet, so deep recon should look for one; the CEO-founder is the fallback contact",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$25M Series A (Glilot, Sienna), 2026-10-08; $8M seed Jan 2026",
+    "marketing_leader": "couldn't verify (Robert Dim LinkedIn snippet mentions Rein hiring and a Rein speaker at Cyber Marketing Con, title not shown; CEO Matan Bar Efrat)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: crowded, fast-forming AI-agent security category being defined in search and AI answers; a competitor's vs page targets them",
+    "reply_odds_guess": "medium",
+    "blog": "partly planned, 38 posts, 2.6 links/post, 5 hubs (3/20 sampled posts unreadable)",
+    "rank_score": 7
+   }
   },
   {
    "name": "Brava Security",
@@ -482,15 +754,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": "2026-11-04",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: hold: B2B detection-validation/SecOps, just out of stealth (seed 2026-11-04); nothing to audit yet (1 post) and no marketing leader found; re-check in ~3-6 months for a marketing hire and content | rank 3; leader: couldn't verify (founder-led: Idan Basre CEO, Itay Gabbay CTO); seo need: high: SOC teams research detection validation/BAS; Picus, SafeBreach, AttackIQ, CardinalOps invest heavily in content; blog: no real blog: 1 post under /news/"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Brava Security",
+    "resolved_name": "Brava Security",
+    "domain": "brava.security",
+    "verdict": "hold",
+    "reason": "B2B detection-validation/SecOps, just out of stealth (seed 2026-11-04); nothing to audit yet (1 post) and no marketing leader found; re-check in ~3-6 months for a marketing hire and content",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$15M seed, F2 VC + Pitango, 2026-11-04",
+    "marketing_leader": "couldn't verify (founder-led: Idan Basre CEO, Itay Gabbay CTO)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: SOC teams research detection validation/BAS; Picus, SafeBreach, AttackIQ, CardinalOps invest heavily in content",
+    "reply_odds_guess": "low",
+    "blog": "no real blog: 1 post under /news/",
+    "rank_score": 3
+   }
   },
   {
    "name": "Pluto Security",
@@ -500,15 +789,32 @@
     "avi_lewis_list+telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": "2026-10-15",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Designer",
+    "2026-11-24: recon: New category ('Builder Security'/AI workspace security) with an inbound GTM; $42M seed+A 2026-10-13, 40+ enterprise customers, $2M ARR; 89-post blog in 9 months, partly planned; marketing team exists but leader unnamed (find in recon) | rank 6; leader: couldn't verify; Marketing Designer posting says it partners with 'the marketing team' (pluto.security careers); seo need: high: new shadow-AI/citizen-dev security category being defined now; crowded AI-security field (Zenity, Noma, Prompt Security etc.) competing for the same answers; blog: partly planned, 89 posts (since 2026-02), 1.1 links/post, 30% with no links, 2 hubs"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Pluto Security",
+    "resolved_name": "Pluto Security",
+    "domain": "pluto.security",
+    "verdict": "recon",
+    "reason": "New category ('Builder Security'/AI workspace security) with an inbound GTM; $42M seed+A 2026-10-13, 40+ enterprise customers, $2M ARR; 89-post blog in 9 months, partly planned; marketing team exists but leader unnamed (find in recon)",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$42M total ($8.5M seed TLV + $34M Series A Jump Capital), 2026-10-13",
+    "marketing_leader": "couldn't verify; Marketing Designer posting says it partners with 'the marketing team' (pluto.security careers)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: new shadow-AI/citizen-dev security category being defined now; crowded AI-security field (Zenity, Noma, Prompt Security etc.) competing for the same answers",
+    "reply_odds_guess": "medium",
+    "blog": "partly planned, 89 posts (since 2026-02), 1.1 links/post, 30% with no links, 2 hubs",
+    "rank_score": 6
+   }
   },
   {
    "name": "Modelyo",
@@ -518,15 +824,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-10-22",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: Low SEO need: sovereign/confidential cloud sold to governments, defence and regulated banks (small, RFP/relationship-led buyer set); ~30 people, no marketing leader found"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Modelyo",
+    "resolved_name": "Modelyo",
+    "domain": "modelyo.com",
+    "verdict": "drop",
+    "reason": "Low SEO need: sovereign/confidential cloud sold to governments, defence and regulated banks (small, RFP/relationship-led buyer set); ~30 people, no marketing leader found",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "~$17M (OlivTree lead), 2026-10-22",
+    "marketing_leader": "couldn't verify",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: gov/defence/bank procurement; site has a buyer's guide and procurement checklist but buyers are few and known",
+    "reply_odds_guess": "low",
+    "blog": "looks unplanned, 6 posts, 0 links/post (thin)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Incredibuild",
@@ -536,15 +859,32 @@
     "avi_lewis_list"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-15",
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: Established company, not a startup fit: founded ~2000, ~$140M raised (2021), acquirer of Garden (2024) and Kypso (2025); CMO-led marketing team with inbound product marketing; site blocked our plain fetches so blog couldn't be verified"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Incredibuild",
+    "resolved_name": "Incredibuild",
+    "domain": "incredibuild.com",
+    "verdict": "drop",
+    "reason": "Established company, not a startup fit: founded ~2000, ~$140M raised (2021), acquirer of Garden (2024) and Kypso (2025); CMO-led marketing team with inbound product marketing; site blocked our plain fetches so blog couldn't be verified",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "no recent round found (last known ~$140M, 2021); trigger 2026-11-15 couldn't be verified",
+    "marketing_leader": "couldn't verify name: job posts (Aug 2025) say marketing reports to a CMO; Duncan Huffman listed as Head of Product Marketing (dated, unverified)",
+    "seo_team": "couldn't verify (Senior PMM, Inbound role posted 2025)",
+    "seo_need_first_read": "medium: dev-tools buyers search (build acceleration, CI speed) but mature brand",
+    "reply_odds_guess": "low",
+    "blog": "couldn't verify (incredibuild.com refused through proxy: 502/timeouts)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Gloat",
@@ -554,15 +894,32 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Demand Generation lead- AI Native"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Demand Generation lead- AI Native",
+    "2026-11-24: recon: Rebranded Gloat to Synq about a week ago and repositioned from a talent marketplace into AI-native HCM, so it now competes with Workday, Rippling, HiBob and BambooHR (compare pages already exist). A domain migration is under way. The blog is developed but unplanned (297 posts, almost no internal links). Weak points: marketing leader unverified (ex-CMO Tovbulatov reportedly at ServiceNow) and layoffs, with no round since 2022. Deep recon should confirm who now leads marketing | rank 7; leader: couldn't verify (ex-CMO Ruslan Tovbulatov reportedly moved to ServiceNow, per CMO Alliance page, undated; co-founder Danny Shteinberg listed as CPO); open: Demand Generation Lead - AI Native (synq.ai/company/careers, Tel Aviv); seo need: high: HCM/HRIS is a heavily searched, contested category, and a rebrand plus domain move puts existing organic equity at risk; blog: looks unplanned, 297 posts (148 updated in the last 12 months), 0.1 links/post, 95% with no links, no hubs"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Gloat",
+    "resolved_name": "Gloat (rebranded Synq, ~2026-11-18)",
+    "domain": "gloat.com -> synq.ai (migration in progress: careers already 301s to synq.ai, homepage still on gloat.com)",
+    "verdict": "recon",
+    "reason": "Rebranded Gloat to Synq about a week ago and repositioned from a talent marketplace into AI-native HCM, so it now competes with Workday, Rippling, HiBob and BambooHR (compare pages already exist). A domain migration is under way. The blog is developed but unplanned (297 posts, almost no internal links). Weak points: marketing leader unverified (ex-CMO Tovbulatov reportedly at ServiceNow) and layoffs, with no round since 2022. Deep recon should confirm who now leads marketing",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$90M Series D, June 2022 (~$185M total); layoffs reported (Globes: ~100 staff left)",
+    "marketing_leader": "couldn't verify (ex-CMO Ruslan Tovbulatov reportedly moved to ServiceNow, per CMO Alliance page, undated; co-founder Danny Shteinberg listed as CPO); open: Demand Generation Lead - AI Native (synq.ai/company/careers, Tel Aviv)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: HCM/HRIS is a heavily searched, contested category, and a rebrand plus domain move puts existing organic equity at risk",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, 297 posts (148 updated in the last 12 months), 0.1 links/post, 95% with no links, no hubs",
+    "rank_score": 7
+   }
   },
   {
    "name": "PointFive",
@@ -639,14 +996,31 @@
     "telegram"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
-    "2026-11-22: held run 1"
+    "2026-11-22: held run 1",
+    "2026-11-24: recon: B2B AI GTM agents in a fiercely contested category, Series A Jul 2026, growing, Head of GTM named, 96-post blog that looks unplanned, no SEO team found. Same company as queue entry 'Alta | AI Revenue Workforce' (merge) | rank 8; leader: Elina Papernaya, Head of GTM (search snippet/LinkedIn snippet); Maayan Shraga listed as VP Marketing on altahq team page per search summary (couldn't verify directly); CEO Stav Levi-Neumark ex-monday.com growth; seo need: high: buyers compare AI SDR/GTM agents online ('best AI SDR', 'X vs 11x'); 11x, Artisan, Clay, Unify invest heavily in content; blog: looks unplanned, 96 posts (2026-03 to 2026-11), 0.6 links/post, 70% with no links, no hubs"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Alta",
+    "resolved_name": "Alta (AI Revenue Workforce, altahq.com)",
+    "domain": "altahq.com",
+    "verdict": "recon",
+    "reason": "B2B AI GTM agents in a fiercely contested category, Series A Jul 2026, growing, Head of GTM named, 96-post blog that looks unplanned, no SEO team found. Same company as queue entry 'Alta | AI Revenue Workforce' (merge)",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$25M Series A, 2026-07-08 (Entree, Target Global); $7M seed Mar 2025",
+    "marketing_leader": "Elina Papernaya, Head of GTM (search snippet/LinkedIn snippet); Maayan Shraga listed as VP Marketing on altahq team page per search summary (couldn't verify directly); CEO Stav Levi-Neumark ex-monday.com growth",
+    "seo_team": "none found (open Content Marketing Manager reporting to Head of GTM)",
+    "seo_need_first_read": "high: buyers compare AI SDR/GTM agents online ('best AI SDR', 'X vs 11x'); 11x, Artisan, Clay, Unify invest heavily in content",
+    "reply_odds_guess": "high",
+    "blog": "looks unplanned, 96 posts (2026-03 to 2026-11), 0.6 links/post, 70% with no links, no hubs",
+    "rank_score": 8
+   }
   },
   {
    "name": "Fullpath",
@@ -656,15 +1030,32 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held run 1",
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Content Specialist -Temporary (Mat Leave Replacement)"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Marketing Content Specialist -Temporary (Mat Leave Replacement)",
+    "2026-11-24: drop: acquired: Cox Automotive completed the acquisition (agreement 2026-04-23, closed ~2026-06)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Fullpath",
+    "resolved_name": "Fullpath",
+    "domain": "fullpath.com",
+    "verdict": "drop",
+    "reason": "acquired: Cox Automotive completed the acquisition (agreement 2026-04-23, closed ~2026-06)",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "acquired by Cox Automotive, 2026 (last independent round Series C, ~$40M total)",
+    "marketing_leader": "not checked (acquired)",
+    "seo_team": "not checked",
+    "seo_need_first_read": "n/a (acquired)",
+    "reply_odds_guess": "low",
+    "blog": "not run (acquired)",
+    "rank_score": 0
+   }
   },
   {
    "name": "LSports",
@@ -709,16 +1100,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a Forward Deployed Product Manager and a Founding Enterprise AE. They raised $73m",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: recon: B2B telecom-as-a-service (embedded mobile plans for fintechs/HR/retail platforms) plus Gigs for Work employee phone plans for IT teams; growing (41 open roles), real marketing function, active AI-search content push (llms.gigs.com 'Gigs vs Telgea / vs 1Global' pages) but no SEO person found | rank 6; leader: couldn't verify by name: a Head of Marketing exists per a Senior Marketing Manager posting (startup.jobs); Ashby board lists Brand Marketing Lead, Technical PMM, Partner Marketing roles; seo need: medium-high: Gigs for Work competes in a searched 'employee/business phone plans' category (Telgea, 1Global) and they already publish vs-pages for AI answers; blog: 55 posts under /blog/ (JS-rendered, sample couldn't be read: impression couldn't verify); separate llms.gigs.com comparison hub"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Gigs",
+    "resolved_name": "Gigs",
+    "domain": "gigs.com",
+    "verdict": "recon",
+    "reason": "B2B telecom-as-a-service (embedded mobile plans for fintechs/HR/retail platforms) plus Gigs for Work employee phone plans for IT teams; growing (41 open roles), real marketing function, active AI-search content push (llms.gigs.com 'Gigs vs Telgea / vs 1Global' pages) but no SEO person found",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$73M Series B (Ribbit), 2024-12-12 (no newer round found)",
+    "marketing_leader": "couldn't verify by name: a Head of Marketing exists per a Senior Marketing Manager posting (startup.jobs); Ashby board lists Brand Marketing Lead, Technical PMM, Partner Marketing roles",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium-high: Gigs for Work competes in a searched 'employee/business phone plans' category (Telgea, 1Global) and they already publish vs-pages for AI answers",
+    "reply_odds_guess": "medium",
+    "blog": "55 posts under /blog/ (JS-rendered, sample couldn't be read: impression couldn't verify); separate llms.gigs.com comparison hub",
+    "rank_score": 6
+   }
   },
   {
    "name": "Fleetworks",
@@ -728,16 +1136,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a head of customer deployments",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: hold: B2B AI freight dispatch (brokers + carriers), $17M Series A Oct 2025, already running a keyword-targeted SEO content program (100 /resources/ pages since Aug 2026); re-check who owns it (in-house SEO vs agency) and name the marketing head before recon | rank 5; leader: couldn't verify: a 2025 job post says the growth role reports to a Head of Marketing (unnamed); Sr PMM was posted as first marketing hire (Nov 2025); CEO Paul Singer; seo need: medium-high: owner-operators and brokers search heavily (load boards, dispatcher cost, fraud checks); competitors (HappyRobot, Parade, Vooma) invest in content; blog: 100 posts under /resources/, all since 2026-08, 56% in top topics; pages JS-rendered, couldn't read sample, links/post unknown"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Fleetworks",
+    "resolved_name": "FleetWorks",
+    "domain": "fleetworks.ai",
+    "verdict": "hold",
+    "reason": "B2B AI freight dispatch (brokers + carriers), $17M Series A Oct 2025, already running a keyword-targeted SEO content program (100 /resources/ pages since Aug 2026); re-check who owns it (in-house SEO vs agency) and name the marketing head before recon",
+    "b2b": true,
+    "buying_journey": "considered",
+    "round": "$17M Series A led by First Round, 2025-10-14",
+    "marketing_leader": "couldn't verify: a 2025 job post says the growth role reports to a Head of Marketing (unnamed); Sr PMM was posted as first marketing hire (Nov 2025); CEO Paul Singer",
+    "seo_team": "couldn't verify (100-page long-tail resources program suggests someone owns SEO; no open SEO role on Ashby)",
+    "seo_need_first_read": "medium-high: owner-operators and brokers search heavily (load boards, dispatcher cost, fraud checks); competitors (HappyRobot, Parade, Vooma) invest in content",
+    "reply_odds_guess": "medium",
+    "blog": "100 posts under /resources/, all since 2026-08, 56% in top topics; pages JS-rendered, couldn't read sample, links/post unknown",
+    "rank_score": 5
+   }
   },
   {
    "name": "Mews",
@@ -765,16 +1190,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a growth marketing lead and a finance and operations lead",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: recon: B2B AI-CRO/experimentation platform (SF) in a content-heavy category (Optimizely, VWO, AB Tasty, Convert). Fresh $25M Series A. Blog is developed but looks unplanned. No marketing leader yet: Growth Marketing Lead is open and works with the founders. Mark it as an exception (founder-led growth; VP GTM Bo Mohazzabi) | rank 6; leader: couldn't verify a marketing leader; Josh Payne, founder/CEO; Bo Mohazzabi, VP GTM (search snippet, unverified); open Growth Marketing Lead (Ashby, posted 2026-09-26); seo need: high: marketers research CRO/A-B tools via search and AI answers, competitors invest heavily, and the new 'AI CRO' category is still being defined; blog: looks unplanned, 37 posts under /post/, 0.2 links/post, 85% with no links, 1 hub (lastmod dates all 2026-11-20, so dates are unreliable)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Coframe",
+    "resolved_name": "Coframe",
+    "domain": "coframe.com",
+    "verdict": "recon",
+    "reason": "B2B AI-CRO/experimentation platform (SF) in a content-heavy category (Optimizely, VWO, AB Tasty, Convert). Fresh $25M Series A. Blog is developed but looks unplanned. No marketing leader yet: Growth Marketing Lead is open and works with the founders. Mark it as an exception (founder-led growth; VP GTM Bo Mohazzabi)",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$25M Series A co-led by Khosla and Hanabi, announced 2026-11-09 ($35M total)",
+    "marketing_leader": "couldn't verify a marketing leader; Josh Payne, founder/CEO; Bo Mohazzabi, VP GTM (search snippet, unverified); open Growth Marketing Lead (Ashby, posted 2026-09-26)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: marketers research CRO/A-B tools via search and AI answers, competitors invest heavily, and the new 'AI CRO' category is still being defined",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, 37 posts under /post/, 0.2 links/post, 85% with no links, 1 hub (lastmod dates all 2026-11-20, so dates are unreliable)",
+    "rank_score": 6
+   }
   },
   {
    "name": "Verra",
@@ -821,16 +1263,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a commercial lead",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: recon: B2B BaaS bank, fresh Series B (Nov 2026), revenue 3.2x, large blog that looks unplanned; marketing leader likely Mo Backer but date unverified | rank 6; leader: Mo Backer, VP Marketing (Money20/20 Europe speaker page, date unverified); earlier VP Laura Hauser likely left (theorg: Faculty since 2023); seo need: medium: UK fintechs research BaaS/embedded banking providers; ClearBank, Modulr, Railsr, Banking Circle publish content, but buyer set is a few hundred and partly relationship-led; blog: looks unplanned, 128 posts (2016 to 2026-11), 0.1 links/post, 85% with no links, scattered topics"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Griffin",
+    "resolved_name": "Griffin (UK bank for fintechs)",
+    "domain": "griffin.com",
+    "verdict": "recon",
+    "reason": "B2B BaaS bank, fresh Series B (Nov 2026), revenue 3.2x, large blog that looks unplanned; marketing leader likely Mo Backer but date unverified",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$20M Series B led by Octagon, 2026-11-12 (>$100M valuation)",
+    "marketing_leader": "Mo Backer, VP Marketing (Money20/20 Europe speaker page, date unverified); earlier VP Laura Hauser likely left (theorg: Faculty since 2023)",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: UK fintechs research BaaS/embedded banking providers; ClearBank, Modulr, Railsr, Banking Circle publish content, but buyer set is a few hundred and partly relationship-led",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, 128 posts (2016 to 2026-11), 0.1 links/post, 85% with no links, scattered topics",
+    "rank_score": 6
+   }
   },
   {
    "name": "Cara",
@@ -840,16 +1299,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a forward deployed broker and an account executive",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: hold: Promising B2B (thousands of US agencies/brokerages, seven-figure ARR, $8M seed Mar 2026) but no marketing leader yet: Founding Marketing role open; blog thin (16 posts). Re-check when the founding marketer is hired | rank 3; leader: none yet: Founding Marketing role open (Built In NYC / Teal listings, unverified on own board); founders Vic Yeh, Nikhil Kansal, Jonathan Patel; seo need: medium: agencies search 'AI for insurance agencies'/AMS integrations; competing AI-for-brokers startups emerging; blog: looks unplanned, 16 posts, 0.0 links/post"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Cara",
+    "resolved_name": "Cara (AI for insurance brokerages)",
+    "domain": "getcara.ai",
+    "verdict": "hold",
+    "reason": "Promising B2B (thousands of US agencies/brokerages, seven-figure ARR, $8M seed Mar 2026) but no marketing leader yet: Founding Marketing role open; blog thin (16 posts). Re-check when the founding marketer is hired",
+    "b2b": true,
+    "buying_journey": "considered",
+    "round": "$8M Seed (Kearny Jackson), 2026-03-31",
+    "marketing_leader": "none yet: Founding Marketing role open (Built In NYC / Teal listings, unverified on own board); founders Vic Yeh, Nikhil Kansal, Jonathan Patel",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: agencies search 'AI for insurance agencies'/AMS integrations; competing AI-for-brokers startups emerging",
+    "reply_odds_guess": "low",
+    "blog": "looks unplanned, 16 posts, 0.0 links/post",
+    "rank_score": 3
+   }
   },
   {
    "name": "Luca IQ",
@@ -895,16 +1371,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a country launcher and a founding BDR to focus on new product lines",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: recon: B2B startup insurance (considered purchase, founders+finance, contested by Vouch/Embroker/Founder Shield content), hypergrowth (~450 people, 60 open roles); hiring an SEO Specialist (1+ yrs, junior: not a priority signal but shows SEO is a live priority without senior ownership) | rank 6; leader: couldn't verify (no named Head of Marketing; founder Nico Laqua; open Head of Communications, Head of PR, Marketing Lead Trucking, Founding Growth Marketer); seo need: high: buyers search 'startup insurance', 'D&O for startups', 'X vs Vouch'; competitors invest heavily in content; new lines (trucking) need pages; blog: looks planned, 65 posts, 4.0 links/post (5 hubs, posts since 2026-01)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Corgi",
+    "resolved_name": "Corgi Insurance",
+    "domain": "corgi.insure",
+    "verdict": "recon",
+    "reason": "B2B startup insurance (considered purchase, founders+finance, contested by Vouch/Embroker/Founder Shield content), hypergrowth (~450 people, 60 open roles); hiring an SEO Specialist (1+ yrs, junior: not a priority signal but shows SEO is a live priority without senior ownership)",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$106M Series B1 at $2.6B (TCV), 2026-05-28; $160M Series B 2026-05",
+    "marketing_leader": "couldn't verify (no named Head of Marketing; founder Nico Laqua; open Head of Communications, Head of PR, Marketing Lead Trucking, Founding Growth Marketer)",
+    "seo_team": "open SEO role: SEO Specialist (junior, 1+ yrs, Dallas/Chicago/Atlanta)",
+    "seo_need_first_read": "high: buyers search 'startup insurance', 'D&O for startups', 'X vs Vouch'; competitors invest heavily in content; new lines (trucking) need pages",
+    "reply_odds_guess": "medium",
+    "blog": "looks planned, 65 posts, 4.0 links/post (5 hubs, posts since 2026-01)",
+    "rank_score": 6
+   }
   },
   {
    "name": "Sift",
@@ -932,16 +1425,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a finance lead, an account executive, and a senior forward deployed engineer",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: hold: B2B healthcare admin automation for DME suppliers, infusion centers, specialty pharmacies; $12.5M seed Apr 2026 but no marketing leader or marketing hire (open roles: finance, AE, FDE) and only 2 blog posts; re-check for a marketing hire | rank 3; leader: couldn't verify (none found; founders Ajay Shrihari CEO, Aniket Mohanty); seo need: medium: specialty providers do research intake/referral automation; competitors like Tennr invest in content; but sales-led today; blog: thin: 2 posts under /articles/ (Oct 2025), 1.0 links/post, looks unplanned"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Coral",
+    "resolved_name": "Coral (Coral AI, healthcare admin automation)",
+    "domain": "trycoral.ai",
+    "verdict": "hold",
+    "reason": "B2B healthcare admin automation for DME suppliers, infusion centers, specialty pharmacies; $12.5M seed Apr 2026 but no marketing leader or marketing hire (open roles: finance, AE, FDE) and only 2 blog posts; re-check for a marketing hire",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$12.5M seed led by Lightspeed and Z47, April 2026",
+    "marketing_leader": "couldn't verify (none found; founders Ajay Shrihari CEO, Aniket Mohanty)",
+    "seo_team": "none found",
+    "seo_need_first_read": "medium: specialty providers do research intake/referral automation; competitors like Tennr invest in content; but sales-led today",
+    "reply_odds_guess": "low",
+    "blog": "thin: 2 posts under /articles/ (Oct 2025), 1.0 links/post, looks unplanned",
+    "rank_score": 3
+   }
   },
   {
    "name": "Prosper Health",
@@ -969,16 +1479,33 @@
     "nextplay"
    ],
    "added": "2026-11-22",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": null,
    "notes": [
     "2026-11-22: held",
     "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: a data journalist and a general manager",
-    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov"
+    "2026-11-23: re-screen (sponsor 2026-11-23): Next Play issues 10-19 Nov",
+    "2026-11-24: drop: Co-branded card platform ($1.9B valuation) that sells to a small, known set of large brands (Kroger, Shell, Fanatics) through relationships. Consumer acquisition runs through partner brands and paid channels. Large in-house marketing org (VP Marketing, PMM, partner marketing, data journalist). Low SEO need for this offer"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Imprint",
+    "resolved_name": "Imprint",
+    "domain": "imprint.co",
+    "verdict": "drop",
+    "reason": "Co-branded card platform ($1.9B valuation) that sells to a small, known set of large brands (Kroger, Shell, Fanatics) through relationships. Consumer acquisition runs through partner brands and paid channels. Large in-house marketing org (VP Marketing, PMM, partner marketing, data journalist). Low SEO need for this offer",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$130M at ~$1.9B led by Khosla, 2026-11-11 (Series D $150M Dec 2025)",
+    "marketing_leader": "VP of Marketing exists per job posts (name couldn't verify)",
+    "seo_team": "none found (Senior Data Journalist role open; Growth Marketing Lead posting covers paid search/affiliates)",
+    "seo_need_first_read": "low: B2B side is relationship-led with enterprise brands; consumer side is partner-driven",
+    "reply_odds_guess": "low",
+    "blog": "thin, 6 posts under /learn/ (compare pages), 0 links/post",
+    "rank_score": 0
+   }
   },
   {
    "name": "MIND Security",
@@ -1197,14 +1724,31 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-19",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: CTech Boarding Pass 2026-11-19 = CoolVOC: industrial cleantech hardware (recycling VOC gas waste), $2.5M early round, tiny known industrial buyer set: low SEO need"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "(unresolved) Boarding Pass",
+    "resolved_name": "CoolVOC",
+    "domain": "coolvoc.com",
+    "verdict": "drop",
+    "reason": "CTech Boarding Pass 2026-11-19 = CoolVOC: industrial cleantech hardware (recycling VOC gas waste), $2.5M early round, tiny known industrial buyer set: low SEO need",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$2.5M, 2026-11-19 (CTech)",
+    "marketing_leader": "couldn't verify",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: hardware sold to a small set of industrial plants, relationship-led",
+    "reply_odds_guess": "low",
+    "blog": "not run (drop)",
+    "rank_score": 0
+   }
   },
   {
    "name": "(unresolved) Israeli startup raises $11 million Seed to automate the growing burden",
@@ -1213,11 +1757,12 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-18",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Vero Security (already in the batch); CTech 2026-11-18 headline '...automate the growing burden of AI security' is Vero's $11M seed led by TLV Partners"
    ],
    "slug": null,
    "batch": "2026-11-24"
@@ -1246,11 +1791,12 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-17",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Newsbound (queue entry; light-checked under this headline, verdict moved there)"
    ],
    "slug": null,
    "batch": "2026-11-24"
@@ -1279,11 +1825,12 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-11",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Plurai (already in state.json prospects): ex-Nexar Ilan Kadar and Elad Levi, $13M seed led by Team8, Nov 2026"
    ],
    "slug": null,
    "batch": "2026-11-24"
@@ -1312,11 +1859,12 @@
     "ctech_startups"
    ],
    "added": "2026-11-23",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-10",
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters",
+    "2026-11-24: drop: duplicate of Bay (already in state.json prospects)"
    ],
    "slug": null,
    "batch": "2026-11-24"
@@ -1751,11 +2299,12 @@
     "telegram_hitechjobsmarketing"
    ],
    "added": "2026-11-23",
-   "status": "queued",
+   "status": "dropped",
    "b2b": null,
    "trigger_date": null,
    "notes": [
-    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Marketing Manager"
+    "2026-11-23: re-screen (sponsor 2026-11-23): back from the first filters; marketing roles: Product Marketing Manager",
+    "2026-11-24: drop: duplicate of Alta (light-checked 2026-11-24, recon)"
    ],
    "slug": null
   },
@@ -2977,14 +3526,31 @@
     "ctech_full_list"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-17",
    "notes": [
-    "2026-11-24: In-orbit space computing infrastructure; $124M"
+    "2026-11-24: In-orbit space computing infrastructure; $124M",
+    "2026-11-24: drop: Space computing hardware for satellite makers/defense: tiny, known, relationship/contract-led buyer set: low SEO need"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Ramon.Space",
+    "resolved_name": "Ramon.Space",
+    "domain": "ramon.space",
+    "verdict": "drop",
+    "reason": "Space computing hardware for satellite makers/defense: tiny, known, relationship/contract-led buyer set: low SEO need",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$124M Series B led by PSG (Micron), 2026-11-17",
+    "marketing_leader": "couldn't verify",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: satellite/defense primes buy via contracts, not search",
+    "reply_odds_guess": "low",
+    "blog": "no blog found in sitemap",
+    "rank_score": 0
+   }
   },
   {
    "name": "Ribon",
@@ -2994,14 +3560,31 @@
     "israelrounds"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "dropped",
+   "b2b": true,
    "trigger_date": "2026-11-10",
    "notes": [
-    "2026-11-24: Cybersecurity/AI; undisclosed round"
+    "2026-11-24: Cybersecurity/AI; undisclosed round",
+    "2026-11-24: drop: nothing to audit: stealth cyber/digital-sovereignty company (no official website per Dealroom, Oct 2026), selling to states and large enterprises (small known buyer set); ~$200M raised per Calcalist estimate"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Ribon",
+    "resolved_name": "Ribon",
+    "domain": "",
+    "verdict": "drop",
+    "reason": "nothing to audit: stealth cyber/digital-sovereignty company (no official website per Dealroom, Oct 2026), selling to states and large enterprises (small known buyer set); ~$200M raised per Calcalist estimate",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "undisclosed; ~$200M across rounds, >$1.5B valuation (Calcalist estimate, Oct 2026)",
+    "marketing_leader": "couldn't verify",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: stealth, sovereign/government-oriented buyers",
+    "reply_odds_guess": "low",
+    "blog": "no blog (no site found; ribon.ai shows a bot check, ribon.com is an unrelated Japanese insurer)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Pillar Security",
@@ -3076,14 +3659,31 @@
     "ctech_full_list"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
-   "b2b": null,
+   "status": "held",
+   "b2b": true,
    "trigger_date": "2026-11-18",
    "notes": [
-    "2026-11-24: Security policies enforced across AI agents; $11M Seed (TLV Partners)"
+    "2026-11-24: Security policies enforced across AI agents; $11M Seed (TLV Partners)",
+    "2026-11-24: hold: Good fit on paper (B2B AI-agent security, new category language 'AI Security Engineering' + AISecurityEngineering.org community, fresh $11M seed, US GTM push) but no marketing leader found and blog is 6 posts; re-check in ~2-3 months for a US marketing hire | rank 0; leader: couldn't verify (CEO Elad Tessler, CTO Daniel Meirov); seo need: high: crowded AI security/agent governance category (Zenity, Noma, Lasso, Pillar) with heavy content; new category term needs defining; blog: looks unplanned, 6 posts, 0 links/post (thin)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Vero Security",
+    "resolved_name": "Vero Security",
+    "domain": "vero.security",
+    "verdict": "hold",
+    "reason": "Good fit on paper (B2B AI-agent security, new category language 'AI Security Engineering' + AISecurityEngineering.org community, fresh $11M seed, US GTM push) but no marketing leader found and blog is 6 posts; re-check in ~2-3 months for a US marketing hire",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$11M seed (TLV Partners, GTM Capital, Maple Capital), 2026-11-18",
+    "marketing_leader": "couldn't verify (CEO Elad Tessler, CTO Daniel Meirov)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: crowded AI security/agent governance category (Zenity, Noma, Lasso, Pillar) with heavy content; new category term needs defining",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, 6 posts, 0 links/post (thin)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Newsbound",
@@ -3092,11 +3692,29 @@
     "vccafe_firgun"
    ],
    "added": "2026-11-24",
-   "status": "queued",
-   "b2b": null,
+   "status": "recon_ready",
+   "b2b": true,
    "trigger_date": null,
-   "notes": [],
-   "slug": null
+   "notes": [
+    "2026-11-24: recon: Exception (no marketing leader, but the CEO is a 5x tech CMO who owns growth and talks GEO): B2B agentic PR platform for in-house marketing teams, fresh round, searched 'PR agency alternative / AI PR software' category; also a partnership angle (PR + AI-search). NOTE: same company as the queued 'Newsbound' entry (vccafe_firgun): merge | rank 5; leader: Ran Peled, Co-founder & CEO, 5x tech CMO, ex-GM 5W PR (newsbound.ai/about) - founder-led; blog: looks unplanned, 4 posts, 0 links/post (thin, all published 2026-11-17)"
+   ],
+   "slug": null,
+   "light_check": {
+    "name": "Newsbound",
+    "resolved_name": "Newsbound",
+    "domain": "newsbound.ai",
+    "verdict": "recon",
+    "reason": "Exception (no marketing leader, but the CEO is a 5x tech CMO who owns growth and talks GEO): B2B agentic PR platform for in-house marketing teams, fresh round, searched 'PR agency alternative / AI PR software' category; also a partnership angle (PR + AI-search). NOTE: same company as the queued 'Newsbound' entry (vccafe_firgun): merge",
+    "b2b": true,
+    "buying_journey": "considered",
+    "round": "$3M pre-seed (Joule Ventures, State of Mind Ventures, 91 Ventures), announced 2026-11-17",
+    "marketing_leader": "Ran Peled, Co-founder & CEO, 5x tech CMO, ex-GM 5W PR (newsbound.ai/about) - founder-led",
+    "seo_team": "none found (6-person team)",
+    "seo_need_first_read": "medium-high: buyers compare PR tools/agencies online (Muck Rack, Prowly, Cision, other AI-PR startups); cost: category 'agentic PR' undefined in AI answers",
+    "reply_odds_guess": "high",
+    "blog": "looks unplanned, 4 posts, 0 links/post (thin, all published 2026-11-17)",
+    "rank_score": 5
+   }
   },
   {
    "name": "Firebolt",
@@ -5870,14 +6488,31 @@
     "ctech_full_list"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
+   "status": "recon_ready",
    "b2b": true,
    "trigger_date": "2026-11-24",
    "notes": [
-    "2026-11-24: AI agents that decide how enterprise data workloads run; $45M Series A (also TLV portfolio)"
+    "2026-11-24: AI agents that decide how enterprise data workloads run; $45M Series A (also TLV portfolio)",
+    "2026-11-24: recon: B2B Databricks/data-workload optimization agents, $45M Series A today (2026-11-24), 14 open roles; contested 'Databricks cost optimization' search space; developed but unplanned blog; founder-led marketing (PMM role open) so recon as an exception on the leader rule | rank 7; leader: couldn't verify: none on about page (CEO Dan Coster, CTO Yoav Gill Ben Ephraim); open role Product Marketing Manager (US) on zipher.ai/careers; seo need: high: data engineers/FinOps search 'Databricks cost optimization', G2 category exists, competitors (Unravel, Definity, Sync Computing) publish guides; category shift to 'agentic data infra' that AI answers haven't caught; blog: looks unplanned, ~31 posts at root (sitemap via Yoast, Dec 2024-Nov 2026), 0.9 links/post, 86% with none"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Zipher",
+    "resolved_name": "Zipher",
+    "domain": "zipher.ai",
+    "verdict": "recon",
+    "reason": "B2B Databricks/data-workload optimization agents, $45M Series A today (2026-11-24), 14 open roles; contested 'Databricks cost optimization' search space; developed but unplanned blog; founder-led marketing (PMM role open) so recon as an exception on the leader rule",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$45M Series A co-led by Maor Investments and Glilot, with TLV Partners ($53M incl. seed), 2026-11-24",
+    "marketing_leader": "couldn't verify: none on about page (CEO Dan Coster, CTO Yoav Gill Ben Ephraim); open role Product Marketing Manager (US) on zipher.ai/careers",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: data engineers/FinOps search 'Databricks cost optimization', G2 category exists, competitors (Unravel, Definity, Sync Computing) publish guides; category shift to 'agentic data infra' that AI answers haven't caught",
+    "reply_odds_guess": "medium",
+    "blog": "looks unplanned, ~31 posts at root (sitemap via Yoast, Dec 2024-Nov 2026), 0.9 links/post, 86% with none",
+    "rank_score": 7
+   }
   },
   {
    "name": "Dante Security",
@@ -5886,14 +6521,31 @@
     "ctech_full_list"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
+   "status": "held",
    "b2b": true,
    "trigger_date": "2026-11-24",
    "notes": [
-    "2026-11-24: Visibility into actions of autonomous AI agents; $10M Seed"
+    "2026-11-24: Visibility into actions of autonomous AI agents; $10M Seed",
+    "2026-11-24: hold: B2B accountability/visibility layer for AI agents (Imperva veterans, TLV/NYC) in a high-need category, but it only left stealth today: first paying customers still onboarding, 6 blog posts, no marketing hire (open roles are PM, AE and data scientist). Re-check in about 3-6 months for a marketing leader or hire and more content. Note: dantesecurity.com is an unrelated video-surveillance company | rank 0; leader: couldn't verify; none listed (CEO Moshe Lipsker, co-founder); seo need: high later: crowded AI-agent security category, but there is too little to audit today; blog: too thin to sample: 6 posts on /blog (blog_sample found none in the sitemap)"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Dante Security",
+    "resolved_name": "Dante Security",
+    "domain": "dantesecurity.ai",
+    "verdict": "hold",
+    "reason": "B2B accountability/visibility layer for AI agents (Imperva veterans, TLV/NYC) in a high-need category, but it only left stealth today: first paying customers still onboarding, 6 blog posts, no marketing hire (open roles are PM, AE and data scientist). Re-check in about 3-6 months for a marketing leader or hire and more content. Note: dantesecurity.com is an unrelated video-surveillance company",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$10M seed led by NFX (Alpha Drive, Inovia), 2026-11-24 (CTech, TNW)",
+    "marketing_leader": "couldn't verify; none listed (CEO Moshe Lipsker, co-founder)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high later: crowded AI-agent security category, but there is too little to audit today",
+    "reply_odds_guess": "low",
+    "blog": "too thin to sample: 6 posts on /blog (blog_sample found none in the sitemap)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Q.security",
@@ -5902,14 +6554,31 @@
     "ctech_full_list"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
+   "status": "held",
    "b2b": true,
    "trigger_date": "2026-11-23",
    "notes": [
-    "2026-11-24: Post-quantum crypto migration platform; $11.5M"
+    "2026-11-24: Post-quantum crypto migration platform; $11.5M",
+    "2026-11-24: hold: B2B PQC remediation platform, just launched (seed 2026-11-23); 7-post blog started Nov 2026, no marketing leader found; re-check in ~3-6 months | rank 3; leader: couldn't verify (founders Guy Peer, Nir Steinherz, ex-Coinbase); seo need: high: PQC migration is a new category being defined in search/AI answers; QuSecure, SandboxAQ, QIZ, Keyfactor invest in content; blog: thin, 7 posts (2026-11-10 to 11-23), 0.9 links/post"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Q.security",
+    "resolved_name": "Q.security",
+    "domain": "q.security",
+    "verdict": "hold",
+    "reason": "B2B PQC remediation platform, just launched (seed 2026-11-23); 7-post blog started Nov 2026, no marketing leader found; re-check in ~3-6 months",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$11.5M seed, 2026-11-23 (CTech)",
+    "marketing_leader": "couldn't verify (founders Guy Peer, Nir Steinherz, ex-Coinbase)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high: PQC migration is a new category being defined in search/AI answers; QuSecure, SandboxAQ, QIZ, Keyfactor invest in content",
+    "reply_odds_guess": "low",
+    "blog": "thin, 7 posts (2026-11-10 to 11-23), 0.9 links/post",
+    "rank_score": 3
+   }
   },
   {
    "name": "Beacon Security",
@@ -5918,14 +6587,31 @@
     "israelrounds"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
+   "status": "held",
    "b2b": true,
    "trigger_date": "2026-11-16",
    "notes": [
-    "2026-11-24: Cybersecurity/AI; $13M Seed"
+    "2026-11-24: Cybersecurity/AI; $13M Seed",
+    "2026-11-24: hold: Good fit category (security data pipeline / SIEM migration vs Cribl, Databahn, Abstract: contested, searched) and $13M seed Jul 2026 with ARR +300%, but no marketing leader or marketing role found and only ~14 resource posts; re-check for a marketing hire | rank 3; leader: couldn't verify (none found; careers page lists only eng/sales/PM roles); seo need: high-medium: SOC/SIEM buyers compare pipeline vendors; Cribl invests heavily in content and owns many queries; blog: no sitemap (blog_sample found nothing); ~14 posts on /resources-center, not sampled"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Beacon Security",
+    "resolved_name": "Beacon Security",
+    "domain": "beacon.security",
+    "verdict": "hold",
+    "reason": "Good fit category (security data pipeline / SIEM migration vs Cribl, Databahn, Abstract: contested, searched) and $13M seed Jul 2026 with ARR +300%, but no marketing leader or marketing role found and only ~14 resource posts; re-check for a marketing hire",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$13M Seed (Notable Capital), 2026-07-16",
+    "marketing_leader": "couldn't verify (none found; careers page lists only eng/sales/PM roles)",
+    "seo_team": "none found",
+    "seo_need_first_read": "high-medium: SOC/SIEM buyers compare pipeline vendors; Cribl invests heavily in content and owns many queries",
+    "reply_odds_guess": "low",
+    "blog": "no sitemap (blog_sample found nothing); ~14 posts on /resources-center, not sampled",
+    "rank_score": 3
+   }
   },
   {
    "name": "QEDMA",
@@ -5934,14 +6620,31 @@
     "israelrounds"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
+   "status": "dropped",
    "b2b": true,
    "trigger_date": "2026-11-15",
    "notes": [
-    "2026-11-24: Quantum error-mitigation software; $26M Series A"
+    "2026-11-24: Quantum error-mitigation software; $26M Series A",
+    "2026-11-24: drop: Low SEO need: deep-tech quantum error-mitigation software for a tiny, known buyer set (quantum hardware makers, IBM, research labs); latest round 16 months old"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "QEDMA",
+    "resolved_name": "Qedma",
+    "domain": "qedma.com",
+    "verdict": "drop",
+    "reason": "Low SEO need: deep-tech quantum error-mitigation software for a tiny, known buyer set (quantum hardware makers, IBM, research labs); latest round 16 months old",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$26M Series A (Glilot+, IBM), 2025-07-03",
+    "marketing_leader": "couldn't verify",
+    "seo_team": "none found",
+    "seo_need_first_read": "low: partnership/research-led sales, no search contest",
+    "reply_odds_guess": "low",
+    "blog": "no blog found in sitemap (sitemap 404/502: couldn't verify)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Beyeonics Surgical",
@@ -5950,14 +6653,31 @@
     "israelrounds"
    ],
    "added": "2026-11-24",
-   "status": "in_batch",
+   "status": "dropped",
    "b2b": true,
    "trigger_date": "2026-11-15",
    "notes": [
-    "2026-11-24: Surgical visualization medical devices; $11.5M"
+    "2026-11-24: Surgical visualization medical devices; $11.5M",
+    "2026-11-24: drop: Elbit Systems subsidiary making surgical AR visualization devices: medical device with small known buyer set (hospitals/surgeons), low SEO need; the $11.5M round dates from 2018, not a fresh trigger"
    ],
    "slug": null,
-   "batch": "2026-11-24"
+   "batch": "2026-11-24",
+   "light_check": {
+    "name": "Beyeonics Surgical",
+    "resolved_name": "Beyeonics Surgical",
+    "domain": "beyeonics.com",
+    "verdict": "drop",
+    "reason": "Elbit Systems subsidiary making surgical AR visualization devices: medical device with small known buyer set (hospitals/surgeons), low SEO need; the $11.5M round dates from 2018, not a fresh trigger",
+    "b2b": true,
+    "buying_journey": "committee",
+    "round": "$11.5M, June 2018 (last listed: convertible note Oct 2021)",
+    "marketing_leader": "not checked (dropped on fit)",
+    "seo_team": "not checked",
+    "seo_need_first_read": "low: medical device, hospital procurement, few buyers",
+    "reply_odds_guess": "low",
+    "blog": "not sampled (dropped on fit)",
+    "rank_score": 0
+   }
   },
   {
    "name": "Harmonya",

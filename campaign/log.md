@@ -76,3 +76,16 @@ Sponsor: the next main scout run goes back to the filtered companies. Every comp
 - 2026-11-24 16:37 UTC: jobs scout reported (routine, backlog 0, 4 paid unlocker this week); proposed help-scout (SEO / AEO Lead, posted 2026-11-24, open). Sponsor notified.
 - 2026-11-24 16:44 UTC: sponsor asked to re-verify the 9 proposed on 2026-11-19 under the current scout rules, then run the scout from step 1 (new finds may go first). Scout session session_01FkmvpM8xTxvCfYCgKzpPpy started.
 - 2026-11-24 17:01 UTC: jobs session reported a deep pass (it cites sponsor rules of 2026-11-24: no daily limit, B2B tech only; SCOUT.md updated): 15 seo_job companies proposed, all open 2026-11-24, 0 Bright Data. Scout re-verification so far: 7 of the 9 kept at v4, zenzap and edelbyte held.
+
+## 2026-11-24 · Scout run (re-verification + batch 1 of the re-screen)
+**Re-verified the 9 run-1 proposals** (sponsor, 2026-11-24; blog_sample.py + web check, no Bright Data), now scout_version 4:
+- kept: plurai (need high / odds high), buildots (medium/medium), darrow (medium/high), scaleops (high/high; content+SEO owner role still open), bites (high/high), daylight-security (high/medium; growth role + agency already run SEO/AEO), dreeze (high/medium; 3-post blog).
+- removed: zenzap (low reply odds: VP Marketing with SEO background already runs a 405-post GEO-style program plus placements; SMB/low-ticket buyer) → withdrawn, held in queue. edelbyte (too early: no marketing leader, no blog to audit) → withdrawn, held in queue.
+Proposed after re-verification: 16, so no deep recon this run.
+
+**Coverage:** vccafe_firgun 5 · telegram_hitechjobsmarketing 155 · nextplay_feed 152 · ctech_startups 6 · ctech_appointments 11 · techcrunch_fundraising 8 · crunchbase_news 0 · siliconangle 3 · linkedin_list_posters 122 (Bright Data, 2 dataset calls). By hand: CTech 2026 full list (5 new) · israelrounds (4 new; plain fetch 429, 1 Web Unlocker request; list last updated Nov 16) · Goozali (9 new, rendered with Playwright) · portfolios TLV Partners (10) and Glilot (7) · Avi's post comments: not read (no logged-in LinkedIn; would need Bright Data, skipped to save budget) · Crunchbase/Dealroom/SNC Finder: not used (recon-only sources, no recon this run).
+Queue: 400 longlist + 36 hand leads added or merged.
+
+**Batch (50):** 5 duplicate CTech headlines dropped up front; 45 light-checked (free sources + blog_sample.py; `campaign/scout/batch_2026-11-24.md`): 15 recon_ready, 11 hold, 19 drop. Best recon candidates waiting for room: Zipher, Rein Security, Sentra, Gloat/Synq, Alta (7), Pluto, Coframe, Gigs, Corgi, Griffin, Chariot (6). Queue status: {"dropped": 26, "held": 13, "recon_ready": 15, "queued": 381, "clean": false} (held counts in "left" in the tool, but held items carry verdict notes).
+**Bright Data, week W48:** 2 dataset calls / 47 records, 5 Web Unlocker requests (1 this run: israelrounds; rest: jobs route, help-scout recon).
+**New proposed:** 0 (no deep recon while 10+ proposed). Proposed pool after the jobs session's 15 seo_job proposals: 31. Picks (learn.py, on the merged pool): profound, cognism, buildots (exploit), daylight-security, pliant (explore).
