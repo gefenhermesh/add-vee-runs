@@ -93,7 +93,7 @@
       "slug": "gambit-security",
       "company": "Gambit Security",
       "domain": "gambit.security",
-      "status": "done",
+      "status": "sent",
       "source": "sponsor (2026-11-19)",
       "status_note": "Released by the sponsor 2026-11-19 (\"go with the companies I shared\").",
       "cohort_id": "pilot-1",
@@ -104,12 +104,31 @@
         "gate": "2026-11-19T21:54:21+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r3996366814802654921",
       "draft_to": "morgan.cole@gambit.security",
       "draft_to_verified": true,
       "need": "find_the_cracks",
       "email_variant": "v7_need_feedback",
-      "draft_to_verified_by": "sponsor, 2026-11-24 (first.last; morgan@ was invalid)"
+      "draft_to_verified_by": "sponsor, 2026-11-24 (first.last; morgan@ was invalid)",
+      "email_1_sent_at": "2026-11-24T17:19:48+00:00",
+      "gmail_thread_id": "1a20e90ff637f4b4",
+      "threads": [
+        {
+          "id": "gambit-security/1",
+          "kind": "email1",
+          "contact": "Morgan Cole",
+          "email": "morgan.cole@gambit.security",
+          "role": "VP Marketing",
+          "gmail_thread_id": "1a20e90ff637f4b4",
+          "last_message_id": "1a20e922a45f9094",
+          "sent_at": "2026-11-24T17:19:48+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ]
     },
     {
       "slug": "upwind",

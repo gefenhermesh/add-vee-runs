@@ -3,6 +3,7 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-24T17:19:48+00:00 sent gambit-security email 1 (v7: need find_the_cracks, blog layer, feedback ask) to morgan.cole@gambit.security; tracking started
 - 2026-11-24T17:23:06+00:00 mark help-scout waiting_gate
 - 2026-11-24T17:23:06+00:00 notify help-scout gate
 - 2026-11-24T17:23:06+00:00 start paddle
@@ -54,6 +55,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-22 manager handoff written (campaign/MANAGER_HANDOFF.md); the sponsor opens a new manager session; the old one stops managing.
 - 2026-11-23T20:16:14+00:00 followup: upwind/1 email1 sent to CMO
 - 2026-11-24T16:55:38+00:00 followup: upwind/1 decision send N (sponsor asked for it 2026-11-24: need 'make the content count' (blog), plus the second-step intent)
+- 2026-11-24T17:25:50+00:00 followup: gambit-security/1 email1 sent to VP Marketing
 
 ## Cohorts
 
