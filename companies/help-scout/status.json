@@ -1,6 +1,6 @@
 {
   "stage": "loop_b",
-  "ts": "2026-11-24T17:23:47Z",
-  "note": "Gate 1-2 approved by sponsor (gate_1_2_approval.json); Stage 3-4 data collection starting",
+  "ts": "2026-11-24T19:26:29Z",
+  "note": "ChatGPT collected and extracted; Google AI Mode stuck, collecting Gemini as stand-in (sponsor rule 2026-11-20)",
   "branch": "campaign/help-scout"
 }

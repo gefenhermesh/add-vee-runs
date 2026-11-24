@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-24T18:02:50+00:00",
-  "note": "Loop A approved (round 2, patch applied); Scope & Prompts https://claude.ai/artifact/2NCjwb25AG4CEh7SyNCHGX ; story https://claude.ai/artifact/SpuQizbdWAcTdADGp5kH1F ; waiting for gate_1_2_approval.json",
+  "stage": "loop_b",
+  "ts": "2026-11-24T18:35:43+00:00",
+  "note": "Gate 1-2 approved (gate_1_2_approval.json, approve paddle); Stage 3-4 data collection starting",
   "branch": "campaign/paddle"
 }

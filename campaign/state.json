@@ -1005,7 +1005,7 @@
       "slug": "paddle",
       "company": "Paddle",
       "domain": "paddle.com",
-      "status": "waiting_gate",
+      "status": "running",
       "b2b": true,
       "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: literally add-vee's audit. Contested category where Stripe, FastSpring, Lemon Squeezy and new MoRs (Dodo, Fungies, Polar) publish 'Paddle alternatives' pages.",
       "gating_rating": "seo_job_opening",
@@ -1518,7 +1518,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-24T18:33:07+00:00",
+  "last_tick": "2026-11-24T19:33:26+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

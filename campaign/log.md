@@ -3,6 +3,7 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-24T19:33:26+00:00 mark paddle running
 - 2026-11-24T18:33:07+00:00 mark paddle waiting_gate
 - 2026-11-24T18:33:07+00:00 notify paddle gate
 - 2026-11-24T17:32:33+00:00 mark help-scout running
