@@ -1,0 +1,9 @@
+{
+  "_note": "The sponsor's corrections to his daily job list, applied to every later day (seeker.py screen()). Add an entry when he says a company or kind of post isn't open to him.",
+  "not_eligible_companies": [
+    {
+      "company": "Infor",
+      "why": "hires US only (sponsor, 2026-11-24)"
+    }
+  ]
+}

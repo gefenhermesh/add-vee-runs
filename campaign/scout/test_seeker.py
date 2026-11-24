@@ -53,6 +53,12 @@ class Screen(unittest.TestCase):
         self.assertEqual(S.screen(post("us"), "Siana Marketing | Remote (U.S.-based)")["lean"], "skip")
         self.assertEqual(S.screen(post("us"), "Fully remote. Occasional on-site visits optional.")["lean"], "apply")
 
+    def test_sponsor_feedback_company_is_skipped(self):
+        p = post("us"); p["company"] = "Infor"
+        r = S.screen(p, "Remote role.")
+        self.assertEqual(r["lean"], "skip")
+        self.assertIn("sponsor", r["why"][0])
+
     def test_latam_residence_in_latam_is_fine(self):
         r = S.screen(post("latam"), "Candidates must reside in Latin America.")
         self.assertEqual(r["lean"], "apply")

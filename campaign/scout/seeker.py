@@ -31,6 +31,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "seeker"
 SEEN = OUT / "seen.jsonl"
+FEEDBACK = HERE / "seeker_feedback.json"   # the sponsor's corrections, applied to every later day
 sys.path.insert(0, str(HERE))
 import jobs  # noqa: E402  (LinkedIn card parser, paid Web Unlocker fetch with cap + log)
 import readers as R  # noqa: E402  (page text)
@@ -97,8 +98,16 @@ def sentences_with(rx, text, n=2):
     return out
 
 
+def feedback():
+    return json.loads(FEEDBACK.read_text()) if FEEDBACK.exists() else {}
+
+
 def screen(post, desc):
     """lean: apply / maybe / skip, with reasons and the quoted sentences behind them."""
+    fb = feedback()
+    for c in fb.get("not_eligible_companies", []):
+        if c["company"].lower() in post.get("company", "").lower():
+            return {"lean": "skip", "why": [f"sponsor: {c['why']}"], "quotes": []}
     where = f"{post.get('location', '')} {post.get('title', '')}"
     text = f"{post.get('title', '')}\n{desc}"
     why, quotes = [], []
@@ -177,6 +186,13 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
         coverage.append(f"seojobs: {len(got)} posts (last 24 h)" if not err else f"seojobs: FAILED ({err})")
         for p in got:
             p["seojobs_page"] = True
+            # the job's own stretch of the list page: from its link to the next job's link (one block can hold
+            # several jobs, e.g. "spotlight" ones, so the whole block would mix their labels)
+            i = page.find(f'href="{p.get("url")}"') if p.get("url") and not err else -1
+            j = page.find("<h3><a href=", i + 10) if i >= 0 else -1
+            seg = R.text_of(page[i:j if j > 0 else i + 3000]) if i >= 0 else ""
+            m = re.search(r"\b(In-Office|Hybrid|Remote(?: [A-Z]{2,3}| US| Worldwide| Anywhere)?)\b", seg)
+            p["work_type"] = m.group(1).strip() if m else ""
             all_ids.append((p["job_id"], role_key(p)))
             if p["job_id"] not in known and role_key(p) not in keyset:
                 keyset.add(role_key(p))
@@ -198,6 +214,13 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
             time.sleep(1.5)
         elif p["region"] != "seojobs" and relevant:
             p["detail_error"] = "over the daily detail-page limit"
+        # skip on seojobs' own label only when the title doesn't say remote: employers fill the label loosely
+        # (a "SEO Specialist (full-time, remote)" post was labelled In-Office on 2026-11-24)
+        if p["region"] == "seojobs" and p.get("work_type", "").lower() in ("in-office", "hybrid") \
+                and not re.search(r"\bremote\b", p.get("title", ""), re.I):
+            p["screen"] = {"lean": "skip", "why": [f"not fully remote ({p['work_type']} on seojobs)"], "quotes": []}
+            p["apply_url"], p["excerpt"] = p.get("url"), ""
+            continue  # no paid request for a post the list already shows isn't remote
         if p["region"] == "seojobs" and relevant and p.get("url"):
             try:  # seojobs job pages also refuse plain requests: one capped Web Unlocker request per relevant post
                 page, err = (paid or jobs.paid_fetch)(p["url"])
