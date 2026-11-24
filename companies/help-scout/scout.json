@@ -1,0 +1,226 @@
+{
+  "scout_version": 4,
+  "company": "Help Scout",
+  "domain": "helpscout.com",
+  "slug": "help-scout",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "SEO / AEO Lead",
+    "url": "https://jobs.ashbyhq.com/helpscout/124fc642-1462-413e-9999-526ccf717752",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/seo-aeo-lead-at-help-scout-4493984192",
+    "posted": "2026-11-24",
+    "location": "United States (remote; US hiring)",
+    "open_checked": "2026-11-24T16:34:51+00:00",
+    "seniority": "lead (senior IC, owns SEO+AEO strategy to results)",
+    "reports_to": "Director of Demand Generation"
+  },
+  "source_of_lead": "Daily SEO-jobs route, LinkedIn US search 2026-11-24; confirmed on Help Scout's own Ashby board (published 2026-11-24)",
+  "reason": "Remote B2B help-desk SaaS (~120 people, VC-backed, $35M+ ARR per podcast) posted a senior SEO / AEO Lead today, reporting to the Director of Demand Generation. The JD says they've been 'far more visible in search than a company our size usually is' and are now repositioning upmarket: the risk is that the new story doesn't reach classic search or AI answers, exactly what add-vee's audit and the 315-post blog audit show.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the role itself. The JD names the current setup: content partners for blog and YouTube, an existing SEO/AEO roadmap being handed over, off-site programs (paid listicles, creators, Reddit). A VP Marketing posting (Aug 2026) mentions 'support from an AEO expert' and outside agencies, so organic is partly agency/contractor-run today. Not blocked: no in-house SEO team found.",
+  "marketing_leadership": {
+    "status": "found (partly unverified)",
+    "who": [
+      {
+        "name": "Kristen Bryant Smith",
+        "role": "VP of Marketing (per helpscout.com author page; may be stale: a VP of Marketing role was advertised Aug 2026)",
+        "kind": "unverified"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Director of Demand Generation, the role's manager",
+        "kind": "couldn't verify"
+      },
+      {
+        "name": "Andrea Kayal",
+        "role": "Chief Revenue Officer (VP Marketing posting reports to the CRO)",
+        "kind": "unverified (Google site:linkedin.com/in title + job aggregator)"
+      }
+    ],
+    "evidence": [
+      "Ashby JD 2026-11-24: reports to Director of Demand Generation, Brand & Content team",
+      "Aggregator postings (Aug 2026): VP of Marketing over Brand & Content, Performance Marketing, PMM; reports to CRO Andrea Kayal",
+      "Aggregator postings: Director of Demand Generation role (reports to VP Marketing); whether filled couldn't verify"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD hands over an existing roadmap and briefs content partners: the new hire is the SEO owner",
+      "Google site:linkedin.com/in 'Help Scout' SEO/AEO/organic (BD, 2026-11-24): no SEO-titled employee in result titles; logged-out view limited, so closer to couldn't verify"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2011, Boston, fully remote, 120+ people. Raised ~$52M total (Series B1 $40M, Jan 2021, Edge Capital; unverified aggregators). New CEO Toby Gabriner (ex-Bitly CEO 2020-2025) replaced founder Nick Francis (unverified timing). Moving upmarket with AI (AI Answers billed per resolution), many marketing leadership hires in 2026 (VP Marketing, Director Demand Gen, Director Performance Marketing).",
+    "kind": "inferred"
+  },
+  "trigger": "seo_job_post",
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 315 posts under /blog/ (2014-11 to 2026-11-20)",
+      "3.0 in-body links to other posts on average, 5% with none",
+      "68% of posts in 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "5 hub-like posts",
+      "80 posts with lastmod in the last 12 months, median 2,227 words"
+    ],
+    "tool": "blog_sample.py helpscout.com, 2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Help desk / shared inbox software is one of the most researched SaaS categories: G2/Capterra categories, 'best help desk software' listicles, many 'Help Scout vs Front/Zendesk/Intercom' and 'Help Scout pricing' pages written by competitors (eesel.ai, TestBox, Front). Self-serve signups plus a growing mid-market sales motion.",
+    "competitors": [
+      {
+        "name": "Zendesk",
+        "seo_investment": "very high (large content and comparison hub)",
+        "evidence_url": "https://www.zendesk.com/blog/"
+      },
+      {
+        "name": "Front",
+        "seo_investment": "high (inferred: a \"Help Scout vs Front: Complete comparison for 2026\" page ranks for Help Scout queries, publisher not confirmed)",
+        "evidence_url": "https://front.com/blog"
+      },
+      {
+        "name": "Intercom",
+        "seo_investment": "high",
+        "evidence_url": "https://www.intercom.com/blog/"
+      },
+      {
+        "name": "eesel.ai",
+        "seo_investment": "high (writes Help Scout pricing/review pages aimed at it, incl. localized ones)",
+        "evidence_url": "https://www.eesel.ai/ja/blog/helpscout-ryokin"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "Google via BD (site:linkedin query fell back to general results) 'Help Scout Demand Generation'",
+        "top_results": [
+          "Help Scout Review: Support Suite Features and Pricing",
+          "Help Scout Review 2026: Pricing, The Per-Seat Ceiling",
+          "Help Scout vs Front: Complete comparison for 2026",
+          "Our three biggest challenges with Help Scout | by TestBox"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "The upmarket/AI repositioning: years of SMB-oriented content and third-party 'per-seat ceiling' and pricing reviews define Help Scout in search and AI answers as an SMB tool, while the company wants mid-market buyers. If the new story doesn't reach answers, competitors' and reviewers' framing wins the shortlist.",
+    "why_not_yet": "agency_run: strong historical SEO run by brand/content team with content partners and an AEO contractor; no dedicated owner, which the new role fixes.",
+    "evidence": [
+      "Ashby JD 2026-11-24 (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "Google results 2026-11-24 (direct)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need and active hiring for exactly this work (growing, can pay: lead role, director band ~$200k), but the hiring manager's name couldn't be verified and marketing leadership is in flux; applying through the Ashby post plus a note to the VP Marketing / Director Demand Gen is the route. Role is US-hiring only, so an engagement/audit angle may land better than the role itself."
+  },
+  "brightdata_requests": 3,
+  "features": {
+    "industry": "vertical_saas",
+    "stage": "series_b",
+    "situation": "established",
+    "size_band": "51_200",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "misrepresented",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "contacts": [
+    {
+      "name": "Director of Demand Generation (name not found)",
+      "role": "Hiring manager for SEO / AEO Lead",
+      "email": null,
+      "email_verified": false,
+      "source": "Ashby JD 2026-11-24",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Kristen Bryant Smith",
+      "role": "VP of Marketing (unverified, may be stale)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.helpscout.com/authors/kristen-bryant-smith ; Google site:linkedin.com/in title 2026-11-24",
+      "recipient_rank": 2
+    },
+    {
+      "name": "Andrea Kayal",
+      "role": "Chief Revenue Officer",
+      "email": null,
+      "email_verified": false,
+      "source": "Google site:linkedin.com/in title 2026-11-24; VP Marketing posting (aggregator)",
+      "recipient_rank": 3
+    }
+  ],
+  "outreach_angle": "Their own words: 'far more visible in search than a company our size usually is. Now we're changing how we position Help Scout as we move upmarket.' Show how AI answers describe Help Scout today (SMB, per-seat ceiling) versus the upmarket story, plus the blog audit of 315 posts as 'how I'd start in the role'.",
+  "sources": [
+    {
+      "url": "https://jobs.ashbyhq.com/helpscout/124fc642-1462-413e-9999-526ccf717752",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "SEO / AEO Lead JD, US remote, reports to Director of Demand Generation"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/seo-aeo-lead-at-help-scout-4493984192",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "post found by jobs.py (LinkedIn US)"
+    },
+    {
+      "url": "https://www.helpscout.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "315 posts, looks planned"
+    },
+    {
+      "url": "https://www.helpscout.com/authors/kristen-bryant-smith",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "VP of Marketing title"
+    },
+    {
+      "url": "https://jobs.techstars.com/companies/help-scout/jobs/65098849-vp-marketing",
+      "date": "2026-08",
+      "kind": "unverified",
+      "result": "VP Marketing posting: reports to CRO, AEO expert + agencies"
+    },
+    {
+      "url": "https://remotivated.com/jobs/director-of-demand-generation-at-help-scout",
+      "date": "2026",
+      "kind": "unverified",
+      "result": "Director of Demand Generation posting (reports to VP Marketing)"
+    },
+    {
+      "url": "https://articles.helpscout.com/toby-gabriner-ceo/",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "Toby Gabriner CEO, ex-Bitly"
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/52969-96",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "Series B1 $40M Jan 2021"
+    }
+  ],
+  "sources_tried_failed": [
+    "Google site:linkedin.com/in 'Help Scout' 'Demand Generation' via BD: returned general results, no person titles (couldn't verify hiring manager)"
+  ],
+  "open_questions": [
+    "Who is the Director of Demand Generation now?",
+    "Is Kristen Bryant Smith still VP Marketing, or was the Aug 2026 VP role filled by someone else?",
+    "US-only hiring: the sponsor may prefer the engagement/audit ask over the application."
+  ]
+}
