@@ -1,0 +1,239 @@
+{
+  "scout_version": 4,
+  "slug": "reducto",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "trigger": "seo_job_post",
+  "brightdata_requests": 0,
+  "company": "Reducto",
+  "domain": "reducto.ai",
+  "job": {
+    "title": "SEO/GEO Manager",
+    "url": "https://jobs.ashbyhq.com/reducto/d8b56657-c660-4619-b918-a65e695b801e",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/seo-geo-manager-at-reducto-4453626347",
+    "posted": "2026-08-12 (Ashby); LinkedIn repost 2026-11-24",
+    "location": "San Francisco HQ, on-site (in person)",
+    "compensation": "$150K-$180K + equity",
+    "open_checked": "2026-11-24T16:53:25+00:00",
+    "open_check_detail": "jobs.py check-open: open (post open; role on Ashby board reducto)",
+    "seniority": "manager / 'SEO & GEO Lead' high-ownership IC, 5+ yrs",
+    "reports_to": "not stated; Growth Marketing Manager JD reports to the CEO, Sr. Content Marketing Manager to the Brand and Content Lead (inferred: CEO or growth/marketing lead)"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (LinkedIn repost 2026-11-24); confirmed on Reducto's Ashby board (published 2026-08-12)",
+  "reason": "Document-AI infrastructure (a16z-led $75M Series B Oct 2025, $108M total, revenue '8x YoY') needs an SEO/GEO owner because 'developers and technical buyers increasingly discover products through ChatGPT, Claude, Google AI and coding agents'. Their 53-post blog looks unplanned (0.3 internal links/post, 70% link to none) while LlamaIndex and Firecrawl own the 'best document parsing API' results.",
+  "gating_note": "Hiring the role itself. No SEO person found; marketing is small and founder-adjacent (Growth Marketing Manager reports to the CEO; Brand and Content Lead and Field Marketing Lead exist; a (Founding) Head of Marketing was advertised 2025-2026 and is no longer on the Ashby board: filled or dropped, couldn't verify). Role open since Aug 2026: hard to fill.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {
+        "name": "Adit Abraham",
+        "role": "Co-founder & CEO (Growth Marketing Manager reports to him)",
+        "kind": "direct (JD) / unverified (name via press snippets)"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Brand and Content Lead",
+        "kind": "direct (named as a role in Sr. Content Marketing Manager JD)"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Head of Marketing (posted 2025-2026; not on board now)",
+        "kind": "couldn't verify"
+      }
+    ],
+    "evidence": [
+      "Ashby JDs 2026-08..11 (direct): reporting lines",
+      "Built In / Simplify postings for (Founding) Head of Marketing 2025-2026 (unverified)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: 'build an SEO or organic growth program from an early-stage foundation' (bonus) and IC role across site, blog, docs, cookbooks"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded by Adit Abraham and Raunak Chowdhuri (YC). $75M Series B led by a16z (Oct 2025, $108M total; Benchmark, First Round). Revenue up 8x YoY per JD; acquired Opennote (May 2026, unverified) and launched a 1-cent-per-page parsing model (Sep 2026, unverified). 38 open roles, building a marketing team (growth, content, field, brand design) mostly reporting to the CEO.",
+    "confidence": "medium"
+  },
+  "blog_signal": {
+    "impression": "looks unplanned",
+    "reading": [
+      "developed blog: 53 posts under /blog/ (2024-01-19 to 2026-11-17)",
+      "0.3 in-body links to other posts on average, 70% of sampled posts link to none",
+      "51% of posts in 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "no hub-like posts",
+      "50 posts with lastmod in the last 12 months, median 1,058 words"
+    ],
+    "tool": "blog_sample.py reducto.ai, 2026-11-24"
+  },
+  "site_and_content": {
+    "surfaces_named_in_jd": "marketing site, blog, documentation, cookbooks, comparison and industry pages, third-party surfaces",
+    "note": "JD asks for someone who works directly in the marketing site codebase/CMS"
+  },
+  "jobs": {
+    "board": "ashby:reducto, 38 open roles (2026-11-24)",
+    "marketing_roles_open": [
+      "SEO/GEO Manager 2026-08-12",
+      "Sr. Content Marketing Manager 2026-08-21",
+      "Growth Marketing Manager 2026-09-15 (reports to CEO)",
+      "Field Marketing Manager x2 2026-11-09",
+      "Brand Designer 2026-05-18"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Adit Abraham",
+      "role": "Co-founder & CEO (marketing hires report to him)",
+      "email": null,
+      "email_verified": false,
+      "source": "Growth Marketing Manager JD (Ashby, 2026-09-15); a16z/press snippets 2025",
+      "recipient_rank": 1
+    },
+    {
+      "name": "(not identified)",
+      "role": "Brand and Content Lead",
+      "email": null,
+      "email_verified": false,
+      "source": "Sr. Content Marketing Manager JD (Ashby 2026-08-21)",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their words: 'Search is changing. Developers and technical buyers increasingly discover products through ChatGPT, Claude, Google AI, and coding agents.' Show how AI answers to 'best document parsing API' list LlamaParse/Firecrawl/Docling first, plus the 53-post blog audit (almost no links between posts) as how I'd start.",
+    "source": "Ashby JD",
+    "date": "2026-08-12"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Developers and AI teams search and ask assistants/coding agents for parsers ('best document parsing API', 'PDF parser for LLM'); many listicles and vendor 'best X' pages; G2 has a Reducto page with poor alternatives matching. Self-serve API + enterprise sales.",
+    "competitors": [
+      {
+        "name": "LlamaIndex (LlamaParse)",
+        "seo_investment": "very high: dozens of 'insights' listicles ranking for parsing/extraction queries",
+        "evidence_url": "https://www.llamaindex.ai/insights/best-document-parsing-apis"
+      },
+      {
+        "name": "Firecrawl",
+        "seo_investment": "high: 'best document parsing APIs 2026', 'best PDF parsers' posts ranking",
+        "evidence_url": "https://www.firecrawl.dev/blog/best-document-parsing-apis"
+      },
+      {
+        "name": "Unstructured",
+        "seo_investment": "medium-high (inferred from memory: active blog)",
+        "evidence_url": "https://unstructured.io/blog"
+      },
+      {
+        "name": "Docling (IBM, open source)",
+        "seo_investment": "low (open-source; ranks through others' listicles)",
+        "evidence_url": "https://github.com/docling-project/docling"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best document parsing API for LLMs PDF extraction (WebSearch, not Google)",
+        "top_results": [
+          "llamaindex.ai best document parsing APIs",
+          "llamaindex.ai best document extraction APIs",
+          "firecrawl.dev best document parsing APIs 2026",
+          "llamaindex.ai best LLM document parser",
+          "firecrawl.dev best PDF parsers"
+        ],
+        "date": "2026-11-24"
+      },
+      {
+        "query": "Reducto alternatives (WebSearch)",
+        "top_results": [
+          "g2.com reducto alternatives (lists unrelated RPA tools)",
+          "cbinsights",
+          "capterra",
+          "toolradar",
+          "startuphub",
+          "tooljunction"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Competitor-owned listicles (LlamaIndex, Firecrawl) define the category in search and feed AI answers; Reducto appears only inside their lists. Third-party 'alternatives' pages misclassify it (G2 lists Blue Prism, Miro). New products (cheap parsing model) have no organic home if the blog stays unlinked.",
+    "why_not_yet": "never_prioritized: technical founders, small marketing team built in 2025-26; blog published post by post.",
+    "evidence": [
+      "Ashby JD (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, fast growth and money to pay ($150-180K role, $108M raised); the role has been open 3+ months (repost today) so they may welcome a strong candidate. But the role is on-site SF only, the recipient is the busy CEO (no named marketing head verified)."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "finding_pattern": "unknown",
+    "opener_type": "their_words",
+    "industry": "data_ai_infra",
+    "stage": "series_b",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "us",
+    "recipient_role": "ceo",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/reducto",
+      "date": "2026-08-12",
+      "kind": "direct",
+      "result": "SEO/GEO Manager JD $150-180K on-site SF; other marketing JDs reporting lines"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/seo-geo-manager-at-reducto-4453626347",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "check-open: post open"
+    },
+    {
+      "url": "https://reducto.ai/blog/reducto-series-b-funding",
+      "date": "2025-10-14",
+      "kind": "direct",
+      "result": "(via WebSearch snippet) $75M Series B led by a16z, $108M total"
+    },
+    {
+      "url": "https://reducto.ai/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "53 posts, looks unplanned"
+    },
+    {
+      "url": "https://builtin.com/job/head-marketing/8306348",
+      "date": "2026",
+      "kind": "unverified",
+      "result": "Head of Marketing posting (status unknown)"
+    },
+    {
+      "url": "https://www.llamaindex.ai/insights/best-document-parsing-apis",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "competitor listicle ranking (WebSearch)"
+    }
+  ],
+  "sources_tried_failed": [
+    "WebSearch for a named Reducto Head of Marketing / growth lead: none found"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Was the Head of Marketing role filled (by whom)? Name of the Brand and Content Lead."
+  ],
+  "open_questions": [
+    "Reporting line of the SEO/GEO role (CEO vs a marketing head)",
+    "On-site SF requirement vs sponsor's location"
+  ]
+}

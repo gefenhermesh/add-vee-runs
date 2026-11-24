@@ -1,0 +1,190 @@
+{
+  "scout_version": 4,
+  "company": "Swovo",
+  "domain": "swovo.com",
+  "slug": "swovo",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "proposed": false,
+  "not_a_match": "agency: Swovo (formerly Flatirons Development) is a Boulder software development consultancy / staff-augmentation firm, not a product startup (SCOUT.md 'Not a match by definition: agencies and service shops'). Also the role is Latin America only, $42K-60K, no equity.",
+  "job": {
+    "title": "Senior SEO & Growth Manager",
+    "url": "https://wellfound.com/jobs/4716530-senior-seo-growth-manager",
+    "linkedin_url": "https://wellfound.com/jobs/4716530-senior-seo-growth-manager",
+    "posted": "2026-09-14",
+    "location": "Remote, Latin America only (Brazil, Colombia, LatAm), US Eastern hours; company in Boulder",
+    "open_checked": "2026-11-24T16:54:02+00:00",
+    "seniority": "senior IC: 7+ years growth/acquisition, owns SEO + Google Ads across business lines; $42K-60K, no equity",
+    "reports_to": "not stated; couldn't verify"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (Wellfound post 2026-09-14)",
+  "reason": "Not a match: Swovo is a software development consultancy (agency), and the role is LatAm-only at $42-60K. Recorded, not proposed, although organic search is its main acquisition channel and it is declining (JD).",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the role itself ('Organic search has historically been our strongest acquisition channel... rebuilding and growing that engine', diagnose 'traffic and lead declines'). Excluded by 'Who fits': agency/service shop. Applying is also blocked by the LatAm-residence requirement.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {
+        "name": "Michael Frederick",
+        "role": "Co-Founder & CEO (per Clutch)",
+        "kind": "unverified"
+      },
+      {
+        "name": "Rosina Bosco",
+        "role": "Co-Founder & CCO (per Clutch)",
+        "kind": "unverified"
+      }
+    ],
+    "evidence": [
+      "Clutch profile via WebSearch 2026-11-24"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: the hire owns SEO and paid; may manage outside SEO/link partners"
+    ]
+  },
+  "situation": {
+    "estimate": "Boulder software consultancy founded 2017/2018 as Flatirons Development, renamed Swovo; US product leadership with LatAm engineering teams; services: product development, modernization, staff augmentation, AI development; a second line 'Swovo Fuse'. 11-50 people (Wellfound per brief), no funding found.",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "Senior SEO & Growth Manager",
+    "date": "2026-09-14",
+    "source": "https://wellfound.com/jobs/4716530-senior-seo-growth-manager"
+  },
+  "fit_evidence": [
+    {
+      "claim": "swovo.com title 'Custom Software Design & Development Company'; 'Boulder-based software consultancy pairing US product leadership with senior, time-zone-aligned teams across Latin America'",
+      "kind": "direct",
+      "url": "https://swovo.com/",
+      "date": "accessed 2026-11-24"
+    },
+    {
+      "claim": "buying_journey considered: clients pick a dev partner after research (Clutch reviews, 'outsourcing' content), one or a few deciders",
+      "kind": "inferred",
+      "url": "https://clutch.co/profile/swovo",
+      "date": "accessed 2026-11-24"
+    }
+  ],
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 210 posts under /blog/ (2022-05 to 2026-11-19)",
+      "4.0 in-body links to other posts on average, 10% with none",
+      "45% in 6 main topics (scattered)",
+      "category taxonomy pages; 5 hub-like posts"
+    ],
+    "tool": "blog_sample.py swovo.com, 2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Buyers of custom software development research online (Clutch, listicles of dev firms, 'outsourcing software development' guides); the JD says organic search has been its strongest acquisition channel and has declined.",
+    "competitors": [
+      {
+        "name": "Clutch-listed Boulder/Denver dev shops (not named; not checked)",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://clutch.co/profile/swovo"
+      },
+      {
+        "name": "Clutch (marketplace that ranks dev firms)",
+        "seo_investment": "very high",
+        "evidence_url": "https://clutch.co/profile/swovo"
+      },
+      {
+        "name": "Toptal",
+        "seo_investment": "high (inferred from memory, not checked)",
+        "evidence_url": "https://www.toptal.com/"
+      }
+    ],
+    "serp_checks": [],
+    "cost_of_absence": "JD: organic search was the strongest channel and traffic/leads have declined; the hire must 'identify the causes of traffic and lead declines'.",
+    "why_not_yet": "unclear: had SEO results before; decline now (JD).",
+    "evidence": [
+      "Wellfound JD 2026-11-24 (direct)",
+      "swovo.com homepage (direct)",
+      "blog_sample (direct)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "low",
+    "why": "Agency/service shop (not a match by definition), the role is restricted to LatAm residents at $42-60K, and no marketing leader identified. Record only."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "dev_services",
+    "stage": "bootstrapped",
+    "situation": "established",
+    "size_band": "1_50",
+    "geo": "us",
+    "finding_pattern": "unknown",
+    "recipient_role": "ceo",
+    "buying_journey": "considered",
+    "seo_need": "high"
+  },
+  "contacts": [
+    {
+      "name": "Michael Frederick",
+      "role": "Co-Founder & CEO (per Clutch)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://clutch.co/profile/swovo (WebSearch 2026-11-24)",
+      "recipient_rank": 1
+    }
+  ],
+  "outreach_angle": {
+    "hook": "None proposed (not a match). If ever: JD says organic search was their strongest channel and is declining.",
+    "source": "https://wellfound.com/jobs/4716530-senior-seo-growth-manager",
+    "date": "2026-09-14"
+  },
+  "sources": [
+    {
+      "url": "https://swovo.com/",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "software design & development consultancy"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4716530-senior-seo-growth-manager",
+      "date": "2026-09-14",
+      "kind": "direct",
+      "result": "full JD: LatAm only, $42-60K, no equity, 'Posted 2 months ago'; applications via ats.swovo.com/jobboard"
+    },
+    {
+      "url": "jobs.py check-open on the Wellfound post",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "state open (post open, no company board found)"
+    },
+    {
+      "url": "https://clutch.co/profile/swovo",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "formerly Flatirons Development; CEO Michael Frederick, CCO Rosina Bosco"
+    },
+    {
+      "url": "https://swovo.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "210 posts, looks planned"
+    }
+  ],
+  "sources_tried_failed": [
+    "swovo.com/careers and /about: 404 (2026-11-24); ats.swovo.com not read"
+  ],
+  "open_questions": [
+    "None needed: not a match (agency, LatAm-only role)."
+  ]
+}

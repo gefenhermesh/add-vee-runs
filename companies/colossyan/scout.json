@@ -1,0 +1,233 @@
+{
+  "scout_version": 4,
+  "company": "Colossyan",
+  "domain": "colossyan.com",
+  "slug": "colossyan",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "SEO Manager",
+    "url": "https://jobs.deel.com/colossyan/job-details/f71fd206-3328-43e7-9101-2b2c712c02ca/overview",
+    "linkedin_url": "https://uk.linkedin.com/jobs/view/seo-manager-at-colossyan-4488670858",
+    "posted": "2026-11-11",
+    "location": "London (hybrid); UK visa sponsorship offered",
+    "open_checked": "2026-11-24T16:55:40+00:00",
+    "seniority": "manager / first growth marketer in London: 5+ years growth/performance/demand gen with SEO or paid depth; scope is SEO+AEO/GEO plus paid, demand gen and budget",
+    "reports_to": "Head of Growth (per JD); JD also says 'working directly with our CEO'"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (LinkedIn UK post 2026-11-11); confirmed on colossyan.com/careers, which links to a Deel ATS board",
+  "reason": "Series A AI training-video platform (~50 people, London/Budapest, $22M Series A Feb 2024, G2 Leader) is hiring its first London growth marketer to own SEO and AEO/GEO: 'Traffic arriving from AI assistants already converts better for us than any other organic source'. Synthesia publishes 'best Colossyan alternatives' and 'Synthesia vs Colossyan' pages aimed at them: high need, a clear hook.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the role itself: 'Nobody owns turning that into pipeline', 'our first growth marketing hire in London, working directly with our CEO', 'no large agency or support structure behind you'. JD says reports to Head of Growth; a Head of Growth (London) was advertised earlier on Teamtailor (board now 404) and colossyan.com/careers lists a Head of Marketing whose Deel link returns 'Job Not Found' (2026-11-24): marketing leadership is being (re)built. Existing website manager and designers. Not blocked: no SEO team found, though the blog (405 posts) and many alternatives/vs pages show strong existing SEO craft.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {
+        "name": "Dominik Mate Kovacs",
+        "role": "Founder & CEO (JD: role works directly with the CEO)",
+        "kind": "unverified"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Head of Growth, the role's manager (may not be hired yet)",
+        "kind": "couldn't verify"
+      }
+    ],
+    "evidence": [
+      "Deel JD (createdAt 2026-11-11): reports to Head of Growth; 'first growth marketing hire in London, working directly with our CEO'",
+      "colossyan.com/careers 2026-11-24 lists Head of Marketing, SEO Manager, CS roles, Head of People; Head of Marketing Deel page 'Job Not Found'",
+      "WebSearch: Head of Growth London posting on colossyan.teamtailor.com (older; Teamtailor board now 404)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: nobody owns pipeline from organic; hire will be hands-on with no agency behind them",
+      "Partners: website manager and designers (JD)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded ~2020 in Budapest/London (inferred). $5M Series A Feb 2023 (Sifted) and $22M Series A Feb 2024 led by Lakestar (company post, Gunderson). Now positions as 'the agentic platform for training and enablement' (AI agents draft videos and interactive courses), customers incl. Paramount, Continental, Cisco, J&J, UPS; ~1M videos created; G2 Leader in AI Video Generator and Course Authoring; 'just over 50 people' (JD, direct). Rebuilding growth/marketing leadership in London. Category language shift (from 'AI video generator' to 'agentic training platform') is a classic AI-answer lag risk.",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "SEO Manager",
+    "date": "2026-11-11",
+    "source": "https://jobs.deel.com/colossyan/job-details/f71fd206-3328-43e7-9101-2b2c712c02ca/overview"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: 'Traffic arriving from AI assistants already converts better for us than any other organic source, and we have barely started on it'",
+      "kind": "direct",
+      "url": "https://jobs.deel.com/colossyan/job-details/f71fd206-3328-43e7-9101-2b2c712c02ca/overview",
+      "date": "2026-11-11"
+    },
+    {
+      "claim": "buying_journey committee: enterprise L&D/enablement teams (Paramount, Cisco, UPS) plus self-serve; G2 categories exist",
+      "kind": "direct",
+      "url": "https://jobs.deel.com/colossyan/job-details/f71fd206-3328-43e7-9101-2b2c712c02ca/overview",
+      "date": "2026-11-11"
+    }
+  ],
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 405 posts under /posts/ (2024-02 to 2026-11-19)",
+      "internal linking decent: 4.0 in-body links to other posts on average, 0% with none",
+      "79% of posts in 6 main topics",
+      "no taxonomy pages; 5 hub-like posts",
+      "many off-core posts in sample (e.g. AI VFX generators) suggest volume/programmatic content (not checked)"
+    ],
+    "tool": "blog_sample.py colossyan.com, 2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "AI video / course-authoring tools are heavily researched: G2 compare pages (Colossyan vs Synthesia), Capterra, eLearning Industry directory, Vidyard comparison pages, many 'best AI video generator' listicles; self-serve plus enterprise sales.",
+    "competitors": [
+      {
+        "name": "Synthesia",
+        "seo_investment": "very high (publishes 'best Colossyan alternatives' and 'Synthesia vs Colossyan' aimed at them)",
+        "evidence_url": "https://www.synthesia.io/post/best-colossyan-alternatives"
+      },
+      {
+        "name": "HeyGen",
+        "seo_investment": "high (inferred from memory, not checked)",
+        "evidence_url": "https://www.heygen.com/blog"
+      },
+      {
+        "name": "Vidyard",
+        "seo_investment": "high (Colossyan vs Synthesia compare page)",
+        "evidence_url": "https://www.vidyard.com/compare/colossyan-vs-synthesia"
+      },
+      {
+        "name": "Vyond",
+        "seo_investment": "couldn't verify (on G2 compare with Colossyan)",
+        "evidence_url": "https://www.g2.com/compare/synthesia-vs-vyond-vs-colossyan-creator"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AI video generator for training Synthesia vs Colossyan (WebSearch, not Google via BD)",
+        "top_results": [
+          "colossyan.com/synthesia-ai-video-generator",
+          "colossyan.com/alternatives/colossyan-vs-synthesia",
+          "cbinsights compare",
+          "vidyard.com compare colossyan-vs-synthesia",
+          "synthesia.io best-colossyan-alternatives",
+          "g2.com compare"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "The category is moving from 'AI avatar video' to 'agentic training/course platform'; Synthesia (much larger, higher G2 review count) defines the comparisons and writes the 'Colossyan alternatives' answer. If AI answers keep Colossyan as 'a Synthesia alternative' rather than the training/enablement platform, the higher-converting AI-referral channel the JD names stays capped.",
+    "why_not_yet": "agency_run / no owner: strong content output exists but the JD says nobody owns turning organic into pipeline; the role is the first owner.",
+    "evidence": [
+      "Deel JD (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch 2026-11-24 (direct result list)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "high",
+    "why": "High need stated in their own words, growing (G2 Leader, enterprise logos, several senior roles open), funded ($22M Series A 2024) and the role is in London with visa sponsorship offered, so the sponsor can actually take it. Someone to write to: the CEO (role works directly with him) while the Head of Growth seat is unconfirmed. Strong existing blog gives add-vee's blog audit material."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "hr_tech",
+    "stage": "series_a",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "eu",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "ceo",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "contacts": [
+    {
+      "name": "Dominik Mate Kovacs",
+      "role": "Founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "Dealroom/CB Insights via WebSearch 2026-11-24 (unverified); JD says role works directly with the CEO",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Head of Growth (name not found, may be unfilled)",
+      "role": "Hiring manager per JD",
+      "email": null,
+      "email_verified": false,
+      "source": "Deel JD",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their words: 'Traffic arriving from AI assistants already converts better for us than any other organic source, and we have barely started on it.' Show how AI answers place Colossyan against Synthesia (whose 'best Colossyan alternatives' page targets them) and whether they reflect the new 'agentic training platform' positioning, plus the 405-post blog read as 'how I'd start'.",
+    "source": "https://jobs.deel.com/colossyan/job-details/f71fd206-3328-43e7-9101-2b2c712c02ca/overview",
+    "date": "2026-11-11"
+  },
+  "sources": [
+    {
+      "url": "https://www.colossyan.com/careers/",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "lists SEO Manager (Marketing, London hybrid) linking to Deel; also Head of Marketing, CSM, Head of CS, Head of People"
+    },
+    {
+      "url": "https://jobs.deel.com/colossyan/job-details/f71fd206-3328-43e7-9101-2b2c712c02ca/overview",
+      "date": "2026-11-11 (createdAt)",
+      "kind": "direct",
+      "result": "full JD; reports to Head of Growth"
+    },
+    {
+      "url": "jobs.py check-open on the Deel post",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "state open (post open, careers page mentions SEO); the LinkedIn post itself hit a login wall (state unknown)"
+    },
+    {
+      "url": "https://jobs.deel.com/colossyan/job-details/24863b4d-184c-417a-8e86-396fac58051c/overview",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "Head of Marketing: 'Job Not Found'"
+    },
+    {
+      "url": "https://colossyan.com/posts/colossyans-series-a-announcement-a-leap-forward-with-22m-funding",
+      "date": "2024-02",
+      "kind": "direct",
+      "result": "$22M Series A (WebSearch summary)"
+    },
+    {
+      "url": "https://www.synthesia.io/post/best-colossyan-alternatives",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "competitor alternatives page aimed at Colossyan (WebSearch result)"
+    },
+    {
+      "url": "https://www.colossyan.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "405 posts, looks planned"
+    }
+  ],
+  "sources_tried_failed": [
+    "Workable, Teamtailor (404), Personio, Ashby, Greenhouse, Lever boards for 'colossyan': all 404 on 2026-11-24; the real board is Deel ATS",
+    "LinkedIn post: login wall for check-open"
+  ],
+  "open_questions": [
+    "Is the Head of Growth hired, or does the hire report to the CEO for now?",
+    "Was the Head of Marketing role just filled (Deel page gone)? A new marketing head would be a better recipient.",
+    "Role mixes SEO with paid and demand gen: does the sponsor want the paid side?"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "scout_version": 4,
+  "slug": "pump-co",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "trigger": "seo_job_post",
+  "brightdata_requests": 0,
+  "company": "Pump.co",
+  "domain": "pump.co",
+  "job": {
+    "title": "SEO/AEO Manager",
+    "url": "https://job-boards.greenhouse.io/pumpcareers/jobs/5457731008",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/seo-aeo-manager-at-pump-co-4481289225",
+    "posted": "2026-10-19 (Greenhouse first published); LinkedIn 2026-11-10",
+    "location": "San Francisco, on-site 5 days a week",
+    "open_checked": "2026-11-24T16:53:26+00:00",
+    "open_check_detail": "jobs.py check-open: open (post open; role on Greenhouse board pumpcareers)",
+    "seniority": "manager (3-6 yrs; owns the channel end to end)",
+    "reports_to": "not stated; Head of Marketing (open since 2024) would own SEO/AEO per its JD; today inferred CEO"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (LinkedIn 2026-11-10); confirmed on Pump's Greenhouse board",
+  "reason": "YC cloud-savings platform (free AWS/GCP/Azure savings, expanding into AI cost optimization, ~$25M revenue est.) wants SEO/AEO so that 'when anyone ... asks an AI assistant about cutting their cloud bill, Pump is the answer'. FinOps search is crowded with vendor listicles (nOps, DoiT, Holori) and Pump's 325-post blog is only partly planned (35% of posts link to no other post).",
+  "gating_note": "Hiring the role itself. No marketing leader: Head of Marketing has been advertised since 2024 and is open again (Greenhouse 2026-10-19), as are Demand Gen Lead, PMM, Content Creator and Brand Designer; an earlier Head of Growth posting (2026-02..04) too. So the SEO hire likely reports to the CEO until a head of marketing lands. No SEO team.",
+  "marketing_leadership": {
+    "status": "not found",
+    "who": [
+      {
+        "name": "Spandana Nakka",
+        "role": "Founder & CEO",
+        "kind": "unverified (named CEO in a June 2026 PR Newswire release via WebSearch snippet)"
+      }
+    ],
+    "evidence": [
+      "Greenhouse board 2026-10-19: Head of Marketing open, owns SEO/AEO and reports to the CEO (direct)",
+      "YC / Built In / career.com Head of Marketing postings since 2024 (unverified)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: 'own a channel end to end', brief content with the content team"
+    ]
+  },
+  "situation": {
+    "estimate": "YC S22, seed (~$4M Mar 2023; totals $4-9.5M differ across aggregators, unverified). Sacra estimates ~$25M 2025 revenue (+257% YoY, unverified). June 2026 expansion into AI cost optimization; GeekWire contributor piece frames a move to an AI-native cloud-operations platform. Rebuilt the whole GTM team in Oct 2026 (19 roles incl. VP Revenue, Head of Marketing). Growing, founder-led marketing.",
+    "confidence": "low"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 325 posts under /blog/ (2023-10-19 to 2026-11-11)",
+      "1.9 in-body links to other posts on average, 35% of sampled posts link to none",
+      "84% of posts in 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "3 hub-like posts",
+      "0 posts with lastmod in the last 12 months (sitemap lastmod), median 2,338 words"
+    ],
+    "tool": "blog_sample.py pump.co, 2026-11-24"
+  },
+  "site_and_content": {
+    "stack": "JD names Webflow or Framer, Ahrefs/Semrush, GSC, GA4; Head of Marketing JD names HubSpot",
+    "topics": "AWS/GCP/Azure pricing, savings plans, FinOps (JD)"
+  },
+  "jobs": {
+    "board": "greenhouse:pumpcareers, 19 open roles (2026-11-24)",
+    "marketing_roles_open": [
+      "Head of Marketing",
+      "SEO/AEO Manager",
+      "Demand Generation Lead (Paid Ads)",
+      "Product Marketing Manager",
+      "Content Creator",
+      "Brand Designer"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Spandana Nakka",
+      "role": "Founder & CEO (no marketing leader in place; Head of Marketing reports to her)",
+      "email": null,
+      "email_verified": false,
+      "source": "PR Newswire 2026-06-16 via WebSearch snippet; Greenhouse Head of Marketing JD",
+      "recipient_rank": 1
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their words: 'when anyone searches for, or asks an AI assistant about, cutting their cloud bill, Pump is the answer.' Show how AI answers to 'best AWS cost optimization tools' list nOps/DoiT/CloudZero/Vantage and not Pump, plus the 325-post blog audit (a third of posts link nowhere) as how I'd start.",
+    "source": "Greenhouse JD",
+    "date": "2026-10-19"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Startups and mid-market engineering/finance teams search for cloud-pricing answers and 'best AWS cost optimization tools'; G2/Capterra/PeerSpot categories exist; many vendor listicles. Free self-serve product: organic is a core acquisition channel.",
+    "competitors": [
+      {
+        "name": "nOps",
+        "seo_investment": "high: AWS cost management tools guides ranking",
+        "evidence_url": "https://nops.io/blog/aws-cost-management-tools"
+      },
+      {
+        "name": "DoiT",
+        "seo_investment": "high: 'best AWS FinOps tools 2026' ranking",
+        "evidence_url": "https://www.doit.com/blog/5-best-aws-finops-tools-for-2026-compared"
+      },
+      {
+        "name": "Holori",
+        "seo_investment": "medium-high: 'best AWS cost optimization tools 2026'",
+        "evidence_url": "https://holori.com/best-aws-cost-optimization-tools/"
+      },
+      {
+        "name": "Vantage",
+        "seo_investment": "high (inferred from memory: large pricing pages / instances.vantage.sh)",
+        "evidence_url": "https://www.vantage.sh/blog"
+      },
+      {
+        "name": "ProsperOps",
+        "seo_investment": "medium-high (inferred)",
+        "evidence_url": "https://www.prosperops.com/blog/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AWS cost optimization tools 2026 (WebSearch, not Google)",
+        "top_results": [
+          "go-cloud.io",
+          "eon.io",
+          "nops.io",
+          "doit.com x2",
+          "newrelic.com",
+          "holori.com"
+        ],
+        "date": "2026-11-24"
+      },
+      {
+        "query": "Pump.co alternatives (WebSearch)",
+        "top_results": [
+          "peerspot Pump.co alternatives (Spot, AWS Cost Explorer, DoiT)",
+          "aichief",
+          "producthunt",
+          "capterra",
+          "getlatka",
+          "g2 (confuses with another 'Pump')"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Pump is absent from the 'best AWS cost optimization tools' lists that AI answers draw on; the name 'Pump' collides with other products on G2/AlternativeTo, so AI assistants may misidentify it. The new AI-cost-optimization line needs an organic home.",
+    "why_not_yet": "founder_led: no marketing leader for 2+ years; content published at volume (325 posts) without an SEO owner.",
+    "evidence": [
+      "Greenhouse JD (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, growing (revenue est. $25M, large GTM hiring wave), can pay; the CEO owns marketing so the email reaches the decision-maker. But no marketing leader yet (the SEO hire may wait for the Head of Marketing), on-site SF 5 days, mid-level 3-6 yrs role, and funding facts are unverified."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "finding_pattern": "unknown",
+    "opener_type": "their_words",
+    "industry": "devtools",
+    "stage": "seed",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "us",
+    "recipient_role": "ceo",
+    "buying_journey": "considered",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/pumpcareers/jobs?content=true",
+      "date": "2026-10-19",
+      "kind": "direct",
+      "result": "SEO/AEO Manager and Head of Marketing JDs; 19 roles"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/seo-aeo-manager-at-pump-co-4481289225",
+      "date": "2026-11-10",
+      "kind": "unverified",
+      "result": "LinkedIn post (not fetched; board check used)"
+    },
+    {
+      "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260616EN85034",
+      "date": "2026-06-16",
+      "kind": "unverified",
+      "result": "AI cost optimization expansion, CEO Spandana Nakka (WebSearch snippet)"
+    },
+    {
+      "url": "https://sacra.com/research/pump-at-25m-revenue-growing-257-yoy/",
+      "date": "2026",
+      "kind": "unverified",
+      "result": "$25M revenue estimate"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/pump-co/jobs/eUVixIP-head-of-marketing",
+      "date": "2024-2026",
+      "kind": "unverified",
+      "result": "long-running Head of Marketing posting"
+    },
+    {
+      "url": "https://pump.co/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "325 posts, partly planned"
+    }
+  ],
+  "sources_tried_failed": [],
+  "linkedin_checks_for_sponsor": [
+    "Is there any marketing lead in place now (Head of Marketing still open)?"
+  ],
+  "open_questions": [
+    "Funding totals conflict ($4-9.5M); stage could be later than seed",
+    "Will the SEO role be filled before or after the Head of Marketing?"
+  ]
+}

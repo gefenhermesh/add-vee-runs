@@ -1,0 +1,260 @@
+{
+  "scout_version": 4,
+  "slug": "gc-ai",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "trigger": "seo_job_post",
+  "brightdata_requests": 0,
+  "company": "GC AI",
+  "domain": "gc.ai",
+  "job": {
+    "title": "Organic Growth Lead (SEO/GEO)",
+    "url": "https://jobs.ashbyhq.com/gc-ai/c1bd9b19-7f1e-4368-9145-3d1b0c39075b",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/organic-growth-lead-seo-geo-at-gc-ai-4491525923",
+    "posted": "2026-11-16",
+    "location": "San Mateo, California (hub: in office Tue-Thu if within 50 miles; company hires across US and Canada)",
+    "compensation": "$180K-$220K + equity (Ashby)",
+    "open_checked": "2026-11-24T16:53:23+00:00",
+    "open_check_detail": "jobs.py check-open: open (role on Ashby board gc-ai; LinkedIn post behind login wall)",
+    "seniority": "lead (senior IC, 5+ yrs; owns organic strategy end to end, may manage agencies/freelancers)",
+    "reports_to": "not stated in JD ('report to leadership'); every other marketing JD on the board reports to the CMO, so inferred CMO"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (LinkedIn post 4491525923); confirmed on GC AI's own Ashby board, published 2026-11-16",
+  "reason": "Legal-AI for in-house counsel (Series B $60M Nov 2025, ~2,100 customers, 'doubled ARR in six months') opened a senior Organic Growth Lead (SEO/GEO) to make GC AI 'the obvious answer when in-house counsel search for legal AI'. Heavily contested category (Harvey, Legora, LegalOn, Spellbook all publish); the role owns pillars, internal linking and GEO tracking, exactly what add-vee's audit and the 366-post blog audit show.",
+  "gating_note": "Hiring the role itself (not a block on this route). No SEO person found; content team exists (JD: 'lead cross-functional work with content'); they already track AI visibility in Profound and publish many vs/alternatives pages, so organic is invested but ownerless. Marketing org under a CMO is being built out (Director PMM, Director Demand Gen, Director Field Marketing, Performance Marketing Lead, Customer Marketing all open).",
+  "marketing_leadership": {
+    "status": "found (unverified)",
+    "who": [
+      {
+        "name": "Mary Williams",
+        "role": "Chief Marketing Officer",
+        "kind": "unverified (GC AI Summit speaker page, event 2026-01-22; Humantic profile)"
+      },
+      {
+        "name": "Robert Kim",
+        "role": "Head of Growth Marketing (search-result title only, may be stale)",
+        "kind": "unverified (WebSearch result title of a LinkedIn profile, not opened)"
+      }
+    ],
+    "evidence": [
+      "Ashby JDs 2026-09..11: Director of PMM, Director of Demand Generation, Senior Customer Marketing Manager, Director of Field & Events Marketing all 'report to the CMO' (direct)",
+      "legaltechevents.com GC AI Summit 2026 page: 'Mary Williams is the Chief Marketing Officer at GC AI' (unverified, event 2026-01-22)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: the hire owns organic strategy and may 'manage agencies or freelancers'; no SEO-titled role or person found in JDs or search snippets (couldn't verify LinkedIn People tab)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2023 by three-time GC Cecilia Ziniti (CEO) and Bardia Pourvakil (CTO). $60M Series B in Nov 2025 (Scale VP + Northzone, ~$555M post); Sacra estimates ~$20M ARR mid-2026 (unverified); JD claims 2,100+ customers and ARR doubled in six months. 26 open roles incl. a full marketing leadership layer: scaling hard, moving to a multi-channel marketing org under a CMO.",
+    "confidence": "medium"
+  },
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 366 posts under /blog/ (2024-05-28 to 2026-11-23)",
+      "4.0 in-body links to other posts on average, 0% of sampled posts with none",
+      "70% of posts in 6 main topics",
+      "blog taxonomy: category",
+      "5 hub-like posts",
+      "366 posts with lastmod in the last 12 months; median words 252 in the sample (may be the .md variant read, low confidence)"
+    ],
+    "tool": "blog_sample.py gc.ai, 2026-11-24"
+  },
+  "site_and_content": {
+    "comparison_pages": "many: /compare/gc-ai-vs-harvey, /compare/gc-ai-vs-legora, /blog/harvey-alternatives, /blog/legora-alternatives, /blog/legora-vs-harvey, /blog/legalon-vs-legora, /blog/best-legal-ai-tools-for-in-house-counsel (WebSearch 2026-11-24)",
+    "markdown_variants": "blog posts exposed as .md (e.g. /blog/ai-legal-assistant.md) — likely an LLM-friendly content effort (weak signal)",
+    "stack": "JD names GA4, Search Console, HubSpot, Profound, Next.js marketing site (direct)",
+    "domain_note": "getgc.ai 301-redirects to gc.ai"
+  },
+  "jobs": {
+    "board": "ashby:gc-ai, 26 open roles (2026-11-24)",
+    "marketing_roles_open": [
+      "Organic Growth Lead (SEO/GEO) 2026-11-16",
+      "Performance Marketing Lead 2026-11-16",
+      "Director of Field & Events Marketing 2026-11-05",
+      "Senior Customer Marketing Manager 2026-11-05",
+      "Director of Demand Generation 2026-10-13",
+      "Director of Product Marketing 2026-09-24"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Mary Williams",
+      "role": "Chief Marketing Officer (unverified)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://legaltechevents.com/events/2026/gc-ai-summit-san-francisco (event 2026-01-22); marketing JDs report to the CMO",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Cecilia Ziniti",
+      "role": "Co-Founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://gc.ai/about (direct, 2026-11-24)",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their words: own the program that 'makes us the obvious answer when in-house counsel search for legal AI' and 'compete for high-intent legal-AI queries against incumbents'. Show how AI answers frame GC AI vs Harvey/Legora/LegalOn today plus the blog audit of 366 posts (pillars + internal linking are named in the JD) as 'how I'd start in the role'.",
+    "source": "Ashby JD",
+    "date": "2026-11-16"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "In-house legal teams shortlist legal AI by searching and asking AI assistants; G2 'AI legal assistant' category, Bloomberg Law / Thomson Reuters / G2 'best legal AI for in-house' guides, and vendors' own listicles all rank. Self-serve trial ($500/seat, 14-day trial) plus enterprise sales: a large buyer set (every company with a legal team).",
+    "competitors": [
+      {
+        "name": "Harvey",
+        "seo_investment": "high: blog content aimed at in-house ('in-house legal software solution', 'AI for general counsel', localized)",
+        "evidence_url": "https://www.harvey.ai/blog/in-house-legal-software-solution"
+      },
+      {
+        "name": "LegalOn",
+        "seo_investment": "high: 'AI legal assistant software' landing pages ranking",
+        "evidence_url": "https://www.legalontech.com/ai-legal-assistant-software"
+      },
+      {
+        "name": "Wordsmith",
+        "seo_investment": "medium-high: 'top Harvey AI competitors' and in-house guides ranking, mentions GC AI",
+        "evidence_url": "https://www.wordsmith.ai/blog/top-harvey-ai-competitors-alternatives"
+      },
+      {
+        "name": "Summize",
+        "seo_investment": "medium: 'top five AI assistants for in-house legal in 2026' listicle",
+        "evidence_url": "https://summize.com/resources/the-top-five-ai-assistants-for-in-house-legal-in-2026"
+      },
+      {
+        "name": "Thomson Reuters CoCounsel",
+        "seo_investment": "high (incumbent content hub)",
+        "evidence_url": "https://legal.thomsonreuters.com/blog/the-reality-check-why-in-house-counsel-are-moving-beyond-basic-ai-tools/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AI legal assistant for in-house counsel (WebSearch, not Google)",
+        "top_results": [
+          "Bloomberg Law best legal AI tools for in-house",
+          "monday.com AI legal assistant",
+          "G2 Learn best AI legal assistant",
+          "Thomson Reuters blog",
+          "gc.ai/blog/ai-legal-assistant",
+          "harvey.ai in-house legal software",
+          "Summize top five",
+          "LegalOn",
+          "Wordsmith"
+        ],
+        "date": "2026-11-24"
+      },
+      {
+        "query": "GC AI vs Harvey vs Legora in-house legal (WebSearch)",
+        "top_results": [
+          "gc.ai/blog/legora-vs-harvey",
+          "sacra.com",
+          "cbinsights alternatives",
+          "gc.ai/blog/harvey-alternatives",
+          "wordsmith.ai top Harvey competitors",
+          "gc.ai/compare/gc-ai-vs-legora",
+          "gc.ai/compare/gc-ai-vs-harvey"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "A crowded, fast-moving category where incumbents (Thomson Reuters, Harvey) and well-funded peers publish heavily; listicles from G2/Bloomberg don't name GC AI in their top picks. JD itself: content 'decayed as the product moves fast'. If AI answers keep recommending Harvey/LegalOn/CoCounsel for in-house queries, GC AI loses the shortlist in its own niche.",
+    "why_not_yet": "never_prioritized as an owned function: content and vs pages exist (planned blog), but no dedicated SEO/GEO owner until this role.",
+    "evidence": [
+      "Ashby JD 2026-11-16 (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch results 2026-11-24 (not Google)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, fast growth, well funded, a lead-level role at $180-220K: good on paper. But a named recipient is only unverified (CMO Mary Williams via a Jan 2026 event page), the company hires in US/Canada only with hub attendance, and they already invest (Profound, many vs pages), so the bar for the hire is high."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "finding_pattern": "unknown",
+    "opener_type": "their_words",
+    "industry": "legal_tech",
+    "stage": "series_b",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "us",
+    "recipient_role": "cmo_vp_marketing",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/gc-ai",
+      "date": "2026-11-16",
+      "kind": "direct",
+      "result": "Organic Growth Lead (SEO/GEO) JD, $180-220K, San Mateo; other marketing JDs report to CMO"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/organic-growth-lead-seo-geo-at-gc-ai-4491525923",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "login wall (check-open: post unknown; board lists role => open)"
+    },
+    {
+      "url": "https://gc.ai/about",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "Cecilia Ziniti Co-Founder & CEO; Bardia Pourvakil Co-Founder & CTO"
+    },
+    {
+      "url": "https://gc.ai/careers",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "role listed, Nov 16 2026"
+    },
+    {
+      "url": "https://legaltechevents.com/events/2026/gc-ai-summit-san-francisco",
+      "date": "2026-01-22",
+      "kind": "unverified",
+      "result": "Mary Williams, CMO at GC AI"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20251107988263/en",
+      "date": "2025-11",
+      "kind": "direct",
+      "result": "(via WebSearch snippet) $60M Series B, Scale VP + Northzone"
+    },
+    {
+      "url": "https://sacra.com/c/gc-ai/",
+      "date": "2026",
+      "kind": "unverified",
+      "result": "~$20M ARR June 2026 estimate"
+    },
+    {
+      "url": "https://gc.ai/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "366 posts, looks planned"
+    }
+  ],
+  "sources_tried_failed": [
+    "LinkedIn job post: login wall",
+    "WebSearch for a GC AI CMO announcement: no press release found"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Is Mary Williams still CMO (Jan 2026 event page is the only source)? Is there a Head of Growth/Content the role would sit under?"
+  ],
+  "open_questions": [
+    "Who exactly does the role report to (JD silent; CMO inferred)?",
+    "Hiring is US/Canada: does the sponsor's location fit, or is the audit/engagement angle better?"
+  ]
+}

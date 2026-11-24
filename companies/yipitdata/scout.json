@@ -1,0 +1,241 @@
+{
+  "scout_version": 4,
+  "company": "YipitData",
+  "domain": "yipitdata.com",
+  "slug": "yipitdata",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "Organic Growth Manager, SEO & AEO",
+    "url": "https://job-boards.greenhouse.io/yipitdata/jobs/8269009",
+    "linkedin_url": "https://wellfound.com/jobs/4881277-organic-growth-manager-seo-aeo",
+    "posted": "2026-10-22",
+    "location": "US remote (NYC HQ; Greenhouse 'US Remote'; Wellfound says 'Remote (Everywhere)', no visa sponsorship, no relocation)",
+    "open_checked": "2026-11-24T16:53:30+00:00",
+    "seniority": "mid-level manager / builder IC: JD body calls it 'Associate SEO and AEO Manager', 4+ years, $108K-123K base + equity; owns SEO+AEO strategy end to end",
+    "reports_to": "not stated in JD (Marketing department); couldn't verify"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (Wellfound post, first published on Greenhouse 2026-10-22); confirmed on YipitData's own Greenhouse board",
+  "reason": "Alt-data / market-research company ($1B+ valuation, Carlyle Series E up to $475M, Dec 2021) is hiring its first SEO & AEO owner to build organic and AI-answer discovery 'from the ground up', with AI citation share as a success metric. A developed but unlinked /resources/ library (443 URLs, 95% of sampled posts link to no other post) gives add-vee's blog audit an obvious 'how I'd start'.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the role itself: 'build the foundation of YipitData's discoverability and organic growth engine', 'a program you get to shape from the ground up'. No SEO team found; content produced with the internal 'YipitAgent team'. Marketing has several managers (Senior Marketing Manager Investor, Sr PMM, Associate Demand Gen Manager, Lead Web Designer) and a VP Marketing referenced in an aggregator posting. Caveats: role is mid-level ('Associate' in the body, $108-123K) for a 9-year sponsor; company is large (hundreds of people, 2021 growth round) and borders on 'established' rather than startup.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {
+        "name": "(not identified)",
+        "role": "VP Marketing (title referenced in a Director of Marketing posting)",
+        "kind": "unverified"
+      }
+    ],
+    "evidence": [
+      "Director of Marketing posting on productmarketingalliance job board says it reports to the VP Marketing (aggregator, date unknown)",
+      "Greenhouse board 2026-11-24: marketing roles open (Associate Demand Generation Manager, Lead Web Designer & Developer, this SEO role); Senior Marketing Manager Investor posting (Jun 2026) per WebSearch snippets",
+      "WebSearch 2026-11-24 for YipitData CMO/VP Marketing/Head of Marketing: no name found"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: role builds the program from the ground up and owns SEO/AEO end to end",
+      "Greenhouse board lists no other SEO role"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2013 (inferred, from memory), NYC HQ with offices in APAC and India. Series E up to $475M from Carlyle at >$1B valuation, Dec 2021 (direct: PR Newswire/press). Two business lines visible on its board: Investor (hedge funds, data feeds) and Corporate (enterprise tech/retail insights, SaaS revenue team), with India engineering and an internal AI content team ('YipitAgent'). Pushing beyond the fund market into corporates, where buyers research online; organic/AEO is being built now.",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "Organic Growth Manager, SEO & AEO",
+    "date": "2026-10-22",
+    "source": "https://job-boards.greenhouse.io/yipitdata/jobs/8269009"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: 'Buyers increasingly find answers through search engines and AI assistants before they ever talk to a vendor'; success = non-branded organic and AI-sourced sessions, AI citation share",
+      "kind": "direct",
+      "url": "https://boards-api.greenhouse.io/v1/boards/yipitdata/jobs?content=true",
+      "date": "2026-11-24"
+    },
+    {
+      "claim": "buying_journey committee: enterprise data subscriptions (one source: high six figures a year) bought by funds and Fortune 500 teams",
+      "kind": "unverified",
+      "url": "https://brightdata.com/blog/web-data/best-alternative-data-providers",
+      "date": "accessed 2026-11-24"
+    }
+  ],
+  "blog_signal": {
+    "impression": "looks unplanned",
+    "reading": [
+      "developed library: 443 URLs under /resources/ (2022-01 to 2026-11-24)",
+      "internal linking looks weak: 0.1 in-body links to other posts on average, 95% of sampled posts link to none",
+      "66% in the 6 main topics",
+      "no taxonomy pages in the sitemap, no hub-like posts",
+      "median 218 words: many items may be short data notes/press rather than articles (not checked)"
+    ],
+    "tool": "blog_sample.py yipitdata.com, 2026-11-24"
+  },
+  "seo_need": {
+    "rating": "medium",
+    "buyer_research": "Two motions. Investor side: a known set of hedge funds/asset managers, sales- and relationship-led (low search dependence). Corporate side (software/AI, retail, payments insights for corporates): a larger buyer set that does research; 'best alternative data providers' listicles (AlphaSense, Bright Data, Exploding Topics, Coresignal) list YipitData; G2/TrustRadius/CB Insights comparison pages exist. The company itself states buyers research via search and AI first (JD).",
+    "competitors": [
+      {
+        "name": "AlphaSense",
+        "seo_investment": "high (large research-article library incl. an 'alternative data providers' guide)",
+        "evidence_url": "https://www.alpha-sense.com/resources/research-articles/alternative-data-providers/"
+      },
+      {
+        "name": "M Science",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://blog.tickertrends.io/p/kpi-prediction-platforms-yipitdata-mscience-vs-tickertrends"
+      },
+      {
+        "name": "Consumer Edge (incl. Earnest Analytics)",
+        "seo_investment": "couldn't verify (CB Insights compare page exists)",
+        "evidence_url": "https://www.cbinsights.com/compare/consumer-edge-vs-yipit"
+      },
+      {
+        "name": "TickerTrends",
+        "seo_investment": "medium (writes 'YipitData vs M Science vs TickerTrends' posts aimed at YipitData)",
+        "evidence_url": "https://blog.tickertrends.io/p/anticipating-consumer-trends-vs-yipitdata-mscience"
+      },
+      {
+        "name": "Bloomberg Second Measure",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://www.cbinsights.com/compare/second-measure-vs-yipit"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best alternative data providers for investors 2026 (WebSearch, not Google via BD)",
+        "top_results": [
+          "alpha-sense.com alternative data providers",
+          "dev.to best alternative data providers 2026",
+          "explodingtopics.com alternative data providers",
+          "brightdata.com best alternative data providers",
+          "coresignal.com alternative data providers"
+        ],
+        "date": "2026-11-24"
+      },
+      {
+        "query": "YipitData vs M Science vs Consumer Edge (WebSearch)",
+        "top_results": [
+          "sacra.com Consumer Edge bundling pressures YipitData",
+          "cbinsights.com compare Consumer Edge vs YipitData",
+          "blog.tickertrends.io YipitData vs M Science",
+          "blog.tickertrends.io KPI prediction platforms YipitData vs M Science vs TickerTrends"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "'YipitData vs' and 'alternative data provider' answers are written by a smaller competitor (TickerTrends), analyst aggregators (Sacra: 'data commoditization') and data vendors (Bright Data, Coresignal). As the company pushes into corporate buyers who research online, those framings define it in AI answers.",
+    "why_not_yet": "never_prioritized: investor business sold through relationships; organic/AEO program is being built now (JD: 'from the ground up').",
+    "evidence": [
+      "Greenhouse JD 2026-11-24 (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch results 2026-11-24 (direct, results pages; contents of listicles unverified)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "Clear need stated by the company and it can pay (unicorn valuation, many open roles: growing). But no named marketing leader to write to (VP Marketing title only), the role is mid-level for the sponsor (~$108-123K, 'Associate' in the body) and US-remote only, and the investor-side buyer set is relationship-led. Application via Greenhouse plus a note with the /resources/ linking finding is the route."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "data_analytics",
+    "stage": "series_c_plus",
+    "situation": "established",
+    "size_band": "201_1000",
+    "geo": "us",
+    "finding_pattern": "unknown",
+    "recipient_role": "cmo_vp_marketing",
+    "buying_journey": "committee",
+    "seo_need": "medium"
+  },
+  "contacts": [
+    {
+      "name": "VP Marketing (name not found)",
+      "role": "Marketing leader; the SEO role's likely manager chain",
+      "email": null,
+      "email_verified": false,
+      "source": "Director of Marketing posting (aggregator) + WebSearch 2026-11-24",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Vinicius Vacanti",
+      "role": "CEO (per Dec 2021 funding press)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.prnewswire.com/news-releases/yipitdata-raises-up-to-475-million-in-series-e-funding-from-carlyle-301438069.html",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their own words: 'Buyers increasingly find answers through search engines and AI assistants before they ever talk to a vendor' and 'YipitData is cited as a source in AI-generated answers'. Show how AI answers frame YipitData today (competitor and aggregator 'vs' pages) plus the /resources/ linking read as 'how I'd start in the role'.",
+    "source": "https://job-boards.greenhouse.io/yipitdata/jobs/8269009",
+    "date": "2026-10-22"
+  },
+  "sources": [
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/yipitdata/jobs?content=true",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "full JD; first_published 2026-10-22, updated 2026-11-24; 40 open roles"
+    },
+    {
+      "url": "https://wellfound.com/jobs/4881277-organic-growth-manager-seo-aeo",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "same JD, 'Posted 1 month ago', remote, no visa sponsorship"
+    },
+    {
+      "url": "jobs.py check-open (Greenhouse yipitdata)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "state open, post open, role on company board"
+    },
+    {
+      "url": "https://www.yipitdata.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "443 /resources/ URLs, looks unplanned"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/yipitdata-raises-up-to-475-million-in-series-e-funding-from-carlyle-301438069.html",
+      "date": "2021-12-06",
+      "kind": "direct",
+      "result": "Series E up to $475M from Carlyle (read via WebSearch summary)"
+    },
+    {
+      "url": "https://jobs.productmarketingalliance.com/director-of-marketing-335e4decc246",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "Director of Marketing posting reports to VP Marketing (WebSearch snippet)"
+    },
+    {
+      "url": "https://blog.tickertrends.io/p/anticipating-consumer-trends-vs-yipitdata-mscience",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "competitor comparison aimed at YipitData (WebSearch result)"
+    }
+  ],
+  "sources_tried_failed": [
+    "WebSearch for named YipitData CMO/VP Marketing/Head of Marketing: no name (2026-11-24)"
+  ],
+  "open_questions": [
+    "Who is VP Marketing now, and who does the SEO role report to?",
+    "Role level (Associate, $108-123K) vs the sponsor's seniority: apply anyway or pitch an engagement?",
+    "Are the 443 /resources/ URLs articles or short data notes (median 218 words)?"
+  ]
+}

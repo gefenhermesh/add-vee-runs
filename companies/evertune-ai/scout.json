@@ -1,0 +1,247 @@
+{
+  "scout_version": 4,
+  "company": "Evertune AI",
+  "domain": "evertune.ai",
+  "slug": "evertune-ai",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "AI Strategist, SEO & GEO",
+    "url": "https://jobs.ashbyhq.com/evertune/f26675f6-062c-4cfc-8b0c-afb8011da57e",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/ai-strategist-seo-geo-at-evertune-ai-4409722862",
+    "posted": "2026-11-23",
+    "location": "New York City (Flatiron office, in-office 3x/week; must be NYC-based)",
+    "open_checked": "2026-11-24T16:53:31+00:00",
+    "seniority": "senior IC, client-facing: 7+ years SEO, $125K-165K + options; owns a book of technical clients and the client GEO playbook",
+    "reports_to": "VP of Client Services (name not found)"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (LinkedIn post 2026-11-23); role listed on Evertune's own Ashby board since 2026-05-05",
+  "reason": "Evertune ($15M Series A, Felicis, Aug 2025) sells AI-visibility/GEO analytics and is hiring a senior client-facing SEO/GEO expert to build its client playbook and shape product. A role fit for the sponsor's expertise, but the company sells what add-vee sells: pitch only the application, not an audit.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "The role is CLIENT-FACING, in Client Services (Ashby department 'Customer Success'), reporting to the VP of Client Services: it advises Evertune's customers on SEO/GEO and feeds Product; it is not Evertune's own marketing SEO. JD also says it helps define 'best-in-class AI discovery strategy for both our customers and our own business'. Overlap: Evertune's product is AI visibility measurement, the same space as add-vee's audit, so an audit/engagement pitch is a competitor pitch; only the job application makes sense. Listed on Ashby since 2026-05-05 (6+ months: hard to fill or re-posted). In-office NYC 3x/week.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {
+        "name": "Brian Stempeck",
+        "role": "CEO & Co-Founder (ex-Trade Desk)",
+        "kind": "direct"
+      },
+      {
+        "name": "Rob Perdue",
+        "role": "COO (ex-Trade Desk COO)",
+        "kind": "direct"
+      },
+      {
+        "name": "Kelsey Platt",
+        "role": "SVP Business Development",
+        "kind": "direct"
+      },
+      {
+        "name": "(not identified)",
+        "role": "VP of Client Services, the role's manager",
+        "kind": "couldn't verify"
+      }
+    ],
+    "evidence": [
+      "evertune.ai/about-us/our-team 2026-11-24: leadership list, no marketing or client-services leader shown",
+      "Ashby JD: reports to VP of Client Services",
+      "Aggregator postings (Built In): Senior Director Client Services, Director of Client Services titles (unverified, may be stale)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: 'one of the first hires in this function', 'internal SEO/GEO subject matter expert'"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2024 in NYC by Trade Desk veterans. $4M seed (Oct 2024, unverified) and $15M Series A led by Felicis (Aug 2025, company release); ~$19-20M raised. Building an 'AI discovery platform' / AI marketing suite for brands and agencies (measure, act, AI advertising). Hiring account execs, engineers and this role; client services org with several AI success manager roles posted in 2026. Category is crowded (Profound, Peec, Scrunch, Semrush/Ahrefs toolkits).",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "AI Strategist, SEO & GEO",
+    "date": "2026-11-23 (LinkedIn); Ashby publishedAt 2026-05-05",
+    "source": "https://api.ashbyhq.com/posting-api/job-board/evertune"
+  },
+  "fit_evidence": [
+    {
+      "claim": "buying_journey committee: enterprise AI-marketing platform sold to brands and agencies by AEs with demos",
+      "kind": "direct",
+      "url": "https://www.evertune.ai/about-us/our-team",
+      "date": "2026-11-24"
+    }
+  ],
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 189 posts under /resources/ (2026-07 to 2026-11-18, dates seen in sample)",
+      "1.8 in-body links to other posts on average, 42% with none",
+      "82% of posts in 6 main topics",
+      "no taxonomy pages; 5 hub-like posts"
+    ],
+    "tool": "blog_sample.py evertune.ai, 2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Marketers research GEO/AI-visibility tools heavily online: many 'best AI visibility tools' and 'Profound alternatives' listicles (HubSpot, ClickUp, SE Ranking, Search Atlas), Slashdot/SourceForge 'Evertune alternatives' pages; SaaS bought by marketing teams after demos.",
+    "competitors": [
+      {
+        "name": "Profound",
+        "seo_investment": "high (publishes a 'Profound vs Evertune' page aimed at it)",
+        "evidence_url": "https://tryprofound.com/resources/articles/profound-vs-evertune"
+      },
+      {
+        "name": "Peec AI",
+        "seo_investment": "couldn't verify (appears across 'Profound alternatives' lists)",
+        "evidence_url": "https://blog.hubspot.com/marketing/profound-alternatives"
+      },
+      {
+        "name": "Scrunch AI",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://slashdot.org/software/comparison/Evertune-vs-Profound-vs-Scrunch-AI"
+      },
+      {
+        "name": "SE Ranking (AI Search Toolkit)",
+        "seo_investment": "high (writes Profound-alternatives content)",
+        "evidence_url": "https://seranking.com/blog/profound-alternatives/"
+      },
+      {
+        "name": "Search Atlas",
+        "seo_investment": "high",
+        "evidence_url": "https://searchatlas.com/blog/best-profound-ai-alterantives/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AI visibility GEO tools Profound Evertune alternatives (WebSearch, not Google via BD)",
+        "top_results": [
+          "blog.hubspot.com Profound alternatives: 9 best tools",
+          "slashdot.org Best Evertune Alternatives 2026",
+          "sourceforge Alternatives to Profound",
+          "clickup.com 11 Best Profound AI Alternatives",
+          "tryprofound.com Profound vs Evertune"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "In its own category, comparison content is written by competitors (Profound's 'Profound vs Evertune') and SEO-suite vendors adding GEO toolkits; most 'best GEO tools' lists are framed around Profound. For a company selling AI visibility, not being the cited answer in its own category undercuts the pitch.",
+    "why_not_yet": "founder_led / early: company founded 2024, content push started recently (189 posts dated from 2026-07 in the sample); ad-tech founders, demand-side product angle.",
+    "evidence": [
+      "Ashby JD 2026-11-24 (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch 2026-11-24 (direct result list)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, funded and growing (several open roles), and the role fits the sponsor's GEO expertise, but: no named hiring manager (VP Client Services unknown), the role is client-facing customer success rather than owning Evertune's own SEO, it requires NYC in-office 3x/week, and Evertune is effectively a competitor to add-vee's audit, so the audit cannot be the opener. Open since May 2026 suggests they struggle to fill it, which helps an applicant."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "martech",
+    "stage": "series_a",
+    "situation": "scaling",
+    "size_band": "1_50",
+    "geo": "us",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "other",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "contacts": [
+    {
+      "name": "VP of Client Services (name not found)",
+      "role": "Hiring manager for AI Strategist, SEO & GEO",
+      "email": null,
+      "email_verified": false,
+      "source": "Ashby JD 2026-11-24",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Rob Perdue",
+      "role": "COO",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.evertune.ai/about-us/our-team (2026-11-24)",
+      "recipient_rank": 2
+    },
+    {
+      "name": "Brian Stempeck",
+      "role": "CEO & Co-Founder",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.evertune.ai/about-us/our-team (2026-11-24)",
+      "recipient_rank": 3
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their words: 'help Evertune define what best-in-class AI discovery strategy looks like for both our customers and our own business'. Lead with the application; show one worked client-style playbook example (not an audit of Evertune), e.g. how AI answers handle 'Evertune vs Profound'. Name the overlap honestly: add-vee's audit is a competing service.",
+    "source": "https://jobs.ashbyhq.com/evertune/f26675f6-062c-4cfc-8b0c-afb8011da57e",
+    "date": "2026-11-23"
+  },
+  "sources": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/evertune",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "4 open roles; AI Strategist SEO & GEO, Customer Success, publishedAt 2026-05-05, full JD"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/ai-strategist-seo-geo-at-evertune-ai-4409722862",
+      "date": "2026-11-23",
+      "kind": "direct",
+      "result": "post from jobs route; check-open read it as HTTP 429, state open via Ashby board"
+    },
+    {
+      "url": "jobs.py check-open",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "state open (company_board ashby:evertune lists the role)"
+    },
+    {
+      "url": "https://www.evertune.ai/about-us/our-team",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "leadership: CEO Stempeck, CPO Chater, CSO Costinsky, CTO Cochran, COO Perdue, SVP BD Platt"
+    },
+    {
+      "url": "https://www.evertune.ai/resources/insights-on-ai/evertune-raises-15-million-series-a-to-scale-its-ai-marketing-and-discovery-platform",
+      "date": "2025-08-12",
+      "kind": "direct",
+      "result": "$15M Series A, Felicis (WebSearch summary of company release)"
+    },
+    {
+      "url": "https://tryprofound.com/resources/articles/profound-vs-evertune",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "competitor vs page aimed at Evertune (WebSearch result)"
+    },
+    {
+      "url": "https://www.evertune.ai/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "189 posts, partly planned"
+    }
+  ],
+  "sources_tried_failed": [
+    "LinkedIn post read by check-open: HTTP 429 (2026-11-24)",
+    "WebSearch for VP of Client Services name: none found"
+  ],
+  "open_questions": [
+    "Who is the VP of Client Services?",
+    "Does the sponsor accept NYC in-office 3x/week?",
+    "Is pitching an AI-visibility audit to an AI-visibility vendor ever wise? Recommend application only."
+  ]
+}

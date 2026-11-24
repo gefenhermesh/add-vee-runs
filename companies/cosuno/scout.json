@@ -1,0 +1,247 @@
+{
+  "scout_version": 4,
+  "slug": "cosuno",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "trigger": "seo_job_post",
+  "brightdata_requests": 0,
+  "company": "Cosuno",
+  "domain": "cosuno.com",
+  "job": {
+    "title": "Organic Growth Manager (SEO & AI Search)",
+    "url": "https://jobs.ashbyhq.com/cosuno/f8a6a8d8-30a7-4450-b55b-70f98bbef552",
+    "linkedin_url": "https://de.linkedin.com/jobs/view/organic-growth-manager-seo-ai-search-at-cosuno-4484715526",
+    "posted": "2026-10-28 (LinkedIn); Ashby publishedAt shows 2026-11-24 (republished)",
+    "location": "Berlin (Kreuzberg office) or fully remote",
+    "compensation": "EUR 60K-75K (Ashby)",
+    "open_checked": "2026-11-24T16:53:29+00:00",
+    "open_check_detail": "jobs.py check-open: open (post open; role on Ashby board cosuno)",
+    "seniority": "manager (mid; first organic/content hire, 'build the function from the ground up'); requires native-level German",
+    "reports_to": "not stated; inferred the Marketing Lead ('one of the first members of a growing marketing team')"
+  },
+  "source_of_lead": "Daily SEO-jobs route deep pass 2026-11-24 (LinkedIn DE 2026-10-28); confirmed on Cosuno's Ashby board",
+  "reason": "Berlin construction-tendering platform (Series B, ~$23M ARR est.) hires its first organic owner to 'make Cosuno impossible to overlook ... from Google and AI assistants', timed with a website relaunch whose SEO migration the hire owns. The 72-post German blog isn't in the sitemap at all (sitemap = 4 static pages + 6,286 marketplace tenders): a sharp, citable migration risk.",
+  "gating_note": "Hiring the role itself. Lean marketing team led by a Marketing Lead (unnamed; postings describe 'our first dedicated Marketing Lead'); other new marketing roles: GTM & Growth Engineer, Senior CRM & Lifecycle Manager, Field Marketing & Partnerships Manager. No SEO team; a website agency runs the relaunch.",
+  "marketing_leadership": {
+    "status": "found (unnamed)",
+    "who": [
+      {
+        "name": "(not identified)",
+        "role": "Marketing Lead",
+        "kind": "unverified (aggregator postings: arc.dev Marketing Lead posting; remotely.de field-marketing post 'join the marketing lead in a lean marketing team')"
+      },
+      {
+        "name": "Fritz Cramer",
+        "role": "Co-founder; Founder & Co-CEO per LeadIQ (unverified)",
+        "kind": "unverified"
+      }
+    ],
+    "evidence": [
+      "Cosuno site: founded 2019 by Christoph Berner, Fritz Cramer and Maximilian Seifert (WebSearch snippet)",
+      "LeadIQ directory Jan 2026: 'F. C.' Founder & Co-CEO, plus an interim CEO (unverified)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: 'become one of the first members of a growing marketing team', manage freelance writers"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2019 in Berlin; Series A (Spark Capital, 2021) and $30M Series B (Avenir, Feb 2022, ~$150M valuation); no later round found. Sacra estimates ARR ~$23M (Aug 2026, unverified). Rebuilding marketing in late 2026 (first Marketing Lead, organic, CRM, growth engineering) and relaunching the website; repositioned as 'the AI construction platform'. Leadership possibly in flux (interim CEO listed, unverified).",
+    "confidence": "low"
+  },
+  "blog_signal": {
+    "impression": "couldn't run (blog not in sitemap)",
+    "reading": [
+      "blog_sample.py: no blog in sitemap (sitemap index = sitemap-static.xml with 4 URLs + sitemap-tenders.xml with 6,286 marketplace URLs)",
+      "manual: Webflow marketing site under /web/; resources page lists 72 German blog posts under /web/de/blog/ (2022-01-26 to 2026-10-06), plus ~15 ebooks and ~20 webinars",
+      "newest posts include 'Ausschreibungssoftware Vergleich 2026' (a comparison of 11 vendors)"
+    ],
+    "tool": "blog_sample.py cosuno.com + manual pagination of /web/de/resources, 2026-11-24"
+  },
+  "site_and_content": {
+    "structure": "marketplace app at /de, /en (React, tender pages); marketing site on Webflow at /web/; /blog redirects to /web/de/resources",
+    "sitemap_gap": "blog, ebooks, webinars and feature pages are not in sitemap.xml (direct, 2026-11-24)",
+    "comparison_pages": "one: /web/de/blog/ausschreibungssoftware-vergleich-2026-neu (direct)"
+  },
+  "jobs": {
+    "board": "ashby:cosuno, 28 open roles (2026-11-24)",
+    "marketing_roles_open": [
+      "Organic Growth Manager (SEO & AI Search)",
+      "GTM & Growth Engineer",
+      "Senior CRM & Lifecycle Manager"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Marketing Lead (name not found)",
+      "role": "Head of the lean marketing team; likely hiring manager",
+      "email": null,
+      "email_verified": false,
+      "source": "aggregator postings (arc.dev, remotely.de), 2026",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Fritz Cramer",
+      "role": "Co-founder (Co-CEO per LeadIQ, unverified)",
+      "email": null,
+      "email_verified": false,
+      "source": "Cosuno site founders mention via WebSearch; LeadIQ Jan 2026",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their words: 'You'll join just in time for our biggest marketing project of the year, our website relaunch' and own its SEO migration. Today the sitemap lists only 4 static pages plus 6,286 tender pages: the 72 blog posts, ebooks and webinars aren't in it, which is exactly what a relaunch migration must fix. Show that, plus how AI answers describe Cosuno vs Procore/BuildingConnected/Tenera.",
+    "source": "Ashby JD + cosuno.com sitemap",
+    "date": "2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "German general contractors and developers research 'Ausschreibungssoftware', 'AVA Software Vergleich', subcontractor platforms; Capterra DE categories (subcontractor, construction bid management), drweb.de 'AVA-Software Vergleich 2026' (31 vendors), baunetzwissen. Considered B2B purchase with a buying committee, plus a two-sided marketplace (subcontractors searching for tenders).",
+    "competitors": [
+      {
+        "name": "Procore",
+        "seo_investment": "high: German landing page for Ausschreibungsmanagement ranking",
+        "evidence_url": "https://www.procore.com/de/ausschreibungsmanagement"
+      },
+      {
+        "name": "Autodesk (Bid Board Pro / BuildingConnected)",
+        "seo_investment": "high",
+        "evidence_url": "https://www.autodesk.com/de/products/bid-board-pro/overview"
+      },
+      {
+        "name": "Tenera",
+        "seo_investment": "medium (press via baunetzwissen)",
+        "evidence_url": "https://www.baunetzwissen.de/controlling-und-management/tipps/news/online-plattform-fuer-ava-prozesse-8493653"
+      },
+      {
+        "name": "iBau",
+        "seo_investment": "medium-high: glossary/academy content on Ausschreibungssoftware",
+        "evidence_url": "https://www.ibau.de/akademie/glossar/ausschreibungssoftware/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "Ausschreibungssoftware Bau Vergleich Nachunternehmer Plattform (WebSearch, not Google)",
+        "top_results": [
+          "baunetzwissen (Tenera)",
+          "capterra.com.de subcontractor software",
+          "drweb.de AVA-Software Vergleich 2026",
+          "softguide",
+          "procore.com/de",
+          "ibau.de glossary",
+          "autodesk.com/de Bid Board Pro",
+          "bau.de forum"
+        ],
+        "date": "2026-11-24"
+      },
+      {
+        "query": "Cosuno Alternative Ausschreibungsplattform Bau (WebSearch)",
+        "top_results": [
+          "baunetzwissen",
+          "baulinks (Cosuno Vergabe-Report)",
+          "cbinsights alternatives",
+          "cosuno.com pages",
+          "trustradius"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Cosuno doesn't appear in the German 'Ausschreibungssoftware' comparison results (Procore, Autodesk, iBau, Capterra do); its content isn't in the sitemap; and a website relaunch without a careful SEO migration risks losing what organic visibility the marketplace pages have.",
+    "why_not_yet": "never_prioritized: sales-led growth after the 2022 Series B; no marketing lead until recently.",
+    "evidence": [
+      "Ashby JD (direct)",
+      "cosuno.com sitemaps + resources pagination 2026-11-24 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need with a concrete, time-bound risk (relaunch migration) and a growing company that can pay. But the role requires native-level German and is mid-level (EUR 60-75K), the Marketing Lead's name couldn't be found, and leadership may be in flux; the engagement angle (relaunch SEO migration audit) may land better than the application."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "finding_pattern": "unknown",
+    "opener_type": "their_words",
+    "industry": "vertical_saas",
+    "stage": "series_b",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "eu",
+    "recipient_role": "cmo_vp_marketing",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/cosuno",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "Organic Growth Manager JD, EUR 60-75K, Berlin/remote, native German"
+    },
+    {
+      "url": "https://de.linkedin.com/jobs/view/organic-growth-manager-seo-ai-search-at-cosuno-4484715526",
+      "date": "2026-10-28",
+      "kind": "direct",
+      "result": "check-open: post open"
+    },
+    {
+      "url": "https://www.cosuno.com/sitemap.xml",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "index -> sitemap-static (4 URLs) + sitemap-tenders (6,286 URLs); no blog"
+    },
+    {
+      "url": "https://www.cosuno.com/web/de/resources",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "72 blog posts across 12 pages, 2022-01-26 to 2026-10-06"
+    },
+    {
+      "url": "https://www.remotely.de/job/cosuno-field-marketing-partnerships-manager",
+      "date": "2026",
+      "kind": "unverified",
+      "result": "'join the marketing lead in a lean marketing team'"
+    },
+    {
+      "url": "https://techcrunch.com/2022/02/09/german-constructiontech-startup-cosuno-raises-30m-series-b-by-avenir-growth",
+      "date": "2022-02-09",
+      "kind": "direct",
+      "result": "(WebSearch snippet) $30M Series B"
+    },
+    {
+      "url": "https://sacra.com/c/cosuno/",
+      "date": "2026-08",
+      "kind": "unverified",
+      "result": "ARR ~$23M estimate"
+    },
+    {
+      "url": "https://leadiq.com/c/cosuno/5d64e7c8408f0cc3d9e8f058/employee-directory",
+      "date": "2026-01",
+      "kind": "unverified",
+      "result": "Founder & Co-CEO 'F. C.', interim CEO listed"
+    }
+  ],
+  "sources_tried_failed": [
+    "blog_sample.py: no blog in sitemap",
+    "cherry.vc/founders/cosuno: 404",
+    "cosuno.com/web/de/uber-uns: no names",
+    "WebSearch for the Marketing Lead's name: not found"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Name of Cosuno's Marketing Lead; current CEO (interim CEO listed by LeadIQ)"
+  ],
+  "open_questions": [
+    "Does the sponsor meet 'native-level German'? If not, use the engagement angle",
+    "Ashby date was refreshed today; original post 2026-10-28"
+  ]
+}
