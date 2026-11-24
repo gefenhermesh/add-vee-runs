@@ -724,7 +724,7 @@
       "slug": "help-scout",
       "company": "Help Scout",
       "domain": "helpscout.com",
-      "status": "proposed",
+      "status": "starting",
       "b2b": true,
       "reason": "Remote B2B help-desk SaaS (~120 people, VC-backed, $35M+ ARR per podcast) posted a senior SEO / AEO Lead today, reporting to the Director of Demand Generation. The JD says they've been 'far more visible in search than a company our size usually is' and are now repositioning upmarket: the risk is that the new story doesn't reach classic search or AI answers, exactly what add-vee's audit and the 315-post blog audit show.",
       "gating_rating": "seo_job_opening",
@@ -759,7 +759,16 @@
         "seniority": "lead (senior IC, owns SEO+AEO strategy to results)",
         "reports_to": "Director of Demand Generation"
       },
-      "priority": 1
+      "priority": 1,
+      "released": {
+        "by": "sponsor",
+        "words": "release help-scout",
+        "at": "2026-11-24T16:38:20+00:00"
+      },
+      "session_id": "session_01FkmvpQM8HR2YtkZPSgFCUx",
+      "started_at": "2026-11-24T16:38:28+00:00",
+      "nudges": 0,
+      "notified": {}
     }
   ],
   "rules": {
@@ -777,7 +786,7 @@
     "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it.",
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax)."
   },
-  "last_tick": "2026-11-20T23:51:43+00:00",
+  "last_tick": "2026-11-24T16:38:28+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",
