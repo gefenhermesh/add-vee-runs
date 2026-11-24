@@ -3,6 +3,6 @@
   "dataset_calls_per_week": 20,
   "dataset_records_per_week": 400,
   "recon_linkedin_companies_per_week": 6,
-  "unlocker_requests_per_week": 80,
-  "_unlocker_note": "Jobs route (sponsor, 2026-11-20): getting the most recent job posts matters more than the cap. If a jobs fetch is skipped because unlocker_requests_per_week was reached, the manager raises it by 10 (pre-approved), reruns that source and says so in one line. Normal use is one or two paid pages a day at most. Raised to 80 (sponsor, 2026-11-24): seojobs.com job pages for the sponsor's own daily job list need one paid request per relevant post (about 5-10 a day)."
+  "unlocker_requests_per_week": 160,
+  "_unlocker_note": "Jobs route (sponsor, 2026-11-20): getting the most recent job posts matters more than the cap. If a jobs fetch is skipped because unlocker_requests_per_week was reached, the manager raises it by 10 (pre-approved), reruns that source and says so in one line. Normal use is one or two paid pages a day at most. Raised to 80 (sponsor, 2026-11-24): seojobs.com job pages for the sponsor's own daily job list need one paid request per relevant post (about 5-10 a day). Raised to 160 (sponsor, 2026-11-24): every relevant seojobs.com post is opened and read, since the site's work-type labels are unreliable (about 15-20 a day)."
 }

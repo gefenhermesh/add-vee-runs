@@ -161,7 +161,8 @@ Startups hiring for SEO right now are the warmest prospects there are: the spons
 
 0. **Jobs for the sponsor himself (sponsor, 2026-11-24), first and short.** `python campaign/scout/seeker.py fetch`
    reads, for the last 24 hours, LinkedIn's remote "search engine optimization" posts listed for Latin America, the
-   United States and Europe (free), and seojobs.com (capped Web Unlocker), keeps only posts never seen before, and
+   United States and Europe (free), and seojobs.com (capped Web Unlocker; every relevant seojobs post is opened and read, because the site's
+   Remote/In-Office labels come from a bot and can be wrong), keeps only posts never seen before, and
    screens each one with filters set ahead in the script: SEO roles only, no junior or intern roles, no Asia;
    **US and seojobs posts are worth applying to when they're remote and don't ask for US work authorization,
    sponsorship, citizenship or US residence**; LATAM posts unless they require residence outside LATAM; Europe

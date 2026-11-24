@@ -214,13 +214,9 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
             time.sleep(1.5)
         elif p["region"] != "seojobs" and relevant:
             p["detail_error"] = "over the daily detail-page limit"
-        # skip on seojobs' own label only when the title doesn't say remote: employers fill the label loosely
-        # (a "SEO Specialist (full-time, remote)" post was labelled In-Office on 2026-11-24)
-        if p["region"] == "seojobs" and p.get("work_type", "").lower() in ("in-office", "hybrid") \
-                and not re.search(r"\bremote\b", p.get("title", ""), re.I):
-            p["screen"] = {"lean": "skip", "why": [f"not fully remote ({p['work_type']} on seojobs)"], "quotes": []}
-            p["apply_url"], p["excerpt"] = p.get("url"), ""
-            continue  # no paid request for a post the list already shows isn't remote
+        # seojobs' Remote / Hybrid / In-Office label is filled by a collecting bot and can be wrong (a "full-time,
+        # remote" post was labelled In-Office on 2026-11-24): never skip on it; read every relevant post itself
+        # (sponsor, 2026-11-24). The label is kept in work_type for reference only.
         if p["region"] == "seojobs" and relevant and p.get("url"):
             try:  # seojobs job pages also refuse plain requests: one capped Web Unlocker request per relevant post
                 page, err = (paid or jobs.paid_fetch)(p["url"])
