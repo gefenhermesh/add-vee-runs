@@ -1,7 +1,7 @@
 {
   "stage": "loop_b",
   "ts": "2026-11-24T18:35:43+00:00",
-  "note": "ChatGPT collected+extracted; Google AI Mode waiting on Oxylabs collector (sponsor decision 2026-11-24, no Gemini fallback). Using the wait for Loop C crawl.",
-  "updated_at": "2026-11-24T20:16:12+00:00",
+  "note": "Both platforms collected and extracted (ChatGPT + Google AI Mode via Oxylabs); analyst running.",
+  "updated_at": "2026-11-24T21:14:59+00:00",
   "branch": "campaign/paddle"
 }
