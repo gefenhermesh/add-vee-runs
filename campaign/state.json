@@ -824,7 +824,7 @@
       "slug": "gc-ai",
       "company": "GC AI",
       "domain": "gc.ai",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Legal-AI for in-house counsel (Series B $60M Nov 2025, ~2,100 customers, 'doubled ARR in six months') opened a senior Organic Growth Lead (SEO/GEO) to make GC AI 'the obvious answer when in-house counsel search for legal AI'. Heavily contested category (Harvey, Legora, LegalOn, Spellbook all publish); the role owns pillars, internal linking and GEO tracking, exactly what add-vee's audit and the 366-post blog audit show.",
       "gating_rating": "seo_job_opening",
@@ -861,13 +861,18 @@
         "seniority": "lead (senior IC, 5+ yrs; owns organic strategy end to end, may manage agencies/freelancers)",
         "reports_to": "not stated in JD ('report to leadership'); every other marketing JD on the board reports to the CMO, so inferred CMO"
       },
-      "priority": 1
+      "priority": 1,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognition, gc-ai, reducto",
+        "at": "2026-11-24T17:31:24+00:00"
+      }
     },
     {
       "slug": "reducto",
       "company": "Reducto",
       "domain": "reducto.ai",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Document-AI infrastructure (a16z-led $75M Series B Oct 2025, $108M total, revenue '8x YoY') needs an SEO/GEO owner because 'developers and technical buyers increasingly discover products through ChatGPT, Claude, Google AI and coding agents'. Their 53-post blog looks unplanned (0.3 internal links/post, 70% link to none) while LlamaIndex and Firecrawl own the 'best document parsing API' results.",
       "gating_rating": "seo_job_opening",
@@ -904,7 +909,12 @@
         "seniority": "manager / 'SEO & GEO Lead' high-ownership IC, 5+ yrs",
         "reports_to": "not stated; Growth Marketing Manager JD reports to the CEO, Sr. Content Marketing Manager to the Brand and Content Lead (inferred: CEO or growth/marketing lead)"
       },
-      "priority": 1
+      "priority": 1,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognition, gc-ai, reducto",
+        "at": "2026-11-24T17:31:24+00:00"
+      }
     },
     {
       "slug": "pump-co",
@@ -1222,7 +1232,7 @@
       "slug": "cognition",
       "company": "Cognition",
       "domain": "cognition.ai",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Cognition (Devin; bought Windsurf, now 'Devin Desktop') raised $2B at $48B in Sept 2026 and is hiring two search roles: an SEO & AEO leader to build organic from scratch (SF) and a Search & AI Discoverability Lead (NYC). The category is new and contested (Cursor, Claude Code, Copilot, Codex), and the JDs ask for exactly the AI-answer visibility the audit measures.",
       "gating_rating": "seo_job_opening",
@@ -1267,7 +1277,12 @@
           "note": "Hands-on IC lead for devin.ai and cognition.ai discoverability (AEO, multi-platform search, programmatic pages), measured on signups. Picked SEO & AEO as the job because it is the broader, function-building, enterprise-pipeline role."
         }
       },
-      "priority": 1
+      "priority": 1,
+      "released": {
+        "by": "sponsor",
+        "words": "release cognition, gc-ai, reducto",
+        "at": "2026-11-24T17:31:24+00:00"
+      }
     },
     {
       "slug": "payhawk",
