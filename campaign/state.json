@@ -4,9 +4,9 @@
     "max_concurrent_running": 1,
     "weekly_target_companies": 5,
     "plan": "claude max (sponsor, 2026-11-19)",
-    "brightdata_paused": true,
+    "brightdata_paused": false,
     "jobs_proposals_per_day": 1,
-    "campaign_paused": true
+    "campaign_paused": false
   },
   "prospects": [
     {
@@ -731,18 +731,19 @@
     "pipeline_note": "From 2026-11-19 (PR #6) build_visibility_files.py keeps only cited:true sources as citations. Company sessions started before that must merge origin/master before Stage 3-4.",
     "gemini": "Gemini paused from 2026-11-20 (add-vee PR #12): new runs collect ChatGPT and Google AI Mode only. Vega Security keeps its Gemini data as collected (sponsor, 2026-11-20).",
     "brightdata_pause": "Bright Data credits at 0 (sponsor, 2026-11-20 ~20:40 UTC): no Bright Data calls anywhere until the sponsor says payment is resumed. tick.py starts no new company while settings.brightdata_paused is true; running audits continue without Bright Data or stop at stage paused_brightdata; scout budgets are 0 (budget.json _paused).",
-    "campaign_pause": "Whole campaign paused by the sponsor (2026-11-21 ~05:10 UTC) until Bright Data payment resumes: the hourly tick (trig_01TYro24KNGAHSNPwqrdkfJM) is disabled, so no ticks, daily mail/follow-up checks, jobs scout or weekly scout run. To resume: re-enable the trigger, then follow MANAGER_TICK.md -> Bright Data pause -> resume.",
-    "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it."
+    "campaign_pause": "Whole campaign paused by the sponsor (2026-11-21 ~05:10 UTC) until Bright Data payment resumes: the hourly tick (trig_01TYro24KNGAHSNPwqrdkfJM) is disabled, so no ticks, daily mail/follow-up checks, jobs scout or weekly scout run. To resume: re-enable the trigger, then follow MANAGER_TICK.md -> Bright Data pause -> resume. RESUMED 2026-11-24: new hourly task trig_01SgYw1mCwWPzdu79SqKqafZ bound to the new manager session.",
+    "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it.",
+    "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax)."
   },
   "last_tick": "2026-11-20T23:51:43+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
-    "trigger_id": null,
+    "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",
     "previous": {
       "session_id": "session_01FkmvpNPQPiaJcrqHcmBq7V",
       "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM (disabled, bound to the old session)"
     },
-    "note": "Set up 2026-11-22 from MANAGER_TICK.md + MANAGER_HANDOFF.md. Tools checked: get_session, create_session, send_message, Gmail (gefen@etico.cr), PushNotification all present. Campaign paused: hourly task not created; create it (bound to this session) when the sponsor resumes Bright Data.",
+    "note": "Set up 2026-11-22; campaign resumed 2026-11-24 (sponsor: Bright Data back). Hourly task trig_01SgYw1mCwWPzdu79SqKqafZ (minute 32) bound to this session.",
     "set_up_at": "2026-11-22T22:30:00+00:00"
   },
   "watch": [

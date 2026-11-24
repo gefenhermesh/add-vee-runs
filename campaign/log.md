@@ -68,3 +68,4 @@ Sponsor: the bottom line is SEO cooperation (work where add-vee is used); B2B pr
 
 ## 2026-11-23 · Scout: re-screen queued
 Sponsor: the next main scout run goes back to the filtered companies. Every company the 2026-11-19 and 2026-11-22 filters dropped or held went into `campaign/scout/queue.json` (181), except types that are not a match by definition (enterprises and incumbents such as Wix, monday.com, Check Point; non-startups; agencies; investors; acquired; games and cheap consumer apps). Companies already recon'd are not re-queued. The next runs take it in batches with the free light check (blog sample included).
+- 2026-11-24 16:32 UTC: sponsor resumed Bright Data; campaign unpaused, scout caps restored, hourly task trig_01SgYw1mCwWPzdu79SqKqafZ created (bound to manager session).
