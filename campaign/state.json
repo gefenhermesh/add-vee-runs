@@ -1260,7 +1260,7 @@
       "slug": "profound",
       "company": "Profound",
       "domain": "tryprofound.com",
-      "status": "proposed",
+      "status": "withdrawn",
       "b2b": true,
       "reason": "Profound (AI-search visibility platform, $180M Series D at $1.8B, Sept 2026) is hiring an AEO/SEO Lead to grow Profound itself through AI answers. Profound sells AI-search visibility, so an audit pitch overlaps its own product; the angle is the role application, showing add-vee-style thinking on their own site (weakly linked, partly planned blog; a crowd of 'Profound alternatives' pages from HubSpot, SE Ranking, Writesonic).",
       "gating_rating": "seo_job_opening",
@@ -1296,7 +1296,8 @@
         "seniority": "lead (5+ years SEO/organic growth, owns the program); base $100k-$200k + equity",
         "reports_to": "not stated in the JD; likely Head of Marketing (other Profound marketing roles report there, per WebSearch snippets)"
       },
-      "priority": 1
+      "priority": 1,
+      "status_note": "Withdrawn by the sponsor 2026-11-24: \"no profound and ai search companies please\" (AI-search/GEO vendors are not a match)."
     },
     {
       "slug": "yipitdata",
@@ -1343,7 +1344,7 @@
       "slug": "evertune-ai",
       "company": "Evertune AI",
       "domain": "evertune.ai",
-      "status": "proposed",
+      "status": "withdrawn",
       "b2b": true,
       "reason": "Evertune ($15M Series A, Felicis, Aug 2025) sells AI-visibility/GEO analytics and is hiring a senior client-facing SEO/GEO expert to build its client playbook and shape product. A role fit for the sponsor's expertise, but the company sells what add-vee sells: pitch only the application, not an audit.",
       "gating_rating": "seo_job_opening",
@@ -1378,7 +1379,8 @@
         "seniority": "senior IC, client-facing: 7+ years SEO, $125K-165K + options; owns a book of technical clients and the client GEO playbook",
         "reports_to": "VP of Client Services (name not found)"
       },
-      "priority": 1
+      "priority": 1,
+      "status_note": "Withdrawn by the sponsor 2026-11-24: \"no profound and ai search companies please\" (AI-search/GEO vendors are not a match)."
     },
     {
       "slug": "colossyan",
@@ -1435,7 +1437,8 @@
     "brightdata_pause": "Bright Data credits at 0 (sponsor, 2026-11-20 ~20:40 UTC): no Bright Data calls anywhere until the sponsor says payment is resumed. tick.py starts no new company while settings.brightdata_paused is true; running audits continue without Bright Data or stop at stage paused_brightdata; scout budgets are 0 (budget.json _paused).",
     "campaign_pause": "Whole campaign paused by the sponsor (2026-11-21 ~05:10 UTC) until Bright Data payment resumes: the hourly tick (trig_01TYro24KNGAHSNPwqrdkfJM) is disabled, so no ticks, daily mail/follow-up checks, jobs scout or weekly scout run. To resume: re-enable the trigger, then follow MANAGER_TICK.md -> Bright Data pause -> resume. RESUMED 2026-11-24: new hourly task trig_01SgYw1mCwWPzdu79SqKqafZ bound to the new manager session.",
     "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it.",
-    "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax)."
+    "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
+    "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
   "last_tick": "2026-11-24T16:38:28+00:00",
   "manager": {

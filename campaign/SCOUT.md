@@ -42,7 +42,7 @@ High = high need with someone to write to and growth. Medium = medium need, or o
 - consumer legal services;
 - B2B2C and two-sided marketplaces: judge the business side first.
 
-**Not a match by definition (never queued, sponsor 2026-11-23):** enterprises and established incumbents (Wix, monday.com, Check Point, Cato, HiBob, Payoneer, Figma, Navan and the like), companies that aren't startups (defence primes, pharma, banks, big services firms), agencies and service shops, investors, acquired companies, and games or cheap consumer apps. Everything else gets a light check before it's dropped.
+**Not a match by definition (never queued, sponsor 2026-11-23):** enterprises and established incumbents (Wix, monday.com, Check Point, Cato, HiBob, Payoneer, Figma, Navan and the like), companies that aren't startups (defence primes, pharma, banks, big services firms), agencies and service shops, **AI-search / GEO / AEO visibility vendors** (Profound, Evertune and the like, on every route including the jobs route; sponsor, 2026-11-24), investors, acquired companies, and games or cheap consumer apps. Everything else gets a light check before it's dropped.
 
 **Not a match, B2B or not:** impulse or cheap purchases (casual apps, games, low-ticket shopping); urgent local services with no research phase; relationship/RFP-only markets; dominant brands everyone knows (usually with SEO teams); nothing to audit yet (stealth, no product pages); categories where claims are heavily restricted (e.g. prescription drugs).
 
