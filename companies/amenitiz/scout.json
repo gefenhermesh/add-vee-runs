@@ -1,0 +1,261 @@
+{
+  "scout_version": 4,
+  "slug": "amenitiz",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "brightdata_requests": 0,
+  "company": "Amenitiz",
+  "domain": "amenitiz.com",
+  "job": {
+    "title": "Senior SEO & AI Search",
+    "url": "https://jobs.ashbyhq.com/amenitiz/efce9e18-59f1-49b4-952b-7291695ec58a",
+    "linkedin_url": "https://es.linkedin.com/jobs/view/senior-seo-ai-search-at-amenitiz-4486057945",
+    "posted": "2026-11-03",
+    "location": "Barcelona (office-based)",
+    "open_checked": "2026-11-24T16:53:30+00:00",
+    "seniority": "senior IC (JD body calls it 'SEO & GEO Manager'; owns end-to-end organic strategy across 5 locales; 3+ yrs asked)",
+    "reports_to": "not stated (Marketing team; marketing heads report to the VP of Marketing)"
+  },
+  "source_of_lead": "Jobs-route deep pass 2026-11-24 (LinkedIn ES post); confirmed on Amenitiz's own Ashby board",
+  "reason": "Barcelona hotel-management SaaS for independent hoteliers ($45M Series B Nov 2025, 15,000+ properties) is hiring a Senior SEO & AI Search owner with New MRR from organic as the north star, across EN/FR/IT/ES/PT. Contested search category (Cloudbeds, Little Hotelier, Mews, eviivo, Lodgify all publish comparison content) and a 700-post multilingual blog that looks weakly interlinked.",
+  "gating_note": "Hiring the role itself: owns organic strategy, partners with a Content team, owns competitor comparison pages and a 100+ term glossary. No in-house SEO team found (an earlier 'Senior SEO & GEO Specialist' posting on Point Nine's board suggests this is a re-scoped or repeat hire). Not a block on this route.",
+  "marketing_leadership": {
+    "status": "found (unnamed)",
+    "who": [
+      {
+        "name": "(not identified)",
+        "role": "VP of Marketing (Head of Brand/Content/Customer Marketing and Senior Director of Growth report to this person)",
+        "kind": "couldn't verify (named only by title in postings)"
+      },
+      {
+        "name": "Alexandre Guinefolleau",
+        "role": "Co-founder & CEO",
+        "kind": "direct (quoted in Series B coverage, Skift 2025-11-11, via WebSearch)"
+      }
+    ],
+    "evidence": [
+      "careers.amenitiz.io postings: Head of Brand, Content and Customer Marketing and Senior Director of Growth report to the VP of Marketing",
+      "Ashby board 2026-11-24: Senior Performance Marketing Manager, Senior Affiliate & Referral Growth Manager, this role"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: this role owns end-to-end organic strategy and technical SEO itself, partnering with Content",
+      "Point Nine board lists a 'Senior SEO & GEO Specialist' posting (date couldn't verify)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2017 (Barcelona), 'Shopify for hotels': PMS, channel manager, booking engine and website builder for independent hotels and B&Bs. Seed EUR 6.5M (Point Nine), Series A $30M (2022, Eight Roads), Series B ~$45M equity+debt (Nov 2025, Kfund/Leadwind, Thayer, Columbia Lake). 4,000 properties in 2022 to 15,000+ in 2025; building AI assistants; France is the primary growth market. 28 open roles, many sales/BDR by country.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "Senior SEO & AI Search, Barcelona",
+    "date": "2026-11-03",
+    "source": "https://jobs.ashbyhq.com/amenitiz/efce9e18-59f1-49b4-952b-7291695ec58a"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: north-star New MRR through organic; drive visibility in AI Overviews, Perplexity, ChatGPT, Gemini 'when a hotelier searches for hotel management software'",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/amenitiz/efce9e18-59f1-49b4-952b-7291695ec58a",
+      "date": "2026-11-03"
+    },
+    {
+      "claim": "buying_journey considered: independent hoteliers (owner-operators) choose a PMS for their business; a high-stakes switch but rarely a committee (per caller)",
+      "kind": "inferred",
+      "url": "https://skift.com/2025/11/11/amenitiz-45-million-series-b-europe-small-hotels-ai-tools/",
+      "date": "2025-11-11"
+    },
+    {
+      "claim": "Competitors and listicles publish Amenitiz alternatives pages (Hotel Tech Report, roommaster, eviivo)",
+      "kind": "direct",
+      "url": "https://www.roommaster.com/blog/amenitiz-alternatives",
+      "date": "accessed 2026-11-24 (WebSearch)"
+    }
+  ],
+  "site_and_content": {
+    "blog": "~694 blog URLs in sitemap across 5 locales (fr 262, it 185, es 120, en 85, pt 42); sitemap dates start 2026-07 (lastmod, likely a site migration; real history older)",
+    "comparison_pages": "/en/compare/ 23 pages plus localized (fr/comparaison 16, es/comparacion 16, it/comparatore 19, pt/comparacao 11); also blog-format 'amenitiz vs mews/lodgify/octorate 2026'",
+    "cms": "Webflow (JD)",
+    "tools": "GSC, GA4, Semrush (JD)"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 262 posts under /fr/blog/ (largest locale; ~694 across 5 locales)",
+      "weak internal linking: 0.5 in-body links to other posts on average, 70% of sampled posts link to none",
+      "80% of posts in the 6 main topics (focused)",
+      "no blog taxonomy pages in the sitemap",
+      "1 hub-like post",
+      "median 1,371 words"
+    ],
+    "tool": "blog_sample.py amenitiz.com --prefix /fr/blog/, 2026-11-24 (default /blog/ prefix found nothing)"
+  },
+  "jobs": {
+    "board": "ashby:amenitiz (28 roles, 2026-11-24)",
+    "marketing_roles": [
+      "Senior SEO & AI Search",
+      "Senior Performance Marketing Manager",
+      "Senior Affiliate & Referral Growth Manager"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "VP of Marketing (name not found)",
+      "role": "Head of marketing; likely the role's manager or skip-level",
+      "email": null,
+      "email_verified": false,
+      "source": "Amenitiz postings on careers.amenitiz.io (WebSearch snippets)",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Alexandre Guinefolleau",
+      "role": "Co-founder & CEO (fallback)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://skift.com/2025/11/11/amenitiz-45-million-series-b-europe-small-hotels-ai-tools/",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their JD: be 'cited and recommended by Google AI Overviews, Perplexity, ChatGPT, and Gemini when a hotelier searches for hotel management software', in five languages. Show what AI answers recommend to a French hotelier today (Cloudbeds, Little Hotelier, Mews) and the blog audit (~700 posts, 70% of the French sample with no links to other posts) as how the sponsor would start.",
+    "source": "https://jobs.ashbyhq.com/amenitiz/efce9e18-59f1-49b4-952b-7291695ec58a",
+    "date": "2026-11-03"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Independent hoteliers search for 'logiciel hôtelier', 'best PMS for small hotels', read Hotel Tech Report/Capterra and vendor comparisons; large fragmented buyer set (hundreds of thousands of independents in Europe), self-serve trial plus inside sales.",
+    "competitors": [
+      {
+        "name": "Cloudbeds",
+        "seo_investment": "very high: 'best hotel management software' guide hub",
+        "evidence_url": "https://www.cloudbeds.com/hotel-management-software-guide/best/"
+      },
+      {
+        "name": "eviivo",
+        "seo_investment": "high: 'best Cloudbeds alternatives' trade-secrets content, localized",
+        "evidence_url": "https://eviivo.com/trade-secrets/best-cloudbeds-alternatives/"
+      },
+      {
+        "name": "roommaster",
+        "seo_investment": "medium: 'Amenitiz alternatives' page aimed at Amenitiz",
+        "evidence_url": "https://www.roommaster.com/blog/amenitiz-alternatives"
+      },
+      {
+        "name": "Mews",
+        "seo_investment": "high (blog, guides; #1 on Hotel Tech Report)",
+        "evidence_url": "https://www.mews.com/en/blog"
+      },
+      {
+        "name": "Little Hotelier (SiteMinder)",
+        "seo_investment": "high (SiteMinder content hub)",
+        "evidence_url": "https://www.littlehotelier.com/blog/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best hotel management software independent hotels PMS 2026 Amenitiz alternatives (WebSearch, not Google)",
+        "top_results": [
+          "eviivo best Cloudbeds alternatives",
+          "hoteltechreport Top 18 Amenitiz alternatives",
+          "amenitiz.com best hotel PMS 2026",
+          "cloudbeds.com best hotel management software guide",
+          "roommaster Amenitiz alternatives",
+          "amenitiz vs lodgify 2026",
+          "amenitiz vs octorate 2026"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Organic is named 'one of our most strategic acquisition channels' with New MRR as the metric; in France (primary growth market) and Italy, if AI answers recommend Cloudbeds, Mews or Little Hotelier to a hotelier asking for software, Amenitiz loses the self-serve deals its growth plan depends on. Weak internal linking across ~700 localized posts wastes the content it already pays for.",
+    "why_not_yet": "Not absent: they invest (multilingual blog, localized compare pages, glossary). The gap is a single senior owner across locales and AI search; agency/content-team-run until now (inferred).",
+    "evidence": [
+      "Ashby JD (direct)",
+      "sitemap read 2026-11-24 (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, growing (Series B Nov 2025, 15k+ properties) and can pay; the JD ties organic to MRR. But the role is Barcelona office-based, mid-senior (3+ yrs asked), and the VP of Marketing couldn't be named; CEO is the named fallback. Buying journey is considered (owner-operators), not a committee."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "industry": "vertical_saas",
+    "stage": "series_b",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "eu",
+    "recipient_role": "cmo_vp_marketing",
+    "buying_journey": "considered",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://jobs.ashbyhq.com/amenitiz/efce9e18-59f1-49b4-952b-7291695ec58a",
+      "date": "2026-11-03",
+      "kind": "direct",
+      "result": "Full JD via Ashby API; open (jobs.py check-open 2026-11-24T16:53:30Z)"
+    },
+    {
+      "url": "https://es.linkedin.com/jobs/view/senior-seo-ai-search-at-amenitiz-4486057945",
+      "date": "2026-11-03",
+      "kind": "direct",
+      "result": "post open (jobs.py)"
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/amenitiz",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "28 roles"
+    },
+    {
+      "url": "https://amenitiz.com/sitemap.xml",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "~694 blog URLs in 5 locales, 85 compare pages"
+    },
+    {
+      "url": "https://skift.com/2025/11/11/amenitiz-45-million-series-b-europe-small-hotels-ai-tools/",
+      "date": "2025-11-11",
+      "kind": "unverified",
+      "result": "WebSearch snippet: $45M Series B, CEO Alexandre Guinefolleau, 15,000+ properties"
+    },
+    {
+      "url": "https://careers.amenitiz.io/jobs/3603653-head-of-brand-content-and-customer-marketing",
+      "date": "accessed 2026-11-24 (WebSearch snippet)",
+      "kind": "unverified",
+      "result": "reports to VP of Marketing"
+    },
+    {
+      "url": "https://www.roommaster.com/blog/amenitiz-alternatives",
+      "date": "accessed 2026-11-24 (WebSearch)",
+      "kind": "direct",
+      "result": "competitor page aimed at Amenitiz"
+    }
+  ],
+  "sources_tried_failed": [
+    "blog_sample.py amenitiz.com default /blog/ prefix: 0 posts (blogs are /<locale>/blog/; reran with /fr/blog/)",
+    "WebSearch for VP of Marketing name: nothing (couldn't verify)"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Who is Amenitiz's VP of Marketing?"
+  ],
+  "open_questions": [
+    "Reporting line not in JD",
+    "Barcelona office role: sponsor's location fit"
+  ]
+}

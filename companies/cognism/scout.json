@@ -1,0 +1,265 @@
+{
+  "scout_version": 4,
+  "company": "Cognism",
+  "domain": "cognism.com",
+  "slug": "cognism",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "SEO / AEO manager",
+    "url": "https://www.cognism.com/careers?gh_jid=5030844101",
+    "linkedin_url": "https://uk.linkedin.com/jobs/view/seo-aeo-manager-at-cognism-4487156615",
+    "posted": "2026-11-09",
+    "location": "London (hybrid, weekly attendance at the London Bridge office)",
+    "open_checked": "2026-11-24T16:53:24+00:00",
+    "seniority": "manager (senior IC: owns SEO and AEO strategy and execution; no years stated)",
+    "reports_to": "not stated in the JD (couldn't verify); likely marketing leadership (VP Marketing)"
+  },
+  "source_of_lead": "Jobs deep pass 2026-11-24 (manager-supplied lead); confirmed on Cognism's own Greenhouse board (first published 2026-11-09, updated 2026-11-20)",
+  "reason": "London B2B sales-intelligence company (European contact data, competes head-on with ZoomInfo, Apollo, Lusha) is hiring an SEO / AEO Manager to own organic and AI-search visibility tied to pipeline. Search is the battleground: ZoomInfo publishes 'Cognism alternatives' and 'Cognism vs' pages that rank, and the JD asks for AI-answer visibility the sponsor's audit shows directly.",
+  "gating_note": "Hiring the role itself. JD names Content, Web, Paid, Demand Gen, PMM, RevOps and external partners/agencies the role works with; the 415-post blog looks planned (a content team exists). No dedicated in-house SEO team found; the hire looks like the SEO owner. Not a block on this route.",
+  "gating_rating": "seo_job_opening",
+  "marketing_leadership": {
+    "status": "found (partly unverified)",
+    "who": [
+      {
+        "name": "Liam Bartholomew",
+        "role": "VP of Marketing",
+        "kind": "direct (Cognism newsroom author page, undated; copyright 2026 and Q3 '26 posts listed)"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Chief Marketing Officer (a Feb 2026 posting reports to the CMO)",
+        "kind": "couldn't verify; Alice de Courcy was CMO from 2020 (LinkedIn interview, older), current status couldn't verify"
+      }
+    ],
+    "evidence": [
+      "https://www.cognism.com/newsroom/author/liamcognism-com (accessed 2026-11-24)",
+      "WebSearch snippets 2026-11-24: Senior Manager Brand & Content (Feb 2026) reports to CMO; Senior Demand Gen (Mar 2026) reports to VP Marketing (builtin/marketingmonk aggregators, unverified)",
+      "New CEO Dominic Allon and CRO Chris Evans appointed Sept 2025 (cognism.com newsroom, via WebSearch snippet)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found (couldn't verify)",
+    "evidence": [
+      "JD: role owns SEO/AEO and works with 'external partners' and agencies; no SEO team named",
+      "No Bright Data LinkedIn check run (free sources only)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2015, London HQ, sales intelligence/contact data with a European data focus, thousands of revenue-team customers (JD). Last known big round: Series C $87.5M (2022, inferred from memory). New CEO (ex-Pipedrive) and CRO since Sept 2025; marketing has a VP and (per 2026 postings) a CMO role. Leaning into 'contextual signals' and AI-era discovery, hence a combined SEO/AEO hire.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "SEO / AEO manager, London",
+    "date": "2026-11-09",
+    "source": "https://www.cognism.com/careers?gh_jid=5030844101"
+  },
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 415 posts under /blog/ (2021-09 to 2026-11-24)",
+      "19.1 in-body links to other posts on average, 0% with none",
+      "60% of posts in the 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "5 hub-like posts",
+      "380 posts with lastmod in the last 12 months, median 2,399 words"
+    ],
+    "tool": "blog_sample.py cognism.com, 2026-11-24"
+  },
+  "fit_evidence": [
+    {
+      "claim": "Open SEO / AEO manager role on Cognism's own Greenhouse board, London hybrid",
+      "kind": "direct",
+      "url": "https://boards-api.greenhouse.io/v1/boards/cognism/jobs?content=true",
+      "date": "2026-11-09 (updated 2026-11-20)"
+    },
+    {
+      "claim": "JD: improve presence in AI-generated answers, comparison pages, technical audits; SEO tied to pipeline and revenue",
+      "kind": "direct",
+      "url": "https://www.cognism.com/careers?gh_jid=5030844101",
+      "date": "2026-11-09"
+    },
+    {
+      "claim": "buying_journey committee: B2B data platform sold to revenue teams with sales-led and self-serve paths, many competing vendors",
+      "kind": "inferred",
+      "url": "https://www.cognism.com",
+      "date": "accessed 2026-11-24"
+    },
+    {
+      "claim": "ZoomInfo publishes a 'Cognism alternatives' page aimed at Cognism",
+      "kind": "direct",
+      "url": "https://pipeline.zoominfo.com/sales/top-cognism-alternatives",
+      "date": "accessed 2026-11-24"
+    }
+  ],
+  "site_and_content": {
+    "blog": "415 posts, planned (blog_sample)",
+    "comparison_pages": "Cognism publishes competitor round-ups (e.g. /blog/cognism-competitors, /blog/seamless-competitors, /blog/lead411-competitors)",
+    "stack_from_jd": "GA4, Ahrefs, HubSpot, Search Console, Screaming Frog"
+  },
+  "jobs": {
+    "board": "greenhouse:cognism (13 open roles)",
+    "seo_roles": [
+      "SEO / AEO manager (London)"
+    ],
+    "check_open": "open, 2026-11-24T16:53:24+00:00 (post open, role on company board)"
+  },
+  "contacts": [
+    {
+      "name": "Liam Bartholomew",
+      "role": "VP of Marketing (likely hiring line for the role; unconfirmed)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.cognism.com/newsroom/author/liamcognism-com",
+      "recipient_rank": 1
+    },
+    {
+      "name": "(CMO, name couldn't verify)",
+      "role": "Chief Marketing Officer",
+      "email": null,
+      "email_verified": false,
+      "source": "2026 job postings via WebSearch (unverified)",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their JD asks for visibility in AI-generated answers and comparison queries; ZoomInfo already runs 'Cognism alternatives' and 'Cognism vs Scalelist' pages. Show how AI answers frame Cognism against ZoomInfo/Apollo today, plus the 415-post blog audit as 'how I'd start in the role'.",
+    "source": "https://www.cognism.com/careers?gh_jid=5030844101 ; https://pipeline.zoominfo.com/sales/top-cognism-alternatives",
+    "date": "2026-11-09"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "B2B contact-data buyers compare vendors heavily online: G2 categories, many 'best B2B data providers' and '<vendor> alternatives' listicles, vendors writing about each other. Self-serve trials plus sales-led deals.",
+    "competitors": [
+      {
+        "name": "ZoomInfo",
+        "seo_investment": "very high; publishes pages aimed at Cognism ('Cognism alternatives', 'Cognism vs Scalelist', EMEA data guide)",
+        "evidence_url": "https://pipeline.zoominfo.com/sales/top-cognism-alternatives"
+      },
+      {
+        "name": "Apollo.io",
+        "seo_investment": "high (inferred: large blog and free-tool pages; appears in 2026 alternatives lists)",
+        "evidence_url": "https://www.clay.com/guides/best/cognism-alternatives"
+      },
+      {
+        "name": "Leadfeeder (Dealfront)",
+        "seo_investment": "high: publishes a 'Cognism alternatives' comparison",
+        "evidence_url": "https://leadfeeder.com/blog/comparisons/cognism-alternatives"
+      },
+      {
+        "name": "Clay",
+        "seo_investment": "medium-high: 'best Cognism alternatives' guide",
+        "evidence_url": "https://www.clay.com/guides/best/cognism-alternatives"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best B2B contact data providers Europe 2026 Cognism alternatives (WebSearch, not Google via Bright Data)",
+        "top_results": [
+          "pipeline.zoominfo.com B2B Data Providers in EMEA",
+          "cognism.com/blog/cognism-competitors",
+          "cognism.com/blog/data-vendors",
+          "pipeline.zoominfo.com top-cognism-alternatives",
+          "clay.com cognism-alternatives",
+          "leadfeeder.com cognism-alternatives"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Competitors (ZoomInfo, Leadfeeder, Clay) define 'Cognism alternatives' and EMEA-data comparisons in search, and AI answers draw on those pages; if Cognism doesn't own AI-answer framing for European B2B data, shortlists are shaped by competitors.",
+    "why_not_yet": "never_prioritized as a dedicated role: strong content-led marketing (planned 415-post blog, competitor round-ups) run by content/demand teams and partners; no dedicated SEO/AEO owner until this hire.",
+    "evidence": [
+      "Greenhouse JD 2026-11-09 (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch results 2026-11-24 (direct, search engine not Google)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need and an open role exactly in the sponsor's lane; a named VP Marketing to write to; established and funded (can pay). Lowers it: the role is London hybrid with weekly office attendance, the hiring manager isn't named, and a mid-size company with a big content team may route it all through the Greenhouse application."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "industry": "martech",
+    "stage": "series_c_plus",
+    "situation": "established",
+    "size_band": "201_1000",
+    "geo": "eu",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/cognism/jobs?content=true",
+      "date": "2026-11-09 (updated 2026-11-20); accessed 2026-11-24",
+      "kind": "direct",
+      "result": "SEO / AEO manager JD, London hybrid; reports-to not stated"
+    },
+    {
+      "url": "https://www.cognism.com/careers?gh_jid=5030844101",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "jobs.py check-open: open (post open, greenhouse:cognism lists the role)"
+    },
+    {
+      "url": "https://uk.linkedin.com/jobs/view/seo-aeo-manager-at-cognism-4487156615",
+      "date": "2026-11-09",
+      "kind": "unverified",
+      "result": "LinkedIn post (supplied by manager; not opened)"
+    },
+    {
+      "url": "https://www.cognism.com/newsroom/author/liamcognism-com",
+      "date": "accessed 2026-11-24 (undated page)",
+      "kind": "direct",
+      "result": "Liam Bartholomew, VP of Marketing"
+    },
+    {
+      "url": "https://www.cognism.com/newsroom/cognism-appoints-ceo-and-cro",
+      "date": "2025-09",
+      "kind": "inferred",
+      "result": "CEO Dominic Allon, CRO Chris Evans (WebSearch snippet, not opened)"
+    },
+    {
+      "url": "https://www.cognism.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "415 posts, looks planned"
+    },
+    {
+      "url": "https://pipeline.zoominfo.com/sales/top-cognism-alternatives",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "HTTP 200, ZoomInfo page aimed at Cognism"
+    },
+    {
+      "url": "https://builtin.com/job/senior-manager-brand-content-marketing/8450870",
+      "date": "2026-02",
+      "kind": "unverified",
+      "result": "posting reports to CMO (snippet)"
+    }
+  ],
+  "sources_tried_failed": [
+    "CMO name: WebSearch found no 2026 appointment; Alice de Courcy (CMO since 2020) current status couldn't verify"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Who the SEO / AEO manager reports to (VP Marketing Liam Bartholomew or someone else), and whether a CMO is in seat"
+  ],
+  "open_questions": [
+    "Reports-to not stated in the JD",
+    "London hybrid with weekly office attendance: does it suit the sponsor?",
+    "Size and last round from memory (inferred)"
+  ]
+}

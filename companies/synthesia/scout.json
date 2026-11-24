@@ -1,0 +1,264 @@
+{
+  "scout_version": 4,
+  "slug": "synthesia",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "brightdata_requests": 0,
+  "company": "Synthesia",
+  "domain": "synthesia.io",
+  "job": {
+    "title": "SEO Manager",
+    "url": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590",
+    "linkedin_url": "https://uk.linkedin.com/jobs/view/seo-manager-at-synthesia-4426086047",
+    "posted": "2026-11-09",
+    "posted_note": "LinkedIn 2026-11-09; Ashby publishedAt 2026-06-10 (long-running or repeated req)",
+    "location": "London (~3 days/week in office)",
+    "open_checked": "2026-11-24T16:53:31+00:00",
+    "seniority": "manager (hands-on senior IC, 5+ yrs SEO)",
+    "reports_to": "not stated (Ashby team 'SEO'; earlier SEO Manager postings reported to an SEO Lead)"
+  },
+  "source_of_lead": "Jobs-route deep pass 2026-11-24 (LinkedIn UK post); confirmed on Synthesia's own Ashby board",
+  "reason": "Synthesia ($4B, Series E $200M Jan 2026, 90% of Fortune 100) is hiring a hands-on SEO Manager in London for landing pages, localization and AI search. A heavily contested category: HeyGen, Colossyan, PlayPlay and Vyond all publish 'Synthesia alternatives' pages that rank.",
+  "gating_note": "An SEO team exists: the Ashby team is 'SEO', and earlier postings (2025) describe an SEO Lead overseeing a small SEO team with SEO Managers reporting to it. On this route that's not a block (sponsor, 2026-11-24): noted only. The role is a member of that team, so the sponsor would join, not lead.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {
+        "name": "(not identified)",
+        "role": "SEO Lead (the likely manager, per 2025 postings)",
+        "kind": "couldn't verify"
+      },
+      {
+        "name": "(not identified)",
+        "role": "VP of Growth (growth PM posting, Aug 2026)",
+        "kind": "couldn't verify"
+      },
+      {
+        "name": "Borys Khodan",
+        "role": "VP of Marketing (one WebSearch summary of an Aug 2026 aggregator posting; a direct search found nothing)",
+        "kind": "unverified, likely unreliable"
+      }
+    ],
+    "evidence": [
+      "Ashby board 2026-11-24: team 'SEO'; also Head of Product Marketing, 2 Principal PMMs, brand designers, Senior Frontend Engineer Marketing Website",
+      "Built In London/Bristol SEO Lead postings (2025): owns organic strategy, oversees a small SEO team"
+    ]
+  },
+  "seo_team": {
+    "status": "found (small team, per 2025 postings)",
+    "evidence": [
+      "Ashby team field 'SEO' (direct)",
+      "SEO Lead posting: 'overseeing a small SEO team' (aggregator, 2025, unverified)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2017, London; AI video/avatar platform for enterprise training and comms, used by 90%+ of the Fortune 100 (JD). Series E $200M at $4B (Jan 2026; total >$530M, Accel, NVentures, Kleiner, GV). Expanding product (API, experiential brand) and enterprise push; 26 open roles. Mature content program (161 long-form /post/ articles, plus large templates/tools sections).",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "SEO Manager, London",
+    "date": "2026-11-09",
+    "source": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: SEO Manager to strengthen 'Synthesia's organic growth engine'; landing pages into product, localized sites, bonus: performance in AI search",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590",
+      "date": "2026-06-10"
+    },
+    {
+      "claim": "buying_journey committee: enterprise L&D/comms purchase (Fortune 100 customers) with a self-serve entry tier",
+      "kind": "inferred",
+      "url": "https://www.synthesia.io/",
+      "date": "accessed 2026-11-24"
+    },
+    {
+      "claim": "HeyGen, Colossyan, PlayPlay publish 'Synthesia alternatives' pages",
+      "kind": "direct",
+      "url": "https://www.heygen.com/blog/best-synthesia-alternatives-competitors",
+      "date": "accessed 2026-11-24 (WebSearch)"
+    }
+  ],
+  "site_and_content": {
+    "blog": "161 posts under /post/ (sitemap dates 2024-05 to 2026-10), median 2,254 words, 4.0 in-body links",
+    "comparison_pages": "publishes alternatives content itself (e.g. /post/veed-alternatives)",
+    "note": "much content also in templates/tools/learn sections, not sampled"
+  },
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 161 posts under /post/ (2024-05-17 to 2026-10-07)",
+      "4.0 in-body links to other posts on average, 5% with none",
+      "66% of posts in the 6 main topics (focused)",
+      "no taxonomy pages in the sitemap",
+      "5 hub-like posts, median 2,254 words"
+    ],
+    "tool": "blog_sample.py synthesia.io, 2026-11-24"
+  },
+  "jobs": {
+    "board": "ashby:synthesia (26 roles, 2026-11-24)",
+    "marketing_roles": [
+      "SEO Manager",
+      "Head of Product Marketing",
+      "Principal Product Marketing Manager",
+      "Principal Product Marketing Manager, API",
+      "Marketing General Application",
+      "Senior Frontend Engineer, Marketing Website",
+      "Lead Brand Designer, Experiential",
+      "Senior Brand Designer, Web"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "SEO Lead (name not found)",
+      "role": "Likely hiring manager",
+      "email": null,
+      "email_verified": false,
+      "source": "2025 SEO Manager postings (aggregators)",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Victor Riparbelli",
+      "role": "Co-founder & CEO (fallback; from memory, not read this run)",
+      "email": null,
+      "email_verified": false,
+      "source": "inferred",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their JD: 'explore how AI and automation are reshaping search optimization', with AI-search performance as a bonus. Show how ChatGPT/Gemini answer 'best AI video generator for business' and 'Synthesia alternatives' while HeyGen, Colossyan and PlayPlay pages define the comparison, as how the sponsor would start.",
+    "source": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590",
+    "date": "2026-06-10"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Very search/LLM-led: 'best AI video generator', 'Synthesia alternatives', 'HeyGen vs Synthesia'; G2 category and many listicles (G2 Learn, ClickUp, Vyond); self-serve plans plus enterprise sales. Huge buyer set.",
+    "competitors": [
+      {
+        "name": "HeyGen",
+        "seo_investment": "very high: localized 'best AI video generators' and 'Synthesia alternatives' posts aimed at Synthesia",
+        "evidence_url": "https://www.heygen.com/blog/best-synthesia-alternatives-competitors"
+      },
+      {
+        "name": "Colossyan",
+        "seo_investment": "high: 'best Synthesia alternatives' post",
+        "evidence_url": "https://colossyan.com/posts/best-synthesia-alternatives/"
+      },
+      {
+        "name": "PlayPlay",
+        "seo_investment": "medium-high: 'The 6 Best Synthesia Alternatives in 2026'",
+        "evidence_url": "https://playplay.com/blog/synthesia-alternatives/"
+      },
+      {
+        "name": "Vyond",
+        "seo_investment": "medium-high: '9 Best AI Video Generators in 2026'",
+        "evidence_url": "https://vyond.com/blog/best-ai-video-generators/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AI video generator for business 2026 Synthesia alternatives HeyGen Colossyan (WebSearch, not Google)",
+        "top_results": [
+          "heygen.com best AI video generators tested (en-gb/ca/in)",
+          "heygen.com synthesia alternatives",
+          "colossyan.com best Synthesia alternatives",
+          "clickup HeyGen alternatives",
+          "learn.g2.com best AI video generators",
+          "synthesia.io/post/veed-alternatives",
+          "playplay.com Synthesia alternatives"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "HeyGen out-publishes Synthesia on the head terms (localized 'best AI video generators' pages in several markets) and frames Synthesia as the expensive enterprise pick; as buyers ask LLMs, competitors' framing becomes the answer at the self-serve entry point.",
+    "why_not_yet": "Not absent: a small in-house SEO team exists; the gap is capacity (hiring a hands-on SEO Manager) and AI search, which the JD lists only as a bonus.",
+    "evidence": [
+      "Ashby JD (direct)",
+      "blog_sample 2026-11-24 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, well funded and growing. But an SEO team already exists (the sponsor would join it, not lead), the manager couldn't be named, the req has been open since June 2026 (Ashby), and the role is London ~3 days/week in office."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "industry": "martech",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "eu",
+    "recipient_role": "content_seo",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590",
+      "date": "2026-06-10",
+      "kind": "direct",
+      "result": "Full JD via Ashby API (team 'SEO'); open (jobs.py check-open 2026-11-24T16:53:31Z)"
+    },
+    {
+      "url": "https://uk.linkedin.com/jobs/view/seo-manager-at-synthesia-4426086047",
+      "date": "2026-11-09",
+      "kind": "direct",
+      "result": "post open (jobs.py)"
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/synthesia",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "26 roles"
+    },
+    {
+      "url": "https://www.synthesia.io/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "161 /post/ articles, looks planned"
+    },
+    {
+      "url": "https://builtinlondon.uk/job/seo-lead/4184271",
+      "date": "2025 (aggregator, removed)",
+      "kind": "unverified",
+      "result": "SEO Lead overseeing a small SEO team"
+    },
+    {
+      "url": "https://jobs.accel.com/companies/synthesia/jobs/91280149-head-of-product-marketing",
+      "date": "2026-08 (aggregator)",
+      "kind": "unverified",
+      "result": "Series E $200M at $4B; possible VP Marketing name (not confirmed)"
+    },
+    {
+      "url": "https://www.heygen.com/blog/best-synthesia-alternatives-competitors",
+      "date": "accessed 2026-11-24 (WebSearch)",
+      "kind": "direct",
+      "result": "competitor page aimed at Synthesia"
+    }
+  ],
+  "sources_tried_failed": [
+    "WebSearch '\"Borys Khodan\" Synthesia': no matching results (VP Marketing name unverified)",
+    "SEO Lead / VP Growth names: couldn't verify"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Who is Synthesia's SEO Lead and VP Marketing/Growth?"
+  ],
+  "open_questions": [
+    "Ashby posting live since 2026-06-10: hard-to-fill req or multiple hires?",
+    "Role joins an existing SEO team (not a lead role)"
+  ]
+}

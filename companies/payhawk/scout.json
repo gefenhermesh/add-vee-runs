@@ -1,0 +1,261 @@
+{
+  "scout_version": 4,
+  "company": "Payhawk",
+  "domain": "payhawk.com",
+  "slug": "payhawk",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "SEO Manager",
+    "url": "https://job-boards.eu.greenhouse.io/payhawkio/jobs/4059930101",
+    "linkedin_url": null,
+    "source_url": "https://wellfound.com/jobs/2310969-seo-manager",
+    "posted": "2026-11-10",
+    "posted_note": "Wellfound 2026-11-10; Greenhouse requisition first published 2022-07-20, updated 2026-11-20 (reused req)",
+    "location": "Sofia (office 4 days/week, 5 during probation)",
+    "open_checked": "2026-11-24T16:53:29+00:00",
+    "seniority": "manager, IC (3+ years full-stack SEO), one of a team of 5",
+    "reports_to": "Director of SEO (name couldn't verify)"
+  },
+  "source_of_lead": "Jobs deep pass 2026-11-24 (manager-supplied lead, Wellfound); confirmed on Payhawk's own Greenhouse EU board",
+  "reason": "Payhawk (spend management, Bulgaria's first unicorn) raised a $280M Series C at $2B in Nov 2026 and is hiring an SEO Manager to own organic and AI-search visibility for product areas and regions. Contested category (Pleo, Spendesk, Ramp, Airwallex all write comparison pages; Ramp's 'Payhawk alternatives' ranks), and the JD asks for AI-answer citation tracking.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "A real SEO team exists: the role is 'part of a team of 5' and an IC role reporting into the Director of SEO. Not a block on this route (sponsor 2026-11-24), but the hire is an IC under an SEO lead, and the team may own the audit work themselves. Requires Sofia office presence 4 days/week.",
+  "marketing_leadership": {
+    "status": "found (unverified)",
+    "who": [
+      {
+        "name": "Jack Cummings",
+        "role": "Chief Marketing Officer (joined 2022; ex-SVP Global Marketing)",
+        "kind": "unverified (theofficialboard 2026-07-10, prospeo)"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Director of SEO, the role's manager",
+        "kind": "couldn't verify"
+      }
+    ],
+    "evidence": [
+      "Greenhouse JD: reports to Director of SEO",
+      "payhawk.com careers (Global Demand Generation Manager) works directly with the CMO (WebSearch snippet)",
+      "https://www.theofficialboard.com/biography/jack-cummings-d46d4 (aggregator)"
+    ]
+  },
+  "seo_team": {
+    "status": "found",
+    "evidence": [
+      "JD 2026-11-20: 'part of a team of 5', 'IC role reporting into the Director of SEO'"
+    ]
+  },
+  "situation": {
+    "estimate": "London-HQ'd, Sofia-founded spend-management platform (cards, expenses, travel, AP, procurement) for mid-market and enterprise in 33+ countries. $280M Series C at $2B valuation led by Goldman Sachs Growth, Nov 2026 (JD), over $500M total. Hiring across marketing (demand gen leads in 5 cities, content managers, lifecycle). Rebranding as an 'AI-native finance system'.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "SEO Manager, Sofia (plus fresh $280M Series C)",
+    "date": "2026-11-10",
+    "source": "https://job-boards.eu.greenhouse.io/payhawkio/jobs/4059930101"
+  },
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 642 posts under /blog/ (2021-12 to 2026-11-24)",
+      "5.8 in-body links to other posts on average, 0% with none",
+      "47% of posts in the 6 main topics (scattered)",
+      "taxonomy pages: authors",
+      "5 hub-like posts",
+      "184 posts with lastmod in the last 12 months, median 1,784 words"
+    ],
+    "tool": "blog_sample.py payhawk.com, 2026-11-24"
+  },
+  "fit_evidence": [
+    {
+      "claim": "SEO Manager open on Payhawk's own Greenhouse EU board; owns SEO and AI-search plan for product areas/regions",
+      "kind": "direct",
+      "url": "https://job-boards.eu.greenhouse.io/payhawkio/jobs/4059930101",
+      "date": "2026-11-20 (updated)"
+    },
+    {
+      "claim": "$280M Series C at $2B led by Goldman Sachs Growth, Nov 2026",
+      "kind": "direct",
+      "url": "https://job-boards.eu.greenhouse.io/payhawkio/jobs/4059930101",
+      "date": "2026-11"
+    },
+    {
+      "claim": "Ramp publishes 'Top 7 Payhawk Alternatives & Competitors in 2026'",
+      "kind": "direct",
+      "url": "https://ramp.com/blog/top-payhawk-alternatives",
+      "date": "accessed 2026-11-24"
+    },
+    {
+      "claim": "buying_journey committee: finance teams (CFO, controllers) at mid-market/enterprise evaluate on G2/Capterra and demos",
+      "kind": "inferred",
+      "url": "https://www.g2.com/compare/payhawk-vs-pleo",
+      "date": "accessed 2026-11-24"
+    }
+  ],
+  "site_and_content": {
+    "blog": "642 posts, planned",
+    "stack_from_jd": "Contentful/WordPress, Search Console, Semrush or Ahrefs, Screaming Frog, Peec AI or Profound for AI visibility, HubSpot/Salesforce",
+    "localisation": "multi-language site (en, de, fr, es, nl, bg)"
+  },
+  "jobs": {
+    "board": "greenhouse:payhawkio (70 open roles, many marketing)",
+    "seo_roles": [
+      "SEO Manager (Sofia)"
+    ],
+    "check_open": "open 2026-11-24T16:53:29Z"
+  },
+  "contacts": [
+    {
+      "name": "(Director of SEO, name couldn't verify)",
+      "role": "Director of SEO, hiring manager",
+      "email": null,
+      "email_verified": false,
+      "source": "Greenhouse JD 2026-11-20",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Jack Cummings",
+      "role": "Chief Marketing Officer (unverified)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.theofficialboard.com/biography/jack-cummings-d46d4 (aggregator, 2026-07-10)",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "JD: 'Optimise content so it gets included and cited in AI Overviews, AI Mode, ChatGPT, Claude, Gemini' and track brand appearance and sentiment. Show how AI answers compare Payhawk with Pleo/Spendesk/Ramp per market today (Ramp's 'Payhawk alternatives' page ranks), plus the 642-post blog audit, as 'how I'd start'.",
+    "source": "https://job-boards.eu.greenhouse.io/payhawkio/jobs/4059930101",
+    "date": "2026-11-20"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Spend-management buyers research heavily online: G2/Capterra compare pages (Payhawk vs Pleo vs Spendesk), vendor-written 'alternatives' guides, review sites; mid-market/enterprise with demos.",
+    "competitors": [
+      {
+        "name": "Spendesk",
+        "seo_investment": "high: alternatives and comparison guides naming Payhawk",
+        "evidence_url": "https://www.spendesk.com/blog/spendesk-alternatives/"
+      },
+      {
+        "name": "Ramp",
+        "seo_investment": "very high: 'Top Payhawk alternatives' page aimed at Payhawk",
+        "evidence_url": "https://ramp.com/blog/top-payhawk-alternatives"
+      },
+      {
+        "name": "Pleo",
+        "seo_investment": "high (inferred; strong G2 presence, 1,400+ reviews)",
+        "evidence_url": "https://www.g2.com/compare/payhawk-vs-pleo"
+      },
+      {
+        "name": "Airwallex",
+        "seo_investment": "high: 'Spendesk vs Payhawk' comparison",
+        "evidence_url": "https://www.airwallex.com/en-us/blog/spendesk-vs-payhawk-spend-management"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best spend management software Europe 2026 Payhawk vs Pleo vs Spendesk (WebSearch, not Google)",
+        "top_results": [
+          "spendesk.com spendesk-alternatives",
+          "spendesk.com rho-alternatives-in-europe",
+          "airwallex.com spendesk-vs-payhawk",
+          "g2.com pleo-vs-spendesk",
+          "g2.com payhawk-vs-pleo-vs-brex-vs-spendesk",
+          "ramp.com top-payhawk-alternatives"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Competitors (Ramp, Spendesk, Airwallex) write the Payhawk comparisons that rank and feed AI answers; with a new $2B round and an 'AI-native finance system' repositioning, the old 'cards and expenses' framing in third-party pages and AI answers undercuts the move upmarket.",
+    "why_not_yet": "not applicable: they already invest (SEO Director plus a team of 5, planned 642-post blog); this hire scales it by product and region.",
+    "evidence": [
+      "Greenhouse JD (direct)",
+      "blog_sample (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, fresh $280M round (can pay), clearly growing marketing org, and an open role. Lowers it: an existing SEO team under a Director of SEO (unnamed), an IC role, and a Sofia office requirement of 4 days/week; the Director may see the audit as their own team's work. Apply via Greenhouse, note to the Director of SEO / CMO."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "industry": "fintech",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "eu",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "content_seo",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/payhawkio/jobs?content=true",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "70 roles; SEO Manager JD (updated 2026-11-20)"
+    },
+    {
+      "url": "https://job-boards.eu.greenhouse.io/payhawkio/jobs/4059930101",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "check-open: open; JD read: team of 5, reports to Director of SEO, Sofia 4 days/week"
+    },
+    {
+      "url": "https://wellfound.com/jobs/2310969-seo-manager",
+      "date": "2026-11-10",
+      "kind": "unverified",
+      "result": "Wellfound post (manager-supplied, not opened)"
+    },
+    {
+      "url": "https://www.theofficialboard.com/biography/jack-cummings-d46d4",
+      "date": "2026-07-10",
+      "kind": "unverified",
+      "result": "Jack Cummings CMO (snippet)"
+    },
+    {
+      "url": "https://payhawk.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "642 posts, looks planned"
+    },
+    {
+      "url": "https://ramp.com/blog/top-payhawk-alternatives",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "HTTP 200, title 'Top 7 Payhawk Alternatives & Competitors in 2026'"
+    },
+    {
+      "url": "https://www.spendesk.com/blog/spendesk-alternatives/",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "HTTP 200"
+    }
+  ],
+  "sources_tried_failed": [
+    "Director of SEO name: two WebSearches returned only job posts (couldn't verify)"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Name of Payhawk's Director of SEO (the hiring manager)",
+    "Whether Jack Cummings is still CMO"
+  ],
+  "open_questions": [
+    "Sofia on-site 4 days/week: is relocation/commute realistic for the sponsor?",
+    "IC role under a Director of SEO with a team of 5: seniority fit for nine years' experience",
+    "Headcount not verified (size_band inferred)"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "scout_version": 4,
+  "company": "Profound",
+  "domain": "tryprofound.com",
+  "slug": "profound",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "AEO/SEO Lead",
+    "url": "https://jobs.ashbyhq.com/Profound/edeeb2ad-7eca-420a-8826-21249fb2409c",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/aeo-seo-lead-at-profound-4481845260",
+    "posted": "2026-11-17",
+    "posted_note": "LinkedIn 2026-11-17; Ashby publishedAt 2026-10-27",
+    "location": "New York City (on-site)",
+    "open_checked": "2026-11-24T16:53:30+00:00",
+    "seniority": "lead (5+ years SEO/organic growth, owns the program); base $100k-$200k + equity",
+    "reports_to": "not stated in the JD; likely Head of Marketing (other Profound marketing roles report there, per WebSearch snippets)"
+  },
+  "source_of_lead": "Jobs deep pass 2026-11-24 (manager-supplied lead); confirmed on Profound's own Ashby board",
+  "reason": "Profound (AI-search visibility platform, $180M Series D at $1.8B, Sept 2026) is hiring an AEO/SEO Lead to grow Profound itself through AI answers. Profound sells AI-search visibility, so an audit pitch overlaps its own product; the angle is the role application, showing add-vee-style thinking on their own site (weakly linked, partly planned blog; a crowd of 'Profound alternatives' pages from HubSpot, SE Ranking, Writesonic).",
+  "product_overlap_note": "Profound sells AI-search visibility itself (tracking and shaping how ChatGPT/Perplexity etc. recommend brands). add-vee's audit overlaps with its product, so the role-application angle matters far more than an audit pitch: lead with 'I'd love to be considered', and use findings only as proof of how the sponsor would work, never as a service offer.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the role itself. Organic is currently run by marketing (a Founding Marketing Engineer, Nick Lafferty, per his own site; Marketing Engineer roles open) using Profound's own product; no dedicated SEO team found. As an AEO vendor their marketing team is AI-search literate, which raises the bar.",
+  "marketing_leadership": {
+    "status": "found (current status couldn't verify)",
+    "who": [
+      {
+        "name": "Trevor Pyle",
+        "role": "Head of Marketing",
+        "kind": "direct (podcast episode page, published 2026-05-08)"
+      }
+    ],
+    "evidence": [
+      "https://podcast.ausha.co/conquete-jordan-chenevier/the-rise-of-the-marketing-engineer-trevor-pyle-head-of-marketing-atprofound (2026-05-08)",
+      "WebSearch snippets: Marketing Strategy & Planning Manager and Demand Generation Lead postings report to the Head of Marketing (pages now 404/unread)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: role will 'own AEO and SEO at Profound'",
+      "Nick Lafferty, Founding Marketing Engineer (nicklafferty.com, WebSearch snippet; current status couldn't verify)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2024 (NYC), AI-search/answer-engine visibility platform now positioned as an 'AI marketing platform' with agents (AI Marketer, Context Manager, Ads Studio launched Sept 2026). $96M Series C at $1B (Feb 2026) and $180M Series D at $1.8B co-led by Sequoia and Kleiner Perkins (Sept 2026). ~90 open roles; claims 15% of the Fortune 500 as customers. Hypergrowth in a crowded new category.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "AEO/SEO Lead, NYC",
+    "date": "2026-11-17",
+    "source": "https://jobs.ashbyhq.com/Profound/edeeb2ad-7eca-420a-8826-21249fb2409c"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 230 posts under /blog/ (2025-03 to 2026-11-23)",
+      "0.9 in-body links to other posts on average, 65% of sampled posts link to none",
+      "67% of posts in the 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "1 hub-like post",
+      "217 posts with lastmod in the last 12 months, median 790 words"
+    ],
+    "tool": "blog_sample.py tryprofound.com, 2026-11-24"
+  },
+  "fit_evidence": [
+    {
+      "claim": "AEO/SEO Lead open on Profound's own Ashby board, NYC on-site, $100k-$200k base",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/Profound/edeeb2ad-7eca-420a-8826-21249fb2409c",
+      "date": "2026-10-27 (Ashby); LinkedIn 2026-11-17"
+    },
+    {
+      "claim": "JD: 'You'll use Profound every day to grow Profound... finding where we're missing from relevant conversations'",
+      "kind": "direct",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Profound",
+      "date": "2026-10-27"
+    },
+    {
+      "claim": "$180M Series D at $1.8B co-led by Sequoia and Kleiner Perkins",
+      "kind": "inferred",
+      "url": "https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams",
+      "date": "2026-09-15"
+    },
+    {
+      "claim": "buying_journey committee: enterprise marketing teams (CMO, SEO, brand) buying a $500-$2,000+/month platform after comparing many tools",
+      "kind": "inferred",
+      "url": "https://www.clearscope.io/blog/Best-AI-Search-Visibility-Tools-for-2026",
+      "date": "accessed 2026-11-24"
+    }
+  ],
+  "site_and_content": {
+    "blog": "230 posts since 2025-03, weak in-body linking (see blog_signal)",
+    "other_content": "resources/articles, newsroom, Zero Click events",
+    "note": "AEO vendor: expect strong technical AEO hygiene; the gap is editorial linking/structure"
+  },
+  "jobs": {
+    "board": "ashby:profound (90 open roles, 8 in Marketing)",
+    "seo_roles": [
+      "AEO/SEO Lead (NYC)"
+    ],
+    "check_open": "open 2026-11-24T16:53:30Z"
+  },
+  "contacts": [
+    {
+      "name": "Trevor Pyle",
+      "role": "Head of Marketing (as of May 2026 podcast; current status couldn't verify)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://podcast.ausha.co/conquete-jordan-chenevier/the-rise-of-the-marketing-engineer-trevor-pyle-head-of-marketing-atprofound",
+      "recipient_rank": 1
+    },
+    {
+      "name": "James Cadwallader",
+      "role": "Co-founder & CEO",
+      "email": null,
+      "email_verified": false,
+      "source": "WebSearch snippet (Profound about / press), 2026-11-24",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Role application first: the JD says 'use Profound every day to grow Profound... help define what good marketing looks like at the frontier.' Show one concrete thing the sponsor would do in week one on Profound's own content (e.g. the 230-post blog where most posts don't link to each other, and the 'Profound alternatives' pages HubSpot and SE Ranking rank for), not an audit sale.",
+    "source": "https://jobs.ashbyhq.com/Profound/edeeb2ad-7eca-420a-8826-21249fb2409c",
+    "date": "2026-10-27"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Marketing teams choose AI-visibility tools by searching and asking AI ('best AI search visibility tools', 'Profound alternatives'); dozens of vendor listicles and G2 listings in a crowded, new category.",
+    "competitors": [
+      {
+        "name": "HubSpot (AEO tools)",
+        "seo_investment": "very high: 'Profound alternatives: 9 best tools for AI search [2026]'",
+        "evidence_url": "https://blog.hubspot.com/marketing/profound-alternatives"
+      },
+      {
+        "name": "SE Ranking",
+        "seo_investment": "very high: 'Profound alternatives' page aimed at Profound",
+        "evidence_url": "https://seranking.com/blog/profound-alternatives/"
+      },
+      {
+        "name": "Peec AI",
+        "seo_investment": "high (inferred; named in most alternatives lists)",
+        "evidence_url": "https://writesonic.com/blog/profound-alternatives"
+      },
+      {
+        "name": "Writesonic",
+        "seo_investment": "high: 'Profound alternatives' page",
+        "evidence_url": "https://writesonic.com/blog/profound-alternatives"
+      },
+      {
+        "name": "Search Atlas / Semrush / Ahrefs Brand Radar",
+        "seo_investment": "very high: alternatives pages and AI-visibility toolkits",
+        "evidence_url": "https://searchatlas.com/blog/best-profound-ai-alterantives/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AI search visibility tools 2026 Profound alternatives (WebSearch, not Google)",
+        "top_results": [
+          "blog.hubspot.com profound-alternatives",
+          "sourceforge Profound alternatives",
+          "slashdot Profound alternatives",
+          "seranking.com profound-alternatives",
+          "clearscope.io best AI search visibility tools 2026",
+          "writesonic.com profound-alternatives"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Competitors with far bigger SEO engines (HubSpot, Semrush, SE Ranking, Writesonic) own 'Profound alternatives' and 'best AI visibility tools' results, the exact queries Profound's buyers run; for an AEO vendor, losing its own category answers is also a credibility problem.",
+    "why_not_yet": "founder_led: a 2024 company that grew on product, events and a Marketing Engineer model; this is the first dedicated AEO/SEO owner.",
+    "evidence": [
+      "Ashby JD (direct)",
+      "blog_sample (direct)",
+      "WebSearch 2026-11-24; HubSpot and SE Ranking pages HTTP 200"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need (competitors target their name), fresh $180M round, fast growth, a named Head of Marketing. Lowers it: their product overlaps add-vee's offer so an audit pitch won't land (role application only), on-site NYC, and an AEO-native marketing team will judge the sponsor's AEO claims hard."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "industry": "martech",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/Profound",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "90 roles; AEO/SEO Lead JD (published 2026-10-27)"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/Profound/edeeb2ad-7eca-420a-8826-21249fb2409c",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "check-open: open"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/aeo-seo-lead-at-profound-4481845260",
+      "date": "2026-11-17",
+      "kind": "unverified",
+      "result": "LinkedIn post (manager-supplied, not opened)"
+    },
+    {
+      "url": "https://podcast.ausha.co/conquete-jordan-chenevier/the-rise-of-the-marketing-engineer-trevor-pyle-head-of-marketing-atprofound",
+      "date": "2026-05-08",
+      "kind": "direct",
+      "result": "Trevor Pyle, Head of Marketing at Profound"
+    },
+    {
+      "url": "https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams",
+      "date": "2026-09-15",
+      "kind": "inferred",
+      "result": "Series D (WebSearch snippet, not opened)"
+    },
+    {
+      "url": "https://www.tryprofound.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "230 posts, partly planned"
+    },
+    {
+      "url": "https://seranking.com/blog/profound-alternatives/",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "HTTP 200, page aimed at Profound"
+    },
+    {
+      "url": "https://www.tryprofound.com/careers/b620e01e-ab61-4233-9c43-62c7be896064",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "404 (Marketing Strategy & Planning Manager posting closed; 'reports to Head of Marketing' only in snippet)"
+    }
+  ],
+  "sources_tried_failed": [
+    "tryprofound.com Marketing Strategy & Planning Manager posting: 404"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Is Trevor Pyle still Head of Marketing, and does the AEO/SEO Lead report to him?"
+  ],
+  "open_questions": [
+    "Reports-to not stated",
+    "NYC on-site",
+    "Size band inferred from ~90 open roles"
+  ]
+}

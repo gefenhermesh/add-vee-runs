@@ -1,0 +1,274 @@
+{
+  "scout_version": 4,
+  "slug": "chainguard",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "brightdata_requests": 0,
+  "company": "Chainguard",
+  "domain": "chainguard.dev",
+  "job": {
+    "title": "Sr. Growth Marketing Manager, AI Discovery",
+    "url": "https://job-boards.greenhouse.io/chainguard/jobs/4726046006",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/sr-growth-marketing-manager-ai-discovery-at-chainguard-4484606230",
+    "posted": "2026-11-24",
+    "posted_note": "LinkedIn 2026-11-24; Greenhouse first_published 2026-11-02, updated 2026-11-20",
+    "location": "United States - Remote",
+    "open_checked": "2026-11-24T16:53:29+00:00",
+    "seniority": "senior IC (owns SEO program end to end + AEO + agent discovery); base $140k-$167.5k",
+    "reports_to": "not stated in JD (other growth roles report to the VP of Marketing)"
+  },
+  "source_of_lead": "Jobs-route deep pass 2026-11-24 (LinkedIn US post); confirmed on Chainguard's own Greenhouse board",
+  "reason": "Chainguard ($3.5B, Series D Apr 2025, ARR 7x in FY25) is hiring a Sr. Growth Marketing Manager to 'run Chainguard's SEO program end to end' and get ChatGPT, Claude, Perplexity, Gemini and coding agents to recommend Chainguard. Hardened images is suddenly contested (Docker Hardened Images free since Dec 2025, Minimus, Echo, RapidFort) and competitors publish 'Chainguard alternatives' pages.",
+  "gating_note": "Hiring the role itself. Content is strong (644-post blog 'Unchained', 88 'supply-chain-security-101' guides, 7 /compare pages); no dedicated SEO owner found, the JD makes this hire the owner. Growth team exists (growth, performance, content specialists under the VP of Marketing). Not a block on this route.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {
+        "name": "Liz Egan",
+        "role": "Chief Marketing Officer (elevated Nov 2025; ex-CMO Lattice and Sprig, ex-Yext)",
+        "kind": "direct (enterprisesecuritytech.com, 2025-11-05)"
+      },
+      {
+        "name": "(not identified)",
+        "role": "VP of Marketing (growth roles report to this person, Feb 2026 posting)",
+        "kind": "couldn't verify"
+      }
+    ],
+    "evidence": [
+      "enterprisesecuritytech.com 2025-11-05: Liz Egan elevated to CMO, Parm Uppal CRO, Patrick Donahue SVP Product",
+      "Growth Marketing Manager posting (Feb 2026, WebSearch snippet): reports to VP of Marketing"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: 'Own search. Run Chainguard's SEO program end to end' (this hire is the owner)",
+      "Greenhouse board 2026-11-24: 107 roles, marketing ones are field, brand, PMM, growth ops, this role"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2021 (Seattle/remote) by ex-Google open-source security leads; CEO Dan Lorenc. Series D $356M at $3.5B (Apr 2025), ARR $40M growing 7x, aiming for $100M+ by end of FY2026; $280M growth investment from General Catalyst (Oct 2025, unverified). Exec bench expanded Nov 2025. Product sprawl from container images to libraries, VMs, actions and AI-agent tooling; competition intensified when Docker made its hardened images free (Dec 2025). 107 open roles.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "Sr. Growth Marketing Manager, AI Discovery (US remote)",
+    "date": "2026-11-24",
+    "source": "https://job-boards.greenhouse.io/chainguard/jobs/4726046006"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: own search end to end; get ChatGPT, Claude, Perplexity, Gemini and AI Overviews to surface and recommend Chainguard; track citations",
+      "kind": "direct",
+      "url": "https://job-boards.greenhouse.io/chainguard/jobs/4726046006",
+      "date": "2026-11-20"
+    },
+    {
+      "claim": "buying_journey committee: enterprise security purchase (Fortune 500 customers, security + platform engineering + procurement)",
+      "kind": "inferred",
+      "url": "https://www.chainguard.dev/",
+      "date": "accessed 2026-11-24"
+    },
+    {
+      "claim": "Competitors publish 'Chainguard alternatives' pages (Minimus, Aikido, CyberPanel)",
+      "kind": "direct",
+      "url": "https://www.minimus.io/post/chainguard-alternatives-hardened-image-providers",
+      "date": "accessed 2026-11-24 (WebSearch)"
+    },
+    {
+      "claim": "Series D $356M at $3.5B, ARR $40M",
+      "kind": "direct",
+      "url": "https://chainguard.dev/unchained/announcing-chainguards-series-d-building-the-safe-source-for-all-open-source",
+      "date": "2025-04-23 (WebSearch snippets)"
+    }
+  ],
+  "site_and_content": {
+    "blog": "/unchained/: 644 posts (2022-03 to 2026-11-17), 7.2 in-body links per post",
+    "guides": "/supply-chain-security-101/: 88 pages incl. 'chainguard-alternatives' and 'best python docker image'",
+    "comparison_pages": "/compare/: vs minimus, rapidfort, echo, socket, bitnami, wizos, docker",
+    "sitemap": "chainguard.dev/sitemap.xml read directly"
+  },
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 644 posts under /unchained/ (2022-03-29 to 2026-11-17)",
+      "7.2 in-body links to other posts on average, 0% with none",
+      "37% of posts in the 6 main topics (scattered)",
+      "5 hub-like posts"
+    ],
+    "tool": "blog_sample.py chainguard.dev --prefix /unchained/, 2026-11-24 (default /blog/ prefix found nothing)"
+  },
+  "jobs": {
+    "board": "greenhouse:chainguard (107 roles, 2026-11-24)",
+    "marketing_roles": [
+      "Sr. Growth Marketing Manager, AI Discovery",
+      "Senior Growth Operations Manager",
+      "Staff Product Marketing Manager",
+      "Sr. Creative Producer, Brand",
+      "Field Marketing Manager - South",
+      "Senior Director, AMER Field Marketing"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "VP of Marketing (name not found)",
+      "role": "Likely manager of the growth team",
+      "email": null,
+      "email_verified": false,
+      "source": "Growth Marketing Manager posting Feb 2026 (WebSearch snippet)",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Liz Egan",
+      "role": "Chief Marketing Officer",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.enterprisesecuritytech.com/post/chainguard-expands-executive-bench-as-demand-for-trusted-open-source-accelerates (2025-11-05)",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their JD: 'Get ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews to surface and recommend Chainguard... Track how often we're cited.' Show how AI answers handle 'Chainguard alternatives' / 'best hardened container images' now that Docker Hardened Images is free and Minimus/Echo/Aikido publish alternatives pages, plus the 644-post Unchained audit, as how the sponsor would start.",
+    "source": "https://job-boards.greenhouse.io/chainguard/jobs/4726046006",
+    "date": "2026-11-20"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Developers and platform engineers search and ask LLMs/coding agents ('best hardened base image', 'Chainguard alternatives', 'distroless vs ...'); RedMonk and TechTarget cover the category; Gartner Peer Insights lists alternatives. Large buyer set (any org shipping containers), with a free tier then an enterprise sale.",
+    "competitors": [
+      {
+        "name": "Docker Hardened Images",
+        "seo_investment": "very high (Docker's domain authority; free since Dec 2025)",
+        "evidence_url": "https://www.techtarget.com/searchitoperations/news/366636656/Free-Docker-Hardened-Images-challenge-Chainguard"
+      },
+      {
+        "name": "Minimus",
+        "seo_investment": "high: 'Chainguard alternatives' and 'Chainguard free images vs Minimus' posts aimed at Chainguard",
+        "evidence_url": "https://www.minimus.io/post/chainguard-alternatives-hardened-image-providers"
+      },
+      {
+        "name": "Echo",
+        "seo_investment": "medium (named top alternative in roundups; Chainguard has a vs-echo page)",
+        "evidence_url": "https://www.chainguard.dev/compare/chainguard-vs-echo"
+      },
+      {
+        "name": "Aikido Security",
+        "seo_investment": "high: 'Top Chainguard alternatives 2026' on blog and dev.to",
+        "evidence_url": "https://www.aikido.dev/blog/top-chainguard-alternatives"
+      },
+      {
+        "name": "RapidFort",
+        "seo_investment": "medium",
+        "evidence_url": "https://www.chainguard.dev/compare/chainguard-vs-rapidfort"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "hardened container images vendors 2026 Chainguard alternatives (WebSearch, not Google)",
+        "top_results": [
+          "dev.to/aikidosecurity top chainguard alternatives 2026",
+          "aikido.dev top chainguard alternatives",
+          "cyberpanel.net chainguard alternatives",
+          "techtarget Free Docker Hardened Images challenge Chainguard",
+          "minimus.io chainguard alternatives",
+          "chainguard.dev supply-chain-security-101/chainguard-alternatives",
+          "redmonk why hardened images are suddenly everywhere"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "The category Chainguard created is being redefined by a free Docker offering and challengers' 'Chainguard alternatives' content; developers increasingly let coding agents pick base images, so if LLMs and agents default to Docker Hardened Images, Chainguard loses top-of-funnel signups that feed its $100M+ ARR plan.",
+    "why_not_yet": "never_prioritized as a single owned program: strong content and compare pages exist (content/PMM-led), but no SEO/AEO owner until this role.",
+    "evidence": [
+      "Greenhouse JD (direct)",
+      "sitemap read 2026-11-24 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, fast growth and plenty of money, and the JD is exactly AI discovery. But US-remote only, the role is technical (MCP servers, SQL, agent skills), and the direct manager couldn't be named; CMO Liz Egan is named publicly. Application plus the audit is the route."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "industry": "security",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "us",
+    "recipient_role": "cmo_vp_marketing",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://job-boards.greenhouse.io/chainguard/jobs/4726046006",
+      "date": "2026-11-20",
+      "kind": "direct",
+      "result": "Full JD via Greenhouse API; open (jobs.py check-open 2026-11-24T16:53:29Z, LinkedIn post behind login wall, board lists role)"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/sr-growth-marketing-manager-ai-discovery-at-chainguard-4484606230",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "login wall (state taken from company board)"
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/chainguard/jobs?content=true",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "107 roles"
+    },
+    {
+      "url": "https://www.chainguard.dev/sitemap.xml",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "838 /unchained/ URLs, 88 guides, 7 compare pages"
+    },
+    {
+      "url": "https://www.enterprisesecuritytech.com/post/chainguard-expands-executive-bench-as-demand-for-trusted-open-source-accelerates",
+      "date": "2025-11-05",
+      "kind": "direct",
+      "result": "Liz Egan elevated to CMO; Parm Uppal CRO"
+    },
+    {
+      "url": "https://fortune.com/2025/04/23/exclusive-chainguard-secures-356-million-series-d-as-valuation-soars-to-3-5-billion/",
+      "date": "2025-04-23",
+      "kind": "unverified",
+      "result": "WebSearch snippet: $356M Series D, $3.5B, ARR $40M"
+    },
+    {
+      "url": "https://sacra.com/c/chainguard/",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "$280M GC growth investment Oct 2025; est. $100M ARR Jun 2026"
+    },
+    {
+      "url": "https://www.minimus.io/post/chainguard-alternatives-hardened-image-providers",
+      "date": "accessed 2026-11-24 (WebSearch)",
+      "kind": "direct",
+      "result": "competitor page aimed at Chainguard"
+    }
+  ],
+  "sources_tried_failed": [
+    "blog_sample.py chainguard.dev default prefix /blog/: 0 posts (blog lives at /unchained/; rerun with --prefix)",
+    "WebSearch for VP of Marketing name: nothing (couldn't verify)"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Who is Chainguard's VP of Marketing / growth lead this role reports to?"
+  ],
+  "open_questions": [
+    "Reporting line not in JD",
+    "US-remote only: sponsor's eligibility"
+  ]
+}

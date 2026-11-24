@@ -1,0 +1,281 @@
+{
+  "scout_version": 4,
+  "company": "Cognition",
+  "domain": "cognition.ai",
+  "canonical_domain_note": "cognition.ai 301-redirects to cognition.com (checked 2026-11-24); products on devin.ai and windsurf.com",
+  "slug": "cognition",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "SEO & AEO",
+    "url": "https://jobs.ashbyhq.com/cognition/7a9d995f-bc55-4347-9db3-1d366308a95e",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/seo-aeo-at-cognition-4469364514",
+    "posted": "2026-11-06",
+    "posted_note": "LinkedIn post 2026-11-06; Ashby publishedAt 2026-09-23 (reposted)",
+    "location": "San Francisco",
+    "open_checked": "2026-11-24T16:53:26+00:00",
+    "seniority": "lead (JD: 'SEO & AEO leader to build Cognition's organic demand engine from the ground up... building this function from scratch'; GC board slug 'seo-aeo-lead')",
+    "reports_to": "not stated in the JD (couldn't verify); marketing is led by SVP Marketing Brandon Camhi",
+    "other_role": {
+      "title": "Search & AI Discoverability Lead",
+      "url": "https://jobs.ashbyhq.com/cognition/447e34db-fc95-4048-9f5a-4d26e8b5b720",
+      "linkedin_url": "https://www.linkedin.com/jobs/view/search-ai-discoverability-lead-at-cognition-4487814426",
+      "posted": "2026-11-10",
+      "location": "New York City",
+      "open_checked": "2026-11-24T16:53:27+00:00 (open: on company Ashby board; LinkedIn post behind login wall)",
+      "note": "Hands-on IC lead for devin.ai and cognition.ai discoverability (AEO, multi-platform search, programmatic pages), measured on signups. Picked SEO & AEO as the job because it is the broader, function-building, enterprise-pipeline role."
+    }
+  },
+  "source_of_lead": "Jobs deep pass 2026-11-24 (manager-supplied lead); both roles confirmed on Cognition's own Ashby board",
+  "reason": "Cognition (Devin; bought Windsurf, now 'Devin Desktop') raised $2B at $48B in Sept 2026 and is hiring two search roles: an SEO & AEO leader to build organic from scratch (SF) and a Search & AI Discoverability Lead (NYC). The category is new and contested (Cursor, Claude Code, Copilot, Codex), and the JDs ask for exactly the AI-answer visibility the audit measures.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the function from scratch (JD: 'You'll be building this function from scratch'). Two open search roles plus a Paid Search & SEM role: a search team is being built around them, not a block on this route. No existing SEO team found.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {
+        "name": "Brandon Camhi",
+        "role": "SVP, Marketing (named 2026-09-22)",
+        "kind": "direct (martech360 news item read 2026-11-24)"
+      }
+    ],
+    "evidence": [
+      "https://www.martech360.com/news/cxo-moves/cognition-names-brandon-camhi-as-svp-marketing (2026-09-22)",
+      "Ashby board: ~24 open marketing roles incl. Head of EMEA, Head of LATAM, Head of Analyst Relations (2026-11-24)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "SEO & AEO JD: build the function from scratch",
+      "Discoverability JD: 'a small team with very little process'"
+    ]
+  },
+  "situation": {
+    "estimate": "Applied AI lab behind Devin; acquired Windsurf (closed Dec 2025, unverified) and rebranded it 'Devin Desktop' in June 2026 (aggregator reports, unverified). Raised ~$1B at $26B (May 2026) and $2B+ Series E at $48B (Sept 2026), run-rate revenue near $900M (SiliconANGLE 2026-09-08, via WebSearch). Rapid enterprise scale-up and a new SVP Marketing building a full marketing org.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "SEO & AEO (SF) and Search & AI Discoverability Lead (NYC)",
+    "date": "2026-11-06 / 2026-11-10",
+    "source": "https://api.ashbyhq.com/posting-api/job-board/cognition"
+  },
+  "blog_signal": {
+    "impression": "looks unplanned (cognition.com); partly planned (devin.ai, windsurf.com)",
+    "reading": [
+      "cognition.com: 97 posts (2024-09 to 2026-11-17), 0.2 in-body links to other posts, 90% with none, no hubs: looks unplanned",
+      "devin.ai: 237 posts (2023-01 to 2026-11-20), 1.4 links/post, 50% with none, category taxonomy: partly planned",
+      "windsurf.com: 173 posts (2022-10 to 2026-03-18, nothing after the rebrand), 0.9 links/post, 60% with none: partly planned",
+      "cognition.ai itself: no blog in sitemap (domain redirects to cognition.com)"
+    ],
+    "tool": "blog_sample.py cognition.ai / cognition.com / devin.ai / windsurf.com, 2026-11-24"
+  },
+  "fit_evidence": [
+    {
+      "claim": "SEO & AEO role open on Cognition's own Ashby board, SF",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/cognition/7a9d995f-bc55-4347-9db3-1d366308a95e",
+      "date": "2026-09-23 (Ashby); LinkedIn 2026-11-06"
+    },
+    {
+      "claim": "Search & AI Discoverability Lead open on Ashby, NYC: 'The AI coding category is new enough that the answers in all of those places are still open'",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/cognition/447e34db-fc95-4048-9f5a-4d26e8b5b720",
+      "date": "2026-11-10"
+    },
+    {
+      "claim": "SVP Marketing Brandon Camhi named",
+      "kind": "direct",
+      "url": "https://www.martech360.com/news/cxo-moves/cognition-names-brandon-camhi-as-svp-marketing",
+      "date": "2026-09-22"
+    },
+    {
+      "claim": "$2B Series E at $48B; run-rate revenue near $900M",
+      "kind": "inferred",
+      "url": "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/",
+      "date": "2026-09-08"
+    },
+    {
+      "claim": "buying_journey committee: enterprise engineering orgs evaluating agentic coding (JD: 'enterprise technology leaders evaluating'), plus self-serve developers",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/cognition/7a9d995f-bc55-4347-9db3-1d366308a95e",
+      "date": "2026-09-23"
+    }
+  ],
+  "site_and_content": {
+    "domains": "cognition.com (corporate, cognition.ai redirects), devin.ai, windsurf.com",
+    "blogs": "see blog_signal",
+    "comparison_pages": "not checked on own site; third parties publish many 'Windsurf alternatives' / 'Cursor vs Windsurf (Devin Desktop)' pages"
+  },
+  "jobs": {
+    "board": "ashby:cognition (110 open roles, ~24 marketing)",
+    "seo_roles": [
+      "SEO & AEO (SF)",
+      "Search & AI Discoverability Lead (NYC)",
+      "Paid Search & SEM (SF)"
+    ],
+    "check_open": "SEO & AEO open 2026-11-24T16:53:26Z; Discoverability Lead open 16:53:27Z (company board; LinkedIn post login-walled)",
+    "comp": "not listed on Ashby"
+  },
+  "contacts": [
+    {
+      "name": "Brandon Camhi",
+      "role": "SVP, Marketing",
+      "email": null,
+      "email_verified": false,
+      "source": "https://www.martech360.com/news/cxo-moves/cognition-names-brandon-camhi-as-svp-marketing",
+      "recipient_rank": 1
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their own words: 'The AI coding category is new enough that the answers in all of those places are still open.' Show how AI answers describe Devin vs Cursor / Claude Code / Copilot today and whether they still say 'Windsurf' after the Devin Desktop rename, as 'how I'd start' in the SEO & AEO role.",
+    "source": "https://jobs.ashbyhq.com/cognition/447e34db-fc95-4048-9f5a-4d26e8b5b720",
+    "date": "2026-11-10"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Developers and enterprise eng leaders research AI coding tools on Google, ChatGPT/Claude, Reddit, YouTube; Gartner has an AI code assistants market and a Magic Quadrant for enterprise coding agents (secondhand); dozens of 'best AI coding agents' listicles.",
+    "competitors": [
+      {
+        "name": "Cursor (Anysphere)",
+        "seo_investment": "high (inferred; dominates 'Cursor vs Windsurf' comparisons)",
+        "evidence_url": "https://zapier.com/blog/windsurf-vs-cursor/"
+      },
+      {
+        "name": "GitHub Copilot",
+        "seo_investment": "high (inferred; GitHub docs/blog)",
+        "evidence_url": "https://www.qodo.ai/blog/windsurf-alternatives/"
+      },
+      {
+        "name": "Augment Code",
+        "seo_investment": "high: publishes 'top AI coding assistants' listicles",
+        "evidence_url": "https://augmentcode.com/tools/8-top-ai-coding-assistants-and-their-best-use-cases"
+      },
+      {
+        "name": "Codegen / Qodo",
+        "seo_investment": "high: publish 'Windsurf alternatives' pages aimed at Cognition's product",
+        "evidence_url": "https://codegen.com/blog/alternatives/windsurf"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best AI coding agents for enterprise 2026 (WebSearch, not Google)",
+        "top_results": [
+          "northflank.com top-enterprise-coding-agents",
+          "gartner.com ai-code-assistants",
+          "producthunt ai-coding-agents",
+          "augmentcode.com 8 top AI coding assistants",
+          "dev.to best AI coding agents 2026"
+        ],
+        "date": "2026-11-24"
+      },
+      {
+        "query": "Devin alternatives Windsurf vs Cursor 2026 (WebSearch)",
+        "top_results": [
+          "zapier.com windsurf-vs-cursor",
+          "resources.rework.com cursor-vs-windsurf (Devin Desktop)",
+          "dev.to devin-vs-cursor",
+          "trustradius cursor-vs-devin",
+          "qodo.ai windsurf-alternatives",
+          "rework best-windsurf-alternatives"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "The Windsurf -> Devin Desktop rename and a brand-new category: third-party vendors (Qodo, Codegen, Augment) and listicles define 'Windsurf alternatives' and 'best coding agents' while windsurf.com's blog stopped in March 2026 and cognition.com's posts barely link to each other; AI answers may describe stale product names or rank competitors first.",
+    "why_not_yet": "founder_led / never_prioritized: research- and launch-led growth (product announcements, PR) with no organic function until now (JD: building it from scratch).",
+    "evidence": [
+      "Ashby JDs (direct)",
+      "blog_sample x4 (direct)",
+      "WebSearch 2026-11-24"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, an explicit build-from-scratch role, a named SVP Marketing, and huge funding (can pay). Lowers it: a $48B company with 110 open roles gets many applicants, both roles are on-site SF/NYC, and the SVP is a busy senior exec; the application plus a short audit note is the route."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "industry": "devtools",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "201_1000",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/cognition",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "110 roles; SEO & AEO (published 2026-09-23) and Search & AI Discoverability Lead (2026-11-10) full JDs"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/cognition/7a9d995f-bc55-4347-9db3-1d366308a95e",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "check-open: open"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/search-ai-discoverability-lead-at-cognition-4487814426",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "check-open: open via company board; post unknown (login wall)"
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/seo-aeo-at-cognition-4469364514",
+      "date": "2026-11-06",
+      "kind": "unverified",
+      "result": "LinkedIn post (manager-supplied, not opened)"
+    },
+    {
+      "url": "https://www.martech360.com/news/cxo-moves/cognition-names-brandon-camhi-as-svp-marketing",
+      "date": "2026-09-22",
+      "kind": "direct",
+      "result": "Brandon Camhi named SVP Marketing"
+    },
+    {
+      "url": "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/",
+      "date": "2026-09-08",
+      "kind": "inferred",
+      "result": "Series E $2B at $48B (WebSearch snippet, not opened)"
+    },
+    {
+      "url": "https://resources.rework.com/tools/ai-coding/best-windsurf-alternatives",
+      "date": "accessed 2026-11-24",
+      "kind": "unverified",
+      "result": "'Windsurf Alternatives... Replace Devin Desktop' (HTTP 200); rename June 2026 per aggregators"
+    },
+    {
+      "url": "https://cognition.com/blog (blog_sample.py cognition.com, devin.ai, windsurf.com)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "see blog_signal"
+    }
+  ],
+  "sources_tried_failed": [
+    "blog_sample.py cognition.ai: no blog in sitemap (domain redirects to cognition.com)",
+    "LinkedIn post for Discoverability Lead: login wall"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Whether the SEO & AEO role reports to Brandon Camhi or a Growth/Web lead"
+  ],
+  "open_questions": [
+    "Reports-to not stated in either JD",
+    "Headcount not verified (size_band inferred)",
+    "Windsurf acquisition/rename details from aggregators (unverified)"
+  ]
+}

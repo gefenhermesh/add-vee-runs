@@ -1,0 +1,273 @@
+{
+  "scout_version": 4,
+  "slug": "paddle",
+  "scouted": "2026-11-24",
+  "b2b": true,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "brightdata_requests": 0,
+  "company": "Paddle",
+  "domain": "paddle.com",
+  "job": {
+    "title": "Organic & AI Search Manager",
+    "url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
+    "linkedin_url": "https://uk.linkedin.com/jobs/view/organic-ai-search-manager-at-paddle-4483055734",
+    "posted": "2026-11-20",
+    "posted_note": "LinkedIn post 2026-11-20; Ashby publishedAt 2026-10-29",
+    "location": "UK (digital-first: remote or hub)",
+    "open_checked": "2026-11-24T16:53:27+00:00",
+    "seniority": "manager (senior IC, owns organic + AI discoverability strategy)",
+    "reports_to": "Head of Web"
+  },
+  "source_of_lead": "Jobs-route deep pass 2026-11-24 (LinkedIn UK post); confirmed on Paddle's own Ashby board",
+  "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: literally add-vee's audit. Contested category where Stripe, FastSpring, Lemon Squeezy and new MoRs (Dodo, Fungies, Polar) publish 'Paddle alternatives' pages.",
+  "gating_note": "Hiring the role itself; reports to the Head of Web, alongside Brand, PMM and Growth teams. No in-house SEO team found (the JD reads as the first dedicated organic/AI-search owner). Not a block on this route.",
+  "marketing_leadership": {
+    "status": "found (unverified)",
+    "who": [
+      {
+        "name": "Ben Aronsten",
+        "role": "CMO (named with Paddle's 2025 $25M debt raise; ex-Intercom global marketing, ex-Shopify EMEA)",
+        "kind": "unverified (WebSearch snippet of press coverage, 2025; current status couldn't verify)"
+      },
+      {
+        "name": "(not identified)",
+        "role": "Head of Web, the role's manager (role advertised Sep 2025)",
+        "kind": "couldn't verify"
+      }
+    ],
+    "evidence": [
+      "Ashby JD 2026-10-29: reports to the Head of Web",
+      "Head of Web posting (aggregators, Sep 2025): leads paddle.com and digital surfaces, director level",
+      "Marketing Ops posting (~Dec 2025, aggregator) reports to the CMO"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: role owns organic + AI discoverability strategy and drafts BAU refreshes itself, no SEO team mentioned",
+      "Only marketing roles on the Ashby board 2026-11-24: this one and Director of Demand Generation"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2012, London; merchant of record for 10,000+ software sellers in 245 territories, backed by KKR, FTV, Kindred, Notion, 83North (JD). Series D $200M at $1.4B (2022, inferred from memory) and a $25M debt raise in 2025 (WebSearch, unverified). Leadership reshuffle: Jimmy Fitzgerald CEO, founder Christian Owens Executive Chairman (unverified, undated). Pushing into app/web monetization (mobile apps selling on the web) while Stripe launches its own MoR (Managed Payments, 2026). 14 open roles on Ashby.",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "Organic & AI Search Manager, UK",
+    "date": "2026-11-20",
+    "source": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102"
+  },
+  "fit_evidence": [
+    {
+      "claim": "Role's first duty: audit presence across traditional search, AI answers and LLM citation patterns, then build a prioritized roadmap",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
+      "date": "2026-10-29"
+    },
+    {
+      "claim": "buying_journey committee: payments/billing infrastructure for software companies is chosen by founders/finance/engineering together, with migration risk",
+      "kind": "inferred",
+      "url": "https://paddle.com/resources/how-to-evaluate-a-merchant-of-record",
+      "date": "accessed 2026-11-24"
+    },
+    {
+      "claim": "Competitors publish 'Paddle alternatives' pages (FastSpring, Dodo Payments, Rework, Fungies)",
+      "kind": "direct",
+      "url": "https://fastspring.com/blog/paddle-alternatives/",
+      "date": "accessed 2026-11-24 (WebSearch)"
+    }
+  ],
+  "site_and_content": {
+    "blog": "252 posts under /blog/ (2020-10 to 2026-11-17); sitemap lastmod is recent for all 252 (likely a bulk resave, not real edits)",
+    "comparison_pages": "/alternatives/ section exists (e.g. fastspring-vs-stripe)",
+    "resources": "/resources/ guides (e.g. merchant-of-record guide for CFOs)",
+    "note": "blog_sample median 156 words: probably an extraction issue on Paddle's template, treat as unreliable"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 252 posts under /blog/ (2020-10-14 to 2026-11-17)",
+      "2.2 in-body links to other posts on average, 5% with none",
+      "47% of posts in the 6 main topics (scattered)",
+      "taxonomy pages: page, revenue-collection",
+      "5 hub-like posts"
+    ],
+    "tool": "blog_sample.py paddle.com, 2026-11-24"
+  },
+  "jobs": {
+    "board": "ashby:paddle (14 roles, 2026-11-24)",
+    "marketing_roles": [
+      "Organic & AI Search Manager",
+      "Director of Demand Generation"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Head of Web (name not found)",
+      "role": "Hiring manager for Organic & AI Search Manager",
+      "email": null,
+      "email_verified": false,
+      "source": "Ashby JD",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Ben Aronsten",
+      "role": "CMO (unverified, 2025 press via WebSearch)",
+      "email": null,
+      "email_verified": false,
+      "source": "WebSearch snippets of Paddle $25M raise coverage (finextra/finovate), 2025",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their own JD: 'Audit our presence across traditional search, AI-generated responses, and LLM citation patterns, then build a prioritized roadmap.' Show the audit already done (how ChatGPT/Gemini answer 'Paddle alternatives' / 'best merchant of record' while Stripe Managed Payments, FastSpring and Dodo push alternatives pages) as how the sponsor would start in the role.",
+    "source": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
+    "date": "2026-10-29"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Self-serve SaaS and app founders research MoR/billing options by searching and asking LLMs ('Stripe vs Paddle vs Lemon Squeezy'); dozens of dev.to, vendor and listicle comparisons exist; G2 category exists. Large buyer set (any software company selling globally).",
+    "competitors": [
+      {
+        "name": "Stripe (incl. Lemon Squeezy, Managed Payments)",
+        "seo_investment": "very high (docs, guides; Lemon Squeezy migration to Managed Payments 2026)",
+        "evidence_url": "https://stripe.com/guides"
+      },
+      {
+        "name": "FastSpring",
+        "seo_investment": "high: 'Paddle alternatives' and 'Stripe vs Paddle' posts aimed at Paddle",
+        "evidence_url": "https://fastspring.com/blog/paddle-alternatives/"
+      },
+      {
+        "name": "Dodo Payments",
+        "seo_investment": "high: '7 Paddle Alternatives and Competitors for SaaS in 2026'",
+        "evidence_url": "https://dodopayments.com/blogs/paddle-alternatives"
+      },
+      {
+        "name": "Fungies",
+        "seo_investment": "medium-high: Paddle vs FastSpring comparison pages",
+        "evidence_url": "https://fungies.io/paddle-vs-fastspring"
+      },
+      {
+        "name": "Freemius",
+        "seo_investment": "medium: 'best merchant of record platforms 2026'",
+        "evidence_url": "https://freemius.com/blog/"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "Paddle vs Stripe vs Lemon Squeezy vs FastSpring merchant of record comparison 2026 (WebSearch, not Google)",
+        "top_results": [
+          "dev.to Paddle alternatives 2026",
+          "fastspring.com/blog/paddle-alternatives",
+          "dev.to Paddle review 2026",
+          "dev.to stripe vs paddle vs lemon squeezy fee comparison",
+          "paddle.com/alternatives/fastspring-vs-stripe",
+          "resources.rework.com best Paddle alternatives",
+          "dodopayments.com/blogs/paddle-alternatives"
+        ],
+        "date": "2026-11-24"
+      }
+    ],
+    "cost_of_absence": "Stripe's own MoR (Managed Payments) and a wave of cheaper MoRs are defining the category in search and AI answers with 'Paddle alternatives' content; if LLMs cite competitors' framing (5% + 50c, 'Paddle for scaling SaaS'), Paddle loses consideration at the moment founders choose billing.",
+    "why_not_yet": "never_prioritized as a dedicated function: content lives across Brand/PMM/Growth with no organic owner; the new role fixes that.",
+    "evidence": [
+      "Ashby JD (direct)",
+      "WebSearch results 2026-11-24 (direct, WebSearch)",
+      "blog_sample 2026-11-24 (direct)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, growing and can pay, and the JD asks for exactly the audit. But the hiring manager (Head of Web) couldn't be named and the CMO is from 2025 coverage only; the role is UK-based (digital-first). The application plus the audit is the route."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "losing_to_named_competitors",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "industry": "fintech",
+    "stage": "series_c_plus",
+    "situation": "established",
+    "size_band": "201_1000",
+    "geo": "eu",
+    "recipient_role": "other",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {
+      "url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
+      "date": "2026-10-29",
+      "kind": "direct",
+      "result": "Full JD via Ashby API; reports to Head of Web; open (jobs.py check-open 2026-11-24T16:53:27Z)"
+    },
+    {
+      "url": "https://uk.linkedin.com/jobs/view/organic-ai-search-manager-at-paddle-4483055734",
+      "date": "2026-11-20",
+      "kind": "direct",
+      "result": "post open (jobs.py)"
+    },
+    {
+      "url": "https://api.ashbyhq.com/posting-api/job-board/paddle",
+      "date": "accessed 2026-11-24",
+      "kind": "direct",
+      "result": "14 roles; marketing: this + Director of Demand Generation"
+    },
+    {
+      "url": "https://www.paddle.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-24",
+      "kind": "direct",
+      "result": "252 posts, partly planned"
+    },
+    {
+      "url": "https://www.finextra.com/pressarticle/90915/paddle-appoints-andrew-davies-as-cmo",
+      "date": "~2021 (WebSearch snippet)",
+      "kind": "unverified",
+      "result": "Andrew Davies CMO (older; later Chief Innovation Officer per South Summit bio)"
+    },
+    {
+      "url": "https://finovate.com/paddle-raises-25-million-for-payments-infrastructure/",
+      "date": "2025 (WebSearch snippet)",
+      "kind": "unverified",
+      "result": "Ben Aronsten named CMO with $25M raise"
+    },
+    {
+      "url": "https://builtin.com/job/head-web/6846015",
+      "date": "2025-09 (aggregator)",
+      "kind": "unverified",
+      "result": "Head of Web role description"
+    },
+    {
+      "url": "https://fastspring.com/blog/paddle-alternatives/",
+      "date": "accessed 2026-11-24 (WebSearch)",
+      "kind": "direct",
+      "result": "competitor page aimed at Paddle"
+    },
+    {
+      "url": "https://dodopayments.com/blogs/paddle-alternatives",
+      "date": "accessed 2026-11-24 (WebSearch)",
+      "kind": "direct",
+      "result": "competitor page aimed at Paddle"
+    }
+  ],
+  "sources_tried_failed": [
+    "WebSearch for Paddle Head of Web name: only job aggregators, no name (couldn't verify)",
+    "Current CMO: no 2026 source (couldn't verify)"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Who is Paddle's Head of Web now?",
+    "Is Ben Aronsten still CMO?"
+  ],
+  "open_questions": [
+    "Name of the Head of Web",
+    "Ashby publishedAt 2026-10-29 vs LinkedIn 2026-11-20: likely a repost, still open"
+  ]
+}
