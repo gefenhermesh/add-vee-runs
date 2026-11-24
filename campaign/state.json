@@ -104,7 +104,7 @@
         "gate": "2026-11-19T21:54:21+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r7635658198705517252",
+      "gmail_draft_id": "r-9200811430736433910",
       "draft_to": "morgan@gambit.security",
       "draft_to_verified": false,
       "need": "find_the_cracks",
@@ -149,7 +149,7 @@
               "n": 1,
               "type": "N",
               "decided_at": "2026-11-24T16:55:38+00:00",
-              "draft_id": "r942495455637285475",
+              "draft_id": "r-3989148528950713774",
               "reason": "sponsor asked for it 2026-11-24: need 'make the content count' (blog), plus the second-step intent"
             }
           ],
