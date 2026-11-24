@@ -1,6 +1,6 @@
 {
-  "stage": "loop_a",
-  "ts": "2026-11-24T16:38:44Z",
-  "note": "Loop A started: researcher on helpscout.com",
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-24T17:14:52Z",
+  "note": "Loop A approved (round 2, exact patch). Scope & Prompts: https://claude.ai/artifact/NedhzBtH2kVH7C2dCt9UjL ; Story: https://claude.ai/artifact/JRZVhXrhDG658eeN9eDhJL",
   "branch": "campaign/help-scout"
 }
