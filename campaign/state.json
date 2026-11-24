@@ -105,9 +105,11 @@
         "gate": "2026-11-19T21:54:21+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r-8016629324461436343",
+      "gmail_draft_id": "r7635658198705517252",
       "draft_to": "morgan@gambit.security",
-      "draft_to_verified": false
+      "draft_to_verified": false,
+      "need": "find_the_cracks",
+      "email_variant": "v7_need_feedback"
     },
     {
       "slug": "upwind",
@@ -164,9 +166,11 @@
         "gate": "2026-11-20T06:54:09+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r4242847758648922192",
+      "gmail_draft_id": "r4710658000293432333",
       "draft_to": "roi@glow.io",
-      "draft_to_verified": false
+      "draft_to_verified": false,
+      "need": "clean_up_what_ai_says",
+      "email_variant": "v7_need_feedback"
     },
     {
       "slug": "plurai",
