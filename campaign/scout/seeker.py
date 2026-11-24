@@ -88,6 +88,23 @@ def description(page):
     return re.sub(r"[ \t]+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t))).strip()
 
 
+def seojobs_detail(page):
+    """(employer description, apply link) from a seojobs.com job page. The page header (Location, Salary, Job Type)
+    is filled by seojobs' collecting bot and can be wrong, so only the employer's text after "Job Description" is
+    screened; the apply link is seojobs' click-through to the employer's form."""
+    i = page.find('class="entry-content')
+    text = re.sub(r"[ \t]+", " ", R.text_of(page[i:i + 60000] if i >= 0 else page))
+    j = text.find("Job Description")
+    desc = text[j + len("Job Description"):] if j >= 0 else ""
+    # the employer's text ends where seojobs' own boxes begin ("Related / How to Apply for this SEO Job / Browse SEO
+    # Jobs", a sidebar with a "Job location: Remote" filter menu); cut there so site navigation isn't read as the post
+    ends = [k for k in (desc.find(m) for m in ("How to Apply for this SEO Job", "Browse SEO Jobs", "Want SEO jobs delivered",
+                                                "Browse jobs Type of organization")) if k >= 0]
+    desc = desc[:min(ends)] if ends else desc
+    m = re.search(r'href="(https://www\.seojobs\.com/wp-json/seojobs/v1/apply-click/[^"]+)"', page)
+    return desc.strip()[:8000], (html.unescape(m.group(1)) if m else None)
+
+
 def sentences_with(rx, text, n=2):
     out = []
     for s in re.split(r"(?<=[.!?])\s+|\n", text):
@@ -130,6 +147,9 @@ def screen(post, desc):
         return {"lean": "apply", "why": ["open to LATAM, the Americas, anywhere, or contractors"], "quotes": pos_q}
     if post["region"] == "latam":
         return {"lean": "apply", "why": ["remote, listed for Latin America, no residence limit stated"], "quotes": []}
+    if post["region"] == "seojobs" and desc and not re.search(r"\b(remote|work from home|wfh|distributed team|fully distributed)\b", text, re.I):
+        # seojobs isn't a remote-only search (LinkedIn's searches are filtered to remote): the employer must say it
+        return {"lean": "skip", "why": ["the post doesn't say the role is remote"], "quotes": []}
     if post["region"] in ("us", "seojobs"):
         # sponsor, 2026-11-24: a remote US post that doesn't ask about work authorization, sponsorship, citizenship
         # or US residence is worth applying to; some US companies will hire him as a contractor.
@@ -220,11 +240,13 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
         if p["region"] == "seojobs" and relevant and p.get("url"):
             try:  # seojobs job pages also refuse plain requests: one capped Web Unlocker request per relevant post
                 page, err = (paid or jobs.paid_fetch)(p["url"])
-                desc = "" if err else R.text_of(page)[:6000]
+                if not err:
+                    desc, apply_link = seojobs_detail(page)
+                    p["apply_link"] = apply_link
             except Exception as e:
                 p["detail_error"] = str(e)[:80]
         p["screen"] = screen(p, desc)
-        p["apply_url"] = p.get("url")
+        p["apply_url"] = p.get("apply_link") or p.get("url")
         p["excerpt"] = desc[:600]
     day = now.date().isoformat()
     path = OUT / f"{day}.json"

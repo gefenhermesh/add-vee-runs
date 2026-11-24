@@ -53,6 +53,10 @@ class Screen(unittest.TestCase):
         self.assertEqual(S.screen(post("us"), "Siana Marketing | Remote (U.S.-based)")["lean"], "skip")
         self.assertEqual(S.screen(post("us"), "Fully remote. Occasional on-site visits optional.")["lean"], "apply")
 
+    def test_seojobs_must_say_remote(self):
+        self.assertEqual(S.screen(post("seojobs"), "Join our marketing team in Irving.")["lean"], "skip")
+        self.assertEqual(S.screen(post("seojobs"), "This is a remote position.")["lean"], "apply")
+
     def test_sponsor_feedback_company_is_skipped(self):
         p = post("us"); p["company"] = "Infor"
         r = S.screen(p, "Remote role.")
@@ -67,6 +71,15 @@ class Screen(unittest.TestCase):
         d = S.description((FX / "li_job_detail_blacksmith.html").read_text(errors="ignore"))
         self.assertIn("Latin America", d)
         self.assertEqual(S.screen(post("us"), d)["lean"], "apply")
+
+
+class SeojobsPage(unittest.TestCase):
+    def test_employer_text_only_and_apply_link(self):
+        desc, link = S.seojobs_detail((FX / "seojobs_job_linkedin.html").read_text(errors="ignore"))
+        self.assertTrue(desc.startswith("Job Description") or "LinkedIn is the world" in desc[:200])
+        self.assertNotIn("Location In-Office", desc)  # the bot's header is left out
+        self.assertTrue(link and "apply-click" in link)
+        self.assertNotIn("Browse jobs", desc)  # seojobs' sidebar ("Job location: Remote ...") is cut off
 
 
 class FetchAndDigest(unittest.TestCase):
