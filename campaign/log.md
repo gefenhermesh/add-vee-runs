@@ -50,6 +50,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-22 Gambit, glow.io, Upwind images re-shot in the etico palette (approved Action Plan data, cluster colours mapped to etico, no data change); drafts recreated with signature, old ones deleted. Screenshot script kept in campaign/tools/shoot_action_plan.js.
 - 2026-11-22 manager handoff written (campaign/MANAGER_HANDOFF.md); the sponsor opens a new manager session; the old one stops managing.
 - 2026-11-23T20:16:14+00:00 followup: upwind/1 email1 sent to CMO
+- 2026-11-24T16:55:38+00:00 followup: upwind/1 decision send N (sponsor asked for it 2026-11-24: need 'make the content count' (blog), plus the second-step intent)
 
 ## Cohorts
 

@@ -144,7 +144,15 @@
             5,
             6
           ],
-          "steps": [],
+          "steps": [
+            {
+              "n": 1,
+              "type": "N",
+              "decided_at": "2026-11-24T16:55:38+00:00",
+              "draft_id": "r942495455637285475",
+              "reason": "sponsor asked for it 2026-11-24: need 'make the content count' (blog), plus the second-step intent"
+            }
+          ],
           "status": "active",
           "email_note": "Gmail shows the send went to joelminnick@upwind.io (not joel.minnick@ as drafted); no bounce as of 2026-11-24."
         }
