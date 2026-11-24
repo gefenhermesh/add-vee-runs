@@ -94,3 +94,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 **New proposed:** 0 (no deep recon while 10+ proposed). Proposed pool after the jobs session's 15 seo_job proposals: 31. Picks (learn.py, on the merged pool): profound, cognism, buildots (exploit), daylight-security, pliant (explore).
 - 2026-11-24 17:05 UTC: scout done: re-verified 9 (kept 7, zenzap and edelbyte held), 0 new proposed (deep recon skipped: 10+ proposed); picks profound, cognism, buildots, daylight-security, pliant.
 - 2026-11-24 17:08 UTC: sponsor: "no profound and ai search companies please". profound and evertune-ai withdrawn; SCOUT.md Not-a-match now lists AI-search/GEO vendors on every route.
+- 2026-11-24T17:23:36+00:00 approve help-scout (sponsor, manager chat): gate_1_2_approval.json pushed to campaign/help-scout (47a77e8); company session told.
