@@ -73,3 +73,4 @@ Sponsor: the next main scout run goes back to the filtered companies. Every comp
 - 2026-11-24 16:40 UTC: daily mail check: no new sends to record, no replies or bounces (Vega, Bay, Upwind). Upwind thread address corrected to joelminnick@upwind.io (what Gmail shows was sent).
 - 2026-11-24 16:33 UTC: daily jobs scout started (session_01FkmvpPGgMcKZBTRu44iFPT), first live run.
 - 2026-11-24 16:37 UTC: jobs scout reported (routine, backlog 0, 4 paid unlocker this week); proposed help-scout (SEO / AEO Lead, posted 2026-11-24, open). Sponsor notified.
+- 2026-11-24 16:44 UTC: sponsor asked to re-verify the 9 proposed on 2026-11-19 under the current scout rules, then run the scout from step 1 (new finds may go first). Scout session session_01FkmvpM8xTxvCfYCgKzpPpy started.
