@@ -159,6 +159,21 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
 ## Daily SEO-jobs route (sponsor, 2026-11-20)
 Startups hiring for SEO right now are the warmest prospects there are: the sponsor would love to be considered for the role, and the audit shows how they'd start. This route runs **every 24 hours in its own short session** (source `add-vee-runs`), started by the manager with the prompt "You are the daily jobs scout: follow campaign/SCOUT.md → Daily SEO-jobs route."
 
+0. **Jobs for the sponsor himself (sponsor, 2026-11-24), first and short.** `python campaign/scout/seeker.py fetch`
+   reads, for the last 24 hours, LinkedIn's remote "search engine optimization" posts listed for Latin America, the
+   United States and Europe (free), and seojobs.com (capped Web Unlocker), keeps only posts never seen before, and
+   screens each one with filters set ahead in the script: SEO roles only, no junior or intern roles, no Asia;
+   **US and seojobs posts are worth applying to when they're remote and don't ask for US work authorization,
+   sponsorship, citizenship or US residence**; LATAM posts unless they require residence outside LATAM; Europe
+   posts only when they say they'd work with someone in the Americas, worldwide, or as a contractor. The script does
+   the mining; your part is a light check of the `apply` and `maybe` posts in `campaign/scout/seeker/<date>.json`
+   (a few minutes): overturn a lean only when the quoted text or the excerpt shows the script was wrong (e.g. a
+   Spanish or Portuguese post requiring residence in one country, an on-site role, a non-SEO job), by setting
+   `final` (apply / maybe / skip) and a short `note`. Then `python campaign/scout/seeker.py digest <date>` writes
+   `campaign/scout/seeker/<date>.md`: the daily message, every role with its LinkedIn or seojobs link (the Apply
+   button is on that page). Commit it with the rest of the run, and tell the manager "Seeker digest: <date>, N to
+   apply, M maybe" in your report line.
+
 1. **Fetch:** `python campaign/scout/jobs.py fetch`. Cost stays near zero by design: each page is read directly first (free); only a refused page goes through the Web Unlocker, capped at `unlocker_requests_per_week` in budget.json and logged in bd_usage.jsonl; LinkedIn is read daily, a quiet source less often (up to every 4 days, back to daily when it changes), and only changes are handled. Report the `paid_unlocker_requests_this_week` number in your one line to the manager. If a source was skipped because the cap was reached, say so in that line: the manager raises the cap by 10 (pre-approved by the sponsor) and the source is read again, since getting the newest posts matters more than the cap. **Page 1 of each source only, one cheap request each:**
    - **LinkedIn** public job search for "search engine optimization", last 24 hours, United States and Europe;
    - **Wellfound**'s SEO Specialist role page (startups only; SEO/GEO/AEO titles from the last 3 weeks, with company size);

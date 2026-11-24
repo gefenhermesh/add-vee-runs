@@ -42,7 +42,7 @@ class JobsTest(unittest.TestCase):
         self.assertEqual(len(lines), len({json.loads(l)["job_id"] for l in lines}))  # no duplicate posts
 
     def test_classify_and_startups(self):
-        t = dt.datetime.now(dt.timezone.utc)
+        t = dt.datetime(2026, 11, 20, 12, tzinfo=dt.timezone.utc)  # the fixture's day: store() keeps only fresh posts
         new = jobs.store(self.us, t)
         f = Path(self.tmp.name) / "c.json"
         f.write_text(json.dumps([{"key": new[0]["key"], "class": "startup", "why": "Series B SaaS"}]))
