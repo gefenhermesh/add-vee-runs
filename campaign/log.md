@@ -102,3 +102,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-24 17:08 UTC: sponsor: "no profound and ai search companies please". profound and evertune-ai withdrawn; SCOUT.md Not-a-match now lists AI-search/GEO vendors on every route.
 - 2026-11-24T17:23:36+00:00 approve help-scout (sponsor, manager chat): gate_1_2_approval.json pushed to campaign/help-scout (47a77e8); company session told.
 - 2026-11-24T18:35:23+00:00 approve paddle (sponsor, manager chat): gate_1_2_approval.json pushed to campaign/paddle (8583a7b); company session told.
+- 2026-11-24 20:02 UTC: Bright Data AI Mode outage: dataset gd_mcswdt6z2elth3zqr2 has 54 snapshots running (oldest 17:25 UTC), none delivered since 2026-11-20; Gemini gd_mbz66arm2mf9cu856y 1 snapshot running 35 min. Test of AI Mode via Web Unlocker (content_crawler, udm=50): 2 paid requests, page shell only / empty with render; not usable. Support ticket drafted for the sponsor.
