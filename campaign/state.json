@@ -104,11 +104,12 @@
         "gate": "2026-11-19T21:54:21+00:00",
         "done": "2026-11-20T22:55:22+00:00"
       },
-      "gmail_draft_id": "r-9200811430736433910",
-      "draft_to": "morgan@gambit.security",
-      "draft_to_verified": false,
+      "gmail_draft_id": "r3996366814802654921",
+      "draft_to": "morgan.cole@gambit.security",
+      "draft_to_verified": true,
       "need": "find_the_cracks",
-      "email_variant": "v7_need_feedback"
+      "email_variant": "v7_need_feedback",
+      "draft_to_verified_by": "sponsor, 2026-11-24 (first.last; morgan@ was invalid)"
     },
     {
       "slug": "upwind",
