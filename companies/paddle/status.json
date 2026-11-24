@@ -1,7 +1,8 @@
 {
-  "stage": "report",
+  "stage": "loop_c",
   "ts": "2026-11-24T18:35:43+00:00",
-  "note": "Loop B approved (round 2, 234 claims CONFIRMED); writing the Visibility Report narrative.",
-  "updated_at": "2026-11-24T22:26:34+00:00",
+  "note": "Visibility Report published (https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH); starting Loop C content-mapper (crawl already done).",
+  "updated_at": "2026-11-24T22:39:47+00:00",
+  "report_url": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",
   "branch": "campaign/paddle"
 }
