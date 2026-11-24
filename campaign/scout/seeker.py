@@ -51,7 +51,8 @@ NEG_US = re.compile(r"\b(authori[sz]ed to work in the (united states|u\.?s\.?a?)
                     r"security clearance|(not|unable to|cannot|can't|won't) (provide |offer )?(visa )?sponsor|"
                     r"without (the need for )?(visa )?sponsorship|no (visa )?sponsorship|"
                     r"(must|need to|required to) (reside|live|be located|be based) (in|within) the (united states|u\.?s\.?)|"
-                    r"(us|u\.s\.)-based (candidates )?only|within the (united states|u\.?s\.?|continental us))\b", re.I)
+                    r"(us|u\.s\.)-based( candidates)?( only)?|remote \(u\.?s\.?( only| based)?\)|"
+                    r"within the (united states|u\.?s\.?|continental us))\b", re.I)
 NEG_EU = re.compile(r"\b((right|eligib\w*|authori[sz]ed|permit) to work in (the )?(uk|eu|european union|europe|eea|[A-Z][a-z]+)|"
                     r"(must|need to|required to) (reside|live|be located|be based) in (the )?(uk|eu|europe|[A-Z][a-z]+)|"
                     r"eu (citizens?|work permit)|based in (the )?(uk|eu|europe) only|(uk|eu|cet|cest|gmt) (hours|time ?zone) only)\b", re.I)
@@ -62,6 +63,7 @@ ASIA = re.compile(r"\b(india|philippines|pakistan|bangladesh|vietnam|indonesia|m
 WORK_CONTEXT = re.compile(r"\b(remote|candidates?|applicants?|hire|hiring|work(ing)? from|based|reside|located|location|"
                           r"time ?zones?|contract(or)?s?|position|role is open|open to)\b", re.I)
 STRONG_LATAM = re.compile(r"\b(latin america|latam|south america|central america|costa rica)\b", re.I)
+ONSITE = re.compile(r"\b(in[- ]office|on[- ]?site|onsite|hybrid|in[- ]person|presencial|h[ií]brido)\b", re.I)
 JUNIOR = re.compile(r"\b(intern(ship)?|junior|jr\.?|entry[- ]level|trainee|assistant|graduate|practicante|pasante|"
                     r"est[aá]gi\w*|assistente|asistente|auxiliar|aprendiz)\b", re.I)
 SEO_ROLE = re.compile(r"\b(seo|geo|aeo|search|organic|b\u00fasqueda|busca org\u00e2nica)\b", re.I)  # the title must be an SEO role
@@ -106,6 +108,9 @@ def screen(post, desc):
         return {"lean": "skip", "why": ["junior or intern role"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
         return {"lean": "skip", "why": ["not an SEO role"], "quotes": []}
+    onsite = sentences_with(ONSITE, text)
+    if onsite and not re.search(r"\b(fully remote|100% remote|remote[- ]first)\b", text, re.I):
+        return {"lean": "skip", "why": ["not fully remote (in-office, on-site or hybrid)"], "quotes": onsite}
     neg = NEG_US if post["region"] in ("us", "seojobs") else NEG_EU if post["region"] == "europe" else re.compile(
         NEG_US.pattern + "|" + NEG_EU.pattern, re.I)
     pos_q = [q for q in sentences_with(POS, text, n=6) if STRONG_LATAM.search(q) or WORK_CONTEXT.search(q)][:2]
@@ -147,12 +152,19 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
     known, keyset = seen()
     coverage, posts, all_ids = [], [], []
     for region in REGIONS:
-        try:
-            got = jobs.parse(fetcher(search_url(region)), region)
-            coverage.append(f"linkedin_{region}_remote: {len(got)} posts")
-        except Exception as e:
-            coverage.append(f"linkedin_{region}_remote: FAILED ({type(e).__name__}: {e})")
+        got, last = None, None
+        for attempt in range(3):  # LinkedIn answers 429 to bursts; wait and try again
+            try:
+                got = jobs.parse(fetcher(search_url(region)), region)
+                break
+            except Exception as e:
+                last = e
+                time.sleep(30 * (attempt + 1))
+        if got is None:
+            coverage.append(f"linkedin_{region}_remote: FAILED ({type(last).__name__}: {last})")
             continue
+        coverage.append(f"linkedin_{region}_remote: {len(got)} posts")
+        time.sleep(5)
         for p in got:
             all_ids.append((p["job_id"], role_key(p)))
             if p["job_id"] in known or role_key(p) in keyset:  # the same role re-posted for many cities counts once
