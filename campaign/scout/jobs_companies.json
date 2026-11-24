@@ -2237,7 +2237,7 @@
   "class": "startup",
   "last_seen": "2026-11-24",
   "offered": "2026-11-24",
-  "why": "in recon 2026-11-24: #2: B2B AI doc-parsing (Series B, $100M+ raised), SEO/GEO Manager $150-180k, onsite SF, open on Ashby 2026-11-24 (posted Aug, reposted)",
+  "why": "proposed 2026-11-24: #2: B2B AI doc-parsing (Series B, $100M+ raised), SEO/GEO Manager $150-180k, onsite SF, open on Ashby 2026-11-24 (posted Aug, reposted)",
   "classified_at": "2026-11-24",
   "open_check": {
    "url": "https://www.linkedin.com/jobs/view/seo-geo-manager-at-reducto-4453626347",
@@ -2249,7 +2249,9 @@
    ],
    "careers_page_mentions_seo": true,
    "checked": "2026-11-24T16:34:49+00:00"
-  }
+  },
+  "proposed": "2026-11-24",
+  "slug": "reducto"
  },
  "omnicommedia": {
   "name": "Omnicom Media",
@@ -2440,8 +2442,10 @@
   "class": "startup",
   "last_seen": "2026-11-24",
   "offered": "2026-11-24",
-  "why": "in recon 2026-11-24: VC-backed GEO platform; client-facing AI strategist role, SEO-industry vendor (weaker fit)",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: VC-backed GEO platform; client-facing AI strategist role, SEO-industry vendor (weaker fit)",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "evertune-ai"
  },
  "jd-finish-line": {
   "name": "JD Finish Line",
@@ -2644,7 +2648,7 @@
   "class": "startup",
   "last_seen": "2026-11-24",
   "offered": "2026-11-24",
-  "why": "in recon 2026-11-24: #6: B2B container security (late-stage VC), Sr Growth Marketing Manager AI Discovery, US, open on Greenhouse 2026-11-24",
+  "why": "proposed 2026-11-24: #6: B2B container security (late-stage VC), Sr Growth Marketing Manager AI Discovery, US, open on Greenhouse 2026-11-24",
   "classified_at": "2026-11-24",
   "open_check": {
    "url": "https://www.linkedin.com/jobs/view/sr-growth-marketing-manager-ai-discovery-at-chainguard-4484606230",
@@ -2656,7 +2660,9 @@
    ],
    "careers_page_mentions_seo": true,
    "checked": "2026-11-24T16:34:53+00:00"
-  }
+  },
+  "proposed": "2026-11-24",
+  "slug": "chainguard"
  },
  "jobgether": {
   "name": "Jobgether",
@@ -6125,8 +6131,10 @@
    "careers_page_mentions_seo": true,
    "checked": "2026-11-24T16:44:00+00:00"
   },
-  "why": "in recon 2026-11-24: #1 deep pass: B2B legal AI for in-house teams (2,100+ customers), Organic Growth Lead SEO/GEO, 5+ yrs, owns strategy, San Mateo; open on Ashby 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #1 deep pass: B2B legal AI for in-house teams (2,100+ customers), Organic Growth Lead SEO/GEO, 5+ yrs, owns strategy, San Mateo; open on Ashby 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "gc-ai"
  },
  "robert-half-international": {
   "name": "Robert Half",
@@ -6469,8 +6477,10 @@
    "careers_page_mentions_seo": false,
    "checked": "2026-11-24T16:44:11+00:00"
   },
-  "why": "in recon 2026-11-24: #3: B2B cloud-cost savings startup, SEO/AEO Manager (6 yrs), owns organic + AI answers, SF; open on Greenhouse 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #3: B2B cloud-cost savings startup, SEO/AEO Manager (6 yrs), owns organic + AI answers, SF; open on Greenhouse 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "pump-co"
  },
  "ovative-group": {
   "name": "Ovative Group",
@@ -6586,7 +6596,9 @@
    "checked": "2026-11-24T16:44:29+00:00"
   },
   "why": "startup, lower fit: GEO/AI-visibility vendor (competes with add-vee's offer), AEO/SEO Lead NYC; open 2026-11-24",
-  "classified_at": "2026-11-24"
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "profound"
  },
  "creditgenieus": {
   "name": "Credit Genie",
@@ -6737,8 +6749,10 @@
    "careers_page_mentions_seo": true,
    "checked": "2026-11-24T16:44:25+00:00"
   },
-  "why": "in recon 2026-11-24: #10: AI coding agent Devin (VC), SEO & AEO plus SEM and AI-discoverability roles open, SF; open on Ashby 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #10: AI coding agent Devin (VC), SEO & AEO plus SEM and AI-discoverability roles open, SF; open on Ashby 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "cognition"
  },
  "capital-one": {
   "name": "Capital One",
@@ -7642,8 +7656,10 @@
    "careers_page_mentions_seo": false,
    "checked": "2026-11-24T16:44:12+00:00"
   },
-  "why": "in recon 2026-11-24: #7: hotel-management SaaS for independent hoteliers (VC, Barcelona), Senior SEO & AI Search owns organic strategy; SMB buyer (considered); open on Ashby 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #7: hotel-management SaaS for independent hoteliers (VC, Barcelona), Senior SEO & AI Search owns organic strategy; SMB buyer (considered); open on Ashby 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "amenitiz"
  },
  "sigma-world": {
   "name": "SiGMA World",
@@ -9233,8 +9249,10 @@
    "careers_page_mentions_seo": false,
    "checked": "2026-11-24T16:44:05+00:00"
   },
-  "why": "in recon 2026-11-24: #9: B2B sales data (VC, ~600), SEO/AEO manager, London; works with agencies and a content team; open on Greenhouse 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #9: B2B sales data (VC, ~600), SEO/AEO manager, London; works with agencies and a content team; open on Greenhouse 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "cognism"
  },
  "online-plastics-group": {
   "name": "Online Plastics Group",
@@ -9307,8 +9325,10 @@
    "careers_page_mentions_seo": false,
    "checked": "2026-11-24T16:44:09+00:00"
   },
-  "why": "in recon 2026-11-24: #4: B2B construction procurement platform (Berlin, VC), Organic Growth Manager SEO & AI Search, owns SEO through a website relaunch with an agency, Berlin/remote; open on Ashby 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #4: B2B construction procurement platform (Berlin, VC), Organic Growth Manager SEO & AI Search, owns SEO through a website relaunch with an agency, Berlin/remote; open on Ashby 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "cosuno"
  },
  "publicis-groupe": {
   "name": "Publicis Groupe",
@@ -9360,8 +9380,10 @@
    "careers_page_mentions_seo": false,
    "checked": "2026-11-24T16:43:58+00:00"
   },
-  "why": "in recon 2026-11-24: #5: B2B payments merchant-of-record (VC, ~400), Organic & AI Search Manager, UK; open on Ashby 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #5: B2B payments merchant-of-record (VC, ~400), Organic & AI Search Manager, UK; open on Ashby 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "paddle"
  },
  "regiohelden-gmbh": {
   "name": "RegioHelden GmbH",
@@ -10589,7 +10611,9 @@
    "checked": "2026-11-24T16:44:02+00:00"
   },
   "why": "startup: B2B AI video (Series A), SEO Manager London; open state unknown (no readable board), re-check before proposing",
-  "classified_at": "2026-11-24"
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "colossyan"
  },
  "ares-gmbh": {
   "name": "Ares GmbH",
@@ -11847,8 +11871,10 @@
    "careers_page_mentions_seo": false,
    "checked": "2026-11-24T16:44:04+00:00"
   },
-  "why": "in recon 2026-11-24: #8: B2B AI video (late-stage VC, ~500), SEO Manager 5+ yrs, London; likely existing content/SEO staff; open on Ashby 2026-11-24",
-  "classified_at": "2026-11-24"
+  "why": "proposed 2026-11-24: #8: B2B AI video (late-stage VC, ~500), SEO Manager 5+ yrs, London; likely existing content/SEO staff; open on Ashby 2026-11-24",
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "synthesia"
  },
  "geopraevent": {
   "name": "Geopraevent",
@@ -12826,7 +12852,9 @@
    "checked": "2026-11-24T16:44:06+00:00"
   },
   "why": "startup, lower fit: B2B spend management, SEO Manager reports to a Director of SEO (an SEO team exists); open 2026-11-24",
-  "classified_at": "2026-11-24"
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "payhawk"
  },
  "name:zillow": {
   "name": "Zillow",
@@ -12883,7 +12911,9 @@
    "checked": "2026-11-24T16:44:13+00:00"
   },
   "why": "startup, lower fit: alt-data research firm, Carlyle-backed ($475M), Organic Growth Manager SEO & AEO, US remote; open 2026-11-24",
-  "classified_at": "2026-11-24"
+  "classified_at": "2026-11-24",
+  "proposed": "2026-11-24",
+  "slug": "yipitdata"
  },
  "name:interviewflowai": {
   "name": "InterviewFlowAI",
@@ -12967,7 +12997,7 @@
     "fresh": false
    }
   ],
-  "class": "startup",
+  "class": "agency",
   "last_seen": "2026-11-24",
   "backlog": true,
   "size": "11-50",
@@ -12981,7 +13011,7 @@
    "careers_page_mentions_seo": null,
    "checked": "2026-11-24T16:44:36+00:00"
   },
-  "why": "startup, lower fit: 11-50, Senior SEO & Growth Manager, Boulder; post from 2026-09-14",
+  "why": "not a match: custom software development/staff augmentation agency (ex-Flatirons Development); role LatAm-only, $42-60K",
   "classified_at": "2026-11-24"
  },
  "name:checkatrade": {
