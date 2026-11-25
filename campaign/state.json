@@ -1591,7 +1591,7 @@
       "slug": "dealhub",
       "company": "DealHub",
       "domain": "dealhub.io",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Israel/US quote-to-revenue vendor (raised $100M led by Riverwood, Jan 2026; acquired Subskribe Nov 2025) has an open Senior SEO & GEO Specialist role in Holon (posted 2026-11-16, open 2026-11-25), to make DealHub visible in ChatGPT/Perplexity/Gemini/Claude. Role-track application, with the AI-search audit and 184-post blog read as the work sample.",
       "gating_rating": "seo_job_opening",
@@ -1627,7 +1627,12 @@
         "seniority": "senior individual contributor (execution-focused; 5+ yrs hands-on SEO)",
         "reports_to": "SEO Lead (sets strategy and priorities), under the CMO"
       },
-      "priority": 1
+      "priority": 1,
+      "released": {
+        "by": "sponsor",
+        "words": "release dealhub",
+        "at": "2026-11-25T18:38:02+00:00"
+      }
     }
   ],
   "rules": {
