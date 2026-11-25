@@ -1,0 +1,81 @@
+{
+ "company": "Reducto",
+ "domain": "reducto.ai",
+ "size_band_basis": "LinkedIn company page (public, via Bright Data, 2026-11-25): 51-200 employees, 113 on LinkedIn, 17,709 followers; Contrary estimates 42-91 (research.json dossier). Small company with no named marketing head found, so the recipient is the CEO.",
+ "track": "seo_job",
+ "job": {
+  "title": "SEO/GEO Manager",
+  "url": "https://jobs.ashbyhq.com/reducto/d8b56657-c660-4619-b918-a65e695b801e",
+  "posted": "2026-08-12 (Ashby JSON-LD datePosted); LinkedIn repost 2026-11-24 (per campaign manager)",
+  "department": "Marketing",
+  "verified": true,
+  "reports_to": {
+   "value": "CEO",
+   "source": "Built In SF listing https://www.builtinsf.com/job/seo-geo-manager/10651385 per a search summary; the page fetch did not show the line and the official posting doesn't state it",
+   "verified": false
+  }
+ },
+ "recipient": {
+  "name": "Adit Abraham",
+  "title": "Co-founder and CEO",
+  "role": "CEO (small company; role likely reports to CEO)",
+  "evidence": [
+   {
+    "source": "https://www.ycombinator.com/companies/reducto",
+    "what": "YC company page lists Adit Abraham, Co-founder/CEO",
+    "verified": true
+   },
+   {
+    "source": "https://review.firstround.com/podcast/how-a-weekend-hack-became-a-multimillion-dollar-ai-startup-adit-abraham-co-founder-ceo-at-reducto/",
+    "what": "First Round podcast: Adit Abraham, Co-founder & CEO at Reducto",
+    "verified": true
+   },
+   {
+    "source": "research.json dossier (Founders and team)",
+    "what": "Adit Abraham (CEO) and Raunak Chowdhuri (CTO), founded 2023, YC W24",
+    "verified": true
+   }
+  ],
+  "email": {
+   "value": "adit@reducto.ai",
+   "basis": "first-name pattern: a real address srivibha@reducto.ai is published on Reducto's own pages (reducto.ai/yc and /startups FAQ); GetLatka shows the CEO's address masked as 'ad***@reducto.ai', consistent; Prospeo reports {first}@ as the most common format",
+   "verified": false,
+   "note": "sponsor verifies with Hunter"
+  },
+  "linkedin": {
+   "checked_via": "Google snippets (site:linkedin.com/in), no profile opened",
+   "result": "snippet 'Adit Abraham - Reducto' at linkedin.com/in/aditabraham surfaced in one search",
+   "verified": false
+  }
+ },
+ "alternates": [
+  {
+   "name": "Raunak Chowdhuri",
+   "title": "Co-founder and CTO",
+   "why": "posts about marketing and evaluation (LinkedIn post on parsejudge.com, ~2 weeks before 2026-11-25)",
+   "email": {
+    "value": "raunak@reducto.ai",
+    "basis": "same first-name pattern",
+    "verified": false
+   }
+  },
+  {
+   "name": "founders@reducto.ai",
+   "title": "generic founders inbox",
+   "why": "published on the YC company page",
+   "verified": true
+  }
+ ],
+ "not_used": [
+  {
+   "name": "Ken Olofsen",
+   "claimed_title": "VP Marketing (RocketReach only)",
+   "why_not": "no second source; a name search returned nothing linking him to Reducto"
+  }
+ ],
+ "linkedin_company_check": {
+  "method": "Bright Data Web Unlocker on https://www.linkedin.com/company/reducto-ai (public page, no profile opened)",
+  "result": "Reducto, Software Development, San Francisco, 51-200 employees, 17,709 followers; recent posts on BenchBench and parsejudge.com",
+  "date": "2026-11-25"
+ }
+}

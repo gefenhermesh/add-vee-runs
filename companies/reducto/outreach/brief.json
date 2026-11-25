@@ -1,0 +1,66 @@
+{
+ "company": "Reducto",
+ "domain": "reducto.ai",
+ "track": "seo_job",
+ "job_url": "https://jobs.ashbyhq.com/reducto/d8b56657-c660-4619-b918-a65e695b801e",
+ "job_title": "SEO/GEO Manager",
+ "situation": "scaling",
+ "situation_note": "Series B $75M led by a16z ($108M total, Oct 2025), 51-200 employees, NYC office hiring enterprise sales; developer-led API moving upmarket",
+ "need": "find_the_cracks",
+ "need_note": "Mixed presence: second name in parsing (32.7% unprompted) but nearly absent in IDP (3.1%) and thin in extraction and editing; blog IA audit ran (53 posts), so the email joins blog completeness to AI presence.",
+ "finding_pattern": "absent",
+ "angle": "AI knows Reducto well when a buyer names it, and often picks it, but rarely brings it up on its own: second name in parsing, an afterthought in extraction and editing, almost absent from IDP, where the enterprise budget sits.",
+ "lead_claims": [
+  {
+   "claim_id": "C-015",
+   "figure": "32.7% (34 of 104) unprompted parsing answers name Reducto",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "claim_id": "C-017",
+   "figure": "3.1% (3 of 96) unprompted IDP answers",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "claim_id": "C-080",
+   "figure": "45.5% (20 of 44) head-to-head answers pick Reducto",
+   "verdict": "CONFIRMED"
+  },
+  {
+   "claim_id": "C-141",
+   "figure": "both platforms quote the legacy throughput table as current limits",
+   "verdict": "CONFIRMED"
+  }
+ ],
+ "blog_figures": {
+  "source": "blog_ia_audit.json + blog_cluster_completeness.json (blog-IA review round 1, patch applied)",
+  "parsing_core_completeness_pct": 46,
+  "idp_core_completeness_pct": 29,
+  "idp_linked_pct": 0,
+  "company_topic_maturity": 28,
+  "posts": 53
+ },
+ "opener": {
+  "text": "I saw you're hiring an SEO/GEO Manager, and before applying I wanted to show how I'd start.",
+  "type": "job_post",
+  "sources": [
+   "https://jobs.ashbyhq.com/reducto/d8b56657-c660-4619-b918-a65e695b801e"
+  ]
+ },
+ "contacts": {
+  "to": "Adit Abraham, Co-founder and CEO",
+  "email": "adit@reducto.ai",
+  "email_verified": false,
+  "alternate": "Raunak Chowdhuri, CTO; founders@reducto.ai"
+ },
+ "images": [
+  "collage.jpg (from findings.jpg + plan.jpg, built from the published Action Plan)"
+ ],
+ "links": {
+  "visibility_report": "https://claude.ai/artifact/VakJr1a1xRjZSgV4TLQL1A",
+  "action_plan": "https://claude.ai/artifact/F9SdvN8vkTWoWyu93uaBWE",
+  "research_story": "https://claude.ai/artifact/W7cyYtwxSVotYbe5JfgHTu",
+  "scope": "https://claude.ai/artifact/XwLunhABoERaV1zcpusw1y"
+ },
+ "rationale": "Reducto is hiring an SEO/GEO lead to own exactly what this audit measures, so the email shows the first moves rather than describing them. The sharpest pattern is uneven presence: Reducto is already in the running for parsing, where its blog is most complete, and nearly invisible in IDP, where its blog is thinnest and unlinked and where the enterprise capture budget sits. The first fixes are concrete and cheap (one deployment page, one set of numbers, since AI repeats Reducto's own stale docs), and the evaluation hub ties directly to the CTO's own recent parsejudge launch, which shows the sponsor read their work. Addressed to the CEO: the company is small, no marketing head is publicly named, and one listing says the role reports to the CEO (unverified). Email address is pattern-inferred; verify with Hunter before sending."
+}

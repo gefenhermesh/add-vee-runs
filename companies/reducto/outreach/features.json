@@ -1,0 +1,17 @@
+{
+ "industry": "document AI / document parsing and extraction API",
+ "stage": "Series B",
+ "situation": "scaling",
+ "size_band": "51-200",
+ "geo": "US (San Francisco, NYC office)",
+ "marketing_gating": "no named marketing head; hiring marketing ICs (SEO/GEO, growth, content, field)",
+ "trigger": "seo_job_post",
+ "finding_pattern": "absent",
+ "need": "find_the_cracks",
+ "recipient_role": "CEO",
+ "ask_track": "job_application",
+ "opener_type": "job_post",
+ "email_variant": "v7_need_feedback",
+ "subject_style": "before_i_apply_where_ai_finds_company",
+ "contact_verified": false
+}
