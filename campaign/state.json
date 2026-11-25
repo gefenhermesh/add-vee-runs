@@ -116,7 +116,7 @@
           "id": "gambit-security/1",
           "kind": "email1",
           "contact": "Morgan Cole",
-          "email": "morgan.cole@gambit.security",
+          "email": "morgancole@gambit.security",
           "role": "VP Marketing",
           "gmail_thread_id": "1a20e90ff637f4b4",
           "last_message_id": "1a20e922a45f9094",
@@ -126,7 +126,8 @@
             6
           ],
           "steps": [],
-          "status": "active"
+          "status": "active",
+          "email_note": "Gmail shows the send went to morgancole@gambit.security (recorded as morgan.cole@gambit.security); no bounce as of 2026-11-25."
         }
       ]
     },
@@ -880,7 +881,7 @@
       "slug": "reducto",
       "company": "Reducto",
       "domain": "reducto.ai",
-      "status": "waiting_gate",
+      "status": "running",
       "b2b": true,
       "reason": "Document-AI infrastructure (a16z-led $75M Series B Oct 2025, $108M total, revenue '8x YoY') needs an SEO/GEO owner because 'developers and technical buyers increasingly discover products through ChatGPT, Claude, Google AI and coding agents'. Their 53-post blog looks unplanned (0.3 internal links/post, 70% link to none) while LlamaIndex and Firecrawl own the 'best document parsing API' results.",
       "gating_rating": "seo_job_opening",
@@ -1534,7 +1535,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-25T04:33:11+00:00",
+  "last_tick": "2026-11-25T06:33:00+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

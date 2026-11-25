@@ -3,6 +3,7 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-25T06:33:00+00:00 mark reducto running
 - 2026-11-25T04:33:11+00:00 mark gc-ai running
 - 2026-11-25T04:33:11+00:00 mark reducto waiting_gate
 - 2026-11-25T04:33:11+00:00 notify reducto gate
@@ -123,3 +124,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-25 00:35 UTC: Help Scout and Paddle stopped at ~23:21 UTC on the 5-hour usage limit (Paddle: content-prioritizer cut off). Both resumed by message after the 23:30 reset.
 - 2026-11-25T03:55:19+00:00 approve gc-ai (sponsor wrote "Approve"; GC AI the only company at Gate 1-2): gate_1_2_approval.json pushed to campaign/gc-ai (ce05f14); company session told.
 - 2026-11-25T05:51:20+00:00 approve reducto (sponsor wrote "Approve"; Reducto the only company at Gate 1-2): gate_1_2_approval.json pushed to campaign/reducto (061ed50); company session told.
+- 2026-11-25 06:35 UTC: daily mail check: Gambit email 1 (sent 11-24, already tracked) address corrected to morgancole@gambit.security as sent; no replies or bounces (Vega, Bay, Upwind, Gambit). No follow-ups due today (Vega and Bay due 11-26, Upwind 11-27).
