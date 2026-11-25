@@ -1,0 +1,90 @@
+{
+  "company": "Paddle",
+  "domain": "paddle.com",
+  "track": "seo_job",
+  "job": {
+    "title": "Organic & AI Search Manager",
+    "url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
+    "reports_to": "Head of Web",
+    "team": "Commercial Marketing, UK",
+    "ashby_published_at": "2026-10-29",
+    "campaign_posted": "2026-11-20 (LinkedIn)"
+  },
+  "situation": "established",
+  "finding_pattern": "present_not_recommended",
+  "need": "Find the cracks",
+  "need_rationale": "Paddle is named in most unprompted merchant-of-record answers and listed first, so 'get into the conversation' doesn't fit; the losses sit in the territories next to its core (subscription billing, churn recovery), where AI files it as a merchant of record or reads Retain as Paddle-only. The blog audit ran, so one finding joins the weakest AI territory to the blog's coverage of the same topic.",
+  "angle": "AI already treats Paddle as the default merchant of record, but loses the final pick and misfiles it outside its core: billing-platform and churn-recovery questions go to specialists, and on Google AI Mode Retain is read as Paddle-only.",
+  "lead_claims": [
+    {
+      "claim_id": "C-096",
+      "figure": "10.0%",
+      "sample_size": 10,
+      "claim_text": "Comparative Win Rate in Subscription Billing is 10.0% (1 of 10); rival picked 6, depends 3. Non-win reasons: real_product_limit 6, incumbent_advantage 2, factual_error 1. Won: #134 vs Zuora; lost: #131 vs Chargebee, #132 vs Chargebee, #133 vs Recurly, #140 vs Stripe Billing."
+    },
+    {
+      "claim_id": "C-209",
+      "figure": "&ndash;",
+      "sample_size": null,
+      "claim_text": "Diagnosis, Subscription Billing: the weakest territory (presence 45.3%, 15 of 32 blind conversations lost, rank 5 with 7.2% share of voice, head-to-heads 1 of 10) with validation 6/6, so comprehension is not the main cause. Main cause: Relevance/category placement: AI and independent buyer guides (R"
+    },
+    {
+      "claim_id": "C-186",
+      "figure": "4 turns",
+      "sample_size": 4,
+      "claim_text": "Google AI Mode says Retain needs Paddle as the billing system: #159's follow-up says Retain 'is not available as a standalone dunning or churn-reduction product ... requires you to process payments through Paddle's checkout', #170 frames using Retain on Chargebee as 'migrating your core billing stac"
+    },
+    {
+      "claim_id": "C-097",
+      "figure": "0.0%",
+      "sample_size": 6,
+      "claim_text": "Comparative Win Rate in Failed-Payment Recovery is 0.0% (0 of 6); rival picked 5, depends 1. Non-win reasons: real_product_limit 3, no_clear_reason 1, incumbent_advantage 1, factual_error 1. Won: none; lost: #159 vs Churnkey, #167 vs Churnkey, #170 vs Chargebee Retention / Revive."
+    },
+    {
+      "claim_id": "C-212",
+      "figure": "&ndash;",
+      "sample_size": null,
+      "claim_text": "Lead paddle.com/retain with Retain's standalone availability: name the supported billing platforms (Stripe Billing, Chargebee, Recurly, Braintree, Zuora) in the hero and title, publish how standalone pricing works, and give each integration its own page with setup steps, so 'Retain for Stripe Billin"
+    },
+    {
+      "claim_id": "C-215",
+      "figure": "&ndash;",
+      "sample_size": null,
+      "claim_text": "Make Paddle's own pages agree on four facts AI repeats: PCI (seller guide 'PCI-1 compliant vault' vs compliance page 'PCI DSS SAQ A'), usage-based billing status (docs 'early access (beta)', press 'private preview early 2027', startups page 'Compatible with ... usage-based', AI Toolkit 'allows you t"
+    },
+    {
+      "claim_id": "C-216",
+      "figure": "&ndash;",
+      "sample_size": null,
+      "claim_text": "Compete inside the billing-platform category: publish Paddle Billing pages that answer the billing-platform questions AI currently gives to Chargebee, Zuora, Maxio and Orb (seat and add-on changes with proration modes, coupons on live subscriptions, invoicing and payment terms, ASC 606/ERP and CRM d"
+    }
+  ],
+  "blog_figure": {
+    "source": "blog_cluster_completeness.json (approved blog IA audit, blog_ia_review_log.json round 2)",
+    "cluster": "Subscription Billing for Engineering Teams",
+    "subject_completeness_core_pct": 19,
+    "linked_pct": 0,
+    "posts": 7
+  },
+  "opener": {
+    "type": "job_post",
+    "text": "I saw you're hiring an Organic & AI Search Manager, and before applying I wanted to show how I'd start.",
+    "source_url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102"
+  },
+  "contacts": {
+    "primary": "Piers Garthwaite",
+    "primary_title": "Head of Web, Paddle (London)",
+    "primary_title_verified": false,
+    "fallback": "Ben Aronsten",
+    "fallback_title": "Chief Marketing Officer, Paddle",
+    "emails_verified": false,
+    "file": "contacts.json"
+  },
+  "artifacts": {
+    "report": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",
+    "action_plan": "https://claude.ai/artifact/JC7AS471gsqp1MXTcXPfni",
+    "scope": "https://claude.ai/artifact/2NCjwb25AG4CEh7SyNCHGX",
+    "story": "https://claude.ai/artifact/SpuQizbdWAcTdADGp5kH1F"
+  },
+  "rationale": "The job post asks for exactly this work: audit presence across search and AI answers, then build a prioritized roadmap. The email shows the first version of it. It writes to the Head of Web, who the role reports to; Piers Garthwaite's title rests on one data-broker snippet, so verify it (and both inferred addresses) before sending; if it doesn't hold, send to Ben Aronsten, CMO, adjusting the greeting. All three findings are confirmed claims or the reviewed blog audit; the 'Where I'd start' bullets are the Action Plan's first moves. The artifacts are private until shared from their Share menus."
+}

@@ -826,7 +826,7 @@
       "slug": "gc-ai",
       "company": "GC AI",
       "domain": "gc.ai",
-      "status": "queued",
+      "status": "starting",
       "b2b": true,
       "reason": "Legal-AI for in-house counsel (Series B $60M Nov 2025, ~2,100 customers, 'doubled ARR in six months') opened a senior Organic Growth Lead (SEO/GEO) to make GC AI 'the obvious answer when in-house counsel search for legal AI'. Heavily contested category (Harvey, Legora, LegalOn, Spellbook all publish); the role owns pillars, internal linking and GEO tracking, exactly what add-vee's audit and the 366-post blog audit show.",
       "gating_rating": "seo_job_opening",
@@ -868,7 +868,11 @@
         "by": "sponsor",
         "words": "release cognition, gc-ai, reducto",
         "at": "2026-11-24T17:31:24+00:00"
-      }
+      },
+      "session_id": "session_01FkmvpN4svAMCv1tNspPRko",
+      "started_at": "2026-11-25T01:53:20+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "reducto",
@@ -1007,7 +1011,7 @@
       "slug": "paddle",
       "company": "Paddle",
       "domain": "paddle.com",
-      "status": "running",
+      "status": "done",
       "b2b": true,
       "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: literally add-vee's audit. Contested category where Stripe, FastSpring, Lemon Squeezy and new MoRs (Dodo, Fungies, Polar) publish 'Paddle alternatives' pages.",
       "gating_rating": "seo_job_opening",
@@ -1053,8 +1057,10 @@
       "started_at": "2026-11-24T17:23:06+00:00",
       "nudges": 0,
       "notified": {
-        "gate": "2026-11-24T18:33:07+00:00"
-      }
+        "gate": "2026-11-24T18:33:07+00:00",
+        "done": "2026-11-25T01:53:20+00:00"
+      },
+      "gmail_draft_id": "r4303044308811569600"
     },
     {
       "slug": "chainguard",
@@ -1520,7 +1526,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-25T01:32:38+00:00",
+  "last_tick": "2026-11-25T01:53:20+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

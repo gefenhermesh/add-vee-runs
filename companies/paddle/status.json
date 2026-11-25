@@ -1,8 +1,9 @@
 {
-  "stage": "loop_c",
+  "stage": "done",
   "ts": "2026-11-24T18:35:43+00:00",
-  "note": "Visibility Report published (https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH); starting Loop C content-mapper (crawl already done).",
-  "updated_at": "2026-11-24T22:39:47+00:00",
+  "note": "Audit complete; outreach drafted (seo_job) in output/paddle/outreach/; nothing sent.",
+  "updated_at": "2026-11-25T01:52:27+00:00",
   "report_url": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",
+  "action_plan_url": "https://claude.ai/artifact/JC7AS471gsqp1MXTcXPfni",
   "branch": "campaign/paddle"
 }

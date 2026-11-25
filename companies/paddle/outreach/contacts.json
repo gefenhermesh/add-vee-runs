@@ -1,0 +1,50 @@
+{
+  "primary": {
+    "name": "Piers Garthwaite",
+    "title": "Head of Web, Paddle (London)",
+    "evidence": [
+      {"url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102", "what_it_shows": "Ashby posting (published 2026-10-29, department Commercial, team Marketing, location UK, remote): 'Reporting to the Head of Web'. Names no person.", "date_seen": "2026-11-25"},
+      {"url": "https://www.google.com/search?q=%22Head+of+Web%22+%22at+Paddle%22", "what_it_shows": "Google snippet for a RocketReach page (rocketreach.co/piers-garthwaite-email_10138222): 'Piers Garthwaite, based in London, GB, is currently a Head of Web at Paddle', with earlier roles at Deloitte and Mews. This is a data-broker snippet, not a first-party source.", "date_seen": "2026-11-25"},
+      {"url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22Piers+Garthwaite%22", "what_it_shows": "Google snippet for LinkedIn result 'Piers Garthwaite - Paddle': London, current experience Paddle, University of Leeds, 790+ followers. The snippet shows the employer but not the title. Profile page not opened.", "date_seen": "2026-11-25"},
+      {"url": "https://www.ziprecruiter.co.uk/jobs/450212844-head-of-web-at-paddle", "what_it_shows": "Paddle advertised a Head of Web role (owning paddle.com strategy, roadmap and conversion, and leading a design/dev/UX/content/experimentation team). Kindred Capital's job board (jobs.kindredcapital.vc/.../56179591-head-of-web) marks it 'no longer accepting applications', and the role is no longer on Paddle's live Ashby board. Consistent with the role having been filled.", "date_seen": "2026-11-25"},
+      {"url": "https://www.marketscreener.com/insider/PIERS-GARTHWAITE-A1XF6G/", "what_it_shows": "A Piers Garthwaite was formerly Head of Marketing at Kriya Finance (formerly MarketInvoice). A Behance web-designer profile with a MarketInvoice role also appeared in search. These are probably the same person and fit a web/marketing background, but that is not confirmed.", "date_seen": "2026-11-25"}
+    ],
+    "title_verified": false,
+    "email_guess": "piers.garthwaite@paddle.com",
+    "email_basis": "Inferred from the firstname.lastname@paddle.com pattern seen in public PaddleHQ GitHub commit metadata (see email_pattern). Not checked against a mailbox.",
+    "email_verified": false
+  },
+  "fallback": {
+    "name": "Ben Aronsten",
+    "title": "Chief Marketing Officer, Paddle",
+    "evidence": [
+      {"url": "https://www.paddle.com/about", "what_it_shows": "Paddle's own leadership list names Ben Aronsten as Chief Marketing Officer. He is the only marketing leader listed.", "date_seen": "2026-11-25"},
+      {"url": "https://theorg.com/org/paddle/org-chart/ben-aronsten", "what_it_shows": "Lists him as CMO at Paddle since June 2025.", "date_seen": "2026-11-25"},
+      {"url": "https://jobs.ashbyhq.com/paddle/c2d94c17-9f67-4dc5-a8db-b1893c455f1b", "what_it_shows": "Paddle's Director of Demand Generation posting (Commercial Marketing, UK, published 2026-11-03) says the role reports 'directly to the CMO'. Confirms the CMO heads Commercial Marketing.", "date_seen": "2026-11-25"},
+      {"url": "https://www.linkedin.com/company/paddle", "what_it_shows": "Paddle's company page feed (via Bright Data) shows Paddle reposting a post by Ben Aronsten about Slush, posted about 5 days earlier.", "date_seen": "2026-11-25"}
+    ],
+    "title_verified": true,
+    "email_guess": "ben.aronsten@paddle.com",
+    "email_basis": "Inferred from the firstname.lastname@paddle.com pattern seen in public PaddleHQ GitHub commit metadata. Not checked against a mailbox.",
+    "email_verified": false
+  },
+  "recruiter_note": "The Ashby posting and its public posting-API record name no recruiter or hiring contact. The only hiring-manager reference is the 'Head of Web'. No recruiter was searched for or identified.",
+  "email_pattern": {
+    "pattern": "firstname.lastname@paddle.com (full first name, e.g. daniel.billson, not dan.billson)",
+    "basis_url": "https://github.com/PaddleHQ/paddle-node-sdk (public git commit author metadata in PaddleHQ/paddle-node-sdk, paddle-python-sdk and paddle-php-sdk: 11 distinct @paddle.com authors, all firstname.lastname, latest commit 2026-11-24; one compound surname is written joined, william.millingtonevans)",
+    "verified": false
+  },
+  "linkedin_company_check": {
+    "url": "https://www.linkedin.com/company/paddle",
+    "method": "Bright Data Web Unlocker (zone content_crawler, markdown) on the public company page. No profile pages were opened.",
+    "what_it_shows": "Paddle, London, 201-500 employees, 69,797 followers, 'View all 443 employees'. The employee face-pile shows Laurel Bowden, Steve Wilcock, Scott Galit and Jimmy Fitzgerald. The feed shows reposts of Ben Aronsten and Andrew Davies posts. The page doesn't list a Head of Web."
+  },
+  "not_verified": [
+    "Piers Garthwaite's current title of Head of Web rests on one data-broker snippet (RocketReach via Google). LinkedIn snippets confirm only that his current employer is Paddle. No paddle.com page, press item or byline names him.",
+    "That the Head of Web hire is still in post, and that he is the hiring manager for this specific req.",
+    "That the Kriya/MarketInvoice Piers Garthwaite is the same person.",
+    "Both email addresses are inferred from the pattern. Neither mailbox has been checked (the sponsor will check them with Hunter).",
+    "Andrew Davies is listed as Chief Innovation Officer on paddle.com/about. An older Finextra item names him as CMO, so he is a past CMO, not the current one."
+  ],
+  "checked_at": "2026-11-25T01:50:32Z"
+}

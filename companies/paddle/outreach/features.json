@@ -1,0 +1,17 @@
+{
+  "industry": "payments / merchant of record (B2B SaaS infrastructure)",
+  "stage": "late-stage private (~$318M raised; $25M debt facility Jul 2025)",
+  "situation": "established",
+  "size_band": "201-500",
+  "geo": "UK (London HQ), global",
+  "marketing_gating": "Head of Web under CMO; dedicated organic & AI search hire being made",
+  "trigger": "seo_job_post",
+  "finding_pattern": "present_not_recommended",
+  "recipient_role": "Head of Web (fallback CMO)",
+  "ask_track": "job_application",
+  "opener_type": "job_post",
+  "email_variant": "v7_need_feedback",
+  "subject_style": "before_i_apply",
+  "contact_verified": false,
+  "need": "Find the cracks"
+}
