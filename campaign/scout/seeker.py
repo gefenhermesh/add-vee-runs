@@ -99,6 +99,28 @@ TRADITIONAL_US = re.compile(r"\b(our (stores|locations|showrooms|branches|clinic
 TRADITIONAL_CO = re.compile(r"\b(staffing|talent solutions|recruit(ing|ment)|health|hospital|university|college|resort|"
                             r"realty|homes|construction|motors|dealer\w*|bank|credit union|insurance|"
                             r"bloomingdale|macy|nordstrom|walmart|target|kohl|finish line)\b", re.I)
+AGENCY_TEXT = re.compile(r"\b((digital|marketing|seo|search|growth|creative|performance|advertising) agency|"
+                         r"agency (that|which|helping|serving|focused)|our (agency|clients' (sites|websites)))\b", re.I)
+
+
+def company_kind(company, desc=""):
+    """startup / agency / enterprise / recruiter / other, or None when unknown. Uses the jobs route's classification
+    (jobs_companies.json, filled daily from the same LinkedIn searches), then the post's own words."""
+    try:
+        cos = json.loads((HERE / "jobs_companies.json").read_text())
+    except (OSError, ValueError):
+        cos = {}
+    n = re.sub(r"[^a-z0-9]+", "", (company or "").lower())
+    for v in cos.values():
+        if re.sub(r"[^a-z0-9]+", "", (v.get("name") or "").lower()) == n and v.get("class") not in (None, "unknown"):
+            return v["class"]
+    if TRADITIONAL_CO.search(company or "") or TRADITIONAL_US.search(desc or ""):
+        return "other"
+    if AGENCY_TEXT.search(desc or "") or re.search(r"\b(agency|marketing|digital|media|seo)\b", company or "", re.I):
+        return "agency"
+    return None
+
+
 US_CITY = re.compile(r"^[A-Z][A-Za-z .'-]+, (A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|"
                      r"O[HKR]|PA|RI|S[CD]|T[NX]|UT|V[AT]|W[AIVY])\b")
 
@@ -199,19 +221,18 @@ def _screen(post, desc):
     if post["region"] in ("us", "seojobs"):
         # sponsor, 2026-11-24: a remote US post that doesn't ask about work authorization, sponsorship, citizenship
         # or US residence is worth applying to; some US companies will hire him as a contractor.
-        # Refined (sponsor, 2026-11-25): his "US only" marks (Siana Marketing, Gong, Bloomingdale's, Intelliswift) were
-        # all US posts with nothing said either way. Traditional, brick-and-mortar style US businesses, US staffing
-        # contracts and big US companies listing a US city don't hire from abroad. A US post with no positive sign
-        # (LATAM, worldwide, contractor: handled above) is now at most a maybe, and the old-school kind is skipped.
-        trad = sentences_with(TRADITIONAL_US, text, n=2)
-        if trad or TRADITIONAL_CO.search(post.get("company", "")):
-            return {"lean": "skip", "why": ["US brick-and-mortar style or staffing business: won't hire from abroad"],
-                    "quotes": trad}
-        if US_CITY.search(post.get("location", "")):
-            return {"lean": "skip", "why": ["US company listing a US city, nothing open to abroad"], "quotes": []}
-        if not desc:
-            return {"lean": "maybe", "why": ["remote US; description not read, so work-authorization terms unknown"], "quotes": []}
-        return {"lean": "maybe", "why": ["remote US, nothing said about hiring abroad: ask before applying"], "quotes": []}
+        # Refined twice (sponsor, 2026-11-25). The work-authorization question usually comes in the application form,
+        # not the post, so a post's silence means nothing. US employers that aren't startups or agencies (stores,
+        # department stores, health systems, IT staffing, enterprises) rarely hire from abroad: skip them unless the
+        # post says so (positive signs are handled above). Startups and agencies sometimes do: a maybe.
+        kind = company_kind(post.get("company", ""), desc)
+        if kind in ("startup", "agency"):
+            return {"lean": "maybe", "why": [f"US {kind}, nothing said about hiring abroad: ask before applying"], "quotes": []}
+        if kind:
+            return {"lean": "skip", "why": [f"US {kind}, not a startup or agency: rarely hires from abroad"],
+                    "quotes": sentences_with(TRADITIONAL_US, text, n=1)}
+        return {"lean": "maybe", "why": ["US company of unknown type: the scout decides (startup or agency: maybe; "
+                                         "anything else: skip)"], "quotes": [], "needs_kind": True}
     return {"lean": "skip", "why": ["Europe post with nothing suggesting it would hire in Costa Rica"], "quotes": []}
 
 

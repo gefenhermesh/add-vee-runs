@@ -136,18 +136,23 @@ class NoAsiaTest(unittest.TestCase):
 
 
 class UsTraditionalTest(unittest.TestCase):
-    """Sponsor, 2026-11-25: his "US only" marks were old-school US businesses and US-city listings."""
+    """Sponsor, 2026-11-25: authorization is asked in the form, so silence means nothing; only startups and agencies
+    are worth a maybe in the US without a positive sign."""
     def p(self, company, location="United States"):
         return {"title": "SEO Manager", "company": company, "region": "us", "location": location}
 
-    def test_brick_and_mortar_and_staffing_are_skipped(self):
-        self.assertEqual(S.screen(self.p("Bloomingdale's", "New York, NY"), "Across all touchpoints, from our stores.")["lean"], "skip")
-        self.assertEqual(S.screen(self.p("Siana Marketing"), "We help construction and real estate firms. Remote.")["lean"], "skip")
+    def test_traditional_and_staffing_are_skipped(self):
+        self.assertEqual(S.screen(self.p("Nordstrom", "New York, NY"), "Across all touchpoints, from our stores.")["lean"], "skip")
         self.assertEqual(S.screen(self.p("Acme Staffing"), "Remote.")["lean"], "skip")
 
-    def test_us_city_without_a_positive_sign_is_skipped(self):
-        self.assertEqual(S.screen(self.p("Gong", "San Francisco, CA"), "Remote role.")["lean"], "skip")
+    def test_agency_is_a_maybe(self):
+        r = S.screen(self.p("Bright Owl", "Austin, TX"), "We are a digital agency helping B2B brands. Remote.")
+        self.assertEqual(r["lean"], "maybe")
+
+    def test_unknown_type_is_left_to_the_scout(self):
+        r = S.screen(self.p("Zorblax", "Denver, CO"), "Remote role.")
+        self.assertEqual(r["lean"], "maybe")
+        self.assertTrue(r.get("needs_kind"))
 
     def test_positive_sign_still_applies(self):
-        self.assertEqual(S.screen(self.p("Acme SaaS", "San Francisco, CA"), "Remote, open to contractors in Latin America.")["lean"], "apply")
-
+        self.assertEqual(S.screen(self.p("Zorblax", "San Francisco, CA"), "Remote, open to contractors in Latin America.")["lean"], "apply")
