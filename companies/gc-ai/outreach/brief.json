@@ -1,0 +1,79 @@
+{
+ "company": "GC AI",
+ "domain": "gc.ai",
+ "slug": "gc-ai",
+ "track": "seo_job",
+ "job": {
+  "title": "Organic Growth Lead (SEO/GEO)",
+  "url": "https://jobs.ashbyhq.com/gc-ai/c1bd9b19-7f1e-4368-9145-3d1b0c39075b",
+  "posted": "2026-11-16",
+  "reports_to": "not stated; GC AI's other marketing posts report to the CMO",
+  "note": "The post says applications go through gc.ai/careers or LinkedIn: send this email alongside a submitted application, not instead of one."
+ },
+ "situation": "scaling: $60M Series B (Nov 2025), self-reported $40M ARR and 2,200 customers (Nov 2026), heavy launch cadence; new CMO (Julien Sauvage, joined ~Nov 2026) building the marketing team",
+ "finding_pattern": "losing_to_named_competitors",
+ "need": "Make the content count",
+ "need_rationale": "Weak blind presence despite a large blog (366 posts, topic maturity 39/100); the sharpest join is legal research: ChatGPT never names GC AI there unprompted and it is the blog's least complete buyer topic. Secondary need: clean up pricing facts AI repeats.",
+ "angle": "With 366 blog posts, AI still rarely brings GC AI up unprompted; the shortlists come from third-party roundups written without it, and the blog's weakest topic is the one where AI never names GC AI.",
+ "lead_claims": [
+  {
+   "claim_id": "C-011",
+   "figure": "16.0% (80 of 500 blind answers)"
+  },
+  {
+   "claim_id": "C-029",
+   "figure": "164 of 220 blind buying conversations name a rival and never GC AI"
+  },
+  {
+   "claim_id": "C-027",
+   "figure": "ChatGPT 0 of 38 blind legal-research answers"
+  },
+  {
+   "claim_id": "C-098",
+   "figure": "87.3% (295 of 338) named answers with no confirmed error"
+  },
+  {
+   "claim_id": "C-179",
+   "figure": "$6,000/year stated instead of the published $5,000/year"
+  },
+  {
+   "claim_id": "C-218",
+   "figure": "roundup inclusion recommendation"
+  },
+  {
+   "claim_id": "C-209",
+   "figure": "label Team add-ons in gc.ai/pricing.md"
+  }
+ ],
+ "blog_figures": {
+  "posts": 366,
+  "overlap_groups": 12,
+  "company_topic_maturity": 39,
+  "legal_research_core_completeness_pct": 50,
+  "source": "blog_ia_audit.json + blog_cluster_completeness.json (blog_ia_review_log.json round 2 APPROVE)"
+ },
+ "opener": {
+  "type": "job_post",
+  "text": "I saw GC AI is hiring an Organic Growth Lead (SEO/GEO), and before applying I wanted to show how I'd start.",
+  "source_url": "https://jobs.ashbyhq.com/gc-ai/c1bd9b19-7f1e-4368-9145-3d1b0c39075b"
+ },
+ "contacts": {
+  "to": {
+   "name": "Julien Sauvage",
+   "title": "Chief Marketing Officer",
+   "email": "julien@getgc.ai",
+   "email_verified": false
+  },
+  "cc_option": "Robert Kim, Head of Growth Marketing (robert@getgc.ai, unverified)",
+  "fallback_domain": "julien@gc.ai",
+  "file": "outreach/contacts.json"
+ },
+ "deliverables": {
+  "visibility_report": "https://claude.ai/artifact/P4WMQJxAsUWX7NpSNxUr4W",
+  "action_plan": "https://claude.ai/artifact/Y8nnwP363E8SE1aFU26A29",
+  "research_story": "https://claude.ai/artifact/P982RtxGJFYy1ctRwNLME8",
+  "scope": "https://claude.ai/artifact/4hTKyzFjZPBoAfQc3AiW8N"
+ },
+ "rationale": "GC AI is hiring exactly the role this audit performs, under a CMO who joined weeks ago and is staffing his team, so the email shows the first move rather than describing it. The job post itself names GEO/AI search, Profound tracking, G2 and digital PR, which map onto the findings: GC AI is named in a sixth of unprompted answers because the roundups AI copies leave it out, while its large blog is thinnest exactly where AI ignores it (legal research). The pricing.md fix is concrete and quick, and shows the work reads GC AI's own machine-facing pages. Verify julien@getgc.ai with Hunter first (pattern from a public press contact; RocketReach shows first@getgc.ai for ~80% of addresses). Send alongside an application submitted through gc.ai/careers or LinkedIn.",
+ "live_checks": "output/gc-ai/live_checks.json (G2 figure in the ledger found stale and kept out of all client text)"
+}

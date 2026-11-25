@@ -1,0 +1,17 @@
+{
+ "industry": "legal tech (AI for in-house legal)",
+ "stage": "Series B",
+ "situation": "scaling",
+ "size_band": "51-200",
+ "geo": "US (San Mateo, CA)",
+ "marketing_gating": "hybrid: self-serve $500/mo seat + sales-led Team plan",
+ "trigger": "seo_job_post",
+ "finding_pattern": "losing_to_named_competitors",
+ "need": "Make the content count",
+ "recipient_role": "CMO",
+ "ask_track": "job_application",
+ "opener_type": "job_post",
+ "email_variant": "v7_need_feedback",
+ "subject_style": "role_named",
+ "contact_verified": false
+}

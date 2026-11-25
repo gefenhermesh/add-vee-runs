@@ -827,7 +827,7 @@
       "slug": "gc-ai",
       "company": "GC AI",
       "domain": "gc.ai",
-      "status": "running",
+      "status": "done",
       "b2b": true,
       "reason": "Legal-AI for in-house counsel (Series B $60M Nov 2025, ~2,100 customers, 'doubled ARR in six months') opened a senior Organic Growth Lead (SEO/GEO) to make GC AI 'the obvious answer when in-house counsel search for legal AI'. Heavily contested category (Harvey, Legora, LegalOn, Spellbook all publish); the role owns pillars, internal linking and GEO tracking, exactly what add-vee's audit and the 366-post blog audit show.",
       "gating_rating": "seo_job_opening",
@@ -874,8 +874,10 @@
       "started_at": "2026-11-25T01:53:20+00:00",
       "nudges": 0,
       "notified": {
-        "gate": "2026-11-25T03:32:53+00:00"
-      }
+        "gate": "2026-11-25T03:32:53+00:00",
+        "done": "2026-11-25T10:33:18+00:00"
+      },
+      "gmail_draft_id": "r-1668776791143731610"
     },
     {
       "slug": "reducto",
@@ -1535,7 +1537,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-25T06:33:00+00:00",
+  "last_tick": "2026-11-25T10:33:18+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-25T10:33:18+00:00 mark gc-ai done
+- 2026-11-25T10:33:18+00:00 draft gc-ai
+- 2026-11-25T10:33:18+00:00 notify gc-ai done
 - 2026-11-25T06:33:00+00:00 mark reducto running
 - 2026-11-25T04:33:11+00:00 mark gc-ai running
 - 2026-11-25T04:33:11+00:00 mark reducto waiting_gate

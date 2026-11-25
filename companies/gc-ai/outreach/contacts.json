@@ -1,0 +1,64 @@
+{
+  "company": "GC AI (General Counsel AI, Inc.)",
+  "domain": "gc.ai",
+  "size_band_basis": "LinkedIn company page (linkedin.com/company/gc-ai, fetched via Bright Data 2026-11-25): Company size 51-200 employees, 'View all 172 employees', HQ San Mateo, founded 2023, 22,278 followers. BusinessWire 2026-11-18: $40M ARR, 2,200 company customers. 27 open roles on Ashby (6 in Marketing). Not a very small company, so the CEO is not the right recipient.",
+  "job": {
+    "title": "Organic Growth Lead (SEO/GEO)",
+    "url": "https://jobs.ashbyhq.com/gc-ai/c1bd9b19-7f1e-4368-9145-3d1b0c39075b",
+    "posted": "2026-11-16 (Ashby publishedAt 2026-11-16T19:33:53Z)",
+    "reports_to": {
+      "value": "Not stated in the post. Most likely the CMO (Julien Sauvage); possibly the Head of Growth Marketing (Robert Kim).",
+      "source": "Ashby posting API (api.ashbyhq.com/posting-api/job-board/gc-ai). The Organic Growth Lead and Performance Marketing Lead posts (both published 2026-11-16) name no manager. Every other GC AI marketing post that names a manager says 'reports to the CMO': Director of Demand Generation, Director of Product Marketing, Director of Field & Events Marketing, Senior Customer Marketing Manager.",
+      "verified": false
+    },
+    "notes": "Department/team: Marketing. Location: San Mateo, CA, hybrid (Bay Area in office Tue-Thu); isRemote true, hiring across US and Canada. Comp: $180K-$220K plus equity. Responsibilities: own the organic growth strategy (topic pillars, internal linking, roadmap tied to pipeline); technical SEO, including shipping PRs on the marketing site (Next.js nice to have); content SEO for in-house legal buyers; GEO/AI search (ChatGPT, Google AI Overviews, Perplexity), with citation and share-of-voice tracking in Profound; off-page work (link building, digital PR, G2, Wikipedia within community guidelines); analytics: own organic's contribution to pipeline and SQLs and report to leadership (GA4, Search Console, HubSpot, Ahrefs/Semrush); lead SEO/GEO standards across content, product, brand and engineering. Requires 5+ years in SEO/organic growth, ideally B2B SaaS. The post says GC AI accepts applications only via gc.ai/careers and LinkedIn, and that legitimate staff email comes from @gc.ai or @getgc.ai. Posted 5 days after the new CMO's appointment was reported, as part of a batch of marketing roles."
+  },
+  "recipient": {
+    "name": "Julien Sauvage",
+    "title": "Chief Marketing Officer",
+    "role": "Head of the marketing function. He joined in November 2026 and is building the team: 6 open marketing roles, and every marketing post that names a manager reports to the CMO.",
+    "evidence": [
+      {"source": "https://karvtechinsider.com/martech/cxo-moves/gc-ai-appoints-julien-sauvage-as-chief-marketing-officer-to-drive-its-next-phase-of-growth", "what": "Article dated 2026-11-11: 'GC AI has appointed Julien Sauvage as Chief Marketing Officer'. Says he thanked CEO Cecilia Ziniti and Bardia Pourvakil.", "verified": true},
+      {"source": "Google snippet (via Bright Data) of LinkedIn profile 'Julien Sauvage 🥖 - CMO @ GC.AI | Ex-Gong, Clari ...', 16.1K+ followers; also his own post ('I've joined GC AI as Chief Marketing Officer', 590+ reactions, about 2 weeks ago) and congratulation posts from others", "what": "Self-reported current title CMO @ GC.AI", "verified": true},
+      {"source": "Ashby postings: Director of Demand Generation, Director of Product Marketing, Director of Field & Events Marketing, Senior Customer Marketing Manager", "what": "Each says 'This role reports to the CMO'. That makes the CMO the reporting line for the marketing team, but it does not prove the Organic Growth Lead's line.", "verified": true},
+      {"source": "Google snippets: earlier career (podcasts, PR Newswire)", "what": "Previously CMO at Cordial, GVP Marketing at Clari, and earlier at Gong. Useful context for the email; not checked further.", "verified": false}
+    ],
+    "email": {
+      "value": "julien@getgc.ai",
+      "basis": "Pattern [first]@getgc.ai. One real address on a public page uses it: jaimen@getgc.ai (Jaimen Sfetko, media contact on gc.ai's Series B press release, gc.ai/blog/gc-ai-raises-60-million-series-b-to-give-every-company-a-legal-advantage). RocketReach's snippet says '[first] (ex. jane@getgc.ai)', used by 80.6% of GC AI work addresses. The job post confirms that both @gc.ai and @getgc.ai are legitimate staff domains.",
+      "verified": false,
+      "note": "This address is inferred from the pattern; the mailbox has not been checked. Run Hunter on julien@getgc.ai first, then on julien@gc.ai. The only person-level example is Jaimen Sfetko, who appears to be an outside comms consultant (founder of Well Done Communications) using a getgc.ai address, so the pattern rests on that example plus RocketReach. The generic addresses (support@, sales@, privacy@, legal@, security@) are on gc.ai, so julien@gc.ai may also be an alias."
+    },
+    "linkedin": {
+      "checked_via": "Google search snippets via Bright Data only; no LinkedIn profile was opened",
+      "result": "linkedin.com/in/julien-sauvage (URL appears in podcast show notes in search results). Headline in the snippet: 'CMO @ GC.AI | Ex-Gong, Clari ...'.",
+      "company_page_check": "linkedin.com/company/gc-ai fetched via Bright Data: 51-200 employees, 172 on LinkedIn, San Mateo HQ.",
+      "verified": true
+    }
+  },
+  "alternates": [
+    {
+      "name": "Robert Kim",
+      "title": "Head of Growth Marketing",
+      "why": "Could be the Organic Growth Lead's direct manager, since the role is a growth IC. Use as a cc, or as the recipient if Julien bounces or the sponsor prefers the likely hiring manager.",
+      "evidence": [{"source": "Google snippets (via Bright Data): LinkedIn 'Robert Kim - Head of Growth Marketing at GC AI', linkedin.com/in/robertjkim, UC Berkeley, SF Bay Area; RocketReach snippet 'Robert Kim, Head of Growth Marketing, California'", "what": "Current title from his self-reported profile headline; start date unknown", "verified": true}],
+      "email": {"value": "robert@getgc.ai", "basis": "Same [first]@getgc.ai pattern", "verified": false, "note": "Not checked. A common first name means a higher risk of a different format (for example robertk@). Run Hunter."}
+    },
+    {
+      "name": "Cecilia Ziniti",
+      "title": "Co-Founder & CEO",
+      "why": "Only if both marketing contacts fail. The company has 172 people and a CMO, so the CEO is not the right first recipient.",
+      "evidence": [{"source": "https://gc.ai/company/about", "what": "Listed as Co-Founder & CEO", "verified": true}],
+      "email": {"value": "cecilia@getgc.ai", "basis": "Same pattern", "verified": false, "note": "Not checked"}
+    }
+  ],
+  "generic_addresses": [
+    {"value": "press@getgc.ai", "source": "BusinessWire release 2026-11-18 ($40M ARR), media contact Elizabeth Thomas", "verified": true},
+    {"value": "support@gc.ai", "source": "gc.ai site pages and docs", "verified": true},
+    {"value": "sales@gc.ai", "source": "gc.ai site pages", "verified": true},
+    {"value": "security@gc.ai", "source": "https://gc.ai/.well-known/security.txt", "verified": true},
+    {"value": "privacy@gc.ai", "source": "gc.ai/privacy", "verified": true},
+    {"value": "legal@gc.ai", "source": "gc.ai/terms", "verified": true}
+  ],
+  "notes": "Researched 2026-11-25 from public sources only; no one was contacted. The job post says applications are accepted only via gc.ai/careers and LinkedIn, so submit through Ashby as well and use the email as a direct note to the hiring leader, not as the application. Context: a Mary Williams (now CMO at Valant) appears to have been GC AI's CMO from about May 2025 (Humantic and YesPress snippets, 'Left Legal AI...'). Not verified, but if true, Julien is her replacement and is rebuilding the team, which fits the batch of marketing roles posted 2026-11-05 to 2026-11-16. Jaimen Sfetko (jaimen@getgc.ai) is an outside comms consultant, not a marketing-team recipient. Scratch evidence: /tmp/claude-0/-home-user-add-vee/e634db77-8777-5805-b413-f521bd752f52/scratchpad/contacts/."
+}
