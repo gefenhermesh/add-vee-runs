@@ -1,0 +1,6 @@
+{
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-25T14:05:14Z",
+  "note": "Loop A approved (round 1, patch). Scope & Prompts: https://claude.ai/artifact/2AezK5KU2XaxvxANi9j4nE. Waiting for sponsor Gate 1-2 decision; market set to US English pending confirmation. Story: https://claude.ai/artifact/T9BQMr2R4cUPaaPxSN6h2J",
+  "branch": "campaign/payhawk"
+}

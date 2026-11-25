@@ -1163,7 +1163,7 @@
       "slug": "synthesia",
       "company": "Synthesia",
       "domain": "synthesia.io",
-      "status": "approved_waiting",
+      "status": "released",
       "b2b": true,
       "reason": "Synthesia ($4B, Series E $200M Jan 2026, 90% of Fortune 100) is hiring a hands-on SEO Manager in London for landing pages, localization and AI search. A heavily contested category: HeyGen, Colossyan, PlayPlay and Vyond all publish 'Synthesia alternatives' pages that rank.",
       "gating_rating": "seo_job_opening",
@@ -1215,7 +1215,8 @@
         "ts": "2026-11-25T14:01:43Z",
         "order": 0,
         "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?"
-      }
+      },
+      "released_at": "2026-11-25T14:33:41+00:00"
     },
     {
       "slug": "cognism",
@@ -1346,7 +1347,7 @@
       "slug": "payhawk",
       "company": "Payhawk",
       "domain": "payhawk.com",
-      "status": "starting",
+      "status": "waiting_gate",
       "b2b": true,
       "reason": "Payhawk (spend management, Bulgaria's first unicorn) raised a $280M Series C at $2B in Nov 2026 and is hiring an SEO Manager to own organic and AI-search visibility for product areas and regions. Contested category (Pleo, Spendesk, Ramp, Airwallex all write comparison pages; Ramp's 'Payhawk alternatives' ranks), and the JD asks for AI-answer citation tracking.",
       "gating_rating": "seo_job_opening",
@@ -1392,7 +1393,9 @@
       "session_id": "session_01FkmvpPHF6Tkcvz3ntQ9ghV",
       "started_at": "2026-11-25T13:33:43+00:00",
       "nudges": 0,
-      "notified": {}
+      "notified": {
+        "gate": "2026-11-25T14:33:41+00:00"
+      }
     },
     {
       "slug": "profound",
@@ -1579,7 +1582,7 @@
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24).",
     "one_at_a_time": "One audit works at a time (sponsor, 2026-11-25: \"maybe we can create a que so one audit at a time\"). Gate 1-2 approvals are recorded as approved_waiting and released one by one (release_gate) when nothing else is working; a new Loop A starts only when nothing is working and nothing approved is waiting."
   },
-  "last_tick": "2026-11-25T13:33:43+00:00",
+  "last_tick": "2026-11-25T14:33:41+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",
