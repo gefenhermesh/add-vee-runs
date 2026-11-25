@@ -123,6 +123,8 @@ def learn(docs_dir):
             continue
         if d.get("skip_reason") != "us_only" or not name or name.lower() in have:
             continue
+        if seeker.company_kind(name, d.get("terms") or "") in ("startup", "agency"):
+            continue  # a US startup or agency is a maybe by rule, never blocked by one mark (sponsor, 2026-11-25)
         if re.search(r"unnamed|confidential|a startup \(", name, re.I):
             continue  # no real company name to block
         fb.setdefault("not_eligible_companies", []).append(

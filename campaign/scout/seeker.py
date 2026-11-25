@@ -114,10 +114,12 @@ def company_kind(company, desc=""):
     for v in cos.values():
         if re.sub(r"[^a-z0-9]+", "", (v.get("name") or "").lower()) == n and v.get("class") not in (None, "unknown"):
             return v["class"]
-    if TRADITIONAL_CO.search(company or "") or TRADITIONAL_US.search(desc or ""):
-        return "other"
+    # an agency's own words come first: an agency serving construction or real-estate firms is still an agency
+    # (Siana Marketing, sponsor 2026-11-25: "these kind of posts might work")
     if AGENCY_TEXT.search(desc or "") or re.search(r"\b(agency|marketing|digital|media|seo)\b", company or "", re.I):
         return "agency"
+    if TRADITIONAL_CO.search(company or "") or TRADITIONAL_US.search(desc or ""):
+        return "other"
     return None
 
 
