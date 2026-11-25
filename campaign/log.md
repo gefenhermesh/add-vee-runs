@@ -107,3 +107,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-24 20:16 UTC: sponsor approved moving Google AI Mode to Oxylabs. Dev session session_01FkmvpMdN1gSbuSEHREHb5Y building it (branch oxylabs-ai-mode, PR to master). Help Scout and Paddle told to stop Bright Data AI Mode resubmits and not to use the Gemini stand-in; they merge master and collect via Oxylabs once merged.
 - 2026-11-24T20:41:15Z merge 33 (sponsor): Oxylabs AI Mode collector on add-vee master (c6fab33); Help Scout and Paddle told to merge master and collect.
 - 2026-11-24 23:20 UTC: CI failures since 20:41 (57 runs; bs4/lxml missing from CI after PR #33) fixed by PR #34 (merge 34, sponsor); Help Scout and Paddle told to merge master. Manager rule: check CI is green before asking the sponsor to merge.
+- 2026-11-25 00:35 UTC: Help Scout and Paddle stopped at ~23:21 UTC on the 5-hour usage limit (Paddle: content-prioritizer cut off). Both resumed by message after the 23:30 reset.
