@@ -192,3 +192,19 @@ def test_one_at_a_time_releases_held_approval_before_new_start(tmp_path, monkeyp
     assert [(x["do"], x["slug"]) for x in acts] == [("release_gate", "a")]
     state["prospects"][1]["status"] = "released"
     assert tick.plan(state, {}, now) == []  # released and still at the gate counts as working: nothing else starts
+
+
+def test_hold_new_work_until_blocks_release_and_start(tmp_path, monkeypatch):
+    import datetime as dt, json
+    import tick
+    monkeypatch.setattr(tick, "ROOT", tmp_path)
+    (tmp_path / "companies" / "a").mkdir(parents=True)
+    (tmp_path / "companies" / "a" / "status.json").write_text(json.dumps({"stage": "waiting_gate_1_2"}))
+    state = {"settings": {"max_concurrent_running": 1, "one_at_a_time": True,
+                          "hold_new_work_until": "2026-11-28T05:00:00Z"},
+             "prospects": [{"slug": "a", "company": "A", "status": "approved_waiting", "gate_approval": {"ts": "x"}},
+                           {"slug": "c", "company": "C", "status": "queued"}]}
+    before = dt.datetime(2026, 11, 27, 12, tzinfo=dt.timezone.utc)
+    after = dt.datetime(2026, 11, 28, 6, tzinfo=dt.timezone.utc)
+    assert tick.plan(state, {}, before) == []
+    assert [x["do"] for x in tick.plan(state, {}, after)] == ["release_gate"]

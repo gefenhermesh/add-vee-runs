@@ -156,6 +156,9 @@ def plan(state, sessions, now):
     if state["settings"].get("brightdata_paused"):
         return actions  # audits need Bright Data: start nothing new until the sponsor resumes payment
     cap = state["settings"]["max_concurrent_running"]
+    hold = state["settings"].get("hold_new_work_until")
+    if hold and now < parse(hold):
+        return actions  # sponsor, 2026-11-25: weekly usage limit; release and start nothing until it renews
     if state["settings"].get("one_at_a_time") and running < cap:
         # Sponsor, 2026-11-25: one audit works at a time. Finish what the sponsor already approved before starting
         # a new Loop A: release the earliest-approved held company (the manager writes its approval file then).

@@ -6,7 +6,8 @@
     "plan": "claude max (sponsor, 2026-11-19)",
     "brightdata_paused": false,
     "campaign_paused": false,
-    "one_at_a_time": true
+    "one_at_a_time": true,
+    "hold_new_work_until": "2026-11-28T05:00:00Z"
   },
   "prospects": [
     {
@@ -1653,7 +1654,8 @@
     "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it.",
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24).",
-    "one_at_a_time": "One audit works at a time (sponsor, 2026-11-25: \"maybe we can create a que so one audit at a time\"). Gate 1-2 approvals are recorded as approved_waiting and released one by one (release_gate) when nothing else is working; a new Loop A starts only when nothing is working and nothing approved is waiting."
+    "one_at_a_time": "One audit works at a time (sponsor, 2026-11-25: \"maybe we can create a que so one audit at a time\"). Gate 1-2 approvals are recorded as approved_waiting and released one by one (release_gate) when nothing else is working; a new Loop A starts only when nothing is working and nothing approved is waiting.",
+    "usage_hold": "Sponsor, 2026-11-25: \"see if cognism makes it and after hold until usage renews\". Cognism finishes; then no gate release and no new start until the 7-day usage limit resets (2026-11-28 05:00 UTC). Daily mail check, follow-ups and jobs scout continue."
   },
   "last_tick": "2026-11-25T20:33:00+00:00",
   "manager": {
