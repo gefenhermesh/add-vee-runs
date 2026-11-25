@@ -94,6 +94,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-23T20:16:14+00:00 followup: upwind/1 email1 sent to CMO
 - 2026-11-24T16:55:38+00:00 followup: upwind/1 decision send N (sponsor asked for it 2026-11-24: need 'make the content count' (blog), plus the second-step intent)
 - 2026-11-24T17:25:50+00:00 followup: gambit-security/1 email1 sent to VP Marketing
+- 2026-11-25T16:36:14+00:00 followup: glow-io/1 email1 sent to CEO
 
 ## Cohorts
 
@@ -149,3 +150,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-25 09:34 UTC: GC AI and Reducto stopped at ~08:23 UTC on the 5-hour usage limit (reset 09:30); both resumed by message.
 - 2026-11-25T14:01:48Z sponsor: "Approve all but maybe we can create a que so one audit at a time?" Synthesia, Cognism, Cognition Gate 1-2 approved and held (approved_waiting); one_at_a_time on: released one by one when nothing else is working (Payhawk Loop A first). Cognism AI Mode location: UK (session recommendation; sponsor did not choose).
 - 2026-11-25T16:33:30Z approve payhawk (sponsor): held as approved_waiting; released after Synthesia, Cognism, Cognition (one at a time).
+- 2026-11-25T16:36:19Z sponsor: "send roi@glow.io the draft". Sent the sponsor-edited glow.io draft (r4710658000293432333, already addressed to roi@glow.io) as-is: message 1a213906fcffa294, thread 1a20bc18d764d6c3. Tracked in followup.py (glow-io/1, Israel weekend) and learn.py.
