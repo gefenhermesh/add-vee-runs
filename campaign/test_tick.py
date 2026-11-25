@@ -171,3 +171,24 @@ class JobExpiryTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_one_at_a_time_releases_held_approval_before_new_start(tmp_path, monkeypatch):
+    import datetime as dt, json
+    import tick
+    monkeypatch.setattr(tick, "ROOT", tmp_path)
+    (tmp_path / "companies").mkdir()
+    for slug, stage in (("a", "waiting_gate_1_2"), ("b", "waiting_gate_1_2")):
+        (tmp_path / "companies" / slug).mkdir()
+        (tmp_path / "companies" / slug / "status.json").write_text(json.dumps({"stage": stage}))
+    state = {"settings": {"max_concurrent_running": 1, "one_at_a_time": True}, "prospects": [
+        {"slug": "b", "company": "B", "status": "approved_waiting", "session_id": "sb",
+         "gate_approval": {"ts": "2026-11-25T14:00:00Z", "sponsor_words": "Approve all"}},
+        {"slug": "a", "company": "A", "status": "approved_waiting", "session_id": "sa",
+         "gate_approval": {"ts": "2026-11-25T13:00:00Z", "sponsor_words": "Approve all"}},
+        {"slug": "c", "company": "C", "status": "queued"}]}
+    now = dt.datetime(2026, 11, 25, 15, tzinfo=dt.timezone.utc)
+    acts = tick.plan(state, {}, now)
+    assert [(x["do"], x["slug"]) for x in acts] == [("release_gate", "a")]
+    state["prospects"][1]["status"] = "released"
+    assert tick.plan(state, {}, now) == []  # released and still at the gate counts as working: nothing else starts

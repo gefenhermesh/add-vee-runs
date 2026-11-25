@@ -99,8 +99,10 @@ def plan(state, sessions, now):
                                 "reason": f"job post not confirmed open for {age} days, never started"})
     for p in state["prospects"]:
         st = p.get("status")
-        if st not in ACTIVE | {"waiting_gate", "paused"}:
+        if st not in ACTIVE | {"waiting_gate", "paused", "approved_waiting", "released"}:
             continue
+        if st == "approved_waiting":
+            continue  # the sponsor approved Gate 1-2; held until it's this company's turn (one_at_a_time)
         cs = company_status(p["slug"])
         stage = cs.get("stage")
         progress = parse(cs.get("ts")) or parse(p.get("started_at"))
@@ -122,6 +124,9 @@ def plan(state, sessions, now):
             if st != "paused":
                 actions.append({"do": "mark", "slug": p["slug"], "status": "paused"})
             continue
+        if stage in WAITING_STAGES and st == "released":
+            running += 1  # approval file written and the session told; it's about to start Stage 3-4
+            continue
         if stage in WAITING_STAGES:
             if st != "waiting_gate":
                 actions.append({"do": "mark", "slug": p["slug"], "status": "waiting_gate"})
@@ -129,7 +134,7 @@ def plan(state, sessions, now):
                 actions.append({"do": "notify", "slug": p["slug"], "kind": "gate",
                                 "message": f"{p['company']}: Gate 1-2 ready. Reply \"approve {p['slug']}\" or what to change"})
             continue
-        if st in ("waiting_gate", "paused"):
+        if st in ("waiting_gate", "paused", "released"):
             # The company moved past the gate (the sponsor approved): it's working again.
             actions.append({"do": "mark", "slug": p["slug"], "status": "running"})
         running += 1
@@ -151,6 +156,16 @@ def plan(state, sessions, now):
     if state["settings"].get("brightdata_paused"):
         return actions  # audits need Bright Data: start nothing new until the sponsor resumes payment
     cap = state["settings"]["max_concurrent_running"]
+    if state["settings"].get("one_at_a_time") and running < cap:
+        # Sponsor, 2026-11-25: one audit works at a time. Finish what the sponsor already approved before starting
+        # a new Loop A: release the earliest-approved held company (the manager writes its approval file then).
+        held = sorted((p for p in state["prospects"] if p.get("status") == "approved_waiting"),
+                      key=lambda p: ((p.get("gate_approval") or {}).get("ts") or "", (p.get("gate_approval") or {}).get("order", 0)))
+        if held:
+            p = held[0]
+            actions.append({"do": "release_gate", "slug": p["slug"], "session_id": p.get("session_id"),
+                            "branch": f"campaign/{p['slug']}", **(p.get("gate_approval") or {})})
+            running += 1
     order = sorted(state["prospects"], key=lambda p: -int(p.get("priority") or 0))  # SEO-job finds first; stable otherwise
     for p in order:
         if running >= cap:
@@ -181,6 +196,8 @@ def apply(state, results, now):
             p["status"] = r["status"]
             if r["status"] == "running":
                 p["nudges"] = 0
+        elif r["do"] == "release_gate" and ok:
+            p.update(status="released", released_at=ts)
         elif r["do"] == "draft" and ok:
             p["gmail_draft_id"] = r.get("draft_id")
         elif r["do"] == "notify" and ok:

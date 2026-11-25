@@ -5,7 +5,8 @@
     "weekly_target_companies": 5,
     "plan": "claude max (sponsor, 2026-11-19)",
     "brightdata_paused": false,
-    "campaign_paused": false
+    "campaign_paused": false,
+    "one_at_a_time": true
   },
   "prospects": [
     {
@@ -1162,7 +1163,7 @@
       "slug": "synthesia",
       "company": "Synthesia",
       "domain": "synthesia.io",
-      "status": "waiting_gate",
+      "status": "approved_waiting",
       "b2b": true,
       "reason": "Synthesia ($4B, Series E $200M Jan 2026, 90% of Fortune 100) is hiring a hands-on SEO Manager in London for landing pages, localization and AI search. A heavily contested category: HeyGen, Colossyan, PlayPlay and Vyond all publish 'Synthesia alternatives' pages that rank.",
       "gating_rating": "seo_job_opening",
@@ -1209,13 +1210,18 @@
       "nudges": 0,
       "notified": {
         "gate": "2026-11-25T11:33:15+00:00"
+      },
+      "gate_approval": {
+        "ts": "2026-11-25T14:01:43Z",
+        "order": 0,
+        "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?"
       }
     },
     {
       "slug": "cognism",
       "company": "Cognism",
       "domain": "cognism.com",
-      "status": "waiting_gate",
+      "status": "approved_waiting",
       "b2b": true,
       "reason": "London B2B sales-intelligence company (European contact data, competes head-on with ZoomInfo, Apollo, Lusha) is hiring an SEO / AEO Manager to own organic and AI-search visibility tied to pipeline. Search is the battleground: ZoomInfo publishes 'Cognism alternatives' and 'Cognism vs' pages that rank, and the JD asks for AI-answer visibility the sponsor's audit shows directly.",
       "gating_rating": "seo_job_opening",
@@ -1261,13 +1267,19 @@
       "nudges": 0,
       "notified": {
         "gate": "2026-11-25T12:33:23+00:00"
+      },
+      "gate_approval": {
+        "ts": "2026-11-25T14:01:43Z",
+        "order": 1,
+        "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?",
+        "note": "Sponsor did not pick a Google AI Mode location; using the session's recommendation (UK) unless the sponsor says otherwise."
       }
     },
     {
       "slug": "cognition",
       "company": "Cognition",
       "domain": "cognition.ai",
-      "status": "waiting_gate",
+      "status": "approved_waiting",
       "b2b": true,
       "reason": "Cognition (Devin; bought Windsurf, now 'Devin Desktop') raised $2B at $48B in Sept 2026 and is hiring two search roles: an SEO & AEO leader to build organic from scratch (SF) and a Search & AI Discoverability Lead (NYC). The category is new and contested (Cursor, Claude Code, Copilot, Codex), and the JDs ask for exactly the AI-answer visibility the audit measures.",
       "gating_rating": "seo_job_opening",
@@ -1323,6 +1335,11 @@
       "nudges": 0,
       "notified": {
         "gate": "2026-11-25T13:33:43+00:00"
+      },
+      "gate_approval": {
+        "ts": "2026-11-25T14:01:43Z",
+        "order": 2,
+        "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?"
       }
     },
     {
@@ -1559,7 +1576,8 @@
     "campaign_pause": "Whole campaign paused by the sponsor (2026-11-21 ~05:10 UTC) until Bright Data payment resumes: the hourly tick (trig_01TYro24KNGAHSNPwqrdkfJM) is disabled, so no ticks, daily mail/follow-up checks, jobs scout or weekly scout run. To resume: re-enable the trigger, then follow MANAGER_TICK.md -> Bright Data pause -> resume. RESUMED 2026-11-24: new hourly task trig_01SgYw1mCwWPzdu79SqKqafZ bound to the new manager session.",
     "signature": "Every Gmail draft or send includes the sponsor's saved Gmail signature (create_draft/send_message includeSignature: true), sponsor 2026-11-22. Vega and Bay email 1 went out before this, without it.",
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
-    "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
+    "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24).",
+    "one_at_a_time": "One audit works at a time (sponsor, 2026-11-25: \"maybe we can create a que so one audit at a time\"). Gate 1-2 approvals are recorded as approved_waiting and released one by one (release_gate) when nothing else is working; a new Loop A starts only when nothing is working and nothing approved is waiting."
   },
   "last_tick": "2026-11-25T13:33:43+00:00",
   "manager": {
