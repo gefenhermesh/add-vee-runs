@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-25T12:33:23+00:00 mark cognism waiting_gate
+- 2026-11-25T12:33:23+00:00 notify cognism gate
+- 2026-11-25T12:33:23+00:00 start cognition
 - 2026-11-25T11:33:15+00:00 mark synthesia waiting_gate
 - 2026-11-25T11:33:15+00:00 notify synthesia gate
 - 2026-11-25T11:33:15+00:00 start cognism
