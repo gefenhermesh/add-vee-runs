@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-25T12:09:10Z",
-  "note": "Loop A approved (round 1, patch applied). Open decision: Google AI Mode geo US vs UK. Scope: https://claude.ai/artifact/Jfv4b5SE5iW6pBcBr4zGFL Story: https://claude.ai/artifact/PuifSoPD82qHrbeFyaddDV",
+  "stage": "loop_b",
+  "ts": "2026-11-25T19:33:55Z",
+  "note": "Gate 1-2 approved (file). Stage 3-4 data collection starting; Google AI Mode location UK.",
   "branch": "campaign/cognism"
 }
