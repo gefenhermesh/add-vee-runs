@@ -1,0 +1,17 @@
+{
+ "industry": "customer support software (help desk / shared inbox / AI agent)",
+ "stage": "established (founded 2011, Series B, 140+ employees)",
+ "situation": "established",
+ "size_band": "100-250",
+ "geo": "US (remote)",
+ "marketing_gating": "self-serve PLG with free plan",
+ "trigger": "seo_job_post",
+ "finding_pattern": "misrepresented",
+ "need": "Clean up what AI says",
+ "recipient_role": "Chief Revenue Officer",
+ "ask_track": "job_application",
+ "opener_type": "job_post",
+ "email_variant": "v7_need_feedback",
+ "subject_style": "role_named",
+ "contact_verified": false
+}

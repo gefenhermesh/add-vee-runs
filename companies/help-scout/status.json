@@ -1,6 +1,9 @@
 {
-  "stage": "loop_c",
-  "ts": "2026-11-24T23:19:40Z",
-  "note": "content plan mapped (110 pages) and prioritized; content-plan review round 1 running",
+  "stage": "done",
+  "ts": "2026-11-25T01:31:43Z",
+  "note": "Audit complete; outreach in output/help-scout/outreach (seo_job, recipient Andrea Kayal CRO, email unverified)",
+  "report": "https://claude.ai/artifact/BkVB78WpF3mLWd5kgv1ZZS",
+  "action_plan": "https://claude.ai/artifact/8bBCoMDTc7D4Gr4YZYYRjQ",
+  "story": "https://claude.ai/artifact/JRZVhXrhDG658eeN9eDhJL",
   "branch": "campaign/help-scout"
 }

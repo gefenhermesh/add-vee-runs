@@ -1,0 +1,37 @@
+{
+ "company": "Help Scout",
+ "domain": "helpscout.com",
+ "track": "seo_job",
+ "role_applied_for": {
+  "title": "SEO / AEO Lead",
+  "url": "https://jobs.ashbyhq.com/helpscout/124fc642-1462-413e-9999-526ccf717752",
+  "posted": "2026-11-24",
+  "reports_to_per_post": "Director of Demand Generation",
+  "source": "Ashby public job-board API (api.ashbyhq.com/posting-api/job-board/helpscout), fetched 2026-11-25: 'with the help of your manager, the Director of Demand Generation'"
+ },
+ "reporting_chain": [
+  {"role": "Director of Demand Generation", "holder": null, "status": "open role", "evidence": "Director of Demand Generation posting live on LinkedIn Jobs, Remotivated, RemoteBoard and others, all dated about 6 days before 2026-11-25 (Google results via Bright Data); the posting says it reports to the VP of Marketing"},
+  {"role": "VP of Marketing", "holder": null, "status": "not found", "evidence": "VP of Marketing postings from August 2026 (Techstars, Built In) say it reports to 'Andrea, our CRO'; no public announcement or LinkedIn snippet names a current holder"},
+  {"role": "Chief Revenue Officer", "holder": "Andrea Kayal", "status": "verified in role", "evidence": "Google LinkedIn snippet 'Andrea Kayal - Chief Revenue Officer ... Experience: Help Scout'; RocketReach 'Chief Revenue Officer at Help Scout'; podcast 'Now at Help Scout, she runs the entire commercial organization'; the VP of Marketing posting names 'Andrea, our CRO'"}
+ ],
+ "recipient": {
+  "name": "Andrea Kayal",
+  "title": "Chief Revenue Officer, Help Scout",
+  "why": "The role's manager (Director of Demand Generation) is itself an open hire and no VP of Marketing is publicly in post, so the most senior person the role rolls up to who is verifiably in place is the CRO, who runs the commercial organization including marketing.",
+  "email": null,
+  "email_pattern_guess": "andrea@helpscout.com (first name), UNVERIFIED",
+  "email_note": "No personal helpscout.com address was found in any public source read (only role addresses: help@, research@, editorial@, partnerships@). Verify with Hunter before sending.",
+  "linkedin_company_check": "Help Scout's CRO per Google LinkedIn snippet; the profile itself was not opened",
+  "verified": {"person_in_role": true, "email": false}
+ },
+ "alternates": [
+  {"name": null, "title": "VP of Marketing", "note": "If the sponsor finds a current VP of Marketing (the role's skip-level manager), that person is the better recipient."}
+ ],
+ "sources": [
+  "https://jobs.ashbyhq.com/helpscout/124fc642-1462-413e-9999-526ccf717752",
+  "https://remotivated.com/jobs/director-of-demand-generation-at-help-scout",
+  "https://jobs.techstars.com/companies/help-scout/jobs/65098849-vp-marketing",
+  "https://unionsquareconsulting.com (CRO Stories podcast, Andrea Kayal at HelpScout)",
+  "https://rocketreach.co (Help Scout profile, Andrea Kayal, Chief Revenue Officer)"
+ ]
+}

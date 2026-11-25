@@ -1,0 +1,55 @@
+{
+ "company": "Help Scout",
+ "domain": "helpscout.com",
+ "track": "seo_job",
+ "job": {
+  "title": "SEO / AEO Lead",
+  "url": "https://jobs.ashbyhq.com/helpscout/124fc642-1462-413e-9999-526ccf717752",
+  "posted": "2026-11-24",
+  "reports_to": "Director of Demand Generation (open role)"
+ },
+ "situation": "established",
+ "finding_pattern": "misrepresented",
+ "need": "Clean up what AI says",
+ "need_why": "Named often (37.5% blind, 72.2% in shared inbox) but a quarter of named answers carry a wrong fact, a third of those from Help Scout's own help articles; second need: find the cracks in AI agents (23.0%) and reporting (10.3%).",
+ "angle": "AI already knows Help Scout as a shared inbox, but tells buyers the wrong plan limits and an out-of-date story about its AI agent, and rarely brings it up when they shop for AI agents or reporting.",
+ "lead_claims": [
+  {
+   "claim_id": "C-106",
+   "figure": 74.6,
+   "unit": "%",
+   "sample_size": 268
+  },
+  {
+   "claim_id": "C-174",
+   "figure": "24 of 68 error turns repeat a Help Scout page"
+  },
+  {
+   "claim_id": "C-014",
+   "figure": 23.0,
+   "unit": "%",
+   "sample_size": 100
+  },
+  {
+   "claim_id": "C-104",
+   "figure": "4 head-to-head non-wins rest on wrong facts"
+  }
+ ],
+ "blog_line": {
+  "text": "AI-agent posts cover about a third of the topic's core; missing channels (email) and Fin head-to-heads",
+  "source": "blog_cluster_completeness.json (AI Agents core 34%); blog_ia_review_log.json round 2"
+ },
+ "opener": {
+  "type": "job_post",
+  "text": "I saw Help Scout is hiring an SEO / AEO Lead, and before applying I wanted to show how I'd start.",
+  "source_url": "https://jobs.ashbyhq.com/helpscout/124fc642-1462-413e-9999-526ccf717752"
+ },
+ "contacts": "outreach/contacts.json (recipient Andrea Kayal, CRO; email unverified)",
+ "deliverables": {
+  "report": "https://claude.ai/artifact/BkVB78WpF3mLWd5kgv1ZZS",
+  "action_plan": "https://claude.ai/artifact/8bBCoMDTc7D4Gr4YZYYRjQ",
+  "story": "https://claude.ai/artifact/JRZVhXrhDG658eeN9eDhJL",
+  "scope": "https://claude.ai/artifact/NedhzBtH2kVH7C2dCt9UjL"
+ },
+ "rationale": "The role is the person who would own this work, so the email shows the first moves rather than describing them. The sharpest, cheapest finding is that Help Scout's own HIPAA, Free Plan and SSO help articles feed the most repeated wrong answers, which a new SEO/AEO lead could fix in week one; the AI-agent gap (23%) and the thin AI-agent blog coverage show where the longer work is. The role's manager (Director of Demand Generation) is itself an open hire and no VP of Marketing is publicly in post, so the email goes to the CRO, who runs the commercial organization; if the sponsor knows of a current VP of Marketing, that person is the better recipient. Verify the address with Hunter before sending."
+}
