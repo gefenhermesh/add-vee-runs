@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-25T23:33:34+00:00 mark cognism done
+- 2026-11-25T23:33:34+00:00 draft cognism
+- 2026-11-25T23:33:34+00:00 notify cognism done
 - 2026-11-25T20:33:00+00:00 mark cognism running
 - 2026-11-25T19:33:34+00:00 mark synthesia done
 - 2026-11-25T19:33:34+00:00 draft synthesia
@@ -177,3 +180,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-25 22:12 UTC: sponsor: US rule refined again: authorization is asked in the form, so silence means nothing. Without a positive sign, only US startups and agencies are a maybe; any other US employer is skipped (seeker.company_kind via jobs_companies.json; unknown type -> scout decides).
 - 2026-11-25 22:13 UTC: sponsor: Siana Marketing-type posts (US agency serving traditional industries) might work: Siana removed from the exclusion list and back in the tracker as a maybe; agencies are recognised before the traditional-industry words; a 'US only' mark on a startup or agency no longer blocks the company.
 - 2026-11-25 22:15 UTC: sponsor: US agencies and startups are worth applying to even when the form asks about US authorization (Siana). seeker: US startup/agency -> apply; tracker: Siana and Focus Digital -> apply.
+- 2026-11-25T23:40:00+00:00 sponsor: no "before applying" in job-track emails. New drafts without it: synthesia r5247378393646576382, reducto r794357332105537189, help-scout r6518931599953251528, gc-ai r986702943946060068, paddle r5539259497073887401 (old drafts r-8375703876730217481, r-2248767421010273917, r-8042809558676945810, r-1668776791143731610, r4303044308811569600 still to delete). Cognism draft r-6458885885129670071 written with the new wording. Rule on add-vee branch campaign-docs/job-track-wording.

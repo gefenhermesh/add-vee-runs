@@ -1,0 +1,70 @@
+{
+  "primary": {
+    "name": "James Bradbury",
+    "title": "VP Performance Marketing, Cognism",
+    "evidence": [
+      {"url": "https://www.google.com/search?q=cognism+%22SEO+%2F+AEO%22+OR+%22SEO+%26+AEO%22+hiring+linkedin+post", "what_it_shows": "Google snippet of James Bradbury's own LinkedIn post (about 4 months old at time of search): \"I'm hiring for an SEO & AEO Manager at Cognism\", tagged #SEO #AEO #AISearch #TechnicalSEO. This is the strongest public signal that he is the hiring manager. Post itself not opened (snippet only).", "date_seen": "2026-11-25"},
+      {"url": "https://www.cognism.com/blog/author/james-bradbury", "what_it_shows": "Cognism's own blog author page for James Bradbury (posts on GTM alignment / data enrichment); a Cognism blog post dated 12 Aug 2026 calls him 'VP of Performance Marketing bei Cognism'.", "date_seen": "2026-11-25"},
+      {"url": "https://www.google.com/search?q=%22James+Bradbury%22+cognism", "what_it_shows": "site:linkedin.com/in snippet: 'James Bradbury - VP Performance Marketing @Cognism | Ex-AWS, Aiven, Sony', London; LinkedIn post snippet (~5 months old): 'I've started a new role as VP Performance Marketing at Cognism'. RocketReach snippet: 'Cognism's Marketing department is led by James Bradbury (VP Performance Marketing)'.", "date_seen": "2026-11-25"},
+      {"url": "https://www.cognism.com/about-us", "what_it_shows": "Leadership team lists CEO, CPTO, CISO, CRO, CFO, General Counsel, CHRO, Chief of Staff and no CMO, so a VP is plausibly the most senior dedicated marketing leader.", "date_seen": "2026-11-25"}
+    ],
+    "title_verified": true,
+    "email_guess": "james.bradbury@cognism.com",
+    "email_basis": "first.last@cognism.com pattern, inferred from a real Cognism-published address (stjepan.buljat@cognism.com in Cognism's own help-centre API article) and corroborated by third-party format estimates (RocketReach: first.last used by 89.4% of Cognism addresses; LeadIQ: First.Last most common). The address itself was not found published anywhere.",
+    "email_verified": false
+  },
+  "fallback": {
+    "name": "Chris Evans",
+    "title": "Chief Revenue Officer (CRO), Cognism",
+    "evidence": [
+      {"url": "https://www.cognism.com/about-us", "what_it_shows": "Listed on Cognism's leadership team as Chief Revenue Officer (CRO). No CMO is listed, so the CRO is the most senior go-to-market executive above marketing.", "date_seen": "2026-11-25"},
+      {"url": "https://www.cognism.com/newsroom/cognism-appoints-ceo-and-cro", "what_it_shows": "Press release dated 9 September 2025: Cognism appoints Dominic Allon as CEO and Chris Evans as CRO.", "date_seen": "2026-11-25"},
+      {"url": "https://boards-api.greenhouse.io/v1/boards/cognism/jobs?content=true", "what_it_shows": "Cognism's open 'VP, Revenue Operations' role reports to the Chief Revenue Officer and supports Sales, Marketing and Customer Success, so the CRO owns the commercial org. It does not state that marketing reports to him.", "date_seen": "2026-11-25"}
+    ],
+    "title_verified": true,
+    "email_guess": "chris.evans@cognism.com",
+    "email_basis": "Same first.last@cognism.com pattern as above. The address itself was not found published by Cognism; it appears only in third-party prospecting lists that are themselves guesses.",
+    "email_verified": false
+  },
+  "recruiter_note": "The Greenhouse post names no recruiter or hiring manager and has no reporting line. James Bradbury is the primary because he posted publicly that he is hiring for this role. Alternative content-side contact, not chosen: Kate Williams, Senior Manager, Brand & Content Marketing (joined 2026; cognism.com/blog/author/kate-williams). She is a likely close collaborator but there is no evidence she is the hiring manager. Former marketing leaders who have left and should not be contacted: Alice de Courcy (ex-CMO, now CMO at ZoomInfo), Liam Bartholomew (ex-VP Marketing, now VP Marketing at Alt21), Fran Langham (ex-Director of Demand Gen, now Langham Advisory), Daisy Shevlin (ex-Manager, SEO, Jul 2024 to Apr 2026, now at ZoomInfo; this role likely backfills hers), Joe Barron (ex-SEO & content lead). Cognism's cognism.com/blog/author pages still describe some of them as current.",
+  "email_pattern": {
+    "pattern": "first.last@cognism.com",
+    "basis_url": "https://help.cognism.com/hc/en-gb/articles/34673553578514-Using-Enrich-and-Redeem-APIs-in-Cognism",
+    "verified": false
+  },
+  "linkedin_company_check": {
+    "url": "https://www.linkedin.com/company/cognism/",
+    "method": "Public company page fetched through the Bright Data Web Unlocker (zone content_crawler), logged out. Company page only; no individual profiles were opened.",
+    "what_it_shows": "Cognism, Software Development, HQ London (92 Albert Embankment), 201-500 employees (453 on LinkedIn), 132,663 followers, founded 2015, privately held; offices in New York, Skopje, Zadar, Cologne and Paris. Tagline 'Leader in international sales intelligence'; positioning is 'data fluency'. The page names no marketing staff."
+  },
+  "job_post": {
+    "url": "https://www.cognism.com/careers?gh_jid=5030844101",
+    "title": "SEO / AEO Manager",
+    "posted": "2026-11-09 (Greenhouse first_published 2026-11-09T08:56:21-05:00; requisition 0181; updated 2026-11-25)",
+    "team": "Go-to-Market (GTM) department (Greenhouse); the role sits in marketing and works with Web, Paid, Demand Generation, PMM, Content, RevOps and external agencies",
+    "location": "London (hybrid, weekly attendance at the London Bridge office)",
+    "reports_to": "Not stated in the post. Inferred: James Bradbury, VP Performance Marketing (his public 'I'm hiring for an SEO & AEO Manager at Cognism' post)",
+    "key_requirements": [
+      "SEO experience, ideally B2B / SaaS / tech / high-growth",
+      "SEO content strategy: keyword research, search intent, competitor analysis, on-page optimisation",
+      "Strong writing and editing: create, brief, edit and optimise content (blogs, landing, comparison, product, glossary pages). Content matters, but the post says it is 'not a content manager position'",
+      "Technical SEO: crawlability, indexation, site architecture, internal linking, Core Web Vitals, redirects, schema, audits (working with the Web team)",
+      "Tools: Google Search Console, GA4, Ahrefs, Screaming Frog, HubSpot, AI-enabled SEO platforms",
+      "Commercial focus: tie SEO/AEO to MQLs, meetings, SQOs, pipeline and revenue; target-account engagement",
+      "Cross-functional with Web, Paid, Demand Gen, PMM, Content, RevOps, agencies",
+      "Use AI to scale research, auditing, briefing, content, optimisation and reporting",
+      "Nice to have: international/multi-language SEO, ABM/demand gen, AI-answer/featured-snippet/knowledge-panel/comparison-query visibility, CRO and paid search alignment"
+    ],
+    "aeo_mentions": "AEO appears throughout the post. The role's aim is to 'improve our organic visibility across traditional search, AI search, and LLM-driven discovery' and 'improving our presence in AI-generated answers'. It asks for someone 'AEO-aware' who understands AI Overviews, LLMs, answer engines and zero-click; the duties include improving visibility 'across Google, AI Overviews, LLMs, answer engines, featured snippets'; the role monitors 'AI visibility'; the requirements include 'Awareness of AEO, AI search, LLM visibility, entity authority, structured content'; the nice-to-haves include experience 'improving visibility in AI-generated answers ... comparison queries, or category-level search results'."
+  },
+  "not_verified": [
+    "That James Bradbury is the hiring manager for this specific requisition: the evidence is a Google snippet of his ~4-month-old LinkedIn 'I'm hiring for an SEO & AEO Manager at Cognism' post. The Greenhouse requisition was first published 2026-11-09, so it may be a re-post or reopening of the same role. The post itself was not opened.",
+    "The reporting line: the job post does not state it.",
+    "That marketing reports to CRO Chris Evans: inferred because the leadership page has no CMO; not stated anywhere.",
+    "Both email addresses (james.bradbury@cognism.com, chris.evans@cognism.com): pattern-based guesses, not found published, not checked by SMTP or any verifier.",
+    "The email pattern rests on one Cognism-published personal address (co-founder Stjepan Buljat, used as the sample record in Cognism's own API docs at help.cognism.com and developers.cognism.com) plus third-party format estimates. Exceptions such as first@ may exist; LeadIQ notes Cognism 'also uses First@'.",
+    "Current titles come from Google snippets of LinkedIn profiles, Cognism author pages and RocketReach snippets; no individual LinkedIn profile pages were opened.",
+    "The LinkedIn job listing for this role (uk.linkedin.com/jobs/view/seo-aeo-manager-at-cognism-4487156615) might show a 'meet the hiring team' panel, but fetching it was blocked by this session's permission policy, so it was not checked."
+  ],
+  "checked_at": "2026-11-25T20:55:00Z"
+}

@@ -1,0 +1,17 @@
+{
+ "industry": "B2B data / sales intelligence SaaS",
+ "stage": "late-stage private (Series C $87.5M, 2022)",
+ "situation": "established",
+ "size_band": "201-500",
+ "geo": "UK (London HQ), Europe-first",
+ "marketing_gating": "VP Performance Marketing hiring an SEO / AEO Manager; no CMO on the leadership page (CRO heads revenue)",
+ "trigger": "seo_job_post",
+ "finding_pattern": "strong",
+ "need": "Find the cracks",
+ "recipient_role": "VP Performance Marketing (fallback CRO)",
+ "ask_track": "job_application",
+ "opener_type": "job_post",
+ "email_variant": "v7_need_feedback",
+ "subject_style": "before_i_apply",
+ "contact_verified": false
+}

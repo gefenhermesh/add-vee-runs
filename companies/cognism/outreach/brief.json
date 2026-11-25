@@ -1,0 +1,85 @@
+{
+ "company": "Cognism",
+ "domain": "cognism.com",
+ "track": "seo_job",
+ "job": {
+  "title": "SEO / AEO Manager",
+  "url": "https://www.cognism.com/careers?gh_jid=5030844101",
+  "posted": "2026-11-09",
+  "team": "Go-to-Market (GTM) department (Greenhouse); the role sits in marketing and works with Web, Paid, Demand Generation, PMM, Content, RevOps and external agencies",
+  "location": "London (hybrid, weekly attendance at the London Bridge office)",
+  "reports_to": "not stated in the post; VP Performance Marketing per his own hiring post (snippet)"
+ },
+ "situation": "established",
+ "finding_pattern": "strong",
+ "need": "Find the cracks",
+ "need_rationale": "Cognism is already on most unprompted European and mobile data shortlists and wins most head-to-heads, so 'get into the conversation' doesn't fit and 'hold their position' undersells the gaps. The losses are concentrated: buyer intent, and the new CRM Enrichment and MCP products; and most wrong facts come from Cognism's own pages. The blog audit ran, so one bullet joins the weakest AI territory to the blog's coverage of the same topic.",
+ "angle": "AI already shortlists Cognism for European and mobile data and sides with it in head-to-heads; the work is defending that lead where it cracks: intent and the new enrichment and MCP products, and the wrong facts AI copies from Cognism's own pages.",
+ "lead_claims": [
+  {
+   "claim_id": "C-044",
+   "figure": "45.3%",
+   "sample_size": 64,
+   "claim_text": "Blind presence in Buyer Intent & Sales Trigger Signals is 45.3% (29 of 64 turns, 16 prompts); 11 of 32 conversations are competitive losses and 0 whitespace."
+  },
+  {
+   "claim_id": "C-182",
+   "figure": "4",
+   "sample_size": null,
+   "claim_text": "In Buyer Intent, the most-named real competitors on blind turns are ZoomInfo (39 mentions, 24 of 32 conversations), 6sense (35, 23) and Bombora (34, 21), then Demandbase (27, 20); 6sense and Bombora are in research.json's answer_competitors but no head-to-head prompt tests Cognism against them, and Demandbase is in neither competitor list."
+  },
+  {
+   "claim_id": "C-158",
+   "figure": "&ndash;",
+   "sample_size": 9,
+   "claim_text": "Google AI Mode repeatedly describes Cognism's pricing as flat, unmetered or not credit-based (8 turns: #21, #45 blind, #46, #47 follow-up, #110, #139, #196, plus #115 follow-up on credit use), and ChatGPT once (#21); Cognism actually sells quote-only packages on a credit model (1 credit = 1 revealed contact)."
+  },
+  {
+   "claim_id": "C-191",
+   "figure": "&ndash;",
+   "sample_size": null,
+   "claim_text": "Company-wide, most material errors about Cognism trace to Cognism's own pages contradicting each other or hiding figures: comparison pages describe a 'generous data allowance' and 15 DNC countries while /pricing describes credits and /compliance 16; /our-data shows its figures only as animated counters; the pricing table's package ticks are icon-only; the 2022 SOC 2 release is still live. This is a Format and Freshness problem on owned content, not an AI comprehension problem."
+  }
+ ],
+ "blog_line": {
+  "text": "Your intent posts cover half of its core questions; thresholds, proof and ROI are missing.",
+  "source": "blog_cluster_completeness.json 'Buyer Intent & Sales Trigger Signals' subject_completeness_core_pct 50, approved blog_ia_review_log.json round 2"
+ },
+ "recommendations": [
+  "C-192",
+  "C-194",
+  "C-195",
+  "C-203",
+  "C-204",
+  "C-199",
+  "C-200"
+ ],
+ "opener": {
+  "type": "job_post",
+  "text": "I saw you're hiring an SEO / AEO Manager, and before applying I wanted to show how I'd start.",
+  "source_url": "https://www.cognism.com/careers?gh_jid=5030844101"
+ },
+ "contacts": {
+  "primary": {
+   "name": "James Bradbury",
+   "title": "VP Performance Marketing, Cognism",
+   "email_guess": "james.bradbury@cognism.com",
+   "email_verified": false,
+   "title_verified": true
+  },
+  "fallback": {
+   "name": "Chris Evans",
+   "title": "Chief Revenue Officer (CRO), Cognism",
+   "email_guess": "chris.evans@cognism.com",
+   "email_verified": false,
+   "title_verified": true
+  }
+ },
+ "links": {
+  "visibility_report": "https://claude.ai/artifact/PHSHx1vpnkd7FybxBCyg5D",
+  "action_plan": "https://claude.ai/artifact/LPaBFnfV4kgnuMRw1QcFnV",
+  "research_story": "https://claude.ai/artifact/PuifSoPD82qHrbeFyaddDV",
+  "scope": "https://claude.ai/artifact/Jfv4b5SE5iW6pBcBr4zGFL"
+ },
+ "rationale": "Cognism is hiring an SEO / AEO Manager, and the audit shows a strong position with specific cracks, which is exactly the job: AI names Cognism unprompted in 61.2% of buying answers and backs it in 82.5% of head-to-heads, but buyer intent sits at 45.3% with 6sense, Bombora and Demandbase named instead, the new CRM Enrichment and MCP products aren't found unprompted, and most wrong facts (flat-fee pricing, stale counts) are copied from Cognism's own pages. The email shows the work on intent, ties it to the blog (intent posts cover half the topic's core), and proposes three concrete first moves. James Bradbury's title is verified on his Cognism author page; that he is the hiring manager rests on a LinkedIn snippet of his own post; both emails are pattern guesses for Hunter."
+}
