@@ -1,0 +1,17 @@
+{
+ "industry": "AI video / enterprise L&D software",
+ "stage": "Series E",
+ "situation": "category_leader",
+ "size_band": "501-1000",
+ "geo": "UK (London) / US / EU",
+ "marketing_gating": "VP of Marketing in place; in-house SEO team (Senior SEO Manager) hiring an SEO Manager",
+ "trigger": "seo_job_post",
+ "finding_pattern": "losing_to_named_competitors",
+ "need": "find_the_cracks",
+ "recipient_role": "VP of Marketing",
+ "ask_track": "job_application",
+ "opener_type": "seo_job_post",
+ "email_variant": "v7_need_feedback",
+ "subject_style": "Your <role> opening: how AI search sees <Company>",
+ "contact_verified": false
+}

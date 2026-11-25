@@ -1,0 +1,89 @@
+{
+  "job": {
+    "title": "SEO Manager",
+    "url": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590",
+    "posted": "2026-06-10",
+    "posted_note": "Ashby's public API gives publishedAt 2026-06-10T12:22:54Z for this posting (mirrored as 'Posted on Jun 10, 2026' at https://jobs.mmc.vc/companies/synthesia/jobs/82248720-seo-manager; BuiltIn shows 'Reposted 3 Months Ago' at https://builtin.com/job/seo-manager/9687081). The 2026-11-09 date in the brief is most likely the LinkedIn repost date from the jobs route; not verified here. The role is still live on Ashby as of 2026-11-25.",
+    "source_api": "https://api.ashbyhq.com/posting-api/job-board/synthesia",
+    "department": "Marketing",
+    "team": "SEO",
+    "location": "London (~3 days per week in office), full-time",
+    "reports_to_stated": null,
+    "reports_to_note": "The posting does not say who the role reports to. It only says 'join our Marketing team'.",
+    "owns": [
+      "End-to-end SEO across on-page, technical and content, with a particular focus on landing pages and journeys that drive users into product.",
+      "Partnering with Product, Brand/Design and Engineering to improve UX, conversion (CRO) and performance, using data and experimentation to iterate; includes localized multi-language/geo sites.",
+      "Expected to be an 'AI-native operator' who automates workflows; bonus: off-site SEO and driving performance in AI search."
+    ]
+  },
+  "recipient": {
+    "name": "Borys Khodan",
+    "title": "VP of Marketing, Synthesia",
+    "why_this_person": "Synthesia's own Marketing General Application posting (same Ashby board, published 2026-08-25) names him as 'Borys Khodan, VP of Marketing' and lists SEO ('Win traditional and AI search. Ship the best content and world-class landing pages.') as one of the areas in his function. His LinkedIn headline, seen only as a Google results snippet, reads 'VP of Marketing · Synthesia. Own and lead Synthesia's inbound performance marketing efforts across Paid Ads, SEO, and Website. Website: - Own website strategy, analytics, ...', which matches the SEO Manager role's remit (SEO + website/landing pages + CRO). INFERRED, not stated: that the SEO Manager reports to him directly. It may instead report to the existing Senior SEO Manager (see alternates), who would in turn report to him; either way he is the senior owner of SEO and the website and is the person who invites candidates to message him.",
+    "sources": [
+      "https://jobs.ashbyhq.com/synthesia/7b8a6552-4960-43f1-a15c-231be624ba1a",
+      "https://api.ashbyhq.com/posting-api/job-board/synthesia",
+      "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+Synthesia+%22SEO%22 (Google results snippet for uk.linkedin.com/in/borkho, fetched via Bright Data 2026-11-25; profile page not opened)",
+      "https://www.tunedsocial.com/linkedin-ads-lab/e3-linkedin-ads-measurement-masterclass-with-borys-khodan-synthesia",
+      "https://rocketreach.co/borys-khodan-email_787025989 (aggregator; per search summary lists VP of Marketing from July 2026 after Director of Performance Marketing and Head of Paid Media at Synthesia; not opened, treat as unverified)"
+    ],
+    "background": "Previously Head of Paid Media at Synthesia (TunedSocial podcast write-up, 11 Sept 2024); came from Google. Paid-media background, so SEO/AI-search depth is plausibly something he hires for rather than does himself (inference).",
+    "linkedin_url_from_snippet": "https://uk.linkedin.com/in/borkho",
+    "verified": {
+      "name_title": true,
+      "name_title_basis": "Name and title stated on Synthesia's own job board (first-party) and consistent with the LinkedIn snippet and an older LinkedIn post snippet ('Borys Khodan . VP of Marketing @ Synthesia').",
+      "reports_to_relationship": false,
+      "email": false
+    }
+  },
+  "email_candidate": {
+    "address": "borys@synthesia.io",
+    "pattern": "first@synthesia.io (first name only)",
+    "pattern_source_url": "https://x.com/synthesiaIO/status/1279003212683653123",
+    "pattern_evidence": "The only real personal synthesia.io address found in public sources is victor@synthesia.io (CEO Victor Riparbelli), given in a reply from the official @synthesiaIO X account in 2020: 'can you email me on victor@synthesia.io?'. One data point, from 2020, from a founder, so the pattern is weak. Other published addresses are role inboxes only: press@ and sales@ (https://www.synthesia.io/press), support@, dpo@, gdpr.representative@ (https://www.synthesia.io/legal/privacy-policy), legal@ (https://www.synthesia.io/legal/content-integrity-policy).",
+    "fallback_address": "borys.khodan@synthesia.io",
+    "fallback_basis": "Third-party email-format sites (https://www.clay.com/dossier/synthesia-email-format, https://prospeo.io/c/synthesia-email-format) claim first.last@synthesia.io is the dominant pattern (per search summary; pages not opened, unofficial). This conflicts with the one first-party data point, so the sponsor should check both in Hunter.",
+    "verified": false,
+    "verification_owner": "sponsor (Hunter)"
+  },
+  "alternates": [
+    {
+      "name": "Steven Jankowski",
+      "title": "Senior SEO Manager, Synthesia (Oct 2024 - present, per LinkedIn snippet); previously SEO Lead at Reedsy",
+      "why": "The current in-house SEO lead by title; the new SEO Manager may report to him (inferred, not stated). Good second contact or cc, but a peer-level SEO hire could also be seen as his own backfill/team, so leading with the VP is safer.",
+      "sources": [
+        "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+Synthesia+%22SEO%22 (Google results snippet via Bright Data, 2026-11-25; profile not opened)"
+      ]
+    },
+    {
+      "name": "Anna Uss",
+      "title": "SEO Manager (in-house, technical SEO background), Synthesia, London - per search snippet only",
+      "why": "Existing SEO team member; not a recipient, but signals the SEO team already has more than one person.",
+      "sources": [
+        "https://www.linkedin.com/in/anna-uss/ (search-result snippet only; not opened)"
+      ]
+    },
+    {
+      "name": "George Fakorellis",
+      "title": "Senior Growth Manager, Synthesia (headline 'AI Growth Vibes | SEO/AEO Enjoyer') - per search snippet only",
+      "why": "Growth/AEO-focused peer in marketing; not the hiring manager.",
+      "sources": [
+        "https://gr.linkedin.com/in/george-fakorellis (search-result snippet only; not opened)"
+      ]
+    }
+  ],
+  "linkedin_company_check": {
+    "url": "https://www.linkedin.com/company/synthesia-technologies/",
+    "fetched_via": "Bright Data Web Unlocker (zone content_crawler), 2026-11-25",
+    "followers": 176333,
+    "company_size_band": "501-1,000 employees",
+    "employees_on_linkedin": 938,
+    "headquarters": "London, England",
+    "industry": "Software Development",
+    "founded": 2017,
+    "website": "https://synthesia.io",
+    "marketing_team_context": "Ashby board (2026-11-25) shows 8 open Marketing-side roles: SEO Manager, 2x Principal Product Marketing Manager, Marketing General Application, Senior Lifecycle Manager, Senior Frontend Engineer (Marketing Website), Lead Brand Designer (Experiential), Senior Brand Designer (Web). Brand design roles report to a 'Director of Brand Design' (team of seven). A Product Analytics posting mentions a 'VP of Growth' who will set that function's direction (being hired or new; name unknown). Not a small company, so per the campaign rule the recipient is the marketing leader, not the CEO.",
+    "note": "https://www.linkedin.com/company/synthesia/ is a different company (an Italian media producer in Rome, 2-10 employees); don't use that slug."
+  },
+  "notes": "No one has been contacted and no email sent. Reporting line for the SEO Manager is NOT stated anywhere public; Borys Khodan is chosen as the senior owner of SEO + website (first-party job board + LinkedIn snippet), and Steven Jankowski (Senior SEO Manager) is a plausible direct line manager (inferred). The posting's first-published date on Ashby is 2026-06-10, not 2026-11-09, so the role has been open for about 5.5 months; worth noting in the email framing (it is not a brand-new opening). A third-party company-profile site once named Jakob Marovt as VP of Marketing (https://www.boringbusinessnerd.com/startups/synthesia, per search summary; likely stale) - not used. The Marketing General Application explicitly invites candidates to message Borys on LinkedIn, which supports him as the right recipient for a 'consider me for the role' email."
+}

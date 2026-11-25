@@ -1,0 +1,138 @@
+{
+ "company": "Synthesia",
+ "domain": "synthesia.io",
+ "slug": "synthesia",
+ "track": "seo_job",
+ "job": {
+  "title": "SEO Manager",
+  "url": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590",
+  "posted_per_campaign": "2026-11-09",
+  "first_published_per_ashby": "2026-06-10",
+  "note": "Ashby's API dates the posting to 2026-06-10; the 2026-11-09 date is likely a LinkedIn repost (unconfirmed). The opener doesn't depend on the role being new."
+ },
+ "situation": "category_leader",
+ "situation_note": "Series E $200M at $4B (Jan 2026); leader in AI training video, new entrant in roleplay (Jul 2026), real-time avatar API (Jul 2026 GA) and Survey Sessions (Oct 2026).",
+ "need": "find_the_cracks",
+ "need_note": "Mixed: #1 in training video and exec comms, near-absent in roleplay and AI interviews, head-to-heads lost on wrong plan facts. The blog audit ran (223 posts) and supplies the second bullet's blog line; 'make the content count' is the secondary need.",
+ "finding_pattern": "losing_to_named_competitors",
+ "angle": "AI knows Synthesia's core, not its newer products: first for training video, near-absent for roleplay and AI interviews, and losing head-to-heads on wrong plan facts that partly come from Synthesia's own older pages.",
+ "lead_claims": [
+  {
+   "claim_id": "C-148",
+   "figure": "#1 by share of voice (26.9%) in unprompted AI training video answers"
+  },
+  {
+   "claim_id": "C-018",
+   "figure": "11.2% of unprompted roleplay answers name Synthesia (9 of 80)"
+  },
+  {
+   "claim_id": "C-027",
+   "figure": "5.4% of unprompted AI-interview answers name Synthesia (5 of 92)"
+  },
+  {
+   "claim_id": "C-126",
+   "figure": "18.2% comparative win rate (8 of 44); 11 of 22 losses rest on a false or outdated fact"
+  },
+  {
+   "claim_id": "C-203",
+   "figure": "stale own pages: docs and a blog post say SCORM is Enterprise-only, help center says Team is 1-5 members and Interactive Avatars beta"
+  }
+ ],
+ "blog_figures": {
+  "source": "blog_ia_audit.json (approved round 3), blog_cluster_completeness.json, link_graph.json",
+  "posts": 223,
+  "company_maturity": 38,
+  "training_video_core_completeness_pct": 60,
+  "ai_moderated_research_posts": 0,
+  "employee_listening_posts": 0,
+  "note": "Only the Sessions launch post mentions Survey; email wording says 'none is about AI interviews beyond the Sessions launch'."
+ },
+ "plan_figures": {
+  "source": "content_plan.json (approved round 2)",
+  "pages": 143,
+  "clusters": 12,
+  "first_builds": [
+   "TVP-12 Synthesia vs HeyGen",
+   "LMS-07 Synthesia vs Colossyan"
+  ]
+ },
+ "opener": {
+  "line": "I saw Synthesia is hiring an SEO Manager, and before applying I wanted to show you how I'd start.",
+  "type": "seo_job_post",
+  "source_url": "https://jobs.ashbyhq.com/synthesia/9dca0702-4f87-4b20-942f-369695629590"
+ },
+ "contacts": {
+  "name": "Borys Khodan",
+  "title": "VP of Marketing, Synthesia",
+  "why_this_person": "Synthesia's own Marketing General Application posting (same Ashby board, published 2026-08-25) names him as 'Borys Khodan, VP of Marketing' and lists SEO ('Win traditional and AI search. Ship the best content and world-class landing pages.') as one of the areas in his function. His LinkedIn headline, seen only as a Google results snippet, reads 'VP of Marketing \u00b7 Synthesia. Own and lead Synthesia's inbound performance marketing efforts across Paid Ads, SEO, and Website. Website: - Own website strategy, analytics, ...', which matches the SEO Manager role's remit (SEO + website/landing pages + CRO). INFERRED, not stated: that the SEO Manager reports to him directly. It may instead report to the existing Senior SEO Manager (see alternates), who would in turn report to him; either way he is the senior owner of SEO and the website and is the person who invites candidates to message him.",
+  "sources": [
+   "https://jobs.ashbyhq.com/synthesia/7b8a6552-4960-43f1-a15c-231be624ba1a",
+   "https://api.ashbyhq.com/posting-api/job-board/synthesia",
+   "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+Synthesia+%22SEO%22 (Google results snippet for uk.linkedin.com/in/borkho, fetched via Bright Data 2026-11-25; profile page not opened)",
+   "https://www.tunedsocial.com/linkedin-ads-lab/e3-linkedin-ads-measurement-masterclass-with-borys-khodan-synthesia",
+   "https://rocketreach.co/borys-khodan-email_787025989 (aggregator; per search summary lists VP of Marketing from July 2026 after Director of Performance Marketing and Head of Paid Media at Synthesia; not opened, treat as unverified)"
+  ],
+  "background": "Previously Head of Paid Media at Synthesia (TunedSocial podcast write-up, 11 Sept 2024); came from Google. Paid-media background, so SEO/AI-search depth is plausibly something he hires for rather than does himself (inference).",
+  "linkedin_url_from_snippet": "https://uk.linkedin.com/in/borkho",
+  "verified": {
+   "name_title": true,
+   "name_title_basis": "Name and title stated on Synthesia's own job board (first-party) and consistent with the LinkedIn snippet and an older LinkedIn post snippet ('Borys Khodan . VP of Marketing @ Synthesia').",
+   "reports_to_relationship": false,
+   "email": false
+  }
+ },
+ "email_candidate": {
+  "address": "borys@synthesia.io",
+  "pattern": "first@synthesia.io (first name only)",
+  "pattern_source_url": "https://x.com/synthesiaIO/status/1279003212683653123",
+  "pattern_evidence": "The only real personal synthesia.io address found in public sources is victor@synthesia.io (CEO Victor Riparbelli), given in a reply from the official @synthesiaIO X account in 2020: 'can you email me on victor@synthesia.io?'. One data point, from 2020, from a founder, so the pattern is weak. Other published addresses are role inboxes only: press@ and sales@ (https://www.synthesia.io/press), support@, dpo@, gdpr.representative@ (https://www.synthesia.io/legal/privacy-policy), legal@ (https://www.synthesia.io/legal/content-integrity-policy).",
+  "fallback_address": "borys.khodan@synthesia.io",
+  "fallback_basis": "Third-party email-format sites (https://www.clay.com/dossier/synthesia-email-format, https://prospeo.io/c/synthesia-email-format) claim first.last@synthesia.io is the dominant pattern (per search summary; pages not opened, unofficial). This conflicts with the one first-party data point, so the sponsor should check both in Hunter.",
+  "verified": false,
+  "verification_owner": "sponsor (Hunter)"
+ },
+ "alternates": [
+  {
+   "name": "Steven Jankowski",
+   "title": "Senior SEO Manager, Synthesia (Oct 2024 - present, per LinkedIn snippet); previously SEO Lead at Reedsy",
+   "why": "The current in-house SEO lead by title; the new SEO Manager may report to him (inferred, not stated). Good second contact or cc, but a peer-level SEO hire could also be seen as his own backfill/team, so leading with the VP is safer.",
+   "sources": [
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+Synthesia+%22SEO%22 (Google results snippet via Bright Data, 2026-11-25; profile not opened)"
+   ]
+  },
+  {
+   "name": "Anna Uss",
+   "title": "SEO Manager (in-house, technical SEO background), Synthesia, London - per search snippet only",
+   "why": "Existing SEO team member; not a recipient, but signals the SEO team already has more than one person.",
+   "sources": [
+    "https://www.linkedin.com/in/anna-uss/ (search-result snippet only; not opened)"
+   ]
+  },
+  {
+   "name": "George Fakorellis",
+   "title": "Senior Growth Manager, Synthesia (headline 'AI Growth Vibes | SEO/AEO Enjoyer') - per search snippet only",
+   "why": "Growth/AEO-focused peer in marketing; not the hiring manager.",
+   "sources": [
+    "https://gr.linkedin.com/in/george-fakorellis (search-result snippet only; not opened)"
+   ]
+  }
+ ],
+ "images": {
+  "collage": "outreach/collage.jpg",
+  "findings": "outreach/findings.jpg",
+  "plan": "outreach/plan.jpg"
+ },
+ "artifacts": {
+  "action_plan": "https://claude.ai/artifact/UpZT17gtCwepQbyTfFvv6Q",
+  "report": "https://claude.ai/artifact/VU2dYY6RJ7RnkDe662L86k",
+  "scope": "https://claude.ai/artifact/TKid9iRHsJzef9Tg4fcBKo",
+  "story": "https://claude.ai/artifact/8yc27WNccfPe45GmUvoW8s"
+ },
+ "checks": {
+  "email_narrative_check": "clean",
+  "report_narrative_check": "clean",
+  "action_plan_narrative_check": "clean",
+  "live_checks": "output/synthesia/live_checks.json"
+ },
+ "rationale": "Borys Khodan is the VP of Marketing whom Synthesia's own marketing careers post names as the person to message, and his team covers SEO, so he is the likely manager for this role (reports-to is not stated in the post). The email leads with Synthesia's sharpest need: AI already treats it as the default for training video, but hasn't caught up with Roleplay, Survey Sessions or the real-time API, and it loses head-to-heads on plan facts that partly come from Synthesia's own older help and docs pages, which is exactly the on-page and content work an SEO Manager owns. The blog line ties the blog audit to AI visibility. Two caveats for the sponsor: verify borys@synthesia.io (fallback borys.khodan@) in Hunter, and note Ashby dates the post to June 2026, so the role may have been open for months."
+}
