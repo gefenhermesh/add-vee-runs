@@ -172,3 +172,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-25 21:42 UTC: tracker v2: per-role 'didn't apply' feedback (US only / Not for me). The daily scout runs tracker.py learn first: a 'US only' mark adds the company to seeker_feedback.json (skipped from then on).
 - 2026-11-25 21:44 UTC: tracker v3: reasons 'Salary too low' and 'Field not interesting' added; tracker.py learn keeps them as sponsor_marks in seeker_feedback.json, read by the daily check and the LinkedIn posts search.
 - 2026-11-25 21:48 UTC: tracker v4: reasons US only / Salary too low / Not available / Not for me ('Field not interesting' merged into Not for me).
+- 2026-11-25 21:53 UTC: sponsor: Jobgether blacklisted (seeker_feedback.json); its tracker row hidden as 'Blacklisted'.
