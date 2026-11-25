@@ -1,6 +1,6 @@
 {
-  "stage": "waiting_gate_1_2",
-  "ts": "2026-11-25T02:44:00Z",
-  "note": "Loop A approved (round 2, patch). Scope: https://claude.ai/artifact/4hTKyzFjZPBoAfQc3AiW8N Story: https://claude.ai/artifact/P982RtxGJFYy1ctRwNLME8",
+  "stage": "loop_b",
+  "ts": "2026-11-25T03:55:40Z",
+  "note": "Gate 1-2 approved by sponsor (gate_1_2_approval.json); starting Stage 3-4 collection",
   "branch": "campaign/gc-ai"
 }

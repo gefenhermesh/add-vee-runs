@@ -1,0 +1,6 @@
+{
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-25T04:12:04Z",
+  "note": "Loop A approved (round 2); Scope & Prompts https://claude.ai/artifact/XwLunhABoERaV1zcpusw1y ; story https://claude.ai/artifact/W7cyYtwxSVotYbe5JfgHTu ; waiting for gate_1_2_approval.json",
+  "branch": "campaign/reducto"
+}
