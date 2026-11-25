@@ -1267,7 +1267,7 @@
       "slug": "cognition",
       "company": "Cognition",
       "domain": "cognition.ai",
-      "status": "starting",
+      "status": "waiting_gate",
       "b2b": true,
       "reason": "Cognition (Devin; bought Windsurf, now 'Devin Desktop') raised $2B at $48B in Sept 2026 and is hiring two search roles: an SEO & AEO leader to build organic from scratch (SF) and a Search & AI Discoverability Lead (NYC). The category is new and contested (Cursor, Claude Code, Copilot, Codex), and the JDs ask for exactly the AI-answer visibility the audit measures.",
       "gating_rating": "seo_job_opening",
@@ -1321,13 +1321,15 @@
       "session_id": "session_01FkmvpPFuUSPGaj7S1NrWvu",
       "started_at": "2026-11-25T12:33:23+00:00",
       "nudges": 0,
-      "notified": {}
+      "notified": {
+        "gate": "2026-11-25T13:33:43+00:00"
+      }
     },
     {
       "slug": "payhawk",
       "company": "Payhawk",
       "domain": "payhawk.com",
-      "status": "queued",
+      "status": "starting",
       "b2b": true,
       "reason": "Payhawk (spend management, Bulgaria's first unicorn) raised a $280M Series C at $2B in Nov 2026 and is hiring an SEO Manager to own organic and AI-search visibility for product areas and regions. Contested category (Pleo, Spendesk, Ramp, Airwallex all write comparison pages; Ramp's 'Payhawk alternatives' ranks), and the JD asks for AI-answer citation tracking.",
       "gating_rating": "seo_job_opening",
@@ -1369,7 +1371,11 @@
         "by": "sponsor",
         "words": "release paddle, synthesia, payhawk",
         "at": "2026-11-24T17:22:48+00:00"
-      }
+      },
+      "session_id": "session_01FkmvpPHF6Tkcvz3ntQ9ghV",
+      "started_at": "2026-11-25T13:33:43+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "profound",
@@ -1555,7 +1561,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-25T12:33:23+00:00",
+  "last_tick": "2026-11-25T13:33:43+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

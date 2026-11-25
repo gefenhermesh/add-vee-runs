@@ -1,0 +1,6 @@
+{
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-25T13:13:51Z",
+  "note": "Loop A approved (round 2, APPROVE_WITH_PATCH applied); Scope & Prompts published; waiting for sponsor Gate 1-2 decision",
+  "branch": "campaign/cognition"
+}
