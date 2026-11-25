@@ -14559,7 +14559,18 @@
   "class": null,
   "backlog": true,
   "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-24",
+  "open_check": {
+   "url": "https://remote.com/jobs/cresta-c1c31juj/growth-marketer-seo-aeo-and-experimentation-j14mk331",
+   "state": "open",
+   "post": "open",
+   "company_board": "greenhouse:cresta",
+   "matching_roles": [
+    "Growth Marketer, AEO and Experimentation"
+   ],
+   "careers_page_mentions_seo": false,
+   "checked": "2026-11-25T17:42:08+00:00"
+  }
  },
  "name:gr0": {
   "name": "Gr0",
@@ -14806,10 +14817,25 @@
     "fresh": false
    }
   ],
-  "class": null,
+  "class": "enterprise",
   "backlog": true,
   "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
-  "last_seen": "2026-11-24"
+  "last_seen": "2026-11-24",
+  "open_check": {
+   "url": "https://remote.com/jobs/keeper-security-c12mivly/senior-seo-geo-specialist-j1vqjxau",
+   "state": "open",
+   "post": "open",
+   "company_board": "greenhouse:keepersecurity",
+   "matching_roles": [
+    "Senior SEO/GEO Specialist",
+    "SEO & AI Search Specialist, EMEA",
+    "Web Developer, Technical SEO"
+   ],
+   "careers_page_mentions_seo": false,
+   "checked": "2026-11-25T17:42:10+00:00"
+  },
+  "why": "not a startup: ~750-810 staff, >$225M ARR, Insight/Summit growth equity (recon 2026-11-25). Senior SEO/GEO Specialist open; on the sponsor apply list instead",
+  "classified_at": "2026-11-25"
  },
  "name:dept-r": {
   "name": "Dept R",
