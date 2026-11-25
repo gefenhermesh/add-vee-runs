@@ -1,0 +1,6 @@
+{
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-25T11:32:40Z",
+  "note": "Loop A approved (round 3); Scope & Prompts https://claude.ai/artifact/TKid9iRHsJzef9Tg4fcBKo ; story https://claude.ai/artifact/8yc27WNccfPe45GmUvoW8s ; waiting for gate_1_2_approval.json",
+  "branch": "campaign/synthesia"
+}
