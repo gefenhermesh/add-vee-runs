@@ -57,7 +57,7 @@ QUERY = "search engine optimization"
 REGIONS = {"us": "United States", "europe": "Europe"}
 CLASSES = {"startup", "agency", "recruiter", "enterprise", "other", "unknown"}
 LATE_STAGES = {"ipo", "acquisition", "acquired", "private_equity", "public"}
-SEO_TITLE = re.compile(r"\b(seo|geo|aeo|search|organic)\b", re.I)
+SEO_TITLE = re.compile(r"(?<!non-)(?<!non )\b(seo|geo|aeo|search|organic)\b", re.I)  # not "(Non-search)"
 WF_SIZE = {"SIZE_1_10": "1-10", "SIZE_11_50": "11-50", "SIZE_51_200": "51-200", "SIZE_201_500": "201-500",
            "SIZE_501_1000": "501-1000", "SIZE_1001_5000": "1001-5000", "SIZE_5001_10000": "5001-10000"}
 
@@ -160,6 +160,12 @@ def parse_seojobs(page, max_age_days=3, now=None):
     return posts
 
 
+def remote_com_company(url):
+    """remote.com/jobs/<company-slug>-<id>/<job>: the hiring company's name from the slug (e.g. "cresta")."""
+    m = re.search(r"remote\.com/jobs/([a-z0-9-]+?)-c[a-z0-9]{6,}/", url or "")
+    return m.group(1).replace("-", " ").title() if m else None
+
+
 def parse_getro(page, max_age_days=10, now=None, board=None):
     """A VC portfolio job board on Getro (newest first). Drops companies past the startup stage (IPO, acquired, PE)."""
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', page, re.S)
@@ -175,8 +181,11 @@ def parse_getro(page, max_age_days=10, now=None, board=None):
             continue
         if (org.get("stage") or "") in LATE_STAGES:
             continue
-        posts.append({"job_id": f"getro-{j['id']}", "title": j["title"], "company": org.get("name", ""),
-                      "company_url": None, "company_key": "name:" + norm_name(org.get("name")),
+        name = org.get("name", "")
+        if name.strip().lower() == "remote":  # listings syndicated by remote.com carry its name: take the real one
+            name = remote_com_company(j.get("url")) or name
+        posts.append({"job_id": f"getro-{j['id']}", "title": j["title"], "company": name,
+                      "company_url": None, "company_key": "name:" + norm_name(name),
                       "location": ", ".join(j.get("locations") or []) or None, "posted": created.date().isoformat(),
                       "url": j.get("url"), "region": board or "getro", "stage": org.get("stage")})
     return posts
@@ -198,6 +207,23 @@ def parse_berlin(page, now=None):
     return posts
 
 
+def parse_telegram(page, now=None):
+    """The Israeli hi-tech marketing-jobs Telegram channel (t.me/s/hitechjobsmarketing, free): SEO-titled posts only.
+    It was a weekly long-list source; its SEO openings come here daily (sponsor, 2026-11-25), and the weekly scout
+    keeps the rest of the channel as company leads."""
+    import readers as R
+    posts = []
+    for lead in R.parse_telegram_jobs(page):
+        if not SEO_TITLE.search(lead.get("role") or ""):
+            continue
+        name = lead["company"]
+        posts.append({"job_id": "tg-" + norm_name(name) + "-" + re.sub(r"\W+", "-", lead["role"].lower()).strip("-"),
+                      "title": lead["role"], "company": name, "company_url": None,
+                      "company_key": "name:" + norm_name(name), "location": lead.get("location") or "Israel",
+                      "posted": lead.get("date"), "url": "https://t.me/s/hitechjobsmarketing", "region": "telegram_il"})
+    return posts
+
+
 def parse_linkedin(region):
     return lambda page, now=None: parse(page, region)
 
@@ -211,6 +237,7 @@ SOURCES = {
     "getro_general_catalyst": ("https://jobs.generalcatalyst.com/jobs?q=seo",
                                lambda pg, now=None: parse_getro(pg, now=now, board="general_catalyst")),
     "berlinstartupjobs": ("https://berlinstartupjobs.com/skill-areas/seo/", parse_berlin),
+    "telegram_il": ("https://t.me/s/hitechjobsmarketing", parse_telegram),
 }
 
 
@@ -315,7 +342,7 @@ def known_job_ids():
 
 
 DAILY = {"linkedin_us", "linkedin_europe"}   # LinkedIn's 24-hour search changes every day: always read
-MAX_INTERVAL_DAYS = 4                         # a quiet source is checked at least this often
+MAX_INTERVAL_DAYS = 1   # every source is read daily (sponsor, 2026-11-25: nothing between the chairs; all but seojobs are free)
 
 
 def due(prev, name, now):

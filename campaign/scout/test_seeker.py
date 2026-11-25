@@ -103,3 +103,21 @@ class FetchAndDigest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GrowthTitleTest(unittest.TestCase):
+    def test_growth_title_with_seo_core_is_kept(self):
+        d = "Own SEO strategy, technical SEO, AEO and GEO visibility, and organic growth. Fully remote, open to Latin America."
+        r = S.screen({"title": "Growth Marketing Manager", "company": "X", "region": "latam", "location": "Brazil"}, d)
+        self.assertEqual(r["lean"], "apply")
+        self.assertTrue(r["why"][0].startswith("growth/marketing title"))
+
+    def test_growth_title_without_seo_core_is_skipped(self):
+        r = S.screen({"title": "Growth Marketing Manager", "company": "X", "region": "latam", "location": "Brazil"},
+                          "Paid ads and lifecycle email. Some SEO.")
+        self.assertEqual(r["why"], ["not an SEO role"])
+
+    def test_non_search_title_is_not_seo(self):
+        r = S.screen({"title": "User Acquisition Manager (Non-search)", "company": "X", "region": "latam", "location": "Brazil"}, "")
+        self.assertEqual(r["why"], ["not an SEO role"])
+

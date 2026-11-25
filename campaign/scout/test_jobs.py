@@ -132,24 +132,30 @@ class CostTest(unittest.TestCase):
         self.assertEqual(len(self.paid), 1)
         self.assertIn("(unlocker)", cov[0])
 
-    def test_quiet_source_backs_off_and_resets(self):
+    def test_every_source_is_read_daily(self):
+        """Sponsor, 2026-11-25: no back-off; an unchanged source is still read the next day."""
         t = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)
         pg = (HERE / "fixtures" / "berlinstartupjobs_seo.html").read_text(errors="ignore")
         same = lambda u: pg
-        only = None
         jobs.SOURCES_SAVED = jobs.SOURCES
         jobs.SOURCES = {"berlinstartupjobs": jobs.SOURCES_SAVED["berlinstartupjobs"]}
         try:
-            jobs.run_sources(self.paid_fetch, t, only, direct=same)                       # day 0: read
-            cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=1), only, direct=same)  # unchanged -> 2 days
-            self.assertIn("next check in 2 days", cov[0])
-            cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=2), only, direct=same)
-            self.assertIn("skipped (free)", cov[0])
-            cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=3), only, direct=same)  # due again
-            self.assertIn("next check in 4 days", cov[0])
+            jobs.run_sources(self.paid_fetch, t, None, direct=same)
+            for day in (1, 2, 3):
+                cov, _ = jobs.run_sources(self.paid_fetch, t + dt.timedelta(days=day, minutes=-30), None, direct=same)
+                self.assertIn("next check in 1 days", cov[0])
             self.assertEqual(self.paid, [])
         finally:
             jobs.SOURCES = jobs.SOURCES_SAVED
+
+    def test_telegram_seo_titles_only(self):
+        page = ('<div class="tgme_widget_message_text js-message_text">🔹 Senior SEO &amp; GEO Specialist<br/>🏢 DealHub · 📍 Holon</div>'
+                '<time datetime="2026-11-16T10:00:00+00:00"></time>'
+                '<div class="tgme_widget_message_text js-message_text">🔹 User Acquisition Manager (Non-search)<br/>🏢 W · 📍 Tel Aviv</div>'
+                '<time datetime="2026-11-19T10:00:00+00:00"></time>')
+        got = jobs.parse_telegram(page)
+        self.assertEqual([p["title"] for p in got], ["Senior SEO & GEO Specialist"])
+        self.assertEqual(got[0]["region"], "telegram_il")
 
     def test_linkedin_window_widens_after_missed_day(self):
         t = dt.datetime(2026, 11, 20, 8, tzinfo=dt.timezone.utc)

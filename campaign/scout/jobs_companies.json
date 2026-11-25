@@ -13209,217 +13209,6 @@
   "why": "deep pass 2026-11-24: not a startup SEO-job fit (agency, recruiter, enterprise/PE-owned, non-SEO role, or junior/outside US-EU)",
   "classified_at": "2026-11-24"
  },
- "name:remote": {
-  "name": "Remote",
-  "company_url": null,
-  "first_seen": "2026-11-24",
-  "posts": [
-   {
-    "job_id": "getro-99437650",
-    "title": "Freelance SEO Content Writer: Language Learning and K12 Education",
-    "location": null,
-    "posted": "2026-11-10",
-    "url": "https://remote.com/jobs/mango-languages-c1cpqjfo/freelance-seo-content-writer-language-learning-and-k12-education-j1ybp6zp",
-    "region": "accel",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-99330446",
-    "title": "Growth Marketer, SEO/AEO and Experimentation",
-    "location": null,
-    "posted": "2026-11-08",
-    "url": "https://remote.com/jobs/cresta-c1c31juj/growth-marketer-seo-aeo-and-experimentation-j14mk331",
-    "region": "accel",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-98507781",
-    "title": "Director of SEO & AI Search (Remote - West Coast Only & Pacific Time Hours)",
-    "location": null,
-    "posted": "2026-10-30",
-    "url": "https://remote.com/jobs/gr0-c123i9s4/director-of-seo-ai-search-remote-west-coast-only-pacific-time-hours-j17ygwko",
-    "region": "accel",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-99280298",
-    "title": "Manager, Organic Social",
-    "location": null,
-    "posted": "2026-11-07",
-    "url": "https://remote.com/jobs/wpromote-c1c2g0vn/manager-organic-social-j18y5apq",
-    "region": "accel",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-97885776",
-    "title": "SEO Manager (Remote)",
-    "location": null,
-    "posted": "2026-10-23",
-    "url": "https://remote.com/jobs/silverback-strategies-c1u8isda/seo-manager-remote-j10nmnuv",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96842622",
-    "title": "SEO SPECIALIST (100% Remote outside of Canada)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/wishpond-technologies-c1y2sf9g/seo-specialist-100-remote-outside-of-canada-j1qkf7zp",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96840670",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1miltdw",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96840644",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1tk9lcy",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96840596",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j15s8b9q",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96840292",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1k8rua7",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96840280",
-    "title": "Growth Marketing Manager, SEO & Content",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/jobscan-c17jkkeo/growth-marketing-manager-seo-content-j1ita9h2",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96840164",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1t16mnx",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96839222",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1wuwtow",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96839225",
-    "title": "Senior SEO Strategist",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/elk-marketing-c1ggjstx/senior-seo-strategist-j1eal13b",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96838352",
-    "title": "SEO Strategist (Consultant)",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1l9d8y5",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96838180",
-    "title": "Technical SEO Specialist",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/olx-c1b2f5r0/technical-seo-specialist-j1x1bos9",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-96835502",
-    "title": "Senior SEO/GEO Specialist",
-    "location": null,
-    "posted": "2026-10-13",
-    "url": "https://remote.com/jobs/keeper-security-c12mivly/senior-seo-geo-specialist-j1vqjxau",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-99578286",
-    "title": "Account Lead - Retail Search",
-    "location": null,
-    "posted": "2026-11-11",
-    "url": "https://remote.com/jobs/dept-r-c1uoqm5c/account-lead-retail-search-j1kmsqgk",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-98132223",
-    "title": "Senior Director of Design, Search & Feeds",
-    "location": null,
-    "posted": "2026-10-27",
-    "url": "https://remote.com/jobs/reddit-c1ujjl13/senior-director-of-design-search-feeds-j1ojriwr",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-98132131",
-    "title": "Account Manager, Paid Search",
-    "location": null,
-    "posted": "2026-10-27",
-    "url": "https://remote.com/jobs/dept-r-c1uoqm5c/account-manager-paid-search-j1gp869p",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-97820427",
-    "title": "Senior Software Engineer - Grafana Search & Storage | US | Remote",
-    "location": null,
-    "posted": "2026-10-22",
-    "url": "https://remote.com/jobs/grafana-labs-c17v751x/senior-software-engineer-grafana-search-storage-us-remote-j1hav6dk",
-    "region": "general_catalyst",
-    "fresh": false
-   },
-   {
-    "job_id": "getro-97820293",
-    "title": "Senior Software Engineer - Grafana Search & Storage | Canada | Remote",
-    "location": null,
-    "posted": "2026-10-22",
-    "url": "https://remote.com/jobs/grafana-labs-c17v751x/senior-software-engineer-grafana-search-storage-canada-remote-j11bwtuv",
-    "region": "general_catalyst",
-    "fresh": false
-   }
-  ],
-  "class": "other",
-  "last_seen": "2026-11-24",
-  "backlog": true,
-  "stage": "series_c",
-  "why": "deep pass 2026-11-24: not a startup SEO-job fit (agency, recruiter, enterprise/PE-owned, non-SEO role, or junior/outside US-EU)",
-  "classified_at": "2026-11-24"
- },
  "name:headway": {
   "name": "Headway",
   "company_url": null,
@@ -14728,6 +14517,382 @@
   "last_seen": "2026-11-25",
   "offered": "2026-11-25",
   "why": "Fashion brand",
+  "classified_at": "2026-11-25"
+ },
+ "name:mango-languages": {
+  "name": "Mango Languages",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-99437650",
+    "title": "Freelance SEO Content Writer: Language Learning and K12 Education",
+    "location": null,
+    "posted": "2026-11-10",
+    "url": "https://remote.com/jobs/mango-languages-c1cpqjfo/freelance-seo-content-writer-language-learning-and-k12-education-j1ybp6zp",
+    "region": "accel",
+    "fresh": false
+   }
+  ],
+  "class": "other",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Mango Languages: language-learning (consumer/library); freelance content-writer role",
+  "classified_at": "2026-11-25"
+ },
+ "name:cresta": {
+  "name": "Cresta",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-99330446",
+    "title": "Growth Marketer, SEO/AEO and Experimentation",
+    "location": null,
+    "posted": "2026-11-08",
+    "url": "https://remote.com/jobs/cresta-c1c31juj/growth-marketer-seo-aeo-and-experimentation-j14mk331",
+    "region": "accel",
+    "fresh": false
+   }
+  ],
+  "class": null,
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24"
+ },
+ "name:gr0": {
+  "name": "Gr0",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-98507781",
+    "title": "Director of SEO & AI Search (Remote - West Coast Only & Pacific Time Hours)",
+    "location": null,
+    "posted": "2026-10-30",
+    "url": "https://remote.com/jobs/gr0-c123i9s4/director-of-seo-ai-search-remote-west-coast-only-pacific-time-hours-j17ygwko",
+    "region": "accel",
+    "fresh": false
+   }
+  ],
+  "class": "agency",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "gr0: SEO agency",
+  "classified_at": "2026-11-25"
+ },
+ "name:wpromote": {
+  "name": "Wpromote",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-99280298",
+    "title": "Manager, Organic Social",
+    "location": null,
+    "posted": "2026-11-07",
+    "url": "https://remote.com/jobs/wpromote-c1c2g0vn/manager-organic-social-j18y5apq",
+    "region": "accel",
+    "fresh": false
+   }
+  ],
+  "class": "agency",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Wpromote: digital agency; organic social role",
+  "classified_at": "2026-11-25"
+ },
+ "name:silverback-strategies": {
+  "name": "Silverback Strategies",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-97885776",
+    "title": "SEO Manager (Remote)",
+    "location": null,
+    "posted": "2026-10-23",
+    "url": "https://remote.com/jobs/silverback-strategies-c1u8isda/seo-manager-remote-j10nmnuv",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "agency",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Silverback Strategies: digital agency",
+  "classified_at": "2026-11-25"
+ },
+ "name:wishpond-technologies": {
+  "name": "Wishpond Technologies",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-96842622",
+    "title": "SEO SPECIALIST (100% Remote outside of Canada)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/wishpond-technologies-c1y2sf9g/seo-specialist-100-remote-outside-of-canada-j1qkf7zp",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "other",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Wishpond: TSXV-listed SMB marketing SaaS, not a VC-stage startup",
+  "classified_at": "2026-11-25"
+ },
+ "name:house-buyers-of-america": {
+  "name": "House Buyers Of America",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-96840670",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1miltdw",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-96840644",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1tk9lcy",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-96840596",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j15s8b9q",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-96840292",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1k8rua7",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-96840164",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1t16mnx",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-96839222",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1wuwtow",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-96838352",
+    "title": "SEO Strategist (Consultant)",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/house-buyers-of-america-c1bewyk3/seo-strategist-consultant-j1l9d8y5",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "other",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Home-buying business (local real estate)",
+  "classified_at": "2026-11-25"
+ },
+ "name:jobscan": {
+  "name": "Jobscan",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-96840280",
+    "title": "Growth Marketing Manager, SEO & Content",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/jobscan-c17jkkeo/growth-marketing-manager-seo-content-j1ita9h2",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "startup",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "not proposed: consumer (job-seeker resume tool; jobs route is B2B tech only). Growth Marketing Manager, SEO & Content",
+  "classified_at": "2026-11-25"
+ },
+ "name:elk-marketing": {
+  "name": "Elk Marketing",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-96839225",
+    "title": "Senior SEO Strategist",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/elk-marketing-c1ggjstx/senior-seo-strategist-j1eal13b",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "agency",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "ELK Marketing: agency",
+  "classified_at": "2026-11-25"
+ },
+ "name:olx": {
+  "name": "Olx",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-96838180",
+    "title": "Technical SEO Specialist",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/olx-c1b2f5r0/technical-seo-specialist-j1x1bos9",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "enterprise",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "OLX (Prosus): large marketplace",
+  "classified_at": "2026-11-25"
+ },
+ "name:keeper-security": {
+  "name": "Keeper Security",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-96835502",
+    "title": "Senior SEO/GEO Specialist",
+    "location": null,
+    "posted": "2026-10-13",
+    "url": "https://remote.com/jobs/keeper-security-c12mivly/senior-seo-geo-specialist-j1vqjxau",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": null,
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24"
+ },
+ "name:dept-r": {
+  "name": "Dept R",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-99578286",
+    "title": "Account Lead - Retail Search",
+    "location": null,
+    "posted": "2026-11-11",
+    "url": "https://remote.com/jobs/dept-r-c1uoqm5c/account-lead-retail-search-j1kmsqgk",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-98132131",
+    "title": "Account Manager, Paid Search",
+    "location": null,
+    "posted": "2026-10-27",
+    "url": "https://remote.com/jobs/dept-r-c1uoqm5c/account-manager-paid-search-j1gp869p",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "agency",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "DEPT: agency; paid search roles",
+  "classified_at": "2026-11-25"
+ },
+ "name:reddit": {
+  "name": "Reddit",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-98132223",
+    "title": "Senior Director of Design, Search & Feeds",
+    "location": null,
+    "posted": "2026-10-27",
+    "url": "https://remote.com/jobs/reddit-c1ujjl13/senior-director-of-design-search-feeds-j1ojriwr",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "enterprise",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Reddit: public company; design role",
+  "classified_at": "2026-11-25"
+ },
+ "name:grafana-labs": {
+  "name": "Grafana Labs",
+  "company_url": null,
+  "first_seen": "2026-11-24",
+  "posts": [
+   {
+    "job_id": "getro-97820427",
+    "title": "Senior Software Engineer - Grafana Search & Storage | US | Remote",
+    "location": null,
+    "posted": "2026-10-22",
+    "url": "https://remote.com/jobs/grafana-labs-c17v751x/senior-software-engineer-grafana-search-storage-us-remote-j1hav6dk",
+    "region": "general_catalyst",
+    "fresh": false
+   },
+   {
+    "job_id": "getro-97820293",
+    "title": "Senior Software Engineer - Grafana Search & Storage | Canada | Remote",
+    "location": null,
+    "posted": "2026-10-22",
+    "url": "https://remote.com/jobs/grafana-labs-c17v751x/senior-software-engineer-grafana-search-storage-canada-remote-j11bwtuv",
+    "region": "general_catalyst",
+    "fresh": false
+   }
+  ],
+  "class": "enterprise",
+  "backlog": true,
+  "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
+  "last_seen": "2026-11-24",
+  "why": "Grafana Labs: late-stage, ~1,500 staff; search-engineering role, not SEO",
   "classified_at": "2026-11-25"
  }
 }

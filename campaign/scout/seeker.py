@@ -67,7 +67,15 @@ STRONG_LATAM = re.compile(r"\b(latin america|latam|south america|central america
 ONSITE = re.compile(r"\b(in[- ]office|on[- ]?site|onsite|hybrid|in[- ]person|presencial|h[ií]brido)\b", re.I)
 JUNIOR = re.compile(r"\b(intern(ship)?|junior|jr\.?|entry[- ]level|trainee|assistant|graduate|practicante|pasante|"
                     r"est[aá]gi\w*|assistente|asistente|auxiliar|aprendiz)\b", re.I)
-SEO_ROLE = re.compile(r"\b(seo|geo|aeo|search|organic|b\u00fasqueda|busca org\u00e2nica)\b", re.I)  # the title must be an SEO role
+SEO_ROLE = re.compile(r"(?<!non-)(?<!non )\b(seo|geo|aeo|search|organic|b\u00fasqueda|busca org\u00e2nica)\b", re.I)  # an SEO title
+# Growth/marketing titles whose description is really SEO / GEO / AEO work count too (sponsor, 2026-11-25: worth applying
+# even a little outside his experience). Their description is read; SEO_TERMS must carry the post (SEO_CORE_MIN mentions).
+GROWTH_ROLE = re.compile(r"\b(growth|marketing|marketer|content|demand gen\w*|acquisition|inbound|discoverability|"
+                         r"visibility|digital|web(site)?|crecimiento|mercadeo|conte[uú]do|contenido)\b", re.I)
+SEO_TERMS = re.compile(r"\b(seo|aeo|geo|search engine optimi[sz]ation|generative engine optimi[sz]ation|"
+                       r"answer engine optimi[sz]ation|ai search|llm (search|visibility)|ai visibility|organic search|"
+                       r"organic (traffic|growth)|search console|keyword research|technical seo)\b", re.I)
+SEO_CORE_MIN = 3
 
 
 def get(url, timeout=40):
@@ -120,6 +128,15 @@ def feedback():
 
 
 def screen(post, desc):
+    r = _screen(post, desc)
+    if r["lean"] != "skip" and not SEO_ROLE.search(post.get("title", "")):
+        n = len(SEO_TERMS.findall(desc or ""))
+        r["why"] = [f"growth/marketing title; SEO/GEO/AEO is the core of the description ({n} mentions)"] + r["why"]
+        r["growth_title"] = True
+    return r
+
+
+def _screen(post, desc):
     """lean: apply / maybe / skip, with reasons and the quoted sentences behind them."""
     fb = feedback()
     for c in fb.get("not_eligible_companies", []):
@@ -133,7 +150,9 @@ def screen(post, desc):
     if JUNIOR.search(post.get("title", "")):
         return {"lean": "skip", "why": ["junior or intern role"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
-        return {"lean": "skip", "why": ["not an SEO role"], "quotes": []}
+        hits = SEO_TERMS.findall(desc or "")
+        if not (GROWTH_ROLE.search(post.get("title", "")) and len(hits) >= SEO_CORE_MIN):
+            return {"lean": "skip", "why": ["not an SEO role"], "quotes": []}
     onsite = sentences_with(ONSITE, text)
     if onsite and not re.search(r"\b(fully remote|100% remote|remote[- ]first)\b", text, re.I):
         return {"lean": "skip", "why": ["not fully remote (in-office, on-site or hybrid)"], "quotes": onsite}
@@ -221,7 +240,10 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
         coverage.append(f"seojobs: FAILED ({type(e).__name__}: {str(e)[:120]})")
     for i, p in enumerate(posts):
         desc = ""
-        relevant = SEO_ROLE.search(p["title"]) and not JUNIOR.search(p["title"]) and not ASIA.search(p.get("location", ""))
+        relevant = ((SEO_ROLE.search(p["title"]) or GROWTH_ROLE.search(p["title"])) and not JUNIOR.search(p["title"])
+                    and not ASIA.search(p.get("location", "")))
+        if p["region"] == "seojobs" and not SEO_ROLE.search(p["title"]):
+            relevant = False  # seojobs pages are paid: growth titles there aren't opened
         if p["region"] != "seojobs" and relevant and i < MAX_DETAILS:
             for attempt in range(3):  # LinkedIn rate-limits bursts; back off and retry
                 try:
@@ -264,6 +286,43 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
     return coverage, posts
 
 
+BOARD_REGIONS = {"wellfound", "accel", "general_catalyst", "berlinstartupjobs", "telegram_il"}
+BOARD_SEO = re.compile(r"(?<!non-)\b(seo|geo|aeo|ai search|organic (search|growth|traffic))\b", re.I)  # board titles: no
+# bare "search" (paid search, search engineers) or "organic social"
+OPEN_LOCATION = re.compile(rf"\b(remote|anywhere|worldwide|global|{LATAM})\b", re.I)
+
+
+def board_posts(day, seeker_posts):
+    """The startup boards read by jobs.py (SCOUT.md step 1) also feed his own list (sponsor, 2026-11-25): their posts
+    first seen on `day`, SEO or growth titles, not junior, not Asia, not an excluded company, and remote or with no
+    location stated. Titles only (those boards' pages aren't opened), so they're listed as "check the post"."""
+    seen_file = HERE / "jobs_seen.jsonl"
+    if not seen_file.exists():
+        return [], 0
+    excluded = [c["company"].lower() for c in feedback().get("not_eligible_companies", [])]
+    have = {role_key(p) for p in seeker_posts}
+    keep, left_out = [], 0
+    for line in seen_file.read_text().splitlines():
+        if not line.strip():
+            continue
+        p = json.loads(line)
+        if p.get("region") not in BOARD_REGIONS or not (p.get("seen_at") or "").startswith(day) or p.get("baseline"):
+            continue
+        title, loc = p.get("title", ""), p.get("location") or ""
+        if (not BOARD_SEO.search(title) or JUNIOR.search(title) or ASIA.search(loc)
+                or any(e in p.get("company", "").lower() for e in excluded) or role_key(p) in have
+                or (loc and not OPEN_LOCATION.search(loc))):
+            left_out += 1
+            continue
+        if p.get("company", "").strip().lower() in ("remote", ""):
+            p = {**p, "company": "a startup (name on the post)"}  # Getro lists remote.com-hosted jobs under "Remote"
+        if role_key(p) in have:
+            continue
+        have.add(role_key(p))
+        keep.append(p)
+    return keep, left_out
+
+
 def digest(day):
     """The daily message, from the session's verdicts in <day>.json (`final`: apply / maybe / skip, `note`)."""
     d = json.loads((OUT / f"{day}.json").read_text())
@@ -280,6 +339,15 @@ def digest(day):
                 note = p.get("note") or "; ".join(p["screen"]["why"])
                 lines.append(f"- {p['title']} at {p['company']} ({p['location'] or 'remote'}): {note}. Apply: {p['apply_url']}")
             lines.append("")
+    boards, board_skipped = board_posts(day, d["posts"])
+    if boards:
+        lines.append("From startup job boards (Wellfound, Accel and General Catalyst boards, Berlin Startup Jobs, "
+                     "Israeli marketing-jobs channel; new today, remote or location not stated; open the post to check):")
+        for p in boards:
+            lines.append(f"- {p['title']} at {p['company']} ({p.get('location') or 'location not stated'}). Post: {p['url']}")
+        lines.append("")
+    if board_skipped:
+        lines.append(f"Startup-board posts left out: {board_skipped} (not SEO, junior, Asia, or a stated non-remote location).")
     skipped = sum(1 for p in d["posts"] if (p.get("final") or p["screen"]["lean"]) == "skip")
     lines.append(f"Skipped {skipped} (not SEO, junior, Asia, local work authorization, or Europe-only). Sources: "
                  + "; ".join(d["coverage"]))
