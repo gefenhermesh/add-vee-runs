@@ -92,7 +92,7 @@ class FetchAndDigest(unittest.TestCase):
         S.time.sleep = lambda s: None
         cov, posts = S.fetch(now, fetcher=lambda u: page, detail_fetcher=lambda u: detail,
                              paid=lambda u: ("", "dry_run"))
-        self.assertTrue(any("seojobs: FAILED" in c for c in cov))
+        self.assertTrue(any("seojobs: not read" in c for c in cov))  # dropped 2026-11-25
         keys = [(p["title"], p["company"]) for p in posts]
         self.assertEqual(len(keys), len(set(keys)))
         cov2, posts2 = S.fetch(now, fetcher=lambda u: page, detail_fetcher=lambda u: detail, paid=lambda u: ("", "x"))

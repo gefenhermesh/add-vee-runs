@@ -40,6 +40,8 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
       "Accept-Language": "en-US,en;q=0.9"}
 QUERY = "search engine optimization"
 REGIONS = {"latam": "Latin America", "us": "United States", "europe": "Europe"}
+SEOJOBS = False   # sponsor, 2026-11-25: seojobs.com dropped from the daily run (paid pages; its posts reach LinkedIn,
+#                    where his own LinkedIn posts search finds them). Set True to read it again.
 MAX_DETAILS = 200          # 3 searches x 60 cards, before de-duplication
 
 LATAM = r"latin america|latam|south america|central america|costa rica|the americas|americas|north and south america"
@@ -219,7 +221,11 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
                 continue
             keyset.add(role_key(p))
             posts.append({**p, "region": region})
+    if not SEOJOBS:
+        coverage.append("seojobs: not read (sponsor, 2026-11-25: the LinkedIn posts search covers it)")
     try:  # seojobs.com refuses plain requests; it goes through the capped Web Unlocker
+        if not SEOJOBS:
+            raise StopIteration
         page, err = (paid or jobs.paid_fetch)("https://www.seojobs.com/jobs/")
         got = [] if err else jobs.parse_seojobs(page, max_age_days=1, now=now)
         coverage.append(f"seojobs: {len(got)} posts (last 24 h)" if not err else f"seojobs: FAILED ({err})")
@@ -236,6 +242,8 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
             if p["job_id"] not in known and role_key(p) not in keyset:
                 keyset.add(role_key(p))
                 posts.append({**p, "region": "seojobs"})
+    except StopIteration:
+        pass
     except Exception as e:
         coverage.append(f"seojobs: FAILED ({type(e).__name__}: {str(e)[:120]})")
     for i, p in enumerate(posts):
@@ -331,7 +339,7 @@ def digest(day):
         v = p.get("final") or p["screen"]["lean"]
         if v in rows:
             rows[v].append(p)
-    lines = [f"SEO jobs for you, {day} (remote, last 24 hours; LinkedIn LATAM, US and Europe, seojobs.com)", ""]
+    lines = [f"SEO jobs for you, {day} (remote, last 24 hours; LinkedIn LATAM, US and Europe)", ""]
     for v, head in (("apply", "Worth applying"), ("maybe", "Maybe: check the location terms")):
         if rows[v]:
             lines.append(f"{head}:")

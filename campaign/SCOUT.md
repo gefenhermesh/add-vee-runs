@@ -163,17 +163,17 @@ Startups hiring for SEO right now are the warmest prospects there are: the spons
 **Who covers what (sponsor, 2026-11-25: one owner per source, nothing between the chairs).**
 | What | Where it's read | Who reads it | Feeds |
 |---|---|---|---|
-| Job posts for the sponsor himself | LinkedIn remote LATAM / US / Europe, seojobs.com (step 0) | daily jobs scout | his job list |
+| Job posts for the sponsor himself | LinkedIn remote LATAM / US / Europe (step 0); seojobs.com dropped 2026-11-25, the LinkedIn posts search covers it | daily jobs scout | his job list |
 | Startup job boards: Wellfound, Accel and General Catalyst (Getro), Berlin Startup Jobs, the Israeli marketing-jobs Telegram channel (SEO titles) | step 1, **every day** | daily jobs scout | his job list **and** audit prospects |
 | LinkedIn US / Europe "search engine optimization" posts | step 1 | daily jobs scout | audit prospects |
-| LinkedIn feed posts ("hiring SEO AEO GEO remote") | his own computer (`LINKEDIN_POSTS.md`) | he runs it; this session shows it (step 7) | his list |
+| LinkedIn feed posts: "hiring SEO AEO GEO remote", then the same without "remote" for on-site startups | his own computer (`LINKEDIN_POSTS.md`) | he runs it; this session shows it (step 7) | his list; its startups → add-vee with priority |
 | Funding news, Next Play, list posters, CTech, investor portfolios, the Telegram channel's non-SEO roles (as "hiring marketing" leads) | weekly | weekly scout | audit prospects (general) |
 
 The weekly scout no longer looks for job posts. An open SEO role it happens to find during recon is handed to this route's rules (`track: "seo_job"`, below). Every job-post source is read here, daily.
 
 0. **Jobs for the sponsor himself (sponsor, 2026-11-24), first and short.** `python campaign/scout/seeker.py fetch`
    reads, for the last 24 hours, LinkedIn's remote "search engine optimization" posts listed for Latin America, the
-   United States and Europe (free), and seojobs.com (capped Web Unlocker; every relevant seojobs post is opened and read, because the site's
+   United States and Europe (free). **seojobs.com is no longer read** (sponsor, 2026-11-25: `seeker.SEOJOBS = False`; it cost about 20 paid pages a day and its posts show up in his LinkedIn posts search). Before that it was read with the capped Web Unlocker ( every relevant seojobs post is opened and read, because the site's
    Remote/In-Office labels come from a bot and can be wrong), keeps only posts never seen before, and
    screens each one with filters set ahead in the script: SEO roles only, no junior or intern roles, no Asia;
    **US and seojobs posts are worth applying to when they're remote and don't ask for US work authorization,
@@ -196,7 +196,7 @@ The weekly scout no longer looks for job posts. An open SEO role it happens to f
 1. **Fetch:** `python campaign/scout/jobs.py fetch`. Cost stays near zero by design: each page is read directly first (free); only a refused page goes through the Web Unlocker, capped at `unlocker_requests_per_week` in budget.json and logged in bd_usage.jsonl; **every source is read every day** (sponsor, 2026-11-25; they're free, seojobs is one paid page), and only changes are handled. Report the `paid_unlocker_requests_this_week` number in your one line to the manager. If a source was skipped because the cap was reached, say so in that line: the manager raises the cap by 10 (pre-approved by the sponsor) and the source is read again, since getting the newest posts matters more than the cap. **Page 1 of each source only, one cheap request each:**
    - **LinkedIn** public job search for "search engine optimization", last 24 hours, United States and Europe;
    - **Wellfound**'s SEO Specialist role page (startups only; SEO/GEO/AEO titles from the last 3 weeks, with company size);
-   - **SEOjobs.com**'s newest listings (last 3 days; mostly noise, the filter does the work);
+   - ~~SEOjobs.com~~: dropped 2026-11-25 (sponsor), see step 0;
    - **VC portfolio boards on Getro**: Accel and General Catalyst, searched for "seo" (every company is VC-backed and carries its stage; IPO, acquired and PE-owned companies are dropped automatically);
    - **Berlin Startup Jobs**' SEO skill page;
    - **the Israeli hi-tech marketing-jobs Telegram channel** (t.me/s/hitechjobsmarketing, free), SEO / GEO / AEO / organic titles only (moved here from the weekly scout, 2026-11-25).
@@ -217,5 +217,6 @@ The weekly scout no longer looks for job posts. An open SEO role it happens to f
 6. Commit and push, then send the manager **one line**: "Jobs (<catching_up|routine>, backlog left <n>): <posts> new posts, <fresh> fresh companies, <b> from the backlog, <startups> startups; proposed: a (role, posted <date>, open), b (...)". If no startup, say so; that's a normal day.
 
 7. **LinkedIn posts: remind, then show them here (sponsor, 2026-11-25).** The sponsor runs the LinkedIn posts search from the Claude desktop app on his computer (`campaign/scout/LINKEDIN_POSTS.md`) and wants the results shown **in this scout session**. After step 6, end your reply with the reminder: `LinkedIn posts: open the Claude desktop app → Code, folder add-vee-runs, and say "run the LinkedIn posts search"`. Then `send_later` (30 minutes) a check to yourself: `git pull`; when `campaign/scout/linkedin_posts/<today>.md` is on main, show it in full as your reply and send the manager one line "LinkedIn posts: <date>, N to apply, M maybe". Not there yet: check again every 30 minutes, until 6 hours after the reminder; then stop with "LinkedIn posts: not run today". A message from his desktop session saying the file is pushed counts as the signal too.
+   **Startups from the LinkedIn posts go to add-vee with priority (sponsor, 2026-11-25).** When the file lands, every startup in it, both a startup among the posts to apply to and every entry under `startups_not_remote` (the on-site startup roles from his second search), goes through steps 2-5 of this route like a fresh jobs company: classify, recon, check that the role is open (the post itself counts as the source; no board needed when the company has none), and `propose.py add` with `track: "seo_job"` (`priority: 1`). Then send the manager the one line with what you proposed. Non-startups stay on his list to apply to and are not proposed.
 
 **Backlog cleared (sponsor, 2026-11-24).** A one-off deep pass read the sources' older posts (about 30 days) and proposed every startup with an open SEO role. From now on the daily run deals with new posts only; the backlog step stays only for the occasional older post a source surfaces for the first time.

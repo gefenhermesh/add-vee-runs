@@ -232,7 +232,8 @@ SOURCES = {
     "linkedin_us": (search_url("us"), parse_linkedin("us")),
     "linkedin_europe": (search_url("europe"), parse_linkedin("europe")),
     "wellfound": ("https://wellfound.com/role/seo-specialist", parse_wellfound),
-    "seojobs": ("https://www.seojobs.com/jobs/", parse_seojobs),
+    # "seojobs": ("https://www.seojobs.com/jobs/", parse_seojobs),  # dropped 2026-11-25 (sponsor): paid, and its posts
+    #   reach LinkedIn, where the sponsor's own LinkedIn posts search finds them
     "getro_accel": ("https://jobs.accel.com/jobs?q=seo", lambda pg, now=None: parse_getro(pg, now=now, board="accel")),
     "getro_general_catalyst": ("https://jobs.generalcatalyst.com/jobs?q=seo",
                                lambda pg, now=None: parse_getro(pg, now=now, board="general_catalyst")),
