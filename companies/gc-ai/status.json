@@ -1,6 +1,6 @@
 {
-  "stage": "loop_b",
-  "ts": "2026-11-25T03:55:40Z",
-  "note": "Gate 1-2 approved by sponsor (gate_1_2_approval.json); starting Stage 3-4 collection",
+  "stage": "loop_c",
+  "ts": "2026-11-25T07:10:48Z",
+  "note": "Visibility Report published https://claude.ai/artifact/P4WMQJxAsUWX7NpSNxUr4W; crawler running",
   "branch": "campaign/gc-ai"
 }
