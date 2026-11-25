@@ -100,9 +100,10 @@ def rows_for(day, extra=None):
 def learn(docs_dir):
     """His "didn't apply" marks in the tracker feed the screening (sponsor, 2026-11-25). A role marked "US only" puts
     its company on seeker_feedback.json's not_eligible_companies ("hires US only"), so later posts from it are skipped
-    by seeker.py and by the LinkedIn posts search. "Salary too low" and "Field not interesting" are kept as examples under `sponsor_marks` (role, company, terms):
-    the screening reads them as his taste (skip roles clearly in a field he marked, or paying no more than a salary he
-    called too low). "Not for me" is recorded in the tracker only. Returns what was added."""
+    by seeker.py and by the LinkedIn posts search. "Salary too low" and "Not for me" (which took over "Field not interesting", 2026-11-25) are kept as examples under
+    `sponsor_marks` (role, company, terms): the screening reads them as his taste (skip roles clearly like one he marked
+    not for him, or paying no more than a salary he called too low). "Not available" (the post was closed or gone when
+    he tried) changes no rule; it's counted in the scout's line. Returns what was added."""
     fb_path = seeker.FEEDBACK
     fb = json.loads(fb_path.read_text()) if fb_path.exists() else {"not_eligible_companies": []}
     have = {c["company"].lower() for c in fb.get("not_eligible_companies", [])}
@@ -111,13 +112,14 @@ def learn(docs_dir):
         d = json.loads(f.read_text())
         d = d.get("data", d)
         name = (d.get("company") or "").strip()
-        if d.get("skip_reason") in ("salary_low", "field_not_interesting"):
-            marks = fb.setdefault("sponsor_marks", {}).setdefault(d["skip_reason"], [])
+        reason = {"field_not_interesting": "not_for_me"}.get(d.get("skip_reason"), d.get("skip_reason"))  # merged 2026-11-25
+        if reason in ("salary_low", "not_for_me"):
+            marks = fb.setdefault("sponsor_marks", {}).setdefault(reason, [])
             entry = {"role": d.get("role"), "company": name, "terms": d.get("terms"), "note": d.get("note"),
                      "marked": d.get("skipped_at")}
             if entry not in marks:
                 marks.append(entry)
-                added.append(f"{name} ({d['skip_reason']})")
+                added.append(f"{name} ({reason})")
             continue
         if d.get("skip_reason") != "us_only" or not name or name.lower() in have:
             continue
@@ -143,7 +145,7 @@ def main(argv=None):
     lr.add_argument("docs_dir", help="out_dir of an ArtifactData list of the jobs collection")
     a = a.parse_args(argv)
     if a.cmd == "learn":
-        print(json.dumps({"added_to_not_eligible": learn(a.docs_dir)}))
+        print(json.dumps({"learned": learn(a.docs_dir)}))
         return
     existing = set(Path(a.existing).read_text().split()) if a.existing else set()
     extra = json.loads(Path(a.extra).read_text()) if a.extra else []

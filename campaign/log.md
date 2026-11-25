@@ -171,3 +171,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-25T21:26:51Z sponsor: hold the queue after Cognism until the weekly usage renews (2026-11-28 05:00 UTC); tick.py hold_new_work_until.
 - 2026-11-25 21:42 UTC: tracker v2: per-role 'didn't apply' feedback (US only / Not for me). The daily scout runs tracker.py learn first: a 'US only' mark adds the company to seeker_feedback.json (skipped from then on).
 - 2026-11-25 21:44 UTC: tracker v3: reasons 'Salary too low' and 'Field not interesting' added; tracker.py learn keeps them as sponsor_marks in seeker_feedback.json, read by the daily check and the LinkedIn posts search.
+- 2026-11-25 21:48 UTC: tracker v4: reasons US only / Salary too low / Not available / Not for me ('Field not interesting' merged into Not for me).
