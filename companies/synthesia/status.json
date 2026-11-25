@@ -1,6 +1,6 @@
 {
-  "stage": "loop_b",
-  "ts": "2026-11-25T15:26:23Z",
-  "note": "Stage 3-4 done (ChatGPT + Google AI Mode, 229 prompts each); analyst running",
+  "stage": "loop_c",
+  "ts": "2026-11-25T16:33:11Z",
+  "note": "Visibility Report published https://claude.ai/artifact/VU2dYY6RJ7RnkDe662L86k ; starting Loop C (crawler)",
   "branch": "campaign/synthesia"
 }
