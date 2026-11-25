@@ -1,13 +1,13 @@
 {
-  "scout_version": 2,
+  "scout_version": 4,
   "company": "DealHub",
   "domain": "dealhub.io",
   "slug": "dealhub",
-  "scouted": "2026-11-19",
-  "source_of_lead": "Telegram hitechjobsmarketing: 'Head of Brand & Narrative' (2026-11-03, Holon) and 'Senior SEO & GEO Specialist' (2026-11-16, Holon)",
-  "reason": "Not proposed for engagement: DealHub already has an SEO/GEO Lead and is hiring a Senior SEO & GEO Specialist under him, with a large programmatic SEO footprint (1,212 glossary URLs, alternatives pages). Only open door is the role track: the sponsor applying for the Senior SEO & GEO Specialist role.",
-  "gating_rating": "blocked_seo_team",
-  "gating_note": "CMO in place (Gideon Thomas). SEO/GEO is an owned function: the JD says the role reports 'directly to the SEO Lead, who sets strategy and priorities' and works with Content, PMM, Web Development and Growth teams; a Google LinkedIn snippet names an 'SEO/GEO Lead @ DealHub.ai'. Lead + senior specialist being added = an SEO team forming, with explicit GEO strategy (Profound/Peec AI named, Claude Skills). An external AI-visibility audit is exactly what this team owns. Role track (sponsor applies for the IC role) is the only plausible fit; sponsor's call.",
+  "scouted": "2026-11-25",
+  "source_of_lead": "Telegram hitechjobsmarketing: 'Senior SEO & GEO Specialist' (2026-11-16, Holon); weekly scout held it as blocked 2026-11-19; moved to the daily SEO-jobs route 2026-11-25 (an existing SEO lead is not a block there). Confirmed on DealHub's own Comeet board and dealhub.io/careers 2026-11-25.",
+  "reason": "Israel/US quote-to-revenue vendor (raised $100M led by Riverwood, Jan 2026; acquired Subskribe Nov 2025) has an open Senior SEO & GEO Specialist role in Holon (posted 2026-11-16, open 2026-11-25), to make DealHub visible in ChatGPT/Perplexity/Gemini/Claude. Role-track application, with the AI-search audit and 184-post blog read as the work sample.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Hiring the role itself (job route: not a block). An SEO team exists: the role reports 'directly to the SEO Lead, who sets strategy and priorities' (JD, read 2026-11-25), a Google snippet names an 'SEO/GEO Lead @ DealHub.ai' (2026-11-19), and the CMO (Gideon Thomas) runs a large marketing org. Heavy programmatic SEO already (1,212 glossary URLs, alternatives pages). The opening is a senior IC role, Holon on-site; native English required.",
   "marketing_leadership": {
     "status": "found",
     "who": [
@@ -69,24 +69,18 @@
     ]
   },
   "situation": {
-    "estimate": "DealHub is an established, Israel/Austin CPQ and quote-to-revenue vendor (Series B $20M Jun 2021, a further $60M in Jun 2022, about $107M total per press snippets) now repositioning as 'DealHub.ai', an 'Agentic Quote-to-Revenue platform'. November 2026 shows a marketing build-out under the CMO: Head of Brand & Narrative, Head of Integrated Marketing, PMM (GTM content), Field & Partner Marketing, and a Senior SEO & GEO Specialist. The new category language plus brand hire signals a narrative/rebrand push; organic and AI search are treated as an owned in-house discipline with an SEO Lead and dedicated tooling. Heading: bigger, more structured marketing org competing with Salesforce Revenue Cloud and CPQ alternatives for AI-era buyers.",
+    "estimate": "DealHub is an established, Israel/Austin CPQ and quote-to-revenue vendor (Series B $20M Jun 2021, $60M Jun 2022, then $100M led by Riverwood Capital in Jan 2026, about $184M total per snippets; acquired Subskribe Nov 2025) now repositioning as 'DealHub.ai', an 'Agentic Quote-to-Revenue platform'. November 2026 shows a marketing build-out under the CMO: Head of Brand & Narrative, Head of Integrated Marketing, PMM (GTM content), Field & Partner Marketing, and a Senior SEO & GEO Specialist. The new category language plus brand hire signals a narrative/rebrand push; organic and AI search are treated as an owned in-house discipline with an SEO Lead and dedicated tooling. Heading: bigger, more structured marketing org competing with Salesforce Revenue Cloud and CPQ alternatives for AI-era buyers. Growing: ~30 open roles on the careers page (2026-11-19).",
     "confidence": "medium"
   },
   "trigger": {
-    "type": "job_post",
-    "detail": "Senior SEO & GEO Specialist (reports to SEO Lead) and Head of Brand & Narrative, both Holon, posted on Telegram hitechjobsmarketing; roles live on dealhub.io/careers and Comeet",
+    "type": "seo_job_post",
+    "detail": "Senior SEO & GEO Specialist, Holon, reports to the SEO Lead; on Comeet and dealhub.io/careers; also funding Jan 2026 ($100M, Riverwood) and Subskribe acquisition Nov 2025",
     "date": "2026-11-16",
-    "source": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/"
+    "source": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572"
   },
   "fit_evidence": [
     {
       "claim": "Hiring Senior SEO & GEO Specialist explicitly to drive visibility in ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews / AI Mode",
-      "kind": "direct",
-      "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
-      "date": "accessed 2026-11-19"
-    },
-    {
-      "claim": "Role reports to an existing SEO Lead (blocker for an engagement)",
       "kind": "direct",
       "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
       "date": "accessed 2026-11-19"
@@ -102,6 +96,30 @@
       "kind": "inferred",
       "url": "https://techcrunch.com/2021/06/02/dealhub-raises-20m-series-b-for-its-sales-platform/ ; https://www.builtinaustin.com/austin-tech-news-062022",
       "date": "2021-06-02 / 2022-06-20 (read as Google snippets only)"
+    },
+    {
+      "claim": "Role still listed on DealHub's careers page (Marketing, Holon) and Comeet; JD text unchanged since 2026-11-19; jobs.py check-open state 'open'",
+      "kind": "direct",
+      "url": "https://dealhub.io/careers/",
+      "date": "accessed 2026-11-25"
+    },
+    {
+      "claim": "$100M round led by Riverwood Capital announced 2026-01-20 (Axios; reported valuation >$500M unconfirmed)",
+      "kind": "inferred",
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/01/20/dealhub-100-million-ai-sales-smarter",
+      "date": "2026-01-20 (search snippet, not opened)"
+    },
+    {
+      "claim": "Acquired Subskribe (subscription, usage metering, billing) 2025-11-19",
+      "kind": "inferred",
+      "url": "https://www.globenewswire.com/news-release/2025/11/19/3191189/0/en/DealHub-Acquires-Subskribe-Advancing-AI-Driven-Revenue-Intelligence-for-Modern-Enterprises.html",
+      "date": "2025-11-19 (search snippet, not opened)"
+    },
+    {
+      "claim": "Buying journey: committee (CRO/CFO/RevOps/CIO evaluate CPQ; their own 'Top 7 CIO Priorities for Every CPQ Evaluation' guide)",
+      "kind": "direct",
+      "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+      "date": "accessed 2026-11-25 (site nav)"
     }
   ],
   "site_and_content": {
@@ -150,10 +168,10 @@
   "contacts": [
     {
       "name": "Asaf Bernstein",
-      "role": "SEO/GEO Lead (hiring manager for the Senior SEO & GEO role)",
+      "role": "SEO/GEO Lead (the role reports to him; hiring manager)",
       "email": null,
       "email_verified": false,
-      "source": "Google site:linkedin.com/in result title 'Asaf Bernstein - SEO/GEO Lead @ DealHub.ai' (accessed 2026-11-19), profile not opened",
+      "source": "Google site:linkedin.com/in result title 'Asaf Bernstein - SEO/GEO Lead @ DealHub.ai' (accessed 2026-11-19), profile not opened; JD 2026-11-25 confirms the role reports to the SEO Lead (unnamed in JD)",
       "recipient_rank": 1
     },
     {
@@ -174,27 +192,27 @@
     }
   ],
   "outreach_angle": {
-    "hook": "Role track only: DealHub's Senior SEO & GEO Specialist post (2026-11-16) asks for someone to make DealHub 'impossible to miss' in ChatGPT, Perplexity, Gemini and Claude, measured with AI-visibility tooling and built into Claude Skills; the sponsor's AI-search audit of DealHub would be the work sample attached to an application.",
-    "source": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+    "hook": "Role application: the JD asks for someone to make DealHub visible in ChatGPT, Perplexity, Gemini, Claude and AI Overviews and to build page-type templates into Claude Skills; attach how AI answers describe DealHub today (CPQ tool vs the new agentic quote-to-revenue story) and the blog read as 'how I'd start in the role'.",
+    "source": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
     "date": "2026-11-16"
   },
   "features": {
     "industry": "vertical_saas",
-    "stage": "series_b",
+    "stage": "series_c_plus",
     "situation": "established",
     "size_band": "201_1000",
     "geo": "israel_us",
-    "marketing_gating": "blocked_seo_team",
+    "marketing_gating": "sweet_spot",
     "trigger": "job_post",
     "finding_pattern": "unknown",
     "recipient_role": "content_seo",
-    "ask_track": "role",
+    "ask_track": "job_application",
     "opener_type": "their_words",
     "email_variant": "v4_two_images",
     "subject_style": "how_ai_sees_x",
     "send_slot": "sun_thu_morning_local",
     "contact_verified": "no",
-    "seo_need": "unassessed",
+    "seo_need": "high",
     "buying_journey": "committee"
   },
   "sources": [
@@ -281,6 +299,54 @@
       "date": "accessed 2026-11-19",
       "kind": "inferred",
       "result": "third-party DealHub alternatives / vs pages exist (quotewerks, getaccept, monetizenow, others); not opened"
+    },
+    {
+      "url": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
+      "date": "accessed 2026-11-25",
+      "kind": "direct",
+      "result": "200; jobs.py check-open: state open, post open, careers page mentions SEO (2026-11-25T17:43:13Z)"
+    },
+    {
+      "url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+      "date": "accessed 2026-11-25",
+      "kind": "direct",
+      "result": "200; JD unchanged: Holon, reports to SEO Lead, senior IC"
+    },
+    {
+      "url": "https://dealhub.io/careers/",
+      "date": "accessed 2026-11-25",
+      "kind": "direct",
+      "result": "lists Senior SEO & GEO Specialist, Holon, Marketing"
+    },
+    {
+      "url": "https://dealhub.io/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-25",
+      "kind": "direct",
+      "result": "184 posts, partly planned"
+    },
+    {
+      "url": "https://www.axios.com/pro/enterprise-software-deals/2026/01/20/dealhub-100-million-ai-sales-smarter",
+      "date": "2026-01-20",
+      "kind": "inferred",
+      "result": "WebSearch snippet: $100M led by Riverwood"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/11/19/3191189/0/en/DealHub-Acquires-Subskribe-Advancing-AI-Driven-Revenue-Intelligence-for-Modern-Enterprises.html",
+      "date": "2025-11-19",
+      "kind": "inferred",
+      "result": "WebSearch snippet: Subskribe acquisition"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20250212990954/en",
+      "date": "2025-02-12",
+      "kind": "inferred",
+      "result": "WebSearch snippet: press release naming Gideon Thomas CMO"
+    },
+    {
+      "url": "WebSearch: best CPQ software 2026; DealHub alternatives CPQ",
+      "date": "2026-11-25",
+      "kind": "inferred",
+      "result": "listicles and competitor alternatives pages; see seo_need.serp_checks"
     }
   ],
   "sources_tried_failed": [
@@ -298,16 +364,112 @@
     },
     {
       "url": "Wayback, AI-visibility probe",
-      "result": "not run: company blocked, not needed for the decision"
+      "result": "not run (free-sources-only job pass, 2026-11-25)"
     }
   ],
-  "linkedin_checks_for_sponsor": [
-    "Only if the sponsor considers the role track: DealHub company page -> People tab, search 'SEO' / 'content': how many people sit under the SEO/GEO Lead today?"
-  ],
+  "linkedin_checks_for_sponsor": [],
   "open_questions": [
-    "Size of the SEO team today beyond the Lead (team size not stated in JD).",
-    "Is the role Holon on-site only (Telegram says Holon) and would the sponsor want a senior IC role reporting to an SEO Lead?",
-    "Exact 2022 round label ($60M) not read at a primary source; only snippets."
+    "Is the SEO/GEO Lead's name current (snippet from 2026-11-19, profile not opened)?",
+    "Holon on-site: does the sponsor want an on-site senior IC role under an SEO Lead?",
+    "$100M round and valuation read as snippets only."
   ],
-  "b2b": true
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "Senior SEO & GEO Specialist",
+    "url": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
+    "careers_page_url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+    "source_url": "https://t.me/s/hitechjobsmarketing",
+    "posted": "2026-11-16",
+    "location": "Holon, Israel (per DealHub careers page and Comeet)",
+    "open_checked": "2026-11-25T17:43:13+00:00",
+    "seniority": "senior individual contributor (execution-focused; 5+ yrs hands-on SEO)",
+    "reports_to": "SEO Lead (sets strategy and priorities), under the CMO"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 184 posts under /blog/ (2015-07 to 2026-11-25)",
+      "1.6 in-body links to other posts on average, 33% of sampled posts link to none",
+      "66% of posts in the 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "5 hub-like posts",
+      "78 posts with lastmod in the last 12 months, median 1,430 words",
+      "15 of 20 sampled posts read (5 couldn't be read directly)"
+    ],
+    "tool": "blog_sample.py dealhub.io, 2026-11-25"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "CPQ / quote-to-revenue is a heavily researched B2B category: G2 lists 331 CPQ products, Capterra/Software Advice/Gartner Peer Insights categories, 'best CPQ software 2026' listicles (Zapier, G2 Learn) and many 'DealHub alternatives' pages. Committee purchase (RevOps, CRO, CFO, CIO) with long evaluations.",
+    "competitors": [
+      {
+        "name": "Salesforce (Revenue Cloud / Agentforce Revenue Management)",
+        "seo_investment": "very high; tops 2026 roundups (inferred from search snippets)",
+        "evidence_url": "https://zapier.com/blog/cpq-software-vendors/"
+      },
+      {
+        "name": "Conga CPQ",
+        "seo_investment": "high (inferred: listed across Gartner/Zapier/tray.ai alternatives; own blog not read)",
+        "evidence_url": "https://www.gartner.com/reviews/product/dealhub-cpq/alternatives"
+      },
+      {
+        "name": "PandaDoc",
+        "seo_investment": "high (inferred: G2 'best free' CPQ, ranks in DealHub alternatives lists)",
+        "evidence_url": "https://www.g2.com/products/pandadoc-cpq/reviews"
+      },
+      {
+        "name": "Proposify",
+        "seo_investment": "targets DealHub with a 'DealHub alternatives' page (search result, not opened)",
+        "evidence_url": "https://www.proposify.com/blog/dealhub-alternatives"
+      },
+      {
+        "name": "Everstage",
+        "seo_investment": "targets DealHub with 'DealHub CPQ Review 2026: Pricing, Features, And Best Alternatives' (search result, not opened)",
+        "evidence_url": "https://www.everstage.com/cpq/dealhub-cpq-review"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best CPQ software 2026 (WebSearch, not Google)",
+        "top_results": [
+          "G2 Learn Hub best CPQ software",
+          "Zapier CPQ software vendors",
+          "Software Advice CPQ",
+          "Capterra CPQ 2026",
+          "G2 CPQ category"
+        ],
+        "date": "2026-11-25"
+      },
+      {
+        "query": "DealHub alternatives CPQ (WebSearch, not Google)",
+        "top_results": [
+          "Gartner DealHub CPQ alternatives",
+          "G2 CPQ Software vs DealHub",
+          "ZoomInfo Best DealHub Alternatives 2026",
+          "SoftwareReviews DealHub alternatives",
+          "SelectHub",
+          "Capterra DealHub alternatives",
+          "tray.ai",
+          "Proposify",
+          "dealhub.io/alternatives/salesforce-cpq (own)",
+          "Everstage DealHub CPQ review"
+        ],
+        "date": "2026-11-25"
+      }
+    ],
+    "cost_of_absence": "The repositioning from CPQ to 'Agentic Quote-to-Revenue' (plus billing after the Subskribe deal) has to reach search and AI answers, while listicles and competitors' 'DealHub alternatives' pages define DealHub as one CPQ option among many. If AI answers keep it in the CPQ point-tool box, Salesforce/Conga frame the shortlist.",
+    "why_not_yet": "n/a: they already invest (in-house SEO Lead, programmatic glossary/alternatives); the open role is the capacity gap, specifically GEO execution.",
+    "evidence": [
+      "Comeet + dealhub.io JD 2026-11-25 (direct)",
+      "blog_sample 2026-11-25 (direct)",
+      "WebSearch results 2026-11-25 (search snippets)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "high",
+    "why": "High SEO need; a named hiring manager (SEO/GEO Lead, name from a search snippet only) and a CMO to write to; growing ($100M Jan 2026, acquisition, ~30 open roles); can pay. The application is for exactly this open role. Caveats: Holon on-site, native English required, and the SEO Lead may see an outside audit as his own turf, so frame it as 'how I'd start in the role'."
+  },
+  "brightdata_requests": 0,
+  "brightdata_note": "This job-route pass used 0 Bright Data requests; the 2026-11-19 weekly scout's Google site:linkedin searches did use Bright Data (count not recorded)."
 }
