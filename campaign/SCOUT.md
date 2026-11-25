@@ -175,6 +175,8 @@ Startups hiring for SEO right now are the warmest prospects there are: the spons
    button is on that page). Commit it with the rest of the run, and tell the manager "Seeker digest: <date>, N to
    apply, M maybe" in your report line.
 
+0b. **LinkedIn posts (sponsor, 2026-11-25): not in this session.** The feed search for "hiring SEO AEO GEO remote" needs his logged-in LinkedIn, so it runs on his computer (`campaign/scout/LINKEDIN_POSTS.md`); the manager reminds him after the job list.
+
 1. **Fetch:** `python campaign/scout/jobs.py fetch`. Cost stays near zero by design: each page is read directly first (free); only a refused page goes through the Web Unlocker, capped at `unlocker_requests_per_week` in budget.json and logged in bd_usage.jsonl; LinkedIn is read daily, a quiet source less often (up to every 4 days, back to daily when it changes), and only changes are handled. Report the `paid_unlocker_requests_this_week` number in your one line to the manager. If a source was skipped because the cap was reached, say so in that line: the manager raises the cap by 10 (pre-approved by the sponsor) and the source is read again, since getting the newest posts matters more than the cap. **Page 1 of each source only, one cheap request each:**
    - **LinkedIn** public job search for "search engine optimization", last 24 hours, United States and Europe;
    - **Wellfound**'s SEO Specialist role page (startups only; SEO/GEO/AEO titles from the last 3 weeks, with company size);
