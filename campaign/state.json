@@ -826,7 +826,7 @@
       "slug": "gc-ai",
       "company": "GC AI",
       "domain": "gc.ai",
-      "status": "starting",
+      "status": "waiting_gate",
       "b2b": true,
       "reason": "Legal-AI for in-house counsel (Series B $60M Nov 2025, ~2,100 customers, 'doubled ARR in six months') opened a senior Organic Growth Lead (SEO/GEO) to make GC AI 'the obvious answer when in-house counsel search for legal AI'. Heavily contested category (Harvey, Legora, LegalOn, Spellbook all publish); the role owns pillars, internal linking and GEO tracking, exactly what add-vee's audit and the 366-post blog audit show.",
       "gating_rating": "seo_job_opening",
@@ -872,13 +872,15 @@
       "session_id": "session_01FkmvpN4svAMCv1tNspPRko",
       "started_at": "2026-11-25T01:53:20+00:00",
       "nudges": 0,
-      "notified": {}
+      "notified": {
+        "gate": "2026-11-25T03:32:53+00:00"
+      }
     },
     {
       "slug": "reducto",
       "company": "Reducto",
       "domain": "reducto.ai",
-      "status": "queued",
+      "status": "starting",
       "b2b": true,
       "reason": "Document-AI infrastructure (a16z-led $75M Series B Oct 2025, $108M total, revenue '8x YoY') needs an SEO/GEO owner because 'developers and technical buyers increasingly discover products through ChatGPT, Claude, Google AI and coding agents'. Their 53-post blog looks unplanned (0.3 internal links/post, 70% link to none) while LlamaIndex and Firecrawl own the 'best document parsing API' results.",
       "gating_rating": "seo_job_opening",
@@ -920,7 +922,11 @@
         "by": "sponsor",
         "words": "release cognition, gc-ai, reducto",
         "at": "2026-11-24T17:31:24+00:00"
-      }
+      },
+      "session_id": "session_01FkmvpQkoogsuzE92Wxy3ge",
+      "started_at": "2026-11-25T03:32:53+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "pump-co",
@@ -1526,7 +1532,7 @@
     "campaign_resumed": "Bright Data payment resumed and campaign unpaused by the sponsor (2026-11-24, in the manager session session_01FkmvpLcuCN59ctDmE7xHax).",
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24)."
   },
-  "last_tick": "2026-11-25T01:53:20+00:00",
+  "last_tick": "2026-11-25T03:32:53+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

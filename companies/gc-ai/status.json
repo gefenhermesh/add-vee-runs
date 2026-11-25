@@ -1,6 +1,6 @@
 {
-  "stage": "loop_a",
-  "ts": "2026-11-25T01:53:44Z",
-  "note": "Starting Loop A: researcher on gc.ai (seo_job track)",
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-25T02:44:00Z",
+  "note": "Loop A approved (round 2, patch). Scope: https://claude.ai/artifact/4hTKyzFjZPBoAfQc3AiW8N Story: https://claude.ai/artifact/P982RtxGJFYy1ctRwNLME8",
   "branch": "campaign/gc-ai"
 }
