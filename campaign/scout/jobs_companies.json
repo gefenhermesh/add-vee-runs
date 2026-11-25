@@ -14556,7 +14556,7 @@
     "fresh": false
    }
   ],
-  "class": null,
+  "class": "startup",
   "backlog": true,
   "note": "split from the old 'Remote' entry (Getro/remote.com naming bug, fixed 2026-11-25)",
   "last_seen": "2026-11-24",
@@ -14570,7 +14570,9 @@
    ],
    "careers_page_mentions_seo": false,
    "checked": "2026-11-25T17:42:08+00:00"
-  }
+  },
+  "why": "not proposed: being acquired by Salesforce (definitive agreement 2026-11-02) and ~640-760 staff. Growth Marketer, AEO and Experimentation is open (70-80% organic/AI visibility); on the sponsor's apply list",
+  "classified_at": "2026-11-25"
  },
  "name:gr0": {
   "name": "Gr0",

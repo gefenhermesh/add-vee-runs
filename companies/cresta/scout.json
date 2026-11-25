@@ -1,0 +1,172 @@
+{
+  "scout_version": 4,
+  "company": "Cresta",
+  "domain": "cresta.com",
+  "slug": "cresta",
+  "scouted": "2026-11-25",
+  "b2b": true,
+  "track": "seo_job",
+  "proposed": null,
+  "not_proposed_reason": "Not a startup under SCOUT.md 'Who fits': Salesforce signed a definitive agreement to acquire Cresta (announced 2026-11-02, close expected Q1 FY2028), so it counts as an acquired company, which is excluded by definition. Headcount is also about 640-760 (aggregators, Mar-Jul 2026), above the ~500 startup ceiling. The role itself does qualify as an SEO opening.",
+  "job": {
+    "title": "Growth Marketer, AEO and Experimentation",
+    "url": "https://job-boards.greenhouse.io/cresta/jobs/5466418008",
+    "linkedin_url": null,
+    "source_url": "https://remote.com/jobs/cresta-c1c31juj/growth-marketer-seo-aeo-and-experimentation-j14mk331",
+    "posted": "2026-11-06",
+    "posted_note": "Greenhouse first_published 2026-11-06 (updated 2026-11-24); Getro/remote.com syndication dated 2026-11-08",
+    "location": "United States (Remote)",
+    "open_checked": "2026-11-25T17:43:19+00:00",
+    "seniority": "mid-level IC (3-5 years required; base $100k-$165k + equity). Not junior, but below the sponsor's level (nine years)",
+    "reports_to": "Senior Manager, Growth Marketing (per the Greenhouse JD); one aggregator says 'Head of SEO', which contradicts the JD"
+  },
+  "jd_qualifies_as_seo_opening": {
+    "verdict": "yes",
+    "why": "The JD says 'Roughly 70 to 80 percent of your time goes to scaling organic search and AI visibility' and the role 'will own day-to-day execution of Cresta's Answer Engine Optimization (AEO) and SEO program': priority prompt list, technical SEO in Webflow, schema, off-site/review presence, AI citation share-of-voice reporting. The rest is growth experiments (Reddit/community, CRO).",
+    "kind": "direct",
+    "url": "https://boards-api.greenhouse.io/v1/boards/cresta/jobs?content=true",
+    "date": "2026-11-25"
+  },
+  "source_of_lead": "Daily SEO-jobs route: Getro/remote.com syndicated post (posted 2026-11-08); confirmed on Cresta's own Greenhouse board (greenhouse:cresta)",
+  "reason": "Do not propose: the role does qualify as an SEO/AEO opening (70-80% AEO/SEO per the JD), but Cresta is being acquired by Salesforce (definitive agreement 2026-11-02) and has about 640-760 employees, so it fails the startup test (acquired companies are excluded; above ~500 people).",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Open AEO/SEO role. Existing in-house organic effort: the role joins a Growth Marketing team under a Senior Manager, Growth Marketing, alongside a Content Marketing Manager / Growth Content Manager, using AirOps content workflows, Webflow, HubSpot, Ahrefs Brand Radar or Profound. A Marketing Engineer (AI Agents) is also being hired to 'ship the technical work behind our SEO and AEO programs'. On this route that's not a block. The blocker here is the acquisition, not the team.",
+  "startup_check": {
+    "verdict": "no",
+    "vc_backed": "yes: >$270M raised from a16z, Greylock, Sequoia (JD, direct); $125M Series D Nov 2024 (Yahoo Finance/PR, unverified as read via search snippet)",
+    "size": "about 618-763 employees in Mar-Jul 2026 (TipRanks 763 on 2026-07-27, Revelio 641 Mar 2026 / 738 Jun 2026, Caplight 727; a16z board tags 501-1,000). All aggregators: unverified. Contrary's 206 looks stale",
+    "acquisition": "Salesforce signed a definitive agreement to acquire Cresta, announced 2026-11-02, not closed, subject to regulatory approvals, expected close Q1 FY2028; terms undisclosed (The Information reported ~$2.7B, unverified)"
+  },
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Russell Banzon", "role": "Chief Marketing Officer (since April 2024; ex-VP Marketing Gong, ex-Global Head of Demand Gen Talkdesk)", "kind": "direct"},
+      {"name": "(not identified)", "role": "Senior Manager, Growth Marketing: the role's manager", "kind": "couldn't verify"}
+    ],
+    "evidence": [
+      "cresta.com press release 2024-04-17: Russell Banzon named CMO (direct)",
+      "CX Today 2026-07-02 interview with Cresta CMO Russel Banzon (direct)",
+      "Greenhouse JD 2026-11-25: reports to Senior Manager, Growth Marketing; results go to marketing leadership"
+    ]
+  },
+  "seo_team": {
+    "status": "found (small growth/organic team, no dedicated SEO head verified)",
+    "evidence": [
+      "JD: a 'small team that treats organic search and AI discovery as a core pipeline channel' with a Content Marketing Manager / Growth Content Manager",
+      "Growth Content Manager posting (aggregators: Teal, Built In) covers SEO, AEO and AI-scaled content",
+      "remote100k aggregator says the role reports to a Head of SEO: unverified, contradicts the JD"
+    ]
+  },
+  "situation": {
+    "estimate": "Stanford AI Lab spin-out (2017), contact-center AI (AI agents, real-time agent assist, conversation intelligence) for enterprises such as United Airlines, Marriott and Cox. Raised >$270M (a16z, Greylock, Sequoia); Series D $125M Nov 2024. ~640-760 employees and 79 open roles on Greenhouse. On 2026-11-02 Salesforce signed a definitive agreement to acquire it, to fold it into Service Cloud; close expected Q1 FY2028. Marketing will likely be integrated into Salesforce over the next year, so external SEO/AEO engagements are unlikely; the role is still open and hiring.",
+    "confidence": "high"
+  },
+  "trigger": {"type": "job_post", "detail": "Growth Marketer, AEO and Experimentation (70-80% AEO/SEO)", "date": "2026-11-06", "source": "https://job-boards.greenhouse.io/cresta/jobs/5466418008"},
+  "fit_evidence": [
+    {"claim": "B2B enterprise contact-center AI; customers United Airlines, Cox, Marriott", "kind": "direct", "url": "https://boards-api.greenhouse.io/v1/boards/cresta/jobs?content=true", "date": "2026-11-25"},
+    {"claim": "buying_journey committee: enterprise CX platform, custom pricing, no self-serve tier, buyers ask ChatGPT/Perplexity/Gemini which CX AI platforms to evaluate (JD's own words)", "kind": "direct", "url": "https://job-boards.greenhouse.io/cresta/jobs/5466418008", "date": "2026-11-25"},
+    {"claim": "Salesforce signed a definitive agreement to acquire Cresta (not closed)", "kind": "direct", "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/", "date": "2026-11-02"},
+    {"claim": "~640-760 employees in 2026", "kind": "unverified", "url": "https://www.tipranks.com/private-companies/cresta", "date": "2026-07-27"}
+  ],
+  "site_and_content": {
+    "sitemap": "1,568 URLs: 325 /blog/, 132 /guides/, 634 /es/ (Spanish), 88 press, 64 videos, 35 webinars, 30 ebooks, 20 reports (sitemap.xml, 2026-11-25)",
+    "comparison_pages": "Heavy programmatic-style buyer's-guide program in /guides/ (EN+ES): best-agent-assist-software, best-conversation-intelligence-platforms, best-contact-center-software, best-ai-voice-agents-for-enterprise, observe-ai-alternatives, kore-ai-alternatives, ada-alternatives, best-parloa-alternatives, best-verint-alternatives, bland-ai-alternatives, sierra-ai-competitors",
+    "cms_tools": "Webflow, HubSpot, AirOps; Ahrefs Brand Radar or Profound named in JD",
+    "note": "blog_sample's first_date_seen 2026-05-11 and 324 posts with lastmod in the last 12 months suggest sitemap lastmod reflects a recent re-publish/migration, not the posting dates"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 324 posts under /blog/",
+      "internal linking looks weak: 0.6 in-body links to other posts on average, 65% of sampled posts link to none",
+      "63% of posts in the 6 main topics",
+      "no blog taxonomy pages in the sitemap",
+      "1 hub-like post",
+      "median 1,162 words; sitemap lastmod dates 2026-05-11 to 2026-11-24 (likely re-published dates)"
+    ],
+    "tool": "blog_sample.py cresta.com, 2026-11-25"
+  },
+  "jobs": {
+    "board": "greenhouse:cresta, 79 open roles on 2026-11-25",
+    "related_marketing_roles": [
+      "Marketing Engineer (AI Agents): first marketing engineer, owns cresta.com on Webflow, ships technical SEO/AEO work",
+      "AI Growth Engineer; Growth Engineer",
+      "EMEA and Japan Marketing Managers; Event & Field Marketing; several Sr PMMs"
+    ]
+  },
+  "contacts": [
+    {"name": "Senior Manager, Growth Marketing (name not found)", "role": "Hiring manager for the AEO role", "email": null, "email_verified": false, "source": "Greenhouse JD 2026-11-25", "recipient_rank": 1},
+    {"name": "Russell Banzon", "role": "Chief Marketing Officer", "email": null, "email_verified": false, "source": "https://cresta.com/press/cresta-welcomes-russell-banzon-as-chief-marketing-officer (2024-04-17); CX Today 2026-07-02", "recipient_rank": 2}
+  ],
+  "outreach_angle": {
+    "hook": "JD: 'Enterprise buyers now ask ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews which Customer Experience AI platforms to evaluate... Your job is to make sure Cresta shows up in those answers, shows up accurately.' A post-acquisition angle (how AI answers describe Cresta vs Salesforce/Service Cloud) would be the only fit, if the sponsor applies anyway.",
+    "source": "https://job-boards.greenhouse.io/cresta/jobs/5466418008",
+    "date": "2026-11-06"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Contested, researched enterprise category: G2/Capterra/PeerSpot categories (conversation intelligence, agent assist, AI agents), many vendor and affiliate 'best X 2026' listicles, and the JD itself says buyers shortlist through AI answers before visiting vendor sites. Buying committee, custom pricing.",
+    "competitors": [
+      {"name": "Level AI", "seo_investment": "high: publishes 'top Cresta alternatives' page aimed at Cresta", "evidence_url": "https://thelevel.ai/blog/top-cresta-alterntiaves"},
+      {"name": "Retell AI", "seo_investment": "high: 'Cresta alternatives' page in EN/DE/IT", "evidence_url": "https://www.retellai.com/blog/cresta-alternatives"},
+      {"name": "Quiq", "seo_investment": "high: 'Cresta competitors' page", "evidence_url": "https://quiq.com/blog/cresta-competitors/"},
+      {"name": "NICE", "seo_investment": "high: agent-assist product/category pages rank for 'best AI agent assist software'", "evidence_url": "https://nice.com/ai-contact-center-platform/ai-agent-assist-software"},
+      {"name": "AmplifAI / JustCall", "seo_investment": "medium-high: Cresta alternatives pages", "evidence_url": "https://www.amplifai.com/blog/cresta-alternatives"}
+    ],
+    "serp_checks": [
+      {"query": "best conversation intelligence software contact center 2026 (WebSearch, not Google)", "top_results": ["HubSpot blog: 12 best conversation intelligence software 2026", "Capterra category", "cresta.com/guides/best-conversation-intelligence-platforms", "SourceForge", "Software Advice", "Genesys buyer's guide", "G2 category"], "date": "2026-11-25"},
+      {"query": "Cresta alternatives OR \"Cresta vs\" contact center AI (WebSearch)", "top_results": ["G2 Cresta alternatives", "CB Insights", "Retell AI: Cresta alternatives", "Capterra Cresta alternatives", "JustCall", "Quiq: Cresta competitors", "AmplifAI", "Level AI"], "date": "2026-11-25"},
+      {"query": "best AI agent assist software for contact centers (WebSearch)", "top_results": ["NICE agent assist", "Aircall top 5 contact center AI tools", "RingCentral", "Twilio: 8 top AI contact center platforms 2026", "AssemblyAI", "cresta.com/guides/best-agent-assist-software"], "date": "2026-11-25"}
+    ],
+    "cost_of_absence": "Competitors (Level AI, Retell, Quiq, AmplifAI) publish 'Cresta alternatives' pages that frame Cresta in AI answers, and the pending Salesforce deal will shift how answers describe Cresta (standalone vs Service Cloud). Cresta already treats this as a pipeline risk, hence the role.",
+    "why_not_yet": "Not applicable: they already invest heavily (132 guides incl. alternatives pages, AirOps workflows); this role scales an existing in-house program.",
+    "evidence": ["Greenhouse JD 2026-11-25 (direct)", "cresta.com sitemap 2026-11-25 (direct)", "WebSearch category queries 2026-11-25 (direct, WebSearch not Google)"]
+  },
+  "reply_odds": {
+    "rating": "low",
+    "why": "SEO need is high and there is a named CMO, but Cresta is mid-acquisition by Salesforce (signed 2026-11-02): budgets and marketing direction will move to Salesforce, an outside audit/engagement is unlikely to get attention, and the organic program is already owned in-house. The role is mid-level, US-remote, with an application route only."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "industry": "cx_ai",
+    "stage": "series_c_plus",
+    "situation": "exit_pending",
+    "size_band": "201_1000",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "unknown",
+    "recipient_role": "head_of_growth",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "sources": [
+    {"url": "https://boards-api.greenhouse.io/v1/boards/cresta/jobs?content=true", "date": "2026-11-25", "kind": "direct", "result": "79 jobs; full JD for Growth Marketer, AEO and Experimentation (id 5466418008, first published 2026-11-06) and Marketing Engineer (AI Agents)"},
+    {"url": "https://job-boards.greenhouse.io/cresta/jobs/5466418008", "date": "2026-11-25", "kind": "direct", "result": "jobs.py check-open: state open, company_board greenhouse:cresta, checked 2026-11-25T17:43:19Z"},
+    {"url": "https://remote.com/jobs/cresta-c1c31juj/growth-marketer-seo-aeo-and-experimentation-j14mk331", "date": "2026-11-08", "kind": "unverified", "result": "Getro/remote.com syndicated post (lead source, not opened)"},
+    {"url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-cresta/", "date": "2026-11-02", "kind": "direct", "result": "definitive agreement, not closed, expected close Q1 FY2028, terms undisclosed"},
+    {"url": "https://cresta.com/press/cresta-welcomes-russell-banzon-as-chief-marketing-officer", "date": "2024-04-17", "kind": "direct", "result": "Russell Banzon named CMO"},
+    {"url": "https://www.cxtoday.com/contact-center/cresta-cmo-ai-agents-unified-workforce/", "date": "2026-07-02", "kind": "direct", "result": "Interview with Cresta CMO Russel Banzon (still CMO)"},
+    {"url": "https://cresta.com/sitemap.xml", "date": "2026-11-25", "kind": "direct", "result": "1,568 URLs; 325 blog, 132 guides, 634 Spanish"},
+    {"url": "https://cresta.com/sitemap.xml (blog_sample.py)", "date": "2026-11-25", "kind": "direct", "result": "324 posts, partly planned, weak in-body linking"},
+    {"url": "https://www.tipranks.com/private-companies/cresta", "date": "2026-07-27", "kind": "unverified", "result": "763 employees (via WebSearch snippet)"},
+    {"url": "https://www.reveliolabs.com/companies/cresta-intelligence/employees/", "date": "2026-03", "kind": "unverified", "result": "~641 employees (via WebSearch snippet)"},
+    {"url": "https://finance.yahoo.com/news/cresta-closes-125m-series-d-140000987.html", "date": "2024-11-19", "kind": "unverified", "result": "$125M Series D (via WebSearch snippet)"},
+    {"url": "https://remote100k.com/remote-job/cresta-growth-marketer-seoaeo-and-experimentation", "date": "accessed 2026-11-25", "kind": "unverified", "result": "aggregator says reports to Head of SEO (conflicts with JD)"}
+  ],
+  "sources_tried_failed": [
+    "https://www.linkedin.com/company/cresta plain fetch: HTTP 403 (no Bright Data used, per brief)",
+    "WebSearch for the Senior Manager, Growth Marketing's name: not found (couldn't verify)"
+  ],
+  "linkedin_checks_for_sponsor": [],
+  "open_questions": [
+    "Who is the Senior Manager, Growth Marketing?",
+    "Does the sponsor want the role for himself anyway (mid-level, US remote, $100k-$165k), outside add-vee's proposal list?"
+  ]
+}

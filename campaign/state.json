@@ -1586,6 +1586,48 @@
         "reports_to": "Head of Growth (per JD); JD also says 'working directly with our CEO'"
       },
       "priority": 1
+    },
+    {
+      "slug": "dealhub",
+      "company": "DealHub",
+      "domain": "dealhub.io",
+      "status": "proposed",
+      "b2b": true,
+      "reason": "Israel/US quote-to-revenue vendor (raised $100M led by Riverwood, Jan 2026; acquired Subskribe Nov 2025) has an open Senior SEO & GEO Specialist role in Holon (posted 2026-11-16, open 2026-11-25), to make DealHub visible in ChatGPT/Perplexity/Gemini/Claude. Role-track application, with the AI-search audit and 184-post blog read as the work sample.",
+      "gating_rating": "seo_job_opening",
+      "features": {
+        "industry": "vertical_saas",
+        "stage": "series_c_plus",
+        "situation": "established",
+        "size_band": "201_1000",
+        "geo": "israel_us",
+        "marketing_gating": "sweet_spot",
+        "trigger": "job_post",
+        "finding_pattern": "unknown",
+        "recipient_role": "content_seo",
+        "ask_track": "job_application",
+        "opener_type": "their_words",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no",
+        "seo_need": "high",
+        "buying_journey": "committee"
+      },
+      "source": "scout",
+      "track": "seo_job",
+      "job": {
+        "title": "Senior SEO & GEO Specialist",
+        "url": "https://www.comeet.com/jobs/dealhub/86.005/senior-seo--geo-specialist/B4.572",
+        "careers_page_url": "https://dealhub.io/careers/B4.572/senior-seo-geo-specialist/",
+        "source_url": "https://t.me/s/hitechjobsmarketing",
+        "posted": "2026-11-16",
+        "location": "Holon, Israel (per DealHub careers page and Comeet)",
+        "open_checked": "2026-11-25T17:43:13+00:00",
+        "seniority": "senior individual contributor (execution-focused; 5+ yrs hands-on SEO)",
+        "reports_to": "SEO Lead (sets strategy and priorities), under the CMO"
+      },
+      "priority": 1
     }
   ],
   "rules": {
@@ -1708,12 +1750,12 @@
     },
     {
       "slug": "dealhub",
-      "status": "held_blocked",
-      "last_seen": "2026-11-19",
+      "status": "proposed",
+      "last_seen": "2026-11-25",
       "marketing_leader": "CMO Gideon Thomas",
       "funding": "no recent round found",
       "category_language": "Agentic Quote-to-Revenue (DealHub.ai rebrand)",
-      "note": "Blocked: SEO Lead in place (Senior SEO & GEO Specialist reports to the SEO Lead). Only a role-track opening; sponsor decides if that's of interest."
+      "note": "Proposed on the job route 2026-11-25: Senior SEO & GEO Specialist open (an SEO lead in place isn't a block there). Was held blocked by the weekly scout."
     },
     {
       "slug": "elpida",
