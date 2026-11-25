@@ -126,3 +126,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-25T05:51:20+00:00 approve reducto (sponsor wrote "Approve"; Reducto the only company at Gate 1-2): gate_1_2_approval.json pushed to campaign/reducto (061ed50); company session told.
 - 2026-11-25 06:35 UTC: daily mail check: Gambit email 1 (sent 11-24, already tracked) address corrected to morgancole@gambit.security as sent; no replies or bounces (Vega, Bay, Upwind, Gambit). No follow-ups due today (Vega and Bay due 11-26, Upwind 11-27).
 - 2026-11-25 06:52 UTC: daily jobs scout (routine, backlog 0): 55 new posts, 38 fresh companies, 2 startups (Inspira Education: consumer; Mindr: growth role, not SEO), 0 proposed. Seeker digest 2026-11-25: 27 apply, 2 maybe. Web Unlocker W48: 158/200 (first seeker run timed out and was rerun, repeating ~19 seojobs pages).
+- 2026-11-25 09:34 UTC: GC AI and Reducto stopped at ~08:23 UTC on the 5-hour usage limit (reset 09:30); both resumed by message.
