@@ -145,9 +145,9 @@ class UsTraditionalTest(unittest.TestCase):
         self.assertEqual(S.screen(self.p("Nordstrom", "New York, NY"), "Across all touchpoints, from our stores.")["lean"], "skip")
         self.assertEqual(S.screen(self.p("Acme Staffing"), "Remote.")["lean"], "skip")
 
-    def test_agency_is_a_maybe(self):
+    def test_agency_is_worth_trying(self):
         r = S.screen(self.p("Bright Owl", "Austin, TX"), "We are a digital agency helping B2B brands. Remote.")
-        self.assertEqual(r["lean"], "maybe")
+        self.assertEqual(r["lean"], "apply")  # worth trying even if the form asks (sponsor, 2026-11-25)
 
     def test_unknown_type_is_left_to_the_scout(self):
         r = S.screen(self.p("Zorblax", "Denver, CO"), "Remote role.")

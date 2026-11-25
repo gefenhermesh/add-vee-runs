@@ -229,7 +229,10 @@ def _screen(post, desc):
         # post says so (positive signs are handled above). Startups and agencies sometimes do: a maybe.
         kind = company_kind(post.get("company", ""), desc)
         if kind in ("startup", "agency"):
-            return {"lean": "maybe", "why": [f"US {kind}, nothing said about hiring abroad: ask before applying"], "quotes": []}
+            # sponsor, 2026-11-25 (Siana Marketing): agencies and startups may ask about US authorization in the form,
+            # but they might make an exception: worth applying.
+            return {"lean": "apply", "why": [f"US {kind}: the form may ask for US work authorization, but worth trying"],
+                    "quotes": []}
         if kind:
             return {"lean": "skip", "why": [f"US {kind}, not a startup or agency: rarely hires from abroad"],
                     "quotes": sentences_with(TRADITIONAL_US, text, n=1)}
