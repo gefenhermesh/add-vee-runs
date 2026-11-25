@@ -3,6 +3,7 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-25T15:33:12+00:00 mark synthesia running
 - 2026-11-25T14:33:41+00:00 mark payhawk waiting_gate
 - 2026-11-25T14:33:41+00:00 notify payhawk gate
 - 2026-11-25T14:33:41+00:00 release_gate synthesia

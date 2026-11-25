@@ -1163,7 +1163,7 @@
       "slug": "synthesia",
       "company": "Synthesia",
       "domain": "synthesia.io",
-      "status": "released",
+      "status": "running",
       "b2b": true,
       "reason": "Synthesia ($4B, Series E $200M Jan 2026, 90% of Fortune 100) is hiring a hands-on SEO Manager in London for landing pages, localization and AI search. A heavily contested category: HeyGen, Colossyan, PlayPlay and Vyond all publish 'Synthesia alternatives' pages that rank.",
       "gating_rating": "seo_job_opening",
@@ -1582,7 +1582,7 @@
     "no_ai_search_vendors": "No AI-search / GEO / AEO visibility vendors (Profound, Evertune and the like), on any route (sponsor, 2026-11-24).",
     "one_at_a_time": "One audit works at a time (sponsor, 2026-11-25: \"maybe we can create a que so one audit at a time\"). Gate 1-2 approvals are recorded as approved_waiting and released one by one (release_gate) when nothing else is working; a new Loop A starts only when nothing is working and nothing approved is waiting."
   },
-  "last_tick": "2026-11-25T14:33:41+00:00",
+  "last_tick": "2026-11-25T15:33:12+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",
