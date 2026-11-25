@@ -6,7 +6,9 @@ adds each day's roles worth applying to (SCOUT.md step 6b). It only ever CREATES
 tracker is never rewritten, so his ticks and "not for me" marks are never overwritten.
 
   python campaign/scout/tracker.py rows <date> [--existing ids.txt] [--extra file.json]
-      -> writes one JSON file per new role under campaign/scout/tracker/new/<date>/ and prints the ArtifactData
+  python campaign/scout/tracker.py learn <docs dir>   (an ArtifactData `list` of `jobs` saved with out_dir)
+      -> his "US only" marks put those companies on seeker_feedback.json, so they're skipped from then on
+      -> (rows) writes one JSON file per new role under campaign/scout/tracker/new/<date>/ and prints the ArtifactData
          `batch` writes (op "set", collection "jobs", file_path ...), in chunks of at most 50.
 
 Sources for <date>: seeker/<date>.json (LinkedIn Jobs: final/lean apply or maybe), the startup-board posts seeker.py
@@ -95,6 +97,31 @@ def rows_for(day, extra=None):
     return keep
 
 
+def learn(docs_dir):
+    """His "didn't apply" marks in the tracker feed the screening (sponsor, 2026-11-25). A role marked "US only" puts
+    its company on seeker_feedback.json's not_eligible_companies ("hires US only"), so later posts from it are skipped
+    by seeker.py and by the LinkedIn posts search. "Not for me" is recorded but changes no rule. Returns what was added."""
+    fb_path = seeker.FEEDBACK
+    fb = json.loads(fb_path.read_text()) if fb_path.exists() else {"not_eligible_companies": []}
+    have = {c["company"].lower() for c in fb.get("not_eligible_companies", [])}
+    added = []
+    for f in sorted(Path(docs_dir).rglob("*.json")):
+        d = json.loads(f.read_text())
+        d = d.get("data", d)
+        name = (d.get("company") or "").strip()
+        if d.get("skip_reason") != "us_only" or not name or name.lower() in have:
+            continue
+        if re.search(r"unnamed|confidential|a startup \(", name, re.I):
+            continue  # no real company name to block
+        fb.setdefault("not_eligible_companies", []).append(
+            {"company": name, "why": f"hires US only (sponsor's mark in the tracker, {d.get('skipped_at') or 'undated'}: "
+                                     f"{d.get('role') or 'role'})"})
+        have.add(name.lower())
+        added.append(name)
+    fb_path.write_text(json.dumps(fb, indent=2, ensure_ascii=False) + "\n")
+    return added
+
+
 def main(argv=None):
     a = argparse.ArgumentParser()
     sub = a.add_subparsers(dest="cmd", required=True)
@@ -102,7 +129,12 @@ def main(argv=None):
     r.add_argument("date")
     r.add_argument("--existing", help="file with the tracker's current doc ids, one per line")
     r.add_argument("--extra", help="JSON list of extra rows in the tracker's shape")
+    lr = sub.add_parser("learn")
+    lr.add_argument("docs_dir", help="out_dir of an ArtifactData list of the jobs collection")
     a = a.parse_args(argv)
+    if a.cmd == "learn":
+        print(json.dumps({"added_to_not_eligible": learn(a.docs_dir)}))
+        return
     existing = set(Path(a.existing).read_text().split()) if a.existing else set()
     extra = json.loads(Path(a.extra).read_text()) if a.extra else []
     rows = [x for x in rows_for(a.date, extra) if doc_id(x) not in existing]

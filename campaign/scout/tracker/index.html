@@ -45,7 +45,12 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
 .note { color: var(--muted) }
 .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; font-size: .9rem }
 .links a { color: var(--accent); font-weight: 500 }
-.hide { font: .8rem var(--font-body); background: none; border: none; color: var(--muted); cursor: pointer; padding: 2px 4px; text-decoration: underline }
+.hide { font: .8rem var(--font-body); background: none; border: none; color: var(--muted); cursor: pointer; padding: 2px 4px; text-decoration: underline; white-space: nowrap }
+.side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px }
+.fb { font: 500 .75rem var(--font-body); border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; padding: 3px 8px; cursor: pointer; white-space: nowrap }
+.fb:hover { border-color: var(--maybe); color: var(--maybe) }
+.fb:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.chip.why { background: var(--maybe-soft); color: var(--maybe) }
 .when { font: .75rem var(--font-mono); color: var(--done); margin-top: 6px }
 .empty { margin-top: 32px; padding: 24px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); text-align: center }
 @media (prefers-reduced-motion: no-preference) { .row { transition: opacity .2s } }
@@ -54,13 +59,13 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
 <div class="wrap">
   <header>
     <h1>SEO Job Applications</h1>
-    <p>Roles the daily scout found for you, newest first. Tick a role once you've applied; it's saved for you on every device.</p>
+    <p>Roles the daily scout found for you, newest first. Tick a role once you've applied. If you won't apply, mark why ("US only" or "Not for me"): the scout reads those marks and stops showing you roles like it.</p>
   </header>
   <div class="bar" role="toolbar" aria-label="Filter">
     <button class="tab" id="tab-todo" data-f="todo" aria-pressed="true">To apply<span class="n" id="n-todo">0</span></button>
     <button class="tab" id="tab-maybe" data-f="maybe" aria-pressed="false">Maybe<span class="n" id="n-maybe">0</span></button>
     <button class="tab" id="tab-applied" data-f="applied" aria-pressed="false">Applied<span class="n" id="n-applied">0</span></button>
-    <button class="tab" id="tab-hidden" data-f="hidden" aria-pressed="false">Not for me<span class="n" id="n-hidden">0</span></button>
+    <button class="tab" id="tab-hidden" data-f="hidden" aria-pressed="false">Didn't apply<span class="n" id="n-hidden">0</span></button>
     <input id="search" type="search" placeholder="Search role or company" aria-label="Search role or company">
   </div>
   <div class="status" id="status">Loading your list…</div>
@@ -71,6 +76,7 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
 (function () {
   const out = document.getElementById("out"), status = document.getElementById("status");
   let rows = [], filter = "todo", q = "", db = null, busy = new Set();
+  const REASONS = { us_only: "US only", not_for_me: "Not for me" };
   const SRC = { linkedin_jobs: "LinkedIn Jobs", linkedin_posts: "LinkedIn post", pick: "your pick", board: "startup board", other: "other" };
   try { const f = localStorage.getItem("jobs.filter"); if (f) filter = f; } catch (e) {}
 
@@ -112,6 +118,7 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
     const meta = el("div", "meta");
     meta.append(el("span", "chip" + (r.lean === "maybe" ? " maybe" : ""), r.lean === "maybe" ? "maybe" : "apply"));
     if (r.source) meta.append(el("span", "chip src", SRC[r.source] || r.source));
+    if (r.hidden && r.skip_reason) meta.append(el("span", "chip why", "Didn't apply: " + (REASONS[r.skip_reason] || r.skip_reason)));
     if (r.location) meta.append(el("span", null, r.location));
     body.append(meta);
     if (r.terms) body.append(el("p", "terms", r.terms));
@@ -124,10 +131,17 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
     });
     if (links.children.length) body.append(links);
     if (r.applied && r.applied_at) body.append(el("div", "when", "Applied " + r.applied_at));
-    const side = el("div");
-    if (!r.applied) {
-      const h = el("button", "hide", r.hidden ? "Restore" : "Not for me"); h.type = "button"; h.disabled = !db || busy.has(r.id);
-      h.addEventListener("click", () => save(r, { hidden: !r.hidden }));
+    const side = el("div", "side");
+    if (!r.applied && !r.hidden) {
+      [["us_only", "US only"], ["not_for_me", "Not for me"]].forEach(([code, label]) => {
+        const b = el("button", "fb", label); b.type = "button"; b.disabled = !db || busy.has(r.id);
+        b.title = "Mark as not applied: " + label;
+        b.addEventListener("click", () => save(r, { hidden: true, skip_reason: code, skipped_at: new Date().toISOString().slice(0, 10) }));
+        side.append(b);
+      });
+    } else if (r.hidden) {
+      const h = el("button", "hide", "Restore"); h.type = "button"; h.disabled = !db || busy.has(r.id);
+      h.addEventListener("click", () => save(r, { hidden: false, skip_reason: null, skipped_at: null }));
       side.append(h);
     }
     row.append(cb, body, side);
