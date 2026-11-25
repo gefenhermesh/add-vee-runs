@@ -1,0 +1,153 @@
+{
+  "scout_version": 4,
+  "company": "Effiqo AI",
+  "domain": "effiqo.ai",
+  "slug": "effiqo-ai",
+  "scouted": "2026-11-25",
+  "b2b": true,
+  "startup_status": "unclear: no funding found; site first archived Jan 2026; built on GoHighLevel/LeadConnector (SPF + page source); 82 LinkedIn followers; 10-shop founding pilot. Could be an early bootstrapped product company or a GHL white-label build sold like a SaaS (the 'agency/service shop' exclusion). Not shown to be venture-backed.",
+  "track": "seo_job",
+  "job": {
+    "title": "SEO Specialist",
+    "url": "https://effiqo.ai/careers",
+    "linkedin_url": "https://www.linkedin.com/posts/hiring-seojobs-seo-share-7531129674224193536-tzDl/",
+    "posted": "2026-11-24",
+    "location": "Remote, Pacific Time (PST) working hours; full-time; location of hire not restricted in the text",
+    "open_checked": "2026-11-25T17:43:07+00:00",
+    "seniority": "mid-level specialist (3+ years), but owns SEO and AI-search visibility end to end (strategy, execution, reporting)",
+    "reports_to": "not stated in the JD; inferred founder/CEO (a VP Marketing is named as manager of the Growth Manager opening but no one is identified)"
+  },
+  "source_of_lead": "Effiqo AI company LinkedIn post (2026-11-24) pointing to effiqo.ai/careers; no ATS board",
+  "reason": "Very early US vertical-AI front-office tool for service SMBs (HVAC, plumbing, roofing, med spas) hiring its first SEO owner for Google and AI answers, in a crowded, content-heavy category where it doesn't rank. B2B, but startup status is unproven (no funding found, GoHighLevel-built, 10-shop pilot): the sponsor should decide whether it fits.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "First SEO hire, no SEO team. Marketing leadership: careers page says the Growth Manager role 'Reports to: VP Marketing' but no VP Marketing is named anywhere; the same page hires a VP Sales who reports to the Founder & CEO and owns 'the transition from founder-led sales'. Too early for a marketing leader to be identified, so the CEO/founder is the recipient.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {"name": "Barbara Saunders", "role": "Founder & CEO (per self-published startups.com profile; pricing page offers 'a direct line to Barbara')", "kind": "unverified"},
+      {"name": "(not identified)", "role": "VP Marketing (named only as the Growth Manager role's manager; may be unfilled)", "kind": "couldn't verify"}
+    ],
+    "evidence": [
+      "effiqo.ai/careers 2026-11-25: Growth Manager 'Reports to: VP Marketing'; VP Sales 'Reports to: Founder & CEO'",
+      "effiqo.ai/pricing 2026-11-25: 'A direct line to Barbara to help shape the product'",
+      "WebSearch snippet 2026-11-25: startups.com/members/barbarasaunders 'Founder & CEO, Effiqo AI Corporation' (page itself returned 429)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": ["The JD makes the new hire the sole owner of SEO and AI-search visibility 'from start to finish'; Growth Manager JD: 'no big agency support, this person is the department'"]
+  },
+  "situation": {
+    "estimate": "Launched in 2026 (earliest Wayback snapshot 2026-01-18). Sells AI voice/text agents (ELISE, XAVIER, VERA) at $997-$1,297+/month to US trades and med spas, currently via a 10-shop founding pilot. Hiring a whole go-to-market org at once (VP Sales, AE, BDR, Growth Manager, CS, SEO) with a stated target of $100K MRR by month 6. No funding announcement found; an 'investor portal' login exists. Built on GoHighLevel. Ambitious but very early and thin on public facts.",
+    "confidence": "low"
+  },
+  "trigger": {"type": "seo_job_post", "detail": "SEO Specialist (SEO + GEO/AEO) posted on the company LinkedIn page and careers page", "date": "2026-11-24", "source": "https://www.linkedin.com/posts/hiring-seojobs-seo-share-7531129674224193536-tzDl/"},
+  "fit_evidence": [
+    {"claim": "Sells to US service businesses (HVAC, plumbing, roofing, auto repair, pest control, med spas): B2B SMB", "kind": "direct", "url": "https://effiqo.ai/about", "date": "accessed 2026-11-25"},
+    {"claim": "Pricing $997/month founding pilot (10 shops), plans by customer revenue band up to $5-15M: considered purchase with one or two deciders (the owner)", "kind": "direct", "url": "https://effiqo.ai/pricing", "date": "accessed 2026-11-25"},
+    {"claim": "Site runs on GoHighLevel/LeadConnector (SPF include:spf.leadconnectorhq.com; 219 leadconnector references in homepage HTML)", "kind": "direct", "url": "https://dns.google/resolve?name=effiqo.ai&type=TXT", "date": "2026-11-25"},
+    {"claim": "No funding round found in a WebSearch for the company and founder", "kind": "inferred", "url": "WebSearch 'Effiqo AI founder CEO'", "date": "2026-11-25"},
+    {"claim": "Buying journey 'considered': an owner-led SMB purchase researched on Google and in AI answers ('best AI receptionist for HVAC'), not a committee", "kind": "inferred", "url": "https://justcall.io/blog/best-ai-receptionist-for-hvac.html", "date": "accessed 2026-11-25"}
+  ],
+  "site_and_content": {
+    "cms": "GoHighLevel / LeadConnector site builder; Google Tag Manager/gtag present",
+    "pages": "Industry pages (hvac, plumbing, roofing, auto-repair, pest-control, electrical, medspa), product pages (elise, xavier), pricing, results, talk-to-ai; no comparison/'vs' or alternatives pages in sitemap",
+    "blog": "36 posts under /post/, 2026-07-01 to 2026-10-22, roughly weekly then 2/week in Oct; 2 authors; one category ('informational')",
+    "sitemap": "https://effiqo.ai/sitemap.xml (28 non-post URLs)"
+  },
+  "blog_signal": {
+    "impression": "looks unplanned",
+    "reading": [
+      "developed blog: 36 posts under /post/ (add-vee's blog audit runs above 20)",
+      "internal linking looks weak: 0.4 in-body links to other posts on average, 80% of sampled posts link to none",
+      "78% of posts sit in the 6 main topics (focused)",
+      "blog taxonomy pages: none in the sitemap",
+      "no hub-like posts in the sample",
+      "median 1,645 words; first 2026-07-01, last 2026-10-22"
+    ],
+    "tool": "blog_sample.py effiqo.ai, 2026-11-25"
+  },
+  "jobs": {
+    "board": "none (careers page only, no ATS)",
+    "open_roles": ["SEO Specialist", "Account Executive", "BDR / Cold Caller", "Digital Marketing & Growth Manager (reports to VP Marketing)", "VP Sales / Global Revenue Leader (reports to Founder & CEO)", "Operations & Customer Success Manager"],
+    "check_open": [
+      {"url": "https://effiqo.ai/careers", "state": "open", "checked": "2026-11-25T17:43:07+00:00"},
+      {"url": "https://www.linkedin.com/posts/hiring-seojobs-seo-share-7531129674224193536-tzDl/", "state": "unknown (jobs.py saw a login wall)", "checked": "2026-11-25T17:43:05+00:00", "note": "plain fetch of the same URL did return the post text (18h old, 1 comment)"}
+    ]
+  },
+  "contacts": [
+    {"name": "Barbara Saunders", "role": "Founder & CEO (unverified: self-published startups.com profile; first name matches the pricing page)", "email": null, "email_verified": false, "source": "https://www.startups.com/members/barbarasaunders (WebSearch snippet 2026-11-25; page 429); https://effiqo.ai/pricing", "recipient_rank": 1}
+  ],
+  "outreach_angle": {
+    "hook": "Their own post: 'their customers aren't just Googling. They're asking ChatGPT, Perplexity and Gemini' and the role is to get Effiqo cited there. Show what AI answers recommend today for 'AI receptionist for HVAC' / 'missed call text back for plumbers' (Podium, Wakeman, CloudTalk, ServiceTitan's own agent; Effiqo absent) plus the 36-post blog with almost no internal links, as 'how I'd start in the role'.",
+    "source": "https://www.linkedin.com/posts/hiring-seojobs-seo-share-7531129674224193536-tzDl/",
+    "date": "2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Service-business owners research 'AI receptionist for HVAC', 'missed call text back', 'AI answering service for plumbers' on Google and in AI answers; the results are vendor listicles and comparison posts (JustCall, Nextiva, CloudTalk, Vida, SalesCaptain), SourceForge category pages, and many GoHighLevel agencies selling the same setup. Self-serve style demo funnel, large buyer set (hundreds of thousands of US trade shops).",
+    "competitors": [
+      {"name": "Podium", "seo_investment": "high (industry landing pages incl. HVAC)", "evidence_url": "https://podium.com/industry/hvac"},
+      {"name": "SalesCaptain", "seo_investment": "high (HVAC missed-call and AI phone agent posts)", "evidence_url": "https://blog.salescaptain.com/?p=6312"},
+      {"name": "Vendasta", "seo_investment": "high (missed-call text-back guides by vertical)", "evidence_url": "https://www.vendasta.com/blog/missed-call-text-back-how-it-works/"},
+      {"name": "My AI Front Desk", "seo_investment": "medium-high (industry pages)", "evidence_url": "https://www.myaifrontdesk.com/other-industries/hvac-service"},
+      {"name": "ServiceTitan / Workiz (incumbent FSM with built-in AI agents)", "seo_investment": "high (customer stories on missed calls)", "evidence_url": "https://www.servicetitan.com/blog/bill-joplins-superior-plumbing-ai-virtual-agent"}
+    ],
+    "serp_checks": [
+      {"query": "AI receptionist missed call text back HVAC plumbers software best (WebSearch, not Google)", "top_results": ["justcall.io best-ai-receptionist-for-hvac", "sourceforge OnCrew", "sourceforge CallBack HVAC", "twig.so missed-call-text-back-ai-hvac", "nextiva ai-receptionist-home-services"], "date": "2026-11-25"},
+      {"query": "revenue recovery system for service businesses missed calls AI (WebSearch, not Google)", "top_results": ["contra.com AI revenue recovery for home service companies", "justcall.io missed calls", "workiz ai-call-answering", "servicetitan blog", "marchex auto service"], "date": "2026-11-25"}
+    ],
+    "cost_of_absence": "Its own category phrase ('revenue recovery system') is contested by Workiz, ServiceTitan, Marchex and GHL agencies, and Effiqo appears in neither search; with paid media as the other channel and a $100K-MRR-in-6-months target, staying invisible in owner research and AI answers means buying every lead.",
+    "why_not_yet": "founder_led: the company is months old; the SEO hire is its first organic owner.",
+    "evidence": ["effiqo.ai/careers JD (direct, 2026-11-25)", "blog_sample 2026-11-25 (direct)", "WebSearch 2026-11-25 (direct, not Google)"]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "High need, actively hiring for exactly this work, and the founder is reachable and owns growth. But ability to pay is unproven (no funding found, 10-shop pilot, 'market competitive' pay for a 3+ years role) and the founder's name rests on a self-published profile."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "industry": "vertical_saas",
+    "stage": "early",
+    "situation": "early",
+    "size_band": "1_50",
+    "geo": "us",
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "absent",
+    "recipient_role": "ceo",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "considered",
+    "seo_need": "high"
+  },
+  "sources": [
+    {"url": "https://effiqo.ai/careers", "date": "accessed 2026-11-25", "kind": "direct", "result": "Full SEO Specialist JD + 5 other roles; Growth Manager reports to VP Marketing; VP Sales reports to Founder & CEO"},
+    {"url": "https://www.linkedin.com/posts/hiring-seojobs-seo-share-7531129674224193536-tzDl/", "date": "2026-11-24", "kind": "direct", "result": "Company post 'We're hiring: SEO Specialist', 82 followers, 18h old at fetch, links to careers page"},
+    {"url": "https://effiqo.ai/about", "date": "accessed 2026-11-25", "kind": "direct", "result": "What they sell and to whom; no team names"},
+    {"url": "https://effiqo.ai/pricing", "date": "accessed 2026-11-25", "kind": "direct", "result": "$997/mo founding pilot for 10 shops; 'direct line to Barbara'"},
+    {"url": "https://effiqo.ai/investor", "date": "accessed 2026-11-25", "kind": "direct", "result": "Login-only investor data room; no investors named"},
+    {"url": "https://effiqo.ai/sitemap.xml", "date": "accessed 2026-11-25", "kind": "direct", "result": "28 pages + post sitemap; industry pages; no vs/alternatives pages"},
+    {"url": "https://dns.google/resolve?name=effiqo.ai&type=TXT", "date": "2026-11-25", "kind": "direct", "result": "SPF: Google, LeadConnector (GoHighLevel), Mailgun"},
+    {"url": "http://archive.org/wayback/available?url=effiqo.ai&timestamp=20250101", "date": "2026-11-25", "kind": "direct", "result": "closest snapshot 2026-01-18"},
+    {"url": "https://www.startups.com/members/barbarasaunders", "date": "accessed 2026-11-25 (snippet only)", "kind": "unverified", "result": "WebSearch snippet: Founder & CEO, Effiqo AI Corporation; 3x home-services founder, 2 exits (self-reported); page fetch 429"},
+    {"url": "blog_sample.py effiqo.ai", "date": "2026-11-25", "kind": "direct", "result": "36 posts, looks unplanned"}
+  ],
+  "sources_tried_failed": [
+    "https://www.startups.com/members/barbarasaunders: HTTP 429",
+    "jobs.py check-open on the LinkedIn post URL: 'unknown (login wall)' (a plain curl did get the post text)",
+    "web.archive.org CDX: proxy connection closed mid-exchange"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Effiqo AI company page People tab: is there a VP Marketing, and is Barbara Saunders the founder?"
+  ],
+  "open_questions": [
+    "Is this a venture-scale product company or a GoHighLevel white-label build sold as SaaS (agency-like)? No funding found.",
+    "Who does the SEO Specialist report to: the founder or the (unnamed) VP Marketing?",
+    "Can they pay a senior hire or an engagement at a 10-shop pilot stage?"
+  ]
+}
