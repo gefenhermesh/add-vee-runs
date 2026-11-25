@@ -59,7 +59,7 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
 <div class="wrap">
   <header>
     <h1>SEO Job Applications</h1>
-    <p>Roles the daily scout found for you, newest first. Tick a role once you've applied. If you won't apply, mark why ("US only" or "Not for me"): the scout reads those marks and stops showing you roles like it.</p>
+    <p>Roles the daily scout found for you, newest first. Tick a role once you've applied. If you won't apply, mark why: the scout reads those marks and shows you fewer roles like it.</p>
   </header>
   <div class="bar" role="toolbar" aria-label="Filter">
     <button class="tab" id="tab-todo" data-f="todo" aria-pressed="true">To apply<span class="n" id="n-todo">0</span></button>
@@ -76,7 +76,7 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
 (function () {
   const out = document.getElementById("out"), status = document.getElementById("status");
   let rows = [], filter = "todo", q = "", db = null, busy = new Set();
-  const REASONS = { us_only: "US only", not_for_me: "Not for me" };
+  const REASONS = { us_only: "US only", salary_low: "Salary too low", field_not_interesting: "Field not interesting", not_for_me: "Not for me" };
   const SRC = { linkedin_jobs: "LinkedIn Jobs", linkedin_posts: "LinkedIn post", pick: "your pick", board: "startup board", other: "other" };
   try { const f = localStorage.getItem("jobs.filter"); if (f) filter = f; } catch (e) {}
 
@@ -133,7 +133,7 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
     if (r.applied && r.applied_at) body.append(el("div", "when", "Applied " + r.applied_at));
     const side = el("div", "side");
     if (!r.applied && !r.hidden) {
-      [["us_only", "US only"], ["not_for_me", "Not for me"]].forEach(([code, label]) => {
+      Object.entries(REASONS).forEach(([code, label]) => {
         const b = el("button", "fb", label); b.type = "button"; b.disabled = !db || busy.has(r.id);
         b.title = "Mark as not applied: " + label;
         b.addEventListener("click", () => save(r, { hidden: true, skip_reason: code, skipped_at: new Date().toISOString().slice(0, 10) }));
