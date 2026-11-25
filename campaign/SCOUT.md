@@ -176,7 +176,7 @@ The weekly scout no longer looks for job posts. An open SEO role it happens to f
    United States and Europe (free). **seojobs.com is no longer read** (sponsor, 2026-11-25: `seeker.SEOJOBS = False`; it cost about 20 paid pages a day and its posts show up in his LinkedIn posts search). Before that it was read with the capped Web Unlocker ( every relevant seojobs post is opened and read, because the site's
    Remote/In-Office labels come from a bot and can be wrong), keeps only posts never seen before, and
    screens each one with filters set ahead in the script: SEO roles only, no junior or intern roles, no Asia;
-   **US and seojobs posts are worth applying to when they're remote and don't ask for US work authorization,
+   **US posts, refined (sponsor, 2026-11-25):** apply only with a positive sign (open to LATAM, the Americas, worldwide, or contractors); a remote US post that says nothing is a maybe; brick-and-mortar style US businesses (stores, health systems, schools, dealerships, real estate, construction, law firms, manufacturers), US staffing/W-2 contracts and US companies listing a US city are skipped (his "US only" marks: Siana Marketing, Gong, Bloomingdale's, Intelliswift). Before that: US and seojobs posts were worth applying to when they're remote and don't ask for US work authorization,
    sponsorship, citizenship or US residence**; LATAM posts unless they require residence outside LATAM; Europe
    posts only when they say they'd work with someone in the Americas, worldwide, or as a contractor. The script does
    the mining; your part is a light check of the `apply` and `maybe` posts in `campaign/scout/seeker/<date>.json`

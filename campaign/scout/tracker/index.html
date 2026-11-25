@@ -77,7 +77,7 @@ header p { margin: 0; color: var(--muted); max-width: 65ch }
   const out = document.getElementById("out"), status = document.getElementById("status");
   let rows = [], filter = "todo", q = "", db = null, busy = new Set();
   const REASONS = { us_only: "US only", salary_low: "Salary too low", not_available: "Not available", not_for_me: "Not for me" };
-  const LEGACY = { field_not_interesting: "Not for me", blacklisted: "Blacklisted" };
+  const LEGACY = { field_not_interesting: "Not for me", blacklisted: "Blacklisted", us_rule: "US only (scout's rule)" };
   const SRC = { linkedin_jobs: "LinkedIn Jobs", linkedin_posts: "LinkedIn post", pick: "your pick", board: "startup board", other: "other" };
   try { const f = localStorage.getItem("jobs.filter"); if (f) filter = f; } catch (e) {}
 

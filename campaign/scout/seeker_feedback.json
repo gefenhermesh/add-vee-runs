@@ -12,6 +12,46 @@
     {
       "company": "Jobgether",
       "why": "blacklisted, never list them (sponsor, 2026-11-25)"
+    },
+    {
+      "company": "Remote Hunter",
+      "why": "avoid (sponsor, 2026-11-25)"
+    },
+    {
+      "company": "Siana Marketing",
+      "why": "hires US only (sponsor's mark in the tracker, 2026-11-25: SEO / GEO Strategist)"
+    },
+    {
+      "company": "Gong",
+      "why": "hires US only (sponsor's mark in the tracker, 2026-11-25: Sr. SEO/AEO Manager)"
+    },
+    {
+      "company": "Bloomingdale's",
+      "why": "hires US only (sponsor's mark in the tracker, 2026-11-25: (Post Int and Ext) Director, Organic Discovery & AI Enablement)"
+    },
+    {
+      "company": "Intelliswift - An LTTS Company",
+      "why": "hires US only (sponsor's mark in the tracker, 2026-11-25: AEO & AI Search Analyst)"
     }
-  ]
+  ],
+  "sponsor_marks": {
+    "salary_low": [
+      {
+        "role": "Local SEO & GBP Specialist (Remote, USD)",
+        "company": "Home Service Direct",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-25"
+      }
+    ],
+    "not_for_me": [
+      {
+        "role": "Senior Manager, SEO, AEO & AI",
+        "company": "Coppel",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-25"
+      }
+    ]
+  }
 }

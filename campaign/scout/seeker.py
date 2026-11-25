@@ -87,6 +87,20 @@ SEO_TERMS = re.compile(r"\b(seo|aeo|geo|search engine optimi[sz]ation|generative
                        r"answer engine optimi[sz]ation|ai search|llm (search|visibility)|ai visibility|organic search|"
                        r"organic (traffic|growth)|search console|keyword research|technical seo)\b", re.I)
 SEO_CORE_MIN = 3
+# US businesses that, by the sponsor's experience, hire only locally (sponsor, 2026-11-25): stores, local services,
+# health systems, schools, dealerships, real estate, construction, law firms, restaurants, manufacturers; and US
+# staffing / W-2 contract shops.
+TRADITIONAL_US = re.compile(r"\b(our (stores|locations|showrooms|branches|clinics|restaurants|dealerships|franchisees?)|"
+                            r"brick[- ]and[- ]mortar|retail(er| stores)|department store|in[- ]store|franchise|dealerships?|"
+                            r"hospitals?|health ?system|patients|clinics?|campus|universit(y|ies)|college|school district|"
+                            r"restaurants?|hospitality|resorts?|real estate|brokerage|home ?builders?|construction|"
+                            r"contractors? (like|such as)|hvac|plumbing|roofing|law firms?|attorneys|manufactur(er|ing)|"
+                            r"warehouse|distribution centers?|w-?2|contract to hire|c2h|staffing (agency|firm|company))\b", re.I)
+TRADITIONAL_CO = re.compile(r"\b(staffing|talent solutions|recruit(ing|ment)|health|hospital|university|college|resort|"
+                            r"realty|homes|construction|motors|dealer\w*|bank|credit union|insurance|"
+                            r"bloomingdale|macy|nordstrom|walmart|target|kohl|finish line)\b", re.I)
+US_CITY = re.compile(r"^[A-Z][A-Za-z .'-]+, (A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|"
+                     r"O[HKR]|PA|RI|S[CD]|T[NX]|UT|V[AT]|W[AIVY])\b")
 
 
 def get(url, timeout=40):
@@ -185,9 +199,19 @@ def _screen(post, desc):
     if post["region"] in ("us", "seojobs"):
         # sponsor, 2026-11-24: a remote US post that doesn't ask about work authorization, sponsorship, citizenship
         # or US residence is worth applying to; some US companies will hire him as a contractor.
+        # Refined (sponsor, 2026-11-25): his "US only" marks (Siana Marketing, Gong, Bloomingdale's, Intelliswift) were
+        # all US posts with nothing said either way. Traditional, brick-and-mortar style US businesses, US staffing
+        # contracts and big US companies listing a US city don't hire from abroad. A US post with no positive sign
+        # (LATAM, worldwide, contractor: handled above) is now at most a maybe, and the old-school kind is skipped.
+        trad = sentences_with(TRADITIONAL_US, text, n=2)
+        if trad or TRADITIONAL_CO.search(post.get("company", "")):
+            return {"lean": "skip", "why": ["US brick-and-mortar style or staffing business: won't hire from abroad"],
+                    "quotes": trad}
+        if US_CITY.search(post.get("location", "")):
+            return {"lean": "skip", "why": ["US company listing a US city, nothing open to abroad"], "quotes": []}
         if not desc:
-            return {"lean": "maybe", "why": ["remote; description not read, so work-authorization terms unknown"], "quotes": []}
-        return {"lean": "apply", "why": ["remote; no work-authorization, sponsorship or residence requirement stated"], "quotes": []}
+            return {"lean": "maybe", "why": ["remote US; description not read, so work-authorization terms unknown"], "quotes": []}
+        return {"lean": "maybe", "why": ["remote US, nothing said about hiring abroad: ask before applying"], "quotes": []}
     return {"lean": "skip", "why": ["Europe post with nothing suggesting it would hire in Costa Rica"], "quotes": []}
 
 

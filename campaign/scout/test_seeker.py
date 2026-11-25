@@ -28,7 +28,8 @@ class Screen(unittest.TestCase):
         self.assertEqual(r["lean"], "apply")
 
     def test_us_unstated_is_apply_but_unread_is_maybe(self):
-        self.assertEqual(S.screen(post("us"), "Remote role leading our SEO program.")["lean"], "apply")
+        # sponsor, 2026-11-25: a US post that says nothing about abroad is a maybe, no longer an apply
+        self.assertEqual(S.screen(post("us"), "Remote role leading our SEO program.")["lean"], "maybe")
         self.assertEqual(S.screen(post("seojobs"), "")["lean"], "maybe")
 
     def test_europe_needs_a_positive_signal(self):
@@ -51,11 +52,11 @@ class Screen(unittest.TestCase):
     def test_onsite_and_us_based(self):
         self.assertEqual(S.screen(post("us"), "Content Marketing & SEO Specialist (Austin, TX — In Office)")["lean"], "skip")
         self.assertEqual(S.screen(post("us"), "Siana Marketing | Remote (U.S.-based)")["lean"], "skip")
-        self.assertEqual(S.screen(post("us"), "Fully remote. Occasional on-site visits optional.")["lean"], "apply")
+        self.assertEqual(S.screen(post("us"), "Fully remote. Occasional on-site visits optional.")["lean"], "maybe")
 
     def test_seojobs_must_say_remote(self):
         self.assertEqual(S.screen(post("seojobs"), "Join our marketing team in Irving.")["lean"], "skip")
-        self.assertEqual(S.screen(post("seojobs"), "This is a remote position.")["lean"], "apply")
+        self.assertEqual(S.screen(post("seojobs"), "This is a remote position.")["lean"], "maybe")
 
     def test_sponsor_feedback_company_is_skipped(self):
         p = post("us"); p["company"] = "Infor"
@@ -132,4 +133,21 @@ class NoAsiaTest(unittest.TestCase):
         r = S.screen({"title": "Sr. SEO Consultant", "company": "Trantor", "region": "us", "location": "United States"},
                      "Remote. Work Timing: 4:00 PM IST onwards.")
         self.assertEqual(r["why"], ["Asia / Oceania hours or employer"])
+
+
+class UsTraditionalTest(unittest.TestCase):
+    """Sponsor, 2026-11-25: his "US only" marks were old-school US businesses and US-city listings."""
+    def p(self, company, location="United States"):
+        return {"title": "SEO Manager", "company": company, "region": "us", "location": location}
+
+    def test_brick_and_mortar_and_staffing_are_skipped(self):
+        self.assertEqual(S.screen(self.p("Bloomingdale's", "New York, NY"), "Across all touchpoints, from our stores.")["lean"], "skip")
+        self.assertEqual(S.screen(self.p("Siana Marketing"), "We help construction and real estate firms. Remote.")["lean"], "skip")
+        self.assertEqual(S.screen(self.p("Acme Staffing"), "Remote.")["lean"], "skip")
+
+    def test_us_city_without_a_positive_sign_is_skipped(self):
+        self.assertEqual(S.screen(self.p("Gong", "San Francisco, CA"), "Remote role.")["lean"], "skip")
+
+    def test_positive_sign_still_applies(self):
+        self.assertEqual(S.screen(self.p("Acme SaaS", "San Francisco, CA"), "Remote, open to contractors in Latin America.")["lean"], "apply")
 
