@@ -121,3 +121,15 @@ class GrowthTitleTest(unittest.TestCase):
         r = S.screen({"title": "User Acquisition Manager (Non-search)", "company": "X", "region": "latam", "location": "Brazil"}, "")
         self.assertEqual(r["why"], ["not an SEO role"])
 
+
+class NoAsiaTest(unittest.TestCase):
+    def test_oceania_and_indian_cities_are_skipped(self):
+        for loc in ("Sydney, New South Wales, Australia", "Bengaluru, Karnataka", "Auckland, New Zealand"):
+            r = S.screen({"title": "SEO Manager", "company": "X", "region": "latam", "location": loc}, "Fully remote.")
+            self.assertEqual(r["lean"], "skip", loc)
+
+    def test_ist_hours_in_the_description_are_skipped(self):
+        r = S.screen({"title": "Sr. SEO Consultant", "company": "Trantor", "region": "us", "location": "United States"},
+                     "Remote. Work Timing: 4:00 PM IST onwards.")
+        self.assertEqual(r["why"], ["Asia / Oceania hours or employer"])
+

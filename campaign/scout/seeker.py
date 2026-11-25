@@ -60,7 +60,16 @@ NEG_EU = re.compile(r"\b((right|eligib\w*|authori[sz]ed|permit) to work in (the 
                     r"(must|need to|required to) (reside|live|be located|be based) in (the )?(uk|eu|europe|[A-Z][a-z]+)|"
                     r"eu (citizens?|work permit)|based in (the )?(uk|eu|europe) only|(uk|eu|cet|cest|gmt) (hours|time ?zone) only)\b", re.I)
 ASIA = re.compile(r"\b(india|philippines|pakistan|bangladesh|vietnam|indonesia|malaysia|singapore|china|hong kong|japan|"
-                  r"korea|thailand|sri lanka|nepal|taiwan|cambodia|myanmar|apac|asia)\b", re.I)
+                  r"korea|thailand|sri lanka|nepal|taiwan|cambodia|myanmar|apac|asia|"
+                  r"australia|new zealand|oceania|anz|sydney|melbourne|brisbane|perth|auckland|"   # no Oceania either
+                  r"bangalore|bengaluru|mumbai|delhi|gurgaon|gurugram|noida|hyderabad|pune|chennai|kolkata|ahmedabad|"
+                  r"karachi|lahore|islamabad|dhaka|manila|cebu|jakarta|kuala lumpur|ho chi minh|hanoi|bangkok|tokyo|"
+                  r"seoul|shanghai|beijing|shenzhen|kathmandu|colombo)\b", re.I)
+# Asia / Oceania working hours or an India-based employer stated in the description (sponsor, 2026-11-25: "no Asia, no
+# India, no Australia"). "IST" alone could be Israel time, so it counts only next to a clock time or India.
+ASIA_TEXT = re.compile(r"\b(\d{1,2}(:\d{2})? ?(am|pm) ist|ist (hours|time ?zone|shift)|indian standard time|aest|aedt|"
+                       r"sgt|pkt|(india|philippines|pakistan|australia)[- ]based|based in (india|the philippines|pakistan|"
+                       r"australia|singapore|malaysia)|apac (hours|time ?zone))\b", re.I)
 # A broad word ("worldwide", "Americas", "anywhere") only counts in a sentence about where the person can work;
 # company boilerplate ("customers worldwide", "the world's leading network") doesn't.
 WORK_CONTEXT = re.compile(r"\b(remote|candidates?|applicants?|hire|hiring|work(ing)? from|based|reside|located|location|"
@@ -148,7 +157,9 @@ def _screen(post, desc):
     text = f"{post.get('title', '')}\n{desc}"
     why, quotes = [], []
     if ASIA.search(where):
-        return {"lean": "skip", "why": ["located in Asia"], "quotes": []}
+        return {"lean": "skip", "why": ["located in Asia or Oceania"], "quotes": []}
+    if ASIA_TEXT.search(desc or ""):
+        return {"lean": "skip", "why": ["Asia / Oceania hours or employer"], "quotes": sentences_with(ASIA_TEXT, desc)}
     if JUNIOR.search(post.get("title", "")):
         return {"lean": "skip", "why": ["junior or intern role"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
