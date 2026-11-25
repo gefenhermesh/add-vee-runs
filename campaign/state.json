@@ -1347,7 +1347,7 @@
       "slug": "payhawk",
       "company": "Payhawk",
       "domain": "payhawk.com",
-      "status": "waiting_gate",
+      "status": "approved_waiting",
       "b2b": true,
       "reason": "Payhawk (spend management, Bulgaria's first unicorn) raised a $280M Series C at $2B in Nov 2026 and is hiring an SEO Manager to own organic and AI-search visibility for product areas and regions. Contested category (Pleo, Spendesk, Ramp, Airwallex all write comparison pages; Ramp's 'Payhawk alternatives' ranks), and the JD asks for AI-answer citation tracking.",
       "gating_rating": "seo_job_opening",
@@ -1395,6 +1395,11 @@
       "nudges": 0,
       "notified": {
         "gate": "2026-11-25T14:33:41+00:00"
+      },
+      "gate_approval": {
+        "ts": "2026-11-25T16:33:30Z",
+        "order": 0,
+        "sponsor_words": "approve payhawk"
       }
     },
     {
