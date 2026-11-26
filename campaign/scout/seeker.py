@@ -257,6 +257,13 @@ def _screen(post, desc):
     onsite = sentences_with(ONSITE, text)
     if onsite and not re.search(r"\b(fully remote|100% remote|remote[- ]first)\b", text, re.I):
         return {"lean": "skip", "why": ["not fully remote (in-office, on-site or hybrid)"], "quotes": onsite}
+    # Sponsor, 2026-11-26 (Kanbar Digital, San Diego: listed in his job list, really hybrid): LinkedIn's "remote" search
+    # filter leaks hybrid and on-site posts, and its Remote/Hybrid label isn't in the page we read. A post that never
+    # says it's remote and is placed in a city (not a country or region) is skipped.
+    if post["region"] in ("us", "europe", "latam") and desc and "," in (post.get("location") or "") and \
+            not re.search(r"\b(remote|work from home|wfh|distributed|anywhere|teletrabajo|remoto|home ?office)\b", text, re.I):
+        return {"lean": "skip", "why": ["LinkedIn filed it as remote, but the post never says remote and names a city office"],
+                "quotes": []}
     neg = NEG_US if post["region"] in ("us", "seojobs") else NEG_EU if post["region"] == "europe" else re.compile(
         NEG_US.pattern + "|" + NEG_EU.pattern, re.I)
     pos_q = [q for q in sentences_with(POS, text, n=6) if STRONG_LATAM.search(q) or WORK_CONTEXT.search(q)][:2]
