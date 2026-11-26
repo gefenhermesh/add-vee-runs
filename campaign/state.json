@@ -984,7 +984,7 @@
       "slug": "pump-co",
       "company": "Pump.co",
       "domain": "pump.co",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "YC cloud-savings platform (free AWS/GCP/Azure savings, expanding into AI cost optimization, ~$25M revenue est.) wants SEO/AEO so that 'when anyone ... asks an AI assistant about cutting their cloud bill, Pump is the answer'. FinOps search is crowded with vendor listicles (nOps, DoiT, Holori) and Pump's 325-post blog is only partly planned (35% of posts link to no other post).",
       "gating_rating": "seo_job_opening",
@@ -1020,13 +1020,16 @@
         "seniority": "manager (3-6 yrs; owns the channel end to end)",
         "reports_to": "not stated; Head of Marketing (open since 2024) would own SEO/AEO per its JD; today inferred CEO"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 7,
+      "queued_at": "2026-11-26T15:15:00+00:00",
+      "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely (remote-first and smaller first)"
     },
     {
       "slug": "cosuno",
       "company": "Cosuno",
       "domain": "cosuno.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Berlin construction-tendering platform (Series B, ~$23M ARR est.) hires its first organic owner to 'make Cosuno impossible to overlook ... from Google and AI assistants', timed with a website relaunch whose SEO migration the hire owns. The 72-post German blog isn't in the sitemap at all (sitemap = 4 static pages + 6,286 marketplace tenders): a sharp, citable migration risk.",
       "gating_rating": "seo_job_opening",
@@ -1063,7 +1066,10 @@
         "seniority": "manager (mid; first organic/content hire, 'build the function from the ground up'); requires native-level German",
         "reports_to": "not stated; inferred the Marketing Lead ('one of the first members of a growing marketing team')"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 2,
+      "queued_at": "2026-11-26T15:15:00+00:00",
+      "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely (remote-first and smaller first)"
     },
     {
       "slug": "paddle",
@@ -1126,7 +1132,7 @@
       "slug": "chainguard",
       "company": "Chainguard",
       "domain": "chainguard.dev",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Chainguard ($3.5B, Series D Apr 2025, ARR 7x in FY25) is hiring a Sr. Growth Marketing Manager to 'run Chainguard's SEO program end to end' and get ChatGPT, Claude, Perplexity, Gemini and coding agents to recommend Chainguard. Hardened images is suddenly contested (Docker Hardened Images free since Dec 2025, Minimus, Echo, RapidFort) and competitors publish 'Chainguard alternatives' pages.",
       "gating_rating": "seo_job_opening",
@@ -1162,13 +1168,16 @@
         "seniority": "senior IC (owns SEO program end to end + AEO + agent discovery); base $140k-$167.5k",
         "reports_to": "not stated in JD (other growth roles report to the VP of Marketing)"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 4,
+      "queued_at": "2026-11-26T15:15:00+00:00",
+      "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely (remote-first and smaller first)"
     },
     {
       "slug": "amenitiz",
       "company": "Amenitiz",
       "domain": "amenitiz.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Barcelona hotel-management SaaS for independent hoteliers ($45M Series B Nov 2025, 15,000+ properties) is hiring a Senior SEO & AI Search owner with New MRR from organic as the north star, across EN/FR/IT/ES/PT. Contested search category (Cloudbeds, Little Hotelier, Mews, eviivo, Lodgify all publish comparison content) and a 700-post multilingual blog that looks weakly interlinked.",
       "gating_rating": "seo_job_opening",
@@ -1203,7 +1212,10 @@
         "seniority": "senior IC (JD body calls it 'SEO & GEO Manager'; owns end-to-end organic strategy across 5 locales; 3+ yrs asked)",
         "reports_to": "not stated (Marketing team; marketing heads report to the VP of Marketing)"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 6,
+      "queued_at": "2026-11-26T15:15:00+00:00",
+      "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely (remote-first and smaller first)"
     },
     {
       "slug": "synthesia",
@@ -1504,7 +1516,7 @@
       "slug": "yipitdata",
       "company": "YipitData",
       "domain": "yipitdata.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Alt-data / market-research company ($1B+ valuation, Carlyle Series E up to $475M, Dec 2021) is hiring its first SEO & AEO owner to build organic and AI-answer discovery 'from the ground up', with AI citation share as a success metric. A developed but unlinked /resources/ library (443 URLs, 95% of sampled posts link to no other post) gives add-vee's blog audit an obvious 'how I'd start'.",
       "gating_rating": "seo_job_opening",
@@ -1539,7 +1551,10 @@
         "seniority": "mid-level manager / builder IC: JD body calls it 'Associate SEO and AEO Manager', 4+ years, $108K-123K base + equity; owns SEO+AEO strategy end to end",
         "reports_to": "not stated in JD (Marketing department); couldn't verify"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 3,
+      "queued_at": "2026-11-26T15:15:00+00:00",
+      "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely (remote-first and smaller first)"
     },
     {
       "slug": "evertune-ai",
@@ -1587,7 +1602,7 @@
       "slug": "colossyan",
       "company": "Colossyan",
       "domain": "colossyan.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Series A AI training-video platform (~50 people, London/Budapest, $22M Series A Feb 2024, G2 Leader) is hiring its first London growth marketer to own SEO and AEO/GEO: 'Traffic arriving from AI assistants already converts better for us than any other organic source'. Synthesia publishes 'best Colossyan alternatives' and 'Synthesia vs Colossyan' pages aimed at them: high need, a clear hook.",
       "gating_rating": "seo_job_opening",
@@ -1622,7 +1637,10 @@
         "seniority": "manager / first growth marketer in London: 5+ years growth/performance/demand gen with SEO or paid depth; scope is SEO+AEO/GEO plus paid, demand gen and budget",
         "reports_to": "Head of Growth (per JD); JD also says 'working directly with our CEO'"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 5,
+      "queued_at": "2026-11-26T15:15:00+00:00",
+      "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely (remote-first and smaller first)"
     },
     {
       "slug": "dealhub",
@@ -1669,7 +1687,8 @@
         "by": "sponsor",
         "words": "release dealhub",
         "at": "2026-11-25T18:38:02+00:00"
-      }
+      },
+      "queue_rank": 1
     }
   ],
   "rules": {

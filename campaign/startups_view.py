@@ -48,11 +48,13 @@ def links_for(slug):
 def queue_order(state):
     """Same order tick.py releases and starts work: gate-approved first (by approval time), then queued by priority."""
     ps = state["prospects"]
+    urgent = sorted((p for p in ps if p.get("status") == "queued" and int(p.get("priority") or 0) >= 10),
+                    key=lambda p: (-int(p.get("priority") or 0), p.get("queue_rank") or 999))
     approved = sorted((p for p in ps if p.get("status") == "approved_waiting"),
                       key=lambda p: ((p.get("gate_approval") or {}).get("ts") or "", (p.get("gate_approval") or {}).get("order", 0)))
-    queued = sorted((p for p in ps if p.get("status") == "queued"),
-                    key=lambda p: (-(p.get("priority") or 0), p.get("queued_at") or ""))
-    return [p["slug"] for p in approved + queued]
+    queued = sorted((p for p in ps if p.get("status") == "queued" and int(p.get("priority") or 0) < 10),
+                    key=lambda p: (-int(p.get("priority") or 0), p.get("queue_rank") or 999))
+    return [p["slug"] for p in urgent + approved + queued]
 
 
 def main():

@@ -208,3 +208,18 @@ def test_hold_new_work_until_blocks_release_and_start(tmp_path, monkeypatch):
     after = dt.datetime(2026, 11, 28, 6, tzinfo=dt.timezone.utc)
     assert tick.plan(state, {}, before) == []
     assert [x["do"] for x in tick.plan(state, {}, after)] == ["release_gate"]
+
+
+def test_urgent_queued_starts_before_held_approvals(tmp_path, monkeypatch):
+    import datetime as dt
+    import tick
+    monkeypatch.setattr(tick, "ROOT", tmp_path)
+    (tmp_path / "companies").mkdir()
+    state = {"settings": {"max_concurrent_running": 1, "one_at_a_time": True}, "prospects": [
+        {"slug": "held", "company": "Held", "status": "approved_waiting", "session_id": "sh",
+         "gate_approval": {"ts": "2026-11-25T13:00:00Z", "sponsor_words": "Approve"}},
+        {"slug": "late", "company": "Late", "status": "queued", "priority": 1, "queue_rank": 2},
+        {"slug": "urgent", "company": "Urgent", "status": "queued", "priority": 10, "domain": "u.com"}]}
+    now = dt.datetime(2026, 11, 26, 12, tzinfo=dt.timezone.utc)
+    acts = tick.plan(state, {}, now)
+    assert [(x["do"], x["slug"]) for x in acts] == [("start", "urgent")]
