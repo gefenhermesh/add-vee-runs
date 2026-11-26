@@ -363,7 +363,7 @@ def fetch(now=None, fetcher=get, detail_fetcher=get, paid=None):
     return coverage, posts
 
 
-BOARD_REGIONS = {"wellfound", "accel", "general_catalyst", "berlinstartupjobs", "telegram_il"}
+BOARD_REGIONS = {"wellfound", "accel", "general_catalyst", "berlinstartupjobs", "telegram_il", "nextplay"}
 BOARD_SEO = re.compile(r"(?<!non-)\b(seo|geo|aeo|ai search|organic (search|growth|traffic))\b", re.I)  # board titles: no
 # bare "search" (paid search, search engineers) or "organic social"
 OPEN_LOCATION = re.compile(rf"\b(remote|anywhere|worldwide|global|{LATAM})\b", re.I)

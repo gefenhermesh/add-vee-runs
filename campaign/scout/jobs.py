@@ -224,6 +224,35 @@ def parse_telegram(page, now=None):
     return posts
 
 
+def parse_nextplay(page, now=None, board="nextplay"):
+    """Next Play's public startup-jobs role pages (nextplay.so/jobs/role/<role>, free, server-rendered: ~50 newest
+    roles, each with company, posting date, Remote/office, location and funding). SEO / GEO / AEO / organic titles
+    only (sponsor, 2026-11-26: Next Play's job portal posts SEO jobs too)."""
+    posts = []
+    for row in page.split('data-testid="server-opportunity-row"')[1:]:
+        jid = re.search(r'data-opportunity-id="([0-9a-f-]{36})"', row)
+        title = re.search(r'<p class="[^"]*font-semibold[^"]*">(.*?)</p>', row, re.S)
+        sub = re.search(r'<p class="mt-1[^"]*">(.*?)</p>', row, re.S)
+        if not (jid and title and sub):
+            continue
+        title = text(title.group(1))
+        if not SEO_TITLE.search(title):
+            continue
+        parts = [text(x) for x in re.split(r'<span class="opacity-40 mx-1">·</span>', sub.group(1))]
+        posted = re.search(r'title="Posted ([A-Z][a-z]{2} \d{1,2}, \d{4})"', sub.group(1))
+        try:
+            posted = dt.datetime.strptime(posted.group(1), "%b %d, %Y").date().isoformat() if posted else None
+        except ValueError:
+            posted = None
+        name = parts[0] if parts else ""
+        where = ", ".join(x for x in parts[2:] if x and not x.startswith("$") and not re.match(r"^\$|^\d", x)) or None
+        funding = next((x for x in parts if x.startswith("$")), None)
+        posts.append({"job_id": "np-" + jid.group(1), "title": title, "company": name, "company_url": None,
+                      "company_key": "name:" + norm_name(name), "location": where, "posted": posted,
+                      "url": "https://nextplay.so/jobs/" + jid.group(1), "region": board, "stage": funding})
+    return posts
+
+
 def parse_linkedin(region):
     return lambda page, now=None: parse(page, region)
 
@@ -239,6 +268,8 @@ SOURCES = {
                                lambda pg, now=None: parse_getro(pg, now=now, board="general_catalyst")),
     "berlinstartupjobs": ("https://berlinstartupjobs.com/skill-areas/seo/", parse_berlin),
     "telegram_il": ("https://t.me/s/hitechjobsmarketing", parse_telegram),
+    "nextplay_marketing": ("https://nextplay.so/jobs/role/marketing", parse_nextplay),   # sponsor, 2026-11-26
+    "nextplay_growth": ("https://nextplay.so/jobs/role/growth", parse_nextplay),
 }
 
 

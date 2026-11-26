@@ -227,3 +227,13 @@ class OpenCheckTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class NextPlayTest(unittest.TestCase):
+    def test_seo_rows_only_with_date_place_and_funding(self):
+        got = jobs.parse_nextplay('<a data-testid="server-opportunity-row" data-opportunity-id="7ca4a1f0-53e3-4139-affe-7bf88c7a75b9" href="/jobs/7ca4a1f0-53e3-4139-affe-7bf88c7a75b9"><p class="text-sm font-semibold leading-tight">Marketing Operations Specialist, SEO/AEO</p><p class="mt-1 text-xs">Payward, Inc.<span class="opacity-40 mx-1">·</span><span class="tabular-nums" title="Posted Nov 24, 2026">2d ago</span><span class="opacity-40 mx-1">·</span><span>Remote</span><span class="opacity-40 mx-1">·</span>United States<span class="opacity-40 mx-1">·</span><span>$200M Growth</span></p></a><a data-testid="server-opportunity-row" data-opportunity-id="29e6bfbe-e3fb-470b-86e8-98e2ca932b0d" href="/jobs/29e6bfbe-e3fb-470b-86e8-98e2ca932b0d"><p class="text-sm font-semibold leading-tight">Marketing</p><p class="mt-1 text-xs">Alta<span class="opacity-40 mx-1">·</span><span class="tabular-nums" title="Posted Nov 24, 2026">2d ago</span><span class="opacity-40 mx-1">·</span><span>Remote</span><span class="opacity-40 mx-1">·</span>United States<span class="opacity-40 mx-1">·</span><span>$200M Growth</span></p></a>')
+        self.assertEqual([p["title"] for p in got], ["Marketing Operations Specialist, SEO/AEO"])
+        self.assertEqual((got[0]["company"], got[0]["posted"], got[0]["location"], got[0]["stage"]),
+                         ("Payward, Inc.", "2026-11-24", "Remote, United States", "$200M Growth"))
+        self.assertEqual(got[0]["url"], "https://nextplay.so/jobs/7ca4a1f0-53e3-4139-affe-7bf88c7a75b9")
+

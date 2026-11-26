@@ -164,7 +164,7 @@ Startups hiring for SEO right now are the warmest prospects there are: the spons
 | What | Where it's read | Who reads it | Feeds |
 |---|---|---|---|
 | Job posts for the sponsor himself | LinkedIn remote LATAM / US / Europe (step 0); seojobs.com dropped 2026-11-25, the LinkedIn posts search covers it | daily jobs scout | his job list |
-| Startup job boards: Wellfound, Accel and General Catalyst (Getro), Berlin Startup Jobs, the Israeli marketing-jobs Telegram channel (SEO titles) | step 1, **every day** | daily jobs scout | his job list **and** audit prospects |
+| Startup job boards: Wellfound, Accel and General Catalyst (Getro), Berlin Startup Jobs, the Israeli marketing-jobs Telegram channel (SEO titles), Next Play's job portal (marketing and growth role pages, 2026-11-26) | step 1, **every day** | daily jobs scout | his job list **and** audit prospects |
 | LinkedIn US / Europe "search engine optimization" posts | step 1 | daily jobs scout | audit prospects |
 | LinkedIn feed posts: "hiring SEO AEO GEO remote", then the same without "remote" for on-site startups | his own computer (`LINKEDIN_POSTS.md`) | he runs it; this session shows it (step 7) | his list; its startups → add-vee with priority |
 | Funding news, Next Play, list posters, CTech, investor portfolios, the Telegram channel's non-SEO roles (as "hiring marketing" leads) | weekly | weekly scout | audit prospects (general) |
@@ -200,6 +200,7 @@ The weekly scout no longer looks for job posts. An open SEO role it happens to f
    - ~~SEOjobs.com~~: dropped 2026-11-25 (sponsor), see step 0;
    - **VC portfolio boards on Getro**: Accel and General Catalyst, searched for "seo" (every company is VC-backed and carries its stage; IPO, acquired and PE-owned companies are dropped automatically);
    - **Berlin Startup Jobs**' SEO skill page;
+   - **Next Play's startup job portal** (nextplay.so/jobs/role/marketing and /growth, free, the ~50 newest roles each, with funding; SEO / GEO / AEO / organic titles; sponsor, 2026-11-26). Next Play also has an MCP server (nextplay.so/mcp) that needs his Next Play login as a claude.ai connector; once connected, its job search can replace these two pages;
    - **the Israeli hi-tech marketing-jobs Telegram channel** (t.me/s/hitechjobsmarketing, free), SEO / GEO / AEO / organic titles only (moved here from the weekly scout, 2026-11-25).
 
    **Only what changed is handled.** Each source's page-1 job ids are remembered (`jobs_sources.json`): an unchanged page is skipped, only posts never seen before are stored, and only companies never seen before are printed. Nothing beyond page 1 is read; if a whole page is new, the coverage line says older posts may have been missed. Every post is kept in `jobs_seen.jsonl` and every company in `jobs_companies.json` (one company from two sources is stored once). No company or person page is opened. **US, Europe and Israel only:** skip a new company whose posts are all elsewhere (only the LinkedIn pages are filtered by location).
