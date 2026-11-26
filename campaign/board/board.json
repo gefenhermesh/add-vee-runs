@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T15:02:42+00:00",
+ "updated_at": "2026-11-26T15:24:51+00:00",
  "rows": [
   {
    "company": "Bay",
@@ -14,7 +14,7 @@
    "next_due": "2026-11-26",
    "state": "you_send",
    "action": "Follow-up V is drafted in Gmail: review and send",
-   "draft_id": "r-6727447493237685346"
+   "draft_id": "r-6226320085471266686"
   },
   {
    "company": "Vega Security",
@@ -29,7 +29,7 @@
    "next_due": "2026-11-26",
    "state": "you_send",
    "action": "Follow-up V is drafted in Gmail: review and send",
-   "draft_id": "r-6214106008047408991"
+   "draft_id": "r5234066638017946011"
   },
   {
    "company": "Upwind",
@@ -44,7 +44,7 @@
    "next_due": "2026-11-27",
    "state": "you_send",
    "action": "Follow-up N is drafted in Gmail: review and send",
-   "draft_id": "r1084264694003797332"
+   "draft_id": "r3972642650547094863"
   },
   {
    "company": "Gambit Security",
