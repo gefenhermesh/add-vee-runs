@@ -78,8 +78,10 @@ STRONG_LATAM = re.compile(r"\b(latin america|latam|south america|central america
 ONSITE = re.compile(r"\b(in[- ]office|on[- ]?site|onsite|hybrid|in[- ]person|presencial|h[ií]brido)\b", re.I)
 # Low-end execution roles count as junior (sponsor, 2026-11-26: "they probably pay 1000 per month and you do stuff
 # people don't do anymore", on Amalga Group's SEO Implementation Specialist (WordPress)).
-LOW_END = re.compile(r"\b(implementation specialist|wordpress|link ?build(er|ing)|outreach|backlink|citation|seo va|"
-                     r"virtual assistant|data entry|content upload|seo executive|seo associate)\b", re.I)
+# Only the kind of task marks a role low-end, never the word "specialist", "executive" or "associate" (sponsor,
+# 2026-11-26: specialist roles are wanted; executive and associate may be fine).
+LOW_END = re.compile(r"\b(implementation|wordpress|link ?build(er|ing)|outreach|backlinks?|citations?|seo va|"
+                     r"virtual assistant|data entry|content upload)\b", re.I)
 JUNIOR = re.compile(r"\b(intern(ship)?|junior|jr\.?|entry[- ]level|trainee|assistant|graduate|practicante|pasante|"
                     r"est[aá]gi\w*|assistente|asistente|auxiliar|aprendiz)\b", re.I)
 SEO_ROLE = re.compile(r"(?<!non-)(?<!non )\b(seo|geo|aeo|search|organic|b\u00fasqueda|busca org\u00e2nica)\b", re.I)  # an SEO title
