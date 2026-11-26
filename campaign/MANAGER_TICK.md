@@ -59,6 +59,7 @@ While `state.json` → `settings.brightdata_paused` is true: no Bright Data call
 8. Reply: the notification lines first, then one line per other action. Nothing else.
 
 ## Never
+- Never change, "correct" or doubt a recipient address from what the Gmail connector reports (sponsor, 2026-11-26). The connector drops dots from addresses in `toRecipients` (it showed joelminnick@upwind.io for a mail the sponsor sent to joel.minnick@upwind.io), so its sent record is not proof of where a mail went. Keep the address the sponsor gave or sent to; if two sources disagree, ask the sponsor in one line and change nothing until they answer.
 - Never paste company material (research, findings, drafts, coverage) into this chat. One-line status and links only; this session must stay small.
 - Never send email or contact anyone. Drafts only; the sponsor sends.
 - Never start a company that isn't `queued`. The sponsor releases companies (`held`/`proposed` → `queued`).

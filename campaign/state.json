@@ -185,7 +185,7 @@
             }
           ],
           "status": "active",
-          "email_note": "Sponsor 2026-11-26: the right address is joel.minnick@upwind.io. Gmail shows email 1 (11-23) went to joelminnick@upwind.io; no bounce seen."
+          "email_note": "Sent to joel.minnick@upwind.io on 2026-11-23 (sponsor screenshot of Gmail, 2026-11-26). The Gmail connector reports it without the dot; it drops dots from recipient addresses, so never correct an address from its toRecipients."
         }
       ]
     },
