@@ -113,7 +113,7 @@ def learn(docs_dir):
         d = d.get("data", d)
         name = (d.get("company") or "").strip()
         reason = {"field_not_interesting": "not_for_me"}.get(d.get("skip_reason"), d.get("skip_reason"))  # merged 2026-11-25
-        if reason in ("salary_low", "not_for_me"):
+        if reason in ("salary_low", "not_for_me", "not_remote"):  # not_remote: sponsor, 2026-11-26
             marks = fb.setdefault("sponsor_marks", {}).setdefault(reason, [])
             entry = {"role": d.get("role"), "company": name, "terms": d.get("terms"), "note": d.get("note"),
                      "marked": d.get("skipped_at")}
