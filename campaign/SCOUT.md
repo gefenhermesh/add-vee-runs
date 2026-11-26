@@ -186,6 +186,7 @@ The weekly scout no longer looks for job posts. An open SEO role it happens to f
    `campaign/scout/seeker/<date>.md`: the daily message, every role with its LinkedIn or seojobs link (the Apply
    button is on that page). Commit it with the rest of the run, and tell the manager "Seeker digest: <date>, N to
    apply, M maybe" in your report line.
+   **Low-end execution jobs (sponsor, 2026-11-26):** set `final: skip` for junior-style execution roles even when titled specialist (WordPress/CMS implementation, link building, outreach, on-page tasks, SEO VA, citation building, low hourly or monthly pay): he called Amalga Group's "SEO Implementation Specialist (WordPress)" a job paying about $1,000 a month for work nobody does anymore. Keep strategy, lead, manager and senior roles.
    **Growth titles (sponsor, 2026-11-25):** a growth / marketing / content title whose description is really SEO, GEO or
    AEO work is kept too (the script reads the description and needs SEO terms to carry it), even if it's a little
    outside his experience. Don't overturn these just for the title. The digest also lists today's new startup-board

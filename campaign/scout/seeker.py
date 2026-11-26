@@ -76,6 +76,10 @@ WORK_CONTEXT = re.compile(r"\b(remote|candidates?|applicants?|hire|hiring|work(i
                           r"time ?zones?|contract(or)?s?|position|role is open|open to)\b", re.I)
 STRONG_LATAM = re.compile(r"\b(latin america|latam|south america|central america|costa rica)\b", re.I)
 ONSITE = re.compile(r"\b(in[- ]office|on[- ]?site|onsite|hybrid|in[- ]person|presencial|h[ií]brido)\b", re.I)
+# Low-end execution roles count as junior (sponsor, 2026-11-26: "they probably pay 1000 per month and you do stuff
+# people don't do anymore", on Amalga Group's SEO Implementation Specialist (WordPress)).
+LOW_END = re.compile(r"\b(implementation specialist|wordpress|link ?build(er|ing)|outreach|backlink|citation|seo va|"
+                     r"virtual assistant|data entry|content upload|seo executive|seo associate)\b", re.I)
 JUNIOR = re.compile(r"\b(intern(ship)?|junior|jr\.?|entry[- ]level|trainee|assistant|graduate|practicante|pasante|"
                     r"est[aá]gi\w*|assistente|asistente|auxiliar|aprendiz)\b", re.I)
 SEO_ROLE = re.compile(r"(?<!non-)(?<!non )\b(seo|geo|aeo|search|organic|b\u00fasqueda|busca org\u00e2nica)\b", re.I)  # an SEO title
@@ -200,6 +204,8 @@ def _screen(post, desc):
         return {"lean": "skip", "why": ["Asia / Oceania hours or employer"], "quotes": sentences_with(ASIA_TEXT, desc)}
     if JUNIOR.search(post.get("title", "")):
         return {"lean": "skip", "why": ["junior or intern role"], "quotes": []}
+    if LOW_END.search(post.get("title", "")) and not re.search(r"\b(head|lead|director|manager|strateg\w*)\b", post.get("title", ""), re.I):
+        return {"lean": "skip", "why": ["low-end execution role (implementation, link building, outreach)"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
         hits = SEO_TERMS.findall(desc or "")
         if not (GROWTH_ROLE.search(post.get("title", "")) and len(hits) >= SEO_CORE_MIN):
