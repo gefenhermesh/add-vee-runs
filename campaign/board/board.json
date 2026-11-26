@@ -1,6 +1,21 @@
 {
- "updated_at": "2026-11-26T14:37:18+00:00",
+ "updated_at": "2026-11-26T14:37:46+00:00",
  "rows": [
+  {
+   "company": "Vega Security",
+   "slug": "vega-security",
+   "contact": "Scott Simkin",
+   "role": "CMO",
+   "email": "scott@vega.io",
+   "sent_at": "2026-11-20",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-20",
+   "next_due": "2026-11-26",
+   "state": "you_send",
+   "action": "Follow-up V is drafted in Gmail: review and send",
+   "draft_id": "r889746016731526635"
+  },
   {
    "company": "Upwind",
    "slug": "upwind",
@@ -26,21 +41,6 @@
    "followups_sent": 0,
    "max_followups": 2,
    "last_touch": "2026-11-22",
-   "next_due": "2026-11-26",
-   "state": "drafting",
-   "action": "Strategist is writing the next step",
-   "draft_id": null
-  },
-  {
-   "company": "Vega Security",
-   "slug": "vega-security",
-   "contact": "Scott Simkin",
-   "role": "CMO",
-   "email": "scott@vega.io",
-   "sent_at": "2026-11-20",
-   "followups_sent": 0,
-   "max_followups": 2,
-   "last_touch": "2026-11-20",
    "next_due": "2026-11-26",
    "state": "drafting",
    "action": "Strategist is writing the next step",

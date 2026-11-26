@@ -105,6 +105,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-25T16:36:14+00:00 followup: glow-io/1 email1 sent to CEO
 - 2026-11-26T14:29:47+00:00 followup: strategist started for vega-security/1 (session_01FkmvpMk2rSdM1Aq1YvfhAU)
 - 2026-11-26T14:29:47+00:00 followup: strategist started for bay/1 (session_01FkmvpMpq52ATtSXLVHzpNJ)
+- 2026-11-26T14:37:46+00:00 followup: vega-security/1 decision send V (Full engagement plus one recommendation per team; send Mon 2026-11-30 (US Thanksgiving today))
 
 ## Cohorts
 

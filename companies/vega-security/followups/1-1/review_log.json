@@ -1,0 +1,65 @@
+[
+ {
+  "round": 1,
+  "mode": "narrative",
+  "date": "2026-11-26",
+  "file": "output/vega-security/followups/1-1/email.md",
+  "reviewed_file_sha256": "8e24016d4d697ce27dd3a4f57df3baa9b409671f1ee7f389a4f2766e823ec280",
+  "verdict": "APPROVE_WITH_PATCH",
+  "findings": [
+   {
+    "location": "Customer marketing bullet",
+    "problem": "\"it's where most of the correct facts AI gives about Vega come from\" goes further than the claim on two counts. Scope: C-136 says the Anthropic story is the source of most correct customer, speed and data-handling facts, not most correct facts about Vega in general. Source: the evidence is one story (claude.com/customers/vega), but \"it's\" reads as customers' and partners' sites in general.",
+    "evidence": "C-136 (HIGH, CONFIRMED): 'is the source of most correct customer, speed and data-handling facts (41-second CloudTrail scan, 25-to-3-minute triage, Bedrock zero data retention, Frankfurt EU control plane)'. C-205 (MEDIUM) is the recommendation and relies on C-136.",
+    "fix": "Say the Anthropic story is where most of the correct customer, speed and data-handling facts come from (patch 3)."
+   },
+   {
+    "location": "Partners bullet",
+    "problem": "\"the answer to the 'you already own X' losses\" claims the docs would fix the problem, but the evidence only says they would give AI something to cite. The incumbents in those losses are CrowdStrike, Cribl and Databricks. Snowflake was not one of them, so the phrase also overstates how far the three named partners line up with the losses.",
+    "evidence": "C-088 (MEDIUM, CONFIRMED): four incumbent losses, where the buyer already runs CrowdStrike, Cribl Stream or Databricks. C-206 (MEDIUM): partner docs 'give AI a citable run-it-beside-what-you-have answer'.",
+    "fix": "Present it as aimed at those losses rather than as their answer (patch 2)."
+   },
+   {
+    "location": "Web bullet",
+    "problem": "\"so another Vega's facts stop answering for yours\" promises the result. C-210 only says the recommendation 'directly targets' the 13 brand-collision errors. A small softening states the aim without guaranteeing it.",
+    "evidence": "C-210 (HIGH, CONFIRMED) business_impact: 'Directly targets the 13 brand-collision errors'; C-184: 13 of 34 confirmed errors are wrong-entity.",
+    "fix": "Patch 1."
+   },
+   {
+    "location": "PR bullet (no change needed)",
+    "problem": "Checked and holds. \"nearly all of them leave Vega out\" matches 11 of the 12 third-party comparison pages that were fetched and read (C-133, HIGH). The editor-briefing recommendation is C-201, CONFIRMED.",
+    "evidence": "C-133 computed_value 11, sample_size 12.",
+    "fix": "None."
+   },
+   {
+    "location": "Full-version bullets and spec conformance (no change needed)",
+    "problem": "Checked and holds. The only statement about Vega in these bullets is 'from the CISO to the security data architect and vendor risk', which matches research.json personas P1, P4 and P5. narrative_check.py reports the email clean. It meets the spec: one line back to email 1, the six bullets in the spec's order, one recommendation for each of four teams, the line saying this isn't a subscription with the three forms in one sentence, one ask (the 20-minute walkthrough), the sign-off 'Best, Gefen', no 'just following up', and email 1's findings are not repeated as the point. The prose outside the bullets is about 100 words, inside the V target of about 150 plus bullets.",
+    "evidence": "narrative_check.py: 'email check: clean' (MEDIUM claims flagged for re-read: C-088, C-201, C-205, C-206; all re-read above).",
+    "fix": "None."
+   }
+  ],
+  "patches": [
+   {
+    "old": "so another Vega's facts stop answering for yours.",
+    "new": "to stop another Vega's facts answering for yours.",
+    "why": "States the aim C-210 supports ('directly targets') without promising the outcome."
+   },
+   {
+    "old": "the answer to the \"you already own X\" losses.",
+    "new": "aimed at the losses where AI told buyers to stay with the platform they already own.",
+    "why": "C-088/C-206 (MEDIUM) support that the docs target those losses with something AI can cite, not that they answer them."
+   },
+   {
+    "old": "it's where most of the correct facts AI gives about Vega come from.",
+    "new": "that one story is where most of the correct customer, speed and data-handling facts AI gives about Vega come from.",
+    "why": "C-136 limits it to customer, speed and data-handling facts and to the one claude.com story."
+   }
+  ],
+  "summary": "narrative_check is clean, and all eight cited claims are CONFIRMED and were read in full. The email follows the V spec. Three bullets say more than their claims support: the customer-marketing line widens C-136 to all correct facts and to every customer or partner site; the partners line calls a MEDIUM recommendation 'the answer' to the losses; the web line promises the outcome. Each is fixed by an exact wording patch. Once the three patches are applied, the email is approved.",
+  "patch_applied": {
+   "result_sha256": "d8c6f63eb3b5f505d9ad6c992ad6e9c8a9b05a48480427a05bcdbb115118d63d",
+   "applied_at": "2026-11-26",
+   "method": "exact text replacement, old values matched once each, file unchanged since review"
+  }
+ }
+]

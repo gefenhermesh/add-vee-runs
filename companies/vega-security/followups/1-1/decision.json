@@ -1,0 +1,16 @@
+{
+ "decision": "send",
+ "type": "V",
+ "to": {"name": "Scott Simkin", "role": "Chief Marketing Officer, Vega", "email": "scott@vega.io", "email_status": "inferred_pattern"},
+ "send_on": "2026-11-30",
+ "wait_until": null,
+ "angle": "What a full engagement looks like, plus one confirmed recommendation each for web, PR, partners and customer marketing.",
+ "why": "Email 1 (2026-11-20, no reply) gave Scott the headline findings and offered the report; it never said what working together would look like, so the default first follow-up (V) brings that as the one new thing. I checked for news since email 1 on vega.io/blog, vega.io/news, Vega's LinkedIn company page and a past-week Google News search (all via Bright Data, 2026-11-26): the newest items are the Entity Profiling launch (19 Nov) and an Atlanta 'Cyber for Good' event post (20 Nov), both on or before email 1, so there is no trigger for a T and nothing that suggests stopping. Today is US Thanksgiving and Scott is based in San Jose, so the send date is Monday 30 Nov rather than the holiday or Black Friday. Two candidate recommendations (C-211 explicit facts, C-202 review profile) were swapped out because they rest on C-139, whose G2 page was never readable and still returned an empty page via Bright Data today; C-210 and C-205 replaced them. The campaign learning (5 sent, 0 replies, 0 settled) got no weight: too early to say anything.",
+ "evidence": ["C-210", "C-184", "C-201", "C-133", "C-206", "C-088", "C-205", "C-136",
+   "https://vega.io/blog (newest post 19 Nov 2026, Entity Profiling)",
+   "https://vega.io/news (newest item 29 Sep 2026)",
+   "https://www.linkedin.com/company/vega-security-io/ (newest post 2026-11-20T17:27Z)"],
+ "subject": null,
+ "checks": {"narrative_check": "clean", "reviewer": "APPROVE_WITH_PATCH applied"},
+ "notes": "narrative_check run from master's scripts/narrative_check.py (this branch's copy predates email support). Reviewer verdict and the applied-patch hash are in review_log.json. Thread rules: Scott's first follow-up (0 before), one person so far, no reply."
+}
