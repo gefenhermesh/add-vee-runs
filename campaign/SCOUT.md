@@ -49,6 +49,18 @@ High = high need with someone to write to and growth. Medium = medium need, or o
 Record `"b2b": true|false` in scout.json, and the `buying_journey` feature: `committee` (business buying committee), `household` (a family or couple decides), `considered` (long or high-stakes journey, one or two deciders) or `transactional` (don't propose).
 **Open check:** confirm in the add-vee repo that the report and personas handle a household committee as well as a business one before a non-B2B company's audit runs.
 
+## The right moment (the sponsor's note to himself and the system, 2026-11-26)
+An add-vee email lands best at one of three moments. Look for them, record which one (`moment` in `features`), and
+let it shape the pick and the offer:
+- **`hiring_seo`: they're hiring for SEO now.** The open door. The daily route finds these; the role is the ask.
+- **`about_to_hire_seo`: they're starting to feel the need for an SEO hire.** A bit more mature (typically Series B
+  and up, a marketing team that's growing, a new CMO or VP Marketing, content or growth hires, a blog that's grown
+  without an SEO owner, rivals winning on search or AI), but no SEO role posted yet. Arrive one step before the job
+  post: burst into the open door. The second step offers the role.
+- **`early_outside_help`: earlier stage, would benefit from outside help.** Seed to Series A, founder-led or a
+  one-person marketing team, no capacity for a full-time SEO yet. The second step offers a service or retainer.
+- `other`: none of these clearly; say why. A company that fits no moment is a weak pick, however good the audit.
+
 ## The signals that mattered most in practice
 - **New or renamed category language** (e.g. "Agentic Exposure Management"). It usually comes with an education/content push.
 - **Marketing leadership hires: a required, actively searched check** (see gating below).

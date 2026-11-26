@@ -54,15 +54,16 @@ FEATURES = {
     "buying_journey": "committee, household, considered, transactional (SCOUT.md: who fits)",
     "seo_need": "high, medium, low, unassessed (SCOUT.md: buyer research, competition in search, cost of absence)",
     "remote_hiring": "remote_global, remote_americas, remote_us_only, office, unknown (SCOUT.md: how they hire)",
+    "moment": "hiring_seo, about_to_hire_seo, early_outside_help, other (SCOUT.md: the right moment)",
 }
 # Features recorded as "unknown" when a scout file predates them (added later, so older files can't have them).
-LATE_FEATURES = {"remote_hiring": "unknown"}
+LATE_FEATURES = {"remote_hiring": "unknown", "moment": "other"}
 
 # Until enough replies come in to learn from, every week's set is a deliberate mix (sponsor, 2026-11-26): no two
 # picks repeat the same value on these aspects where the candidates allow it, and at least REMOTE_FIRST_MIN picks are
 # remote-first companies. Once WARMUP_REPLIES replies are logged, the usual exploit/explore split takes over and the
 # mix rule only shapes the explore share.
-MIX_DIMS = ("remote_hiring", "industry", "stage", "situation", "geo")
+MIX_DIMS = ("moment", "remote_hiring", "industry", "stage", "situation", "geo")
 REMOTE_FIRST = {"remote_global", "remote_americas"}
 REMOTE_FIRST_MIN = 1
 WARMUP_REPLIES = 3
