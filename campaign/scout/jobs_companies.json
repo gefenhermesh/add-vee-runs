@@ -15568,7 +15568,22 @@
   "last_seen": "2026-11-26",
   "offered": "2026-11-26",
   "why": "Air Apps: consumer mobile apps maker (Lisbon/SF); B2C, not for the job route",
-  "classified_at": "2026-11-26"
+  "classified_at": "2026-11-26",
+  "open_check": {
+   "url": "https://www.linkedin.com/jobs/view/search-engine-optimization-seo-specialist-at-air-apps-4480066713",
+   "state": "open",
+   "post": "unknown (login wall)",
+   "company_board": "ashby:airapps",
+   "matching_roles": [
+    "AI/ML Engineer",
+    "Search Engine Optimization (SEO) Specialist",
+    "QA Engineer",
+    "Search Engine Optimization (SEO) Specialist",
+    "QA Engineer"
+   ],
+   "careers_page_mentions_seo": null,
+   "checked": "2026-11-26T20:33:17+00:00"
+  }
  },
  "victoria's-secret": {
   "name": "Victoria’s Secret & Co.",
