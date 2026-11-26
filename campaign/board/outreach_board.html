@@ -33,7 +33,7 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 .pill{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
 .s-replied,.s-you_send{background:var(--you-bg);color:var(--you)}
 .s-due{background:var(--due-bg);color:var(--due)}
-.s-drafting{background:var(--busy-bg);color:var(--busy)}
+.s-drafting,.s-scheduled_send{background:var(--busy-bg);color:var(--busy)}
 .s-waiting,.s-scheduled{background:var(--calm-bg);color:var(--calm)}
 .s-done{background:var(--ok-bg);color:var(--ok)}
 .dots{letter-spacing:2px;color:var(--accent)}
@@ -63,7 +63,7 @@ td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
 </div>
 
 <script>
-const LABEL={replied:"Replied",you_send:"Send it",due:"Due",drafting:"Drafting",waiting:"Waiting",scheduled:"Scheduled",done:"Done"};
+const LABEL={replied:"Replied",you_send:"Send it",scheduled_send:"Scheduled",due:"Due",drafting:"Drafting",waiting:"Waiting",scheduled:"Scheduled",done:"Done"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt=d=>{if(!d)return"–";const t=new Date(d+"T12:00:00Z");return t.toLocaleDateString(undefined,{weekday:"short",day:"numeric",month:"short"})};
 fetch("board.json").then(r=>r.json()).then(b=>{

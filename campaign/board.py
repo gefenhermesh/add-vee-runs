@@ -28,13 +28,16 @@ def next_due(last, weekend):
 
 def build(state, at):
     rows, waiting_email1 = [], []
+    sq = {q["slug"]: q for q in state.get("send_queue", [])}
     for p in state["prospects"]:
         threads = p.get("threads", [])
         name = p.get("company") or p.get("name") or p["slug"]
         if not threads:
             if p.get("status") == "done" and p.get("draft_id"):
-                waiting_email1.append({"company": name, "slug": p["slug"], "draft_id": p.get("draft_id"),
-                                       "note": p.get("draft_note") or "email 1 drafted, waiting for a verified address"})
+                note = p.get("draft_note") or "email 1 drafted, waiting for a verified address"
+                if p["slug"] in sq:
+                    note += f". Scheduled {sq[p['slug']]['local']} once you confirm the address"
+                waiting_email1.append({"company": name, "slug": p["slug"], "draft_id": p.get("draft_id"), "note": note})
             continue
         weekend = set(threads[0].get("weekend", [5, 6]))
         tl = fu.touches(p)
@@ -48,6 +51,8 @@ def build(state, at):
                 state_, action = "replied", "Reply received: answer it yourself"
             elif st != "active":
                 state_, action = st, "Closed"
+            elif draft and p["slug"] in sq:
+                state_, action = "scheduled_send", f"Follow-up drafted; sends {sq[p['slug']]['local']} unless a reply comes in"
             elif draft:
                 state_, action = "you_send", f"Follow-up {draft.get('type','')} is drafted in Gmail: review and send"
             elif t.get("pending"):
@@ -69,7 +74,7 @@ def build(state, at):
                 "state": state_, "action": action,
                 "draft_id": draft.get("draft_id") if draft else None,
             })
-    order = {"replied": 0, "you_send": 1, "due": 2, "drafting": 3, "waiting": 4, "scheduled": 5, "done": 6}
+    order = {"replied": 0, "you_send": 1, "scheduled_send": 2, "due": 2, "drafting": 3, "waiting": 4, "scheduled": 5, "done": 6}
     rows.sort(key=lambda r: (order.get(r["state"], 9), r["next_due"] or "9999"))
     return {"updated_at": fu.iso(at), "rows": rows, "email1_waiting": waiting_email1}
 

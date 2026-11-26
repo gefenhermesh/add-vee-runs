@@ -59,9 +59,12 @@ While `state.json` → `settings.brightdata_paused` is true: no Bright Data call
 7. Write `/tmp/results.json` (each action plus `"ok"`, plus `session_id` / `draft_id` where relevant, plus `error` if it failed). Run `python campaign/tick.py apply /tmp/results.json`, then commit and push.
 8. Reply: the notification lines first, then one line per other action. Nothing else.
 
+## Scheduled sending (sponsor, 2026-11-26: "can you schedule the sending from here and use the gmail tool to send")
+`state.json` → `send_queue` lists each draft the sponsor has seen with its send time (recipient's morning), and a one-shot reminder (`send_later`) fires into this session at that time. On firing: check the thread for a reply since the last send (any reply: don't send, tell the sponsor); take the current `draft_id` from state.json; for an email 1, send only if the sponsor has given a verified address in this chat; then `send_message` with `draftId`, record it (`followup.py sent` / `step-sent`, `learn.py`), drop it from `send_queue`, refresh the board and the Startups tab, and tell the sponsor in one line. New follow-ups drafted by strategists get a `send_queue` entry and a reminder at their `send_on` date only after the sponsor has seen the draft (one line: "<Company> follow-up drafted, sends <day time> unless you say hold"); he can say hold or change it any time.
+
 ## Never
 - Never change, "correct" or doubt a recipient address from what the Gmail connector reports (sponsor, 2026-11-26). The connector drops dots from addresses in `toRecipients` (it showed joelminnick@upwind.io for a mail the sponsor sent to joel.minnick@upwind.io), so its sent record is not proof of where a mail went. Keep the address the sponsor gave or sent to; if two sources disagree, ask the sponsor in one line and change nothing until they answer.
 - Never paste company material (research, findings, drafts, coverage) into this chat. One-line status and links only; this session must stay small.
-- Never send email or contact anyone. Drafts only; the sponsor sends.
+- Never send email or contact anyone except a `send_queue` entry at its time (see Scheduled sending).
 - Never start a company that isn't `queued`. The sponsor releases companies (`held`/`proposed` → `queued`).
 - Never do a company's audit work in the manager session.

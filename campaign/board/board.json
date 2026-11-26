@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T15:24:51+00:00",
+ "updated_at": "2026-11-26T15:30:34+00:00",
  "rows": [
   {
    "company": "Bay",
@@ -12,8 +12,8 @@
    "max_followups": 2,
    "last_touch": "2026-11-22",
    "next_due": "2026-11-26",
-   "state": "you_send",
-   "action": "Follow-up V is drafted in Gmail: review and send",
+   "state": "scheduled_send",
+   "action": "Follow-up drafted; sends Sun 29 Nov 09:00 Israel unless a reply comes in",
    "draft_id": "r-6226320085471266686"
   },
   {
@@ -27,8 +27,8 @@
    "max_followups": 2,
    "last_touch": "2026-11-20",
    "next_due": "2026-11-26",
-   "state": "you_send",
-   "action": "Follow-up V is drafted in Gmail: review and send",
+   "state": "scheduled_send",
+   "action": "Follow-up drafted; sends Mon 30 Nov 10:30 ET unless a reply comes in",
    "draft_id": "r5234066638017946011"
   },
   {
@@ -42,8 +42,8 @@
    "max_followups": 2,
    "last_touch": "2026-11-23",
    "next_due": "2026-11-27",
-   "state": "you_send",
-   "action": "Follow-up N is drafted in Gmail: review and send",
+   "state": "scheduled_send",
+   "action": "Follow-up drafted; sends Mon 30 Nov 09:00 ET unless a reply comes in",
    "draft_id": "r3972642650547094863"
   },
   {
@@ -82,13 +82,13 @@
    "company": "Help Scout",
    "slug": "help-scout",
    "draft_id": "r6518931599953251528",
-   "note": "Andrea Kayal, CRO: address is a guess"
+   "note": "Andrea Kayal, CRO: address is a guess. Scheduled Tue 1 Dec 09:00 ET once you confirm the address"
   },
   {
    "company": "GC AI",
    "slug": "gc-ai",
    "draft_id": "r986702943946060068",
-   "note": "Julien Sauvage, CMO: address is a guess"
+   "note": "Julien Sauvage, CMO: address is a guess. Scheduled Tue 1 Dec 09:00 PT once you confirm the address"
   },
   {
    "company": "Reducto",
@@ -100,7 +100,7 @@
    "company": "Paddle",
    "slug": "paddle",
    "draft_id": "r-7391112473048820372",
-   "note": "Piers Garthwaite, Head of Web: title and address unconfirmed"
+   "note": "Piers Garthwaite, Head of Web: title and address unconfirmed. Scheduled Fri 27 Nov 09:00 London once you confirm the address"
   },
   {
    "company": "Synthesia",
