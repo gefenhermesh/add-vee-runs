@@ -150,10 +150,30 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
    - **Never report a run as complete without its coverage list.** A source that wasn't read is written down as not read, with the reason.
    - CTech headlines sometimes name a company only in the teaser. Those leads are `(unresolved) …`; read the article to get the company before filtering.
    - **Every new lead goes into the queue**, merged with what is already there: `python campaign/scout/scout_queue.py add-longlist` for the script's leads, `scout_queue.py add "<name>" --source <source> [--note ...] [--b2b yes|no] [--trigger-date ...]` for the ones covered by hand. Nothing is filtered here ("How it runs", step 1).
+   - **Remote-first startups from Next Play (sponsor, 2026-11-26), one or two a week.** Load the Next Play connector
+     (ToolSearch "next play jobs") and call `mcp__nextplay__search_companies` with `remote: true`,
+     `roleTypes: ["marketing"]`, `experienceLevels: ["senior", "management"]`, paging a few pages, rotating
+     `companyIndustries` week to week so the mix isn't all one sector. Queue the venture-backed B2B ones
+     (`scout_queue.py add "<name>" --source nextplay_remote --note "<round, date, industry>"`). Recon still decides:
+     a remote marketing job proves remote hiring, not fit. If the connector isn't available, say so in the coverage list
+     and use the companies in the daily job list (`campaign/scout/seeker/`) that post remote roles open to LATAM or
+     worldwide instead.
 2. **Take one batch** (`python campaign/scout/scout_queue.py batch 50` until the queue is clean, then the week's new leads) and **light check** each company with real sources. Write `campaign/scout/batch_<date>.md`, one line each: `recon` / `hold` / `drop` with the reason. Put holds back (`scout_queue.py hold <name> "<note>"`), mark drops (`scout_queue.py drop <name> "<reason>"`), and mark the ones worth deep recon `scout_queue.py recon <name> "<why>"`: they wait as `recon_ready` until a run has room. `scout_queue.py status` shows how clean the table is; put that line in the run log.
 3. **Recon deeply the best 2-4** of the batch (skip this step while 10+ companies are already proposed), using the sources that help (above) within the Bright Data budget: marketing leadership and SEO team (gating), **SEO need**, **reply odds**, situation, trigger, recipient candidates, the outreach hook. Brief for recon agents: `campaign/scout/RECON_BRIEF.md`. Use `readers.read_job_board(<board name>)` for open roles, and the no-footprint LinkedIn check. Write `companies/<slug>/scout.json` with `"scout_version": 4` and every field `propose.py` requires (`company, domain, reason, gating_rating, seo_need{rating,...}, reply_odds{rating,why}, brightdata_requests, features, contacts, sources[{url, date, kind}]`). Mark them `scout_queue.py done <name> <slug>`.
    **The weekly scout doesn't look for job posts (sponsor, 2026-11-25):** every job board and job channel is the daily route's. Before calling a company "blocked" (an SEO team in place), look it up in `campaign/scout/jobs_companies.json`: an open SEO role there means it goes the job route (no SEO-team blocker there), not held. Example: DealHub was held blocked while its Senior SEO & GEO Specialist role was open in the Telegram channel.
    **Hiring for SEO right now is a priority signal (sponsor, 2026-11-20).** If recon finds an open SEO, organic or AI-search role (careers page, Ashby/Greenhouse/Lever, or the daily jobs list in `jobs_companies.json`), give the company `"track": "seo_job"`, `"job": {...}` and `gating_rating: "seo_job_opening"`, as in the daily route: it's proposed with priority and gets the "I'd love to be considered" email. Junior and intern roles don't count.
+   **Record how each recon company hires: `remote_hiring` (sponsor, 2026-11-26).** One of `remote_global` (remote
+   roles open anywhere or worldwide), `remote_americas` (remote open to LATAM or the Americas), `remote_us_only` (remote
+   but US only), `office` (office or hybrid only), `unknown`. Evidence: their own job posts and careers page, where
+   current staff are (public pages only), and contractor-platform mentions (Deel, Remote.com, Oyster); quote it in
+   `scout.json` with the source, like every other finding. It goes in `features` and drives the mix below.
+   **A deliberate mix until replies come in (sponsor, 2026-11-26).** Until enough replies exist to learn from, the
+   week's picks are spread across aspects (how they hire, industry, stage, situation, geography) rather than more of
+   the same, and at least one pick is remote-first (`remote_global` or `remote_americas`) when one is proposed:
+   `propose.py pick` does this (`learn.py`: MIX_DIMS, REMOTE_FIRST_MIN, WARMUP_REPLIES). Recon with that in mind:
+   don't recon four companies that differ only in name. Once replies arrive, the reply rates per aspect take over
+   and the ratios follow the results. Remote-first companies fit both of the sponsor's outcomes (a role he can take
+   from Costa Rica, or helping alongside the team); office-based ones mainly the second.
 4. `python campaign/scout/propose.py check` until every file is OK, then `propose.py add <slugs>` (status `proposed`, never queued) and `propose.py pick 5`.
 5. Commit and push, then send the manager **one line**: "Scout: N proposed, picks: a, b, c, d, e (explore: x)". The manager passes it to the sponsor in one line; the sponsor releases companies in the manager chat ("release a, b").
 

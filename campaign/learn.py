@@ -53,7 +53,19 @@ FEATURES = {
     "contact_verified": "yes, no",
     "buying_journey": "committee, household, considered, transactional (SCOUT.md: who fits)",
     "seo_need": "high, medium, low, unassessed (SCOUT.md: buyer research, competition in search, cost of absence)",
+    "remote_hiring": "remote_global, remote_americas, remote_us_only, office, unknown (SCOUT.md: how they hire)",
 }
+# Features recorded as "unknown" when a scout file predates them (added later, so older files can't have them).
+LATE_FEATURES = {"remote_hiring": "unknown"}
+
+# Until enough replies come in to learn from, every week's set is a deliberate mix (sponsor, 2026-11-26): no two
+# picks repeat the same value on these aspects where the candidates allow it, and at least REMOTE_FIRST_MIN picks are
+# remote-first companies. Once WARMUP_REPLIES replies are logged, the usual exploit/explore split takes over and the
+# mix rule only shapes the explore share.
+MIX_DIMS = ("remote_hiring", "industry", "stage", "situation", "geo")
+REMOTE_FIRST = {"remote_global", "remote_americas"}
+REMOTE_FIRST_MIN = 1
+WARMUP_REPLIES = 3
 
 
 def now():
@@ -206,14 +218,35 @@ def pick(rows, candidates, n, at, seed=None):
         return sum(1 for f, v in (c.get("features") or {}).items()
                    if (s.get(f, {}).get(v) or (0, 0))[1] < MIN_N)
 
-    n_explore = round(n * EXPLORE_SHARE)
+    def mixed(pool, k, chosen=()):
+        """Greedy: each next pick adds the most aspect values not yet in the set (then novelty, then chance)."""
+        out, have = [], {d: {(c.get("features") or {}).get(d) for c in chosen} for d in MIX_DIMS}
+        pool = list(pool)
+        while pool and len(out) < k:
+            def gain(c):
+                f = c.get("features") or {}
+                return sum(1 for d in MIX_DIMS if f.get(d) not in have[d])
+            best = max(pool, key=lambda c: (gain(c), novelty(c), rng.random()))
+            out.append(best)
+            pool.remove(best)
+            for d in MIX_DIMS:
+                have[d].add((best.get("features") or {}).get(d))
+        return out
+
     pool = list(candidates)
-    explore = sorted(pool, key=lambda c: (-novelty(c), rng.random()))[:n_explore]
-    explore = [c for c in explore if novelty(c) > 0]
-    rest = [c for c in pool if c not in explore]
-    exploit = sorted(rest, key=lambda c: -sampled_rate(c))[: n - len(explore)]
-    out = [{**c, "why_picked": "exploit"} for c in exploit] + [{**c, "why_picked": "explore"} for c in explore]
-    return out
+    n_replies = sum(1 for r in rows if replied(r))
+    remote_first = [c for c in pool if (c.get("features") or {}).get("remote_hiring") in REMOTE_FIRST]
+    seed_rf = sorted(remote_first, key=lambda c: (-novelty(c), rng.random()))[:min(REMOTE_FIRST_MIN, n)]
+    rest_pool = [c for c in pool if c not in seed_rf]
+    if n_replies < WARMUP_REPLIES:  # warm-up: a deliberate mix, nothing to exploit yet
+        mix = mixed(rest_pool, n - len(seed_rf), chosen=seed_rf)
+        return ([{**c, "why_picked": "remote_first"} for c in seed_rf] + [{**c, "why_picked": "mix"} for c in mix])
+    n_explore = max(0, round(n * EXPLORE_SHARE) - len(seed_rf))
+    explore = mixed([c for c in rest_pool if novelty(c) > 0], n_explore, chosen=seed_rf)
+    rest = [c for c in rest_pool if c not in explore]
+    exploit = sorted(rest, key=lambda c: -sampled_rate(c))[: n - len(explore) - len(seed_rf)]
+    return ([{**c, "why_picked": "remote_first"} for c in seed_rf] + [{**c, "why_picked": "exploit"} for c in exploit]
+            + [{**c, "why_picked": "explore"} for c in explore])
 
 
 def cmd_pick(a):

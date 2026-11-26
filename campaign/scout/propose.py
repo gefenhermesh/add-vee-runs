@@ -28,7 +28,7 @@ GATING = {"sweet_spot", "single_seo", "blocked_seo_team", "no_leader_exception",
 def problems(rec):
     out = [f"missing {k}" for k in REQUIRED if not rec.get(k)]
     feats = rec.get("features") or {}
-    out += [f"feature {f} missing" for f in learn.FEATURES if f not in feats]
+    out += [f"feature {f} missing" for f in learn.FEATURES if f not in feats and f not in learn.LATE_FEATURES]
     out += [f"unknown feature {f}" for f in feats if f not in learn.FEATURES]
     if rec.get("gating_rating") and rec["gating_rating"] not in GATING:
         out.append(f"gating_rating must be one of {sorted(GATING)}")
@@ -98,7 +98,7 @@ def cmd_add(slugs):
         state["prospects"].append({"slug": slug, "company": rec["company"], "domain": rec["domain"], "status": "proposed",
                                    "b2b": rec.get("b2b", True),
                                    "reason": rec["reason"], "gating_rating": rec["gating_rating"],
-                                   "features": rec["features"], "source": "scout",
+                                   "features": {**learn.LATE_FEATURES, **rec["features"]}, "source": "scout",
                                    **({"track": "seo_job", "job": rec["job"], "priority": 1} if rec.get("track") == "seo_job" else {})})
         print(f"{slug}: proposed")
     state_p.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")

@@ -60,6 +60,19 @@ class LearnTest(unittest.TestCase):
         exploit = [s for s, w in whys.items() if w == "exploit"]
         self.assertTrue(all(s.startswith("dev") for s in exploit))  # winners exploited
 
+    def test_warmup_is_a_mix_with_a_remote_first_pick(self):
+        cands = [{"slug": f"sec{i}", "features": {"industry": "security", "stage": "series_a", "remote_hiring": "office"}}
+                 for i in range(5)] + \
+                [{"slug": "fin", "features": {"industry": "fintech", "stage": "series_b", "remote_hiring": "remote_us_only"}},
+                 {"slug": "hr", "features": {"industry": "hr_tech", "stage": "seed", "remote_hiring": "remote_global"}},
+                 {"slug": "dev", "features": {"industry": "devtools", "stage": "series_c_plus", "remote_hiring": "office"}}]
+        picks = learn.pick([], cands, 4, AT, seed=2)  # no replies yet: warm-up
+        whys = {p["slug"]: p["why_picked"] for p in picks}
+        self.assertEqual(whys.get("hr"), "remote_first")
+        industries = [next(c for c in cands if c["slug"] == s)["features"]["industry"] for s in whys]
+        self.assertEqual(len(industries), len(set(industries)))  # four picks, four different industries
+        self.assertTrue(all(w in ("mix", "remote_first") for w in whys.values()))
+
     def test_add_rejects_untracked_feature(self):
         f = Path(self.tmp.name) / "r.json"
         f.write_text('{"slug":"x","sent_at":"2026-12-01T00:00:00+00:00","features":{"vibes":"good"}}')

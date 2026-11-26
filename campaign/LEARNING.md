@@ -38,3 +38,6 @@ Variety on purpose:
 - recipient roles: CEO and marketing leader.
 
 The sponsor's held picks (Vega, Gambit, Upwind, glow.io) go first, with features recorded like everything else.
+
+## Warm-up mix and remote hiring (sponsor, 2026-11-26)
+Until `WARMUP_REPLIES` replies are logged, `learn.pick` doesn't exploit anything: each week's picks are a deliberate mix across `MIX_DIMS` (how they hire, industry, stage, situation, geography), and at least `REMOTE_FIRST_MIN` pick is remote-first (`remote_hiring` = remote_global or remote_americas) when one is proposed. After that, the usual exploit/explore split runs, with the mix rule shaping the explore share, so the ratios follow the reply rates. `remote_hiring` is a new feature; scout files from before 2026-11-26 count as `unknown`.
