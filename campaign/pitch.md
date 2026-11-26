@@ -9,7 +9,7 @@ Everything in [square brackets] needs the sponsor's real details. The voice samp
 ## 00. Email 1, version 3 (sponsor, 2026-11-24). Overrides everything below that conflicts
 
 - **Written for the company's need, never a fixed template:** get into the conversation / make the content count /
-  hold their position / find the cracks / clean up what AI says. The need picks the findings, recommendations,
+  hold their position / find the openings (where they can break in) / clean up what AI says. The need picks the findings, recommendations,
   subject and follow-up topics (add-vee docs/campaign/company-session.md section 3 has the table).
 - **Email 1 shows the work and asks for their view** ("Does this match what you're seeing?"). No role or partnership
   ask: a small ask gets more replies in a cold first email, and asking for someone's view makes the asker look more
