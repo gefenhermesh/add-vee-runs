@@ -7,7 +7,8 @@
     "brightdata_paused": false,
     "campaign_paused": false,
     "one_at_a_time": true,
-    "hold_new_work_until": "2026-11-28T05:00:00Z"
+    "hold_new_work_until": "2026-11-28T05:00:00Z",
+    "queue_rule": "sponsor 2026-11-26: one queue ranked by how likely the company is to hire the sponsor remotely (remote anywhere/LATAM > fully remote > US remote > hybrid small > office/on-site); queue_rank in each prospect, gate-approved or not"
   },
   "prospects": [
     {
@@ -1021,7 +1022,7 @@
         "reports_to": "not stated; Head of Marketing (open since 2024) would own SEO/AEO per its JD; today inferred CEO"
       },
       "priority": 1,
-      "queue_rank": 7,
+      "queue_rank": 10,
       "queued_at": "2026-11-26T15:15:00+00:00",
       "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely"
     },
@@ -1213,7 +1214,7 @@
         "reports_to": "not stated (Marketing team; marketing heads report to the VP of Marketing)"
       },
       "priority": 1,
-      "queue_rank": 6,
+      "queue_rank": 8,
       "queued_at": "2026-11-26T15:15:00+00:00",
       "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely"
     },
@@ -1408,7 +1409,8 @@
         "ts": "2026-11-25T14:01:43Z",
         "order": 2,
         "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?"
-      }
+      },
+      "queue_rank": 6
     },
     {
       "slug": "payhawk",
@@ -1467,7 +1469,8 @@
         "ts": "2026-11-25T16:33:30Z",
         "order": 0,
         "sponsor_words": "approve payhawk"
-      }
+      },
+      "queue_rank": 9
     },
     {
       "slug": "profound",
@@ -1688,7 +1691,7 @@
         "words": "release dealhub",
         "at": "2026-11-25T18:38:02+00:00"
       },
-      "queue_rank": 1
+      "queue_rank": 7
     },
     {
       "slug": "kraken",
@@ -1735,9 +1738,10 @@
         "seniority": "mid-level IC execution role: 2+ yrs hands-on SEO, CMS delivery (Sanity), metadata, internal links, localisation, Jira; below the sponsor's level (nine years, strategy)",
         "reports_to": "Head of SEO & AEO (named in the JD, person not identified); works closely with the SEO & AEO Content Lead"
       },
-      "priority": 10,
+      "priority": 1,
       "queued_at": "2026-11-26T15:20:00+00:00",
-      "release_note": "sponsor 2026-11-26: urgent; wait for the usage reset (2026-11-28 05:00 UTC), then first in line"
+      "release_note": "sponsor 2026-11-26: urgent; wait for the usage reset (2026-11-28 05:00 UTC), then first in line",
+      "queue_rank": 1
     }
   ],
   "rules": {

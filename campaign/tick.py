@@ -159,28 +159,26 @@ def plan(state, sessions, now):
     hold = state["settings"].get("hold_new_work_until")
     if hold and now < parse(hold):
         return actions  # sponsor, 2026-11-25: weekly usage limit; release and start nothing until it renews
-    URGENT = 10  # sponsor, 2026-11-26: an urgent company (priority >= 10) starts before held approvals are released
+    # Sponsor, 2026-11-26: one queue, one order. Every waiting company (gate-approved or not yet started) carries a
+    # queue_rank set by the sponsor's priority: most likely to hire the sponsor remotely first. The lowest rank goes
+    # next: a gate-approved one is released (the manager writes its approval file), a queued one is started.
+    # Ties and unranked companies fall back to priority, then gate-approval time.
     if state["settings"].get("one_at_a_time") and running < cap:
-        urgent = [p for p in state["prospects"] if p.get("status") == "queued" and int(p.get("priority") or 0) >= URGENT]
-        if urgent:
-            p = sorted(urgent, key=lambda p: (-int(p.get("priority") or 0), p.get("queue_rank") or 999))[0]
-            actions.append({"do": "start", "slug": p["slug"], "source_url": ADD_VEE_REPO,
-                            "title": f"add-vee campaign: {p['company']}",
-                            "prompt": START_PROMPT.format(company=p["company"], domain=p.get("domain", ""), slug=p["slug"])
-                            + (JOB_TRACK.format(**p["job"]) if p.get("track") == "seo_job" else "")})
+        waiting = [p for p in state["prospects"] if p.get("status") in ("approved_waiting", "queued")]
+        if waiting:
+            def key(p):
+                return (p.get("queue_rank") or 999, 0 if p.get("status") == "approved_waiting" else 1, -int(p.get("priority") or 0),
+                        (p.get("gate_approval") or {}).get("ts") or "9", (p.get("gate_approval") or {}).get("order", 0))
+            p = sorted(waiting, key=key)[0]
+            if p["status"] == "approved_waiting":
+                actions.append({"do": "release_gate", "slug": p["slug"], "session_id": p.get("session_id"),
+                                "branch": f"campaign/{p['slug']}", **(p.get("gate_approval") or {})})
+            else:
+                actions.append({"do": "start", "slug": p["slug"], "source_url": ADD_VEE_REPO,
+                                "title": f"add-vee campaign: {p['company']}",
+                                "prompt": START_PROMPT.format(company=p["company"], domain=p.get("domain", ""), slug=p["slug"])
+                                + (JOB_TRACK.format(**p["job"]) if p.get("track") == "seo_job" else "")})
             return actions
-    if state["settings"].get("one_at_a_time") and running < cap:
-        # Sponsor, 2026-11-25: one audit works at a time. Finish what the sponsor already approved before starting
-        # a new Loop A: release the earliest-approved held company (the manager writes its approval file then).
-        held = sorted((p for p in state["prospects"] if p.get("status") == "approved_waiting"),
-                      key=lambda p: ((p.get("gate_approval") or {}).get("ts") or "", (p.get("gate_approval") or {}).get("order", 0)))
-        if held:
-            p = held[0]
-            actions.append({"do": "release_gate", "slug": p["slug"], "session_id": p.get("session_id"),
-                            "branch": f"campaign/{p['slug']}", **(p.get("gate_approval") or {})})
-            running += 1
-    # SEO-job finds first; within a priority, the sponsor's order (queue_rank: sponsor, 2026-11-26, most likely to hire
-    # the sponsor remotely first); stable otherwise
     order = sorted(state["prospects"], key=lambda p: (-int(p.get("priority") or 0), p.get("queue_rank") or 999))
     for p in order:
         if running >= cap:

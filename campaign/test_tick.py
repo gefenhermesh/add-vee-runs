@@ -210,16 +210,17 @@ def test_hold_new_work_until_blocks_release_and_start(tmp_path, monkeypatch):
     assert [x["do"] for x in tick.plan(state, {}, after)] == ["release_gate"]
 
 
-def test_urgent_queued_starts_before_held_approvals(tmp_path, monkeypatch):
+def test_queue_rank_orders_approved_and_queued_together(tmp_path, monkeypatch):
     import datetime as dt
     import tick
     monkeypatch.setattr(tick, "ROOT", tmp_path)
     (tmp_path / "companies").mkdir()
     state = {"settings": {"max_concurrent_running": 1, "one_at_a_time": True}, "prospects": [
-        {"slug": "held", "company": "Held", "status": "approved_waiting", "session_id": "sh",
+        {"slug": "held", "company": "Held", "status": "approved_waiting", "session_id": "sh", "queue_rank": 3,
          "gate_approval": {"ts": "2026-11-25T13:00:00Z", "sponsor_words": "Approve"}},
-        {"slug": "late", "company": "Late", "status": "queued", "priority": 1, "queue_rank": 2},
-        {"slug": "urgent", "company": "Urgent", "status": "queued", "priority": 10, "domain": "u.com"}]}
+        {"slug": "remote", "company": "Remote", "status": "queued", "priority": 1, "queue_rank": 1, "domain": "r.com"},
+        {"slug": "late", "company": "Late", "status": "queued", "priority": 1, "queue_rank": 2}]}
     now = dt.datetime(2026, 11, 26, 12, tzinfo=dt.timezone.utc)
-    acts = tick.plan(state, {}, now)
-    assert [(x["do"], x["slug"]) for x in acts] == [("start", "urgent")]
+    assert [(x["do"], x["slug"]) for x in tick.plan(state, {}, now)] == [("start", "remote")]
+    state["prospects"][1]["status"] = "done"; state["prospects"][2]["queue_rank"] = 5
+    assert [(x["do"], x["slug"]) for x in tick.plan(state, {}, now)] == [("release_gate", "held")]
