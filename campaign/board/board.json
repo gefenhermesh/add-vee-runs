@@ -1,6 +1,21 @@
 {
- "updated_at": "2026-11-26T14:37:46+00:00",
+ "updated_at": "2026-11-26T14:57:43+00:00",
  "rows": [
+  {
+   "company": "Bay",
+   "slug": "bay",
+   "contact": "Yuval",
+   "role": "CEO",
+   "email": "yuval@bay.io",
+   "sent_at": "2026-11-22",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-22",
+   "next_due": "2026-11-26",
+   "state": "you_send",
+   "action": "Follow-up V is drafted in Gmail: review and send",
+   "draft_id": "r4708081730650018580"
+  },
   {
    "company": "Vega Security",
    "slug": "vega-security",
@@ -30,21 +45,6 @@
    "state": "you_send",
    "action": "Follow-up N is drafted in Gmail: review and send",
    "draft_id": "r-3989148528950713774"
-  },
-  {
-   "company": "Bay",
-   "slug": "bay",
-   "contact": "Yuval",
-   "role": "CEO",
-   "email": "yuval@bay.io",
-   "sent_at": "2026-11-22",
-   "followups_sent": 0,
-   "max_followups": 2,
-   "last_touch": "2026-11-22",
-   "next_due": "2026-11-26",
-   "state": "drafting",
-   "action": "Strategist is writing the next step",
-   "draft_id": null
   },
   {
    "company": "Gambit Security",

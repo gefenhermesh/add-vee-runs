@@ -1,0 +1,68 @@
+[
+ {
+  "round": 1,
+  "mode": "narrative",
+  "date": "2026-11-26",
+  "verdict": "APPROVE_WITH_PATCH",
+  "reviewed_file": "output/bay/followups/1-1/email.md",
+  "reviewed_file_sha256": "a204587a715fe53bc59526ac4e1ab659420aa7632d7641d04252b810beea1e4f",
+  "numbers_checked": 2,
+  "findings": [
+   {
+    "location": "para 2, sentence 2 (C-157)",
+    "problem": "The sentence puts all four answers under 'asked whether Bay rescans MCP servers, plugins and skills when they change'. That fits ChatGPT #8/#11, Gemini #11 and Google AI Mode #11, but Gemini #9 was a Bay vs Backslash question about keeping coding-agent settings locked. Its answer pairs Bay with Backslash for MCP/skill vetting; it wasn't a reply to the rescan question. 'answered \"No.\" or gave...' also blurs two separate answers into one.",
+    "evidence": "visibility_gemini.json #9 main prompt: 'Bay vs Backslash Security for keeping coding-agent settings locked across a 1,500-engineer fleet...'; desc: 'paired with Backslash for MCP/skill vetting'. #11 main: bare 'No.' (Bay not named). C-157 lists them as separate turns.",
+    "fix": "Patch 1: scope the Backslash point to its own comparison."
+   },
+   {
+    "location": "para 1, sentence 2 (trigger bridge)",
+    "problem": "The paraphrase is faithful. The post says 'nobody sees it in the tool list they reviewed' and 'the server can change it whenever it wants'. But the add-on 'which is exactly why scanning on every change matters' reads as the post's own takeaway, and the post never mentions rescanning. Its answer is Bay checking each action at runtime and enforcing which servers and skills agents may use ('a server that rewrote its skill this morning'). It also says the checksums don't establish trust. Yuval may notice his own post being reframed.",
+    "evidence": "https://www.bay.io/blog/skills-over-mcp-security (fetched 2026-11-26): sections 'Assumption 2' and 'What we do about it at Bay'; no 'scan'/'rescan' of skills by Bay anywhere in the text.",
+    "fix": "Patch 2: tie the inference to Bay's own published capability (bay.io/shadow-ai-discovery: 'scanned and vetted before it's approved and every time it changes', the C-157 ground truth)."
+   },
+   {
+    "location": "header comment (not visible)",
+    "problem": "Non-blocking. The comment dates the post '26 Nov 2026', but the page shows only 'November 2026'. The text dates it on or after 24 Nov (the Anthropic release it covers). If decision.json repeats a 26 Nov date, it is unsourced.",
+    "evidence": "Page byline: 'Omri Lahav \u00b7 8 min \u00b7 November 2026'; body: 'On November 24, 2026, Anthropic shipped Skills over MCP'.",
+    "fix": "Optional: say 'late November 2026' in the comment and decision.json."
+   },
+   {
+    "location": "length",
+    "problem": "Non-blocking. About 199 words outside the bullets, against V's 'about 150 words plus the bullets'. The T opener accounts for most of the difference, and the email still reads tight.",
+    "evidence": "Word count excluding HTML comments.",
+    "fix": "None required."
+   }
+  ],
+  "patches": [
+   {
+    "file": "output/bay/followups/1-1/email.md",
+    "old": "Gemini answered \"No.\" or gave MCP vetting to Backslash,",
+    "new": "Gemini answered a bare \"No.\" (and, in a Bay vs Backslash comparison, handed MCP vetting to Backslash),",
+    "why": "Only Gemini #11 was the rescan question; Gemini #9 was a Bay vs Backslash settings-lock comparison, so the Backslash point needs its own scope (C-157)."
+   },
+   {
+    "file": "output/bay/followups/1-1/email.md",
+    "old": "which is exactly why scanning on every change matters.",
+    "new": "which is exactly the case for Bay scanning a skill again every time it changes.",
+    "why": "Omri's post never argues for rescanning (its answer is per-action runtime checks and server/skill allowlists); tie the inference to Bay's own published capability (bay.io/shadow-ai-discovery, C-157 ground truth) rather than read as the post's takeaway."
+   }
+  ],
+  "checks_passed": [
+   "C-157 CONFIRMED: ChatGPT #8 'needs validation'/follow-up 'can't be verified' and #11 'No... documentation does not confirm rescanning' -> 'undocumented' holds; Gemini #11 bare 'No.'; Google AI Mode #11 'no ... platform named \"Bay\"' holds (raw records read).",
+   "C-190 CONFIRMED: restate capabilities incl. scan on every change on cited pages + one facts page; email matches.",
+   "C-201 CONFIRMED: 'Micron's 150,000-endpoint rollout' and 'a form the customer or a publication puts its own name to' match; 150,000 traces to GovInfoSecurity (research.json dossier, CEO's claim).",
+   "C-199 CONFIRMED: brief Gartner and Latio with an evaluation submission for the next cycle; email matches.",
+   "C-197 CONFIRMED: AWS listing title 'Agentic Endpoint Security' (C-174; live re-check 2026-11-26: h1 'Agentic Endpoint Security'); 'to the full platform' = 'platform name with all three surfaces'.",
+   "Growing marketing in US and Europe: Calcalist live (2026-11-26) 'growing its sales, marketing, and customer teams in the United States and Europe'. Supported, not overstated.",
+   "Not a repeat of email 1 (2%, 60%, At-Bay SOC 2): rescan finding and per-team plan are new. No 'just following up'; one ask (20-minute walkthrough); stance line present, forms given in one sentence; second-step offer matches 'growing marketing team -> as part of the team'; bullets in the prescribed order; 4 teams; signed 'Best, Gefen'. Buying-committee wording matches personas P1, P3, P6.",
+   "Numbers: 150,000 (C-201), 20 (walkthrough, prescribed). No others."
+  ],
+  "notes": "docs/campaign/followup-strategist.md is not on campaign/bay; I read it read-only from master/origin (git show). 'Personalization' and 'The second step' sections exist only in origin/master and origin/campaign-docs/job-track-wording.",
+  "summary": "Every factual statement traces to its CONFIRMED claim, and the Calcalist and AWS facts were re-checked live. The follow-up rules are met. Two exact wording fixes: (1) scope Gemini's Backslash answer to the comparison it came from rather than the rescan question; (2) stop the trigger bridge reading as if Omri's post argued for rescanning, and tie it to Bay's own published scan-on-change capability. Apply both patches and the email is approved.",
+  "patch_applied": {
+   "by": "orchestrator, exact old->new replacement (apply_review_patch.py has no mapping for email.md)",
+   "result_sha256": "856aa4eac34f3fca8c6cb4d6d7277e3226d18bad021542fed355e0ad3db638a0",
+   "also_changed": "header comment date only (reviewer minor note: post shows 'November 2026', not 26 Nov)"
+  }
+ }
+]

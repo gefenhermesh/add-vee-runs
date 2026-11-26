@@ -1,0 +1,17 @@
+{
+  "decision": "send",
+  "type": "V",
+  "type_detail": "T + V: a one-paragraph trigger (Bay's new Skills over MCP post) tied to one finding, opening a full-value follow-up",
+  "to": {"name": "Yuval Zacharia", "role": "CEO", "email": "yuval@bay.io", "email_status": "verified (email 1 delivered to this address on 2026-11-22; contacts.json)"},
+  "send_on": "2026-11-30",
+  "wait_until": "",
+  "angle": "Bay's own post argues approved MCP servers can now change what agents do via skills; AI answers today deny or misattribute Bay's rescanning of servers and skills when they change, so here is what a full engagement and the per-team plan would do about it.",
+  "why": "I read email 1 as sent (2% unprompted presence, 60% head-to-head win rate, the At-Bay SOC 2 mix-up), the brief (stealth exit, role track, no marketing leader visible), the ledger, and Bay's site and press since 22 Nov. The one new item is a post on Bay's blog, 'Skills over MCP: the server you approved can instruct your agent' (Omri Lahav, listed under November 26, 2026), which maps directly onto C-157: asked whether Bay rescans MCP servers, plugins and skills when they change, ChatGPT calls it undocumented, Gemini answers 'No.' and Google AI Mode says no such platform exists. No other news since the launch coverage (10-16 Nov). This is the first follow-up, so V is the default; the trigger is real and specific, so it opens the email. The plan peek uses four teams (web/product marketing C-190, customer marketing C-201, PR/analysts C-199, partnerships C-197) and leaves out the trust-page move, because bay.io now shows a Trust Center link and I did not re-verify that finding. The offer follows the role track: Calcalist reports Bay is growing marketing in the US and Europe. Send on Monday 30 Nov (Israel work week; also clear of the US Thanksgiving weekend for a US-relocating CEO). The campaign learning (5 sent, 0 replies) got no weight: too early.",
+  "evidence": ["C-157", "C-190", "C-201", "C-199", "C-197", "https://bay.io/blog/skills-over-mcp-security", "https://bay.io/blog (listing date November 26, 2026)", "research.json dossier: Calcalist, marketing teams growing in the US and Europe"],
+  "subject": "",
+  "checks": {
+    "narrative_check": "clean (run on a JSON wrapper of email.md, since narrative_check.py reads only JSON; 2 hand-typed numbers: 150,000 from C-201, 20 minutes)",
+    "reviewer": "APPROVE_WITH_PATCH applied (round 1, email_review_log.json; 2 exact patches applied by the orchestrator because apply_review_patch.py has no mapping for email.md; result sha256 recorded)",
+    "rules": "follow-up 1 of max 2 for Yuval; 1 person of max 2 at Bay; no reply in the thread as of 2026-11-26 14:20 UTC"
+  }
+}

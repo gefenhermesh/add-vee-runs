@@ -106,6 +106,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-26T14:29:47+00:00 followup: strategist started for vega-security/1 (session_01FkmvpMk2rSdM1Aq1YvfhAU)
 - 2026-11-26T14:29:47+00:00 followup: strategist started for bay/1 (session_01FkmvpMpq52ATtSXLVHzpNJ)
 - 2026-11-26T14:37:46+00:00 followup: vega-security/1 decision send V (Full engagement plus one recommendation per team; send Mon 2026-11-30 (US Thanksgiving today))
+- 2026-11-26T14:57:43+00:00 followup: bay/1 decision send V (Trigger: Bay's Skills over MCP post; AI gets rescanning wrong; full engagement + one move per team; send Mon 2026-11-30)
 
 ## Cohorts
 
@@ -198,3 +199,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26T14:41Z jobs scout: catching_up (backlog 0 after today; DealHub already proposed, Roblox Apk other, Atlas closed). 108 new posts + Next Play 9 SEO-titled (1 new); 73 fresh companies classified. Startups with open SEO roles, NOT reconned or proposed (sponsor 11-26: wait with recons): Telnyx (Off-Page AEO/SEO Manager + Technical AEO/SEO Specialist, remote US, Greenhouse open), vCluster Labs (Head of Content, builds SEO/AEO from scratch, Ashby open), Welldoc (Web Marketing Manager, open unknown). Seeker 11-26: 15 apply, 1 maybe; 20 tracker rows added. Unlocker 161/200 this week.
 - 2026-11-26T14:41:58Z daily jobs scout (session_01FkmvpMJc9DrcxE5CzYgZp3): 108 new posts, 0 proposed; recons on hold (sponsor 11-26), waiting: Telnyx, vCluster Labs, Welldoc. Seeker digest 2026-11-26: 15 apply, 1 maybe; 20 tracker rows. Unlocker 161/200.
 - 2026-11-26T14:51:03Z bay/1 strategist returned 'wait': no outreach record in add-vee. Created campaign/bay (from followup/bay-1-1) with output/bay/outreach/ (email 1 text from Gmail's sent message, brief, features, contacts, images) and asked the strategist to redo the decision.
+- 2026-11-26T14:57:43Z bay/1 follow-up V drafted r4708081730650018580 (reply in thread, send Mon 11-30). System gap noted by strategist: narrative_check.py/apply_review_patch.py don't accept followups/*/email.md on master (cognism branch's narrative_check does); campaign branches may carry an old followup-strategist.md.
