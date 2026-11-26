@@ -32,8 +32,8 @@ class Screen(unittest.TestCase):
         self.assertEqual(S.screen(post("us"), "Remote role leading our SEO program.")["lean"], "maybe")
         self.assertEqual(S.screen(post("seojobs"), "")["lean"], "maybe")
 
-    def test_europe_needs_a_positive_signal(self):
-        self.assertEqual(S.screen(post("europe"), "Remote within Europe.")["lean"], "skip")
+    def test_europe_english_is_worth_trying(self):
+        self.assertEqual(S.screen(post("europe"), "Remote within Europe.")["lean"], "maybe")  # 2026-11-26: worth trying
         self.assertEqual(S.screen(post("europe"), "We work with contractors worldwide.")["lean"], "apply")
         self.assertEqual(S.screen(post("europe"), "You must have the right to work in the UK.")["lean"], "skip")
 
@@ -45,8 +45,8 @@ class Screen(unittest.TestCase):
         self.assertEqual(S.screen(post("latam", title="Digital Copywriter"), "")["lean"], "skip")
         self.assertEqual(S.screen(post("latam", title="Practicante de SEO"), "")["lean"], "skip")
         self.assertEqual(S.screen(post("europe", title="Consultant SEO"), "5 ans en agence ou en freelance.")["lean"], "skip")
-        self.assertEqual(S.screen(post("europe"), "The editor oversees freelance writers.")["lean"], "skip")
-        self.assertEqual(S.screen(post("europe"), "We serve customers worldwide and across the Americas.")["lean"], "skip")
+        self.assertEqual(S.screen(post("europe"), "The editor oversees freelance writers.")["lean"], "maybe")
+        self.assertEqual(S.screen(post("europe"), "We serve customers worldwide and across the Americas.")["lean"], "maybe")
         self.assertEqual(S.screen(post("us"), "This role is remote and open to candidates worldwide.")["lean"], "apply")
 
     def test_onsite_and_us_based(self):
@@ -156,3 +156,21 @@ class UsTraditionalTest(unittest.TestCase):
 
     def test_positive_sign_still_applies(self):
         self.assertEqual(S.screen(self.p("Zorblax", "San Francisco, CA"), "Remote, open to contractors in Latin America.")["lean"], "apply")
+
+
+class LanguageTest(unittest.TestCase):
+    def test_foreign_language_european_post_is_skipped(self):
+        de = ("Wir suchen für unser Team in Berlin eine erfahrene Person für SEO und GEO. Du arbeitest mit dem Content Team "
+              "und bist für die Sichtbarkeit unserer Marke verantwortlich. Wir bieten dir ein tolles Team und flexible Arbeitszeiten "
+              "mit der Möglichkeit, remote zu arbeiten, und eine Vergütung, die zu deiner Erfahrung passt.")
+        r = S.screen({"title": "SEO Manager (m/w/d)", "company": "X", "region": "europe", "location": "Germany"}, de)
+        self.assertEqual(r["why"], ["European post not in English: hires locally"])
+
+    def test_title_marker_without_description(self):
+        self.assertTrue(S.foreign_language("Senior SEO Manager (m/w/d)", ""))
+        self.assertFalse(S.foreign_language("Senior SEO Manager", ""))
+
+    def test_low_end_jobs_are_ok_for_now(self):
+        r = S.screen({"title": "SEO Implementation Specialist (WordPress)", "company": "X", "region": "latam", "location": "Brazil"}, "Fully remote.")
+        self.assertNotEqual(r["lean"], "skip")
+

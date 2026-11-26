@@ -80,6 +80,7 @@ ONSITE = re.compile(r"\b(in[- ]office|on[- ]?site|onsite|hybrid|in[- ]person|pre
 # people don't do anymore", on Amalga Group's SEO Implementation Specialist (WordPress)).
 # Only the kind of task marks a role low-end, never the word "specialist", "executive" or "associate" (sponsor,
 # 2026-11-26: specialist roles are wanted; executive and associate may be fine).
+LOW_END_SKIP = False
 LOW_END = re.compile(r"\b(implementation|wordpress|link ?build(er|ing)|outreach|backlinks?|citations?|seo va|"
                      r"virtual assistant|data entry|content upload)\b", re.I)
 JUNIOR = re.compile(r"\b(intern(ship)?|junior|jr\.?|entry[- ]level|trainee|assistant|graduate|practicante|pasante|"
@@ -107,6 +108,34 @@ TRADITIONAL_CO = re.compile(r"\b(staffing|talent solutions|recruit(ing|ment)|hea
                             r"bloomingdale|macy|nordstrom|walmart|target|kohl|finish line)\b", re.I)
 AGENCY_TEXT = re.compile(r"\b((digital|marketing|seo|search|growth|creative|performance|advertising) agency|"
                          r"agency (that|which|helping|serving|focused)|our (agency|clients' (sites|websites)))\b", re.I)
+
+
+_STOP = {
+    "en": "the and to of a in for with you our we are is will on as be this your have at or from that by",
+    "de": "und der die das mit für wir sie ist ein eine zu von auf im bei dein deine unsere unser als oder auch",
+    "fr": "et le la les des une un pour avec vous nous est dans sur au aux du votre notre en sont",
+    "nl": "en de het een van voor met je jij wij we zijn op aan bij ons onze ook als",
+    "it": "e il la le di per con che una un sono nel della dei delle nostro nostra",
+    "pt": "e o a os as de do da para com você nós uma um em no na nossa nosso são",
+    "es": "y el la los las de del para con usted nosotros una un en es son nuestra nuestro tu",
+    "pl": "i w z na do się jest oraz dla że nie od po jak",
+    "cs": "a v na se je pro s do že od jsou",
+    "sv": "och att det som en för med är på av vi du till",
+    "da": "og at det som en for med er på af vi du til",
+}
+_STOP = {k: set(v.split()) for k, v in _STOP.items()}
+FOREIGN_TITLE = re.compile(r"\((m/w/d|w/m/d|m/f/d|h/f|f/h|all genders|w/m/x|m/w/x)\)|\b(fachleitung|referent|leiter|"
+                           r"spezialist|chef de projet|consultant\(e\)|responsable|especialista|specialista|medior)\b", re.I)
+
+
+def foreign_language(title, desc=""):
+    """True when the post is written in a language other than English (sponsor, 2026-11-26: that's a no)."""
+    words = re.findall(r"[a-zà-ÿąćęłńóśźżčďěňřšťůž]+", (desc or "").lower())
+    if len(words) >= 5:
+        counts = {k: sum(w in s for w in words) for k, s in _STOP.items()}
+        best = max(counts, key=counts.get)
+        return best != "en" and counts[best] > counts["en"]
+    return bool(FOREIGN_TITLE.search(title or ""))
 
 
 def company_kind(company, desc=""):
@@ -206,7 +235,9 @@ def _screen(post, desc):
         return {"lean": "skip", "why": ["Asia / Oceania hours or employer"], "quotes": sentences_with(ASIA_TEXT, desc)}
     if JUNIOR.search(post.get("title", "")):
         return {"lean": "skip", "why": ["junior or intern role"], "quotes": []}
-    if LOW_END.search(post.get("title", "")) and not re.search(r"\b(head|lead|director|manager|strateg\w*)\b", post.get("title", ""), re.I):
+    # Low-end execution roles (WordPress, link building...) are OK for now (sponsor, 2026-11-26: "I need any job I can
+    # find"); LOW_END stays defined so it can be switched back on with LOW_END_SKIP = True.
+    if LOW_END_SKIP and LOW_END.search(post.get("title", "")) and not re.search(r"\b(head|lead|director|manager|strateg\w*)\b", post.get("title", ""), re.I):
         return {"lean": "skip", "why": ["low-end execution role (implementation, link building, outreach)"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
         hits = SEO_TERMS.findall(desc or "")
@@ -246,7 +277,11 @@ def _screen(post, desc):
                     "quotes": sentences_with(TRADITIONAL_US, text, n=1)}
         return {"lean": "maybe", "why": ["US company of unknown type: the scout decides (startup or agency: maybe; "
                                          "anything else: skip)"], "quotes": [], "needs_kind": True}
-    return {"lean": "skip", "why": ["Europe post with nothing suggesting it would hire in Costa Rica"], "quotes": []}
+    # Europe, refined (sponsor, 2026-11-26): posts never say "we hire outside X"; that's judged from experience. A post
+    # written in a language other than English is a no; an English remote post has a chance and is worth trying.
+    if foreign_language(post.get("title", ""), desc):
+        return {"lean": "skip", "why": ["European post not in English: hires locally"], "quotes": []}
+    return {"lean": "maybe", "why": ["European remote post in English: nothing rules you out, worth trying"], "quotes": []}
 
 
 def role_key(p):
