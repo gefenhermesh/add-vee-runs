@@ -1,0 +1,207 @@
+{
+  "scout_version": 4,
+  "company": "Telnyx",
+  "domain": "telnyx.com",
+  "slug": "telnyx",
+  "scouted": "2026-11-26",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "Off-Page AEO/SEO Manager (Remote)",
+    "url": "https://job-boards.greenhouse.io/telnyx54/jobs/8183128003",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/off-page-aeo-seo-manager-remote-at-telnyx-4487209390",
+    "posted": "2026-11-03",
+    "location": "United States - Remote (Greenhouse office 'United States - Remote'; the JD names no other countries)",
+    "open_checked": "2026-11-26T20:08:00+00:00",
+    "seniority": "manager / senior IC operator: 3-5+ years in off-page SEO, digital PR, link building; owns off-page AEO/SEO solo, no team under it",
+    "reports_to": "Senior Director of AEO (JD); Greenhouse hiring-manager field: Andrew (Andy) Muns",
+    "other_roles": [
+      {
+        "title": "Technical AEO/SEO Specialist",
+        "url": "https://job-boards.greenhouse.io/telnyx54/jobs/8200776003",
+        "posted": "2026-11-10",
+        "location": "United States - Remote",
+        "open_checked": "2026-11-26T20:08:01+00:00",
+        "seniority": "specialist, 2-3+ years (technical SEO / web QA); below the sponsor's level",
+        "reports_to": "Greenhouse hiring-manager field: Andrew (Andy) Muns"
+      }
+    ],
+    "linkedin_posted": "2026-11-25"
+  },
+  "source_of_lead": "Sponsor request 2026-11-26 (LinkedIn post 4487209390, posted 2026-11-25); confirmed on Telnyx's own Greenhouse board (telnyx54)",
+  "reason": "Profitable private CPaaS / voice-AI API company selling to developers, who (its own JD says) ask ChatGPT, Perplexity and Google which voice, messaging, IoT or inference provider to use. It has an AEO team under a Director of AEO and is hiring two AEO/SEO roles now, so an add-vee read of how AI answers rank Telnyx vs Twilio, Vonage and Plivo is a direct 'how I'd start in the role'.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "An AEO team exists (Director / Senior Director of AEO, Andy Muns, at Telnyx since at least 2022) and is being built out: two open roles (Off-Page AEO/SEO Manager, Technical AEO/SEO Specialist), earlier Global AEO/SEO Lead and Social Growth Manager (AEO) posts. Not a block on this route. The blog already looks planned (255 /resources/ posts, decent internal linking), so the audit angle is off-page / AI citations rather than blog structure.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {
+        "name": "Andy Muns",
+        "role": "Director of AEO (Telnyx author page); hiring manager on both Greenhouse posts",
+        "kind": "direct"
+      }
+    ],
+    "evidence": [
+      "Greenhouse API metadata 'Hiring Manager: Andrew Muns' on jobs 8183128003 and 8200776003 (2026-11-26)",
+      "https://telnyx.com/authors/andy-muns : 'Director of AEO' (WebSearch 2026-11-26)",
+      "JD: 'You'll report to the Senior Director of AEO' (title may have moved since the author page)"
+    ]
+  },
+  "seo_team": {
+    "status": "found",
+    "evidence": [
+      "JD: role sits 'on the AEO team', reports to the Senior Director of AEO",
+      "Two AEO/SEO roles open on the board 2026-11-26"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2009 (from memory, inferred), Chicago HQ with Dublin, London, Paris offices on the board; private, says it is 'financially stable and profitable'. Moving from CPaaS (voice, SMS, SIP, IoT) into voice AI agents and AI inference; 58 open roles. Several hundred people (inferred).",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "Off-Page AEO/SEO Manager (Remote); also Technical AEO/SEO Specialist",
+    "date": "2026-11-03",
+    "source": "https://job-boards.greenhouse.io/telnyx54/jobs/8183128003"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: 'When developers ask ChatGPT, Perplexity or Google which voice, messaging, IoT or inference provider to use, the answer comes from sources off our own site'; measured on citation share and AI referral traffic",
+      "kind": "direct",
+      "url": "https://boards-api.greenhouse.io/v1/boards/telnyx54/jobs?content=true",
+      "date": "2026-11-26"
+    },
+    {
+      "claim": "Technical JD: keep agent-readiness at A+, llms.txt, markdown twins, AI crawler policy: the company invests seriously in AI search",
+      "kind": "direct",
+      "url": "https://job-boards.greenhouse.io/telnyx54/jobs/8200776003",
+      "date": "2026-11-26"
+    }
+  ],
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 255 posts under /resources/ (2018-02 to 2026-11-26), 254 modified in the last 12 months",
+      "internal linking looks decent: 5.0 in-body links to other posts on average, 0% of sampled posts link to none",
+      "45% of posts in the 6 main topics (scattered)",
+      "5 hub-like posts; median 1,908 words"
+    ],
+    "tool": "blog_sample.py telnyx.com, 2026-11-26"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Developers and product teams compare CPaaS / voice-AI providers on their own before signing up (PLG, self-serve signup plus contact-sales). Telnyx states they ask AI assistants and that the answers come from listicles, Reddit, X and publications.",
+    "competitors": [
+      {
+        "name": "Twilio",
+        "seo_investment": "high (inferred: large docs, blog and comparison content; the category default)",
+        "evidence_url": "https://www.twilio.com/en-us/blog"
+      },
+      {
+        "name": "Vonage",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://www.vonage.com/"
+      },
+      {
+        "name": "Plivo",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://www.plivo.com/"
+      },
+      {
+        "name": "Bandwidth",
+        "seo_investment": "couldn't verify",
+        "evidence_url": "https://www.bandwidth.com/"
+      }
+    ],
+    "serp_checks": [],
+    "cost_of_absence": "Per the JD, AI answers to 'which voice / SMS / inference API' cite third-party sources where competitors show up and Telnyx doesn't; every such answer sends self-serve signups to Twilio or others.",
+    "why_not_yet": "not lacking investment: the AEO team is being built now (two open roles); the gap is off-page citations, which this hire is meant to close.",
+    "evidence": [
+      "Greenhouse JDs 2026-11-26 (direct)",
+      "blog_sample 2026-11-26 (direct)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "Named hiring manager (Andy Muns) who runs AEO and will value an AI-citation read; both roles open. Against: both are listed 'United States - Remote' only, Telnyx already has an AEO team and a planned blog, and it's a larger profitable company rather than an early startup. Route: Greenhouse application plus a note with the audit."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "devtools",
+    "stage": "bootstrapped",
+    "situation": "established",
+    "size_band": "201_1000",
+    "geo": "us",
+    "finding_pattern": "unknown",
+    "recipient_role": "content_seo",
+    "buying_journey": "committee",
+    "seo_need": "high"
+  },
+  "contacts": [
+    {
+      "name": "Andy Muns",
+      "role": "Director of AEO (author page); hiring manager on both AEO/SEO posts",
+      "email": null,
+      "email_verified": false,
+      "source": "https://telnyx.com/authors/andy-muns ; Greenhouse API hiring-manager field (2026-11-26)",
+      "recipient_rank": 1
+    },
+    {
+      "name": "David Casem",
+      "role": "CEO / co-founder (from memory, London Tech Week speaker page)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://londontechweek.com/speakers/david-casem",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their own words: 'When developers ask ChatGPT, Perplexity or Google which voice, messaging, IoT or inference provider to use, the answer comes from sources off our own site.' Show how AI answers frame Telnyx vs Twilio, Vonage and Plivo today and which off-site sources they cite: the role's first 30 days.",
+    "source": "https://job-boards.greenhouse.io/telnyx54/jobs/8183128003",
+    "date": "2026-11-03"
+  },
+  "sources": [
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/telnyx54/jobs?content=true",
+      "date": "2026-11-26",
+      "kind": "direct",
+      "result": "58 open roles; Off-Page AEO/SEO Manager (first published 2026-11-03) and Technical AEO/SEO Specialist (2026-11-10), both 'United States - Remote', hiring manager Andrew Muns"
+    },
+    {
+      "url": "jobs.py check-open (Greenhouse telnyx54), both roles",
+      "date": "2026-11-26",
+      "kind": "direct",
+      "result": "state open, post open, both roles on the company board"
+    },
+    {
+      "url": "https://telnyx.com/sitemap.xml (blog_sample.py)",
+      "date": "2026-11-26",
+      "kind": "direct",
+      "result": "255 /resources/ posts, looks planned"
+    },
+    {
+      "url": "https://telnyx.com/authors/andy-muns",
+      "date": "2026-11-26",
+      "kind": "direct",
+      "result": "Andy Muns, Director of AEO (via WebSearch result)"
+    }
+  ],
+  "sources_tried_failed": [
+    "boards-api.greenhouse.io/v1/boards/telnyx: 404 (board slug is telnyx54, found on telnyx.com/careers)"
+  ],
+  "open_questions": [
+    "Would Telnyx take someone outside the US for a 'United States - Remote' role (it has Dublin, London, Paris offices)?",
+    "Is Andy Muns now the Senior Director of AEO the JD names, or does he report to one?",
+    "How do AI answers rank Telnyx vs Twilio, Vonage and Plivo for voice AI / SMS API prompts (the run will show)?"
+  ],
+  "proposed": "2026-11-26"
+}

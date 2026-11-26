@@ -1770,6 +1770,60 @@
       "queued_at": "2026-11-26T15:20:00+00:00",
       "release_note": "sponsor 2026-11-26: urgent; wait for the usage reset (2026-11-28 05:00 UTC), then first in line",
       "queue_rank": 1
+    },
+    {
+      "slug": "telnyx",
+      "company": "Telnyx",
+      "domain": "telnyx.com",
+      "status": "proposed",
+      "b2b": true,
+      "reason": "Profitable private CPaaS / voice-AI API company selling to developers, who (its own JD says) ask ChatGPT, Perplexity and Google which voice, messaging, IoT or inference provider to use. It has an AEO team under a Director of AEO and is hiring two AEO/SEO roles now, so an add-vee read of how AI answers rank Telnyx vs Twilio, Vonage and Plivo is a direct 'how I'd start in the role'.",
+      "gating_rating": "seo_job_opening",
+      "features": {
+        "remote_hiring": "unknown",
+        "marketing_gating": "sweet_spot",
+        "trigger": "job_post",
+        "ask_track": "job_application",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no",
+        "opener_type": "their_words",
+        "industry": "devtools",
+        "stage": "bootstrapped",
+        "situation": "established",
+        "size_band": "201_1000",
+        "geo": "us",
+        "finding_pattern": "unknown",
+        "recipient_role": "content_seo",
+        "buying_journey": "committee",
+        "seo_need": "high"
+      },
+      "source": "scout",
+      "track": "seo_job",
+      "job": {
+        "title": "Off-Page AEO/SEO Manager (Remote)",
+        "url": "https://job-boards.greenhouse.io/telnyx54/jobs/8183128003",
+        "linkedin_url": "https://www.linkedin.com/jobs/view/off-page-aeo-seo-manager-remote-at-telnyx-4487209390",
+        "posted": "2026-11-03",
+        "location": "United States - Remote (Greenhouse office 'United States - Remote'; the JD names no other countries)",
+        "open_checked": "2026-11-26T20:08:00+00:00",
+        "seniority": "manager / senior IC operator: 3-5+ years in off-page SEO, digital PR, link building; owns off-page AEO/SEO solo, no team under it",
+        "reports_to": "Senior Director of AEO (JD); Greenhouse hiring-manager field: Andrew (Andy) Muns",
+        "other_roles": [
+          {
+            "title": "Technical AEO/SEO Specialist",
+            "url": "https://job-boards.greenhouse.io/telnyx54/jobs/8200776003",
+            "posted": "2026-11-10",
+            "location": "United States - Remote",
+            "open_checked": "2026-11-26T20:08:01+00:00",
+            "seniority": "specialist, 2-3+ years (technical SEO / web QA); below the sponsor's level",
+            "reports_to": "Greenhouse hiring-manager field: Andrew (Andy) Muns"
+          }
+        ],
+        "linkedin_posted": "2026-11-25"
+      },
+      "priority": 1
     }
   ],
   "rules": {
