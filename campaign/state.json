@@ -1694,7 +1694,7 @@
       "slug": "kraken",
       "company": "Kraken",
       "domain": "kraken.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": false,
       "reason": "Kraken (Payward), one of the oldest and largest crypto exchanges (10M+ clients), is hiring a remote SEO/AEO operations specialist into its Consumer SEO & AEO team, open to LATAM and Europe. The sponsor wants to apply and asked for the audit first, as how he'd start.",
       "gating_rating": "seo_job_opening",
@@ -1735,7 +1735,9 @@
         "seniority": "mid-level IC execution role: 2+ yrs hands-on SEO, CMS delivery (Sanity), metadata, internal links, localisation, Jira; below the sponsor's level (nine years, strategy)",
         "reports_to": "Head of SEO & AEO (named in the JD, person not identified); works closely with the SEO & AEO Content Lead"
       },
-      "priority": 1
+      "priority": 10,
+      "queued_at": "2026-11-26T15:20:00+00:00",
+      "release_note": "sponsor 2026-11-26: urgent; wait for the usage reset (2026-11-28 05:00 UTC), then first in line"
     }
   ],
   "rules": {
