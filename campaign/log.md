@@ -212,3 +212,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26 15:36 UTC: today's list re-screened with the new Europe/language rules and added to the tracker: 16 more rows (4 apply, 12 maybe) after dropping a Cyrillic post, German-speaking and Chinese-speaker roles, BRUNT Workwear and ECAM. Titles asking for another language now skipped.
 - 2026-11-26T19:19:30Z sponsor: campaign paused until the usage reset. Hourly tick trig_01SgYw1mCwWPzdu79SqKqafZ disabled; resume reminder 2026-11-28 05:05Z.
 - 2026-11-26T20:01:59Z sponsor: 'do not do the fix' -> seeker.py city/never-says-remote rule reverted.
+- 2026-11-26T20:08:25Z sponsor: no content writer jobs. seeker.py skips writer/copywriter titles (test added); LINKEDIN_POSTS.md skip list updated.

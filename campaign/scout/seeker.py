@@ -218,6 +218,10 @@ def feedback():
     return json.loads(FEEDBACK.read_text()) if FEEDBACK.exists() else {}
 
 
+WRITER = re.compile(r"\b(content writer|copy ?writer|copywriting|writer|redactor|redactora|escritor|escritora|"
+                    r"content (creator|editor)|blog(ger)? writer|ghost ?writer)\b", re.I)
+
+
 def screen(post, desc):
     r = _screen(post, desc)
     if r["lean"] != "skip" and not SEO_ROLE.search(post.get("title", "")):
@@ -250,6 +254,10 @@ def _screen(post, desc):
         return {"lean": "skip", "why": ["post not in English or Spanish"], "quotes": []}
     if OTHER_LANG_REQ.search(post.get("title", "")) or re.search(r"[\u0400-\u04ff\u0370-\u03ff\u4e00-\u9fff]", post.get("title", "")):
         return {"lean": "skip", "why": ["needs a language other than English or Spanish"], "quotes": []}
+    # Sponsor, 2026-11-26: "avoid content writer jobs, I'm not a content writer" (elev8.io's Content Writer had come
+    # through as an SEO-heavy growth role).
+    if WRITER.search(post.get("title", "")):
+        return {"lean": "skip", "why": ["content writing role (not for the sponsor)"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
         hits = SEO_TERMS.findall(desc or "")
         if not (GROWTH_ROLE.search(post.get("title", "")) and len(hits) >= SEO_CORE_MIN):

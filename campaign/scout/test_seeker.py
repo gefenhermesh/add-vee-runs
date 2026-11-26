@@ -180,3 +180,14 @@ class LanguageTest(unittest.TestCase):
         self.assertTrue(S.foreign_language("Analista de SEO", pt))
         self.assertFalse(S.foreign_language("Especialista SEO", es))
 
+
+
+def test_content_writer_titles_are_skipped():
+    # Sponsor, 2026-11-26: "avoid content writer jobs, I'm not a content writer".
+    import seeker
+    desc = "Remote. We need SEO, GEO and AEO content: keyword research, search console, organic traffic, technical seo."
+    for t in ("Content Writer", "SEO Copywriter", "SEO Content Writer (Remote)", "Redactor SEO"):
+        r = seeker.screen({"title": t, "company": "X", "location": "Latin America", "region": "latam"}, desc)
+        assert r["lean"] == "skip", t
+    r = seeker.screen({"title": "SEO Manager", "company": "X", "location": "Latin America", "region": "latam"}, desc)
+    assert r["lean"] != "skip"
