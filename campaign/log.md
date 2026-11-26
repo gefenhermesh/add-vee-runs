@@ -216,3 +216,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26T20:09:46Z telnyx recon: fits (B2B dev API, 255-post blog), roles open, US-remote only, recipient Andy Muns (Director of AEO). Queued #4 (after YipitData, before Chainguard).
 - 2026-11-26T20:50Z sponsor: one-time seojobs.com run (route stays paused; SEOJOBS default unchanged). Last 24 h: 19 posts, 18 new; 17 skip (in-office US, intern, Asia, non-English, Gong US-only), 1 maybe (Caffeina SEO Specialist, Milan agency, post text unreadable) added to the tracker. 19 paid Web Unlocker pages (8 lost to a first attempt that crashed on a post with no location), week 180/200.
 - 2026-11-26T20:55:27Z sponsor: tracker gets a 'Not remote' reason; tracker.py learn keeps it in sponsor_marks; SCOUT.md 6b.
+- 2026-11-26T21:46:06Z sponsor: tracker reason 'US only' renamed 'Need authorization' (code us_only kept).

@@ -128,7 +128,7 @@ def learn(docs_dir):
         if re.search(r"unnamed|confidential|a startup \(", name, re.I):
             continue  # no real company name to block
         fb.setdefault("not_eligible_companies", []).append(
-            {"company": name, "why": f"hires US only (sponsor's mark in the tracker, {d.get('skipped_at') or 'undated'}: "
+            {"company": name, "why": f"needs work authorization (sponsor's mark in the tracker, {d.get('skipped_at') or 'undated'}: "
                                      f"{d.get('role') or 'role'})"})
         have.add(name.lower())
         added.append(name)
