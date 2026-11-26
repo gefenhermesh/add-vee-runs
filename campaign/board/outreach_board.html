@@ -1,0 +1,89 @@
+<title>Outreach Board</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap">
+<style>
+/* Layout: "needs you" strip on top, then one row per thread sorted by urgency, then unsent email-1 drafts */
+:root{
+  --bg:#f5f7f6; --surface:#fff; --fg:#16201c; --muted:#5a6762; --line:#dce3e0; --accent:#1e5b4b;
+  --you:#b4461f; --you-bg:#fbe9e1; --due:#8a5a00; --due-bg:#fff2d6; --busy:#2f5d8a; --busy-bg:#e4eef8; --calm:#5a6762; --calm-bg:#eef1f0; --ok:#1e5b4b; --ok-bg:#e1f1ea;
+  --display:"Space Grotesk",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111614; --surface:#19201d; --fg:#e6ece9; --muted:#9aa8a2; --line:#2b3531; --accent:#6cc3a8;
+  --you:#f08a63; --you-bg:#3a2118; --due:#f0c674; --due-bg:#372c12; --busy:#8cb8e6; --busy-bg:#18283a; --calm:#9aa8a2; --calm-bg:#222a27; --ok:#8fd9c0; --ok-bg:#16302a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111614; --surface:#19201d; --fg:#e6ece9; --muted:#9aa8a2; --line:#2b3531; --accent:#6cc3a8;
+  --you:#f08a63; --you-bg:#3a2118; --due:#f0c674; --due-bg:#372c12; --busy:#8cb8e6; --busy-bg:#18283a; --calm:#9aa8a2; --calm-bg:#222a27; --ok:#8fd9c0; --ok-bg:#16302a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:960px;margin:0 auto;padding-block:36px 60px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:var(--display);font-size:28px;margin:0}
+.updated{color:var(--muted);font-size:13px;margin:4px 0 24px}
+h2{font-family:var(--display);font-size:17px;margin:32px 0 10px}
+.attn{display:flex;flex-direction:column;gap:8px}
+.attn .item{background:var(--you-bg);color:var(--fg);border-radius:8px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+.attn .item b{color:var(--you)}
+.empty{color:var(--muted)}
+.table{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+table{width:100%;border-collapse:collapse;min-width:680px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.who{color:var(--muted);font-size:13px}
+.pill{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.s-replied,.s-you_send{background:var(--you-bg);color:var(--you)}
+.s-due{background:var(--due-bg);color:var(--due)}
+.s-drafting{background:var(--busy-bg);color:var(--busy)}
+.s-waiting,.s-scheduled{background:var(--calm-bg);color:var(--calm)}
+.s-done{background:var(--ok-bg);color:var(--ok)}
+.dots{letter-spacing:2px;color:var(--accent)}
+.foot{color:var(--muted);font-size:13px;margin-top:28px;max-width:65ch}
+</style>
+
+<div class="wrap">
+<h1>Outreach board</h1>
+<p class="updated" id="updated">Loading…</p>
+
+<h2>Needs you</h2>
+<div class="attn" id="attn"><p class="empty">Loading…</p></div>
+
+<h2>Every thread</h2>
+<div class="table"><table>
+<thead><tr><th>Company</th><th>Status</th><th>Email 1</th><th>Follow-ups</th><th>Next step due</th><th>What happens next</th></tr></thead>
+<tbody id="rows"></tbody>
+</table></div>
+
+<h2>Email 1 drafts not sent yet</h2>
+<div class="table"><table>
+<thead><tr><th>Company</th><th>Why it's waiting</th></tr></thead>
+<tbody id="e1"></tbody>
+</table></div>
+
+<p class="foot">A follow-up decision comes due 4 business days after the last email to the company (on the recipient's weekend calendar). On that day the campaign manager starts a strategist, which drafts the step in Gmail; nothing is ever sent for you. The board is rebuilt on every daily check and after every send, reply or draft.</p>
+</div>
+
+<script>
+const LABEL={replied:"Replied",you_send:"Send it",due:"Due",drafting:"Drafting",waiting:"Waiting",scheduled:"Scheduled",done:"Done"};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=d=>{if(!d)return"–";const t=new Date(d+"T12:00:00Z");return t.toLocaleDateString(undefined,{weekday:"short",day:"numeric",month:"short"})};
+fetch("board.json").then(r=>r.json()).then(b=>{
+  document.getElementById("updated").textContent="Updated "+new Date(b.updated_at).toLocaleString(undefined,{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+  const today=b.updated_at.slice(0,10);
+  const attn=b.rows.filter(r=>r.state==="replied"||r.state==="you_send");
+  const n=b.email1_waiting.length;
+  const a=document.getElementById("attn");
+  const items=attn.map(r=>`<div class="item"><b>${esc(r.company)}</b><span>${esc(r.action)}</span><span class="who">to ${esc(r.contact)}, ${esc(r.email)}</span></div>`);
+  if(n) items.push(`<div class="item"><b>${n} email-1 draft${n>1?"s":""}</b><span>waiting for verified addresses (Hunter check), listed below</span></div>`);
+  a.innerHTML=items.length?items.join(""):'<p class="empty">Nothing waiting on you right now.</p>';
+  document.getElementById("rows").innerHTML=b.rows.map(r=>{
+    const dots="●".repeat(r.followups_sent)+"○".repeat(Math.max(0,r.max_followups-r.followups_sent));
+    const overdue=r.next_due&&r.next_due<today&&!["done","replied"].includes(r.state);
+    return `<tr><td><strong>${esc(r.company)}</strong><div class="who">${esc(r.contact)}, ${esc(r.role)}</div></td>
+      <td><span class="pill s-${r.state}">${LABEL[r.state]||esc(r.state)}</span></td>
+      <td class="num">${fmt(r.sent_at)}</td>
+      <td class="num"><span class="dots" aria-label="${r.followups_sent} of ${r.max_followups}">${dots}</span></td>
+      <td class="num">${r.state==="done"||r.state==="replied"?"–":fmt(r.next_due)}${overdue?' <span class="pill s-you_send">late</span>':""}</td>
+      <td>${esc(r.action)}</td></tr>`}).join("");
+  document.getElementById("e1").innerHTML=n?b.email1_waiting.map(e=>`<tr><td><strong>${esc(e.company)}</strong></td><td>${esc(e.note)}</td></tr>`).join(""):'<tr><td colspan="2" class="empty">None.</td></tr>';
+}).catch(()=>{document.getElementById("updated").textContent="Couldn't load the board data.";});
+</script>

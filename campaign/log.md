@@ -103,6 +103,8 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-24T16:55:38+00:00 followup: upwind/1 decision send N (sponsor asked for it 2026-11-24: need 'make the content count' (blog), plus the second-step intent)
 - 2026-11-24T17:25:50+00:00 followup: gambit-security/1 email1 sent to VP Marketing
 - 2026-11-25T16:36:14+00:00 followup: glow-io/1 email1 sent to CEO
+- 2026-11-26T14:29:47+00:00 followup: strategist started for vega-security/1 (session_01FkmvpMk2rSdM1Aq1YvfhAU)
+- 2026-11-26T14:29:47+00:00 followup: strategist started for bay/1 (session_01FkmvpMpq52ATtSXLVHzpNJ)
 
 ## Cohorts
 
@@ -188,3 +190,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26 01:48 UTC: Next Play 30-day pull (sponsor's screenshot): Reducto and Synthesia already done, Kraken on his list; new: Port (SEO/GEO Specialist, Tel Aviv, Series C; missed by LinkedIn US/EU), Engine (remote, tracker maybe), Clara (LATAM B2B fintech, GEO Expert hybrid; classed 'other' on 11-24, worth a second look). Step 1a window widened to 7 days. Recons for Corgi, Campfire, Finix, Port started then STOPPED at the sponsor's request ('wait with recons'); nothing written. They stay classed startup, not proposed.
 - 2026-11-26T03:30:53+00:00 sponsor: deleted the 5 old job-track drafts (before-applying wording)
 - 2026-11-26T03:40:09+00:00 sponsor: 'cracks' means where a company can break in, not where it breaks. Need renamed 'Find the openings' (add-vee branch campaign-docs/job-track-wording, pitch.md). Redrafted cognism r6256667831304399938, paddle r-7391112473048820372; old drafts deleted. Cognism report_narrative/highlights still say 'cracks' (offered to sponsor).
+- 2026-11-26T14:35Z daily block (run at 09:30 ET after the sponsor's worry about passing due dates): no new sends, no replies (Vega, Bay, Upwind, Gambit, glow.io). Upwind follow-up N draft r-3989148528950713774 readdressed joel.minnick@ -> joelminnick@ (the address email 1 went to); it has been waiting for the sponsor since 11-24. Strategists started: vega-security/1 session_01FkmvpMk2rSdM1Aq1YvfhAU (first prompt was a placeholder by mistake, corrected by message), bay/1 session_01FkmvpMpq52ATtSXLVHzpNJ. Jobs scout started. New: campaign/board.py + Outreach Board artifact https://claude.ai/artifact/VzeiARzUDia7WhcjG16STK, MANAGER_TICK 6d2.

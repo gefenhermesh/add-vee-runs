@@ -1,0 +1,118 @@
+{
+ "updated_at": "2026-11-26T14:30:27+00:00",
+ "rows": [
+  {
+   "company": "Upwind",
+   "slug": "upwind",
+   "contact": "Joel Minnick",
+   "role": "CMO",
+   "email": "joelminnick@upwind.io",
+   "sent_at": "2026-11-23",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-23",
+   "next_due": "2026-11-27",
+   "state": "you_send",
+   "action": "Follow-up N is drafted in Gmail: review and send",
+   "draft_id": "r-3989148528950713774"
+  },
+  {
+   "company": "Bay",
+   "slug": "bay",
+   "contact": "Yuval",
+   "role": "CEO",
+   "email": "yuval@bay.io",
+   "sent_at": "2026-11-22",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-22",
+   "next_due": "2026-11-26",
+   "state": "drafting",
+   "action": "Strategist is writing the next step",
+   "draft_id": null
+  },
+  {
+   "company": "Vega Security",
+   "slug": "vega-security",
+   "contact": "Scott Simkin",
+   "role": "CMO",
+   "email": "scott@vega.io",
+   "sent_at": "2026-11-20",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-20",
+   "next_due": "2026-11-26",
+   "state": "drafting",
+   "action": "Strategist is writing the next step",
+   "draft_id": null
+  },
+  {
+   "company": "Gambit Security",
+   "slug": "gambit-security",
+   "contact": "Morgan Cole",
+   "role": "VP Marketing",
+   "email": "morgancole@gambit.security",
+   "sent_at": "2026-11-24",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-24",
+   "next_due": "2026-11-30",
+   "state": "scheduled",
+   "action": "Next step due 2026-11-30",
+   "draft_id": null
+  },
+  {
+   "company": "glow.io",
+   "slug": "glow-io",
+   "contact": "Roi Tiger",
+   "role": "CEO",
+   "email": "roi@glow.io",
+   "sent_at": "2026-11-25",
+   "followups_sent": 0,
+   "max_followups": 2,
+   "last_touch": "2026-11-25",
+   "next_due": "2026-12-01",
+   "state": "scheduled",
+   "action": "Next step due 2026-12-01",
+   "draft_id": null
+  }
+ ],
+ "email1_waiting": [
+  {
+   "company": "Help Scout",
+   "slug": "help-scout",
+   "draft_id": "r6518931599953251528",
+   "note": "Andrea Kayal, CRO: address is a guess"
+  },
+  {
+   "company": "GC AI",
+   "slug": "gc-ai",
+   "draft_id": "r986702943946060068",
+   "note": "Julien Sauvage, CMO: address is a guess"
+  },
+  {
+   "company": "Reducto",
+   "slug": "reducto",
+   "draft_id": "r794357332105537189",
+   "note": "Adit Abraham, CEO: address is a guess"
+  },
+  {
+   "company": "Paddle",
+   "slug": "paddle",
+   "draft_id": "r-7391112473048820372",
+   "note": "Piers Garthwaite, Head of Web: title and address unconfirmed"
+  },
+  {
+   "company": "Synthesia",
+   "slug": "synthesia",
+   "draft_id": "r5247378393646576382",
+   "note": "Borys Khodan, VP of Marketing: address is a guess"
+  },
+  {
+   "company": "Cognism",
+   "slug": "cognism",
+   "draft_id": "r6256667831304399938",
+   "note": "James Bradbury, VP Performance Marketing: address is a guess"
+  }
+ ]
+}

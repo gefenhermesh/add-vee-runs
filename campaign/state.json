@@ -50,7 +50,11 @@
             6
           ],
           "steps": [],
-          "status": "active"
+          "status": "active",
+          "pending": {
+            "session_id": "session_01FkmvpMpq52ATtSXLVHzpNJ",
+            "started_at": "2026-11-26T14:29:47+00:00"
+          }
         }
       ],
       "email1_sent_at": "2026-11-22T21:55:07+00:00"
@@ -86,7 +90,11 @@
             6
           ],
           "steps": [],
-          "status": "active"
+          "status": "active",
+          "pending": {
+            "session_id": "session_01FkmvpMk2rSdM1Aq1YvfhAU",
+            "started_at": "2026-11-26T14:29:47+00:00"
+          }
         }
       ],
       "email1_sent_at": "2026-11-20T17:06:38+00:00"
@@ -841,7 +849,9 @@
         "gate": "2026-11-24T17:23:06+00:00",
         "done": "2026-11-25T01:32:38+00:00"
       },
-      "gmail_draft_id": "r-8042809558676945810"
+      "gmail_draft_id": "r-8042809558676945810",
+      "draft_id": "r6518931599953251528",
+      "draft_note": "Andrea Kayal, CRO: address is a guess"
     },
     {
       "slug": "gc-ai",
@@ -897,7 +907,9 @@
         "gate": "2026-11-25T03:32:53+00:00",
         "done": "2026-11-25T10:33:18+00:00"
       },
-      "gmail_draft_id": "r-1668776791143731610"
+      "gmail_draft_id": "r-1668776791143731610",
+      "draft_id": "r986702943946060068",
+      "draft_note": "Julien Sauvage, CMO: address is a guess"
     },
     {
       "slug": "reducto",
@@ -953,7 +965,9 @@
         "gate": "2026-11-25T04:33:11+00:00",
         "done": "2026-11-25T10:37:05+00:00"
       },
-      "gmail_draft_id": "r-2248767421010273917"
+      "gmail_draft_id": "r-2248767421010273917",
+      "draft_id": "r794357332105537189",
+      "draft_note": "Adit Abraham, CEO: address is a guess"
     },
     {
       "slug": "pump-co",
@@ -1093,7 +1107,9 @@
         "gate": "2026-11-24T18:33:07+00:00",
         "done": "2026-11-25T01:53:20+00:00"
       },
-      "gmail_draft_id": "r4303044308811569600"
+      "gmail_draft_id": "r4303044308811569600",
+      "draft_id": "r-7391112473048820372",
+      "draft_note": "Piers Garthwaite, Head of Web: title and address unconfirmed"
     },
     {
       "slug": "chainguard",
@@ -1237,7 +1253,9 @@
         "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?"
       },
       "released_at": "2026-11-25T14:33:41+00:00",
-      "gmail_draft_id": "r-8375703876730217481"
+      "gmail_draft_id": "r-8375703876730217481",
+      "draft_id": "r5247378393646576382",
+      "draft_note": "Borys Khodan, VP of Marketing: address is a guess"
     },
     {
       "slug": "cognism",
@@ -1298,7 +1316,9 @@
         "note": "Sponsor did not pick a Google AI Mode location; using the session's recommendation (UK) unless the sponsor says otherwise."
       },
       "released_at": "2026-11-25T19:33:34+00:00",
-      "gmail_draft_id": "r-6458885885129670071"
+      "gmail_draft_id": "r-6458885885129670071",
+      "draft_id": "r6256667831304399938",
+      "draft_note": "James Bradbury, VP Performance Marketing: address is a guess"
     },
     {
       "slug": "cognition",
@@ -1668,7 +1688,8 @@
       "trigger_id": "trig_01TYro24KNGAHSNPwqrdkfJM (disabled, bound to the old session)"
     },
     "note": "Set up 2026-11-22; campaign resumed 2026-11-24 (sponsor: Bright Data back). Hourly task trig_01SgYw1mCwWPzdu79SqKqafZ (minute 32) bound to this session.",
-    "set_up_at": "2026-11-22T22:30:00+00:00"
+    "set_up_at": "2026-11-22T22:30:00+00:00",
+    "board_url": "https://claude.ai/artifact/VzeiARzUDia7WhcjG16STK"
   },
   "watch": [
     {
