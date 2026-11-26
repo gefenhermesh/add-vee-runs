@@ -1670,6 +1670,53 @@
         "words": "release dealhub",
         "at": "2026-11-25T18:38:02+00:00"
       }
+    },
+    {
+      "slug": "kraken",
+      "company": "Kraken",
+      "domain": "kraken.com",
+      "status": "proposed",
+      "b2b": false,
+      "reason": "Kraken (Payward), one of the oldest and largest crypto exchanges (10M+ clients), is hiring a remote SEO/AEO operations specialist into its Consumer SEO & AEO team, open to LATAM and Europe. The sponsor wants to apply and asked for the audit first, as how he'd start.",
+      "gating_rating": "seo_job_opening",
+      "features": {
+        "remote_hiring": "remote_global",
+        "marketing_gating": "sweet_spot",
+        "trigger": "job_post",
+        "finding_pattern": "present_not_recommended",
+        "ask_track": "job_application",
+        "opener_type": "their_words",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no",
+        "industry": "fintech",
+        "stage": "public",
+        "situation": "category_leader",
+        "size_band": "1000_plus",
+        "geo": "us",
+        "recipient_role": "content_seo",
+        "buying_journey": "considered",
+        "seo_need": "high"
+      },
+      "source": "scout",
+      "track": "seo_job",
+      "job": {
+        "title": "Marketing Operations Specialist, SEO/AEO",
+        "url": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+        "url_us": "https://jobs.ashbyhq.com/kraken.com/aa7356bf-95da-4554-bcb1-346663b2e836",
+        "nextplay_urls": [
+          "https://nextplay.so/jobs/d3661d46-4371-4e84-88cb-b23333750d5a",
+          "https://nextplay.so/jobs/7ca4a1f0-53e3-4139-affe-7bf88c7a75b9"
+        ],
+        "posted": "2026-11-24",
+        "location": "Remote (Ashby: United Kingdom posting, Next Play lists LATAM incl. Brazil, Mexico, Colombia, Argentina, Chile, Peru, plus Europe, Canada, UAE, South Africa); separate US-remote posting",
+        "open_checked": "2026-11-26T15:04:15+00:00",
+        "compensation": "US posting: $72.6K-$145.2K + equity + bonus",
+        "seniority": "mid-level IC execution role: 2+ yrs hands-on SEO, CMS delivery (Sanity), metadata, internal links, localisation, Jira; below the sponsor's level (nine years, strategy)",
+        "reports_to": "Head of SEO & AEO (named in the JD, person not identified); works closely with the SEO & AEO Content Lead"
+      },
+      "priority": 1
     }
   ],
   "rules": {
