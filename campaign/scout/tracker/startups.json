@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T15:30:34+00:00",
+ "updated_at": "2026-11-26T15:33:52+00:00",
  "hold_until": "2026-11-28T05:00:00Z",
  "rows": [
   {
@@ -35,7 +35,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "Julien Sauvage, CMO: address is a guess",
+   "next": "Addressed to julien@getgc.ai (Hunter: deliverable, 90)",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/P4WMQJxAsUWX7NpSNxUr4W",
@@ -57,7 +57,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "Andrea Kayal, CRO: address is a guess",
+   "next": "Addressed to andrea@helpscout.com (Hunter: deliverable, 91)",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/BkVB78WpF3mLWd5kgv1ZZS",
@@ -79,7 +79,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "Piers Garthwaite, Head of Web: title and address unconfirmed",
+   "next": "Addressed to piers.garthwaite@paddle.com (Hunter: deliverable, 89)",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",

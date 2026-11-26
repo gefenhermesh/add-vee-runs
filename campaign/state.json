@@ -862,8 +862,17 @@
         "done": "2026-11-25T01:32:38+00:00"
       },
       "gmail_draft_id": "r-8042809558676945810",
-      "draft_id": "r6518931599953251528",
-      "draft_note": "Andrea Kayal, CRO: address is a guess"
+      "draft_id": "r1525129469529727602",
+      "draft_note": "Addressed to andrea@helpscout.com (Hunter: deliverable, 91)",
+      "email1_to": "andrea@helpscout.com",
+      "email_verified": {
+        "address": "andrea@helpscout.com",
+        "by": "Hunter email-verifier",
+        "result": "deliverable",
+        "score": 91,
+        "accept_all": false,
+        "at": "2026-11-26"
+      }
     },
     {
       "slug": "gc-ai",
@@ -920,8 +929,17 @@
         "done": "2026-11-25T10:33:18+00:00"
       },
       "gmail_draft_id": "r-1668776791143731610",
-      "draft_id": "r986702943946060068",
-      "draft_note": "Julien Sauvage, CMO: address is a guess"
+      "draft_id": "r-3841013736537778292",
+      "draft_note": "Addressed to julien@getgc.ai (Hunter: deliverable, 90)",
+      "email1_to": "julien@getgc.ai",
+      "email_verified": {
+        "address": "julien@getgc.ai",
+        "by": "Hunter email-verifier",
+        "result": "deliverable",
+        "score": 90,
+        "accept_all": false,
+        "at": "2026-11-26"
+      }
     },
     {
       "slug": "reducto",
@@ -1126,8 +1144,17 @@
         "done": "2026-11-25T01:53:20+00:00"
       },
       "gmail_draft_id": "r4303044308811569600",
-      "draft_id": "r-7391112473048820372",
-      "draft_note": "Piers Garthwaite, Head of Web: title and address unconfirmed"
+      "draft_id": "r6670381700670283364",
+      "draft_note": "Addressed to piers.garthwaite@paddle.com (Hunter: deliverable, 89)",
+      "email1_to": "piers.garthwaite@paddle.com",
+      "email_verified": {
+        "address": "piers.garthwaite@paddle.com",
+        "by": "Hunter email-verifier",
+        "result": "deliverable",
+        "score": 89,
+        "accept_all": false,
+        "at": "2026-11-26"
+      }
     },
     {
       "slug": "chainguard",
@@ -1990,7 +2017,8 @@
       "send_at": "2026-11-27T09:00:00Z",
       "local": "Fri 27 Nov 09:00 London",
       "trigger_id": "trig_01MYndEGZfjXaxspGeCYzw62",
-      "condition": "verified address from the sponsor"
+      "condition": "met: address verified by Hunter 2026-11-26",
+      "to": "piers.garthwaite@paddle.com"
     },
     {
       "slug": "bay",
@@ -2019,7 +2047,8 @@
       "send_at": "2026-12-01T14:00:00Z",
       "local": "Tue 1 Dec 09:00 ET",
       "trigger_id": "trig_016WWgfQdDiGsQE2SThpgBnb",
-      "condition": "verified address from the sponsor"
+      "condition": "met: address verified by Hunter 2026-11-26",
+      "to": "andrea@helpscout.com"
     },
     {
       "slug": "gc-ai",
@@ -2027,7 +2056,8 @@
       "send_at": "2026-12-01T17:00:00Z",
       "local": "Tue 1 Dec 09:00 PT",
       "trigger_id": "trig_01R3u6xRej4s7PLXNPz6GsaJ",
-      "condition": "verified address from the sponsor"
+      "condition": "met: address verified by Hunter 2026-11-26",
+      "to": "julien@getgc.ai"
     }
   ]
 }

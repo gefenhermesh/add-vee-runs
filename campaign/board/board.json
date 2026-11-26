@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T15:30:34+00:00",
+ "updated_at": "2026-11-26T15:33:52+00:00",
  "rows": [
   {
    "company": "Bay",
@@ -81,14 +81,14 @@
   {
    "company": "Help Scout",
    "slug": "help-scout",
-   "draft_id": "r6518931599953251528",
-   "note": "Andrea Kayal, CRO: address is a guess. Scheduled Tue 1 Dec 09:00 ET once you confirm the address"
+   "draft_id": "r1525129469529727602",
+   "note": "Addressed to andrea@helpscout.com (Hunter: deliverable, 91). Scheduled Tue 1 Dec 09:00 ET once you confirm the address"
   },
   {
    "company": "GC AI",
    "slug": "gc-ai",
-   "draft_id": "r986702943946060068",
-   "note": "Julien Sauvage, CMO: address is a guess. Scheduled Tue 1 Dec 09:00 PT once you confirm the address"
+   "draft_id": "r-3841013736537778292",
+   "note": "Addressed to julien@getgc.ai (Hunter: deliverable, 90). Scheduled Tue 1 Dec 09:00 PT once you confirm the address"
   },
   {
    "company": "Reducto",
@@ -99,8 +99,8 @@
   {
    "company": "Paddle",
    "slug": "paddle",
-   "draft_id": "r-7391112473048820372",
-   "note": "Piers Garthwaite, Head of Web: title and address unconfirmed. Scheduled Fri 27 Nov 09:00 London once you confirm the address"
+   "draft_id": "r6670381700670283364",
+   "note": "Addressed to piers.garthwaite@paddle.com (Hunter: deliverable, 89). Scheduled Fri 27 Nov 09:00 London once you confirm the address"
   },
   {
    "company": "Synthesia",
