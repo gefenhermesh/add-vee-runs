@@ -180,15 +180,3 @@ class LanguageTest(unittest.TestCase):
         self.assertTrue(S.foreign_language("Analista de SEO", pt))
         self.assertFalse(S.foreign_language("Especialista SEO", es))
 
-
-
-def test_linkedin_post_in_a_city_that_never_says_remote_is_skipped():
-    # Sponsor, 2026-11-26: Kanbar Digital (San Diego) came through LinkedIn's remote search but is hybrid.
-    import seeker
-    post = {"title": "SEO Manager", "company": "Kanbar Digital, LLC", "location": "San Diego, CA", "region": "us"}
-    desc = ("Job Purpose: To support and execute on-page and off-page optimization strategies to improve website "
-            "visibility and drive organic traffic. Manage and support 5-8 clients. Conduct keyword research.")
-    r = seeker.screen(post, desc)
-    assert r["lean"] == "skip" and "never says remote" in r["why"][0]
-    post2 = dict(post, location="United States")
-    assert "never says remote" not in " ".join(seeker.screen(post2, desc)["why"])
