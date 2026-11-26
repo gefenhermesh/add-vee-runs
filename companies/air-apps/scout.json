@@ -1,0 +1,88 @@
+{
+  "scout_version": 4,
+  "company": "Air Apps",
+  "domain": "airapps.co",
+  "slug": "air-apps",
+  "scouted": "2026-11-26",
+  "b2b": false,
+  "track": "seo_job",
+  "proposed": false,
+  "not_a_match": "consumer (B2C) app studio, self-funded (not VC-backed): 38+ utility apps (Translate Now, Translator Keyboard, Calculator Air...) sold as a $19.99/month bundle, discovered mainly through the App Store. The job route takes B2B tech only (SCOUT.md step 4). The post is also a talent-pool placeholder ('this post serves the purpose of enhancing our talent pool while we prepare to launch the official job'), mid-level (3+ years, $60K-100K).",
+  "job": {
+    "title": "Search Engine Optimization (SEO) Specialist",
+    "url": "https://www.linkedin.com/jobs/view/search-engine-optimization-seo-specialist-at-air-apps-4480066713",
+    "board_url": "https://jobs.ashbyhq.com/airapps/b2bd37fd-42a4-4016-b7af-b0807fdb4680",
+    "posted": "2026-11-26",
+    "location": "On-site San Francisco (Ashby, first published 2025-03-07) or on-site Lisbon (2026-02-17); remote only from Berlin, London, Madrid, Paris or Rome (Ashby, 2026-04). Not remote-anywhere; no US-remote listing.",
+    "open_checked": "2026-11-26T20:33:17+00:00",
+    "seniority": "mid-level specialist: ~3+ years, $60K-100K, ASO a plus; evergreen talent-pool post",
+    "reports_to": "not stated; couldn't verify"
+  },
+  "source_of_lead": "Daily SEO-jobs route, LinkedIn US search 2026-11-26; sponsor asked for a recon (2026-11-26)",
+  "reason": "Not a match: self-funded consumer app studio whose apps are found in the App Store, not a B2B tech startup; the post is an evergreen talent-pool placeholder for a mid-level role. Recorded, not proposed.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "SEO role listed on its own Ashby board in 7 locations (talent-pool posts). Many parallel marketing roles listed the same way (Digital Marketing Manager, Content Marketing Manager, Product Growth Specialist).",
+  "marketing_leadership": {
+    "status": "not found",
+    "who": [
+      {"name": "Filipe Ferreira", "role": "CEO (per a press release)", "kind": "unverified"}
+    ],
+    "evidence": ["WebSearch 2026-11-26: press release on news.marketersmedia.com names Filipe Ferreira, CEO; no head of marketing/growth found"]
+  },
+  "seo_team": {"status": "not found", "evidence": ["JD: works with marketing, product and development teams"]},
+  "situation": {
+    "estimate": "Founded in Lisbon 2017/2018, offices in Lisbon and San Francisco, self-funded, 100M+ downloads, 38+ AI-powered utility apps bundled as Air Apps One.",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {"type": "seo_job_post", "detail": "Search Engine Optimization (SEO) Specialist", "date": "2026-11-26", "source": "https://www.linkedin.com/jobs/view/search-engine-optimization-seo-specialist-at-air-apps-4480066713"},
+  "fit_evidence": [
+    {"claim": "airapps.co: 'AI-powered apps for everyday life... 38+ apps. One subscription. $19.99/month'", "kind": "direct", "url": "https://airapps.co/", "date": "accessed 2026-11-26"},
+    {"claim": "JD: 'family-founded', 'remained self-funded', '100 million downloads'; 'this post serves the purpose of enhancing our talent pool'", "kind": "direct", "url": "https://www.linkedin.com/jobs/view/search-engine-optimization-seo-specialist-at-air-apps-4480066713", "date": "2026-11-26"}
+  ],
+  "seo_need": {
+    "rating": "medium",
+    "buyer_research": "People do ask AI 'best translator app' / 'best scanner app', but these are crowded utility categories decided mostly in the App Store (ASO), one quick download, no buying committee.",
+    "competitors": [
+      {"name": "Google Translate / DeepL / iTranslate", "seo_investment": "high (from memory, not checked)", "evidence_url": "https://apps.apple.com/app/id1348028646"}
+    ],
+    "serp_checks": [],
+    "cost_of_absence": "couldn't verify",
+    "why_not_yet": "unclear",
+    "evidence": ["airapps.co homepage (direct)", "LinkedIn JD (direct)"]
+  },
+  "reply_odds": {"rating": "low", "why": "Consumer, self-funded, talent-pool post, no marketing leader found; a 100M-download studio's CEO is not a realistic recipient."},
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "seo_job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "consumer_apps",
+    "stage": "bootstrapped",
+    "situation": "established",
+    "size_band": "unknown",
+    "geo": "eu",
+    "finding_pattern": "unknown",
+    "recipient_role": "ceo",
+    "buying_journey": "impulse",
+    "seo_need": "medium"
+  },
+  "contacts": [
+    {"name": "Filipe Ferreira", "role": "CEO (per a press release; unverified)", "email": null, "email_verified": false, "source": "https://news.marketersmedia.com/air-apps-announces-app-store-feature-for-translate-now-and-new-iphone-duo-layout/89206848 (WebSearch 2026-11-26)", "recipient_rank": 1}
+  ],
+  "outreach_angle": {"hook": "None proposed (not a match).", "source": "", "date": ""},
+  "sources": [
+    {"url": "https://airapps.co/", "date": "accessed 2026-11-26", "kind": "direct", "result": "consumer app bundle, links careers to jobs.ashbyhq.com/airapps"},
+    {"url": "https://jobs.ashbyhq.com/airapps", "date": "2026-11-26", "kind": "direct", "result": "SEO Specialist listed: SF on-site, Lisbon on-site, remote Berlin/London/Madrid/Paris/Rome"},
+    {"url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480066713", "date": "2026-11-26", "kind": "direct", "result": "full JD, talent-pool note, $60K-100K"},
+    {"url": "jobs.py check-open --key airapps", "date": "2026-11-26", "kind": "direct", "result": "open (ashby:airapps)"},
+    {"url": "https://news.marketersmedia.com/air-apps-announces-app-store-feature-for-translate-now-and-new-iphone-duo-layout/89206848", "date": "via WebSearch 2026-11-26", "kind": "unverified", "result": "names Filipe Ferreira, CEO"}
+  ],
+  "sources_tried_failed": ["airapps.co/careers: 404; careers.airapps.co: unreachable (2026-11-26)"],
+  "open_questions": ["None needed: not a match."]
+}
