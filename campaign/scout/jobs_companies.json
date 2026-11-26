@@ -6187,10 +6187,19 @@
     "url": "https://www.linkedin.com/jobs/view/organic-growth-lead-seo-geo-at-gc-ai-4491525923",
     "region": "us",
     "fresh": false
+   },
+   {
+    "job_id": "np-483b5884-5e78-42b3-9016-7db74852fbf2",
+    "title": "Organic Growth Lead (SEO/GEO)",
+    "location": "Remote, San Mateo, California",
+    "posted": "2026-11-16",
+    "url": "https://nextplay.so/jobs/483b5884-5e78-42b3-9016-7db74852fbf2",
+    "region": "nextplay",
+    "fresh": false
    }
   ],
   "class": "startup",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-26",
   "backlog": true,
   "open_check": {
    "url": "https://www.linkedin.com/jobs/view/organic-growth-lead-seo-geo-at-gc-ai-4491525923",
@@ -6206,7 +6215,8 @@
   "why": "proposed 2026-11-24: #1 deep pass: B2B legal AI for in-house teams (2,100+ customers), Organic Growth Lead SEO/GEO, 5+ yrs, owns strategy, San Mateo; open on Ashby 2026-11-24",
   "classified_at": "2026-11-24",
   "proposed": "2026-11-24",
-  "slug": "gc-ai"
+  "slug": "gc-ai",
+  "about": "GC AI is the legal AI platform built for in-house teams."
  },
  "robert-half-international": {
   "name": "Robert Half",
@@ -6651,10 +6661,19 @@
     "url": "https://www.linkedin.com/jobs/view/aeo-seo-lead-at-profound-4481845260",
     "region": "us",
     "fresh": false
+   },
+   {
+    "job_id": "np-327499e8-1f70-4509-a4e8-cc0d1868c74e",
+    "title": "AEO/SEO Lead",
+    "location": "New York",
+    "posted": "2026-11-19",
+    "url": "https://nextplay.so/jobs/327499e8-1f70-4509-a4e8-cc0d1868c74e",
+    "region": "nextplay",
+    "fresh": false
    }
   ],
   "class": "startup",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-26",
   "backlog": true,
   "open_check": {
    "url": "https://www.linkedin.com/jobs/view/aeo-seo-lead-at-profound-4481845260",
@@ -6670,7 +6689,9 @@
   "why": "startup, lower fit: GEO/AI-visibility vendor (competes with add-vee's offer), AEO/SEO Lead NYC; open 2026-11-24",
   "classified_at": "2026-11-24",
   "proposed": "2026-11-24",
-  "slug": "profound"
+  "slug": "profound",
+  "about": "Profound is an AI marketing platform.",
+  "stage": "Series D 2026-09-15"
  },
  "creditgenieus": {
   "name": "Credit Genie",
@@ -12941,13 +12962,22 @@
     "url": "https://wellfound.com/jobs/2310969-seo-manager",
     "region": "wellfound",
     "fresh": false
+   },
+   {
+    "job_id": "np-d111cfdf-276a-42fc-8fbe-3a016142daf9",
+    "title": "SEO Manager",
+    "location": "Sofia",
+    "posted": "2022-07-20",
+    "url": "https://nextplay.so/jobs/d111cfdf-276a-42fc-8fbe-3a016142daf9",
+    "region": "nextplay",
+    "fresh": false
    }
   ],
   "class": "startup",
-  "last_seen": "2026-11-24",
+  "last_seen": "2026-11-26",
   "backlog": true,
   "size": "201-500",
-  "about": "Business spend, reinvented",
+  "about": "Payhawk AI Financial Controller.",
   "open_check": {
    "url": "https://wellfound.com/jobs/2310969-seo-manager",
    "state": "open",
@@ -12962,7 +12992,8 @@
   "why": "startup, lower fit: B2B spend management, SEO Manager reports to a Director of SEO (an SEO team exists); open 2026-11-24",
   "classified_at": "2026-11-24",
   "proposed": "2026-11-24",
-  "slug": "payhawk"
+  "slug": "payhawk",
+  "stage": "Series C 2026-11-18"
  },
  "name:zillow": {
   "name": "Zillow",
@@ -14922,5 +14953,104 @@
   "last_seen": "2026-11-24",
   "why": "Grafana Labs: late-stage, ~1,500 staff; search-engineering role, not SEO",
   "classified_at": "2026-11-25"
+ },
+ "name:payward": {
+  "name": "Payward, Inc.",
+  "company_url": null,
+  "first_seen": "2026-11-26",
+  "posts": [
+   {
+    "job_id": "np-d3661d46-4371-4e84-88cb-b23333750d5a",
+    "title": "Marketing Operations Specialist, SEO/AEO",
+    "location": "Remote, United Kingdom, Brazil, United Arab Emirates, Ireland, Peru, Sweden, Colombia, Argentina, Romania, Cyprus, Switzerland, Portugal, Lithuania, South Africa, Czech Republic, Canada, Hungary, Mexico, Chile, Poland, Spain, Bulgaria",
+    "posted": "2026-11-24",
+    "url": "https://nextplay.so/jobs/d3661d46-4371-4e84-88cb-b23333750d5a",
+    "region": "nextplay",
+    "fresh": true
+   },
+   {
+    "job_id": "np-7ca4a1f0-53e3-4139-affe-7bf88c7a75b9",
+    "title": "Marketing Operations Specialist, SEO/AEO",
+    "location": "Remote, United States",
+    "posted": "2026-11-24",
+    "url": "https://nextplay.so/jobs/7ca4a1f0-53e3-4139-affe-7bf88c7a75b9",
+    "region": "nextplay",
+    "fresh": true
+   }
+  ],
+  "class": "enterprise",
+  "last_seen": "2026-11-26",
+  "about": "Kraken",
+  "stage": "Growth 2026-04-14",
+  "offered": "2026-11-26",
+  "why": "Payward = Kraken (same as krakenfx): large crypto exchange. Its LATAM/EU remote SEO/AEO role is on the sponsor's apply list",
+  "classified_at": "2026-11-26"
+ },
+ "name:corgi-labs": {
+  "name": "Corgi Labs",
+  "company_url": null,
+  "first_seen": "2026-11-26",
+  "posts": [
+   {
+    "job_id": "np-0b9f4509-84ed-42e5-a3bf-d541843760b1",
+    "title": "SEO Specialist",
+    "location": "Dallas, Chicago, Atlanta",
+    "posted": "2026-11-21",
+    "url": "https://nextplay.so/jobs/0b9f4509-84ed-42e5-a3bf-d541843760b1",
+    "region": "nextplay",
+    "fresh": false
+   }
+  ],
+  "class": "startup",
+  "last_seen": "2026-11-26",
+  "backlog": true,
+  "about": "AI-native, full-stack insurance carrier built for startups, providing fast, flexible coverage tailored to how startups operate and scale.",
+  "stage": "Series B 2026-05-28",
+  "why": "Corgi: AI-native insurance carrier for startups (B2B), Series B May 2026 (Next Play). SEO Specialist, Dallas/Chicago/Atlanta on-site: recon 2026-11-26",
+  "classified_at": "2026-11-26"
+ },
+ "name:campfire": {
+  "name": "Campfire",
+  "company_url": null,
+  "first_seen": "2026-11-26",
+  "posts": [
+   {
+    "job_id": "np-41f533c5-d179-49e7-8de8-d3b4a6cf7411",
+    "title": "SEO & AEO Manager",
+    "location": "San Francisco",
+    "posted": "2026-09-21",
+    "url": "https://nextplay.so/jobs/41f533c5-d179-49e7-8de8-d3b4a6cf7411",
+    "region": "nextplay",
+    "fresh": false
+   }
+  ],
+  "class": "startup",
+  "last_seen": "2026-11-26",
+  "backlog": true,
+  "about": "Campfire is the AI-native ERP for mid-size and enterprise companies to close fast and scale faster.",
+  "why": "Campfire: AI-native ERP for mid-size/enterprise (B2B). SEO & AEO Manager, San Francisco, posted 2026-09-21: recon 2026-11-26 (check it's still open)",
+  "classified_at": "2026-11-26"
+ },
+ "name:finix": {
+  "name": "Finix",
+  "company_url": null,
+  "first_seen": "2026-11-26",
+  "posts": [
+   {
+    "job_id": "np-6ffc6f90-4cf7-48e3-8738-23ef9a2a08e7",
+    "title": "Senior Organic Growth Manager",
+    "location": "San Francisco",
+    "posted": "2026-09-28",
+    "url": "https://nextplay.so/jobs/6ffc6f90-4cf7-48e3-8738-23ef9a2a08e7",
+    "region": "nextplay",
+    "fresh": false
+   }
+  ],
+  "class": "startup",
+  "last_seen": "2026-11-26",
+  "backlog": true,
+  "about": "Finix is a payment processor that makes it easy for software platforms, marketplaces, and businesses to accept payments.",
+  "why": "Finix: payments infrastructure for software platforms (B2B). Senior Organic Growth Manager, San Francisco, posted 2026-09-28: recon 2026-11-26 (check it's still open)",
+  "classified_at": "2026-11-26"
  }
 }

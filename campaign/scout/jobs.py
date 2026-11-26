@@ -463,6 +463,40 @@ def cmd_parse(a):
     print(json.dumps(parse(Path(a.html).read_text(errors="ignore")), indent=1, ensure_ascii=False))
 
 
+def nextplay_mcp_posts(items):
+    """Posts from the Next Play connector's search_jobs results (sponsor connected it 2026-11-26). The session calls
+    the tool (the script can't) and saves the `items` list; job ids share the "np-" prefix with the public role pages,
+    so a role seen both ways is stored once."""
+    posts = []
+    for j in items:
+        if not SEO_TITLE.search(j.get("title", "")):
+            continue
+        name = j.get("company") or ""
+        locs = list(j.get("locations") or [])
+        where = ", ".join((["Remote"] if j.get("remote") else []) + locs) or None
+        fr = j.get("companyLatestFundraise") or {}
+        stage = " ".join(x for x in (fr.get("round"), fr.get("announcedDate")) if x) or None
+        posts.append({"job_id": "np-" + j["id"], "title": j["title"], "company": name, "company_url": None,
+                      "company_key": "name:" + norm_name(name), "location": where,
+                      "posted": (j.get("publishedAt") or j.get("addedAt") or "")[:10] or None,
+                      "url": (j.get("url") or "").split("?")[0], "region": "nextplay", "stage": stage,
+                      "about": j.get("companySummary")})
+    return posts
+
+
+def cmd_ingest_nextplay(a):
+    items = json.loads(Path(a.file).read_text())
+    items = items.get("items", items) if isinstance(items, dict) else items
+    posts = nextplay_mcp_posts(items)
+    known = known_job_ids()
+    new = [p for p in posts if p["job_id"] not in known]
+    now = dt.datetime.now(dt.timezone.utc)
+    triage = store(new, now)
+    print(json.dumps({"coverage": f"nextplay_mcp: {len(posts)} SEO-titled posts, {len(new)} new",
+                      "new_companies": triage, "recorded_not_triaged": getattr(store, "recorded_only", 0)},
+                     indent=1, ensure_ascii=False, default=str))
+
+
 def cmd_classify(a):
     rows = json.loads(Path(a.file).read_text())
     companies = load_companies()
@@ -644,6 +678,7 @@ def main(argv=None):
     x = sub.add_parser("fetch"); x.add_argument("--only", help="comma-separated source names"); x.set_defaults(fn=cmd_fetch)
     x = sub.add_parser("parse"); x.add_argument("html"); x.set_defaults(fn=cmd_parse)
     x = sub.add_parser("classify"); x.add_argument("file"); x.set_defaults(fn=cmd_classify)
+    x = sub.add_parser("ingest-nextplay"); x.add_argument("file"); x.set_defaults(fn=cmd_ingest_nextplay)
     x = sub.add_parser("startups"); x.add_argument("--date"); x.set_defaults(fn=cmd_startups)
     x = sub.add_parser("backlog"); x.add_argument("--limit", type=int, default=BACKLOG_PER_DAY); x.set_defaults(fn=cmd_backlog)
     x = sub.add_parser("check-open"); x.add_argument("url"); x.add_argument("--company", default="")
