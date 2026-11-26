@@ -150,7 +150,10 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
    - **Never report a run as complete without its coverage list.** A source that wasn't read is written down as not read, with the reason.
    - CTech headlines sometimes name a company only in the teaser. Those leads are `(unresolved) …`; read the article to get the company before filtering.
    - **Every new lead goes into the queue**, merged with what is already there: `python campaign/scout/scout_queue.py add-longlist` for the script's leads, `scout_queue.py add "<name>" --source <source> [--note ...] [--b2b yes|no] [--trigger-date ...]` for the ones covered by hand. Nothing is filtered here ("How it runs", step 1).
-   - **Remote-first startups from Next Play (sponsor, 2026-11-26), one or two a week.** Load the Next Play connector
+   - **Remote-first startups from Next Play (sponsor, 2026-11-26), one or two a week, as audit prospects.** This is
+     company discovery for add-vee, not a job search: the weekly scout chooses companies likely to respond well to
+     the audit, and SEO job posts stay with the daily route. Remote marketing roles are used only as evidence that a
+     company hires remotely and has a marketing team. Load the Next Play connector
      (ToolSearch "next play jobs") and call `mcp__nextplay__search_companies` with `remote: true`,
      `roleTypes: ["marketing"]`, `experienceLevels: ["senior", "management"]`, paging a few pages, rotating
      `companyIndustries` week to week so the mix isn't all one sector. Queue the venture-backed B2B ones
@@ -172,8 +175,8 @@ The scout runs in **its own session, created from this repo** (source `add-vee-r
    the same, and at least one pick is remote-first (`remote_global` or `remote_americas`) when one is proposed:
    `propose.py pick` does this (`learn.py`: MIX_DIMS, REMOTE_FIRST_MIN, WARMUP_REPLIES). Recon with that in mind:
    don't recon four companies that differ only in name. Once replies arrive, the reply rates per aspect take over
-   and the ratios follow the results. Remote-first companies fit both of the sponsor's outcomes (a role he can take
-   from Costa Rica, or helping alongside the team); office-based ones mainly the second.
+   and the ratios follow the results. Remote-first is one aspect being tested for reply odds: whether companies used to
+   working with people they don't see answer an outside expert's audit more often. The learning loop will show it.
 4. `python campaign/scout/propose.py check` until every file is OK, then `propose.py add <slugs>` (status `proposed`, never queued) and `propose.py pick 5`.
 5. Commit and push, then send the manager **one line**: "Scout: N proposed, picks: a, b, c, d, e (explore: x)". The manager passes it to the sponsor in one line; the sponsor releases companies in the manager chat ("release a, b").
 
