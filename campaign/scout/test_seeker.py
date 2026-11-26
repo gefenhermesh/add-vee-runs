@@ -164,7 +164,7 @@ class LanguageTest(unittest.TestCase):
               "und bist für die Sichtbarkeit unserer Marke verantwortlich. Wir bieten dir ein tolles Team und flexible Arbeitszeiten "
               "mit der Möglichkeit, remote zu arbeiten, und eine Vergütung, die zu deiner Erfahrung passt.")
         r = S.screen({"title": "SEO Manager (m/w/d)", "company": "X", "region": "europe", "location": "Germany"}, de)
-        self.assertEqual(r["why"], ["European post not in English: hires locally"])
+        self.assertEqual(r["why"], ["post not in English or Spanish"])
 
     def test_title_marker_without_description(self):
         self.assertTrue(S.foreign_language("Senior SEO Manager (m/w/d)", ""))
@@ -173,4 +173,10 @@ class LanguageTest(unittest.TestCase):
     def test_low_end_jobs_are_ok_for_now(self):
         r = S.screen({"title": "SEO Implementation Specialist (WordPress)", "company": "X", "region": "latam", "location": "Brazil"}, "Fully remote.")
         self.assertNotEqual(r["lean"], "skip")
+
+    def test_portuguese_is_foreign_spanish_is_not(self):
+        pt = "Estamos buscando uma pessoa para o nosso time de SEO. Você vai trabalhar com a equipe de conteúdo e ter autonomia para crescer."
+        es = "Buscamos una persona para nuestro equipo de SEO. Vas a trabajar con el equipo de contenido de forma remota desde LATAM."
+        self.assertTrue(S.foreign_language("Analista de SEO", pt))
+        self.assertFalse(S.foreign_language("Especialista SEO", es))
 
