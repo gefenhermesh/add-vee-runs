@@ -128,6 +128,9 @@ FOREIGN_TITLE = re.compile(r"\((m/w/d|w/m/d|m/f/d|h/f|f/h|all genders|w/m/x|m/w/
                            r"spezialist|chef de projet|consultant\(e\)|responsable|especialista|specialista|medior)\b", re.I)
 
 
+OTHER_LANG_REQ = re.compile(r"\b(german|french|dutch|italian|portuguese|polish|chinese|mandarin|japanese|korean|"
+                            r"nordic|swedish|danish|norwegian|finnish|czech|greek|turkish|arabic|hebrew|russian|ukrainian)"
+                            r"[- ]?(speaking|speaker|native|fluent|market)\b", re.I)
 OWN_LANGUAGES = ("en", "es")   # the sponsor works in English and Spanish; Portuguese is foreign to him (2026-11-26)
 
 
@@ -245,6 +248,8 @@ def _screen(post, desc):
         return {"lean": "skip", "why": ["low-end execution role (implementation, link building, outreach)"], "quotes": []}
     if foreign_language(post.get("title", ""), desc):
         return {"lean": "skip", "why": ["post not in English or Spanish"], "quotes": []}
+    if OTHER_LANG_REQ.search(post.get("title", "")) or re.search(r"[\u0400-\u04ff\u0370-\u03ff\u4e00-\u9fff]", post.get("title", "")):
+        return {"lean": "skip", "why": ["needs a language other than English or Spanish"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
         hits = SEO_TERMS.findall(desc or "")
         if not (GROWTH_ROLE.search(post.get("title", "")) and len(hits) >= SEO_CORE_MIN):
