@@ -113,7 +113,7 @@ AGENCY_TEXT = re.compile(r"\b((digital|marketing|seo|search|growth|creative|perf
 _STOP = {
     "en": "the and to of a in for with you our we are is will on as be this your have at or from that by",
     "de": "und der die das mit für wir sie ist ein eine zu von auf im bei dein deine unsere unser als oder auch",
-    "fr": "et le la les des une un pour avec vous nous est dans sur au aux du votre notre en sont",
+    "fr": "et le la les des une un pour avec vous nous est dans sur au aux du votre notre en sont ou ans chez",
     "nl": "en de het een van voor met je jij wij we zijn op aan bij ons onze ook als",
     "it": "e il la le di per con che una un sono nel della dei delle nostro nostra",
     "pt": "e o a os as de do da para com você nós uma um em no na nossa nosso são",
@@ -128,13 +128,17 @@ FOREIGN_TITLE = re.compile(r"\((m/w/d|w/m/d|m/f/d|h/f|f/h|all genders|w/m/x|m/w/
                            r"spezialist|chef de projet|consultant\(e\)|responsable|especialista|specialista|medior)\b", re.I)
 
 
+OWN_LANGUAGES = ("en", "es")   # the sponsor works in English and Spanish; Portuguese is foreign to him (2026-11-26)
+
+
 def foreign_language(title, desc=""):
-    """True when the post is written in a language other than English (sponsor, 2026-11-26: that's a no)."""
+    """True when the post is written in a language he doesn't work in: anything but English or Spanish (sponsor,
+    2026-11-26: that's a no, in every region)."""
     words = re.findall(r"[a-zà-ÿąćęłńóśźżčďěňřšťůž]+", (desc or "").lower())
     if len(words) >= 5:
         counts = {k: sum(w in s for w in words) for k, s in _STOP.items()}
         best = max(counts, key=counts.get)
-        return best != "en" and counts[best] > counts["en"]
+        return best not in OWN_LANGUAGES and counts[best] > max(counts[k] for k in OWN_LANGUAGES)
     return bool(FOREIGN_TITLE.search(title or ""))
 
 
@@ -239,6 +243,8 @@ def _screen(post, desc):
     # find"); LOW_END stays defined so it can be switched back on with LOW_END_SKIP = True.
     if LOW_END_SKIP and LOW_END.search(post.get("title", "")) and not re.search(r"\b(head|lead|director|manager|strateg\w*)\b", post.get("title", ""), re.I):
         return {"lean": "skip", "why": ["low-end execution role (implementation, link building, outreach)"], "quotes": []}
+    if foreign_language(post.get("title", ""), desc):
+        return {"lean": "skip", "why": ["post not in English or Spanish"], "quotes": []}
     if not SEO_ROLE.search(post.get("title", "")):
         hits = SEO_TERMS.findall(desc or "")
         if not (GROWTH_ROLE.search(post.get("title", "")) and len(hits) >= SEO_CORE_MIN):
@@ -279,8 +285,6 @@ def _screen(post, desc):
                                          "anything else: skip)"], "quotes": [], "needs_kind": True}
     # Europe, refined (sponsor, 2026-11-26): posts never say "we hire outside X"; that's judged from experience. A post
     # written in a language other than English is a no; an English remote post has a chance and is worth trying.
-    if foreign_language(post.get("title", ""), desc):
-        return {"lean": "skip", "why": ["European post not in English: hires locally"], "quotes": []}
     return {"lean": "maybe", "why": ["European remote post in English: nothing rules you out, worth trying"], "quotes": []}
 
 
