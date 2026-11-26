@@ -5,10 +5,11 @@
     "weekly_target_companies": 5,
     "plan": "claude max (sponsor, 2026-11-19)",
     "brightdata_paused": false,
-    "campaign_paused": false,
+    "campaign_paused": true,
     "one_at_a_time": true,
     "hold_new_work_until": "2026-11-28T05:00:00Z",
-    "queue_rule": "sponsor 2026-11-26: one queue ranked by how likely the company is to hire the sponsor remotely (remote anywhere/LATAM > fully remote > US remote > hybrid small > office/on-site); queue_rank in each prospect, gate-approved or not"
+    "queue_rule": "sponsor 2026-11-26: one queue ranked by how likely the company is to hire the sponsor remotely (remote anywhere/LATAM > fully remote > US remote > hybrid small > office/on-site); queue_rank in each prospect, gate-approved or not",
+    "paused_note": "sponsor 2026-11-26 19:20Z: pause until the weekly usage reset (2026-11-28 05:00 UTC). Hourly tick disabled; one-shot resume at 05:05Z. Scheduled sends in send_queue still fire."
   },
   "prospects": [
     {
