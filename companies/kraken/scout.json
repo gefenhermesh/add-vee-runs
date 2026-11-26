@@ -1,0 +1,170 @@
+{
+  "scout_version": 4,
+  "slug": "kraken",
+  "scouted": "2026-11-26",
+  "b2b": false,
+  "track": "seo_job",
+  "gating_rating": "seo_job_opening",
+  "brightdata_requests": 0,
+  "priority_note": "Sponsor's request 2026-11-26: 'this is huge and must get urgent add-vee treat, mail and then I apply'. Proposed by his call despite the route's B2B-only and enterprise rules.",
+  "company": "Kraken",
+  "legal_name": "Payward, Inc. (parent of Kraken, NinjaTrader, Breakout, xStocks, CF Benchmarks)",
+  "domain": "kraken.com",
+  "job": {
+    "title": "Marketing Operations Specialist, SEO/AEO",
+    "url": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+    "url_us": "https://jobs.ashbyhq.com/kraken.com/aa7356bf-95da-4554-bcb1-346663b2e836",
+    "nextplay_urls": [
+      "https://nextplay.so/jobs/d3661d46-4371-4e84-88cb-b23333750d5a",
+      "https://nextplay.so/jobs/7ca4a1f0-53e3-4139-affe-7bf88c7a75b9"
+    ],
+    "posted": "2026-11-24",
+    "location": "Remote (Ashby: United Kingdom posting, Next Play lists LATAM incl. Brazil, Mexico, Colombia, Argentina, Chile, Peru, plus Europe, Canada, UAE, South Africa); separate US-remote posting",
+    "open_checked": "2026-11-26T15:04:15+00:00",
+    "compensation": "US posting: $72.6K-$145.2K + equity + bonus",
+    "seniority": "mid-level IC execution role: 2+ yrs hands-on SEO, CMS delivery (Sanity), metadata, internal links, localisation, Jira; below the sponsor's level (nine years, strategy)",
+    "reports_to": "Head of SEO & AEO (named in the JD, person not identified); works closely with the SEO & AEO Content Lead"
+  },
+  "source_of_lead": "Next Play connector 2026-11-26 (jobs.py ingest-nextplay); sponsor flagged it; confirmed on Kraken's own Ashby board (jobs.ashbyhq.com/kraken.com)",
+  "reason": "Kraken (Payward), one of the oldest and largest crypto exchanges (10M+ clients), is hiring a remote SEO/AEO operations specialist into its Consumer SEO & AEO team, open to LATAM and Europe. The sponsor wants to apply and asked for the audit first, as how he'd start.",
+  "gating_note": "Existing team: a Head of SEO & AEO, an SEO & AEO Content Lead, and past/parallel hires (Sr. Marketing Manager AEO, AEO Content Strategist, Content Specialist AEO & SEO, Head of Organic Growth Kraken Pro open now). Not a block on this route, but the audit lands with a mature in-house SEO/AEO function.",
+  "marketing_leadership": {
+    "status": "found (unnamed)",
+    "who": [
+      {
+        "name": "(not identified)",
+        "role": "Head of SEO & AEO (the role's manager per JD)",
+        "kind": "direct (title in JD)"
+      },
+      {
+        "name": "Luc Bouvier",
+        "role": "Senior Marketing Manager, AEO & SEO at Kraken (self-described on LinkedIn; covers Kraken Pro, NinjaTrader, xStocks); may be or report to the Head of SEO & AEO",
+        "kind": "unverified (LinkedIn profile via WebSearch snippet)"
+      }
+    ],
+    "evidence": [
+      "Ashby JD 2026-11-26: 'You will report to the Head of SEO & AEO and work closely with our SEO & AEO Content Lead'",
+      "WebSearch 2026-11-26: hk.linkedin.com/in/luc-bouvier-seo"
+    ]
+  },
+  "seo_team": {
+    "status": "found",
+    "evidence": [
+      "JD: 'The Consumer SEO & AEO team' with a Head of SEO & AEO and an SEO & AEO Content Lead",
+      "Earlier Kraken postings: Sr. Marketing Manager - AEO, AEO Content Strategist, Content Specialist AEO & SEO, Senior Manager SEO (aggregators via WebSearch)",
+      "Ashby 2026-11-26: Head of Organic Growth, Kraken Pro (open)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded 2011; spot, margin, futures, staking, OTC for retail and institutions; parent Payward also owns NinjaTrader, Breakout, xStocks, CF Benchmarks. 93 roles on its Ashby board 2026-11-26. Large, regulated, multi-market (localised pages, Compliance review).",
+    "confidence": "medium"
+  },
+  "trigger": {
+    "type": "job_post",
+    "detail": "Marketing Operations Specialist, SEO/AEO, remote",
+    "date": "2026-11-24",
+    "source": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: team 'helps people discover Kraken through search engines and AI answers'; role uses Profound for AI-answer citations, Surfer, Ahrefs, GSC; Sanity CMS; localised metadata across markets",
+      "kind": "direct",
+      "url": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+      "date": "2026-11-24"
+    },
+    {
+      "claim": "'buy bitcoin' is among crypto's most competitive searches; Kraken reportedly moved from ~#8-11 to #1 (team member's own claim)",
+      "kind": "unverified",
+      "url": "https://hk.linkedin.com/in/luc-bouvier-seo",
+      "date": "accessed 2026-11-26 (WebSearch snippet)"
+    }
+  ],
+  "jobs": {
+    "board": "ashby:kraken.com (93 roles, 2026-11-26)",
+    "marketing_roles": [
+      "Marketing Operations Specialist, SEO/AEO (US + non-US)",
+      "Head of Organic Growth, Kraken Pro",
+      "Sr. MarTech Specialist, Attribution & Performance",
+      "Creative Strategist & Copywriter - Consumer",
+      "Affiliate & Influencer Marketing Specialist - Kraken Pro"
+    ]
+  },
+  "contacts": [
+    {
+      "name": "Head of SEO & AEO (name not found)",
+      "role": "The role's hiring manager per JD",
+      "email": null,
+      "email_verified": false,
+      "source": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Luc Bouvier",
+      "role": "Senior Marketing Manager, AEO & SEO (unverified; possibly the head or a peer of the hiring manager)",
+      "email": null,
+      "email_verified": false,
+      "source": "https://hk.linkedin.com/in/luc-bouvier-seo",
+      "recipient_rank": 2
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their JD: 'helps people discover Kraken through search engines and AI answers' and 'compare agreed plans with what is live on the site, spot gaps'. Show what AI answers recommend for 'best crypto exchange' / 'where to buy bitcoin' in LATAM and EU markets (Coinbase, Binance, Bitso, Revolut) and live-site gaps (metadata, internal links, localised pages): exactly the delivery work the role does.",
+    "source": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+    "date": "2026-11-24"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Retail and pro traders search 'best crypto exchange', 'buy bitcoin', '<coin> price', 'Kraken vs Coinbase', ask ChatGPT/Perplexity which exchange is safe or cheapest in their country; comparison and review sites (NerdWallet, Investopedia, CoinGecko) dominate.",
+    "competitors": [
+      {"name": "Coinbase", "seo_investment": "very high (Learn hub, price pages for thousands of assets)", "evidence_url": "https://www.coinbase.com/learn"},
+      {"name": "Binance", "seo_investment": "very high (Academy, price pages, localised)", "evidence_url": "https://academy.binance.com/"},
+      {"name": "Bitso (LATAM)", "seo_investment": "high in LATAM Spanish/Portuguese", "evidence_url": "https://bitso.com/"},
+      {"name": "Revolut / eToro (EU)", "seo_investment": "high", "evidence_url": "https://www.etoro.com/"}
+    ],
+    "cost_of_absence": "Every market Kraken enters is fought in search and AI answers against Coinbase, Binance and local exchanges; a missing or wrong localised page or an AI answer that recommends a rival costs sign-ups at consumer scale. They are hiring capacity precisely because delivery lags strategy.",
+    "why_not_yet": "Not absent: a strong in-house SEO/AEO team exists. The gap the JD names is delivery capacity (shipping and checking changes across localised pages through Legal and Compliance).",
+    "evidence": ["Ashby JD (direct)", "WebSearch 2026-11-26"]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "Sponsor's own priority; the hiring manager is an SEO/AEO head who'd read an AEO audit with interest, and the role is open to LATAM. Against: large company with recruiters in the loop, hiring manager unnamed, mature team, and the role is a mid-level execution job below his level."
+  },
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "finding_pattern": "present_not_recommended",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "industry": "fintech",
+    "stage": "public",
+    "situation": "category_leader",
+    "size_band": "1000_plus",
+    "geo": "us",
+    "recipient_role": "content_seo",
+    "buying_journey": "considered",
+    "seo_need": "high",
+    "remote_hiring": "remote_global"
+  },
+  "sources": [
+    {"url": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c", "date": "2026-11-24", "kind": "direct", "result": "Full JD via Ashby API; open (jobs.py check-open 2026-11-26T15:04:15Z); reports to Head of SEO & AEO"},
+    {"url": "https://jobs.ashbyhq.com/kraken.com/aa7356bf-95da-4554-bcb1-346663b2e836", "date": "2026-11-24", "kind": "direct", "result": "US-remote copy, $72.6K-$145.2K + equity + bonus"},
+    {"url": "https://api.ashbyhq.com/posting-api/job-board/kraken.com", "date": "accessed 2026-11-26", "kind": "direct", "result": "93 roles"},
+    {"url": "https://nextplay.so/jobs/d3661d46-4371-4e84-88cb-b23333750d5a", "date": "2026-11-24", "kind": "direct", "result": "Next Play listing, remote incl. LATAM and Europe"},
+    {"url": "https://hk.linkedin.com/in/luc-bouvier-seo", "date": "accessed 2026-11-26 (WebSearch snippet)", "kind": "unverified", "result": "Senior Marketing Manager, AEO & SEO at Kraken"}
+  ],
+  "sources_tried_failed": [
+    "WebSearch 'Kraken Head of SEO & AEO': no name found",
+    "Ashby boards 'kraken' and 'krakenfx': not found (board is 'kraken.com')"
+  ],
+  "linkedin_checks_for_sponsor": ["Who is Kraken's Head of SEO & AEO? Is it Luc Bouvier?"],
+  "open_questions": [
+    "Hiring manager's name",
+    "Consumer (B2C) and enterprise: outside this route's B2B-startup rule, proposed on the sponsor's request",
+    "Role level: mid-level execution, not strategy"
+  ],
+  "proposed": "2026-11-26"
+}

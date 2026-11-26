@@ -15282,7 +15282,16 @@
   "stage": "Growth 2026-04-14",
   "offered": "2026-11-26",
   "why": "Payward = Kraken (same as krakenfx): large crypto exchange. Its LATAM/EU remote SEO/AEO role is on the sponsor's apply list",
-  "classified_at": "2026-11-26"
+  "classified_at": "2026-11-26",
+  "open_check": {
+   "url": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c",
+   "state": "open",
+   "post": "open",
+   "company_board": null,
+   "matching_roles": [],
+   "careers_page_mentions_seo": false,
+   "checked": "2026-11-26T15:04:15+00:00"
+  }
  },
  "name:corgi-labs": {
   "name": "Corgi Labs",
