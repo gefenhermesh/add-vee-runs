@@ -213,3 +213,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26T19:19:30Z sponsor: campaign paused until the usage reset. Hourly tick trig_01SgYw1mCwWPzdu79SqKqafZ disabled; resume reminder 2026-11-28 05:05Z.
 - 2026-11-26T20:01:59Z sponsor: 'do not do the fix' -> seeker.py city/never-says-remote rule reverted.
 - 2026-11-26T20:08:25Z sponsor: no content writer jobs. seeker.py skips writer/copywriter titles (test added); LINKEDIN_POSTS.md skip list updated.
+- 2026-11-26T20:09:46Z telnyx recon: fits (B2B dev API, 255-post blog), roles open, US-remote only, recipient Andy Muns (Director of AEO). Queued #4 (after YipitData, before Chainguard).

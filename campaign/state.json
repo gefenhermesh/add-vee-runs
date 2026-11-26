@@ -1041,7 +1041,7 @@
         "reports_to": "not stated; Head of Marketing (open since 2024) would own SEO/AEO per its JD; today inferred CEO"
       },
       "priority": 1,
-      "queue_rank": 10,
+      "queue_rank": 11,
       "queued_at": "2026-11-26T15:15:00+00:00",
       "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely"
     },
@@ -1198,7 +1198,7 @@
         "reports_to": "not stated in JD (other growth roles report to the VP of Marketing)"
       },
       "priority": 1,
-      "queue_rank": 4,
+      "queue_rank": 5,
       "queued_at": "2026-11-26T15:15:00+00:00",
       "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely"
     },
@@ -1242,7 +1242,7 @@
         "reports_to": "not stated (Marketing team; marketing heads report to the VP of Marketing)"
       },
       "priority": 1,
-      "queue_rank": 8,
+      "queue_rank": 9,
       "queued_at": "2026-11-26T15:15:00+00:00",
       "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely"
     },
@@ -1438,7 +1438,7 @@
         "order": 2,
         "sponsor_words": "Approve all but maybe we can create a que so one audit at a time?"
       },
-      "queue_rank": 6
+      "queue_rank": 7
     },
     {
       "slug": "payhawk",
@@ -1498,7 +1498,7 @@
         "order": 0,
         "sponsor_words": "approve payhawk"
       },
-      "queue_rank": 9
+      "queue_rank": 10
     },
     {
       "slug": "profound",
@@ -1669,7 +1669,7 @@
         "reports_to": "Head of Growth (per JD); JD also says 'working directly with our CEO'"
       },
       "priority": 1,
-      "queue_rank": 5,
+      "queue_rank": 6,
       "queued_at": "2026-11-26T15:15:00+00:00",
       "release_note": "sponsor 2026-11-26: release all six, ordered by how likely they are to hire remotely"
     },
@@ -1719,7 +1719,7 @@
         "words": "release dealhub",
         "at": "2026-11-25T18:38:02+00:00"
       },
-      "queue_rank": 7
+      "queue_rank": 8
     },
     {
       "slug": "kraken",
@@ -1775,7 +1775,7 @@
       "slug": "telnyx",
       "company": "Telnyx",
       "domain": "telnyx.com",
-      "status": "proposed",
+      "status": "queued",
       "b2b": true,
       "reason": "Profitable private CPaaS / voice-AI API company selling to developers, who (its own JD says) ask ChatGPT, Perplexity and Google which voice, messaging, IoT or inference provider to use. It has an AEO team under a Director of AEO and is hiring two AEO/SEO roles now, so an add-vee read of how AI answers rank Telnyx vs Twilio, Vonage and Plivo is a direct 'how I'd start in the role'.",
       "gating_rating": "seo_job_opening",
@@ -1823,7 +1823,10 @@
         ],
         "linkedin_posted": "2026-11-25"
       },
-      "priority": 1
+      "priority": 1,
+      "queue_rank": 4,
+      "queued_at": "2026-11-26T20:10:00+00:00",
+      "release_note": "sponsor 2026-11-26: add Telnyx, maybe prioritize; US-remote roles, named hiring manager (Andy Muns, Director of AEO)"
     }
   ],
   "rules": {
