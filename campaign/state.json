@@ -2072,8 +2072,8 @@
     {
       "slug": "paddle",
       "kind": "email1",
-      "send_at": "2026-11-27T09:00:00Z",
-      "local": "Fri 27 Nov 09:00 London",
+      "send_at": "2026-11-30T09:00:00Z",
+      "local": "Mon 30 Nov 09:00 London",
       "trigger_id": "trig_01MYndEGZfjXaxspGeCYzw62",
       "condition": "met: address verified by Hunter 2026-11-26",
       "to": "piers.garthwaite@paddle.com"
