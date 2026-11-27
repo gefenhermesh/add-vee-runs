@@ -38,6 +38,13 @@
         "terms": "remote, listed for Latin America, no residence limit stated",
         "note": null,
         "marked": "2026-11-25"
+      },
+      {
+        "role": "SEO Specialist",
+        "company": "Contravía",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
       }
     ],
     "not_for_me": [
@@ -47,6 +54,92 @@
         "terms": "remote, listed for Latin America, no residence limit stated",
         "note": null,
         "marked": "2026-11-25"
+      },
+      {
+        "role": "Content Writer",
+        "company": "elev8.io",
+        "terms": "growth/marketing title; SEO/GEO/AEO is the core of the description (10 mentions); remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Senior Web Growth Lead",
+        "company": "Meaningful | Growth Marketing",
+        "terms": "growth/marketing title; SEO/GEO/AEO is the core of the description (5 mentions); open to LATAM, the Americas, anywhere, or contractors",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Growth Search Strategist",
+        "company": "Estrategia MIC - SEO Ecommerce",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Marketing Resource Manager",
+        "company": "Regex SEO",
+        "terms": "growth/marketing title; SEO/GEO/AEO is the core of the description (8 mentions); remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Product Manager Especialista – Organic Growth",
+        "company": "Grupo OLX",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "SEO & PPC Account Manager And Campaign Strategist",
+        "company": "Focus Digital",
+        "terms": "US agency, remote. The form may ask about US work authorization, but worth trying.",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Lead SEO Specialist",
+        "company": "unnamed international IT outsourcing company (US/EU clients)",
+        "terms": "\"Локация: любая, кроме РФ\" (any location except Russia)",
+        "note": "Post in Russian; English B2+; 5+ yrs SEO, team lead, B2B IT outsourcing experience required.",
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "SEO Manager",
+        "company": "Omnicom Media Chile",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Analista de SEO y GEO",
+        "company": "BBVA en Argentina",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
+      }
+    ],
+    "not_remote": [
+      {
+        "role": "SEO / GEO Search Strategist – AI Search & Organic Growth",
+        "company": "Distinctly",
+        "terms": "European remote post in English: nothing rules you out, worth trying",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "Technical AEO Manager",
+        "company": "Aiven",
+        "terms": "European remote post in English: nothing rules you out, worth trying",
+        "note": null,
+        "marked": "2026-11-26"
+      },
+      {
+        "role": "SEO Specialist",
+        "company": "BlackSip",
+        "terms": "remote, listed for Latin America, no residence limit stated",
+        "note": null,
+        "marked": "2026-11-26"
       }
     ]
   }
