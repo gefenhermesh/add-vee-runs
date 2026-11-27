@@ -217,3 +217,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26T20:50Z sponsor: one-time seojobs.com run (route stays paused; SEOJOBS default unchanged). Last 24 h: 19 posts, 18 new; 17 skip (in-office US, intern, Asia, non-English, Gong US-only), 1 maybe (Caffeina SEO Specialist, Milan agency, post text unreadable) added to the tracker. 19 paid Web Unlocker pages (8 lost to a first attempt that crashed on a post with no location), week 180/200.
 - 2026-11-26T20:55:27Z sponsor: tracker gets a 'Not remote' reason; tracker.py learn keeps it in sponsor_marks; SCOUT.md 6b.
 - 2026-11-26T21:46:06Z sponsor: tracker reason 'US only' renamed 'Need authorization' (code us_only kept).
+- 2026-11-27T00:36:51Z Paddle email 1 send held (trig_01MYndEGZfjXaxspGeCYzw62 disabled) for a rework in the style of the sponsor's LinkedIn post: new roles.jpg (who hears Paddle, by buying role) + proposed text sent to the sponsor for OK.
