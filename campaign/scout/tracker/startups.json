@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T20:09:46+00:00",
+ "updated_at": "2026-11-27T02:16:11+00:00",
  "hold_until": "2026-11-28T05:00:00Z",
  "rows": [
   {
@@ -79,7 +79,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "Addressed to piers.garthwaite@paddle.com (Hunter: deliverable, 89)",
+   "next": "v2 (people + role chart); to piers.garthwaite@paddle.com (Hunter: deliverable, 89)",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",

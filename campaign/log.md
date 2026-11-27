@@ -218,3 +218,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-26T20:55:27Z sponsor: tracker gets a 'Not remote' reason; tracker.py learn keeps it in sponsor_marks; SCOUT.md 6b.
 - 2026-11-26T21:46:06Z sponsor: tracker reason 'US only' renamed 'Need authorization' (code us_only kept).
 - 2026-11-27T00:36:51Z Paddle email 1 send held (trig_01MYndEGZfjXaxspGeCYzw62 disabled) for a rework in the style of the sponsor's LinkedIn post: new roles.jpg (who hears Paddle, by buying role) + proposed text sent to the sponsor for OK.
+- 2026-11-27T02:16:12Z Paddle email 1 v2 drafted r7114656259484137213 (two-role contrast + Retain error, roles.jpg), narrative_check clean; old draft deleted; send moved to Mon 30 Nov 09:00 London. company-session.md 3c (finding and image choice) on campaign-docs/job-track-wording.
