@@ -45,8 +45,14 @@ class Screen(unittest.TestCase):
         self.assertEqual(S.screen(post("latam", title="Digital Copywriter"), "")["lean"], "skip")
         self.assertEqual(S.screen(post("latam", title="Practicante de SEO"), "")["lean"], "skip")
         self.assertEqual(S.screen(post("europe", title="Consultant SEO"), "5 ans en agence ou en freelance.")["lean"], "skip")
-        self.assertEqual(S.screen(post("europe"), "The editor oversees freelance writers.")["lean"], "maybe")
-        self.assertEqual(S.screen(post("europe"), "We serve customers worldwide and across the Americas.")["lean"], "maybe")
+        self.assertEqual(S.screen(post("europe"), "Remote. The editor oversees freelance writers.")["lean"], "maybe")
+        self.assertEqual(S.screen(post("europe"), "Remote.\nWe serve customers worldwide and across the Americas.")["lean"], "maybe")
+
+    def test_no_bloat_in_maybe(self):
+        # sponsor, 2026-11-27: "don't bloat the maybe list": drop low pay and Europe posts that never say remote
+        self.assertEqual(S.screen(post("europe"), "Join our team in Ashbourne, Derbyshire.")["lean"], "skip")
+        self.assertEqual(S.screen(post("latam"), "Compensation · USD $7–$9 per hour, depending on experience")["lean"], "skip")
+        self.assertEqual(S.screen(post("latam"), "Remote. Pay $25/hour.")["lean"], "apply")
         self.assertEqual(S.screen(post("us"), "This role is remote and open to candidates worldwide.")["lean"], "apply")
 
     def test_onsite_and_us_based(self):

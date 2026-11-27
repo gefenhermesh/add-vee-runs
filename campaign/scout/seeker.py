@@ -81,6 +81,12 @@ ONSITE = re.compile(r"\b(in[- ]office|on[- ]?site|onsite|hybrid|in[- ]person|pre
 # Only the kind of task marks a role low-end, never the word "specialist", "executive" or "associate" (sponsor,
 # 2026-11-26: specialist roles are wanted; executive and associate may be fine).
 LOW_END_SKIP = False
+# Sponsor, 2026-11-27: "don't bloat the maybe list": irrelevant posts (low pay, foreign language...) are dropped, not
+# kept as maybes. Pay this low is a skip even while low-end jobs are allowed.
+LOW_PAY = re.compile(r"(?:usd|us\$|\$)\s?(\d{1,2})(?:\.\d+)?\s?(?:[–-]\s?\$?\s?(\d{1,2})(?:\.\d+)?)?\s?(?:usd\s?)?"
+                     r"(?:/|per |an |a )\s?(?:hour|hr)\b", re.I)
+LOW_PAY_MAX_HOURLY = 12
+REMOTE_SAID = re.compile(r"\b(remote|remoto|work from home|wfh|fully distributed|distributed team|anywhere)\b", re.I)
 LOW_END = re.compile(r"\b(implementation|wordpress|link ?build(er|ing)|outreach|backlinks?|citations?|seo va|"
                      r"virtual assistant|data entry|content upload)\b", re.I)
 JUNIOR = re.compile(r"\b(intern(ship)?|junior|jr\.?|entry[- ]level|trainee|assistant|graduate|practicante|pasante|"
@@ -258,6 +264,9 @@ def _screen(post, desc):
     # through as an SEO-heavy growth role).
     if WRITER.search(post.get("title", "")):
         return {"lean": "skip", "why": ["content writing role (not for the sponsor)"], "quotes": []}
+    pay = LOW_PAY.search(text)
+    if pay and int(pay.group(2) or pay.group(1)) <= LOW_PAY_MAX_HOURLY:
+        return {"lean": "skip", "why": ["pay too low"], "quotes": [pay.group(0)]}
     if not SEO_ROLE.search(post.get("title", "")):
         hits = SEO_TERMS.findall(desc or "")
         if not (GROWTH_ROLE.search(post.get("title", "")) and len(hits) >= SEO_CORE_MIN):
@@ -298,6 +307,10 @@ def _screen(post, desc):
                                          "anything else: skip)"], "quotes": [], "needs_kind": True}
     # Europe, refined (sponsor, 2026-11-26): posts never say "we hire outside X"; that's judged from experience. A post
     # written in a language other than English is a no; an English remote post has a chance and is worth trying.
+    # Sponsor, 2026-11-27 ("don't bloat the maybe list"): LinkedIn's remote label alone isn't enough; a European post
+    # that never says it's remote (on-site-looking UK/EU roles, recruiters' local clients) is dropped.
+    if desc and not REMOTE_SAID.search(text):
+        return {"lean": "skip", "why": ["European post that never says the role is remote"], "quotes": []}
     return {"lean": "maybe", "why": ["European remote post in English: nothing rules you out, worth trying"], "quotes": []}
 
 
