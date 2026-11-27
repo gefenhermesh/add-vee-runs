@@ -1,0 +1,169 @@
+{
+  "scout_version": 4,
+  "company": "Turvo",
+  "domain": "turvo.com",
+  "slug": "turvo",
+  "scouted": "2026-11-27",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "Digital Marketing Manager",
+    "url": "https://jobs.lever.co/turvo/cc40cf6f-3ca4-478a-b36c-a95101a80bf8",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/digital-marketing-manager-at-turvo-4495554715",
+    "posted": "2026-11-27",
+    "lever_created": "2026-10-27",
+    "location": "Dallas, TX (LinkedIn and Lever location); Lever workplaceType says 'remote', so likely US remote or hybrid from Dallas (inferred)",
+    "open_checked": "2026-11-27T17:24:43+00:00",
+    "seniority": "manager, 5-7 years B2B digital marketing / demand gen; hands-on generalist owning digital demand gen, no team stated",
+    "reports_to": "not stated in JD (Marketing dept, Digital Marketing team); presumably the Chief Growth Officer, inferred",
+    "seo_share_of_role": "minority: SEO/AEO is one of five responsibility blocks (Strategy, SEO/AEO & website, Paid media, HubSpot/ABM/nurture, Analytics). The role summary is 'own Turvo's digital demand generation strategy' (inbound, paid, ABM, lifecycle). SEO/AEO/'search' terms ~9-13 mentions, but paid media, HubSpot and ABM carry as much or more weight. Not 'mostly SEO'."
+  },
+  "source_of_lead": "Daily SEO-jobs route 2026-11-27: LinkedIn post 4495554715 (company key turvoinc in jobs_companies.json); same role on Turvo's Lever board (created 2026-10-27, reposted on LinkedIn 2026-11-27, 49 applicants)",
+  "reason": "Turvo (Lineage-owned TMS SaaS, ~190-270 staff) wants a manager to 'own Turvo's SEO and AEO strategies', but the role is mostly digital demand gen (paid media, HubSpot, ABM) and Turvo already runs active SEO content (226 posts, 'alternatives'/'best TMS' guides ranking on page 1). Not an SEO-core opening and the company is shrinking and not VC-backed: record, don't propose.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Open role, but SEO/AEO is one pillar of a demand-gen generalist role, not its core (route rule: a marketing title counts only if the post is mostly SEO). Marketing led by a Chief Growth Officer (Samantha Foley, leadership page). No dedicated SEO person found; content partly agency-supported ('Partner with internal teams and agencies'). Role is manager level (5-7 yrs), fits sponsor's seniority but heavy paid/HubSpot/ABM ownership is outside his core.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {"name": "Samantha Foley", "role": "Chief Growth Officer (brand, product marketing, digital marketing, lead gen, events, comms, PR/AR per speaker bio)", "kind": "direct", "source": "https://turvo.com/leadership/"}
+    ],
+    "evidence": [
+      "turvo.com/leadership/ (accessed 2026-11-27, direct): Billy Sarracino CEO, Samantha Foley Chief Growth Officer, Gabrielle Hill CCO, Pushkar Deshpande SVP Product, Somashekar Raju VP Eng, Phillip Ratkovic VP Controller, Kevin Hanley VP People",
+      "FreightWaves speaker page lists her as Chief Growth Officer, Turvo (date unknown)",
+      "May 2025 SVP Product press release names her as media contact, Chief Growth Officer (via WebSearch summary)",
+      "TheOrg lists her as CMO (aggregator, unverified)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "Lever board 2026-11-27: only marketing role open is this one; JD says the role owns SEO/AEO and partners with agencies",
+      "No SEO-titled person found in WebSearch (no LinkedIn people search run; couldn't verify fully)",
+      "Yet SEO work is clearly happening: 2026-dated 'alternatives' and 'best TMS' articles (agency or internal content, unknown)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded in Silicon Valley (~2014), raised ~$85-100M VC (Series A $25M 2017, Series B $60M 2018 led by Mubadala with G2VP, Next47), then acquired by Lineage Logistics and Bay Grove in June 2022 and run as an independent-brand wholly owned subsidiary; HQ moved to Dallas. Billy Sarracino (ex-CFO) CEO since July 2023, aiming for growth via M&A and product. Headcount estimates fell from ~400 (2023) to ~190 (Mar 2026), ~75% in India (Revelio, unverified). New execs added 2025 (SVP Product, CTO, CCO) and partnerships (Alpha Zero, RyderShare) suggest a rebuild of go-to-market around a leaner team; the digital marketing hire is part of that.",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "Digital Marketing Manager (owns SEO/AEO among digital demand gen)",
+    "date": "2026-11-27",
+    "source": "https://www.linkedin.com/jobs/view/digital-marketing-manager-at-turvo-4495554715"
+  },
+  "fit_evidence": [
+    {"claim": "JD: 'Own Turvo's SEO and AEO strategies to improve organic search visibility ... across traditional search engines and AI-powered search platforms'", "kind": "direct", "url": "https://api.lever.co/v0/postings/turvo?mode=json", "date": "2026-11-27"},
+    {"claim": "JD summary: 'This individual will own Turvo's digital demand generation strategy, combining inbound marketing, paid acquisition, account-based marketing (ABM), and lifecycle campaigns' (role is mostly demand gen)", "kind": "direct", "url": "https://jobs.lever.co/turvo/cc40cf6f-3ca4-478a-b36c-a95101a80bf8", "date": "2026-11-27"},
+    {"claim": "buying_journey committee: TMS for Fortune 500 3PLs/shippers and mid-size freight brokers, multi-stakeholder software selection with RFPs (rfp.wiki comparison pages exist)", "kind": "inferred", "url": "https://turvo.com/leadership/", "date": "accessed 2026-11-27"},
+    {"claim": "Owned by Lineage (with Bay Grove) since June 2022, independent brand", "kind": "direct", "url": "https://www.businesswire.com/news/home/20220601005611/en", "date": "2022-06-01"}
+  ],
+  "site_and_content": {
+    "cms": "WordPress + Elementor 4.4.2, Yoast SEO, HubSpot (hs-scripts), GTM-KMDCWQ3 (raw HTML of /leadership/, 2026-11-27)",
+    "blog": "226 posts under /articles/ (sitemap), 2020-05 to 2026-11-27, 121 modified in last 12 months",
+    "comparison_pages": "Yes: 'Rose Rocket TMS Alternatives for Scaling Fleets (2026)', 'Best TMS for Freight Brokers: 3 Platforms Compared (2026)', supply-chain software roundups; ranks on Google page 1 for 'Turvo alternatives' and 'best TMS for freight brokers'",
+    "notes": "Active, recent bottom-funnel SEO content: SEO is already being done, likely by an agency or the outgoing/previous holder"
+  },
+  "blog_signal": {
+    "impression": "partly planned",
+    "reading": [
+      "developed blog: 226 posts under /articles/ (2020-05 to 2026-11-27), 121 modified in last 12 months",
+      "internal linking looks weak: 1.0 in-body links to other posts on average, 60% of sampled posts link to none",
+      "64% of posts in the 6 main topics (focused)",
+      "no blog taxonomy pages in sitemap; 1 hub-like post",
+      "median 880 words"
+    ],
+    "tool": "blog_sample.py turvo.com, 2026-11-27"
+  },
+  "jobs": {
+    "board": "lever:turvo (7 open roles: this one + 6 engineering roles in Hyderabad)",
+    "marketing_roles": ["Digital Marketing Manager (Dallas, TX; Lever workplaceType remote)"],
+    "stack_named": "HubSpot (Marketing Hub, CRM), GA4, Google Ads, LinkedIn Ads, Reddit ads, Canva, Slack, agencies for paid and website"
+  },
+  "seo_need": {
+    "rating": "medium",
+    "buyer_research": "Freight brokers (large, fragmented buyer set of thousands of small/mid brokerages) research TMS heavily online: Google results for 'best TMS for freight brokers' are vendor listicles and guides (BrokerPro, Ultraship, Alvys, DAT, Turvo itself), Reddit threads, rfp.wiki and SaaS comparison sites; Google AI Mode names Turvo alongside Alvys and DAT. Enterprise 3PL/shipper deals are more relationship/RFP-led.",
+    "competitors": [
+      {"name": "Alvys", "seo_investment": "high: dedicated freight-broker-TMS landing page ranks top 5; named first in Google AI Mode answer", "evidence_url": "https://alvys.com/freight-broker-tms"},
+      {"name": "DAT (Broker TMS)", "seo_investment": "high: broker-tms page ranks page 1; big brand", "evidence_url": "https://www.dat.com/broker-tms"},
+      {"name": "BrokerPro", "seo_investment": "medium-high: 'Best TMS Software for Small Freight Brokers' resource ranks #1", "evidence_url": "https://www.brokerpro.com"},
+      {"name": "Rose Rocket", "seo_investment": "couldn't verify (target of Turvo's own alternatives article)", "evidence_url": "https://turvo.com/articles/"},
+      {"name": "Revenova", "seo_investment": "couldn't verify ('Revenova vs Turvo' comparison ranks for 'Turvo alternatives')", "evidence_url": "https://www.google.com/search?q=Turvo+alternatives"}
+    ],
+    "serp_checks": [
+      {"query": "best TMS for freight brokers (Google via BD, US, en)", "top_results": ["brokerpro.com Best TMS Software for Small Freight Brokers", "reddit thread (80+ comments)", "turvo.com/freight-brokers", "ultraship.ai blog", "alvys.com/freight-broker-tms", "premierss.com", "dat.com/broker-tms"], "date": "2026-11-27"},
+      {"query": "Turvo alternatives (Google via BD)", "top_results": ["saasworthy/softwareworld (name-collision pages: Turso, Turbo)", "turvo.com/articles supply-chain software roundup", "rfp.wiki Hub Group vs Turvo", "turvo.com/articles best freight broker TMS", "rfp.wiki TrucksOnTheMap vs Turvo", "Revenova vs Turvo"], "date": "2026-11-27"},
+      {"query": "TMS software for 3PL (Google via BD)", "top_results": ["globaltranz.com resource hub", "omniful.ai blog", "cleverence.com", "lanesurf", "locate2u.com", "sourceforge", "dat.com"], "date": "2026-11-27"}
+    ],
+    "cost_of_absence": "Moderate, and partly already addressed: Turvo ranks on page 1 for broker queries and appears in Google AI Mode, but is absent from the 3PL query's top results, and third-party 'X vs Turvo' pages (rfp.wiki, Revenova) frame it on its own branded queries. Weak internal linking leaves the 226-post library underused.",
+    "why_not_yet": "never_prioritized as a dedicated function: SEO/AEO folded into one generalist demand-gen role with agency support (inferred from the JD)",
+    "evidence": [
+      "Lever JD 2026-11-27 (direct)",
+      "Google SERPs via Bright Data 2026-11-27 (direct, titles/cites only)",
+      "blog_sample 2026-11-27 (direct)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "low",
+    "why": "Named recipient (CGO) and a parent that can pay, but the opening is mostly paid/HubSpot/ABM demand gen rather than SEO, so the sponsor's SEO profile is a weak match for the hire; Turvo already produces active SEO content; headcount roughly halved since 2023 (Revelio, unverified) and it's a corporate subsidiary, not a growing VC startup; 49 applicants in 17 hours."
+  },
+  "brightdata_requests": 3,
+  "features": {
+    "industry": "vertical_saas",
+    "stage": "acquired",
+    "situation": "established",
+    "size_band": "51_200",
+    "geo": "us",
+    "marketing_gating": "seo_job_opening",
+    "trigger": "seo_job_post",
+    "finding_pattern": "present_not_recommended",
+    "recipient_role": "cmo_vp_marketing",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "committee",
+    "seo_need": "medium",
+    "remote_hiring": "remote_us_only",
+    "moment": "hiring_seo"
+  },
+  "contacts": [
+    {"name": "Samantha Foley", "role": "Chief Growth Officer (owns digital marketing; likely the role's manager, inferred)", "email": null, "email_verified": false, "source": "https://turvo.com/leadership/", "recipient_rank": 1},
+    {"name": "Billy Sarracino", "role": "CEO", "email": null, "email_verified": false, "source": "https://www.prnewswire.com/news-releases/lineage-and-bay-grove-appoint-billy-sarracino-ceo-of-turvo-301881143.html", "recipient_rank": 2}
+  ],
+  "outreach_angle": {
+    "hook": "Their words: 'Own Turvo's SEO and AEO strategies ... across traditional search engines and AI-powered search platforms'. Show how AI answers frame Turvo vs Alvys/DAT/Revenova and the 226-post library's weak internal linking as 'how I'd start'.",
+    "source": "https://jobs.lever.co/turvo/cc40cf6f-3ca4-478a-b36c-a95101a80bf8",
+    "date": "2026-11-27"
+  },
+  "sources": [
+    {"url": "https://api.lever.co/v0/postings/turvo?mode=json", "date": "2026-11-27", "kind": "direct", "result": "7 postings; Digital Marketing Manager created 2026-10-27, Dallas TX, workplaceType remote, full JD"},
+    {"url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495554715", "date": "2026-11-27", "kind": "direct", "result": "posted 17 hours ago, 49 applicants, open"},
+    {"url": "jobs.py check-open (caller)", "date": "2026-11-27", "kind": "direct", "result": "state open, checked 2026-11-27T17:24:43+00:00"},
+    {"url": "https://turvo.com/leadership/", "date": "accessed 2026-11-27", "kind": "direct", "result": "leadership list incl. Samantha Foley CGO; WordPress/Elementor/Yoast/HubSpot in HTML"},
+    {"url": "https://turvo.com/sitemap.xml (blog_sample.py)", "date": "2026-11-27", "kind": "direct", "result": "226 /articles/ posts, partly planned"},
+    {"url": "https://www.google.com/search?q=best+TMS+for+freight+brokers", "date": "2026-11-27", "kind": "direct", "result": "via Bright Data; Turvo ranks ~#3, AI Mode names Alvys, Turvo, DAT"},
+    {"url": "https://www.google.com/search?q=Turvo+alternatives", "date": "2026-11-27", "kind": "direct", "result": "via Bright Data; Turvo's own articles + rfp.wiki and Revenova 'vs Turvo' pages"},
+    {"url": "https://www.google.com/search?q=TMS+software+for+3PL", "date": "2026-11-27", "kind": "direct", "result": "via Bright Data; Turvo not in top results"},
+    {"url": "https://www.businesswire.com/news/home/20220601005611/en", "date": "2022-06-01", "kind": "direct", "result": "Lineage and Bay Grove acquire Turvo (via WebSearch summary)"},
+    {"url": "https://www.prnewswire.com/news-releases/lineage-and-bay-grove-appoint-billy-sarracino-ceo-of-turvo-301881143.html", "date": "2023-07", "kind": "direct", "result": "Sarracino named CEO (via WebSearch summary)"},
+    {"url": "https://www.freightwaves.com/?p=149824", "date": "2018-11", "kind": "direct", "result": "Series B $60M led by Mubadala (via WebSearch summary)"},
+    {"url": "https://www.reveliolabs.com/companies/turvo/employees", "date": "2026-03", "kind": "unverified", "result": "~187 employees, down from 402 in 2023, ~75% South Asia"},
+    {"url": "https://live.freightwaves.com/event-speakers/samantha-foley", "date": "accessed 2026-11-27", "kind": "direct", "result": "Chief Growth Officer, Turvo (via WebSearch summary)"}
+  ],
+  "sources_tried_failed": [
+    "No dated announcement of Samantha Foley's hire found (WebSearch 2026-11-27)",
+    "No 2025-2026 funding found (none expected: acquired 2022)"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Turvo People tab: anyone with SEO/content title, and whether the Digital Marketing Manager reports to Samantha Foley"
+  ],
+  "open_questions": [
+    "Who writes the 2026 'alternatives'/'best TMS' articles: an agency or an in-house writer?",
+    "Is the role truly remote (Lever 'remote') or Dallas-based (LinkedIn)?",
+    "Caller's note says VC-backed: it is a Lineage subsidiary since 2022; does the route still treat it as a startup?"
+  ]
+}
