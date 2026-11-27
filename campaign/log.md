@@ -224,3 +224,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-27T12:21:01Z sponsor: Paddle back to today, Fri 27 Nov 09:00 London (draft r-5180235618815462122).
 - 2026-11-27T12:21:15Z correction: 09:00 London today had already passed (12:21 UTC); Paddle stays Mon 30 Nov 09:00 London unless the sponsor says send now.
 - 2026-11-27T12:22:31Z sponsor: 'send paddle'. Paddle email 1 sent to piers.garthwaite@paddle.com (msg 1a21cf4c9b8d5ed5, thread 1a21ae6d9d60aa05); tracked (paddle/1), learn.py add; scheduled trigger disabled.
+- 2026-11-27T18:25Z sponsor: Haystack's 'Growth Marketing Manager' (LinkedIn 4495059676) is Chainguard's Sr. Growth Marketing Manager, AI Discovery via a recruiter; 'very much priority'. Re-confirmed open on Greenhouse 18:21Z (open_checked updated). Chainguard stays queued (queue_rank 5) pending his call on moving it up; Haystack classed recruiter.

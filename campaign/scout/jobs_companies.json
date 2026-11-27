@@ -2834,11 +2834,11 @@
     "fresh": true
    }
   ],
-  "class": "unknown",
+  "class": "recruiter",
   "last_seen": "2026-11-27",
   "offered": "2026-11-24",
-  "why": "cannot place from name/title",
-  "classified_at": "2026-11-24"
+  "why": "Haystack: tech recruiter reposting client roles (e.g. Chainguard Sr. Growth Marketing Manager, AI Discovery; sponsor 2026-11-27)",
+  "classified_at": "2026-11-27"
  },
  "selfpublishingcom": {
   "name": "selfpublishing.com",
