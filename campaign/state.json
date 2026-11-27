@@ -1844,6 +1844,49 @@
       "queue_rank": 4,
       "queued_at": "2026-11-26T20:10:00+00:00",
       "release_note": "sponsor 2026-11-26: add Telnyx, maybe prioritize; US-remote roles, named hiring manager (Andy Muns, Director of AEO)"
+    },
+    {
+      "slug": "onomondo",
+      "company": "Onomondo",
+      "domain": "onomondo.com",
+      "status": "proposed",
+      "b2b": true,
+      "reason": "€100M+ (Aspirity Partners majority + EIFO, 2026-09-30) Danish IoT connectivity scaleup, ~80 people, hiring its first SEO & AI Search Lead because 'by the time they fill in a form, the shortlist is mostly decided'. In AI/Google answers for its own category (IoT SIM, SGP.32 eIM) rivals' listicles (floLIVE, Pelion, Eseye, Hologram, Kigen) dominate; an add-vee read is a direct 'how I'd start' for the role.",
+      "gating_rating": "seo_job_opening",
+      "features": {
+        "remote_hiring": "office",
+        "moment": "hiring_seo",
+        "marketing_gating": "sweet_spot",
+        "trigger": "job_post",
+        "ask_track": "job_application",
+        "email_variant": "v4_two_images",
+        "subject_style": "how_ai_sees_x",
+        "send_slot": "sun_thu_morning_local",
+        "contact_verified": "no",
+        "opener_type": "their_words",
+        "industry": "iot_connectivity",
+        "stage": "series_c_plus",
+        "situation": "scaling",
+        "size_band": "51_200",
+        "geo": "eu",
+        "finding_pattern": "unknown",
+        "recipient_role": "other",
+        "buying_journey": "committee",
+        "seo_need": "high"
+      },
+      "source": "scout",
+      "track": "seo_job",
+      "job": {
+        "title": "SEO & AI Search Lead",
+        "url": "https://jobs.onomondo.com/jobs/8800155-seo-ai-search-lead",
+        "linkedin_url": "https://dk.linkedin.com/jobs/view/seo-ai-search-lead-at-onomondo-4495054376",
+        "posted": "2026-11-26",
+        "location": "Copenhagen, Hybrid (company board: 'Remote status Hybrid'; final interview in person; Veremark right-to-work check)",
+        "open_checked": "2026-11-27T17:24:41+00:00",
+        "seniority": "lead, solo owner of search + AI visibility (3-5 years SEO, B2B tech preferred); fits the sponsor's level",
+        "reports_to": "Connor (Zazzo), Head of Brand Communications (JD: 'This role reports to the Head of Brand Communications'; interview steps name Connor)"
+      },
+      "priority": 1
     }
   ],
   "rules": {

@@ -1,0 +1,361 @@
+{
+  "scout_version": 4,
+  "company": "Onomondo",
+  "domain": "onomondo.com",
+  "slug": "onomondo",
+  "scouted": "2026-11-27",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "SEO & AI Search Lead",
+    "url": "https://jobs.onomondo.com/jobs/8800155-seo-ai-search-lead",
+    "linkedin_url": "https://dk.linkedin.com/jobs/view/seo-ai-search-lead-at-onomondo-4495054376",
+    "posted": "2026-11-26",
+    "location": "Copenhagen, Hybrid (company board: 'Remote status Hybrid'; final interview in person; Veremark right-to-work check)",
+    "open_checked": "2026-11-27T17:24:41+00:00",
+    "seniority": "lead, solo owner of search + AI visibility (3-5 years SEO, B2B tech preferred); fits the sponsor's level",
+    "reports_to": "Connor (Zazzo), Head of Brand Communications (JD: 'This role reports to the Head of Brand Communications'; interview steps name Connor)"
+  },
+  "source_of_lead": "Daily SEO-jobs route, LinkedIn Europe 'search engine optimization' search, 2026-11-27 (jobs_companies.json key 'onomondo'); confirmed on Onomondo's own Teamtailor board jobs.onomondo.com",
+  "reason": "€100M+ (Aspirity Partners majority + EIFO, 2026-09-30) Danish IoT connectivity scaleup, ~80 people, hiring its first SEO & AI Search Lead because 'by the time they fill in a form, the shortlist is mostly decided'. In AI/Google answers for its own category (IoT SIM, SGP.32 eIM) rivals' listicles (floLIVE, Pelion, Eseye, Hologram, Kigen) dominate; an add-vee read is a direct 'how I'd start' for the role.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "No SEO person yet: this is the first owner of search/AI visibility, reporting to the Head of Brand Communications and working with Growth Marketing (Head of Growth Marketing: Emelie). Growth team per humans.txt (Nov 2026): growth marketing, brand & comms, developer, design, content (Sophie), product marketing, digital marketing, growth ops. Rank Math on WordPress (Bedrock), a planned 145-post blog. Not a block on this route. Caveat: the role is hybrid in Copenhagen with an in-person final interview and right-to-work check.",
+  "marketing_leadership": {
+    "status": "found",
+    "who": [
+      {
+        "name": "Connor Zazzo",
+        "role": "Head of Brand Communications (the role's manager)",
+        "kind": "direct"
+      },
+      {
+        "name": "Emelie (surname not verified)",
+        "role": "Head of Growth Marketing (JD interview steps; humans.txt 'Growth Marketing: Emelie')",
+        "kind": "direct"
+      },
+      {
+        "name": "Jillian Falconi",
+        "role": "Chief Commercial Officer (leadership page)",
+        "kind": "direct"
+      }
+    ],
+    "evidence": [
+      "LinkedIn guest JD 4495054376 (read 2026-11-27): 'This role reports to the Head of Brand Communications'; 'A skills and culture based interview with Connor, our Head of Brand Communications'",
+      "Ritzau press release 2026-09-30 contacts: 'Connor Zazzo, Head of Brand Communications, Onomondo, cz@onomondo.com'",
+      "https://onomondo.com/about-us/ leadership: Rasmus Jensen CEO, Jillian Falconi CCO (2026-11-27)"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: the hire will 'own Onomondo's search and AI visibility' and 'run technical SEO in-house, end to end' with the one full-stack web developer: no existing SEO owner",
+      "humans.txt (updated November 2026) lists no SEO role on the growth team"
+    ]
+  },
+  "situation": {
+    "estimate": "Copenhagen IoT connectivity operator (own cloud-native core network, Global IoT SIM, SoftSIM, IoT eSIM/eIM), founded 2012 per Teamtailor (2018 per its blog), ~80 co-workers, 500+ customers (Maersk, Carlsberg, Husqvarna). On 2026-09-30 Aspirity Partners agreed to take a majority stake, with EIFO increasing, in a deal 'north of €100 million', closing expected Q1 2027; funds go to international expansion and infrastructure. The SEO hire is part of a growth push ('big plans to grow faster') under new PE ownership, with the 2G/3G sunset and SGP.32 eSIM as category shifts buyers research now.",
+    "confidence": "medium",
+    "kind": "direct"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "SEO & AI Search Lead (Copenhagen, hybrid), first SEO owner",
+    "date": "2026-11-26",
+    "source": "https://jobs.onomondo.com/jobs/8800155-seo-ai-search-lead"
+  },
+  "fit_evidence": [
+    {
+      "claim": "JD: 'Our audience does their homework before they talk to anyone... They ask ChatGPT which providers support the new SGP.32 eSIM standard... By the time they fill in a form, the shortlist is mostly decided.'",
+      "kind": "direct",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495054376",
+      "date": "2026-11-26"
+    },
+    {
+      "claim": "JD: measure where Onomondo shows up in ChatGPT, Perplexity, Gemini and AI Overviews; keep facts consistent on third-party pages AI assistants pull from: exactly add-vee's audit",
+      "kind": "direct",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495054376",
+      "date": "2026-11-26"
+    },
+    {
+      "claim": "buying_journey committee: B2B infrastructure for connected-product companies (engineering + procurement), 'if our connectivity stops, our customers' products stop'",
+      "kind": "inferred",
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495054376",
+      "date": "2026-11-26"
+    },
+    {
+      "claim": "€100M+ investment led by Aspirity Partners (majority stake), EIFO increasing; expected to close Q1 2027",
+      "kind": "direct",
+      "url": "https://via.ritzau.dk/pressemeddelelse/15189005/onomondo-announces-majority-investment-from-aspirity-partners-to-scale-global-iot-infrastructure?lang=en",
+      "date": "2026-09-30"
+    }
+  ],
+  "site_and_content": {
+    "cms": "WordPress (Bedrock), Rank Math, custom schema, Tailwind/Alpine, AWS/CloudFront (humans.txt, Nov 2026)",
+    "marketing_tools_dns": "HubSpot (SPF include hubspotemail.net), Mailchimp/Mandrill, Intercom, Hotjar (hj=), Google, OpenAI and Anthropic domain verification (dns.google TXT, 2026-11-27)",
+    "own_listicle": "onomondo.com/blog/top-7-iot-connectivity-providers-for-large-fleets/ ranks for 'best IoT SIM providers' (WebSearch)",
+    "comparison_pages_by_others": "G2 compare pages (Onomondo vs emnify, Hologram, Eseye, 1oT), Slashdot, Krowdbase, CB Insights compare pages",
+    "careers": "Teamtailor jobs.onomondo.com: 3 open roles (Legal Counsel, SEO & AI Search Lead, Business Process Manager RevOps)"
+  },
+  "blog_signal": {
+    "impression": "looks planned",
+    "reading": [
+      "developed blog: 145 posts under /blog/ (2022-04-18 to 2026-11-27), 145 modified in the last 12 months",
+      "internal linking looks decent: 5.2 in-body links to other posts on average, 0% of sampled posts link to none",
+      "77% of posts in the 6 main topics (focused)",
+      "no blog taxonomy pages in the sitemap",
+      "5 hub-like posts (e.g. nb-iot-vs-lte-m, cellular-iot-networks-explained); median 1,468 words"
+    ],
+    "tool": "blog_sample.py onomondo.com, 2026-11-27"
+  },
+  "jobs": {
+    "board": "https://jobs.onomondo.com/jobs (Teamtailor)",
+    "open_marketing_roles": [
+      "SEO & AI Search Lead (Copenhagen, hybrid)"
+    ],
+    "other_open_roles": [
+      "Legal Counsel",
+      "Business Process Manager, Revenue Operations"
+    ],
+    "earlier": "Product Marketing Manager post (reported to the Head of Brand Communication, per WebSearch snippet of jobs.onomondo.com/jobs/6960867)"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "Engineers and product teams at companies building connected devices research on their own (Google, ChatGPT, Reddit, review sites, YouTube, docs) before contacting sales; the company says the shortlist is mostly decided before a form fill. Many buyers worldwide (500+ customers in 100+ countries). G2 category 'IoT Connectivity Management' with compare pages.",
+    "competitors": [
+      {
+        "name": "floLIVE",
+        "seo_investment": "high: a glossary of 'best IoT SIM / best eUICC SIM providers / top 5 IoT connectivity' listicles ranking for category queries",
+        "evidence_url": "https://flolive.net/blog/glossary/best-euicc-sim-providers-top-5-options-in-2026/"
+      },
+      {
+        "name": "Pelion",
+        "seo_investment": "high: '10 Best IoT eSIM Providers 2026' listicles ranking first for 'best IoT SIM card providers'",
+        "evidence_url": "https://pelion.com/blog/leading-iot-esim-providers"
+      },
+      {
+        "name": "Hologram",
+        "seo_investment": "high: buyer's-guide blog ('how to choose international cellular IoT provider', June 2026)",
+        "evidence_url": "https://www.hologram.io/blog/how-to-choose-international-cellular-iot-provider/"
+      },
+      {
+        "name": "Eseye",
+        "seo_investment": "medium-high: 'choosing the best IoT SIM card provider in the USA' guide and an 'Adopting SGP.32' page ranking for SGP.32 queries",
+        "evidence_url": "https://www.eseye.com/iot-solutions/adopting-sgp-32/"
+      },
+      {
+        "name": "emnify",
+        "seo_investment": "couldn't verify its own content; leads Onomondo on G2 (4.9 from 92 reviews vs 4.8 from 20)",
+        "evidence_url": "https://www.g2.com/compare/onomondo-vs-emnify"
+      }
+    ],
+    "serp_checks": [
+      {
+        "query": "best IoT SIM card providers 2026 (WebSearch, not Google via BD)",
+        "top_results": [
+          "pelion.com best IoT eSIM providers",
+          "pelion.com 10 best IoT eSIM providers 2026",
+          "onomondo.com top 7 IoT connectivity providers for large fleets",
+          "hologram.io how to choose international cellular IoT provider",
+          "switchlabs.dev best IoT SIM providers micromobility 2026",
+          "com4.no top IoT connectivity providers 2026",
+          "flolive.net glossary listicles"
+        ],
+        "date": "2026-11-27"
+      },
+      {
+        "query": "Onomondo vs emnify vs 1NCE alternatives (WebSearch)",
+        "top_results": [
+          "g2.com compare Onomondo vs emnify",
+          "cbinsights.com Onomondo alternatives",
+          "cbinsights.com emnify vs onomondo",
+          "g2.com Pelion vs emnify vs Onomondo",
+          "slashdot.org EMnify vs Onomondo"
+        ],
+        "date": "2026-11-27"
+      },
+      {
+        "query": "SGP.32 eSIM IoT providers eIM (WebSearch)",
+        "top_results": [
+          "gsma.com SGP.32 specs",
+          "gi-de.com SGP.32 solution brief",
+          "telia.se SGP.32 paper",
+          "rcrwireless.com SGP.32",
+          "kigen.com SGP.32 and eIM",
+          "eseye.com adopting SGP.32"
+        ],
+        "date": "2026-11-27"
+      }
+    ],
+    "cost_of_absence": "For the exact question the JD names (which providers support SGP.32 / eIM) Onomondo, which sells an eIM, didn't appear in the top results: Kigen, G+D and Eseye did. 'Best IoT SIM' lists are written by rivals (Pelion, floLIVE, Com4) that rank themselves first, and 'Onomondo vs' queries land on G2/CB Insights pages where emnify has 4-5x the reviews. Those are the sources AI answers cite when engineers build a shortlist.",
+    "why_not_yet": "never_prioritized: content exists (planned blog, a content writer) but nobody owned search or AI visibility; with the PE-backed growth round they are hiring the first owner now.",
+    "evidence": [
+      "LinkedIn guest JD 2026-11-26 (direct)",
+      "blog_sample 2026-11-27 (direct)",
+      "WebSearch results 2026-11-27 (direct on result lists; listicle contents unverified)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "medium",
+    "why": "For: high need stated in their own words, a named manager with a public press email (Connor Zazzo, cz@onomondo.com), fresh €100M+ money and a growth push. Against: the role is hybrid in Copenhagen with an in-person interview and right-to-work check, so a remote candidate is a long shot for the job itself; the blog already looks planned. Best route: apply on Teamtailor with the audit as a work sample (the JD asks for 2-3 samples) plus a short note to Connor."
+  },
+  "brightdata_requests": 0,
+  "features": {
+    "marketing_gating": "sweet_spot",
+    "trigger": "job_post",
+    "ask_track": "job_application",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "opener_type": "their_words",
+    "industry": "iot_connectivity",
+    "stage": "series_c_plus",
+    "situation": "scaling",
+    "size_band": "51_200",
+    "geo": "eu",
+    "finding_pattern": "unknown",
+    "recipient_role": "other",
+    "buying_journey": "committee",
+    "seo_need": "high",
+    "remote_hiring": "office",
+    "moment": "hiring_seo"
+  },
+  "moment_read": {
+    "stage": "hiring_seo",
+    "why_now": "Fresh PE-backed €100M+ deal with growth targets, and the first SEO & AI Search Lead posted the day before this recon; rivals own the category listicles and SGP.32 answers.",
+    "signals": [
+      {
+        "signal": "First SEO & AI Search Lead role posted, owning search and AI visibility",
+        "source": "https://jobs.onomondo.com/jobs/8800155-seo-ai-search-lead",
+        "date": "2026-11-26"
+      },
+      {
+        "signal": "€100M+ Aspirity Partners majority investment for international expansion",
+        "source": "https://via.ritzau.dk/pressemeddelelse/15189005/onomondo-announces-majority-investment-from-aspirity-partners-to-scale-global-iot-infrastructure?lang=en",
+        "date": "2026-09-30"
+      },
+      {
+        "signal": "Rivals (Pelion, floLIVE, Eseye, Kigen) lead 'best IoT SIM' and SGP.32 eIM results; Onomondo absent on SGP.32",
+        "source": "WebSearch serp_checks",
+        "date": "2026-11-27"
+      }
+    ],
+    "help_kind": "the hire itself; failing that, an AI-search visibility read for SGP.32/eIM and the 2G/3G sunset topics",
+    "confidence": "medium"
+  },
+  "remote_hiring_evidence": {
+    "value": "office",
+    "quote": "'Copenhagen · Hybrid', 'Remote status Hybrid'; final interview '1 hour in person'; 'right to work check'",
+    "source": "https://jobs.onomondo.com/jobs/8800155-seo-ai-search-lead",
+    "date": "2026-11-27"
+  },
+  "contacts": [
+    {
+      "name": "Connor Zazzo",
+      "role": "Head of Brand Communications (the role reports to him)",
+      "email": "cz@onomondo.com",
+      "email_verified": false,
+      "source": "Ritzau press release contacts, 2026-09-30 (public media contact); JD 4495054376 names 'Connor, our Head of Brand Communications'",
+      "recipient_rank": 1
+    },
+    {
+      "name": "Emelie (surname not verified)",
+      "role": "Head of Growth Marketing (case interview)",
+      "email": null,
+      "email_verified": false,
+      "source": "JD 4495054376; onomondo.com/humans.txt",
+      "recipient_rank": 2
+    },
+    {
+      "name": "Jillian Falconi",
+      "role": "Chief Commercial Officer",
+      "email": null,
+      "email_verified": false,
+      "source": "https://onomondo.com/about-us/",
+      "recipient_rank": 3
+    }
+  ],
+  "outreach_angle": {
+    "hook": "Their own words: 'They ask ChatGPT which providers support the new SGP.32 eSIM standard... By the time they fill in a form, the shortlist is mostly decided.' Show how AI answers frame Onomondo vs emnify, 1NCE, Eseye and Kigen for SGP.32/eIM and 'best IoT SIM' today: the first 30 days of the role, as the work sample the JD asks for.",
+    "source": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495054376",
+    "date": "2026-11-26"
+  },
+  "sources": [
+    {
+      "url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495054376",
+      "date": "2026-11-26",
+      "kind": "direct",
+      "result": "full JD read 2026-11-27: reports to Head of Brand Communications; interview with Connor and Emelie; Copenhagen"
+    },
+    {
+      "url": "https://jobs.onomondo.com/jobs/8800155-seo-ai-search-lead",
+      "date": "accessed 2026-11-27",
+      "kind": "direct",
+      "result": "role on own Teamtailor board, Copenhagen Hybrid, 80 co-workers, founded 2012"
+    },
+    {
+      "url": "jobs.py check-open (manager's check)",
+      "date": "2026-11-27",
+      "kind": "direct",
+      "result": "state open, checked 2026-11-27T17:24:41+00:00"
+    },
+    {
+      "url": "https://via.ritzau.dk/pressemeddelelse/15189005/onomondo-announces-majority-investment-from-aspirity-partners-to-scale-global-iot-infrastructure?lang=en",
+      "date": "2026-09-30",
+      "kind": "direct",
+      "result": "Aspirity majority + EIFO, 'north of €100 million', closing Q1 2027; contact Connor Zazzo, Head of Brand Communications, cz@onomondo.com"
+    },
+    {
+      "url": "https://onomondo.com/blog/onomondo-announces-majority-investment-from-aspirity-partners-to-scale-global-iot/",
+      "date": "2026-09-30",
+      "kind": "direct",
+      "result": "500+ customers, CEO Rasmus Jensen; use of funds"
+    },
+    {
+      "url": "https://onomondo.com/about-us/",
+      "date": "accessed 2026-11-27",
+      "kind": "direct",
+      "result": "leadership: Rasmus Jensen CEO, Michael Freundt Karlsen co-founder, Henrik Aagaard CTO, Jillian Falconi CCO, Nicolai Troensegaard CFO"
+    },
+    {
+      "url": "https://onomondo.com/humans.txt",
+      "date": "November 2026",
+      "kind": "direct",
+      "result": "growth team first names; WordPress Bedrock, Rank Math"
+    },
+    {
+      "url": "https://dns.google/resolve?name=onomondo.com&type=TXT",
+      "date": "accessed 2026-11-27",
+      "kind": "direct",
+      "result": "HubSpot, Mailchimp, Intercom, Hotjar"
+    },
+    {
+      "url": "https://onomondo.com/sitemap.xml (blog_sample.py)",
+      "date": "accessed 2026-11-27",
+      "kind": "direct",
+      "result": "145 /blog/ posts, looks planned"
+    },
+    {
+      "url": "https://tech.eu/2026/09/30/onomondo-raises-eur100m-to-scale-its-global-iot-infrastructure/",
+      "date": "2026-09-30",
+      "kind": "unverified",
+      "result": "WebSearch title only: round confirmed by trade press"
+    },
+    {
+      "url": "https://www.g2.com/compare/onomondo-vs-emnify",
+      "date": "accessed 2026-11-27",
+      "kind": "unverified",
+      "result": "WebSearch snippet: emnify 4.9 (92 reviews), Onomondo 4.8 (20)"
+    }
+  ],
+  "sources_tried_failed": [],
+  "linkedin_checks_for_sponsor": [
+    "Confirm Connor Zazzo's current title and whether Onomondo would consider a remote/contract arrangement for the role (logged-in check only, optional)"
+  ],
+  "open_questions": [
+    "Would Onomondo consider a non-Copenhagen candidate (hybrid, in-person final, right-to-work check say probably not)?",
+    "Does the PE deal (closing Q1 2027) change marketing leadership or budgets?",
+    "How do ChatGPT/Gemini answer 'which IoT providers support SGP.32 eIM' and 'best IoT SIM' today (the run will show)?"
+  ],
+  "proposed": "2026-11-27"
+}
