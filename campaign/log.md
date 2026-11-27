@@ -107,6 +107,7 @@ The manager appends one line per tick. Cohort learning notes go under "## Cohort
 - 2026-11-26T14:29:47+00:00 followup: strategist started for bay/1 (session_01FkmvpMpq52ATtSXLVHzpNJ)
 - 2026-11-26T14:37:46+00:00 followup: vega-security/1 decision send V (Full engagement plus one recommendation per team; send Mon 2026-11-30 (US Thanksgiving today))
 - 2026-11-26T14:57:43+00:00 followup: bay/1 decision send V (Trigger: Bay's Skills over MCP post; AI gets rescanning wrong; full engagement + one move per team; send Mon 2026-11-30)
+- 2026-11-27T12:22:21+00:00 followup: paddle/1 email1 sent to Head of Web
 
 ## Cohorts
 
@@ -222,3 +223,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-27T12:19:51Z sponsor: strongest drafts, apply conclusions everywhere. Paddle back to the original findings in plain words; all six job-track email 1s now carry the Action Plan's Diagnosis tiles (readable at 600 px) instead of the collage; Synthesia and Reducto bullets reworded plainly. New drafts: paddle r-5180235618815462122, help-scout r-87963891489532236, gc-ai r8453778567659426012, synthesia r-1691768796872711330, reducto r2575686556341411631, cognism r-3940540869938810795; old deleted. company-session.md 3c rewritten.
 - 2026-11-27T12:21:01Z sponsor: Paddle back to today, Fri 27 Nov 09:00 London (draft r-5180235618815462122).
 - 2026-11-27T12:21:15Z correction: 09:00 London today had already passed (12:21 UTC); Paddle stays Mon 30 Nov 09:00 London unless the sponsor says send now.
+- 2026-11-27T12:22:31Z sponsor: 'send paddle'. Paddle email 1 sent to piers.garthwaite@paddle.com (msg 1a21cf4c9b8d5ed5, thread 1a21ae6d9d60aa05); tracked (paddle/1), learn.py add; scheduled trigger disabled.

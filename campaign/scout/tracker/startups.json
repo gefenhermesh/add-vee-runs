@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T12:19:51+00:00",
+ "updated_at": "2026-11-27T12:22:31+00:00",
  "hold_until": "2026-11-28T05:00:00Z",
  "rows": [
   {
@@ -67,28 +67,6 @@
    },
    "apply_note": "Apply after email 1 goes out",
    "reason": "Remote B2B help-desk SaaS (~120 people, VC-backed, $35M+ ARR per podcast) posted a senior SEO / AEO Lead today, reporting to the Director of Demand Generation. The JD says they've been 'far more visible in search than a company our size usually is' and are now repositioning upmar"
-  },
-  {
-   "slug": "paddle",
-   "company": "Paddle",
-   "domain": "paddle.com",
-   "role": "Organic & AI Search Manager",
-   "job_url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
-   "location": "UK (digital-first: remote or hub)",
-   "posted": "2026-11-20",
-   "group": "email_ready",
-   "stage": "Audit done, email 1 drafted in Gmail",
-   "queue_position": null,
-   "next": "v2 (people + role chart); to piers.garthwaite@paddle.com (Hunter: deliverable, 89)",
-   "owner": "you",
-   "links": {
-    "report": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",
-    "action_plan": "https://claude.ai/artifact/JC7AS471gsqp1MXTcXPfni",
-    "scope": "https://claude.ai/artifact/2NCjwb25AG4CEh7SyNCHGX",
-    "story": "https://claude.ai/artifact/SpuQizbdWAcTdADGp5kH1F"
-   },
-   "apply_note": "Apply after email 1 goes out",
-   "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: l"
   },
   {
    "slug": "reducto",
@@ -320,6 +298,28 @@
    "links": {},
    "apply_note": "Apply after email 1 goes out",
    "reason": "YC cloud-savings platform (free AWS/GCP/Azure savings, expanding into AI cost optimization, ~$25M revenue est.) wants SEO/AEO so that 'when anyone ... asks an AI assistant about cutting their cloud bill, Pump is the answer'. FinOps search is crowded with vendor listicles (nOps, D"
+  },
+  {
+   "slug": "paddle",
+   "company": "Paddle",
+   "domain": "paddle.com",
+   "role": "Organic & AI Search Manager",
+   "job_url": "https://jobs.ashbyhq.com/paddle/1e918d49-41c6-49b4-98ca-d9dcd6748102",
+   "location": "UK (digital-first: remote or hub)",
+   "posted": "2026-11-20",
+   "group": "outreach",
+   "stage": "Email 1 sent 2026-11-27",
+   "queue_position": null,
+   "next": "Next step due 2026-12-03",
+   "owner": "campaign",
+   "links": {
+    "report": "https://claude.ai/artifact/UHFKrSuP7Ygw1HtDDwrqDH",
+    "action_plan": "https://claude.ai/artifact/JC7AS471gsqp1MXTcXPfni",
+    "scope": "https://claude.ai/artifact/2NCjwb25AG4CEh7SyNCHGX",
+    "story": "https://claude.ai/artifact/SpuQizbdWAcTdADGp5kH1F"
+   },
+   "apply_note": "Email 1 is out: apply now if you haven't",
+   "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: l"
   }
  ]
 }

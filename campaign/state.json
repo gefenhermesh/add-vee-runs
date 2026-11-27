@@ -1095,7 +1095,7 @@
       "slug": "paddle",
       "company": "Paddle",
       "domain": "paddle.com",
-      "status": "done",
+      "status": "sent",
       "b2b": true,
       "reason": "London merchant-of-record payments company (10,000+ software sellers, KKR/FTV-backed) is hiring an Organic & AI Search Manager whose first task in the JD is to 'audit our presence across traditional search, AI-generated responses, and LLM citation patterns' and build a roadmap: literally add-vee's audit. Contested category where Stripe, FastSpring, Lemon Squeezy and new MoRs (Dodo, Fungies, Polar) publish 'Paddle alternatives' pages.",
       "gating_rating": "seo_job_opening",
@@ -1145,8 +1145,6 @@
         "done": "2026-11-25T01:53:20+00:00"
       },
       "gmail_draft_id": "r4303044308811569600",
-      "draft_id": "r-5180235618815462122",
-      "draft_note": "v2 (people + role chart); to piers.garthwaite@paddle.com (Hunter: deliverable, 89)",
       "email1_to": "piers.garthwaite@paddle.com",
       "email_verified": {
         "address": "piers.garthwaite@paddle.com",
@@ -1155,7 +1153,26 @@
         "score": 89,
         "accept_all": false,
         "at": "2026-11-26"
-      }
+      },
+      "threads": [
+        {
+          "id": "paddle/1",
+          "kind": "email1",
+          "contact": "Piers Garthwaite",
+          "email": "piers.garthwaite@paddle.com",
+          "role": "Head of Web",
+          "gmail_thread_id": "1a21ae6d9d60aa05",
+          "last_message_id": "1a21cf4c9b8d5ed5",
+          "sent_at": "2026-11-27T12:22:00+00:00",
+          "weekend": [
+            5,
+            6
+          ],
+          "steps": [],
+          "status": "active"
+        }
+      ],
+      "email1_sent_at": "2026-11-27T12:22:00+00:00"
     },
     {
       "slug": "chainguard",
@@ -2069,15 +2086,6 @@
     }
   ],
   "send_queue": [
-    {
-      "slug": "paddle",
-      "kind": "email1",
-      "send_at": "2026-11-30T09:00:00Z",
-      "local": "Mon 30 Nov 09:00 London",
-      "trigger_id": "trig_01MYndEGZfjXaxspGeCYzw62",
-      "condition": "met: address verified by Hunter 2026-11-26",
-      "to": "piers.garthwaite@paddle.com"
-    },
     {
       "slug": "bay",
       "kind": "followup",
