@@ -25,6 +25,20 @@ GATING = {"sweet_spot", "single_seo", "blocked_seo_team", "no_leader_exception",
           "seo_job_opening"}  # seo_job_opening: the daily SEO-jobs route (they are hiring for the role itself)
 
 
+def derive_moment(rec):
+    """The sponsor's three moments (SCOUT.md: The right moment), from fields the scout already fills in."""
+    f = rec.get("features") or {}
+    if rec.get("track") == "seo_job" or rec.get("gating_rating") == "seo_job_opening":
+        return "hiring_seo"
+    early = f.get("situation") in ("stealth_exit", "early") or f.get("stage") in ("seed", "series_a") \
+        or rec.get("gating_rating") == "no_leader_exception"
+    if early:
+        return "early_outside_help"
+    if rec.get("gating_rating") in ("sweet_spot", "single_seo") and f.get("seo_need") in ("high", "medium"):
+        return "about_to_hire_seo"
+    return "other"
+
+
 def problems(rec):
     out = [f"missing {k}" for k in REQUIRED if not rec.get(k)]
     feats = rec.get("features") or {}
@@ -98,7 +112,9 @@ def cmd_add(slugs):
         state["prospects"].append({"slug": slug, "company": rec["company"], "domain": rec["domain"], "status": "proposed",
                                    "b2b": rec.get("b2b", True),
                                    "reason": rec["reason"], "gating_rating": rec["gating_rating"],
-                                   "features": {**learn.LATE_FEATURES, **rec["features"]}, "source": "scout",
+                                   "features": {**learn.LATE_FEATURES, **rec["features"],
+                                                **({} if rec["features"].get("moment") else {"moment": derive_moment(rec)})},
+                                   "source": "scout",
                                    **({"track": "seo_job", "job": rec["job"], "priority": 1} if rec.get("track") == "seo_job" else {})})
         print(f"{slug}: proposed")
     state_p.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")

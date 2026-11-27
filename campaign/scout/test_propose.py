@@ -63,5 +63,17 @@ class ProposeTest(unittest.TestCase):
         self.assertEqual(propose.problems(r), [])
 
 
+
+
+class Moment(unittest.TestCase):
+    def test_derived_from_existing_fields(self):
+        self.assertEqual(propose.derive_moment({"track": "seo_job"}), "hiring_seo")
+        self.assertEqual(propose.derive_moment({"gating_rating": "sweet_spot", "features": {"stage": "seed"}}), "early_outside_help")
+        self.assertEqual(propose.derive_moment({"gating_rating": "sweet_spot",
+                                                 "features": {"stage": "series_b", "situation": "scaling", "seo_need": "high"}}),
+                         "about_to_hire_seo")
+        self.assertEqual(propose.derive_moment({"gating_rating": "sweet_spot", "features": {"stage": "series_b", "seo_need": "low"}}), "other")
+
+
 if __name__ == "__main__":
     unittest.main()
