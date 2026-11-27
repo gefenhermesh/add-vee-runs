@@ -65,14 +65,24 @@ class ProposeTest(unittest.TestCase):
 
 
 
-class Moment(unittest.TestCase):
-    def test_derived_from_existing_fields(self):
-        self.assertEqual(propose.derive_moment({"track": "seo_job"}), "hiring_seo")
-        self.assertEqual(propose.derive_moment({"gating_rating": "sweet_spot", "features": {"stage": "seed"}}), "early_outside_help")
-        self.assertEqual(propose.derive_moment({"gating_rating": "sweet_spot",
-                                                 "features": {"stage": "series_b", "situation": "scaling", "seo_need": "high"}}),
-                         "about_to_hire_seo")
-        self.assertEqual(propose.derive_moment({"gating_rating": "sweet_spot", "features": {"stage": "series_b", "seo_need": "low"}}), "other")
+class MomentRead(unittest.TestCase):
+    def rec(self, **mr):
+        base = {"stage": "close_to_needing", "why_now": "New CMO, blog ramping with no owner.", "help_kind": "first SEO hire",
+                "confidence": "medium", "signals": [{"signal": "new CMO", "source": "https://x", "date": "2026-11-01"},
+                                                    {"signal": "12 posts in a month", "source": "https://y", "date": "2026-11-20"}]}
+        base.update(mr)
+        return {"scout_version": 5, "moment_read": base, "features": {"moment": base["stage"]}}
+
+    def moment_problems(self, r):
+        return [p for p in propose.problems(r) if "moment" in p]
+
+    def test_complete_read_passes(self):
+        self.assertEqual(self.moment_problems(self.rec()), [])
+
+    def test_needs_two_sourced_signals_and_stage(self):
+        self.assertTrue(self.moment_problems(self.rec(signals=[{"signal": "x", "source": "https://x", "date": "2026-11-01"}])))
+        self.assertTrue(self.moment_problems(self.rec(stage="vibes")))
+        self.assertTrue(any("don't propose" in p for p in self.moment_problems(self.rec(stage="not_yet"))))
 
 
 if __name__ == "__main__":

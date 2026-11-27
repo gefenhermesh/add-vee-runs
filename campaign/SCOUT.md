@@ -49,12 +49,42 @@ High = high need with someone to write to and growth. Medium = medium need, or o
 Record `"b2b": true|false` in scout.json, and the `buying_journey` feature: `committee` (business buying committee), `household` (a family or couple decides), `considered` (long or high-stakes journey, one or two deciders) or `transactional` (don't propose).
 **Open check:** confirm in the add-vee repo that the report and personas handle a household committee as well as a business one before a non-B2B company's audit runs.
 
-## The right moment (the sponsor's note, 2026-11-26)
-An add-vee email lands best when a company is **hiring for SEO now** (the open door), is **starting to need an SEO
-hire** (more mature: arrive one step before the job post), or is **earlier stage and would benefit from outside help**
-(a service or retainer). The scout already judges all three through its existing fields (the `seo_job` track, the
-gating rating, the situation estimate, the stage and SEO need), so it doesn't record anything new: `propose.py add`
-derives `moment` from them, for the learning loop and for the second step's offer.
+## Sensing the moment (sponsor, 2026-11-26/27): read the company like an SEO about to make a first call
+An add-vee email lands best when the company is close to saying **"that's it, we need help with our SEO here"**.
+That isn't in any field; it has to be sensed. Read each recon company the way an experienced SEO consultant would
+before a first call: what is changing there, who just arrived, what they're publishing, hiring for and saying in
+public, what their rivals are doing to them, and where it's heading. Then judge:
+
+1. **Where they are** (`moment_read.stage`):
+   - `hiring_seo`: an open SEO, organic or AI-search role (the daily route's open door);
+   - `close_to_needing`: the pressure is building and an SEO hire or outside help is the next obvious step, even if
+     nobody has said it yet (arrive one step before the job post);
+   - `outside_help_now`: they'd benefit from help now, but a full-time SEO isn't realistic yet (earlier stage, a
+     one-person marketing team, founder-led marketing);
+   - `not_yet`: no real pressure; a weak pick however good the audit.
+2. **Why now** (`why_now`): one or two sentences in plain words, the story you'd tell the sponsor.
+3. **The signals behind it** (`signals`): at least two, each with source and date. Examples of the kind of thing to
+   notice, not a checklist; the best signals are often specific to one company:
+   - content or growth hires (writers, a content lead, demand gen) with no one owning search; job posts for growth
+     or marketing roles that list SEO among many duties;
+   - the blog ramping up recently without structure (many new posts, no hubs, no internal links); a resource center
+     or docs expanding fast;
+   - a new website, rebrand, domain change or migration coming or just done;
+   - a new category name or product line to educate a market about;
+   - a new CMO or VP Marketing in the first months; leadership talking about organic, AI search or "being found" on
+     podcasts, LinkedIn or in interviews;
+   - rivals publishing comparison pages aimed at them, or winning the category's lists and AI answers;
+   - a fresh round with growth targets, a new market, an inbound push, more G2 or review activity;
+   - an agency or freelancer named for content or SEO (outside help is already being tried).
+4. **What kind of help fits** (`help_kind`), in plain words, e.g. "a first SEO hire to own search", "a fractional SEO
+   lead for six months", "a cleanup and structure for a large blog", "AI-search visibility for a new category",
+   "migration support", "a retainer alongside a one-person team". This shapes the second step's offer.
+5. **Confidence** (`confidence`: high / medium / low) and what would change your mind.
+
+Write it as `moment_read` in `scout.json` (scout_version 5) and put the stage in `features.moment`. **The system
+learns the signals:** when replies come in, compare the moment reads of companies that replied with those that
+didn't (LEARNING.md), and promote the signals that really preceded replies into "The signals that mattered most in
+practice" below, with the companies they came from. The list grows from evidence, not from guesses.
 
 ## The signals that mattered most in practice
 - **New or renamed category language** (e.g. "Agentic Exposure Management"). It usually comes with an education/content push.

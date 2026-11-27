@@ -19,24 +19,11 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT / "campaign"))
 import learn  # noqa: E402
 
+MOMENTS = {"hiring_seo", "close_to_needing", "outside_help_now", "not_yet"}
 REQUIRED = ["company", "domain", "reason", "gating_rating", "features", "contacts", "sources"]
 SEO_NEED = {"high", "medium", "low"}
 GATING = {"sweet_spot", "single_seo", "blocked_seo_team", "no_leader_exception", "too_early", "unclear",
           "seo_job_opening"}  # seo_job_opening: the daily SEO-jobs route (they are hiring for the role itself)
-
-
-def derive_moment(rec):
-    """The sponsor's three moments (SCOUT.md: The right moment), from fields the scout already fills in."""
-    f = rec.get("features") or {}
-    if rec.get("track") == "seo_job" or rec.get("gating_rating") == "seo_job_opening":
-        return "hiring_seo"
-    early = f.get("situation") in ("stealth_exit", "early") or f.get("stage") in ("seed", "series_a") \
-        or rec.get("gating_rating") == "no_leader_exception"
-    if early:
-        return "early_outside_help"
-    if rec.get("gating_rating") in ("sweet_spot", "single_seo") and f.get("seo_need") in ("high", "medium"):
-        return "about_to_hire_seo"
-    return "other"
 
 
 def problems(rec):
@@ -69,6 +56,19 @@ def problems(rec):
                 out.append("reply_odds needs rating high/medium/low and why (SCOUT.md: reply odds)")
             elif ro["rating"] == "low":
                 out.append("low reply odds: record it, but don't propose it")
+            if rec.get("scout_version", 0) >= 5:  # SCOUT.md: Sensing the moment
+                mr = rec.get("moment_read") or {}
+                if mr.get("stage") not in MOMENTS:
+                    out.append(f"moment_read.stage must be one of {sorted(MOMENTS)}")
+                elif mr["stage"] == "not_yet":
+                    out.append("moment not yet: record it, but don't propose it")
+                if not mr.get("why_now") or not mr.get("help_kind") or mr.get("confidence") not in ("high", "medium", "low"):
+                    out.append("moment_read needs why_now, help_kind and confidence high/medium/low")
+                sig = [x for x in (mr.get("signals") or []) if isinstance(x, dict) and x.get("signal") and x.get("source") and x.get("date")]
+                if len(sig) < 2:
+                    out.append("moment_read needs at least two signals, each with signal, source and date")
+                if feats.get("moment") != mr.get("stage"):
+                    out.append("feature moment must equal moment_read.stage")
             if not isinstance(rec.get("brightdata_requests"), int):
                 out.append("brightdata_requests (int) missing: count them (SCOUT.md: Bright Data budget)")
         if feats.get("seo_need") != need.get("rating"):
@@ -112,9 +112,7 @@ def cmd_add(slugs):
         state["prospects"].append({"slug": slug, "company": rec["company"], "domain": rec["domain"], "status": "proposed",
                                    "b2b": rec.get("b2b", True),
                                    "reason": rec["reason"], "gating_rating": rec["gating_rating"],
-                                   "features": {**learn.LATE_FEATURES, **rec["features"],
-                                                **({} if rec["features"].get("moment") else {"moment": derive_moment(rec)})},
-                                   "source": "scout",
+                                   "features": {**learn.LATE_FEATURES, **rec["features"]}, "source": "scout",
                                    **({"track": "seo_job", "job": rec["job"], "priority": 1} if rec.get("track") == "seo_job" else {})})
         print(f"{slug}: proposed")
     state_p.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")

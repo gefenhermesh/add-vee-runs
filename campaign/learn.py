@@ -54,10 +54,10 @@ FEATURES = {
     "buying_journey": "committee, household, considered, transactional (SCOUT.md: who fits)",
     "seo_need": "high, medium, low, unassessed (SCOUT.md: buyer research, competition in search, cost of absence)",
     "remote_hiring": "remote_global, remote_americas, remote_us_only, office, unknown (SCOUT.md: how they hire)",
-    "moment": "hiring_seo, about_to_hire_seo, early_outside_help, other (SCOUT.md: the right moment)",
+    "moment": "hiring_seo, close_to_needing, outside_help_now, not_yet, unknown (SCOUT.md: sensing the moment)",
 }
 # Features recorded as "unknown" when a scout file predates them (added later, so older files can't have them).
-LATE_FEATURES = {"remote_hiring": "unknown", "moment": "other"}
+LATE_FEATURES = {"remote_hiring": "unknown", "moment": "unknown"}
 
 # Until enough replies come in to learn from, every week's set is a deliberate mix (sponsor, 2026-11-26): no two
 # picks repeat the same value on these aspects where the candidates allow it, and at least REMOTE_FIRST_MIN picks are
