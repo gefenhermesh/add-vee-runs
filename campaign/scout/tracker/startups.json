@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T02:16:11+00:00",
+ "updated_at": "2026-11-27T12:19:51+00:00",
  "hold_until": "2026-11-28T05:00:00Z",
  "rows": [
   {
@@ -13,7 +13,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "James Bradbury, VP Performance Marketing: address is a guess",
+   "next": "James Bradbury, VP Performance Marketing: address is a guess. Address not verified yet",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/PHSHx1vpnkd7FybxBCyg5D",
@@ -101,7 +101,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "Adit Abraham, CEO: address is a guess",
+   "next": "Adit Abraham, CEO: address is a guess. Address not verified yet",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/VakJr1a1xRjZSgV4TLQL1A",
@@ -123,7 +123,7 @@
    "group": "email_ready",
    "stage": "Audit done, email 1 drafted in Gmail",
    "queue_position": null,
-   "next": "Borys Khodan, VP of Marketing: address is a guess",
+   "next": "Borys Khodan, VP of Marketing: address is a guess. Address not verified yet",
    "owner": "you",
    "links": {
     "report": "https://claude.ai/artifact/VU2dYY6RJ7RnkDe662L86k",
