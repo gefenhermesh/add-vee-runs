@@ -73,7 +73,11 @@ public, what their rivals are doing to them, and where it's heading. Then judge:
    - a new category name or product line to educate a market about;
    - a new CMO or VP Marketing in the first months; leadership talking about organic, AI search or "being found" on
      podcasts, LinkedIn or in interviews;
-   - rivals publishing comparison pages aimed at them, or winning the category's lists and AI answers;
+   - **competitive pressure, a key signal (sponsor, 2026-11-27), not just comparison pages:** when the 3-5 real
+     rivals are more visible and stronger in search, with developed SEO (content depth and cadence, hubs and guides,
+     the category's "best of" lists, AI answers), that is what pushes a company to act on SEO. Compare them with the
+     company the way the SEO-need check does (their content, a few category searches, who AI names), and write the
+     gap in plain words: who is ahead, by how much, and on what. The wider and newer the gap, the closer the moment;
    - a fresh round with growth targets, a new market, an inbound push, more G2 or review activity;
    - an agency or freelancer named for content or SEO (outside help is already being tried).
 4. **What kind of help fits** (`help_kind`), in plain words, e.g. "a first SEO hire to own search", "a fractional SEO
