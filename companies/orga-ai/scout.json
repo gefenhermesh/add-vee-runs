@@ -1,0 +1,179 @@
+{
+  "scout_version": 4,
+  "company": "Orga AI",
+  "domain": "orga-ai.com",
+  "slug": "orga-ai",
+  "scouted": "2026-11-27",
+  "b2b": true,
+  "track": "seo_job",
+  "job": {
+    "title": "Especialista sénior GEO/SEO",
+    "url": "https://es.linkedin.com/jobs/view/especialista-s%C3%A9nior-geo-seo-at-orga-ai-4495297782",
+    "posted": "2026-11-26",
+    "location": "Hybrid, Valencia or Madrid (Spain); permanent full-time; start planned January 2027",
+    "open_checked": "2026-11-27T17:25:05+00:00",
+    "seniority": "senior: 6+ years SEO/organic, 2+ AI-assistant visibility projects since 2024 with before/after data, native Spanish + professional English",
+    "reports_to": "not stated; JD says monthly reporting 'a la dirección' (management). At ~18 people, inferred: the co-CEOs",
+    "what_the_role_is_for": "a NEW client-facing GEO service line ('conseguir que las marcas de nuestros clientes aparezcan... en ChatGPT, Google, Gemini, Perplexity o Copilot'); preferred client experience is tourism, education and multi-location businesses (pricing pages, per-site listings, reviews, GBP/Trustpilot, city content). One line also says 'Trabajarás en proyectos internos y propios de Orga AI'.",
+    "applicants": "62 applicants on 2026-11-27 (LinkedIn guest page)"
+  },
+  "source_of_lead": "Daily SEO-jobs route 2026-11-27, LinkedIn Europe 'search engine optimization' search (jobs_companies.json key 'orga-ai')",
+  "reason": "Small Valencia voice-AI developer platform (~18 staff, ~EUR 2.5M raised) hiring a senior GEO/SEO, but the role builds a GEO service for clients (tourism, education, multi-site businesses), not its own search; its own site has an empty blog. Hybrid in Spain and no marketing leader to write to: low reply odds for an audit or application.",
+  "gating_rating": "seo_job_opening",
+  "gating_note": "Open senior role, no SEO team found. Caveat that matters: the hire is for a client GEO service line (agency-like), so an audit of Orga AI's own AI visibility is not what the role is about; it could still serve as the 'caso real en una página' the JD requires. JD explicitly rejects keyword SEO and serial page publishing. Hybrid Valencia/Madrid, native Spanish required.",
+  "marketing_leadership": {
+    "status": "couldn't verify",
+    "who": [
+      {"name": "(not identified)", "role": "Marketing Manager / Jefe de marketing (arc.dev listing ~2 years old; whether anyone holds it now is unknown)", "kind": "unverified"}
+    ],
+    "evidence": [
+      "LinkedIn company page (via Bright Data, 2026-11-27): 18 employees listed; marketing appears founder-led (posts on events, CEO talks)",
+      "arc.dev 'Marketing Manager - Orga AI' listing, posted ~2 years ago (SEMrush, HubSpot in tools; no SEO duties named)",
+      "WebSearch 2026-11-27 for Orga AI CMO/head of marketing/growth: no name found",
+      "Google site:linkedin.com/in via Bright Data returned unrelated results (name collision with 'ORGA'/'Argo AI')"
+    ]
+  },
+  "seo_team": {
+    "status": "not found",
+    "evidence": [
+      "JD: hiring 1 senior GEO specialist to open a new line; no other SEO role or team mentioned",
+      "Own blog at /en/blog says 'Nothing published yet' (2026-11-27)"
+    ]
+  },
+  "situation": {
+    "estimate": "Founded ~2022-2024 by Marc Revert (now ~17, CEO) in Palma; Valencia HQ with Palma, Barcelona and Paris locations listed. Julio M. Roldán (Cuidacasa group founder) led a EUR 350K first round in Jan 2025 and is Co-CEO; Revert said in Oct 2026 they have raised EUR 2.5M (incl. EU NextGenerationEU / Generalitat Valenciana grant, Santander X100, NVIDIA Inception, AWS Activate). Product pivoted toward a developer voice platform: expressive TTS 'Orga Alondra' in 40+ languages, realtime speech-to-speech SDK, voice agent builder, pricing self-serve. Now opening a GEO services line for client brands, likely aimed at Roldán's world of multi-location service businesses, which reads as diversification into services rather than a focus on their own growth.",
+    "confidence": "medium",
+    "kind": "inferred"
+  },
+  "trigger": {
+    "type": "seo_job_post",
+    "detail": "Especialista sénior GEO/SEO (new client GEO line)",
+    "date": "2026-11-26",
+    "source": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495297782"
+  },
+  "fit_evidence": [
+    {"claim": "JD: 'Ahora abrimos una línea nueva: conseguir que las marcas de nuestros clientes aparezcan, y aparezcan bien descritas' in ChatGPT/Google/Gemini/Perplexity/Copilot; preferred: turismo, educación, negocios con muchas sedes", "kind": "direct", "url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495297782", "date": "2026-11-26"},
+    {"claim": "Homepage: 'Real-time Multimodal Voice Agents'; TTS in 40+ languages, sub-100ms, Realtime SDK (Python/Node/React), integrations LiveKit/Twilio/Pipecat/Vapi, pricing + 'Start for free' + 'Contact sales'", "kind": "direct", "url": "https://orga-ai.com/", "date": "accessed 2026-11-27"},
+    {"claim": "LinkedIn: 'platform built for developers and product teams'; 11-50 employees, 18 listed; HQ Valencia; founded 2022; specialties incl. B2B and B2C", "kind": "direct", "url": "https://es.linkedin.com/company/orga-ai", "date": "accessed 2026-11-27"},
+    {"claim": "CEO Marc Revert post (reposted by company, ~Oct 2026): 'fundar Orga AI y levantar 2,5 millones de euros'", "kind": "direct", "url": "https://es.linkedin.com/company/orga-ai", "date": "2026-10"},
+    {"claim": "First round EUR 350K, Jan 2025, led by Julio Roldán (Cuidacasa founder), who became Co-CEO", "kind": "unverified", "url": "https://elreferente.es/inversiones/el-ceo-adolescente-de-16-anos-de-orga-ai-levanta-350-000-euros/", "date": "2025-01"},
+    {"claim": "buying_journey considered: developers pick a TTS/voice API through docs, free trial and comparison lists (self-serve), with sales for corporate deployments; the new GEO line sells to SMB/multi-site brands", "kind": "inferred", "url": "https://orga-ai.com/", "date": "accessed 2026-11-27"}
+  ],
+  "blog_signal": {
+    "impression": "no blog yet",
+    "reading": [
+      "/en/blog: 'Nothing published yet. The first notes are still in the works' (2026-11-27)",
+      "sitemap.xml: 36 URLs = ~6 pages (home, product, quick-start, pricing, demo, blog) x 6 locales (en, es, fr, de, pt, ja); no posts",
+      "blog_sample.py could not run: Vercel Security Checkpoint returned HTTP 429 to plain requests; read via Bright Data instead"
+    ],
+    "tool": "blog_sample.py orga-ai.com, 2026-11-27 (refused 429) + Bright Data read of /en/blog and /sitemap.xml"
+  },
+  "site_and_content": {
+    "cms": "Next.js on Vercel (/_next assets, Vercel Security Checkpoint)",
+    "dns_txt": "Google Workspace, Zendesk mail, Brevo, LinkedIn, Microsoft, Apple, two google-site-verification records (dns.google 2026-11-27); no HubSpot/Marketo",
+    "pages": "36 sitemap URLs across 6 locales; hreflang alternates present",
+    "comparison_pages": "none found",
+    "docs": "Quick start and API reference linked from homepage (not read)"
+  },
+  "seo_need": {
+    "rating": "high",
+    "buyer_research": "For its own product (TTS + realtime voice SDK for developers), buyers research heavily online: 'best TTS API 2026' and 'Vapi/ElevenLabs/Cartesia alternatives' queries are answered by vendor listicles (Deepgram, Smallest.ai, Inworld, Gradium, ElevenLabs, Telnyx) and dev.to/Hackernoon roundups. Orga AI appears in none of the results checked. But note: the open role is aimed at clients' brands, not at this need.",
+    "competitors": [
+      {"name": "ElevenLabs", "seo_investment": "high (blog with 'Vapi alternatives', 'ElevenLabs vs Vapi' pages)", "evidence_url": "https://elevenlabs.io/blog/vapi-alternatives"},
+      {"name": "Deepgram (Aura)", "seo_investment": "high ('Best text to speech APIs in 2026' guide, /learn hub)", "evidence_url": "https://deepgram.com/blog/best-text-to-speech-apis-2026"},
+      {"name": "Cartesia", "seo_investment": "medium-high (per-language landing pages e.g. native Spanish TTS)", "evidence_url": "https://www.cartesia.ai/languages/spanish?locale=es"},
+      {"name": "Smallest.ai", "seo_investment": "high ('Best TTS APIs for real-time voice agents' and localized listicles)", "evidence_url": "https://smallest.ai/blog/best-tts-apis-for-real-time-voice-agents"},
+      {"name": "Telnyx", "seo_investment": "high ('ElevenLabs alternative', 'Vapi alternative' resource pages)", "evidence_url": "https://telnyx.com/resources/elevenlabs-alternative"}
+    ],
+    "serp_checks": [
+      {"query": "best text to speech API for voice agents low latency Spanish 2026 (WebSearch, not Google via BD)", "top_results": ["deepgram.com best TTS APIs 2026", "hackernoon 8 best TTS APIs for voice agents", "assemblyai.com top TTS APIs", "inworld.ai best TTS APIs", "smallest.ai best TTS for real-time voice agents", "cartesia.ai native Spanish TTS", "gradium.ai best multilingual TTS APIs"], "date": "2026-11-27"},
+      {"query": "real-time voice agent platform SDK alternatives Vapi ElevenLabs Cartesia (WebSearch)", "top_results": ["elevenlabs.io Vapi alternatives", "getstream.io managed vs SDK voice AI", "dev.to best voice AI agent platforms 2026", "eweek best AI voice agent platforms", "telnyx.com vapi alternative", "cloudtalk.io Cartesia alternatives"], "date": "2026-11-27"}
+    ],
+    "cost_of_absence": "Developers choosing a Spanish/multilingual TTS or voice-agent stack get vendor-written 'best of' lists and alternatives pages from ElevenLabs, Deepgram, Cartesia, Smallest.ai and Telnyx; Orga AI, with no blog, no comparison pages and ~6 pages per locale, is absent from those lists and therefore from AI answers built on them.",
+    "why_not_yet": "founder_led: very small team focused on model/product; marketing via LinkedIn and events (AWS Summit, VDS, C-Meet). The new GEO hire is pointed at clients, not at this gap.",
+    "evidence": [
+      "orga-ai.com homepage, /en/blog, sitemap.xml via Bright Data 2026-11-27 (direct)",
+      "WebSearch SERPs 2026-11-27 (direct, results pages)",
+      "JD 2026-11-26 (direct)"
+    ]
+  },
+  "reply_odds": {
+    "rating": "low",
+    "why": "Own SEO need is real (empty blog, absent from category lists), but the hire is for a client GEO service line, so the audit pitch is off-target; the role is hybrid Valencia/Madrid with native Spanish required and already 62 applicants; no marketing leader to write to, only a teen CEO and a business Co-CEO at an ~18-person company. Can pay something (EUR 2.5M raised) and is growing."
+  },
+  "brightdata_requests": 5,
+  "moment_read": {
+    "stage": "hiring_seo",
+    "why_now": "They just posted a senior GEO/SEO role, but to sell GEO to clients; their own developer-platform site has no content yet while rivals own the category's 'best TTS API' lists.",
+    "signals": [
+      {"signal": "Senior GEO/SEO job post for a new client service line", "source": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495297782", "date": "2026-11-26"},
+      {"signal": "Blog index 'Nothing published yet'; 36-URL sitemap", "source": "https://orga-ai.com/en/blog", "date": "2026-11-27"},
+      {"signal": "Competitors (ElevenLabs, Deepgram, Smallest.ai, Telnyx) publish 'best TTS API' and 'alternatives' pages that rank", "source": "https://deepgram.com/blog/best-text-to-speech-apis-2026", "date": "2026-11-27"}
+    ],
+    "help_kind": "AI-search visibility for its own developer platform (content and comparison pages); the posted role is a different job (client GEO delivery)",
+    "confidence": "medium"
+  },
+  "features": {
+    "industry": "devtools",
+    "stage": "seed",
+    "situation": "early",
+    "size_band": "1_50",
+    "geo": "eu",
+    "marketing_gating": "seo_job_opening",
+    "trigger": "job_post",
+    "finding_pattern": "absent",
+    "recipient_role": "ceo",
+    "ask_track": "job_application",
+    "opener_type": "their_words",
+    "email_variant": "v4_two_images",
+    "subject_style": "how_ai_sees_x",
+    "send_slot": "sun_thu_morning_local",
+    "contact_verified": "no",
+    "buying_journey": "considered",
+    "seo_need": "high",
+    "remote_hiring": "office",
+    "moment": "hiring_seo"
+  },
+  "remote_hiring_evidence": {
+    "value": "office",
+    "evidence": "This JD: 'Híbrido en Valencia o Madrid'; Jun 2026 company post for CTO/CV/Full Stack/AI Solutions roles names no remote option; LinkedIn lists offices in Valencia, Palma, Barcelona, Paris. An old arc.dev marketing listing said 'Remote anywhere' (~2 years ago, unverified).",
+    "source": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495297782",
+    "date": "2026-11-26"
+  },
+  "contacts": [
+    {"name": "Julio M. Roldán Moreno", "role": "Co-CEO (business side; led first round; likely owner of the new GEO services line)", "email": null, "email_verified": false, "source": "Orga AI LinkedIn company page posts (Co-CEO mention, accessed 2026-11-27); elreferente.es Jan 2025", "recipient_rank": 1},
+    {"name": "Marc Revert", "role": "Co-founder and CEO", "email": null, "email_verified": false, "source": "Orga AI LinkedIn company page (C-Meet 2026 repost, accessed 2026-11-27)", "recipient_rank": 2}
+  ],
+  "outreach_angle": {
+    "hook": "The JD asks for 'un caso real en una página': a one-page read of how ChatGPT/Gemini describe Orga AI itself (absent from 'best TTS API' lists that Deepgram, ElevenLabs and Smallest.ai write) as the candidate's case and proof of method.",
+    "source": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495297782",
+    "date": "2026-11-26"
+  },
+  "sources": [
+    {"url": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4495297782", "date": "2026-11-27", "kind": "direct", "result": "full JD (Spanish), '1 day ago', 62 applicants, Mid-Senior, Research Services"},
+    {"url": "jobs.py check-open (LinkedIn post; no company board)", "date": "2026-11-27", "kind": "direct", "result": "state open, checked 2026-11-27T17:25:05+00:00"},
+    {"url": "https://orga-ai.com/", "date": "accessed 2026-11-27", "kind": "direct", "result": "plain fetch: Vercel Security Checkpoint 429; via Bright Data: full homepage (voice agents, TTS, SDK, pricing)"},
+    {"url": "https://orga-ai.com/en/blog", "date": "accessed 2026-11-27", "kind": "direct", "result": "via Bright Data: 'Nothing published yet'"},
+    {"url": "https://orga-ai.com/sitemap.xml", "date": "accessed 2026-11-27", "kind": "direct", "result": "via Bright Data: 36 URLs, 6 locales, no posts"},
+    {"url": "https://es.linkedin.com/company/orga-ai", "date": "accessed 2026-11-27", "kind": "direct", "result": "via Bright Data: about, 18 employees, HQ Valencia, founded 2022, posts (EUR 2.5M raised, AWS Summit Jun 2026, VDS Oct 2026, Co-CEO Roldán)"},
+    {"url": "https://dns.google/resolve?name=orga-ai.com&type=TXT", "date": "2026-11-27", "kind": "direct", "result": "Google Workspace, Zendesk, Brevo, LinkedIn, MS, Apple verifications"},
+    {"url": "https://elreferente.es/inversiones/el-ceo-adolescente-de-16-anos-de-orga-ai-levanta-350-000-euros/", "date": "2025-01", "kind": "unverified", "result": "403 on fetch; WebSearch summary: EUR 350K round led by Julio Roldán"},
+    {"url": "https://www.vcbacked.co/company/orga-ai", "date": "accessed 2026-11-27", "kind": "unverified", "result": "WebSearch snippet: $2.9M total funding (aggregator; fundediq says $3.4M, prospeo $451.5K)"},
+    {"url": "https://arc.dev/remote-jobs/j/orga-ai-jefe-de-marketing-lxilhotmj3", "date": "~2024", "kind": "unverified", "result": "old Marketing Manager listing, remote anywhere, reports-to not stated"},
+    {"url": "https://deepgram.com/blog/best-text-to-speech-apis-2026", "date": "accessed 2026-11-27", "kind": "direct", "result": "competitor listicle ranking for category query (WebSearch result)"}
+  ],
+  "sources_tried_failed": [
+    "orga-ai.com, robots.txt, sitemap.xml by plain HTTPS: HTTP 429 Vercel Security Checkpoint (2026-11-27); blog_sample.py failed for the same reason",
+    "elreferente.es articles: HTTP 403 via WebFetch (2026-11-27)",
+    "Google site:linkedin.com/in \"Orga AI\" marketing via Bright Data: unrelated results (name collisions), no Orga AI marketing person found"
+  ],
+  "linkedin_checks_for_sponsor": [
+    "Orga AI People tab: is there anyone in marketing/growth now, and who runs the new GEO line (Roldán?)",
+    "Whether the role would accept a non-Spain-based candidate despite 'híbrido Valencia o Madrid'"
+  ],
+  "open_questions": [
+    "Is the GEO line serving Roldán's own businesses (Cuidacasa group) or outside clients?",
+    "Does 'proyectos internos y propios de Orga AI' include Orga's own site visibility?",
+    "Actual funding: EUR 2.5M (CEO post) vs aggregator figures; does it include grants?"
+  ]
+}
