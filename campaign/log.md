@@ -228,3 +228,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-27T18:25Z sponsor: Haystack's 'Growth Marketing Manager' (LinkedIn 4495059676) is Chainguard's Sr. Growth Marketing Manager, AI Discovery via a recruiter; 'very much priority'. Re-confirmed open on Greenhouse 18:21Z (open_checked updated). Chainguard stays queued (queue_rank 5) pending his call on moving it up; Haystack classed recruiter.
 - 2026-11-27T18:40Z sponsor shared a feed post: Julius 2 Grow (LATAM recruiter) SEO Analyst, 100% remote, for an unnamed growth agency; added to his tracker as apply. Not an add-vee prospect (agency client unnamed).
 - 2026-11-28T05:05:54Z campaign resumed after the weekly usage reset; hourly tick re-enabled; Kraken started (session_01FkmvpNMeUwTAideq4AKXwo).
+- 2026-11-28T05:06:09Z told the Kraken session to aim outreach at 'Head of Organic Growth, Kraken Pro' (LATAM remote, from the 11-27 job list) instead of the specialist role.
