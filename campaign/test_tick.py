@@ -224,3 +224,16 @@ def test_queue_rank_orders_approved_and_queued_together(tmp_path, monkeypatch):
     assert [(x["do"], x["slug"]) for x in tick.plan(state, {}, now)] == [("start", "remote")]
     state["prospects"][1]["status"] = "done"; state["prospects"][2]["queue_rank"] = 5
     assert [(x["do"], x["slug"]) for x in tick.plan(state, {}, now)] == [("release_gate", "held")]
+
+
+def test_no_new_start_while_two_gates_wait(tmp_path, monkeypatch):
+    import datetime as dt
+    import tick
+    monkeypatch.setattr(tick, "ROOT", tmp_path)
+    (tmp_path / "companies").mkdir()
+    state = {"settings": {"max_concurrent_running": 1, "one_at_a_time": True}, "prospects": [
+        {"slug": "a", "company": "A", "status": "waiting_gate", "session_id": "sa"},
+        {"slug": "b", "company": "B", "status": "waiting_gate", "session_id": "sb"},
+        {"slug": "c", "company": "C", "status": "queued", "queue_rank": 1, "domain": "c.com"}]}
+    now = dt.datetime(2026, 11, 28, 8, tzinfo=dt.timezone.utc)
+    assert not [x for x in tick.plan(state, {}, now) if x["do"] == "start"]

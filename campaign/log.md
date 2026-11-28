@@ -3,6 +3,8 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-28T07:33:45+00:00 mark cosuno waiting_gate
+- 2026-11-28T07:33:45+00:00 notify cosuno gate
 - 2026-11-28T06:33:28+00:00 mark kraken waiting_gate
 - 2026-11-28T06:33:28+00:00 notify kraken gate
 - 2026-11-28T06:33:28+00:00 start cosuno
@@ -232,3 +234,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-27T18:40Z sponsor shared a feed post: Julius 2 Grow (LATAM recruiter) SEO Analyst, 100% remote, for an unnamed growth agency; added to his tracker as apply. Not an add-vee prospect (agency client unnamed).
 - 2026-11-28T05:05:54Z campaign resumed after the weekly usage reset; hourly tick re-enabled; Kraken started (session_01FkmvpNMeUwTAideq4AKXwo).
 - 2026-11-28T05:06:09Z told the Kraken session to aim outreach at 'Head of Organic Growth, Kraken Pro' (LATAM remote, from the 11-27 job list) instead of the specialist role.
+- 2026-11-28T07:33:45Z tick.py: at most 2 companies wait at Gate 1-2; no new Loop A until the sponsor answers (manager's judgment, usage). Test added, 18 pass.

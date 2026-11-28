@@ -1048,7 +1048,7 @@
       "slug": "cosuno",
       "company": "Cosuno",
       "domain": "cosuno.com",
-      "status": "starting",
+      "status": "waiting_gate",
       "b2b": true,
       "reason": "Berlin construction-tendering platform (Series B, ~$23M ARR est.) hires its first organic owner to 'make Cosuno impossible to overlook ... from Google and AI assistants', timed with a website relaunch whose SEO migration the hire owns. The 72-post German blog isn't in the sitemap at all (sitemap = 4 static pages + 6,286 marketplace tenders): a sharp, citable migration risk.",
       "gating_rating": "seo_job_opening",
@@ -1092,7 +1092,9 @@
       "session_id": "session_01FkmvpPQAK56JPnyLgZfjjT",
       "started_at": "2026-11-28T06:33:28+00:00",
       "nudges": 0,
-      "notified": {}
+      "notified": {
+        "gate": "2026-11-28T07:33:45+00:00"
+      }
     },
     {
       "slug": "paddle",
@@ -1918,7 +1920,7 @@
     "usage_hold": "Sponsor, 2026-11-25: \"see if cognism makes it and after hold until usage renews\". Cognism finishes; then no gate release and no new start until the 7-day usage limit resets (2026-11-28 05:00 UTC). Daily mail check, follow-ups and jobs scout continue.",
     "scheduled_sending": "sponsor 2026-11-26: the manager may send drafts the sponsor has seen, at the times in send_queue, via send_message with draftId. Before each send: no reply in the thread, the draft still exists, and for an email 1 the sponsor has given a verified address. Never change an address on its own."
   },
-  "last_tick": "2026-11-28T06:33:28+00:00",
+  "last_tick": "2026-11-28T07:33:45+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",

@@ -159,6 +159,12 @@ def plan(state, sessions, now):
     hold = state["settings"].get("hold_new_work_until")
     if hold and now < parse(hold):
         return actions  # sponsor, 2026-11-25: weekly usage limit; release and start nothing until it renews
+    # Manager's judgment, 2026-11-28: one audit at a time also means not piling up finished Loop As while the sponsor
+    # hasn't answered their gates (each costs real usage). At most MAX_WAITING_GATES may wait; then nothing new starts.
+    marked = {a["slug"] for a in actions if a.get("do") == "mark" and a.get("status") == "waiting_gate"}
+    waiting_gates = sum(1 for p in state["prospects"] if p.get("status") == "waiting_gate" or p["slug"] in marked)
+    if waiting_gates >= state["settings"].get("max_waiting_gates", 2):
+        return actions
     # Sponsor, 2026-11-26: one queue, one order. Every waiting company (gate-approved or not yet started) carries a
     # queue_rank set by the sponsor's priority: most likely to hire the sponsor remotely first. The lowest rank goes
     # next: a gate-approved one is released (the manager writes its approval file), a queued one is started.
