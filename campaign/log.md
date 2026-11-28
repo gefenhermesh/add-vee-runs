@@ -3,6 +3,9 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-28T06:33:28+00:00 mark kraken waiting_gate
+- 2026-11-28T06:33:28+00:00 notify kraken gate
+- 2026-11-28T06:33:28+00:00 start cosuno
 - 2026-11-28T05:05:54+00:00 start kraken
 - 2026-11-25T23:33:34+00:00 mark cognism done
 - 2026-11-25T23:33:34+00:00 draft cognism

@@ -1,6 +1,6 @@
 {
-  "stage": "loop_a",
-  "ts": "2026-11-28T05:06:10Z",
-  "note": "Loop A started: researcher on kraken.com (track seo_job)",
+  "stage": "waiting_gate_1_2",
+  "ts": "2026-11-28T05:58:19Z",
+  "note": "Loop A approved (round 2 + exact patch); Gate 1-2 presented; scope artifact https://claude.ai/artifact/4nGf4STZrRMrykZL4VfB6f",
   "branch": "campaign/kraken"
 }
