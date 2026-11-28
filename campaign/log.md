@@ -3,6 +3,7 @@
 The manager appends one line per tick. Cohort learning notes go under "## Cohorts".
 
 ## Ticks
+- 2026-11-28T05:05:54+00:00 start kraken
 - 2026-11-25T23:33:34+00:00 mark cognism done
 - 2026-11-25T23:33:34+00:00 draft cognism
 - 2026-11-25T23:33:34+00:00 notify cognism done
@@ -226,3 +227,4 @@ Queue: 400 longlist + 36 hand leads added or merged.
 - 2026-11-27T12:22:31Z sponsor: 'send paddle'. Paddle email 1 sent to piers.garthwaite@paddle.com (msg 1a21cf4c9b8d5ed5, thread 1a21ae6d9d60aa05); tracked (paddle/1), learn.py add; scheduled trigger disabled.
 - 2026-11-27T18:25Z sponsor: Haystack's 'Growth Marketing Manager' (LinkedIn 4495059676) is Chainguard's Sr. Growth Marketing Manager, AI Discovery via a recruiter; 'very much priority'. Re-confirmed open on Greenhouse 18:21Z (open_checked updated). Chainguard stays queued (queue_rank 5) pending his call on moving it up; Haystack classed recruiter.
 - 2026-11-27T18:40Z sponsor shared a feed post: Julius 2 Grow (LATAM recruiter) SEO Analyst, 100% remote, for an unnamed growth agency; added to his tracker as apply. Not an add-vee prospect (agency client unnamed).
+- 2026-11-28T05:05:54Z campaign resumed after the weekly usage reset; hourly tick re-enabled; Kraken started (session_01FkmvpNMeUwTAideq4AKXwo).

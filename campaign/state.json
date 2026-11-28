@@ -5,11 +5,10 @@
     "weekly_target_companies": 5,
     "plan": "claude max (sponsor, 2026-11-19)",
     "brightdata_paused": false,
-    "campaign_paused": true,
+    "campaign_paused": false,
     "one_at_a_time": true,
-    "hold_new_work_until": "2026-11-28T05:00:00Z",
     "queue_rule": "sponsor 2026-11-26: one queue ranked by how likely the company is to hire the sponsor remotely (remote anywhere/LATAM > fully remote > US remote > hybrid small > office/on-site); queue_rank in each prospect, gate-approved or not",
-    "paused_note": "sponsor 2026-11-26 19:20Z: pause until the weekly usage reset (2026-11-28 05:00 UTC). Hourly tick disabled; one-shot resume at 05:05Z. Scheduled sends in send_queue still fire."
+    "paused_note": "resumed 2026-11-28 05:05Z after the weekly usage reset"
   },
   "prospects": [
     {
@@ -1743,7 +1742,7 @@
       "slug": "kraken",
       "company": "Kraken",
       "domain": "kraken.com",
-      "status": "queued",
+      "status": "starting",
       "b2b": false,
       "reason": "Kraken (Payward), one of the oldest and largest crypto exchanges (10M+ clients), is hiring a remote SEO/AEO operations specialist into its Consumer SEO & AEO team, open to LATAM and Europe. The sponsor wants to apply and asked for the audit first, as how he'd start.",
       "gating_rating": "seo_job_opening",
@@ -1787,7 +1786,11 @@
       "priority": 1,
       "queued_at": "2026-11-26T15:20:00+00:00",
       "release_note": "sponsor 2026-11-26: urgent; wait for the usage reset (2026-11-28 05:00 UTC), then first in line",
-      "queue_rank": 1
+      "queue_rank": 1,
+      "session_id": "session_01FkmvpNMeUwTAideq4AKXwo",
+      "started_at": "2026-11-28T05:05:54+00:00",
+      "nudges": 0,
+      "notified": {}
     },
     {
       "slug": "telnyx",
@@ -1909,7 +1912,7 @@
     "usage_hold": "Sponsor, 2026-11-25: \"see if cognism makes it and after hold until usage renews\". Cognism finishes; then no gate release and no new start until the 7-day usage limit resets (2026-11-28 05:00 UTC). Daily mail check, follow-ups and jobs scout continue.",
     "scheduled_sending": "sponsor 2026-11-26: the manager may send drafts the sponsor has seen, at the times in send_queue, via send_message with draftId. Before each send: no reply in the thread, the draft still exists, and for an email 1 the sponsor has given a verified address. Never change an address on its own."
   },
-  "last_tick": "2026-11-25T23:33:34+00:00",
+  "last_tick": "2026-11-28T05:05:54+00:00",
   "manager": {
     "session_id": "session_01FkmvpLcuCN59ctDmE7xHax",
     "trigger_id": "trig_01SgYw1mCwWPzdu79SqKqafZ",
